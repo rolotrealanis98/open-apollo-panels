@@ -1,0 +1,7075 @@
+{
+ "schema": 2,
+ "effectName": "UAD Chandler Limited Zener Limiter",
+ "namePattern": "Chandler Limited Zener Limiter",
+ "size": {
+  "w": 1160,
+  "h": 398
+ },
+ "background": null,
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Link Channels",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "In Left/Mid",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 2,
+   "name": "In Right/Side",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 3,
+   "name": "Mid/Side Processing",
+   "steps": [
+    "Left/Rig",
+    "Mid/Side"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "L Input Gain",
+   "steps": [
+    "Low",
+    "High"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 5,
+   "name": "L THD",
+   "steps": [
+    "Limit",
+    "THD"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "L Input",
+   "steps": [
+    "1",
+    "1.5",
+    "2",
+    "2.5",
+    "3",
+    "3.5",
+    "4",
+    "THD",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "0.04 %",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "2 %",
+    "11"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "L Attack",
+   "steps": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11"
+   ],
+   "default": 0.1000000014901161
+  },
+  {
+   "index": 8,
+   "name": "L Output",
+   "steps": [
+    "-10 dB",
+    "-9 dB",
+    "-8 dB",
+    "-7 dB",
+    "-6 dB",
+    "-5 dB",
+    "-4 dB",
+    "-3 dB",
+    "-2 dB",
+    "-1 dB",
+    "0 dB",
+    "+1 dB",
+    "+2 dB",
+    "+3 dB",
+    "+4 dB",
+    "+5 dB",
+    "+6 dB",
+    "+7 dB",
+    "+8 dB",
+    "+9 dB",
+    "+10 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 9,
+   "name": "L Compressor Mode",
+   "steps": [
+    "Comp 1",
+    "Comp 2",
+    "Limit"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 10,
+   "name": "L Side Chain",
+   "steps": [
+    "Out",
+    "30 Hz",
+    "50 Hz",
+    "90 Hz",
+    "150 Hz",
+    "300 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "L Release",
+   "steps": [
+    "1",
+    "2",
+    "(1)",
+    "4",
+    "5",
+    "(2)",
+    "7",
+    "8",
+    "9",
+    "(3)",
+    "11",
+    "12",
+    "13",
+    "14",
+    "(4)",
+    "16",
+    "17",
+    "(5)",
+    "19",
+    "20",
+    "(6)"
+   ],
+   "default": 0.1000000014901161
+  },
+  {
+   "index": 12,
+   "name": "R Input Gain",
+   "steps": [
+    "Low",
+    "High"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 13,
+   "name": "R THD",
+   "steps": [
+    "Limit",
+    "THD"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 14,
+   "name": "R Input",
+   "steps": [
+    "1",
+    "1.5",
+    "2",
+    "2.5",
+    "3",
+    "3.5",
+    "4",
+    "THD",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "0.04 %",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "2 %",
+    "11"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 15,
+   "name": "R Attack",
+   "steps": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11"
+   ],
+   "default": 0.1000000014901161
+  },
+  {
+   "index": 16,
+   "name": "R Output",
+   "steps": [
+    "-10 dB",
+    "-9 dB",
+    "-8 dB",
+    "-7 dB",
+    "-6 dB",
+    "-5 dB",
+    "-4 dB",
+    "-3 dB",
+    "-2 dB",
+    "-1 dB",
+    "0 dB",
+    "+1 dB",
+    "+2 dB",
+    "+3 dB",
+    "+4 dB",
+    "+5 dB",
+    "+6 dB",
+    "+7 dB",
+    "+8 dB",
+    "+9 dB",
+    "+10 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 17,
+   "name": "R Compressor Mode",
+   "steps": [
+    "Comp 1",
+    "Comp 2",
+    "Limit"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 18,
+   "name": "R Side Chain",
+   "steps": [
+    "Out",
+    "30 Hz",
+    "50 Hz",
+    "90 Hz",
+    "150 Hz",
+    "300 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 19,
+   "name": "R Release",
+   "steps": [
+    "1",
+    "2",
+    "(1)",
+    "4",
+    "5",
+    "(2)",
+    "7",
+    "8",
+    "9",
+    "(3)",
+    "11",
+    "12",
+    "13",
+    "14",
+    "(4)",
+    "16",
+    "17",
+    "(5)",
+    "19",
+    "20",
+    "(6)"
+   ],
+   "default": 0.1000000014901161
+  },
+  {
+   "index": 20,
+   "name": "Mode",
+   "steps": [
+    "Bypass",
+    "Active"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "needle0": {
+   "vendorSpecificFloat": 134217729,
+   "opcode": {
+    "op": 519,
+    "p0": 134217729,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "needle1": {
+   "vendorSpecificFloat": 134217730,
+   "opcode": {
+    "op": 519,
+    "p0": 134217730,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  }
+ },
+ "elements": [
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 1160,
+   "h": 24,
+   "toolbar": {
+    "family": "softube",
+    "items": [
+     {
+      "type": "switch",
+      "x": 978.0,
+      "y": 6.0,
+      "w": 30,
+      "h": 12,
+      "param": 20,
+      "sprite": "chrome.softube.toggle",
+      "frames": 2,
+      "glyph": "power"
+     },
+     {
+      "type": "gear",
+      "x": 1048.0,
+      "y": 6.5,
+      "w": 11.0,
+      "h": 11.5,
+      "color": "#E5E5E5"
+     },
+     {
+      "type": "rect",
+      "x": 1070.0,
+      "y": 0,
+      "w": 90.0,
+      "h": 24,
+      "color": "#019C74"
+     },
+     {
+      "type": "icon",
+      "x": 1086.0,
+      "y": 6.5,
+      "w": 58.0,
+      "h": 11.0,
+      "sprite": "chrome.softube.logo",
+      "frames": 1,
+      "glyph": "Softube",
+      "color": "#E5F5F0"
+     }
+    ]
+   }
+  },
+  {
+   "id": "panel-background",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 1160,
+   "h": 374,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1000"
+  },
+  {
+   "id": "needle-0",
+   "kind": "filmstrip",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "needle0"
+   },
+   "x": 253,
+   "y": 94,
+   "w": 70,
+   "h": 93,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_needle-0"
+  },
+  {
+   "id": "needle-1",
+   "kind": "filmstrip",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "needle1"
+   },
+   "x": 835,
+   "y": 93,
+   "w": 73,
+   "h": 94,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_needle-1"
+  },
+  {
+   "id": "image-1018-2",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 1160,
+   "h": 374,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1018"
+  },
+  {
+   "id": "switch-0-1004",
+   "kind": "switch",
+   "x": 580,
+   "y": 239,
+   "w": 54,
+   "h": 54.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1004",
+   "frames": 2,
+   "param": 0
+  },
+  {
+   "id": "switch-1-1008",
+   "kind": "switch",
+   "x": 525,
+   "y": 184,
+   "w": 54,
+   "h": 54.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1008",
+   "frames": 2,
+   "param": 1
+  },
+  {
+   "id": "switch-2-1021",
+   "kind": "switch",
+   "x": 580,
+   "y": 184,
+   "w": 54,
+   "h": 54.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1021",
+   "frames": 2,
+   "param": 2,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-2-1021-linked",
+   "kind": "switch",
+   "x": 580,
+   "y": 184,
+   "w": 54,
+   "h": 54.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1021",
+   "frames": 2,
+   "param": 1,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-3-1016",
+   "kind": "switch",
+   "x": 525,
+   "y": 239,
+   "w": 54,
+   "h": 54.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1016",
+   "frames": 2,
+   "param": 3
+  },
+  {
+   "id": "switch-4-1010",
+   "kind": "switch",
+   "x": 120,
+   "y": 96,
+   "w": 37,
+   "h": 70.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1010",
+   "frames": 2,
+   "param": 4
+  },
+  {
+   "id": "switch-5-1015",
+   "kind": "switch",
+   "x": 418,
+   "y": 96,
+   "w": 39,
+   "h": 70.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1015",
+   "frames": 2,
+   "param": 5
+  },
+  {
+   "id": "knob-6-1009",
+   "kind": "knob",
+   "x": 91,
+   "y": 166,
+   "w": 94,
+   "h": 105.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1009",
+   "frames": 21,
+   "param": 6
+  },
+  {
+   "id": "knob-7-1006",
+   "kind": "knob",
+   "x": 390,
+   "y": 166,
+   "w": 94,
+   "h": 105.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1006",
+   "frames": 11,
+   "param": 7
+  },
+  {
+   "id": "knob-8-1012",
+   "kind": "knob",
+   "x": 91,
+   "y": 274,
+   "w": 94,
+   "h": 105.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1012",
+   "frames": 21,
+   "param": 8
+  },
+  {
+   "id": "switch-9-1007",
+   "kind": "switch",
+   "x": 190,
+   "y": 274,
+   "w": 94,
+   "h": 105.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1007",
+   "frames": 3,
+   "param": 9
+  },
+  {
+   "id": "knob-10-1014",
+   "kind": "knob",
+   "x": 290,
+   "y": 274,
+   "w": 94,
+   "h": 105.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1014",
+   "frames": 6,
+   "param": 10
+  },
+  {
+   "id": "knob-11-1013",
+   "kind": "knob",
+   "x": 390,
+   "y": 274,
+   "w": 94,
+   "h": 105.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1013",
+   "frames": 21,
+   "param": 11
+  },
+  {
+   "id": "switch-12-1023",
+   "kind": "switch",
+   "x": 703,
+   "y": 96,
+   "w": 39,
+   "h": 70.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1023",
+   "frames": 2,
+   "param": 12,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-12-1023-linked",
+   "kind": "switch",
+   "x": 703,
+   "y": 96,
+   "w": 39,
+   "h": 70.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1023",
+   "frames": 2,
+   "param": 4,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-13-1028",
+   "kind": "switch",
+   "x": 1001,
+   "y": 96,
+   "w": 39,
+   "h": 70.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1028",
+   "frames": 2,
+   "param": 13,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-13-1028-linked",
+   "kind": "switch",
+   "x": 1001,
+   "y": 96,
+   "w": 39,
+   "h": 70.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1028",
+   "frames": 2,
+   "param": 5,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-14-1022",
+   "kind": "knob",
+   "x": 675,
+   "y": 166,
+   "w": 94,
+   "h": 105.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1022",
+   "frames": 21,
+   "param": 14,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-14-1022-linked",
+   "kind": "knob",
+   "x": 675,
+   "y": 166,
+   "w": 94,
+   "h": 105.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1022",
+   "frames": 21,
+   "param": 6,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-15-1019",
+   "kind": "knob",
+   "x": 974,
+   "y": 166,
+   "w": 94,
+   "h": 105.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1019",
+   "frames": 11,
+   "param": 15,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-15-1019-linked",
+   "kind": "knob",
+   "x": 974,
+   "y": 166,
+   "w": 94,
+   "h": 105.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1019",
+   "frames": 11,
+   "param": 7,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-16-1025",
+   "kind": "knob",
+   "x": 675,
+   "y": 274,
+   "w": 94,
+   "h": 105.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1025",
+   "frames": 21,
+   "param": 16,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-16-1025-linked",
+   "kind": "knob",
+   "x": 675,
+   "y": 274,
+   "w": 94,
+   "h": 105.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1025",
+   "frames": 21,
+   "param": 8,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-17-1020",
+   "kind": "switch",
+   "x": 774,
+   "y": 274,
+   "w": 94,
+   "h": 105.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1020",
+   "frames": 3,
+   "param": 17,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-17-1020-linked",
+   "kind": "switch",
+   "x": 774,
+   "y": 274,
+   "w": 94,
+   "h": 105.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1020",
+   "frames": 3,
+   "param": 9,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-18-1027",
+   "kind": "knob",
+   "x": 874,
+   "y": 274,
+   "w": 94,
+   "h": 105.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1027",
+   "frames": 6,
+   "param": 18,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-18-1027-linked",
+   "kind": "knob",
+   "x": 874,
+   "y": 274,
+   "w": 94,
+   "h": 105.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1027",
+   "frames": 6,
+   "param": 10,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-19-1026",
+   "kind": "knob",
+   "x": 974,
+   "y": 274,
+   "w": 94,
+   "h": 105.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1026",
+   "frames": 21,
+   "param": 19,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-19-1026-linked",
+   "kind": "knob",
+   "x": 974,
+   "y": 274,
+   "w": 94,
+   "h": 105.0,
+   "sprite": "STB_Chandler_Limited_Zener_Limiter_1026",
+   "frames": 21,
+   "param": 11,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-0-0",
+   "kind": "zone",
+   "x": 586,
+   "y": 283,
+   "w": 42,
+   "h": 25,
+   "action": {
+    "type": "toggle",
+    "param": 0
+   }
+  },
+  {
+   "id": "zone-1-1",
+   "kind": "zone",
+   "x": 530,
+   "y": 228,
+   "w": 47,
+   "h": 15,
+   "action": {
+    "type": "toggle",
+    "param": 1
+   }
+  },
+  {
+   "id": "zone-2-2",
+   "kind": "zone",
+   "x": 578,
+   "y": 228,
+   "w": 56,
+   "h": 15,
+   "action": {
+    "type": "toggle",
+    "param": 2
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-2-linked",
+   "kind": "zone",
+   "x": 578,
+   "y": 228,
+   "w": 56,
+   "h": 15,
+   "action": {
+    "type": "toggle",
+    "param": 1
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-3",
+   "kind": "zone",
+   "x": 529,
+   "y": 283,
+   "w": 49,
+   "h": 25,
+   "action": {
+    "type": "toggle",
+    "param": 3
+   }
+  },
+  {
+   "id": "zone-4-4",
+   "kind": "zone",
+   "x": 113,
+   "y": 76,
+   "w": 50,
+   "h": 14,
+   "action": {
+    "type": "toggle",
+    "param": 4
+   }
+  },
+  {
+   "id": "zone-4-5",
+   "kind": "zone",
+   "x": 126,
+   "y": 90,
+   "w": 25,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-4-6",
+   "kind": "zone",
+   "x": 127,
+   "y": 136,
+   "w": 23,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-5-7",
+   "kind": "zone",
+   "x": 426,
+   "y": 90,
+   "w": 21,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-5-8",
+   "kind": "zone",
+   "x": 424,
+   "y": 136,
+   "w": 26,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-6-9",
+   "kind": "zone",
+   "x": 122,
+   "y": 250,
+   "w": 32,
+   "h": 13,
+   "action": {
+    "type": "toggle",
+    "param": 6
+   }
+  },
+  {
+   "id": "zone-6-10",
+   "kind": "zone",
+   "x": 111,
+   "y": 238,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-6-11",
+   "kind": "zone",
+   "x": 95,
+   "y": 221,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "zone-6-12",
+   "kind": "zone",
+   "x": 91,
+   "y": 201,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "zone-6-13",
+   "kind": "zone",
+   "x": 95,
+   "y": 182,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "zone-6-14",
+   "kind": "zone",
+   "x": 87,
+   "y": 170,
+   "w": 22,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.35
+   }
+  },
+  {
+   "id": "zone-6-15",
+   "kind": "zone",
+   "x": 110,
+   "y": 165,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "zone-6-16",
+   "kind": "zone",
+   "x": 131,
+   "y": 160,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "zone-6-17",
+   "kind": "zone",
+   "x": 151,
+   "y": 165,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "zone-6-18",
+   "kind": "zone",
+   "x": 166,
+   "y": 170,
+   "w": 25,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.65
+   }
+  },
+  {
+   "id": "zone-6-19",
+   "kind": "zone",
+   "x": 166,
+   "y": 182,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "zone-6-20",
+   "kind": "zone",
+   "x": 171,
+   "y": 201,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "zone-6-21",
+   "kind": "zone",
+   "x": 166,
+   "y": 221,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "zone-6-22",
+   "kind": "zone",
+   "x": 166,
+   "y": 238,
+   "w": 17,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.95
+   }
+  },
+  {
+   "id": "zone-6-23",
+   "kind": "zone",
+   "x": 150,
+   "y": 238,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-7-24",
+   "kind": "zone",
+   "x": 421,
+   "y": 250,
+   "w": 32,
+   "h": 13,
+   "action": {
+    "type": "toggle",
+    "param": 7
+   }
+  },
+  {
+   "id": "zone-7-25",
+   "kind": "zone",
+   "x": 409,
+   "y": 238,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-7-26",
+   "kind": "zone",
+   "x": 393,
+   "y": 221,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "zone-7-27",
+   "kind": "zone",
+   "x": 389,
+   "y": 201,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "zone-7-28",
+   "kind": "zone",
+   "x": 393,
+   "y": 182,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "zone-7-29",
+   "kind": "zone",
+   "x": 408,
+   "y": 165,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "zone-7-30",
+   "kind": "zone",
+   "x": 430,
+   "y": 160,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "zone-7-31",
+   "kind": "zone",
+   "x": 450,
+   "y": 165,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "zone-7-32",
+   "kind": "zone",
+   "x": 463,
+   "y": 182,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "zone-7-33",
+   "kind": "zone",
+   "x": 469,
+   "y": 201,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "zone-7-34",
+   "kind": "zone",
+   "x": 466,
+   "y": 221,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "zone-7-35",
+   "kind": "zone",
+   "x": 449,
+   "y": 238,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-8-36",
+   "kind": "zone",
+   "x": 122,
+   "y": 356,
+   "w": 33,
+   "h": 13,
+   "action": {
+    "type": "toggle",
+    "param": 8
+   }
+  },
+  {
+   "id": "zone-8-37",
+   "kind": "zone",
+   "x": 109,
+   "y": 343,
+   "w": 17,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-8-38",
+   "kind": "zone",
+   "x": 96,
+   "y": 328,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "zone-8-39",
+   "kind": "zone",
+   "x": 91,
+   "y": 308,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "zone-8-40",
+   "kind": "zone",
+   "x": 96,
+   "y": 288,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "zone-8-41",
+   "kind": "zone",
+   "x": 110,
+   "y": 274,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "zone-8-42",
+   "kind": "zone",
+   "x": 131,
+   "y": 268,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "zone-8-43",
+   "kind": "zone",
+   "x": 152,
+   "y": 274,
+   "w": 15,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "zone-8-44",
+   "kind": "zone",
+   "x": 166,
+   "y": 288,
+   "w": 15,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "zone-8-45",
+   "kind": "zone",
+   "x": 171,
+   "y": 308,
+   "w": 15,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "zone-8-46",
+   "kind": "zone",
+   "x": 165,
+   "y": 328,
+   "w": 15,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "zone-8-47",
+   "kind": "zone",
+   "x": 149,
+   "y": 343,
+   "w": 19,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-9-48",
+   "kind": "zone",
+   "x": 189,
+   "y": 270,
+   "w": 33,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-9-49",
+   "kind": "zone",
+   "x": 221,
+   "y": 264,
+   "w": 33,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "zone-9-50",
+   "kind": "zone",
+   "x": 255,
+   "y": 270,
+   "w": 24,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-10-51",
+   "kind": "zone",
+   "x": 314,
+   "y": 356,
+   "w": 47,
+   "h": 13,
+   "action": {
+    "type": "toggle",
+    "param": 10
+   }
+  },
+  {
+   "id": "zone-10-52",
+   "kind": "zone",
+   "x": 284,
+   "y": 298,
+   "w": 23,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-10-53",
+   "kind": "zone",
+   "x": 298,
+   "y": 278,
+   "w": 17,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "zone-10-54",
+   "kind": "zone",
+   "x": 318,
+   "y": 268,
+   "w": 17,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "zone-10-55",
+   "kind": "zone",
+   "x": 338,
+   "y": 268,
+   "w": 17,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "zone-10-56",
+   "kind": "zone",
+   "x": 357,
+   "y": 278,
+   "w": 23,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "zone-10-57",
+   "kind": "zone",
+   "x": 367,
+   "y": 298,
+   "w": 23,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-11-58",
+   "kind": "zone",
+   "x": 419,
+   "y": 357,
+   "w": 36,
+   "h": 13,
+   "action": {
+    "type": "toggle",
+    "param": 11
+   }
+  },
+  {
+   "id": "zone-11-59",
+   "kind": "zone",
+   "x": 411,
+   "y": 347,
+   "w": 12,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-11-60",
+   "kind": "zone",
+   "x": 402,
+   "y": 339,
+   "w": 12,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.05
+   }
+  },
+  {
+   "id": "zone-11-61",
+   "kind": "zone",
+   "x": 393,
+   "y": 329,
+   "w": 14,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "zone-11-62",
+   "kind": "zone",
+   "x": 392,
+   "y": 320,
+   "w": 12,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.15
+   }
+  },
+  {
+   "id": "zone-11-63",
+   "kind": "zone",
+   "x": 391,
+   "y": 310,
+   "w": 12,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "zone-11-64",
+   "kind": "zone",
+   "x": 389,
+   "y": 300,
+   "w": 14,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "zone-11-65",
+   "kind": "zone",
+   "x": 397,
+   "y": 291,
+   "w": 9,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "zone-11-66",
+   "kind": "zone",
+   "x": 404,
+   "y": 281,
+   "w": 9,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.35
+   }
+  },
+  {
+   "id": "zone-11-67",
+   "kind": "zone",
+   "x": 412,
+   "y": 274,
+   "w": 8,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "zone-11-68",
+   "kind": "zone",
+   "x": 419,
+   "y": 270,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.45
+   }
+  },
+  {
+   "id": "zone-11-69",
+   "kind": "zone",
+   "x": 430,
+   "y": 269,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "zone-11-70",
+   "kind": "zone",
+   "x": 443,
+   "y": 270,
+   "w": 11,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.55
+   }
+  },
+  {
+   "id": "zone-11-71",
+   "kind": "zone",
+   "x": 453,
+   "y": 274,
+   "w": 12,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "zone-11-72",
+   "kind": "zone",
+   "x": 463,
+   "y": 280,
+   "w": 12,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.65
+   }
+  },
+  {
+   "id": "zone-11-73",
+   "kind": "zone",
+   "x": 465,
+   "y": 290,
+   "w": 14,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "zone-11-74",
+   "kind": "zone",
+   "x": 471,
+   "y": 300,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "zone-11-75",
+   "kind": "zone",
+   "x": 471,
+   "y": 310,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "zone-11-76",
+   "kind": "zone",
+   "x": 469,
+   "y": 320,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.85
+   }
+  },
+  {
+   "id": "zone-11-77",
+   "kind": "zone",
+   "x": 466,
+   "y": 331,
+   "w": 13,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "zone-11-78",
+   "kind": "zone",
+   "x": 462,
+   "y": 340,
+   "w": 12,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.95
+   }
+  },
+  {
+   "id": "zone-11-79",
+   "kind": "zone",
+   "x": 449,
+   "y": 346,
+   "w": 14,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-12-80",
+   "kind": "zone",
+   "x": 697,
+   "y": 76,
+   "w": 50,
+   "h": 14,
+   "action": {
+    "type": "toggle",
+    "param": 12
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-12-80-linked",
+   "kind": "zone",
+   "x": 697,
+   "y": 76,
+   "w": 50,
+   "h": 14,
+   "action": {
+    "type": "toggle",
+    "param": 4
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-12-81",
+   "kind": "zone",
+   "x": 710,
+   "y": 90,
+   "w": 25,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-12-81-linked",
+   "kind": "zone",
+   "x": 710,
+   "y": 90,
+   "w": 25,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-12-82",
+   "kind": "zone",
+   "x": 711,
+   "y": 136,
+   "w": 23,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-12-82-linked",
+   "kind": "zone",
+   "x": 711,
+   "y": 136,
+   "w": 23,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-13-83",
+   "kind": "zone",
+   "x": 1010,
+   "y": 90,
+   "w": 21,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 13,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-13-83-linked",
+   "kind": "zone",
+   "x": 1010,
+   "y": 90,
+   "w": 21,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-13-84",
+   "kind": "zone",
+   "x": 1008,
+   "y": 136,
+   "w": 26,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 13,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-13-84-linked",
+   "kind": "zone",
+   "x": 1008,
+   "y": 136,
+   "w": 26,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-85",
+   "kind": "zone",
+   "x": 706,
+   "y": 250,
+   "w": 32,
+   "h": 13,
+   "action": {
+    "type": "toggle",
+    "param": 14
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-85-linked",
+   "kind": "zone",
+   "x": 706,
+   "y": 250,
+   "w": 32,
+   "h": 13,
+   "action": {
+    "type": "toggle",
+    "param": 6
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-86",
+   "kind": "zone",
+   "x": 695,
+   "y": 238,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-86-linked",
+   "kind": "zone",
+   "x": 695,
+   "y": 238,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-87",
+   "kind": "zone",
+   "x": 679,
+   "y": 221,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.1
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-87-linked",
+   "kind": "zone",
+   "x": 679,
+   "y": 221,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.1
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-88",
+   "kind": "zone",
+   "x": 675,
+   "y": 201,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-88-linked",
+   "kind": "zone",
+   "x": 675,
+   "y": 201,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-89",
+   "kind": "zone",
+   "x": 679,
+   "y": 182,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.3
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-89-linked",
+   "kind": "zone",
+   "x": 679,
+   "y": 182,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.3
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-90",
+   "kind": "zone",
+   "x": 671,
+   "y": 170,
+   "w": 22,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.35
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-90-linked",
+   "kind": "zone",
+   "x": 671,
+   "y": 170,
+   "w": 22,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.35
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-91",
+   "kind": "zone",
+   "x": 694,
+   "y": 165,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-91-linked",
+   "kind": "zone",
+   "x": 694,
+   "y": 165,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-92",
+   "kind": "zone",
+   "x": 715,
+   "y": 160,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-92-linked",
+   "kind": "zone",
+   "x": 715,
+   "y": 160,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-93",
+   "kind": "zone",
+   "x": 735,
+   "y": 165,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-93-linked",
+   "kind": "zone",
+   "x": 735,
+   "y": 165,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-94",
+   "kind": "zone",
+   "x": 750,
+   "y": 170,
+   "w": 25,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.65
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-94-linked",
+   "kind": "zone",
+   "x": 750,
+   "y": 170,
+   "w": 25,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.65
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-95",
+   "kind": "zone",
+   "x": 750,
+   "y": 182,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.7
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-95-linked",
+   "kind": "zone",
+   "x": 750,
+   "y": 182,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.7
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-96",
+   "kind": "zone",
+   "x": 755,
+   "y": 201,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-96-linked",
+   "kind": "zone",
+   "x": 755,
+   "y": 201,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-97",
+   "kind": "zone",
+   "x": 750,
+   "y": 221,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.9
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-97-linked",
+   "kind": "zone",
+   "x": 750,
+   "y": 221,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.9
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-98",
+   "kind": "zone",
+   "x": 750,
+   "y": 238,
+   "w": 17,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.95
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-98-linked",
+   "kind": "zone",
+   "x": 750,
+   "y": 238,
+   "w": 17,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.95
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-99",
+   "kind": "zone",
+   "x": 734,
+   "y": 238,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-99-linked",
+   "kind": "zone",
+   "x": 734,
+   "y": 238,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-100",
+   "kind": "zone",
+   "x": 1005,
+   "y": 250,
+   "w": 32,
+   "h": 13,
+   "action": {
+    "type": "toggle",
+    "param": 15
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-100-linked",
+   "kind": "zone",
+   "x": 1005,
+   "y": 250,
+   "w": 32,
+   "h": 13,
+   "action": {
+    "type": "toggle",
+    "param": 7
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-101",
+   "kind": "zone",
+   "x": 993,
+   "y": 238,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-101-linked",
+   "kind": "zone",
+   "x": 993,
+   "y": 238,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-102",
+   "kind": "zone",
+   "x": 977,
+   "y": 221,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.1
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-102-linked",
+   "kind": "zone",
+   "x": 977,
+   "y": 221,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.1
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-103",
+   "kind": "zone",
+   "x": 973,
+   "y": 201,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-103-linked",
+   "kind": "zone",
+   "x": 973,
+   "y": 201,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-104",
+   "kind": "zone",
+   "x": 977,
+   "y": 182,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.3
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-104-linked",
+   "kind": "zone",
+   "x": 977,
+   "y": 182,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.3
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-105",
+   "kind": "zone",
+   "x": 992,
+   "y": 165,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-105-linked",
+   "kind": "zone",
+   "x": 992,
+   "y": 165,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-106",
+   "kind": "zone",
+   "x": 1014,
+   "y": 160,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-106-linked",
+   "kind": "zone",
+   "x": 1014,
+   "y": 160,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-107",
+   "kind": "zone",
+   "x": 1034,
+   "y": 165,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-107-linked",
+   "kind": "zone",
+   "x": 1034,
+   "y": 165,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-108",
+   "kind": "zone",
+   "x": 1047,
+   "y": 182,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.7
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-108-linked",
+   "kind": "zone",
+   "x": 1047,
+   "y": 182,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.7
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-109",
+   "kind": "zone",
+   "x": 1053,
+   "y": 201,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-109-linked",
+   "kind": "zone",
+   "x": 1053,
+   "y": 201,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-110",
+   "kind": "zone",
+   "x": 1050,
+   "y": 221,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.9
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-110-linked",
+   "kind": "zone",
+   "x": 1050,
+   "y": 221,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.9
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-111",
+   "kind": "zone",
+   "x": 1033,
+   "y": 238,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-111-linked",
+   "kind": "zone",
+   "x": 1033,
+   "y": 238,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-112",
+   "kind": "zone",
+   "x": 706,
+   "y": 356,
+   "w": 33,
+   "h": 13,
+   "action": {
+    "type": "toggle",
+    "param": 16
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-112-linked",
+   "kind": "zone",
+   "x": 706,
+   "y": 356,
+   "w": 33,
+   "h": 13,
+   "action": {
+    "type": "toggle",
+    "param": 8
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-113",
+   "kind": "zone",
+   "x": 693,
+   "y": 343,
+   "w": 17,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-113-linked",
+   "kind": "zone",
+   "x": 693,
+   "y": 343,
+   "w": 17,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-114",
+   "kind": "zone",
+   "x": 680,
+   "y": 328,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.1
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-114-linked",
+   "kind": "zone",
+   "x": 680,
+   "y": 328,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.1
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-115",
+   "kind": "zone",
+   "x": 675,
+   "y": 308,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-115-linked",
+   "kind": "zone",
+   "x": 675,
+   "y": 308,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-116",
+   "kind": "zone",
+   "x": 680,
+   "y": 288,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.3
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-116-linked",
+   "kind": "zone",
+   "x": 680,
+   "y": 288,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.3
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-117",
+   "kind": "zone",
+   "x": 694,
+   "y": 274,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-117-linked",
+   "kind": "zone",
+   "x": 694,
+   "y": 274,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-118",
+   "kind": "zone",
+   "x": 715,
+   "y": 268,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-118-linked",
+   "kind": "zone",
+   "x": 715,
+   "y": 268,
+   "w": 14,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-119",
+   "kind": "zone",
+   "x": 736,
+   "y": 274,
+   "w": 15,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-119-linked",
+   "kind": "zone",
+   "x": 736,
+   "y": 274,
+   "w": 15,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-120",
+   "kind": "zone",
+   "x": 750,
+   "y": 288,
+   "w": 15,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.7
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-120-linked",
+   "kind": "zone",
+   "x": 750,
+   "y": 288,
+   "w": 15,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.7
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-121",
+   "kind": "zone",
+   "x": 755,
+   "y": 308,
+   "w": 15,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-121-linked",
+   "kind": "zone",
+   "x": 755,
+   "y": 308,
+   "w": 15,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-122",
+   "kind": "zone",
+   "x": 749,
+   "y": 328,
+   "w": 15,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.9
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-122-linked",
+   "kind": "zone",
+   "x": 749,
+   "y": 328,
+   "w": 15,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.9
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-123",
+   "kind": "zone",
+   "x": 733,
+   "y": 343,
+   "w": 19,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-123-linked",
+   "kind": "zone",
+   "x": 733,
+   "y": 343,
+   "w": 19,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-17-124",
+   "kind": "zone",
+   "x": 773,
+   "y": 270,
+   "w": 33,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 17,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-17-124-linked",
+   "kind": "zone",
+   "x": 773,
+   "y": 270,
+   "w": 33,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-17-125",
+   "kind": "zone",
+   "x": 805,
+   "y": 264,
+   "w": 33,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 17,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-17-125-linked",
+   "kind": "zone",
+   "x": 805,
+   "y": 264,
+   "w": 33,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-17-126",
+   "kind": "zone",
+   "x": 839,
+   "y": 270,
+   "w": 24,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 17,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-17-126-linked",
+   "kind": "zone",
+   "x": 839,
+   "y": 270,
+   "w": 24,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-18-127",
+   "kind": "zone",
+   "x": 898,
+   "y": 356,
+   "w": 47,
+   "h": 13,
+   "action": {
+    "type": "toggle",
+    "param": 18
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-18-127-linked",
+   "kind": "zone",
+   "x": 898,
+   "y": 356,
+   "w": 47,
+   "h": 13,
+   "action": {
+    "type": "toggle",
+    "param": 10
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-18-128",
+   "kind": "zone",
+   "x": 868,
+   "y": 298,
+   "w": 23,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 18,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-18-128-linked",
+   "kind": "zone",
+   "x": 868,
+   "y": 298,
+   "w": 23,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-18-129",
+   "kind": "zone",
+   "x": 882,
+   "y": 278,
+   "w": 17,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 18,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-18-129-linked",
+   "kind": "zone",
+   "x": 882,
+   "y": 278,
+   "w": 17,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-18-130",
+   "kind": "zone",
+   "x": 902,
+   "y": 268,
+   "w": 17,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 18,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-18-130-linked",
+   "kind": "zone",
+   "x": 902,
+   "y": 268,
+   "w": 17,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-18-131",
+   "kind": "zone",
+   "x": 922,
+   "y": 268,
+   "w": 17,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 18,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-18-131-linked",
+   "kind": "zone",
+   "x": 922,
+   "y": 268,
+   "w": 17,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-18-132",
+   "kind": "zone",
+   "x": 941,
+   "y": 278,
+   "w": 23,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 18,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-18-132-linked",
+   "kind": "zone",
+   "x": 941,
+   "y": 278,
+   "w": 23,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-18-133",
+   "kind": "zone",
+   "x": 951,
+   "y": 298,
+   "w": 23,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 18,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-18-133-linked",
+   "kind": "zone",
+   "x": 951,
+   "y": 298,
+   "w": 23,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-134",
+   "kind": "zone",
+   "x": 1003,
+   "y": 357,
+   "w": 36,
+   "h": 13,
+   "action": {
+    "type": "toggle",
+    "param": 19
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-134-linked",
+   "kind": "zone",
+   "x": 1003,
+   "y": 357,
+   "w": 36,
+   "h": 13,
+   "action": {
+    "type": "toggle",
+    "param": 11
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-135",
+   "kind": "zone",
+   "x": 995,
+   "y": 347,
+   "w": 12,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-135-linked",
+   "kind": "zone",
+   "x": 995,
+   "y": 347,
+   "w": 12,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-136",
+   "kind": "zone",
+   "x": 986,
+   "y": 339,
+   "w": 12,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.05
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-136-linked",
+   "kind": "zone",
+   "x": 986,
+   "y": 339,
+   "w": 12,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.05
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-137",
+   "kind": "zone",
+   "x": 977,
+   "y": 329,
+   "w": 14,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.1
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-137-linked",
+   "kind": "zone",
+   "x": 977,
+   "y": 329,
+   "w": 14,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.1
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-138",
+   "kind": "zone",
+   "x": 976,
+   "y": 320,
+   "w": 12,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.15
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-138-linked",
+   "kind": "zone",
+   "x": 976,
+   "y": 320,
+   "w": 12,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.15
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-139",
+   "kind": "zone",
+   "x": 975,
+   "y": 310,
+   "w": 12,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-139-linked",
+   "kind": "zone",
+   "x": 975,
+   "y": 310,
+   "w": 12,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-140",
+   "kind": "zone",
+   "x": 973,
+   "y": 300,
+   "w": 14,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.25
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-140-linked",
+   "kind": "zone",
+   "x": 973,
+   "y": 300,
+   "w": 14,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.25
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-141",
+   "kind": "zone",
+   "x": 981,
+   "y": 291,
+   "w": 9,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.3
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-141-linked",
+   "kind": "zone",
+   "x": 981,
+   "y": 291,
+   "w": 9,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.3
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-142",
+   "kind": "zone",
+   "x": 988,
+   "y": 281,
+   "w": 9,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.35
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-142-linked",
+   "kind": "zone",
+   "x": 988,
+   "y": 281,
+   "w": 9,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.35
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-143",
+   "kind": "zone",
+   "x": 996,
+   "y": 274,
+   "w": 8,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-143-linked",
+   "kind": "zone",
+   "x": 996,
+   "y": 274,
+   "w": 8,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-144",
+   "kind": "zone",
+   "x": 1003,
+   "y": 270,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.45
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-144-linked",
+   "kind": "zone",
+   "x": 1003,
+   "y": 270,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.45
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-145",
+   "kind": "zone",
+   "x": 1014,
+   "y": 269,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-145-linked",
+   "kind": "zone",
+   "x": 1014,
+   "y": 269,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-146",
+   "kind": "zone",
+   "x": 1027,
+   "y": 270,
+   "w": 11,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.55
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-146-linked",
+   "kind": "zone",
+   "x": 1027,
+   "y": 270,
+   "w": 11,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.55
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-147",
+   "kind": "zone",
+   "x": 1037,
+   "y": 274,
+   "w": 12,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-147-linked",
+   "kind": "zone",
+   "x": 1037,
+   "y": 274,
+   "w": 12,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-148",
+   "kind": "zone",
+   "x": 1047,
+   "y": 280,
+   "w": 12,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.65
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-148-linked",
+   "kind": "zone",
+   "x": 1047,
+   "y": 280,
+   "w": 12,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.65
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-149",
+   "kind": "zone",
+   "x": 1049,
+   "y": 290,
+   "w": 14,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.7
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-149-linked",
+   "kind": "zone",
+   "x": 1049,
+   "y": 290,
+   "w": 14,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.7
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-150",
+   "kind": "zone",
+   "x": 1055,
+   "y": 300,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.75
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-150-linked",
+   "kind": "zone",
+   "x": 1055,
+   "y": 300,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.75
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-151",
+   "kind": "zone",
+   "x": 1055,
+   "y": 310,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-151-linked",
+   "kind": "zone",
+   "x": 1055,
+   "y": 310,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-152",
+   "kind": "zone",
+   "x": 1053,
+   "y": 320,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.85
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-152-linked",
+   "kind": "zone",
+   "x": 1053,
+   "y": 320,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.85
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-153",
+   "kind": "zone",
+   "x": 1050,
+   "y": 331,
+   "w": 13,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.9
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-153-linked",
+   "kind": "zone",
+   "x": 1050,
+   "y": 331,
+   "w": 13,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.9
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-154",
+   "kind": "zone",
+   "x": 1046,
+   "y": 340,
+   "w": 12,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.95
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-154-linked",
+   "kind": "zone",
+   "x": 1046,
+   "y": 340,
+   "w": 12,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.95
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-155",
+   "kind": "zone",
+   "x": 1033,
+   "y": 346,
+   "w": 14,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-155-linked",
+   "kind": "zone",
+   "x": 1033,
+   "y": 346,
+   "w": 14,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  }
+ ]
+}

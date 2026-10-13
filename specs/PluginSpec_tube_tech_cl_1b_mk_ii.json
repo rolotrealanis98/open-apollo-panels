@@ -1,0 +1,916 @@
+{
+ "schema": 2,
+ "effectName": "UAD Tube-Tech CL 1B mk II",
+ "namePattern": "Tube-Tech CL 1B mk II",
+ "size": {
+  "w": 1160,
+  "h": 352
+ },
+ "background": null,
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Output Volume",
+   "steps": null,
+   "default": 0.3300000131130219
+  },
+  {
+   "index": 1,
+   "name": "Ratio",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 2,
+   "name": "Threshold",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Meter",
+   "steps": [
+    "In",
+    "Comp",
+    "Out"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "Attack",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "Release",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "Select Attack Release",
+   "steps": [
+    "Fix",
+    "F/M",
+    "Man"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 7,
+   "name": "Sidechain",
+   "steps": [
+    "Int",
+    "Ext"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "Sidechain Low Cut",
+   "steps": [
+    "Off",
+    "80 Hz",
+    "220 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "Parallel Compression",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 10,
+   "name": "In",
+   "steps": [
+    "Bypass",
+    "Enabled"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 11,
+   "name": "Mode",
+   "steps": [
+    "Bypass",
+    "Active"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "needle0_in": {
+   "vendorSpecificFloat": 134217728,
+   "opcode": {
+    "op": 519,
+    "p0": 134217728,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.1
+    ],
+    [
+     0.014529,
+     0.118
+    ],
+    [
+     0.14529,
+     0.16
+    ],
+    [
+     0.363226,
+     0.25
+    ],
+    [
+     1.452903,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "needle0_comp": {
+   "vendorSpecificFloat": 134217729,
+   "opcode": {
+    "op": 519,
+    "p0": 134217729,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.1
+    ],
+    [
+     0.014529,
+     0.118
+    ],
+    [
+     0.14529,
+     0.16
+    ],
+    [
+     0.363226,
+     0.25
+    ],
+    [
+     1.452903,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "needle0_out": {
+   "vendorSpecificFloat": 134217731,
+   "opcode": {
+    "op": 519,
+    "p0": 134217731,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.1
+    ],
+    [
+     0.014529,
+     0.118
+    ],
+    [
+     0.14529,
+     0.16
+    ],
+    [
+     0.363226,
+     0.25
+    ],
+    [
+     1.452903,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  }
+ },
+ "elements": [
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 1160,
+   "h": 24,
+   "toolbar": {
+    "family": "softube",
+    "items": [
+     {
+      "type": "switch",
+      "x": 978.0,
+      "y": 6.0,
+      "w": 30,
+      "h": 12,
+      "param": 11,
+      "sprite": "chrome.softube.toggle",
+      "frames": 2,
+      "glyph": "power"
+     },
+     {
+      "type": "gear",
+      "x": 1048.0,
+      "y": 6.5,
+      "w": 11.0,
+      "h": 11.5,
+      "color": "#C8C8C8"
+     },
+     {
+      "type": "rect",
+      "x": 1070.0,
+      "y": 0,
+      "w": 90.0,
+      "h": 24,
+      "color": "#019C74"
+     },
+     {
+      "type": "icon",
+      "x": 1086.0,
+      "y": 6.5,
+      "w": 58.0,
+      "h": 11.5,
+      "sprite": "chrome.softube.logo",
+      "frames": 1,
+      "glyph": "Softube",
+      "color": "#E5F5F0"
+     }
+    ]
+   }
+  },
+  {
+   "id": "panel-background",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 1160,
+   "h": 328,
+   "sprite": "STB_Tube_Tech_CL_1B_mk_II_1002"
+  },
+  {
+   "id": "knob-0-1007",
+   "kind": "knob",
+   "x": 194,
+   "y": 65,
+   "w": 137,
+   "h": 120.0,
+   "sprite": "STB_Tube_Tech_CL_1B_mk_II_1007",
+   "frames": 121,
+   "param": 0
+  },
+  {
+   "id": "knob-1-1010",
+   "kind": "knob",
+   "x": 367,
+   "y": 64.5,
+   "w": 128,
+   "h": 120.0,
+   "sprite": "STB_Tube_Tech_CL_1B_mk_II_1010",
+   "frames": 121,
+   "param": 1
+  },
+  {
+   "id": "knob-2-1013",
+   "kind": "knob",
+   "x": 535,
+   "y": 65,
+   "w": 129,
+   "h": 120.0,
+   "sprite": "STB_Tube_Tech_CL_1B_mk_II_1013",
+   "frames": 121,
+   "param": 2
+  },
+  {
+   "id": "switch-3-1006",
+   "kind": "switch",
+   "x": 686,
+   "y": 63,
+   "w": 165,
+   "h": 125.0,
+   "sprite": "STB_Tube_Tech_CL_1B_mk_II_1006",
+   "frames": 3,
+   "param": 3
+  },
+  {
+   "id": "knob-4-1000",
+   "kind": "knob",
+   "x": 194,
+   "y": 217,
+   "w": 135,
+   "h": 120.0,
+   "sprite": "STB_Tube_Tech_CL_1B_mk_II_1000",
+   "frames": 121,
+   "param": 4
+  },
+  {
+   "id": "knob-5-1011",
+   "kind": "knob",
+   "x": 363,
+   "y": 217,
+   "w": 135,
+   "h": 120.0,
+   "sprite": "STB_Tube_Tech_CL_1B_mk_II_1011",
+   "frames": 121,
+   "param": 5
+  },
+  {
+   "id": "switch-6-1003",
+   "kind": "switch",
+   "x": 513,
+   "y": 218,
+   "w": 165,
+   "h": 125.0,
+   "sprite": "STB_Tube_Tech_CL_1B_mk_II_1003",
+   "frames": 3,
+   "param": 6
+  },
+  {
+   "id": "switch-11-1004",
+   "kind": "switch",
+   "x": 887,
+   "y": 212,
+   "w": 77,
+   "h": 77.0,
+   "sprite": "STB_Tube_Tech_CL_1B_mk_II_1004",
+   "frames": 21,
+   "param": 11
+  },
+  {
+   "id": "knob-9-1009",
+   "kind": "knob",
+   "x": 723,
+   "y": 224,
+   "w": 91,
+   "h": 82.0,
+   "sprite": "STB_Tube_Tech_CL_1B_mk_II_1009",
+   "frames": 121,
+   "param": 9
+  },
+  {
+   "id": "needle-0",
+   "kind": "filmstrip",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "needle0_in"
+   },
+   "x": 872,
+   "y": 69,
+   "w": 223,
+   "h": 142,
+   "sprite": "STB_Tube_Tech_CL_1B_mk_II_needle-0",
+   "visibility": {
+    "params": [
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "image-1014-10",
+   "kind": "image",
+   "x": 867,
+   "y": 24,
+   "w": 293,
+   "h": 188,
+   "sprite": "STB_Tube_Tech_CL_1B_mk_II_1014"
+  },
+  {
+   "id": "zone-0-0",
+   "kind": "zone",
+   "x": 192,
+   "y": 129,
+   "w": 28,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-0-1",
+   "kind": "zone",
+   "x": 180,
+   "y": 92,
+   "w": 28,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.23
+   }
+  },
+  {
+   "id": "zone-0-2",
+   "kind": "zone",
+   "x": 197,
+   "y": 62,
+   "w": 28,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.325
+   }
+  },
+  {
+   "id": "zone-0-3",
+   "kind": "zone",
+   "x": 254,
+   "y": 38,
+   "w": 28,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.515
+   }
+  },
+  {
+   "id": "zone-0-4",
+   "kind": "zone",
+   "x": 300,
+   "y": 61,
+   "w": 28,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.645
+   }
+  },
+  {
+   "id": "zone-0-5",
+   "kind": "zone",
+   "x": 305,
+   "y": 128,
+   "w": 28,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-1-6",
+   "kind": "zone",
+   "x": 355,
+   "y": 129,
+   "w": 28,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-1-7",
+   "kind": "zone",
+   "x": 478,
+   "y": 128,
+   "w": 28,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-2-8",
+   "kind": "zone",
+   "x": 533,
+   "y": 129,
+   "w": 28,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-2-9",
+   "kind": "zone",
+   "x": 521,
+   "y": 92,
+   "w": 28,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.23
+   }
+  },
+  {
+   "id": "zone-2-10",
+   "kind": "zone",
+   "x": 528,
+   "y": 62,
+   "w": 28,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.325
+   }
+  },
+  {
+   "id": "zone-2-11",
+   "kind": "zone",
+   "x": 589,
+   "y": 38,
+   "w": 28,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.515
+   }
+  },
+  {
+   "id": "zone-2-12",
+   "kind": "zone",
+   "x": 641,
+   "y": 61,
+   "w": 28,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.645
+   }
+  },
+  {
+   "id": "zone-2-13",
+   "kind": "zone",
+   "x": 651,
+   "y": 128,
+   "w": 28,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-3-14",
+   "kind": "zone",
+   "x": 748,
+   "y": 152,
+   "w": 44,
+   "h": 16,
+   "action": {
+    "type": "toggle",
+    "param": 3
+   }
+  },
+  {
+   "id": "zone-3-15",
+   "kind": "zone",
+   "x": 743,
+   "y": 33,
+   "w": 54,
+   "h": 26,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "zone-3-16",
+   "kind": "zone",
+   "x": 709,
+   "y": 52,
+   "w": 43,
+   "h": 19,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-3-17",
+   "kind": "zone",
+   "x": 788,
+   "y": 50,
+   "w": 43,
+   "h": 19,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-4-18",
+   "kind": "zone",
+   "x": 186,
+   "y": 281,
+   "w": 28,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-4-19",
+   "kind": "zone",
+   "x": 305,
+   "y": 280,
+   "w": 28,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-5-20",
+   "kind": "zone",
+   "x": 355,
+   "y": 281,
+   "w": 28,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-5-21",
+   "kind": "zone",
+   "x": 474,
+   "y": 280,
+   "w": 28,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-6-22",
+   "kind": "zone",
+   "x": 556,
+   "y": 300,
+   "w": 87,
+   "h": 31,
+   "action": {
+    "type": "toggle",
+    "param": 6
+   }
+  },
+  {
+   "id": "zone-6-23",
+   "kind": "zone",
+   "x": 570,
+   "y": 188,
+   "w": 54,
+   "h": 26,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "zone-6-24",
+   "kind": "zone",
+   "x": 536,
+   "y": 207,
+   "w": 43,
+   "h": 19,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-6-25",
+   "kind": "zone",
+   "x": 615,
+   "y": 205,
+   "w": 43,
+   "h": 19,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "q-switch-8-1005",
+   "kind": "switch",
+   "x": 58,
+   "y": 258,
+   "w": 82,
+   "h": 55,
+   "sprite": "Q_Tube_Tech_CL_1B_mk_II_1005",
+   "frames": 3,
+   "param": 8,
+   "segments": "horizontal"
+  },
+  {
+   "id": "zone-8-26",
+   "kind": "zone",
+   "x": 66,
+   "y": 301,
+   "w": 63,
+   "h": 31,
+   "action": {
+    "type": "toggle",
+    "param": 8
+   }
+  },
+  {
+   "id": "zone-8-27",
+   "kind": "zone",
+   "x": 47,
+   "y": 263,
+   "w": 26,
+   "h": 22,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-8-28",
+   "kind": "zone",
+   "x": 78,
+   "y": 239,
+   "w": 40,
+   "h": 20,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "zone-8-29",
+   "kind": "zone",
+   "x": 121,
+   "y": 263,
+   "w": 26,
+   "h": 22,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-9-30",
+   "kind": "zone",
+   "x": 716,
+   "y": 279,
+   "w": 38,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-9-31",
+   "kind": "zone",
+   "x": 795,
+   "y": 278,
+   "w": 38,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "needle-0-comp",
+   "kind": "filmstrip",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "needle0_comp"
+   },
+   "x": 872,
+   "y": 69,
+   "w": 223,
+   "h": 142,
+   "sprite": "STB_Tube_Tech_CL_1B_mk_II_needle-0",
+   "visibility": {
+    "params": [
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "needle-0-out",
+   "kind": "filmstrip",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "needle0_out"
+   },
+   "x": 872,
+   "y": 69,
+   "w": 223,
+   "h": 142,
+   "sprite": "STB_Tube_Tech_CL_1B_mk_II_needle-0",
+   "visibility": {
+    "params": [
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  }
+ ],
+ "panelless": [
+  7,
+  10
+ ]
+}

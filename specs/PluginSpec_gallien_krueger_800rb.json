@@ -1,0 +1,4440 @@
+{
+ "schema": 2,
+ "effectName": "UAD Gallien Krueger 800RB",
+ "namePattern": "Gallien Krueger 800RB",
+ "size": {
+  "w": 1024,
+  "h": 378
+ },
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "Bank",
+   "steps": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Inpt Gn",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "PwrSk",
+   "steps": null,
+   "default": 0.7749999761581421
+  },
+  {
+   "index": 4,
+   "name": "RcLPh",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "RcLSl",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "Horn Low",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "RecHi",
+   "steps": null,
+   "default": 0.3125
+  },
+  {
+   "index": 8,
+   "name": "RcHPh",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "RcHSl",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 10,
+   "name": "Horn  Hi",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "RecLow",
+   "steps": null,
+   "default": 0.453125
+  },
+  {
+   "index": 12,
+   "name": "In-10db",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "Volume",
+   "steps": null,
+   "default": 0.3700000047683716
+  },
+  {
+   "index": 14,
+   "name": "Low Cut",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 15,
+   "name": "MiC",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 16,
+   "name": "Hi Boost",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 17,
+   "name": "Treble",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 18,
+   "name": "HiMid",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 19,
+   "name": "LowMid",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 20,
+   "name": "Bass",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 21,
+   "name": "BsPw",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 22,
+   "name": "Boost",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 23,
+   "name": "Crsvr",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 24,
+   "name": "BmpPwr",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 25,
+   "name": "HMstr",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 26,
+   "name": "LwMstr",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 27,
+   "name": "Master",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 28,
+   "name": "NgByP",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 29,
+   "name": "NgTh",
+   "steps": null,
+   "default": 0.2666666805744171
+  },
+  {
+   "index": 30,
+   "name": "NgRa",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 31,
+   "name": "Tight",
+   "steps": [
+    "Off",
+    "Pre",
+    "Post"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 32,
+   "name": "TFreq",
+   "steps": null,
+   "default": 0.1109243780374527
+  },
+  {
+   "index": 33,
+   "name": "Smooth",
+   "steps": [
+    "Off",
+    "Pre",
+    "Post"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 34,
+   "name": "SFreq",
+   "steps": null,
+   "default": 0.4900701344013214
+  }
+ ],
+ "elements": [
+  {
+   "id": "chrome-panel",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 1024,
+   "h": 354,
+   "sprite": "gallien_krueger_800rb__BACKGROUND"
+  },
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 1024,
+   "h": 24,
+   "toolbar": {
+    "family": "brainworx",
+    "items": [
+     {
+      "type": "switch",
+      "x": 0.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.power",
+      "frames": 2,
+      "param": 0,
+      "glyph": "power"
+     },
+     {
+      "type": "icon",
+      "x": 338.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.undo",
+      "frames": 2,
+      "glyph": "undo"
+     },
+     {
+      "type": "icon",
+      "x": 362.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.redo",
+      "frames": 2,
+      "glyph": "redo"
+     },
+     {
+      "type": "bank",
+      "x": 410.0,
+      "y": 0,
+      "w": 96.0,
+      "h": 24,
+      "sprite": "chrome.bx.bank",
+      "frames": 2,
+      "param": 1,
+      "cells": 4,
+      "glyph": "ABCD"
+     },
+     {
+      "type": "icon",
+      "x": 530.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.copy",
+      "frames": 2,
+      "glyph": "Copy"
+     },
+     {
+      "type": "icon",
+      "x": 582.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.paste",
+      "frames": 2,
+      "glyph": "Paste"
+     },
+     {
+      "type": "icon",
+      "x": 646.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.reset",
+      "frames": 2,
+      "glyph": "Reset"
+     },
+     {
+      "type": "icon",
+      "x": 969.0,
+      "y": 0,
+      "w": 55.0,
+      "h": 24,
+      "sprite": "chrome.bx.toolbaraboutbnt",
+      "frames": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "volume-knob",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 13,
+   "x": 153.0,
+   "y": 137.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-rack-open",
+   "kind": "zone",
+   "x": 100.0,
+   "y": 204.0,
+   "w": 760.0,
+   "h": 128.0,
+   "action": {
+    "type": "setState",
+    "state": "rack",
+    "value": 1
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "treble-knob",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 17,
+   "x": 329.0,
+   "y": 137.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "himid-knob",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 18,
+   "x": 384.0,
+   "y": 137.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "lowmid-knob",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 19,
+   "x": 439.0,
+   "y": 137.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "bass-knob",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 20,
+   "x": 494.0,
+   "y": 137.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "boost-knob",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 22,
+   "x": 561.0,
+   "y": 137.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "crsvr-knob",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 23,
+   "x": 654.0,
+   "y": 137.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "hmstr-knob",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 25,
+   "x": 743.0,
+   "y": 137.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "lwmstr-knob",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 26,
+   "x": 798.0,
+   "y": 137.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "master-knob",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 27,
+   "x": 866.0,
+   "y": 137.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "in10db-switch",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "param": 12,
+   "orientation": "vertical",
+   "x": 106.0,
+   "y": 167.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "lowcut-switch",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "param": 14,
+   "orientation": "vertical",
+   "x": 218.0,
+   "y": 167.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-switch",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "param": 15,
+   "orientation": "vertical",
+   "x": 249.0,
+   "y": 167.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "hiboost-switch",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "param": 16,
+   "orientation": "vertical",
+   "x": 280.0,
+   "y": 167.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "bspw-switch",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "param": 21,
+   "orientation": "vertical",
+   "x": 608.0,
+   "y": 167.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "bmppwr-switch",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "param": 24,
+   "orientation": "vertical",
+   "x": 708.0,
+   "y": 167.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "in10db-led",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 118.0,
+   "y": 183.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "param",
+    "param": 12
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "lowcut-led",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 229.0,
+   "y": 183.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "param",
+    "param": 14
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-led",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 261.0,
+   "y": 183.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "param",
+    "param": 15
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "hiboost-led",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 293.0,
+   "y": 183.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "param",
+    "param": 16
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "hiboost-led-1",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 293.0,
+   "y": 183.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "param",
+    "param": 16
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "bspw-led",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 620.0,
+   "y": 183.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "param",
+    "param": 21
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "bmppwr-led",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 706.0,
+   "y": 155.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "param",
+    "param": 24
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 706.0,
+   "y": 147.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "power-switch",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__POWERSWITCH",
+   "frames": 2,
+   "param": 0,
+   "orientation": "vertical",
+   "x": 866.0,
+   "y": 214.0,
+   "w": 35.0,
+   "h": 65.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "img-cviewcontainer",
+   "kind": "image",
+   "sprite": "gallien_krueger_800rb__RACK",
+   "x": 0.0,
+   "y": 24.0,
+   "w": 1024.0,
+   "h": 354.5,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-rack-close",
+   "kind": "zone",
+   "x": 0.0,
+   "y": 24.0,
+   "w": 1024.0,
+   "h": 354.5,
+   "action": {
+    "type": "setState",
+    "state": "rack",
+    "value": 0
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "power-switch-1",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__POWERSWITCH",
+   "frames": 2,
+   "param": 0,
+   "orientation": "vertical",
+   "x": 882.0,
+   "y": 172.0,
+   "w": 35.0,
+   "h": 65.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "volume-knob-1",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 13,
+   "x": 153.0,
+   "y": 90.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "treble-knob-1",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 17,
+   "x": 329.0,
+   "y": 90.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "himid-knob-1",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 18,
+   "x": 384.0,
+   "y": 90.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "lowmid-knob-1",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 19,
+   "x": 439.0,
+   "y": 90.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bass-knob-1",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 20,
+   "x": 494.0,
+   "y": 90.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "boost-knob-1",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 22,
+   "x": 561.0,
+   "y": 90.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "crsvr-knob-1",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 23,
+   "x": 654.0,
+   "y": 90.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hmstr-knob-1",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 25,
+   "x": 743.0,
+   "y": 90.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "lwmstr-knob-1",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 26,
+   "x": 798.0,
+   "y": 90.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "master-knob-1",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 27,
+   "x": 866.0,
+   "y": 90.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "in10db-switch-1",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "param": 12,
+   "orientation": "vertical",
+   "x": 106.0,
+   "y": 122.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "lowcut-switch-1",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "param": 14,
+   "orientation": "vertical",
+   "x": 218.0,
+   "y": 122.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-switch-1",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "param": 15,
+   "orientation": "vertical",
+   "x": 249.0,
+   "y": 122.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hiboost-switch-1",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "param": 16,
+   "orientation": "vertical",
+   "x": 280.0,
+   "y": 122.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bspw-switch-1",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "param": 21,
+   "orientation": "vertical",
+   "x": 608.0,
+   "y": 122.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bmppwr-switch-1",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "param": 24,
+   "orientation": "vertical",
+   "x": 708.0,
+   "y": 122.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "in10db-led-1",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 118.0,
+   "y": 138.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "param",
+    "param": 12
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "lowcut-led-1",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 229.0,
+   "y": 138.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "param",
+    "param": 14
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-led-1",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 261.0,
+   "y": 138.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "param",
+    "param": 15
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hiboost-led-2",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 293.0,
+   "y": 138.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "param",
+    "param": 16
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hiboost-led-3",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 293.0,
+   "y": 138.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "param",
+    "param": 16
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bspw-led-1",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 620.0,
+   "y": 138.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "param",
+    "param": 21
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bmppwr-led-1",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 706.0,
+   "y": 110.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "param",
+    "param": 24
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-1",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 706.0,
+   "y": 102.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ngth-knob",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 29,
+   "x": 185.0,
+   "y": 179.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ngth-text",
+   "kind": "text",
+   "param": 29,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 185.0,
+   "y": 226.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ngra-knob",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 30,
+   "x": 249.0,
+   "y": 179.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ngra-text",
+   "kind": "text",
+   "param": 30,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 249.0,
+   "y": 226.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "tfreq-knob",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 32,
+   "x": 380.0,
+   "y": 179.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "tfreq-text",
+   "kind": "text",
+   "param": 32,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 380.0,
+   "y": 226.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sfreq-knob",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 34,
+   "x": 442.0,
+   "y": 179.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sfreq-text",
+   "kind": "text",
+   "param": 34,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 442.0,
+   "y": 226.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "inptgn-knob",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 2,
+   "x": 575.0,
+   "y": 179.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "inptgn-text",
+   "kind": "text",
+   "param": 2,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 575.0,
+   "y": 226.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pwrsk-knob",
+   "kind": "knob",
+   "sprite": "gallien_krueger_800rb__POTI",
+   "frames": 61,
+   "param": 3,
+   "x": 638.0,
+   "y": 179.0,
+   "w": 52.0,
+   "h": 52.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pwrsk-text",
+   "kind": "text",
+   "param": 3,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 638.0,
+   "y": 226.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ckickbutton-kick",
+   "kind": "button",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "action": {
+    "type": "table",
+    "param": 11,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.015625
+     },
+     {
+      "current": 0.015625,
+      "value": 0.03125
+     },
+     {
+      "current": 0.03125,
+      "value": 0.046875
+     },
+     {
+      "current": 0.046875,
+      "value": 0.0625
+     },
+     {
+      "current": 0.0625,
+      "value": 0.078125
+     },
+     {
+      "current": 0.078125,
+      "value": 0.09375
+     },
+     {
+      "current": 0.09375,
+      "value": 0.109375
+     },
+     {
+      "current": 0.109375,
+      "value": 0.125
+     },
+     {
+      "current": 0.125,
+      "value": 0.140625
+     },
+     {
+      "current": 0.140625,
+      "value": 0.15625
+     },
+     {
+      "current": 0.15625,
+      "value": 0.171875
+     },
+     {
+      "current": 0.171875,
+      "value": 0.1875
+     },
+     {
+      "current": 0.1875,
+      "value": 0.203125
+     },
+     {
+      "current": 0.203125,
+      "value": 0.21875
+     },
+     {
+      "current": 0.21875,
+      "value": 0.234375
+     },
+     {
+      "current": 0.234375,
+      "value": 0.25
+     },
+     {
+      "current": 0.25,
+      "value": 0.265625
+     },
+     {
+      "current": 0.265625,
+      "value": 0.28125
+     },
+     {
+      "current": 0.28125,
+      "value": 0.296875
+     },
+     {
+      "current": 0.296875,
+      "value": 0.3125
+     },
+     {
+      "current": 0.3125,
+      "value": 0.328125
+     },
+     {
+      "current": 0.328125,
+      "value": 0.34375
+     },
+     {
+      "current": 0.34375,
+      "value": 0.359375
+     },
+     {
+      "current": 0.359375,
+      "value": 0.375
+     },
+     {
+      "current": 0.375,
+      "value": 0.390625
+     },
+     {
+      "current": 0.390625,
+      "value": 0.40625
+     },
+     {
+      "current": 0.40625,
+      "value": 0.421875
+     },
+     {
+      "current": 0.421875,
+      "value": 0.4375
+     },
+     {
+      "current": 0.4375,
+      "value": 0.453125
+     },
+     {
+      "current": 0.453125,
+      "value": 0.46875
+     },
+     {
+      "current": 0.46875,
+      "value": 0.484375
+     },
+     {
+      "current": 0.484375,
+      "value": 0.5
+     },
+     {
+      "current": 0.5,
+      "value": 0.515625
+     },
+     {
+      "current": 0.515625,
+      "value": 0.53125
+     },
+     {
+      "current": 0.53125,
+      "value": 0.546875
+     },
+     {
+      "current": 0.546875,
+      "value": 0.5625
+     },
+     {
+      "current": 0.5625,
+      "value": 0.578125
+     },
+     {
+      "current": 0.578125,
+      "value": 0.59375
+     },
+     {
+      "current": 0.59375,
+      "value": 0.609375
+     },
+     {
+      "current": 0.609375,
+      "value": 0.625
+     },
+     {
+      "current": 0.625,
+      "value": 0.640625
+     },
+     {
+      "current": 0.640625,
+      "value": 0.65625
+     },
+     {
+      "current": 0.65625,
+      "value": 0.671875
+     },
+     {
+      "current": 0.671875,
+      "value": 0.6875
+     },
+     {
+      "current": 0.6875,
+      "value": 0.703125
+     },
+     {
+      "current": 0.703125,
+      "value": 0.71875
+     },
+     {
+      "current": 0.71875,
+      "value": 0.734375
+     },
+     {
+      "current": 0.734375,
+      "value": 0.75
+     },
+     {
+      "current": 0.75,
+      "value": 0.765625
+     },
+     {
+      "current": 0.765625,
+      "value": 0.78125
+     },
+     {
+      "current": 0.78125,
+      "value": 0.796875
+     },
+     {
+      "current": 0.796875,
+      "value": 0.8125
+     },
+     {
+      "current": 0.8125,
+      "value": 0.828125
+     },
+     {
+      "current": 0.828125,
+      "value": 0.84375
+     },
+     {
+      "current": 0.84375,
+      "value": 0.859375
+     },
+     {
+      "current": 0.859375,
+      "value": 0.875
+     },
+     {
+      "current": 0.875,
+      "value": 0.890625
+     },
+     {
+      "current": 0.890625,
+      "value": 0.90625
+     },
+     {
+      "current": 0.90625,
+      "value": 0.921875
+     },
+     {
+      "current": 0.921875,
+      "value": 0.9375
+     },
+     {
+      "current": 0.9375,
+      "value": 0.953125
+     },
+     {
+      "current": 0.953125,
+      "value": 0.96875
+     },
+     {
+      "current": 0.96875,
+      "value": 0.984375
+     },
+     {
+      "current": 0.984375,
+      "value": 1.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.0
+     }
+    ]
+   },
+   "x": 174.0,
+   "y": 295.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ckickbutton-kick-1",
+   "kind": "button",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "action": {
+    "type": "table",
+    "param": 11,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.015625,
+      "value": 0.0
+     },
+     {
+      "current": 0.03125,
+      "value": 0.015625
+     },
+     {
+      "current": 0.046875,
+      "value": 0.03125
+     },
+     {
+      "current": 0.0625,
+      "value": 0.046875
+     },
+     {
+      "current": 0.078125,
+      "value": 0.0625
+     },
+     {
+      "current": 0.09375,
+      "value": 0.078125
+     },
+     {
+      "current": 0.109375,
+      "value": 0.09375
+     },
+     {
+      "current": 0.125,
+      "value": 0.109375
+     },
+     {
+      "current": 0.140625,
+      "value": 0.125
+     },
+     {
+      "current": 0.15625,
+      "value": 0.140625
+     },
+     {
+      "current": 0.171875,
+      "value": 0.15625
+     },
+     {
+      "current": 0.1875,
+      "value": 0.171875
+     },
+     {
+      "current": 0.203125,
+      "value": 0.1875
+     },
+     {
+      "current": 0.21875,
+      "value": 0.203125
+     },
+     {
+      "current": 0.234375,
+      "value": 0.21875
+     },
+     {
+      "current": 0.25,
+      "value": 0.234375
+     },
+     {
+      "current": 0.265625,
+      "value": 0.25
+     },
+     {
+      "current": 0.28125,
+      "value": 0.265625
+     },
+     {
+      "current": 0.296875,
+      "value": 0.28125
+     },
+     {
+      "current": 0.3125,
+      "value": 0.296875
+     },
+     {
+      "current": 0.328125,
+      "value": 0.3125
+     },
+     {
+      "current": 0.34375,
+      "value": 0.328125
+     },
+     {
+      "current": 0.359375,
+      "value": 0.34375
+     },
+     {
+      "current": 0.375,
+      "value": 0.359375
+     },
+     {
+      "current": 0.390625,
+      "value": 0.375
+     },
+     {
+      "current": 0.40625,
+      "value": 0.390625
+     },
+     {
+      "current": 0.421875,
+      "value": 0.40625
+     },
+     {
+      "current": 0.4375,
+      "value": 0.421875
+     },
+     {
+      "current": 0.453125,
+      "value": 0.4375
+     },
+     {
+      "current": 0.46875,
+      "value": 0.453125
+     },
+     {
+      "current": 0.484375,
+      "value": 0.46875
+     },
+     {
+      "current": 0.5,
+      "value": 0.484375
+     },
+     {
+      "current": 0.515625,
+      "value": 0.5
+     },
+     {
+      "current": 0.53125,
+      "value": 0.515625
+     },
+     {
+      "current": 0.546875,
+      "value": 0.53125
+     },
+     {
+      "current": 0.5625,
+      "value": 0.546875
+     },
+     {
+      "current": 0.578125,
+      "value": 0.5625
+     },
+     {
+      "current": 0.59375,
+      "value": 0.578125
+     },
+     {
+      "current": 0.609375,
+      "value": 0.59375
+     },
+     {
+      "current": 0.625,
+      "value": 0.609375
+     },
+     {
+      "current": 0.640625,
+      "value": 0.625
+     },
+     {
+      "current": 0.65625,
+      "value": 0.640625
+     },
+     {
+      "current": 0.671875,
+      "value": 0.65625
+     },
+     {
+      "current": 0.6875,
+      "value": 0.671875
+     },
+     {
+      "current": 0.703125,
+      "value": 0.6875
+     },
+     {
+      "current": 0.71875,
+      "value": 0.703125
+     },
+     {
+      "current": 0.734375,
+      "value": 0.71875
+     },
+     {
+      "current": 0.75,
+      "value": 0.734375
+     },
+     {
+      "current": 0.765625,
+      "value": 0.75
+     },
+     {
+      "current": 0.78125,
+      "value": 0.765625
+     },
+     {
+      "current": 0.796875,
+      "value": 0.78125
+     },
+     {
+      "current": 0.8125,
+      "value": 0.796875
+     },
+     {
+      "current": 0.828125,
+      "value": 0.8125
+     },
+     {
+      "current": 0.84375,
+      "value": 0.828125
+     },
+     {
+      "current": 0.859375,
+      "value": 0.84375
+     },
+     {
+      "current": 0.875,
+      "value": 0.859375
+     },
+     {
+      "current": 0.890625,
+      "value": 0.875
+     },
+     {
+      "current": 0.90625,
+      "value": 0.890625
+     },
+     {
+      "current": 0.921875,
+      "value": 0.90625
+     },
+     {
+      "current": 0.9375,
+      "value": 0.921875
+     },
+     {
+      "current": 0.953125,
+      "value": 0.9375
+     },
+     {
+      "current": 0.96875,
+      "value": 0.953125
+     },
+     {
+      "current": 0.984375,
+      "value": 0.96875
+     },
+     {
+      "current": 1.0,
+      "value": 0.984375
+     }
+    ]
+   },
+   "x": 145.0,
+   "y": 295.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ckickbutton-kick-2",
+   "kind": "button",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "action": {
+    "type": "table",
+    "param": 7,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.015625
+     },
+     {
+      "current": 0.015625,
+      "value": 0.03125
+     },
+     {
+      "current": 0.03125,
+      "value": 0.046875
+     },
+     {
+      "current": 0.046875,
+      "value": 0.0625
+     },
+     {
+      "current": 0.0625,
+      "value": 0.078125
+     },
+     {
+      "current": 0.078125,
+      "value": 0.09375
+     },
+     {
+      "current": 0.09375,
+      "value": 0.109375
+     },
+     {
+      "current": 0.109375,
+      "value": 0.125
+     },
+     {
+      "current": 0.125,
+      "value": 0.140625
+     },
+     {
+      "current": 0.140625,
+      "value": 0.15625
+     },
+     {
+      "current": 0.15625,
+      "value": 0.171875
+     },
+     {
+      "current": 0.171875,
+      "value": 0.1875
+     },
+     {
+      "current": 0.1875,
+      "value": 0.203125
+     },
+     {
+      "current": 0.203125,
+      "value": 0.21875
+     },
+     {
+      "current": 0.21875,
+      "value": 0.234375
+     },
+     {
+      "current": 0.234375,
+      "value": 0.25
+     },
+     {
+      "current": 0.25,
+      "value": 0.265625
+     },
+     {
+      "current": 0.265625,
+      "value": 0.28125
+     },
+     {
+      "current": 0.28125,
+      "value": 0.296875
+     },
+     {
+      "current": 0.296875,
+      "value": 0.3125
+     },
+     {
+      "current": 0.3125,
+      "value": 0.328125
+     },
+     {
+      "current": 0.328125,
+      "value": 0.34375
+     },
+     {
+      "current": 0.34375,
+      "value": 0.359375
+     },
+     {
+      "current": 0.359375,
+      "value": 0.375
+     },
+     {
+      "current": 0.375,
+      "value": 0.390625
+     },
+     {
+      "current": 0.390625,
+      "value": 0.40625
+     },
+     {
+      "current": 0.40625,
+      "value": 0.421875
+     },
+     {
+      "current": 0.421875,
+      "value": 0.4375
+     },
+     {
+      "current": 0.4375,
+      "value": 0.453125
+     },
+     {
+      "current": 0.453125,
+      "value": 0.46875
+     },
+     {
+      "current": 0.46875,
+      "value": 0.484375
+     },
+     {
+      "current": 0.484375,
+      "value": 0.5
+     },
+     {
+      "current": 0.5,
+      "value": 0.515625
+     },
+     {
+      "current": 0.515625,
+      "value": 0.53125
+     },
+     {
+      "current": 0.53125,
+      "value": 0.546875
+     },
+     {
+      "current": 0.546875,
+      "value": 0.5625
+     },
+     {
+      "current": 0.5625,
+      "value": 0.578125
+     },
+     {
+      "current": 0.578125,
+      "value": 0.59375
+     },
+     {
+      "current": 0.59375,
+      "value": 0.609375
+     },
+     {
+      "current": 0.609375,
+      "value": 0.625
+     },
+     {
+      "current": 0.625,
+      "value": 0.640625
+     },
+     {
+      "current": 0.640625,
+      "value": 0.65625
+     },
+     {
+      "current": 0.65625,
+      "value": 0.671875
+     },
+     {
+      "current": 0.671875,
+      "value": 0.6875
+     },
+     {
+      "current": 0.6875,
+      "value": 0.703125
+     },
+     {
+      "current": 0.703125,
+      "value": 0.71875
+     },
+     {
+      "current": 0.71875,
+      "value": 0.734375
+     },
+     {
+      "current": 0.734375,
+      "value": 0.75
+     },
+     {
+      "current": 0.75,
+      "value": 0.765625
+     },
+     {
+      "current": 0.765625,
+      "value": 0.78125
+     },
+     {
+      "current": 0.78125,
+      "value": 0.796875
+     },
+     {
+      "current": 0.796875,
+      "value": 0.8125
+     },
+     {
+      "current": 0.8125,
+      "value": 0.828125
+     },
+     {
+      "current": 0.828125,
+      "value": 0.84375
+     },
+     {
+      "current": 0.84375,
+      "value": 0.859375
+     },
+     {
+      "current": 0.859375,
+      "value": 0.875
+     },
+     {
+      "current": 0.875,
+      "value": 0.890625
+     },
+     {
+      "current": 0.890625,
+      "value": 0.90625
+     },
+     {
+      "current": 0.90625,
+      "value": 0.921875
+     },
+     {
+      "current": 0.921875,
+      "value": 0.9375
+     },
+     {
+      "current": 0.9375,
+      "value": 0.953125
+     },
+     {
+      "current": 0.953125,
+      "value": 0.96875
+     },
+     {
+      "current": 0.96875,
+      "value": 0.984375
+     },
+     {
+      "current": 0.984375,
+      "value": 1.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.0
+     }
+    ]
+   },
+   "x": 586.0,
+   "y": 295.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ckickbutton-kick-3",
+   "kind": "button",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "action": {
+    "type": "table",
+    "param": 7,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.015625,
+      "value": 0.0
+     },
+     {
+      "current": 0.03125,
+      "value": 0.015625
+     },
+     {
+      "current": 0.046875,
+      "value": 0.03125
+     },
+     {
+      "current": 0.0625,
+      "value": 0.046875
+     },
+     {
+      "current": 0.078125,
+      "value": 0.0625
+     },
+     {
+      "current": 0.09375,
+      "value": 0.078125
+     },
+     {
+      "current": 0.109375,
+      "value": 0.09375
+     },
+     {
+      "current": 0.125,
+      "value": 0.109375
+     },
+     {
+      "current": 0.140625,
+      "value": 0.125
+     },
+     {
+      "current": 0.15625,
+      "value": 0.140625
+     },
+     {
+      "current": 0.171875,
+      "value": 0.15625
+     },
+     {
+      "current": 0.1875,
+      "value": 0.171875
+     },
+     {
+      "current": 0.203125,
+      "value": 0.1875
+     },
+     {
+      "current": 0.21875,
+      "value": 0.203125
+     },
+     {
+      "current": 0.234375,
+      "value": 0.21875
+     },
+     {
+      "current": 0.25,
+      "value": 0.234375
+     },
+     {
+      "current": 0.265625,
+      "value": 0.25
+     },
+     {
+      "current": 0.28125,
+      "value": 0.265625
+     },
+     {
+      "current": 0.296875,
+      "value": 0.28125
+     },
+     {
+      "current": 0.3125,
+      "value": 0.296875
+     },
+     {
+      "current": 0.328125,
+      "value": 0.3125
+     },
+     {
+      "current": 0.34375,
+      "value": 0.328125
+     },
+     {
+      "current": 0.359375,
+      "value": 0.34375
+     },
+     {
+      "current": 0.375,
+      "value": 0.359375
+     },
+     {
+      "current": 0.390625,
+      "value": 0.375
+     },
+     {
+      "current": 0.40625,
+      "value": 0.390625
+     },
+     {
+      "current": 0.421875,
+      "value": 0.40625
+     },
+     {
+      "current": 0.4375,
+      "value": 0.421875
+     },
+     {
+      "current": 0.453125,
+      "value": 0.4375
+     },
+     {
+      "current": 0.46875,
+      "value": 0.453125
+     },
+     {
+      "current": 0.484375,
+      "value": 0.46875
+     },
+     {
+      "current": 0.5,
+      "value": 0.484375
+     },
+     {
+      "current": 0.515625,
+      "value": 0.5
+     },
+     {
+      "current": 0.53125,
+      "value": 0.515625
+     },
+     {
+      "current": 0.546875,
+      "value": 0.53125
+     },
+     {
+      "current": 0.5625,
+      "value": 0.546875
+     },
+     {
+      "current": 0.578125,
+      "value": 0.5625
+     },
+     {
+      "current": 0.59375,
+      "value": 0.578125
+     },
+     {
+      "current": 0.609375,
+      "value": 0.59375
+     },
+     {
+      "current": 0.625,
+      "value": 0.609375
+     },
+     {
+      "current": 0.640625,
+      "value": 0.625
+     },
+     {
+      "current": 0.65625,
+      "value": 0.640625
+     },
+     {
+      "current": 0.671875,
+      "value": 0.65625
+     },
+     {
+      "current": 0.6875,
+      "value": 0.671875
+     },
+     {
+      "current": 0.703125,
+      "value": 0.6875
+     },
+     {
+      "current": 0.71875,
+      "value": 0.703125
+     },
+     {
+      "current": 0.734375,
+      "value": 0.71875
+     },
+     {
+      "current": 0.75,
+      "value": 0.734375
+     },
+     {
+      "current": 0.765625,
+      "value": 0.75
+     },
+     {
+      "current": 0.78125,
+      "value": 0.765625
+     },
+     {
+      "current": 0.796875,
+      "value": 0.78125
+     },
+     {
+      "current": 0.8125,
+      "value": 0.796875
+     },
+     {
+      "current": 0.828125,
+      "value": 0.8125
+     },
+     {
+      "current": 0.84375,
+      "value": 0.828125
+     },
+     {
+      "current": 0.859375,
+      "value": 0.84375
+     },
+     {
+      "current": 0.875,
+      "value": 0.859375
+     },
+     {
+      "current": 0.890625,
+      "value": 0.875
+     },
+     {
+      "current": 0.90625,
+      "value": 0.890625
+     },
+     {
+      "current": 0.921875,
+      "value": 0.90625
+     },
+     {
+      "current": 0.9375,
+      "value": 0.921875
+     },
+     {
+      "current": 0.953125,
+      "value": 0.9375
+     },
+     {
+      "current": 0.96875,
+      "value": 0.953125
+     },
+     {
+      "current": 0.984375,
+      "value": 0.96875
+     },
+     {
+      "current": 1.0,
+      "value": 0.984375
+     }
+    ]
+   },
+   "x": 557.0,
+   "y": 295.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "rchsl-switch",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "param": 9,
+   "orientation": "vertical",
+   "x": 110.0,
+   "y": 295.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "rchph-switch",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "param": 8,
+   "orientation": "vertical",
+   "x": 428.0,
+   "y": 283.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hornhi-switch",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "param": 10,
+   "orientation": "vertical",
+   "x": 428.0,
+   "y": 264.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "rclsl-switch",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "param": 5,
+   "orientation": "vertical",
+   "x": 523.0,
+   "y": 295.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "rclph-switch",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "param": 4,
+   "orientation": "vertical",
+   "x": 841.0,
+   "y": 283.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hornlow-switch",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__BUTTON",
+   "frames": 2,
+   "param": 6,
+   "orientation": "vertical",
+   "x": 841.0,
+   "y": 264.0,
+   "w": 33.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "rchsl-led",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 136.0,
+   "y": 310.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "param",
+    "param": 9
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "rclsl-led",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 549.0,
+   "y": 310.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "param",
+    "param": 5
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hornhi-led",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 419.0,
+   "y": 268.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "param",
+    "param": 10
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "rchph-led",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 419.0,
+   "y": 287.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "param",
+    "param": 8
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-2",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 419.0,
+   "y": 306.0,
+   "w": 8.0,
+   "h": 9.25,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hornlow-led",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 833.0,
+   "y": 268.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "param",
+    "param": 6
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "rclph-led",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 833.0,
+   "y": 287.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "param",
+    "param": 4
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-3",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LEDGREEN",
+   "frames": 2,
+   "x": 833.0,
+   "y": 306.0,
+   "w": 8.0,
+   "h": 9.25,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "reclow-text",
+   "kind": "text",
+   "param": 11,
+   "text": {
+    "size": 10,
+    "color": "#DCF2FF",
+    "align": "left",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 116.0,
+   "y": 271.0,
+   "w": 286.0,
+   "h": 11.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "rechi-text",
+   "kind": "text",
+   "param": 7,
+   "text": {
+    "size": 10,
+    "color": "#DCF2FF",
+    "align": "left",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 528.0,
+   "y": 271.0,
+   "w": 286.0,
+   "h": 11.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "tight-switch",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__SWITCH3POS",
+   "frames": 3,
+   "param": 31,
+   "orientation": "vertical",
+   "x": 342.0,
+   "y": 189.0,
+   "w": 29.0,
+   "h": 29.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "smooth-switch",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__SWITCH3POS",
+   "frames": 3,
+   "param": 33,
+   "orientation": "vertical",
+   "x": 504.0,
+   "y": 189.0,
+   "w": 29.0,
+   "h": 29.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ngbyp-switch",
+   "kind": "switch",
+   "sprite": "gallien_krueger_800rb__SWITCH",
+   "frames": 2,
+   "param": 28,
+   "orientation": "vertical",
+   "x": 148.0,
+   "y": 189.0,
+   "w": 29.0,
+   "h": 29.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-4",
+   "kind": "filmstrip",
+   "sprite": "gallien_krueger_800rb__LED",
+   "frames": 2,
+   "x": 123.0,
+   "y": 194.0,
+   "w": 8.0,
+   "h": 9.25,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_20000000"
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-tb-rack",
+   "kind": "filmstrip",
+   "frames": 2,
+   "sprite": "J_gallien_krueger_800rb_tb_rack",
+   "x": 710.0,
+   "y": 0,
+   "w": 55.0,
+   "h": 24,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-tb-rack-zone",
+   "kind": "zone",
+   "x": 710.0,
+   "y": 0,
+   "w": 55.0,
+   "h": 24,
+   "action": {
+    "type": "cycleState",
+    "state": "rack",
+    "count": 2
+   }
+  }
+ ],
+ "meterSources": {
+  "led_20000000": {
+   "vendorSpecificFloat": 83886084,
+   "opcode": {
+    "op": 519,
+    "p0": 83886084,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     1.0
+    ],
+    [
+     1e-05,
+     1.0
+    ],
+    [
+     3e-05,
+     0.0
+    ],
+    [
+     100,
+     0.0
+    ]
+   ]
+  }
+ },
+ "states": {
+  "rack": 0
+ }
+}

@@ -1,0 +1,6270 @@
+{
+ "schema": 2,
+ "effectName": "UAD Marshall Silver Jubilee 2555",
+ "namePattern": "Marshall Silver Jubilee 2555",
+ "size": {
+  "w": 1160,
+  "h": 549
+ },
+ "background": null,
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Presence",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "Bass",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 2,
+   "name": "Middle",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "Treble",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "Input Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "Output Master",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "Lead Master",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "Rhythm Clip",
+   "steps": [
+    "Clean",
+    "Clip"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "Channel",
+   "steps": [
+    "Lead",
+    "Normal"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "Output",
+   "steps": [
+    "Low",
+    "High"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 10,
+   "name": "Gate",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "Output Volume",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 12,
+   "name": "Mic",
+   "steps": [
+    "Condense",
+    "Dynamic",
+    "Bypass"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "Level 1",
+   "steps": null,
+   "default": 0.6000000238418579
+  },
+  {
+   "index": 14,
+   "name": "Level 2",
+   "steps": null,
+   "default": 0.6000000238418579
+  },
+  {
+   "index": 15,
+   "name": "Level 3",
+   "steps": null,
+   "default": 0.6000000238418579
+  },
+  {
+   "index": 16,
+   "name": "Level 4",
+   "steps": null,
+   "default": 0.6000000238418579
+  },
+  {
+   "index": 17,
+   "name": "Pan 1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 18,
+   "name": "Pan 2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 19,
+   "name": "Pan 3",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 20,
+   "name": "Pan 4",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 21,
+   "name": "In 1",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 22,
+   "name": "In 2",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 23,
+   "name": "In 3",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 24,
+   "name": "In 4",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 25,
+   "name": "Delay",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 26,
+   "name": "Feedback",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 27,
+   "name": "View",
+   "steps": [
+    "Amp",
+    "Channel "
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 28,
+   "name": "Mode",
+   "steps": [
+    "Bypass",
+    "Active"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "gfx4": {
+   "vendorSpecificFloat": 134217732,
+   "opcode": {
+    "op": 519,
+    "p0": 134217732,
+    "p1": 1
+   },
+   "absolute": true,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0001,
+     0.0
+    ],
+    [
+     0.00017783,
+     0.0625
+    ],
+    [
+     0.00031623,
+     0.125
+    ],
+    [
+     0.00056234,
+     0.1875
+    ],
+    [
+     0.001,
+     0.25
+    ],
+    [
+     0.00177828,
+     0.3125
+    ],
+    [
+     0.00316228,
+     0.375
+    ],
+    [
+     0.00562341,
+     0.4375
+    ],
+    [
+     0.01,
+     0.5
+    ],
+    [
+     0.01778279,
+     0.5625
+    ],
+    [
+     0.03162278,
+     0.625
+    ],
+    [
+     0.05623413,
+     0.6875
+    ],
+    [
+     0.1,
+     0.75
+    ],
+    [
+     0.17782794,
+     0.8125
+    ],
+    [
+     0.31622777,
+     0.875
+    ],
+    [
+     0.56234133,
+     0.9375
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ]
+  }
+ },
+ "elements": [
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 1160,
+   "h": 24,
+   "toolbar": {
+    "family": "softube",
+    "items": [
+     {
+      "type": "switch",
+      "x": 978.0,
+      "y": 6.0,
+      "w": 30,
+      "h": 12,
+      "param": 28,
+      "sprite": "chrome.softube.toggle",
+      "frames": 2,
+      "glyph": "power"
+     },
+     {
+      "type": "gear",
+      "x": 1048.0,
+      "y": 6.5,
+      "w": 11.0,
+      "h": 11.5,
+      "color": "#E5E5E5"
+     },
+     {
+      "type": "rect",
+      "x": 1070.0,
+      "y": 0,
+      "w": 90.0,
+      "h": 24,
+      "color": "#019C74"
+     },
+     {
+      "type": "icon",
+      "x": 1086.0,
+      "y": 6.5,
+      "w": 58.0,
+      "h": 11.0,
+      "sprite": "chrome.softube.logo",
+      "frames": 1,
+      "glyph": "Softube",
+      "color": "#E5F5F0"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-amp-click",
+   "kind": "zone",
+   "x": 0,
+   "y": 24,
+   "w": 1160,
+   "h": 300,
+   "action": {
+    "type": "set",
+    "param": 27,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "panel-background",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 1505,
+   "h": 525,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1000",
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-0-1030",
+   "kind": "knob",
+   "x": 474,
+   "y": 361,
+   "w": 56,
+   "h": 76.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1030",
+   "frames": 120,
+   "param": 0,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-1-1002",
+   "kind": "knob",
+   "x": 530,
+   "y": 361,
+   "w": 56,
+   "h": 76.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1002",
+   "frames": 120,
+   "param": 1,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-2-1022",
+   "kind": "knob",
+   "x": 586,
+   "y": 361,
+   "w": 56,
+   "h": 76.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1022",
+   "frames": 120,
+   "param": 2,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-3-1032",
+   "kind": "knob",
+   "x": 642,
+   "y": 361,
+   "w": 56,
+   "h": 76.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1032",
+   "frames": 120,
+   "param": 3,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-5-1023",
+   "kind": "knob",
+   "x": 698,
+   "y": 361,
+   "w": 56,
+   "h": 76.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1023",
+   "frames": 120,
+   "param": 5,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-6-1019",
+   "kind": "knob",
+   "x": 754,
+   "y": 361,
+   "w": 56,
+   "h": 76.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1019",
+   "frames": 120,
+   "param": 6,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-4-1014",
+   "kind": "knob",
+   "x": 810,
+   "y": 361,
+   "w": 56,
+   "h": 76.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1014",
+   "frames": 120,
+   "param": 4,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-8-1020",
+   "kind": "switch",
+   "x": 742,
+   "y": 357,
+   "w": 20,
+   "h": 20.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1020",
+   "frames": 2,
+   "param": 8,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     8
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-7-1015",
+   "kind": "switch",
+   "x": 798,
+   "y": 405,
+   "w": 20,
+   "h": 20.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1015",
+   "frames": 2,
+   "param": 7,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-ret:1029",
+   "kind": "switch",
+   "x": 79,
+   "y": 341,
+   "w": 75,
+   "h": 90.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1029",
+   "frames": 2,
+   "param": 28,
+   "reverse": true,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-None-1031",
+   "kind": "switch",
+   "x": 154,
+   "y": 360,
+   "w": 44,
+   "h": 52.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1031",
+   "frames": 2,
+   "param": 28,
+   "reverse": true,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-9-1024",
+   "kind": "switch",
+   "x": 212,
+   "y": 360,
+   "w": 44,
+   "h": 52.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1024",
+   "frames": 2,
+   "param": 9,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     9
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-7-1035",
+   "kind": "filmstrip",
+   "x": 828,
+   "y": 382,
+   "w": 17,
+   "h": 17.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1035",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-8-1033",
+   "kind": "filmstrip",
+   "x": 772,
+   "y": 382,
+   "w": 17,
+   "h": 17.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1033",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-0-2",
+   "kind": "zone",
+   "x": 474,
+   "y": 346,
+   "w": 58,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-0-3",
+   "kind": "zone",
+   "x": 486,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-0-4",
+   "kind": "zone",
+   "x": 474,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-0-5",
+   "kind": "zone",
+   "x": 486,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-0-6",
+   "kind": "zone",
+   "x": 509,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-0-7",
+   "kind": "zone",
+   "x": 519,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-0-8",
+   "kind": "zone",
+   "x": 509,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-9",
+   "kind": "zone",
+   "x": 529,
+   "y": 346,
+   "w": 58,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-10",
+   "kind": "zone",
+   "x": 541,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-11",
+   "kind": "zone",
+   "x": 529,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-12",
+   "kind": "zone",
+   "x": 541,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-13",
+   "kind": "zone",
+   "x": 564,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-14",
+   "kind": "zone",
+   "x": 574,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-15",
+   "kind": "zone",
+   "x": 564,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-16",
+   "kind": "zone",
+   "x": 584,
+   "y": 346,
+   "w": 58,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-17",
+   "kind": "zone",
+   "x": 596,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-18",
+   "kind": "zone",
+   "x": 584,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-19",
+   "kind": "zone",
+   "x": 596,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-20",
+   "kind": "zone",
+   "x": 619,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-21",
+   "kind": "zone",
+   "x": 629,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-22",
+   "kind": "zone",
+   "x": 619,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-23",
+   "kind": "zone",
+   "x": 639,
+   "y": 346,
+   "w": 58,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-24",
+   "kind": "zone",
+   "x": 651,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-25",
+   "kind": "zone",
+   "x": 639,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-26",
+   "kind": "zone",
+   "x": 651,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-27",
+   "kind": "zone",
+   "x": 674,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-28",
+   "kind": "zone",
+   "x": 684,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-29",
+   "kind": "zone",
+   "x": 674,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-5-30",
+   "kind": "zone",
+   "x": 694,
+   "y": 346,
+   "w": 58,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-5-31",
+   "kind": "zone",
+   "x": 706,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-5-32",
+   "kind": "zone",
+   "x": 694,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-5-33",
+   "kind": "zone",
+   "x": 706,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-5-34",
+   "kind": "zone",
+   "x": 729,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-5-35",
+   "kind": "zone",
+   "x": 739,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-5-36",
+   "kind": "zone",
+   "x": 729,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "btn-8-37",
+   "kind": "zone",
+   "x": 749,
+   "y": 346,
+   "w": 58,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-6-38",
+   "kind": "zone",
+   "x": 761,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-6-39",
+   "kind": "zone",
+   "x": 749,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-6-40",
+   "kind": "zone",
+   "x": 761,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-6-41",
+   "kind": "zone",
+   "x": 784,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-6-42",
+   "kind": "zone",
+   "x": 794,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-6-43",
+   "kind": "zone",
+   "x": 784,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-4-44",
+   "kind": "zone",
+   "x": 804,
+   "y": 346,
+   "w": 58,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-4-45",
+   "kind": "zone",
+   "x": 816,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-4-46",
+   "kind": "zone",
+   "x": 804,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-4-47",
+   "kind": "zone",
+   "x": 816,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-4-48",
+   "kind": "zone",
+   "x": 839,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-4-49",
+   "kind": "zone",
+   "x": 849,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-4-50",
+   "kind": "zone",
+   "x": 839,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "btn-7-51",
+   "kind": "zone",
+   "x": 811,
+   "y": 413,
+   "w": 54,
+   "h": 17,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "panel-1001",
+   "kind": "image",
+   "x": 800,
+   "y": 24,
+   "w": 705,
+   "h": 525,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1001",
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "drawer-tab",
+   "kind": "zone",
+   "x": 1145,
+   "y": 24,
+   "w": 15,
+   "h": 525,
+   "action": {
+    "type": "toggle",
+    "param": 27
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "panel-background@ch",
+   "kind": "image",
+   "x": -150,
+   "y": 24,
+   "w": 1505,
+   "h": 525,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1000",
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-0-1030@ch",
+   "kind": "knob",
+   "x": 324,
+   "y": 361,
+   "w": 56,
+   "h": 76.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1030",
+   "frames": 120,
+   "param": 0,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-1-1002@ch",
+   "kind": "knob",
+   "x": 380,
+   "y": 361,
+   "w": 56,
+   "h": 76.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1002",
+   "frames": 120,
+   "param": 1,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-2-1022@ch",
+   "kind": "knob",
+   "x": 436,
+   "y": 361,
+   "w": 56,
+   "h": 76.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1022",
+   "frames": 120,
+   "param": 2,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-3-1032@ch",
+   "kind": "knob",
+   "x": 492,
+   "y": 361,
+   "w": 56,
+   "h": 76.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1032",
+   "frames": 120,
+   "param": 3,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-5-1023@ch",
+   "kind": "knob",
+   "x": 548,
+   "y": 361,
+   "w": 56,
+   "h": 76.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1023",
+   "frames": 120,
+   "param": 5,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-6-1019@ch",
+   "kind": "knob",
+   "x": 604,
+   "y": 361,
+   "w": 56,
+   "h": 76.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1019",
+   "frames": 120,
+   "param": 6,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-4-1014@ch",
+   "kind": "knob",
+   "x": 660,
+   "y": 361,
+   "w": 56,
+   "h": 76.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1014",
+   "frames": 120,
+   "param": 4,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-8-1020@ch",
+   "kind": "switch",
+   "x": 592,
+   "y": 357,
+   "w": 20,
+   "h": 20.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1020",
+   "frames": 2,
+   "param": 8,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-7-1015@ch",
+   "kind": "switch",
+   "x": 648,
+   "y": 405,
+   "w": 20,
+   "h": 20.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1015",
+   "frames": 2,
+   "param": 7,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-ret:1029@ch",
+   "kind": "switch",
+   "x": -71,
+   "y": 341,
+   "w": 75,
+   "h": 90.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1029",
+   "frames": 2,
+   "param": 28,
+   "reverse": true,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-None-1031@ch",
+   "kind": "switch",
+   "x": 4,
+   "y": 360,
+   "w": 44,
+   "h": 52.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1031",
+   "frames": 2,
+   "param": 28,
+   "reverse": true,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-9-1024@ch",
+   "kind": "switch",
+   "x": 62,
+   "y": 360,
+   "w": 44,
+   "h": 52.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1024",
+   "frames": 2,
+   "param": 9,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-7-1035@ch",
+   "kind": "filmstrip",
+   "x": 678,
+   "y": 382,
+   "w": 17,
+   "h": 17.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1035",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-8-1033@ch",
+   "kind": "filmstrip",
+   "x": 622,
+   "y": 382,
+   "w": 17,
+   "h": 17.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1033",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-0-2@ch",
+   "kind": "zone",
+   "x": 324,
+   "y": 346,
+   "w": 58,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-0-3@ch",
+   "kind": "zone",
+   "x": 336,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-0-4@ch",
+   "kind": "zone",
+   "x": 324,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-0-5@ch",
+   "kind": "zone",
+   "x": 336,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-0-6@ch",
+   "kind": "zone",
+   "x": 359,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-0-7@ch",
+   "kind": "zone",
+   "x": 369,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-0-8@ch",
+   "kind": "zone",
+   "x": 359,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-9@ch",
+   "kind": "zone",
+   "x": 379,
+   "y": 346,
+   "w": 58,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-10@ch",
+   "kind": "zone",
+   "x": 391,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-11@ch",
+   "kind": "zone",
+   "x": 379,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-12@ch",
+   "kind": "zone",
+   "x": 391,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-13@ch",
+   "kind": "zone",
+   "x": 414,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-14@ch",
+   "kind": "zone",
+   "x": 424,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-15@ch",
+   "kind": "zone",
+   "x": 414,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-16@ch",
+   "kind": "zone",
+   "x": 434,
+   "y": 346,
+   "w": 58,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-17@ch",
+   "kind": "zone",
+   "x": 446,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-18@ch",
+   "kind": "zone",
+   "x": 434,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-19@ch",
+   "kind": "zone",
+   "x": 446,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-20@ch",
+   "kind": "zone",
+   "x": 469,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-21@ch",
+   "kind": "zone",
+   "x": 479,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-22@ch",
+   "kind": "zone",
+   "x": 469,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-23@ch",
+   "kind": "zone",
+   "x": 489,
+   "y": 346,
+   "w": 58,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-24@ch",
+   "kind": "zone",
+   "x": 501,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-25@ch",
+   "kind": "zone",
+   "x": 489,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-26@ch",
+   "kind": "zone",
+   "x": 501,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-27@ch",
+   "kind": "zone",
+   "x": 524,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-28@ch",
+   "kind": "zone",
+   "x": 534,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-29@ch",
+   "kind": "zone",
+   "x": 524,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-5-30@ch",
+   "kind": "zone",
+   "x": 544,
+   "y": 346,
+   "w": 58,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-5-31@ch",
+   "kind": "zone",
+   "x": 556,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-5-32@ch",
+   "kind": "zone",
+   "x": 544,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-5-33@ch",
+   "kind": "zone",
+   "x": 556,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-5-34@ch",
+   "kind": "zone",
+   "x": 579,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-5-35@ch",
+   "kind": "zone",
+   "x": 589,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-5-36@ch",
+   "kind": "zone",
+   "x": 579,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "btn-8-37@ch",
+   "kind": "zone",
+   "x": 599,
+   "y": 346,
+   "w": 58,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-6-38@ch",
+   "kind": "zone",
+   "x": 611,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-6-39@ch",
+   "kind": "zone",
+   "x": 599,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-6-40@ch",
+   "kind": "zone",
+   "x": 611,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-6-41@ch",
+   "kind": "zone",
+   "x": 634,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-6-42@ch",
+   "kind": "zone",
+   "x": 644,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-6-43@ch",
+   "kind": "zone",
+   "x": 634,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-4-44@ch",
+   "kind": "zone",
+   "x": 654,
+   "y": 346,
+   "w": 58,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-4-45@ch",
+   "kind": "zone",
+   "x": 666,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-4-46@ch",
+   "kind": "zone",
+   "x": 654,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-4-47@ch",
+   "kind": "zone",
+   "x": 666,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-4-48@ch",
+   "kind": "zone",
+   "x": 689,
+   "y": 361,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-4-49@ch",
+   "kind": "zone",
+   "x": 699,
+   "y": 384,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-4-50@ch",
+   "kind": "zone",
+   "x": 689,
+   "y": 406,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "btn-7-51@ch",
+   "kind": "zone",
+   "x": 661,
+   "y": 413,
+   "w": 54,
+   "h": 17,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "panel-1001@ch",
+   "kind": "image",
+   "x": 456,
+   "y": 24,
+   "w": 705,
+   "h": 525,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1001",
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "slider-13-1005@ch",
+   "kind": "knob",
+   "x": 827,
+   "y": 347,
+   "w": 58,
+   "h": 209,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1005_slider",
+   "frames": 81,
+   "param": 13,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "slider-14-1006@ch",
+   "kind": "knob",
+   "x": 908,
+   "y": 347,
+   "w": 58,
+   "h": 209,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1006_slider",
+   "frames": 81,
+   "param": 14,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "slider-15-1007@ch",
+   "kind": "knob",
+   "x": 987,
+   "y": 347,
+   "w": 58,
+   "h": 209,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1007_slider",
+   "frames": 81,
+   "param": 15,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "slider-16-1008@ch",
+   "kind": "knob",
+   "x": 1068,
+   "y": 347,
+   "w": 58,
+   "h": 209,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1008_slider",
+   "frames": 81,
+   "param": 16,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "slider-25-1004@ch",
+   "kind": "knob",
+   "x": 1067,
+   "y": 54,
+   "w": 58,
+   "h": 192,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1004_slider",
+   "frames": 81,
+   "param": 25,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-10-1016@ch",
+   "kind": "knob",
+   "x": 844,
+   "y": 76,
+   "w": 56,
+   "h": 56.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1016",
+   "frames": 120,
+   "param": 10,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-11-1021@ch",
+   "kind": "knob",
+   "x": 913,
+   "y": 65,
+   "w": 77,
+   "h": 77.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1021",
+   "frames": 100,
+   "param": 11,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-26-1009@ch",
+   "kind": "knob",
+   "x": 1014,
+   "y": 76,
+   "w": 56,
+   "h": 56.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1009",
+   "frames": 120,
+   "param": 26,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-17-1025@ch",
+   "kind": "knob",
+   "x": 835,
+   "y": 209,
+   "w": 56,
+   "h": 56.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1025",
+   "frames": 100,
+   "param": 17,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-18-1026@ch",
+   "kind": "knob",
+   "x": 915,
+   "y": 209,
+   "w": 56,
+   "h": 56.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1026",
+   "frames": 100,
+   "param": 18,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-19-1027@ch",
+   "kind": "knob",
+   "x": 995,
+   "y": 209,
+   "w": 56,
+   "h": 56.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1027",
+   "frames": 100,
+   "param": 19,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-20-1028@ch",
+   "kind": "knob",
+   "x": 1076,
+   "y": 209,
+   "w": 56,
+   "h": 56.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1028",
+   "frames": 100,
+   "param": 20,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-21-1010@ch",
+   "kind": "switch",
+   "x": 849,
+   "y": 277,
+   "w": 30,
+   "h": 22.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1010",
+   "frames": 2,
+   "param": 21,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-22-1011@ch",
+   "kind": "switch",
+   "x": 929,
+   "y": 277,
+   "w": 30,
+   "h": 22.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1011",
+   "frames": 2,
+   "param": 22,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-23-1012@ch",
+   "kind": "switch",
+   "x": 1009,
+   "y": 277,
+   "w": 30,
+   "h": 22.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1012",
+   "frames": 2,
+   "param": 23,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-24-1013@ch",
+   "kind": "switch",
+   "x": 1089,
+   "y": 277,
+   "w": 30,
+   "h": 22.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1013",
+   "frames": 2,
+   "param": 24,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-12-1003@ch",
+   "kind": "switch",
+   "x": 861,
+   "y": 181,
+   "w": 90,
+   "h": 22.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1003",
+   "frames": 3,
+   "param": 12,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-6-1018@ch",
+   "kind": "filmstrip",
+   "x": 823,
+   "y": 308,
+   "w": 320,
+   "h": 42.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1018",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 12
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-4-1017@ch",
+   "kind": "filmstrip",
+   "x": 888,
+   "y": 116,
+   "w": 19,
+   "h": 19.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1017",
+   "frames": 21,
+   "frameSource": {
+    "type": "meter",
+    "meter": "gfx4"
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-9-1034@ch",
+   "kind": "filmstrip",
+   "x": 943,
+   "y": 92,
+   "w": 17,
+   "h": 17.0,
+   "sprite": "STB_Marshall_Silver_Jubilee_2555_1034",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-13-52@ch",
+   "kind": "zone",
+   "x": 825,
+   "y": 530,
+   "w": 66,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 13,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-53@ch",
+   "kind": "zone",
+   "x": 905,
+   "y": 530,
+   "w": 66,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-54@ch",
+   "kind": "zone",
+   "x": 985,
+   "y": 530,
+   "w": 66,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-55@ch",
+   "kind": "zone",
+   "x": 1065,
+   "y": 530,
+   "w": 66,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-10-56@ch",
+   "kind": "zone",
+   "x": 854,
+   "y": 133,
+   "w": 18,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-10-57@ch",
+   "kind": "zone",
+   "x": 864,
+   "y": 145,
+   "w": 42,
+   "h": 21,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-11-58@ch",
+   "kind": "zone",
+   "x": 927,
+   "y": 136,
+   "w": 12,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-11-59@ch",
+   "kind": "zone",
+   "x": 913,
+   "y": 111,
+   "w": 12,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-11-60@ch",
+   "kind": "zone",
+   "x": 924,
+   "y": 90,
+   "w": 12,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.35
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-11-61@ch",
+   "kind": "zone",
+   "x": 943,
+   "y": 79,
+   "w": 18,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-11-62@ch",
+   "kind": "zone",
+   "x": 968,
+   "y": 90,
+   "w": 12,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.65
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-11-63@ch",
+   "kind": "zone",
+   "x": 976,
+   "y": 111,
+   "w": 12,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-11-64@ch",
+   "kind": "zone",
+   "x": 964,
+   "y": 135,
+   "w": 24,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-11-65@ch",
+   "kind": "zone",
+   "x": 933,
+   "y": 145,
+   "w": 42,
+   "h": 21,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-26-66@ch",
+   "kind": "zone",
+   "x": 1024,
+   "y": 133,
+   "w": 12,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 26,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-26-67@ch",
+   "kind": "zone",
+   "x": 1068,
+   "y": 133,
+   "w": 12,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 26,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-26-68@ch",
+   "kind": "zone",
+   "x": 1029,
+   "y": 145,
+   "w": 52,
+   "h": 21,
+   "action": {
+    "type": "set",
+    "param": 26,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-17-69@ch",
+   "kind": "zone",
+   "x": 841,
+   "y": 255,
+   "w": 12,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 17,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-17-70@ch",
+   "kind": "zone",
+   "x": 876,
+   "y": 255,
+   "w": 12,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 17,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-17-71@ch",
+   "kind": "zone",
+   "x": 851,
+   "y": 260,
+   "w": 22,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 17,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-18-72@ch",
+   "kind": "zone",
+   "x": 921,
+   "y": 255,
+   "w": 12,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 18,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-18-73@ch",
+   "kind": "zone",
+   "x": 956,
+   "y": 255,
+   "w": 12,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 18,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-18-74@ch",
+   "kind": "zone",
+   "x": 931,
+   "y": 260,
+   "w": 22,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 18,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-75@ch",
+   "kind": "zone",
+   "x": 1001,
+   "y": 255,
+   "w": 12,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-76@ch",
+   "kind": "zone",
+   "x": 1036,
+   "y": 255,
+   "w": 12,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-77@ch",
+   "kind": "zone",
+   "x": 1011,
+   "y": 260,
+   "w": 22,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-20-78@ch",
+   "kind": "zone",
+   "x": 1082,
+   "y": 255,
+   "w": 12,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 20,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-20-79@ch",
+   "kind": "zone",
+   "x": 1117,
+   "y": 255,
+   "w": 12,
+   "h": 12,
+   "action": {
+    "type": "set",
+    "param": 20,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-20-80@ch",
+   "kind": "zone",
+   "x": 1092,
+   "y": 260,
+   "w": 22,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 20,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-12-81@ch",
+   "kind": "zone",
+   "x": 860,
+   "y": 180,
+   "w": 30,
+   "h": 26,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-12-82@ch",
+   "kind": "zone",
+   "x": 890,
+   "y": 180,
+   "w": 30,
+   "h": 26,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-12-83@ch",
+   "kind": "zone",
+   "x": 920,
+   "y": 180,
+   "w": 30,
+   "h": 26,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "drawer-tab@ch",
+   "kind": "zone",
+   "x": 801,
+   "y": 24,
+   "w": 15,
+   "h": 525,
+   "action": {
+    "type": "toggle",
+    "param": 27
+   },
+   "visibility": {
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  }
+ ]
+}

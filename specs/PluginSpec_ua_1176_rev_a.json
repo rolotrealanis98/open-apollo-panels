@@ -1,0 +1,721 @@
+{
+ "schema": 2,
+ "effectName": "UAD UA 1176 Rev A",
+ "namePattern": "UA 1176 Rev A",
+ "size": {
+  "w": 950,
+  "h": 175
+ },
+ "background": "UA_1176RevA_panel",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Input",
+   "steps": null,
+   "default": 0.135009765625
+  },
+  {
+   "index": 1,
+   "name": "Output",
+   "steps": null,
+   "default": 0.691741943359375
+  },
+  {
+   "index": 2,
+   "name": "Attack",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "Release",
+   "steps": null,
+   "default": 0.66595458984375
+  },
+  {
+   "index": 4,
+   "name": "Ratio",
+   "steps": [
+    "None",
+    "4:1",
+    "8:1",
+    "12:1",
+    "20:1",
+    "4:1+8:1",
+    "8:1+12:1",
+    "12:1+20:1",
+    "4:1+12:1",
+    "8:1+20:1",
+    "4:1+20:1"
+   ],
+   "default": 0.1000000014901161
+  },
+  {
+   "index": 5,
+   "name": "Meter",
+   "steps": [
+    "OFF",
+    "+4",
+    "+8",
+    "GR"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 6,
+   "name": "SC Filter",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "Mix",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 8,
+   "name": "Headroom",
+   "steps": [
+    "4 dB",
+    "8 dB",
+    "12 dB",
+    "16 dB",
+    "20 dB",
+    "24 dB",
+    "28 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 9,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "vu": {
+   "vendorSpecificFloat": 162,
+   "smoothing": 0.7,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.058146,
+     0.055
+    ],
+    [
+     0.211467,
+     0.167
+    ],
+    [
+     0.311693,
+     0.261
+    ],
+    [
+     0.39,
+     0.347
+    ],
+    [
+     0.482896,
+     0.454
+    ],
+    [
+     0.539307,
+     0.517
+    ],
+    [
+     0.599225,
+     0.592
+    ],
+    [
+     0.663324,
+     0.673
+    ],
+    [
+     0.746947,
+     0.764
+    ],
+    [
+     0.838546,
+     0.853
+    ],
+    [
+     1.14499,
+     0.947
+    ],
+    [
+     2.292176,
+     1.0
+    ]
+   ]
+  }
+ },
+ "elements": [
+  {
+   "id": "input-knob",
+   "x": 91,
+   "y": 42,
+   "w": 90,
+   "h": 90,
+   "kind": "knob",
+   "param": 0,
+   "sprite": "UA_1176RevA_knob_INPUT-OUTPUT",
+   "frames": 109
+  },
+  {
+   "id": "headroom-label",
+   "x": 223,
+   "y": 33,
+   "w": 16,
+   "h": 9,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "headroom_increase-label",
+   "x": 215.0,
+   "y": 44.0,
+   "w": 10.0,
+   "h": 10.0,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "nudge",
+    "param": 8,
+    "delta": -0.1667
+   }
+  },
+  {
+   "id": "headroom-knob",
+   "x": 224,
+   "y": 42,
+   "w": 14,
+   "h": 14,
+   "kind": "knob",
+   "param": 8,
+   "sprite": "UA_1176_trimpot_HEADROOM",
+   "frames": 7
+  },
+  {
+   "id": "headroom_decrease-label",
+   "x": 237.0,
+   "y": 44.0,
+   "w": 10.0,
+   "h": 10.0,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "nudge",
+    "param": 8,
+    "delta": 0.1667
+   }
+  },
+  {
+   "id": "mix-label",
+   "x": 223,
+   "y": 109,
+   "w": 16,
+   "h": 9,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "mix_decrease-label",
+   "x": 215.0,
+   "y": 120.0,
+   "w": 10.0,
+   "h": 10.0,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "nudge",
+    "param": 7,
+    "delta": -0.1
+   }
+  },
+  {
+   "id": "mix-knob",
+   "x": 224,
+   "y": 118,
+   "w": 14,
+   "h": 14,
+   "kind": "knob",
+   "param": 7,
+   "sprite": "UA_1176_trimpot_MIX",
+   "frames": 101
+  },
+  {
+   "id": "mix_increase-label",
+   "x": 237.0,
+   "y": 120.0,
+   "w": 10.0,
+   "h": 10.0,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "nudge",
+    "param": 7,
+    "delta": 0.1
+   }
+  },
+  {
+   "id": "output-knob",
+   "x": 278,
+   "y": 42,
+   "w": 90,
+   "h": 90,
+   "kind": "knob",
+   "param": 1,
+   "sprite": "UA_1176RevA_knob_INPUT-OUTPUT",
+   "frames": 109
+  },
+  {
+   "id": "attack-knob-hidden",
+   "x": 445,
+   "y": 19,
+   "w": 60,
+   "h": 60,
+   "opacity": 0,
+   "kind": "knob",
+   "param": null,
+   "sprite": "UA_1176_knob_ATTACK",
+   "frames": 102
+  },
+  {
+   "id": "attack-knob",
+   "x": 445,
+   "y": 19,
+   "w": 60,
+   "h": 60,
+   "kind": "knob",
+   "param": 2,
+   "sprite": "UA_1176_knob_ATTACK",
+   "frames": 102
+  },
+  {
+   "id": "attack_off-label",
+   "x": 464.0,
+   "y": 74.0,
+   "w": 22.0,
+   "h": 13.0,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "nudge",
+    "param": 2,
+    "delta": 0.5
+   }
+  },
+  {
+   "id": "release-knob",
+   "x": 445,
+   "y": 95,
+   "w": 60,
+   "h": 60,
+   "kind": "knob",
+   "param": 3,
+   "sprite": "UA_1176_knob_RELEASE",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "sc_filter-button",
+   "x": 467,
+   "y": 141,
+   "w": 16,
+   "h": 16,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "toggle",
+    "param": 6
+   }
+  },
+  {
+   "id": "release-label",
+   "x": 455,
+   "y": 157,
+   "w": 39,
+   "h": 12,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "toggle",
+    "param": 6
+   }
+  },
+  {
+   "id": "sc_filter-knob",
+   "x": 445,
+   "y": 95,
+   "w": 60,
+   "h": 60,
+   "opacity": 0,
+   "kind": "knob",
+   "param": 3,
+   "sprite": "UA_1176_knob_SC-FILTER",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ratio_buttons-film",
+   "x": 575,
+   "y": 13,
+   "w": 45,
+   "h": 143,
+   "kind": "filmstrip",
+   "sprite": "UA_1176_buttons_RATIO-A",
+   "frames": 16,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.1
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.2
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.3
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.4
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       0.6
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.7
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.8
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.9
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       1
+      ],
+      "frame": 15
+     }
+    ]
+   }
+  },
+  {
+   "id": "ratio_20-button",
+   "x": 589,
+   "y": 25,
+   "w": 17,
+   "h": 30,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "ratio_12-button",
+   "x": 589,
+   "y": 56,
+   "w": 17,
+   "h": 30,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "ratio_8-button",
+   "x": 589,
+   "y": 85,
+   "w": 17,
+   "h": 30,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "ratio_4-button",
+   "x": 589,
+   "y": 114,
+   "w": 17,
+   "h": 30,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "power_led-film",
+   "x": 700,
+   "y": 6,
+   "w": 32,
+   "h": 32,
+   "kind": "filmstrip",
+   "sprite": "UA_1176RevA_lamp",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     5,
+     9
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.3333333333333333,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.3333333333333333,
+       1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.6666666666666666,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6666666666666666,
+       1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "vu_meter_needle-film",
+   "x": 651,
+   "y": 43,
+   "w": 130,
+   "h": 66,
+   "kind": "filmstrip",
+   "sprite": "UA_1176RevA_meter_POINTER",
+   "frames": 104,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu",
+    "channel": 0
+   }
+  },
+  {
+   "id": "meter_buttons-film",
+   "x": 812,
+   "y": 13,
+   "w": 45,
+   "h": 143,
+   "kind": "filmstrip",
+   "sprite": "UA_1176_buttons_METER-A",
+   "frames": 4,
+   "reverse": true,
+   "frameSource": {
+    "type": "param",
+    "param": 5
+   }
+  },
+  {
+   "id": "meter_gr-button",
+   "x": 826,
+   "y": 25,
+   "w": 17,
+   "h": 30,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "meter_8-button",
+   "x": 826,
+   "y": 55,
+   "w": 17,
+   "h": 30,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.666667
+   }
+  },
+  {
+   "id": "meter_4-button",
+   "x": 826,
+   "y": 85,
+   "w": 17,
+   "h": 30,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.333333
+   }
+  },
+  {
+   "id": "meter_off-button",
+   "x": 826,
+   "y": 114,
+   "w": 17,
+   "h": 30,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   }
+  }
+ ],
+ "panelless": [
+  9
+ ]
+}

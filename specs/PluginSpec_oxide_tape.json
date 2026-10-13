@@ -1,0 +1,591 @@
+{
+ "schema": 2,
+ "effectName": "UAD Oxide Tape",
+ "namePattern": "Oxide Tape",
+ "size": {
+  "w": 645,
+  "h": 345
+ },
+ "background": "UA_OXIDE_background_on",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Input Level",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "Output Level",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 2,
+   "name": "Path Select",
+   "steps": [
+    "Input",
+    "Repro"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 3,
+   "name": "IPS",
+   "steps": [
+    "7.5 IPS",
+    "15 IPS"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 4,
+   "name": "Emphasis EQ",
+   "steps": [
+    "NAB",
+    "CCIR"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Noise Reduct",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 6,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "vu_meter": {
+   "vendorSpecificFloat": 11,
+   "calibration": [
+    [
+     -3e-06,
+     0.0
+    ],
+    [
+     0.075453,
+     0.0625
+    ],
+    [
+     0.222828,
+     0.2031
+    ],
+    [
+     0.328676,
+     0.3281
+    ],
+    [
+     0.422687,
+     0.4219
+    ],
+    [
+     0.499823,
+     0.5
+    ],
+    [
+     0.657964,
+     0.6406
+    ],
+    [
+     0.715409,
+     0.7188
+    ],
+    [
+     0.820189,
+     0.7969
+    ],
+    [
+     0.914095,
+     0.9062
+    ],
+    [
+     1.019402,
+     0.9844
+    ],
+    [
+     3.311405,
+     1.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 11,
+    "p1": 1
+   }
+  }
+ },
+ "elements": [
+  {
+   "id": "background-off",
+   "kind": "image",
+   "x": 0,
+   "y": 0,
+   "w": 645,
+   "h": 345,
+   "sprite": "UA_OXIDE_background_off",
+   "visibility": {
+    "params": [
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "ips",
+   "x": 91,
+   "y": 275,
+   "w": 24,
+   "h": 41,
+   "kind": "switch",
+   "param": 3,
+   "sprite": "UA_OXIDE_switch_toggle",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "emphasis_eq",
+   "x": 128,
+   "y": 275,
+   "w": 24,
+   "h": 41,
+   "kind": "switch",
+   "param": 4,
+   "sprite": "UA_OXIDE_switch_toggle",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "noise_reduct",
+   "x": 165,
+   "y": 275,
+   "w": 24,
+   "h": 41,
+   "kind": "switch",
+   "param": 5,
+   "sprite": "UA_OXIDE_switch_toggle",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "power",
+   "x": 551,
+   "y": 275,
+   "w": 24,
+   "h": 41,
+   "kind": "switch",
+   "param": 6,
+   "sprite": "UA_OXIDE_switch_toggle",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "input_level",
+   "x": 198,
+   "y": 270,
+   "w": 55,
+   "h": 55,
+   "kind": "knob",
+   "param": 0,
+   "sprite": "UA_OXIDE_knob",
+   "frames": 109
+  },
+  {
+   "id": "output_level",
+   "x": 394,
+   "y": 270,
+   "w": 55,
+   "h": 55,
+   "kind": "knob",
+   "param": 1,
+   "sprite": "UA_OXIDE_knob",
+   "frames": 109
+  },
+  {
+   "id": "input",
+   "x": 454,
+   "y": 273,
+   "w": 45,
+   "h": 48,
+   "kind": "switch",
+   "param": 2,
+   "sprite": "UA_OXIDE_switch_input",
+   "frames": 4,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.0
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     6,
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "input-off",
+   "kind": "filmstrip",
+   "x": 454,
+   "y": 273,
+   "w": 45,
+   "h": 48,
+   "sprite": "UA_OXIDE_switch_input",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "repro",
+   "x": 499,
+   "y": 273,
+   "w": 45,
+   "h": 48,
+   "kind": "switch",
+   "param": 2,
+   "sprite": "UA_OXIDE_switch_repro",
+   "frames": 4,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 1.0
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     6,
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 2
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "repro-off",
+   "kind": "filmstrip",
+   "x": 499,
+   "y": 273,
+   "w": 45,
+   "h": 48,
+   "sprite": "UA_OXIDE_switch_repro",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "vu_meter",
+   "x": 274,
+   "y": 273,
+   "w": 91,
+   "h": 48,
+   "kind": "filmstrip",
+   "sprite": "UA_OXIDE_meter_needle",
+   "frames": 65,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu_meter",
+    "channel": 0
+   }
+  },
+  {
+   "id": "input_level-rtz",
+   "x": 217,
+   "y": 259,
+   "w": 12,
+   "h": 11,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "output_level-rtz",
+   "x": 413,
+   "y": 259,
+   "w": 12,
+   "h": 11,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "power-hidden",
+   "x": 582,
+   "y": 284,
+   "w": 37,
+   "h": 23,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "toggle",
+    "param": 6
+   }
+  },
+  {
+   "id": "input_level-label",
+   "x": 207,
+   "y": 322,
+   "w": 32,
+   "h": 11,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "output_level-label",
+   "x": 403,
+   "y": 322,
+   "w": 32,
+   "h": 11,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "input_level-min",
+   "x": 192,
+   "y": 312,
+   "w": 12,
+   "h": 11,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "input_level-max",
+   "x": 241,
+   "y": 312,
+   "w": 12,
+   "h": 11,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "output_level-min",
+   "x": 388,
+   "y": 312,
+   "w": 12,
+   "h": 11,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "output_level-max",
+   "x": 437,
+   "y": 312,
+   "w": 12,
+   "h": 11,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 1.0
+   }
+  }
+ ]
+}

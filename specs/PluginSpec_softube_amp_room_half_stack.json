@@ -1,0 +1,329 @@
+{
+ "schema": 2,
+ "effectName": "UAD Softube Amp Room Half-Stack",
+ "namePattern": "Softube Amp Room Half-Stack",
+ "size": {
+  "w": 480,
+  "h": 664
+ },
+ "background": null,
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Presence (White)",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "Bass (White)",
+   "steps": null,
+   "default": 0.5099999904632568
+  },
+  {
+   "index": 2,
+   "name": "Middle (White)",
+   "steps": null,
+   "default": 0.119999997317791
+  },
+  {
+   "index": 3,
+   "name": "Treble (White)",
+   "steps": null,
+   "default": 0.4900000095367432
+  },
+  {
+   "index": 4,
+   "name": "Master Vol (White)",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 5,
+   "name": "Preamp Vol (White)",
+   "steps": null,
+   "default": 0.02999999932944775
+  },
+  {
+   "index": 6,
+   "name": "Microphone (White)",
+   "steps": null,
+   "default": 0.4000000059604645
+  },
+  {
+   "index": 7,
+   "name": "Amp Cab Bypass",
+   "steps": [
+    "OFF",
+    "AMP",
+    "CAB"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "Mode",
+   "steps": [
+    "Bypass",
+    "Active"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {},
+ "elements": [
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 480,
+   "h": 24,
+   "toolbar": {
+    "family": "softube",
+    "items": [
+     {
+      "type": "switch",
+      "x": 367.0,
+      "y": 6.0,
+      "w": 30,
+      "h": 12,
+      "param": 8,
+      "sprite": "chrome.softube.toggle",
+      "frames": 2,
+      "glyph": "power"
+     },
+     {
+      "type": "gear",
+      "x": 435.0,
+      "y": 6.5,
+      "w": 11.0,
+      "h": 11.5,
+      "color": "#E5E5E5"
+     },
+     {
+      "type": "rect",
+      "x": 455.0,
+      "y": 0,
+      "w": 25.0,
+      "h": 24,
+      "color": "#019C74"
+     },
+     {
+      "type": "icon",
+      "x": 461.0,
+      "y": 5.0,
+      "w": 13.5,
+      "h": 13.5,
+      "sprite": "chrome.softube.smiley",
+      "frames": 1,
+      "glyph": "",
+      "color": "#E5F5F0"
+     }
+    ]
+   }
+  },
+  {
+   "id": "room-0",
+   "kind": "image",
+   "x": 0,
+   "y": 134,
+   "w": 480,
+   "h": 530,
+   "sprite": "K_HalfStack_room0"
+  },
+  {
+   "id": "lamp0-s0",
+   "kind": "image",
+   "x": 104,
+   "y": 259,
+   "w": 24,
+   "h": 24,
+   "sprite": "K_HalfStack_lamp0"
+  },
+  {
+   "id": "mic-6-s0",
+   "kind": "knob",
+   "x": 179,
+   "y": 271,
+   "w": 301,
+   "h": 393,
+   "sprite": "K_HalfStack_mic6_s0",
+   "frames": 65,
+   "param": 6
+  },
+  {
+   "id": "header-0",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 480,
+   "h": 110,
+   "sprite": "K_HalfStack_hdr0"
+  },
+  {
+   "id": "knob-0-1003",
+   "kind": "knob",
+   "x": 34,
+   "y": 66,
+   "w": 33,
+   "h": 33,
+   "sprite": "STB_Softube_Amp_Room_Half_Stack_1003_cells",
+   "frames": 100,
+   "param": 0
+  },
+  {
+   "id": "knob-1-1003",
+   "kind": "knob",
+   "x": 102,
+   "y": 66,
+   "w": 33,
+   "h": 33,
+   "sprite": "STB_Softube_Amp_Room_Half_Stack_1003_cells",
+   "frames": 100,
+   "param": 1
+  },
+  {
+   "id": "knob-2-1003",
+   "kind": "knob",
+   "x": 168,
+   "y": 66,
+   "w": 33,
+   "h": 33,
+   "sprite": "STB_Softube_Amp_Room_Half_Stack_1003_cells",
+   "frames": 100,
+   "param": 2
+  },
+  {
+   "id": "knob-3-1003",
+   "kind": "knob",
+   "x": 233,
+   "y": 66,
+   "w": 33,
+   "h": 33,
+   "sprite": "STB_Softube_Amp_Room_Half_Stack_1003_cells",
+   "frames": 100,
+   "param": 3
+  },
+  {
+   "id": "knob-4-1003",
+   "kind": "knob",
+   "x": 301,
+   "y": 66,
+   "w": 33,
+   "h": 33,
+   "sprite": "STB_Softube_Amp_Room_Half_Stack_1003_cells",
+   "frames": 100,
+   "param": 4
+  },
+  {
+   "id": "knob-5-1003",
+   "kind": "knob",
+   "x": 364,
+   "y": 66,
+   "w": 33,
+   "h": 33,
+   "sprite": "STB_Softube_Amp_Room_Half_Stack_1003_cells",
+   "frames": 100,
+   "param": 5
+  },
+  {
+   "id": "bypass-0",
+   "kind": "filmstrip",
+   "x": 392,
+   "y": 604,
+   "w": 88,
+   "h": 16,
+   "sprite": "K_HalfStack_bypass0",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     7
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "bypass-0-zone",
+   "kind": "zone",
+   "x": 392,
+   "y": 604,
+   "w": 88,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "bypass-1",
+   "kind": "filmstrip",
+   "x": 392,
+   "y": 620,
+   "w": 88,
+   "h": 16,
+   "sprite": "K_HalfStack_bypass1",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     7
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bypass-1-zone",
+   "kind": "zone",
+   "x": 392,
+   "y": 620,
+   "w": 88,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 1.0
+   }
+  }
+ ]
+}

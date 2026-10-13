@@ -1,0 +1,312 @@
+{
+ "schema": 2,
+ "effectName": "UAD Neve 31102SE",
+ "namePattern": "Neve 31102SE",
+ "size": {
+  "w": 545,
+  "h": 110
+ },
+ "background": "neve_31102se_6614",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "InputGain",
+   "steps": null,
+   "default": 0.620452880859375
+  },
+  {
+   "index": 1,
+   "name": "HiFreq",
+   "steps": [
+    "OFF",
+    "16.0 k",
+    "12.0 k",
+    "10.0 k"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "HiGain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "MidFreq",
+   "steps": [
+    "OFF",
+    "350 Hz",
+    "700 Hz",
+    "1.60 k",
+    "3.20 k",
+    "4.80 k",
+    "7.20 k"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "MidGain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "HiQ",
+   "steps": [
+    "Normal",
+    "High"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "LoFreq",
+   "steps": [
+    "OFF",
+    "35.0 Hz",
+    "60.0 Hz",
+    "110 Hz",
+    "220 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "LoGain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 8,
+   "name": "LoCut",
+   "steps": [
+    "OFF",
+    "45.0 Hz",
+    "70.0 Hz",
+    "160 Hz",
+    "360 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "HiCut",
+   "steps": [
+    "6.00 k",
+    "8.00 k",
+    "10.0 k",
+    "14.0 k",
+    "18.0 k",
+    "OFF"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 10,
+   "name": "Phase",
+   "steps": [
+    "Normal",
+    "Inverted"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "EQL",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-inputgain",
+   "x": 19,
+   "y": 19,
+   "w": 85,
+   "h": 82,
+   "sprite": "neve_31102se_6601",
+   "frames": 66,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "knob-2-hifreq",
+   "x": 106,
+   "y": 19,
+   "w": 77,
+   "h": 82,
+   "sprite": "neve_31102se_6602",
+   "frames": 4,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "knob-3-higain",
+   "x": 119,
+   "y": 33,
+   "w": 43,
+   "h": 43,
+   "sprite": "neve_31102se_6606",
+   "frames": 61,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "knob-4-midfreq",
+   "x": 209,
+   "y": 19,
+   "w": 92,
+   "h": 82,
+   "sprite": "neve_31102se_6603",
+   "frames": 7,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "knob-5-midgain",
+   "x": 229,
+   "y": 33,
+   "w": 43,
+   "h": 43,
+   "sprite": "neve_31102se_6607",
+   "frames": 61,
+   "kind": "knob",
+   "param": 4
+  },
+  {
+   "id": "knob-6-lofreq",
+   "x": 312,
+   "y": 19,
+   "w": 79,
+   "h": 82,
+   "sprite": "neve_31102se_6604",
+   "frames": 5,
+   "kind": "knob",
+   "param": 6
+  },
+  {
+   "id": "knob-7-logain",
+   "x": 325,
+   "y": 33,
+   "w": 43,
+   "h": 43,
+   "sprite": "neve_31102se_6608",
+   "frames": 61,
+   "kind": "knob",
+   "param": 7
+  },
+  {
+   "id": "knob-8-locut",
+   "x": 392,
+   "y": 19,
+   "w": 84,
+   "h": 82,
+   "sprite": "neve_31102se_6605",
+   "frames": 5,
+   "kind": "knob",
+   "param": 8
+  },
+  {
+   "id": "knob-9-hicut",
+   "x": 420,
+   "y": 33,
+   "w": 51,
+   "h": 43,
+   "sprite": "neve_31102se_6609",
+   "frames": 6,
+   "kind": "knob",
+   "param": 9
+  },
+  {
+   "id": "P-eql-phase",
+   "kind": "filmstrip",
+   "x": 484,
+   "y": 17,
+   "w": 33,
+   "h": 85,
+   "sprite": "P_neve_31102se_eqlphase",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     10,
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-10-eql",
+   "kind": "zone",
+   "x": 486,
+   "y": 54,
+   "w": 19,
+   "h": 35,
+   "param": 11,
+   "action": {
+    "type": "toggle",
+    "param": 11
+   }
+  },
+  {
+   "id": "zone-11-phase",
+   "kind": "zone",
+   "x": 486,
+   "y": 19,
+   "w": 19,
+   "h": 35,
+   "param": 10,
+   "action": {
+    "type": "toggle",
+    "param": 10
+   }
+  },
+  {
+   "id": "switch-12-hiq",
+   "kind": "switch",
+   "x": 183,
+   "y": 40,
+   "w": 26,
+   "h": 36,
+   "sprite": "neve_31102se_6610_10",
+   "frames": 2,
+   "param": 5,
+   "orientation": "vertical"
+  }
+ ],
+ "meterSources": {}
+}

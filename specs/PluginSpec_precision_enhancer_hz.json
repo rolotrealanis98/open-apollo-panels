@@ -1,0 +1,831 @@
+{
+ "schema": 2,
+ "effectName": "UAD Precision Enhancer Hz",
+ "namePattern": "Precision Enhancer Hz",
+ "size": {
+  "w": 720,
+  "h": 65
+ },
+ "background": "precision_enhancer_hz_6928",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Effect",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Solo Effect",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Mode",
+   "steps": [
+    "A Bass1",
+    "B Bass2",
+    "C Synth",
+    "D Kick",
+    "All Efx"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Slope",
+   "steps": [
+    "6 dB/oct",
+    "12 dB/oct",
+    "24 dB/oct",
+    "36 dB/oct"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 4,
+   "name": "Hz Freq",
+   "steps": null,
+   "default": 0.7882080078125
+  },
+  {
+   "index": 5,
+   "name": "Solo Hz Freq",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "Output",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 7,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-effect",
+   "x": 75,
+   "y": 10,
+   "w": 46,
+   "h": 48,
+   "sprite": "precision_enhancer_hz_5601",
+   "frames": 41,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "text-2-effect",
+   "kind": "text",
+   "x": 126,
+   "y": 22,
+   "w": 47,
+   "h": 13,
+   "param": 0,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "filmstrip-3-internal19",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter0"
+   },
+   "x": 54,
+   "y": 6,
+   "w": 15,
+   "h": 53,
+   "sprite": "precision_enhancer_hz_5503",
+   "frames": 17
+  },
+  {
+   "id": "knob-4-hz_freq",
+   "x": 279,
+   "y": 10,
+   "w": 46,
+   "h": 48,
+   "sprite": "precision_enhancer_hz_5601",
+   "frames": 41,
+   "kind": "knob",
+   "param": 4
+  },
+  {
+   "id": "text-5-hz_freq",
+   "kind": "text",
+   "x": 330,
+   "y": 22,
+   "w": 47,
+   "h": 13,
+   "param": 4,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "knob-6-output",
+   "x": 394,
+   "y": 10,
+   "w": 46,
+   "h": 48,
+   "sprite": "precision_enhancer_hz_5601",
+   "frames": 41,
+   "kind": "knob",
+   "param": 6
+  },
+  {
+   "id": "text-7-output",
+   "kind": "text",
+   "x": 445,
+   "y": 22,
+   "w": 47,
+   "h": 13,
+   "param": 6,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "switch-8-power",
+   "kind": "switch",
+   "x": 630,
+   "y": 4,
+   "w": 54,
+   "h": 34,
+   "sprite": "precision_enhancer_hz_5510_3",
+   "frames": 2,
+   "param": 7,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-9-power",
+   "x": 640,
+   "y": 40,
+   "w": 38,
+   "h": 24,
+   "sprite": "precision_enhancer_hz_4207",
+   "frames": 2,
+   "kind": "switch",
+   "param": 7,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-10-internal15",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter1"
+   },
+   "x": 503,
+   "y": 6,
+   "w": 6,
+   "h": 53,
+   "sprite": "precision_enhancer_hz_5504",
+   "frames": 17
+  },
+  {
+   "id": "filmstrip-11-internal17",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter2"
+   },
+   "x": 510,
+   "y": 6,
+   "w": 6,
+   "h": 53,
+   "sprite": "precision_enhancer_hz_5504",
+   "frames": 17
+  },
+  {
+   "id": "filmstrip-12-internal16",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter3"
+   },
+   "x": 503,
+   "y": 8,
+   "w": 6,
+   "h": 4,
+   "sprite": "precision_enhancer_hz_5505",
+   "frames": 2
+  },
+  {
+   "id": "filmstrip-13-internal18",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter4"
+   },
+   "x": 510,
+   "y": 8,
+   "w": 6,
+   "h": 4,
+   "sprite": "precision_enhancer_hz_5505",
+   "frames": 2
+  },
+  {
+   "id": "switch-14-solo_effect",
+   "kind": "switch",
+   "x": 138,
+   "y": 37,
+   "w": 24,
+   "h": 24,
+   "sprite": "precision_enhancer_hz_5608_7",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-15-solo_hz_freq",
+   "kind": "switch",
+   "x": 342,
+   "y": 37,
+   "w": 24,
+   "h": 24,
+   "sprite": "precision_enhancer_hz_5608_7",
+   "frames": 2,
+   "param": 5,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-16-slope-bank",
+   "kind": "filmstrip",
+   "x": 215,
+   "y": 36,
+   "w": 55,
+   "h": 18,
+   "sprite": "precision_enhancer_hz_6929",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-17-slope-bank",
+   "kind": "zone",
+   "x": 215,
+   "y": 36,
+   "w": 26,
+   "h": 9,
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-18-slope-bank",
+   "kind": "zone",
+   "x": 215,
+   "y": 45,
+   "w": 26,
+   "h": 9,
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.333333
+   }
+  },
+  {
+   "id": "zone-19-slope-bank",
+   "kind": "zone",
+   "x": 241,
+   "y": 36,
+   "w": 28,
+   "h": 9,
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.666667
+   }
+  },
+  {
+   "id": "zone-20-slope-bank",
+   "kind": "zone",
+   "x": 241,
+   "y": 45,
+   "w": 28,
+   "h": 9,
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "filmstrip-21-mode-bank",
+   "kind": "filmstrip",
+   "x": 215,
+   "y": 10,
+   "w": 53,
+   "h": 18,
+   "sprite": "precision_enhancer_hz_5501",
+   "frames": 5,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.25
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.75
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 4
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-22-mode-bank",
+   "kind": "zone",
+   "x": 215,
+   "y": 10,
+   "w": 26,
+   "h": 9,
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.0
+   },
+   "longPressAction": {
+    "type": "set",
+    "param": 2,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-23-mode-bank",
+   "kind": "zone",
+   "x": 215,
+   "y": 19,
+   "w": 26,
+   "h": 9,
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.25
+   },
+   "longPressAction": {
+    "type": "set",
+    "param": 2,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-24-mode-bank",
+   "kind": "zone",
+   "x": 241,
+   "y": 10,
+   "w": 28,
+   "h": 9,
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.5
+   },
+   "longPressAction": {
+    "type": "set",
+    "param": 2,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-25-mode-bank",
+   "kind": "zone",
+   "x": 241,
+   "y": 19,
+   "w": 28,
+   "h": 9,
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.75
+   },
+   "longPressAction": {
+    "type": "set",
+    "param": 2,
+    "value": 1.0
+   }
+  }
+ ],
+ "meterSources": {
+  "meter0": {
+   "vendorSpecificFloat": 135,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     2.3,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "meter1": {
+   "vendorSpecificFloat": 131,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0250938,
+     0.0
+    ],
+    [
+     0.0251189,
+     0.0625
+    ],
+    [
+     0.0349953,
+     0.0625
+    ],
+    [
+     0.0350303,
+     0.125
+    ],
+    [
+     0.0488038,
+     0.125
+    ],
+    [
+     0.0488527,
+     0.1875
+    ],
+    [
+     0.0680611,
+     0.1875
+    ],
+    [
+     0.0681292,
+     0.25
+    ],
+    [
+     0.0949169,
+     0.25
+    ],
+    [
+     0.0950119,
+     0.3125
+    ],
+    [
+     0.1323694,
+     0.3125
+    ],
+    [
+     0.1325019,
+     0.375
+    ],
+    [
+     0.1846002,
+     0.375
+    ],
+    [
+     0.184785,
+     0.4375
+    ],
+    [
+     0.2574403,
+     0.4375
+    ],
+    [
+     0.257698,
+     0.5
+    ],
+    [
+     0.359022,
+     0.5
+    ],
+    [
+     0.3593814,
+     0.5625
+    ],
+    [
+     0.500686,
+     0.5625
+    ],
+    [
+     0.5011872,
+     0.625
+    ],
+    [
+     0.561779,
+     0.625
+    ],
+    [
+     0.5623413,
+     0.6875
+    ],
+    [
+     0.6303263,
+     0.6875
+    ],
+    [
+     0.6309573,
+     0.75
+    ],
+    [
+     0.7072379,
+     0.75
+    ],
+    [
+     0.7079458,
+     0.8125
+    ],
+    [
+     0.7935339,
+     0.8125
+    ],
+    [
+     0.7943282,
+     0.875
+    ],
+    [
+     0.8903596,
+     0.875
+    ],
+    [
+     0.8912509,
+     0.9375
+    ],
+    [
+     0.999,
+     0.9375
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "meter2": {
+   "vendorSpecificFloat": 132,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0250938,
+     0.0
+    ],
+    [
+     0.0251189,
+     0.0625
+    ],
+    [
+     0.0349953,
+     0.0625
+    ],
+    [
+     0.0350303,
+     0.125
+    ],
+    [
+     0.0488038,
+     0.125
+    ],
+    [
+     0.0488527,
+     0.1875
+    ],
+    [
+     0.0680611,
+     0.1875
+    ],
+    [
+     0.0681292,
+     0.25
+    ],
+    [
+     0.0949169,
+     0.25
+    ],
+    [
+     0.0950119,
+     0.3125
+    ],
+    [
+     0.1323694,
+     0.3125
+    ],
+    [
+     0.1325019,
+     0.375
+    ],
+    [
+     0.1846002,
+     0.375
+    ],
+    [
+     0.184785,
+     0.4375
+    ],
+    [
+     0.2574403,
+     0.4375
+    ],
+    [
+     0.257698,
+     0.5
+    ],
+    [
+     0.359022,
+     0.5
+    ],
+    [
+     0.3593814,
+     0.5625
+    ],
+    [
+     0.500686,
+     0.5625
+    ],
+    [
+     0.5011872,
+     0.625
+    ],
+    [
+     0.561779,
+     0.625
+    ],
+    [
+     0.5623413,
+     0.6875
+    ],
+    [
+     0.6303263,
+     0.6875
+    ],
+    [
+     0.6309573,
+     0.75
+    ],
+    [
+     0.7072379,
+     0.75
+    ],
+    [
+     0.7079458,
+     0.8125
+    ],
+    [
+     0.7935339,
+     0.8125
+    ],
+    [
+     0.7943282,
+     0.875
+    ],
+    [
+     0.8903596,
+     0.875
+    ],
+    [
+     0.8912509,
+     0.9375
+    ],
+    [
+     0.999,
+     0.9375
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "meter3": {
+   "vendorSpecificFloat": 133,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.998001,
+     0.0
+    ],
+    [
+     0.999,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "meter4": {
+   "vendorSpecificFloat": 134,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.998001,
+     0.0
+    ],
+    [
+     0.999,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  }
+ }
+}

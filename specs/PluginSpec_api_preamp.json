@@ -1,0 +1,494 @@
+{
+ "schema": 2,
+ "effectName": "UAD API Preamp",
+ "namePattern": "API Preamp",
+ "size": {
+  "w": 310,
+  "h": 320
+ },
+ "background": "api_preamp_8597",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Input Select",
+   "steps": [
+    "Line",
+    "Mic"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Mic Gain",
+   "steps": null,
+   "default": 0.428985595703125
+  },
+  {
+   "index": 2,
+   "name": "Line Gain",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Pad",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Phase",
+   "steps": [
+    "Normal",
+    "Inverted"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Cut Filter",
+   "steps": [
+    "Off",
+    "50 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-line_gain",
+   "x": 13,
+   "y": 122,
+   "w": 106,
+   "h": 90,
+   "sprite": "api_preamp_7711",
+   "frames": 101,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "knob-2-mic_gain",
+   "x": 13,
+   "y": 32,
+   "w": 106,
+   "h": 90,
+   "sprite": "api_preamp_7709",
+   "frames": 101,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "filmstrip-3-internal15",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 2
+     }
+    ]
+   },
+   "x": 13,
+   "y": 236,
+   "w": 65,
+   "h": 57,
+   "sprite": "api_preamp_8601",
+   "frames": 4
+  },
+  {
+   "id": "filmstrip-4-internal16",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "table",
+    "params": [
+     3,
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 2
+     }
+    ]
+   },
+   "x": 78,
+   "y": 236,
+   "w": 65,
+   "h": 57,
+   "sprite": "api_preamp_8602",
+   "frames": 4
+  },
+  {
+   "id": "zone-5-input_select",
+   "kind": "zone",
+   "x": 13,
+   "y": 236,
+   "w": 65,
+   "h": 28,
+   "param": 0,
+   "action": {
+    "type": "toggle",
+    "param": 0
+   }
+  },
+  {
+   "id": "zone-6-pad",
+   "kind": "zone",
+   "x": 78,
+   "y": 236,
+   "w": 65,
+   "h": 28,
+   "param": 3,
+   "action": {
+    "type": "toggle",
+    "param": 3
+   }
+  },
+  {
+   "id": "zone-7-phase",
+   "kind": "zone",
+   "x": 13,
+   "y": 264,
+   "w": 65,
+   "h": 28,
+   "param": 4,
+   "action": {
+    "type": "toggle",
+    "param": 4
+   }
+  },
+  {
+   "id": "zone-8-cut_filter",
+   "kind": "zone",
+   "x": 78,
+   "y": 264,
+   "w": 65,
+   "h": 28,
+   "param": 5,
+   "action": {
+    "type": "toggle",
+    "param": 5
+   }
+  },
+  {
+   "id": "filmstrip-9-internal12",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter2"
+   },
+   "x": 118,
+   "y": 60,
+   "w": 22,
+   "h": 122,
+   "sprite": "api_preamp_7718",
+   "frames": 21
+  },
+  {
+   "id": "knob-10-output",
+   "x": 179,
+   "y": 32,
+   "w": 106,
+   "h": 90,
+   "sprite": "api_preamp_7710",
+   "frames": 101,
+   "kind": "knob",
+   "param": 6
+  },
+  {
+   "id": "zone-11-power",
+   "kind": "zone",
+   "x": 214,
+   "y": 178,
+   "w": 41,
+   "h": 40,
+   "param": 7,
+   "action": {
+    "type": "toggle",
+    "param": 7
+   }
+  },
+  {
+   "id": "zone-12-power",
+   "kind": "zone",
+   "x": 214,
+   "y": 218,
+   "w": 41,
+   "h": 61,
+   "param": 7,
+   "action": {
+    "type": "toggle",
+    "param": 7
+   }
+  },
+  {
+   "id": "g-p7_r0",
+   "kind": "filmstrip",
+   "x": 216,
+   "y": 180,
+   "w": 33.0,
+   "h": 33.0,
+   "sprite": "G_api_preamp_p7_r0",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 7
+   }
+  },
+  {
+   "id": "v-p7-led",
+   "kind": "lamp",
+   "x": 20.1,
+   "y": 198.6,
+   "w": 9.0,
+   "h": 9.0,
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 7
+   },
+   "lamp": {
+    "on": "#14FA48",
+    "off": "#3A8052",
+    "glow": 3,
+    "bezel": "#141A1660",
+    "bezelWidth": 0.6
+   }
+  }
+ ],
+ "meterSources": {
+  "meter2": {
+   "vendorSpecificFloat": 293,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.031623,
+     0.0
+    ],
+    [
+     0.039811,
+     0.2
+    ],
+    [
+     0.050119,
+     0.4
+    ],
+    [
+     0.063096,
+     0.4
+    ],
+    [
+     0.079433,
+     0.6
+    ],
+    [
+     0.125893,
+     0.6
+    ],
+    [
+     0.158489,
+     0.8
+    ],
+    [
+     0.501187,
+     0.8
+    ],
+    [
+     0.630957,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ]
+  },
+  "meter1": {
+   "vendorSpecificFloat": 295,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.001,
+     0.0042
+    ],
+    [
+     0.001259,
+     0.0053
+    ],
+    [
+     0.001585,
+     0.0067
+    ],
+    [
+     0.001995,
+     0.0084
+    ],
+    [
+     0.002512,
+     0.0106
+    ],
+    [
+     0.003162,
+     0.0134
+    ],
+    [
+     0.003981,
+     0.0168
+    ],
+    [
+     0.005012,
+     0.0212
+    ],
+    [
+     0.00631,
+     0.0267
+    ],
+    [
+     0.007943,
+     0.0336
+    ],
+    [
+     0.01,
+     0.0423
+    ],
+    [
+     0.012589,
+     0.0533
+    ],
+    [
+     0.015849,
+     0.0671
+    ],
+    [
+     0.019953,
+     0.0844
+    ],
+    [
+     0.025119,
+     0.1063
+    ],
+    [
+     0.031623,
+     0.1338
+    ],
+    [
+     0.039811,
+     0.1684
+    ],
+    [
+     0.050119,
+     0.212
+    ],
+    [
+     0.063096,
+     0.267
+    ],
+    [
+     0.079433,
+     0.3361
+    ],
+    [
+     0.1,
+     0.4231
+    ],
+    [
+     0.125893,
+     0.5326
+    ],
+    [
+     0.158489,
+     0.6706
+    ],
+    [
+     0.199526,
+     0.8442
+    ],
+    [
+     0.251189,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,2696 @@
+{
+ "schema": 2,
+ "effectName": "UAD Hitsville EQ",
+ "namePattern": "Hitsville EQ",
+ "size": {
+  "w": 950,
+  "h": 175
+ },
+ "background": null,
+ "parameters": [
+  {
+   "index": 0,
+   "name": "1-50",
+   "steps": [
+    "-8 dB",
+    "-7 dB",
+    "-6 dB",
+    "-5 dB",
+    "-4 dB",
+    "-3 dB",
+    "-2 dB",
+    "-1 dB",
+    "0 dB",
+    "1 dB",
+    "2 dB",
+    "3 dB",
+    "4 dB",
+    "5 dB",
+    "6 dB",
+    "7 dB",
+    "8 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "2-130",
+   "steps": [
+    "-8 dB",
+    "-7 dB",
+    "-6 dB",
+    "-5 dB",
+    "-4 dB",
+    "-3 dB",
+    "-2 dB",
+    "-1 dB",
+    "0 dB",
+    "1 dB",
+    "2 dB",
+    "3 dB",
+    "4 dB",
+    "5 dB",
+    "6 dB",
+    "7 dB",
+    "8 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 2,
+   "name": "3-320",
+   "steps": [
+    "-8 dB",
+    "-7 dB",
+    "-6 dB",
+    "-5 dB",
+    "-4 dB",
+    "-3 dB",
+    "-2 dB",
+    "-1 dB",
+    "0 dB",
+    "1 dB",
+    "2 dB",
+    "3 dB",
+    "4 dB",
+    "5 dB",
+    "6 dB",
+    "7 dB",
+    "8 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "4-800",
+   "steps": [
+    "-8 dB",
+    "-7 dB",
+    "-6 dB",
+    "-5 dB",
+    "-4 dB",
+    "-3 dB",
+    "-2 dB",
+    "-1 dB",
+    "0 dB",
+    "1 dB",
+    "2 dB",
+    "3 dB",
+    "4 dB",
+    "5 dB",
+    "6 dB",
+    "7 dB",
+    "8 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "5-2000",
+   "steps": [
+    "-8 dB",
+    "-7 dB",
+    "-6 dB",
+    "-5 dB",
+    "-4 dB",
+    "-3 dB",
+    "-2 dB",
+    "-1 dB",
+    "0 dB",
+    "1 dB",
+    "2 dB",
+    "3 dB",
+    "4 dB",
+    "5 dB",
+    "6 dB",
+    "7 dB",
+    "8 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "6-5000",
+   "steps": [
+    "-8 dB",
+    "-7 dB",
+    "-6 dB",
+    "-5 dB",
+    "-4 dB",
+    "-3 dB",
+    "-2 dB",
+    "-1 dB",
+    "0 dB",
+    "1 dB",
+    "2 dB",
+    "3 dB",
+    "4 dB",
+    "5 dB",
+    "6 dB",
+    "7 dB",
+    "8 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "7-12500",
+   "steps": [
+    "-8 dB",
+    "-7 dB",
+    "-6 dB",
+    "-5 dB",
+    "-4 dB",
+    "-3 dB",
+    "-2 dB",
+    "-1 dB",
+    "0 dB",
+    "1 dB",
+    "2 dB",
+    "3 dB",
+    "4 dB",
+    "5 dB",
+    "6 dB",
+    "7 dB",
+    "8 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "Bypass",
+   "steps": [
+    "Off",
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 8,
+   "name": "Gain",
+   "steps": [
+    "-8 dB",
+    "-7 dB",
+    "-6 dB",
+    "-5 dB",
+    "-4 dB",
+    "-3 dB",
+    "-2 dB",
+    "-1 dB",
+    "0 dB",
+    "1 dB",
+    "2 dB",
+    "3 dB",
+    "4 dB",
+    "5 dB",
+    "6 dB",
+    "7 dB",
+    "8 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 9,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {},
+ "elements": [
+  {
+   "id": "background-image",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 950.0,
+   "h": 175.0,
+   "kind": "image",
+   "sprite": "UA_Hitsville-MIX-EQ_panel"
+  },
+  {
+   "id": "labels",
+   "x": 91.0,
+   "y": 10.0,
+   "w": 581.0,
+   "h": 21.0,
+   "kind": "filmstrip",
+   "sprite": "UA_Hitsville-MIX-EQ_DYMO-labels",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "states": [
+     "marks"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "marks"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "logo",
+   "kind": "zone",
+   "x": 878,
+   "y": 60,
+   "w": 55,
+   "h": 32,
+   "action": {
+    "type": "cycleState",
+    "state": "marks",
+    "count": 2
+   }
+  },
+  {
+   "id": "hitsville-text",
+   "x": 678,
+   "y": 139,
+   "w": 124,
+   "h": 30,
+   "kind": "button",
+   "param": null,
+   "sprite": "transparent",
+   "frames": 2,
+   "action": {
+    "type": "multi",
+    "actions": [
+     {
+      "type": "set",
+      "param": 0,
+      "value": 0.5
+     },
+     {
+      "type": "set",
+      "param": 1,
+      "value": 0.5
+     },
+     {
+      "type": "set",
+      "param": 2,
+      "value": 0.5
+     },
+     {
+      "type": "set",
+      "param": 3,
+      "value": 0.5
+     },
+     {
+      "type": "set",
+      "param": 4,
+      "value": 0.5
+     },
+     {
+      "type": "set",
+      "param": 5,
+      "value": 0.5
+     },
+     {
+      "type": "set",
+      "param": 6,
+      "value": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-1-50",
+   "x": 79,
+   "y": 42,
+   "w": 87,
+   "h": 90,
+   "kind": "knob",
+   "param": 0,
+   "sprite": "UA_Hitsville-MIX-EQ_knob",
+   "frames": 17
+  },
+  {
+   "id": "knob-1-50-ctv-0",
+   "x": 83,
+   "y": 102,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "knob-1-50-ctv-1",
+   "x": 80,
+   "y": 93,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0625
+   }
+  },
+  {
+   "id": "knob-1-50-ctv-2",
+   "x": 79,
+   "y": 83,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.125
+   }
+  },
+  {
+   "id": "knob-1-50-ctv-3",
+   "x": 80,
+   "y": 73,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.1875
+   }
+  },
+  {
+   "id": "knob-1-50-ctv-4",
+   "x": 83,
+   "y": 64,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "knob-1-50-ctv-5",
+   "x": 89,
+   "y": 55,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.3125
+   }
+  },
+  {
+   "id": "knob-1-50-ctv-6",
+   "x": 97,
+   "y": 49,
+   "w": 10,
+   "h": 9,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.375
+   }
+  },
+  {
+   "id": "knob-1-50-ctv-7",
+   "x": 106,
+   "y": 45,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.4375
+   }
+  },
+  {
+   "id": "knob-1-50-ctv-8",
+   "x": 126,
+   "y": 45,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.5625
+   }
+  },
+  {
+   "id": "knob-1-50-ctv-9",
+   "x": 135,
+   "y": 49,
+   "w": 10,
+   "h": 9,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.625
+   }
+  },
+  {
+   "id": "knob-1-50-ctv-10",
+   "x": 143,
+   "y": 55,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.6875
+   }
+  },
+  {
+   "id": "knob-1-50-ctv-11",
+   "x": 149,
+   "y": 64,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "knob-1-50-ctv-12",
+   "x": 152,
+   "y": 73,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.8125
+   }
+  },
+  {
+   "id": "knob-1-50-ctv-13",
+   "x": 153,
+   "y": 83,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.875
+   }
+  },
+  {
+   "id": "knob-1-50-ctv-14",
+   "x": 152,
+   "y": 93,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.9375
+   }
+  },
+  {
+   "id": "knob-1-50-ctv-15",
+   "x": 149,
+   "y": 102,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "knob-1-50-rtz-0",
+   "x": 116,
+   "y": 44,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "knob-1-50-rtz-1",
+   "x": 107,
+   "y": 135,
+   "w": 31,
+   "h": 19,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "knob-1-50-dec",
+   "x": 93,
+   "y": 39,
+   "w": 14,
+   "h": 11,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "nudge",
+    "param": 0,
+    "delta": -0.0625
+   }
+  },
+  {
+   "id": "knob-1-50-inc",
+   "x": 136,
+   "y": 39,
+   "w": 14,
+   "h": 11,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "nudge",
+    "param": 0,
+    "delta": 0.0625
+   }
+  },
+  {
+   "id": "knob-2-130",
+   "x": 166,
+   "y": 42,
+   "w": 87,
+   "h": 90,
+   "kind": "knob",
+   "param": 1,
+   "sprite": "UA_Hitsville-MIX-EQ_knob",
+   "frames": 17
+  },
+  {
+   "id": "knob-2-130-ctv-0",
+   "x": 170,
+   "y": 102,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "knob-2-130-ctv-1",
+   "x": 167,
+   "y": 93,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.0625
+   }
+  },
+  {
+   "id": "knob-2-130-ctv-2",
+   "x": 166,
+   "y": 83,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.125
+   }
+  },
+  {
+   "id": "knob-2-130-ctv-3",
+   "x": 167,
+   "y": 73,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.1875
+   }
+  },
+  {
+   "id": "knob-2-130-ctv-4",
+   "x": 170,
+   "y": 64,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "knob-2-130-ctv-5",
+   "x": 176,
+   "y": 55,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.3125
+   }
+  },
+  {
+   "id": "knob-2-130-ctv-6",
+   "x": 184,
+   "y": 49,
+   "w": 10,
+   "h": 9,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.375
+   }
+  },
+  {
+   "id": "knob-2-130-ctv-7",
+   "x": 193,
+   "y": 45,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.4375
+   }
+  },
+  {
+   "id": "knob-2-130-ctv-8",
+   "x": 213,
+   "y": 45,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.5625
+   }
+  },
+  {
+   "id": "knob-2-130-ctv-9",
+   "x": 222,
+   "y": 49,
+   "w": 10,
+   "h": 9,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.625
+   }
+  },
+  {
+   "id": "knob-2-130-ctv-10",
+   "x": 230,
+   "y": 55,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.6875
+   }
+  },
+  {
+   "id": "knob-2-130-ctv-11",
+   "x": 236,
+   "y": 64,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "knob-2-130-ctv-12",
+   "x": 239,
+   "y": 73,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.8125
+   }
+  },
+  {
+   "id": "knob-2-130-ctv-13",
+   "x": 240,
+   "y": 83,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.875
+   }
+  },
+  {
+   "id": "knob-2-130-ctv-14",
+   "x": 239,
+   "y": 93,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.9375
+   }
+  },
+  {
+   "id": "knob-2-130-ctv-15",
+   "x": 236,
+   "y": 102,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "knob-2-130-rtz-0",
+   "x": 203,
+   "y": 44,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "knob-2-130-rtz-1",
+   "x": 194,
+   "y": 135,
+   "w": 31,
+   "h": 19,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "knob-2-130-dec",
+   "x": 180,
+   "y": 39,
+   "w": 14,
+   "h": 11,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "nudge",
+    "param": 1,
+    "delta": -0.0625
+   }
+  },
+  {
+   "id": "knob-2-130-inc",
+   "x": 223,
+   "y": 39,
+   "w": 14,
+   "h": 11,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "nudge",
+    "param": 1,
+    "delta": 0.0625
+   }
+  },
+  {
+   "id": "knob-3-320",
+   "x": 253,
+   "y": 42,
+   "w": 87,
+   "h": 90,
+   "kind": "knob",
+   "param": 2,
+   "sprite": "UA_Hitsville-MIX-EQ_knob",
+   "frames": 17
+  },
+  {
+   "id": "knob-3-320-ctv-0",
+   "x": 257,
+   "y": 102,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "knob-3-320-ctv-1",
+   "x": 254,
+   "y": 93,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.0625
+   }
+  },
+  {
+   "id": "knob-3-320-ctv-2",
+   "x": 253,
+   "y": 83,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.125
+   }
+  },
+  {
+   "id": "knob-3-320-ctv-3",
+   "x": 254,
+   "y": 73,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.1875
+   }
+  },
+  {
+   "id": "knob-3-320-ctv-4",
+   "x": 257,
+   "y": 64,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "knob-3-320-ctv-5",
+   "x": 263,
+   "y": 55,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.3125
+   }
+  },
+  {
+   "id": "knob-3-320-ctv-6",
+   "x": 271,
+   "y": 49,
+   "w": 10,
+   "h": 9,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.375
+   }
+  },
+  {
+   "id": "knob-3-320-ctv-7",
+   "x": 280,
+   "y": 45,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.4375
+   }
+  },
+  {
+   "id": "knob-3-320-ctv-8",
+   "x": 300,
+   "y": 45,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.5625
+   }
+  },
+  {
+   "id": "knob-3-320-ctv-9",
+   "x": 309,
+   "y": 49,
+   "w": 10,
+   "h": 9,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.625
+   }
+  },
+  {
+   "id": "knob-3-320-ctv-10",
+   "x": 317,
+   "y": 55,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.6875
+   }
+  },
+  {
+   "id": "knob-3-320-ctv-11",
+   "x": 323,
+   "y": 64,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "knob-3-320-ctv-12",
+   "x": 326,
+   "y": 73,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.8125
+   }
+  },
+  {
+   "id": "knob-3-320-ctv-13",
+   "x": 327,
+   "y": 83,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.875
+   }
+  },
+  {
+   "id": "knob-3-320-ctv-14",
+   "x": 326,
+   "y": 93,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.9375
+   }
+  },
+  {
+   "id": "knob-3-320-ctv-15",
+   "x": 323,
+   "y": 102,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "knob-3-320-rtz-0",
+   "x": 290,
+   "y": 44,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "knob-3-320-rtz-1",
+   "x": 281,
+   "y": 135,
+   "w": 31,
+   "h": 19,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "knob-3-320-dec",
+   "x": 267,
+   "y": 39,
+   "w": 14,
+   "h": 11,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "nudge",
+    "param": 2,
+    "delta": -0.0625
+   }
+  },
+  {
+   "id": "knob-3-320-inc",
+   "x": 310,
+   "y": 39,
+   "w": 14,
+   "h": 11,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "nudge",
+    "param": 2,
+    "delta": 0.0625
+   }
+  },
+  {
+   "id": "knob-4-800",
+   "x": 340,
+   "y": 42,
+   "w": 87,
+   "h": 90,
+   "kind": "knob",
+   "param": 3,
+   "sprite": "UA_Hitsville-MIX-EQ_knob",
+   "frames": 17
+  },
+  {
+   "id": "knob-4-800-ctv-0",
+   "x": 344,
+   "y": 102,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "knob-4-800-ctv-1",
+   "x": 341,
+   "y": 93,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0625
+   }
+  },
+  {
+   "id": "knob-4-800-ctv-2",
+   "x": 340,
+   "y": 83,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.125
+   }
+  },
+  {
+   "id": "knob-4-800-ctv-3",
+   "x": 341,
+   "y": 73,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.1875
+   }
+  },
+  {
+   "id": "knob-4-800-ctv-4",
+   "x": 344,
+   "y": 64,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "knob-4-800-ctv-5",
+   "x": 350,
+   "y": 55,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.3125
+   }
+  },
+  {
+   "id": "knob-4-800-ctv-6",
+   "x": 358,
+   "y": 49,
+   "w": 10,
+   "h": 9,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.375
+   }
+  },
+  {
+   "id": "knob-4-800-ctv-7",
+   "x": 367,
+   "y": 45,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.4375
+   }
+  },
+  {
+   "id": "knob-4-800-ctv-8",
+   "x": 387,
+   "y": 45,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.5625
+   }
+  },
+  {
+   "id": "knob-4-800-ctv-9",
+   "x": 396,
+   "y": 49,
+   "w": 10,
+   "h": 9,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.625
+   }
+  },
+  {
+   "id": "knob-4-800-ctv-10",
+   "x": 404,
+   "y": 55,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.6875
+   }
+  },
+  {
+   "id": "knob-4-800-ctv-11",
+   "x": 410,
+   "y": 64,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "knob-4-800-ctv-12",
+   "x": 413,
+   "y": 73,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.8125
+   }
+  },
+  {
+   "id": "knob-4-800-ctv-13",
+   "x": 414,
+   "y": 83,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.875
+   }
+  },
+  {
+   "id": "knob-4-800-ctv-14",
+   "x": 413,
+   "y": 93,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.9375
+   }
+  },
+  {
+   "id": "knob-4-800-ctv-15",
+   "x": 410,
+   "y": 102,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "knob-4-800-rtz-0",
+   "x": 377,
+   "y": 44,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "knob-4-800-rtz-1",
+   "x": 368,
+   "y": 135,
+   "w": 31,
+   "h": 19,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "knob-4-800-dec",
+   "x": 354,
+   "y": 39,
+   "w": 14,
+   "h": 11,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "nudge",
+    "param": 3,
+    "delta": -0.0625
+   }
+  },
+  {
+   "id": "knob-4-800-inc",
+   "x": 397,
+   "y": 39,
+   "w": 14,
+   "h": 11,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "nudge",
+    "param": 3,
+    "delta": 0.0625
+   }
+  },
+  {
+   "id": "knob-5-2000",
+   "x": 427,
+   "y": 42,
+   "w": 87,
+   "h": 90,
+   "kind": "knob",
+   "param": 4,
+   "sprite": "UA_Hitsville-MIX-EQ_knob",
+   "frames": 17
+  },
+  {
+   "id": "knob-5-2000-ctv-0",
+   "x": 431,
+   "y": 102,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "knob-5-2000-ctv-1",
+   "x": 428,
+   "y": 93,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0625
+   }
+  },
+  {
+   "id": "knob-5-2000-ctv-2",
+   "x": 427,
+   "y": 83,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.125
+   }
+  },
+  {
+   "id": "knob-5-2000-ctv-3",
+   "x": 428,
+   "y": 73,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.1875
+   }
+  },
+  {
+   "id": "knob-5-2000-ctv-4",
+   "x": 431,
+   "y": 64,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "knob-5-2000-ctv-5",
+   "x": 437,
+   "y": 55,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.3125
+   }
+  },
+  {
+   "id": "knob-5-2000-ctv-6",
+   "x": 445,
+   "y": 49,
+   "w": 10,
+   "h": 9,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.375
+   }
+  },
+  {
+   "id": "knob-5-2000-ctv-7",
+   "x": 454,
+   "y": 45,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.4375
+   }
+  },
+  {
+   "id": "knob-5-2000-ctv-8",
+   "x": 474,
+   "y": 45,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.5625
+   }
+  },
+  {
+   "id": "knob-5-2000-ctv-9",
+   "x": 483,
+   "y": 49,
+   "w": 10,
+   "h": 9,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.625
+   }
+  },
+  {
+   "id": "knob-5-2000-ctv-10",
+   "x": 491,
+   "y": 55,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.6875
+   }
+  },
+  {
+   "id": "knob-5-2000-ctv-11",
+   "x": 497,
+   "y": 64,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "knob-5-2000-ctv-12",
+   "x": 500,
+   "y": 73,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.8125
+   }
+  },
+  {
+   "id": "knob-5-2000-ctv-13",
+   "x": 501,
+   "y": 83,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.875
+   }
+  },
+  {
+   "id": "knob-5-2000-ctv-14",
+   "x": 500,
+   "y": 93,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.9375
+   }
+  },
+  {
+   "id": "knob-5-2000-ctv-15",
+   "x": 497,
+   "y": 102,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "knob-5-2000-rtz-0",
+   "x": 464,
+   "y": 44,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "knob-5-2000-rtz-1",
+   "x": 455,
+   "y": 135,
+   "w": 31,
+   "h": 19,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "knob-5-2000-dec",
+   "x": 441,
+   "y": 39,
+   "w": 14,
+   "h": 11,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "nudge",
+    "param": 4,
+    "delta": -0.0625
+   }
+  },
+  {
+   "id": "knob-5-2000-inc",
+   "x": 484,
+   "y": 39,
+   "w": 14,
+   "h": 11,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "nudge",
+    "param": 4,
+    "delta": 0.0625
+   }
+  },
+  {
+   "id": "knob-6-5000",
+   "x": 514,
+   "y": 42,
+   "w": 87,
+   "h": 90,
+   "kind": "knob",
+   "param": 5,
+   "sprite": "UA_Hitsville-MIX-EQ_knob",
+   "frames": 17
+  },
+  {
+   "id": "knob-6-5000-ctv-0",
+   "x": 518,
+   "y": 102,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "knob-6-5000-ctv-1",
+   "x": 515,
+   "y": 93,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0625
+   }
+  },
+  {
+   "id": "knob-6-5000-ctv-2",
+   "x": 514,
+   "y": 83,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.125
+   }
+  },
+  {
+   "id": "knob-6-5000-ctv-3",
+   "x": 515,
+   "y": 73,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.1875
+   }
+  },
+  {
+   "id": "knob-6-5000-ctv-4",
+   "x": 518,
+   "y": 64,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "knob-6-5000-ctv-5",
+   "x": 524,
+   "y": 55,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.3125
+   }
+  },
+  {
+   "id": "knob-6-5000-ctv-6",
+   "x": 532,
+   "y": 49,
+   "w": 10,
+   "h": 9,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.375
+   }
+  },
+  {
+   "id": "knob-6-5000-ctv-7",
+   "x": 541,
+   "y": 45,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.4375
+   }
+  },
+  {
+   "id": "knob-6-5000-ctv-8",
+   "x": 561,
+   "y": 45,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.5625
+   }
+  },
+  {
+   "id": "knob-6-5000-ctv-9",
+   "x": 570,
+   "y": 49,
+   "w": 10,
+   "h": 9,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.625
+   }
+  },
+  {
+   "id": "knob-6-5000-ctv-10",
+   "x": 578,
+   "y": 55,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.6875
+   }
+  },
+  {
+   "id": "knob-6-5000-ctv-11",
+   "x": 584,
+   "y": 64,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "knob-6-5000-ctv-12",
+   "x": 587,
+   "y": 73,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.8125
+   }
+  },
+  {
+   "id": "knob-6-5000-ctv-13",
+   "x": 588,
+   "y": 83,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.875
+   }
+  },
+  {
+   "id": "knob-6-5000-ctv-14",
+   "x": 587,
+   "y": 93,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.9375
+   }
+  },
+  {
+   "id": "knob-6-5000-ctv-15",
+   "x": 584,
+   "y": 102,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "knob-6-5000-rtz-0",
+   "x": 551,
+   "y": 44,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "knob-6-5000-rtz-1",
+   "x": 542,
+   "y": 135,
+   "w": 31,
+   "h": 19,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "knob-6-5000-dec",
+   "x": 528,
+   "y": 39,
+   "w": 14,
+   "h": 11,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "nudge",
+    "param": 5,
+    "delta": -0.0625
+   }
+  },
+  {
+   "id": "knob-6-5000-inc",
+   "x": 571,
+   "y": 39,
+   "w": 14,
+   "h": 11,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "nudge",
+    "param": 5,
+    "delta": 0.0625
+   }
+  },
+  {
+   "id": "knob-7-12500",
+   "x": 601,
+   "y": 42,
+   "w": 87,
+   "h": 90,
+   "kind": "knob",
+   "param": 6,
+   "sprite": "UA_Hitsville-MIX-EQ_knob",
+   "frames": 17
+  },
+  {
+   "id": "knob-7-12500-ctv-0",
+   "x": 605,
+   "y": 102,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "knob-7-12500-ctv-1",
+   "x": 602,
+   "y": 93,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.0625
+   }
+  },
+  {
+   "id": "knob-7-12500-ctv-2",
+   "x": 601,
+   "y": 83,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.125
+   }
+  },
+  {
+   "id": "knob-7-12500-ctv-3",
+   "x": 602,
+   "y": 73,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.1875
+   }
+  },
+  {
+   "id": "knob-7-12500-ctv-4",
+   "x": 605,
+   "y": 64,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "knob-7-12500-ctv-5",
+   "x": 611,
+   "y": 55,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.3125
+   }
+  },
+  {
+   "id": "knob-7-12500-ctv-6",
+   "x": 619,
+   "y": 49,
+   "w": 10,
+   "h": 9,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.375
+   }
+  },
+  {
+   "id": "knob-7-12500-ctv-7",
+   "x": 628,
+   "y": 45,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.4375
+   }
+  },
+  {
+   "id": "knob-7-12500-ctv-8",
+   "x": 648,
+   "y": 45,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.5625
+   }
+  },
+  {
+   "id": "knob-7-12500-ctv-9",
+   "x": 657,
+   "y": 49,
+   "w": 10,
+   "h": 9,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.625
+   }
+  },
+  {
+   "id": "knob-7-12500-ctv-10",
+   "x": 665,
+   "y": 55,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.6875
+   }
+  },
+  {
+   "id": "knob-7-12500-ctv-11",
+   "x": 671,
+   "y": 64,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "knob-7-12500-ctv-12",
+   "x": 674,
+   "y": 73,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.8125
+   }
+  },
+  {
+   "id": "knob-7-12500-ctv-13",
+   "x": 675,
+   "y": 83,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.875
+   }
+  },
+  {
+   "id": "knob-7-12500-ctv-14",
+   "x": 674,
+   "y": 93,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.9375
+   }
+  },
+  {
+   "id": "knob-7-12500-ctv-15",
+   "x": 671,
+   "y": 102,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "knob-7-12500-rtz-0",
+   "x": 638,
+   "y": 44,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "knob-7-12500-rtz-1",
+   "x": 629,
+   "y": 135,
+   "w": 31,
+   "h": 19,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "knob-7-12500-dec",
+   "x": 615,
+   "y": 39,
+   "w": 14,
+   "h": 11,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "nudge",
+    "param": 6,
+    "delta": -0.0625
+   }
+  },
+  {
+   "id": "knob-7-12500-inc",
+   "x": 658,
+   "y": 39,
+   "w": 14,
+   "h": 11,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "nudge",
+    "param": 6,
+    "delta": 0.0625
+   }
+  },
+  {
+   "id": "knob-gain",
+   "x": 789,
+   "y": 42,
+   "w": 87,
+   "h": 90,
+   "kind": "knob",
+   "param": 8,
+   "sprite": "UA_Hitsville-MIX-EQ_knob",
+   "frames": 17
+  },
+  {
+   "id": "knob-gain-ctv-0",
+   "x": 793,
+   "y": 102,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "knob-gain-ctv-1",
+   "x": 790,
+   "y": 93,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.0625
+   }
+  },
+  {
+   "id": "knob-gain-ctv-2",
+   "x": 789,
+   "y": 83,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.125
+   }
+  },
+  {
+   "id": "knob-gain-ctv-3",
+   "x": 790,
+   "y": 73,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.1875
+   }
+  },
+  {
+   "id": "knob-gain-ctv-4",
+   "x": 793,
+   "y": 64,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "knob-gain-ctv-5",
+   "x": 799,
+   "y": 55,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.3125
+   }
+  },
+  {
+   "id": "knob-gain-ctv-6",
+   "x": 807,
+   "y": 49,
+   "w": 10,
+   "h": 9,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.375
+   }
+  },
+  {
+   "id": "knob-gain-ctv-7",
+   "x": 816,
+   "y": 45,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.4375
+   }
+  },
+  {
+   "id": "knob-gain-ctv-8",
+   "x": 836,
+   "y": 45,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.5625
+   }
+  },
+  {
+   "id": "knob-gain-ctv-9",
+   "x": 845,
+   "y": 49,
+   "w": 10,
+   "h": 9,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.625
+   }
+  },
+  {
+   "id": "knob-gain-ctv-10",
+   "x": 853,
+   "y": 55,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.6875
+   }
+  },
+  {
+   "id": "knob-gain-ctv-11",
+   "x": 859,
+   "y": 64,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "knob-gain-ctv-12",
+   "x": 862,
+   "y": 73,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.8125
+   }
+  },
+  {
+   "id": "knob-gain-ctv-13",
+   "x": 863,
+   "y": 83,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.875
+   }
+  },
+  {
+   "id": "knob-gain-ctv-14",
+   "x": 862,
+   "y": 93,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.9375
+   }
+  },
+  {
+   "id": "knob-gain-ctv-15",
+   "x": 859,
+   "y": 102,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "knob-gain-rtz-0",
+   "x": 826,
+   "y": 44,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "knob-gain-rtz-1",
+   "x": 817,
+   "y": 135,
+   "w": 31,
+   "h": 19,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "knob-gain-dec",
+   "x": 803,
+   "y": 39,
+   "w": 14,
+   "h": 11,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "nudge",
+    "param": 8,
+    "delta": -0.0625
+   }
+  },
+  {
+   "id": "knob-gain-inc",
+   "x": 846,
+   "y": 39,
+   "w": 14,
+   "h": 11,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "nudge",
+    "param": 8,
+    "delta": 0.0625
+   }
+  },
+  {
+   "id": "power",
+   "x": 706,
+   "y": 36,
+   "w": 62,
+   "h": 102,
+   "kind": "switch",
+   "param": 7,
+   "sprite": "UA_Hitsville-MIX-EQ_switch",
+   "frames": 3,
+   "orientation": "vertical"
+  }
+ ],
+ "states": {
+  "marks": 1
+ },
+ "panelless": [
+  9
+ ]
+}

@@ -1,0 +1,1108 @@
+{
+ "schema": 2,
+ "effectName": "UAD Antares Auto-Tune Realtime",
+ "namePattern": "Antares Auto-Tune Realtime",
+ "size": {
+  "w": 850,
+  "h": 654
+ },
+ "background": null,
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Input type",
+   "steps": null,
+   "default": 0.25
+  },
+  {
+   "index": 1,
+   "name": "Key",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Scale",
+   "steps": null,
+   "default": 0.07142899930477142
+  },
+  {
+   "index": 3,
+   "name": "Detune",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "Correction Style",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Retune Speed",
+   "steps": null,
+   "default": 0.6855520009994507
+  },
+  {
+   "index": 6,
+   "name": "Humanize",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "Natural Vibrato",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 8,
+   "name": "Ignore Vibrato",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "Target Notes via MIDI",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 10,
+   "name": "MIDI Octaves",
+   "steps": [
+    "As Playe",
+    "All"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "Vib Shape",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "Vib Rate",
+   "steps": null,
+   "default": 0.5454549789428711
+  },
+  {
+   "index": 13,
+   "name": "Vib Variation",
+   "steps": null,
+   "default": 0.2000000029802322
+  },
+  {
+   "index": 14,
+   "name": "Onset Delay",
+   "steps": null,
+   "default": 0.3333329856395721
+  },
+  {
+   "index": 15,
+   "name": "Onset Rate",
+   "steps": null,
+   "default": 0.3333329856395721
+  },
+  {
+   "index": 16,
+   "name": "Vib Pitch",
+   "steps": null,
+   "default": 0.1800000071525574
+  },
+  {
+   "index": 17,
+   "name": "Vib Amplitude",
+   "steps": null,
+   "default": 0.3333329856395721
+  },
+  {
+   "index": 18,
+   "name": "Vib Formant",
+   "steps": null,
+   "default": 0.699999988079071
+  },
+  {
+   "index": 19,
+   "name": "Internal Bypass",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "img-cviewcontainer",
+   "kind": "image",
+   "sprite": "antares_auto_tune_realtime__7075_UAD",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 850.0,
+   "h": 92.0
+  },
+  {
+   "id": "img-cviewcontainer-1",
+   "kind": "image",
+   "sprite": "antares_auto_tune_realtime__7085_UAD",
+   "x": 0.0,
+   "y": 92.0,
+   "w": 850.0,
+   "h": 32.0
+  },
+  {
+   "id": "inputtype-text",
+   "kind": "text",
+   "param": 0,
+   "text": {
+    "size": 12.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 18.0,
+   "y": 36.0,
+   "w": 80.0,
+   "h": 17.0
+  },
+  {
+   "id": "j-inputtype-text-prev",
+   "kind": "zone",
+   "x": 18.0,
+   "y": 36.0,
+   "w": 40.0,
+   "h": 17.0,
+   "action": {
+    "type": "table",
+    "param": 0,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.33333,
+      "value": 0.0
+     },
+     {
+      "current": 0.66667,
+      "value": 0.33333
+     },
+     {
+      "current": 1.0,
+      "value": 0.66667
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-inputtype-text-next",
+   "kind": "zone",
+   "x": 58.0,
+   "y": 36.0,
+   "w": 40.0,
+   "h": 17.0,
+   "action": {
+    "type": "table",
+    "param": 0,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.33333
+     },
+     {
+      "current": 0.33333,
+      "value": 0.66667
+     },
+     {
+      "current": 0.66667,
+      "value": 1.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "vstgui4_doubleclicktextknob-knob",
+   "kind": "filmstrip",
+   "sprite": "antares_auto_tune_realtime__8050",
+   "frames": 129,
+   "param": null,
+   "x": 136.0,
+   "y": 10.0,
+   "w": 72.0,
+   "h": 72.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 65
+     }
+    ]
+   }
+  },
+  {
+   "id": "key-text",
+   "kind": "text",
+   "param": 1,
+   "text": {
+    "size": 12.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 282.0,
+   "y": 36.0,
+   "w": 34.0,
+   "h": 17.0
+  },
+  {
+   "id": "j-key-text-prev",
+   "kind": "zone",
+   "x": 282.0,
+   "y": 36.0,
+   "w": 17.0,
+   "h": 17.0,
+   "action": {
+    "type": "table",
+    "param": 1,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.09091,
+      "value": 0.0
+     },
+     {
+      "current": 0.18182,
+      "value": 0.09091
+     },
+     {
+      "current": 0.27273,
+      "value": 0.18182
+     },
+     {
+      "current": 0.36364,
+      "value": 0.27273
+     },
+     {
+      "current": 0.45455,
+      "value": 0.36364
+     },
+     {
+      "current": 0.54545,
+      "value": 0.45455
+     },
+     {
+      "current": 0.63636,
+      "value": 0.54545
+     },
+     {
+      "current": 0.72727,
+      "value": 0.63636
+     },
+     {
+      "current": 0.81818,
+      "value": 0.72727
+     },
+     {
+      "current": 0.90909,
+      "value": 0.81818
+     },
+     {
+      "current": 1.0,
+      "value": 0.90909
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-key-text-next",
+   "kind": "zone",
+   "x": 299.0,
+   "y": 36.0,
+   "w": 17.0,
+   "h": 17.0,
+   "action": {
+    "type": "table",
+    "param": 1,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.09091
+     },
+     {
+      "current": 0.09091,
+      "value": 0.18182
+     },
+     {
+      "current": 0.18182,
+      "value": 0.27273
+     },
+     {
+      "current": 0.27273,
+      "value": 0.36364
+     },
+     {
+      "current": 0.36364,
+      "value": 0.45455
+     },
+     {
+      "current": 0.45455,
+      "value": 0.54545
+     },
+     {
+      "current": 0.54545,
+      "value": 0.63636
+     },
+     {
+      "current": 0.63636,
+      "value": 0.72727
+     },
+     {
+      "current": 0.72727,
+      "value": 0.81818
+     },
+     {
+      "current": 0.81818,
+      "value": 0.90909
+     },
+     {
+      "current": 0.90909,
+      "value": 1.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "scale-text",
+   "kind": "text",
+   "param": 2,
+   "text": {
+    "size": 12.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 348.0,
+   "y": 36.0,
+   "w": 80.0,
+   "h": 17.0
+  },
+  {
+   "id": "j-scale-text-prev",
+   "kind": "zone",
+   "x": 348.0,
+   "y": 36.0,
+   "w": 40.0,
+   "h": 17.0,
+   "action": {
+    "type": "table",
+    "param": 2,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.03571,
+      "value": 0.0
+     },
+     {
+      "current": 0.07143,
+      "value": 0.03571
+     },
+     {
+      "current": 0.10714,
+      "value": 0.07143
+     },
+     {
+      "current": 0.14286,
+      "value": 0.10714
+     },
+     {
+      "current": 0.17857,
+      "value": 0.14286
+     },
+     {
+      "current": 0.21429,
+      "value": 0.17857
+     },
+     {
+      "current": 0.25,
+      "value": 0.21429
+     },
+     {
+      "current": 0.28571,
+      "value": 0.25
+     },
+     {
+      "current": 0.32143,
+      "value": 0.28571
+     },
+     {
+      "current": 0.35714,
+      "value": 0.32143
+     },
+     {
+      "current": 0.39286,
+      "value": 0.35714
+     },
+     {
+      "current": 0.42857,
+      "value": 0.39286
+     },
+     {
+      "current": 0.46429,
+      "value": 0.42857
+     },
+     {
+      "current": 0.5,
+      "value": 0.46429
+     },
+     {
+      "current": 0.53571,
+      "value": 0.5
+     },
+     {
+      "current": 0.57143,
+      "value": 0.53571
+     },
+     {
+      "current": 0.60714,
+      "value": 0.57143
+     },
+     {
+      "current": 0.64286,
+      "value": 0.60714
+     },
+     {
+      "current": 0.67857,
+      "value": 0.64286
+     },
+     {
+      "current": 0.71429,
+      "value": 0.67857
+     },
+     {
+      "current": 0.75,
+      "value": 0.71429
+     },
+     {
+      "current": 0.78571,
+      "value": 0.75
+     },
+     {
+      "current": 0.82143,
+      "value": 0.78571
+     },
+     {
+      "current": 0.85714,
+      "value": 0.82143
+     },
+     {
+      "current": 0.89286,
+      "value": 0.85714
+     },
+     {
+      "current": 0.92857,
+      "value": 0.89286
+     },
+     {
+      "current": 0.96429,
+      "value": 0.92857
+     },
+     {
+      "current": 1.0,
+      "value": 0.96429
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-scale-text-next",
+   "kind": "zone",
+   "x": 388.0,
+   "y": 36.0,
+   "w": 40.0,
+   "h": 17.0,
+   "action": {
+    "type": "table",
+    "param": 2,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.03571
+     },
+     {
+      "current": 0.03571,
+      "value": 0.07143
+     },
+     {
+      "current": 0.07143,
+      "value": 0.10714
+     },
+     {
+      "current": 0.10714,
+      "value": 0.14286
+     },
+     {
+      "current": 0.14286,
+      "value": 0.17857
+     },
+     {
+      "current": 0.17857,
+      "value": 0.21429
+     },
+     {
+      "current": 0.21429,
+      "value": 0.25
+     },
+     {
+      "current": 0.25,
+      "value": 0.28571
+     },
+     {
+      "current": 0.28571,
+      "value": 0.32143
+     },
+     {
+      "current": 0.32143,
+      "value": 0.35714
+     },
+     {
+      "current": 0.35714,
+      "value": 0.39286
+     },
+     {
+      "current": 0.39286,
+      "value": 0.42857
+     },
+     {
+      "current": 0.42857,
+      "value": 0.46429
+     },
+     {
+      "current": 0.46429,
+      "value": 0.5
+     },
+     {
+      "current": 0.5,
+      "value": 0.53571
+     },
+     {
+      "current": 0.53571,
+      "value": 0.57143
+     },
+     {
+      "current": 0.57143,
+      "value": 0.60714
+     },
+     {
+      "current": 0.60714,
+      "value": 0.64286
+     },
+     {
+      "current": 0.64286,
+      "value": 0.67857
+     },
+     {
+      "current": 0.67857,
+      "value": 0.71429
+     },
+     {
+      "current": 0.71429,
+      "value": 0.75
+     },
+     {
+      "current": 0.75,
+      "value": 0.78571
+     },
+     {
+      "current": 0.78571,
+      "value": 0.82143
+     },
+     {
+      "current": 0.82143,
+      "value": 0.85714
+     },
+     {
+      "current": 0.85714,
+      "value": 0.89286
+     },
+     {
+      "current": 0.89286,
+      "value": 0.92857
+     },
+     {
+      "current": 0.92857,
+      "value": 0.96429
+     },
+     {
+      "current": 0.96429,
+      "value": 1.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "detune-knob",
+   "kind": "knob",
+   "sprite": "antares_auto_tune_realtime__8051",
+   "frames": 129,
+   "param": 3,
+   "x": 485.0,
+   "y": 10.0,
+   "w": 72.0,
+   "h": 72.0
+  },
+  {
+   "id": "internalbypass-switch",
+   "kind": "switch",
+   "sprite": "antares_auto_tune_realtime__5215",
+   "frames": 2,
+   "param": 19,
+   "orientation": "vertical",
+   "x": 786.0,
+   "y": 36.0,
+   "w": 38.0,
+   "h": 19.0
+  },
+  {
+   "id": "img-cviewcontainer-2",
+   "kind": "image",
+   "sprite": "antares_auto_tune_realtime__6058_UAD",
+   "x": 0.0,
+   "y": 124.0,
+   "w": 850.0,
+   "h": 506.0
+  },
+  {
+   "id": "meter-9",
+   "kind": "filmstrip",
+   "sprite": "antares_auto_tune_realtime__6093_BAR",
+   "frames": 33,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_65"
+   },
+   "x": 265.0,
+   "y": 132.0,
+   "w": 320.0,
+   "h": 26.0
+  },
+  {
+   "id": "retunespeed-knob",
+   "kind": "knob",
+   "sprite": "antares_auto_tune_realtime__8050",
+   "frames": 129,
+   "param": 5,
+   "x": 30.0,
+   "y": 181.0,
+   "w": 72.0,
+   "h": 72.0
+  },
+  {
+   "id": "correctionstyle-knob",
+   "kind": "knob",
+   "sprite": "antares_auto_tune_realtime__8050",
+   "frames": 129,
+   "param": 4,
+   "x": 136.0,
+   "y": 181.0,
+   "w": 72.0,
+   "h": 72.0
+  },
+  {
+   "id": "humanize-knob",
+   "kind": "knob",
+   "sprite": "antares_auto_tune_realtime__8050",
+   "frames": 129,
+   "param": 6,
+   "x": 136.0,
+   "y": 266.0,
+   "w": 72.0,
+   "h": 72.0
+  },
+  {
+   "id": "naturalvibrato-knob",
+   "kind": "knob",
+   "sprite": "antares_auto_tune_realtime__8051",
+   "frames": 129,
+   "param": 7,
+   "x": 30.0,
+   "y": 266.0,
+   "w": 72.0,
+   "h": 72.0
+  },
+  {
+   "id": "ignorevibrato-switch",
+   "kind": "switch",
+   "sprite": "antares_auto_tune_realtime__5215",
+   "frames": 2,
+   "param": 8,
+   "orientation": "vertical",
+   "x": 49.0,
+   "y": 363.0,
+   "w": 38.0,
+   "h": 19.0
+  },
+  {
+   "id": "targetnotesviamidi-switch",
+   "kind": "switch",
+   "sprite": "antares_auto_tune_realtime__5215",
+   "frames": 2,
+   "param": 9,
+   "orientation": "vertical",
+   "x": 156.0,
+   "y": 455.0,
+   "w": 38.0,
+   "h": 19.0
+  },
+  {
+   "id": "midioctaves-switch",
+   "kind": "switch",
+   "sprite": "antares_auto_tune_realtime__5216",
+   "frames": 2,
+   "param": 10,
+   "orientation": "horizontal",
+   "x": 301.0,
+   "y": 455.0,
+   "w": 76.0,
+   "h": 19.0
+  },
+  {
+   "id": "img-atlive_keyboardview",
+   "kind": "image",
+   "sprite": "antares_auto_tune_realtime__6200",
+   "x": 33.0,
+   "y": 510.0,
+   "w": 782.0,
+   "h": 62.0
+  },
+  {
+   "id": "vibshape-text",
+   "kind": "text",
+   "param": 11,
+   "text": {
+    "size": 12.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 682.0,
+   "y": 178.0,
+   "w": 102.0,
+   "h": 17.0
+  },
+  {
+   "id": "j-vibshape-text-prev",
+   "kind": "zone",
+   "x": 682.0,
+   "y": 178.0,
+   "w": 51.0,
+   "h": 17.0,
+   "action": {
+    "type": "table",
+    "param": 11,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.33333,
+      "value": 0.0
+     },
+     {
+      "current": 0.66667,
+      "value": 0.33333
+     },
+     {
+      "current": 1.0,
+      "value": 0.66667
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-vibshape-text-next",
+   "kind": "zone",
+   "x": 733.0,
+   "y": 178.0,
+   "w": 51.0,
+   "h": 17.0,
+   "action": {
+    "type": "table",
+    "param": 11,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.33333
+     },
+     {
+      "current": 0.33333,
+      "value": 0.66667
+     },
+     {
+      "current": 0.66667,
+      "value": 1.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "vibrate-knob",
+   "kind": "knob",
+   "sprite": "antares_auto_tune_realtime__8050",
+   "frames": 129,
+   "param": 12,
+   "x": 642.0,
+   "y": 216.0,
+   "w": 72.0,
+   "h": 72.0
+  },
+  {
+   "id": "vibvariation-knob",
+   "kind": "knob",
+   "sprite": "antares_auto_tune_realtime__8050",
+   "frames": 129,
+   "param": 13,
+   "x": 642.0,
+   "y": 320.0,
+   "w": 72.0,
+   "h": 72.0
+  },
+  {
+   "id": "onsetdelay-knob",
+   "kind": "knob",
+   "sprite": "antares_auto_tune_realtime__8050",
+   "frames": 129,
+   "param": 14,
+   "x": 746.0,
+   "y": 216.0,
+   "w": 72.0,
+   "h": 72.0
+  },
+  {
+   "id": "onsetrate-knob",
+   "kind": "knob",
+   "sprite": "antares_auto_tune_realtime__8050",
+   "frames": 129,
+   "param": 15,
+   "x": 746.0,
+   "y": 320.0,
+   "w": 72.0,
+   "h": 72.0
+  },
+  {
+   "id": "vibpitch-knob",
+   "kind": "knob",
+   "sprite": "antares_auto_tune_realtime__8050",
+   "frames": 129,
+   "param": 16,
+   "x": 467.0,
+   "y": 412.0,
+   "w": 72.0,
+   "h": 72.0
+  },
+  {
+   "id": "vibamplitude-knob",
+   "kind": "knob",
+   "sprite": "antares_auto_tune_realtime__8050",
+   "frames": 129,
+   "param": 17,
+   "x": 597.0,
+   "y": 412.0,
+   "w": 72.0,
+   "h": 72.0
+  },
+  {
+   "id": "vibformant-knob",
+   "kind": "knob",
+   "sprite": "antares_auto_tune_realtime__8050",
+   "frames": 129,
+   "param": 18,
+   "x": 727.0,
+   "y": 412.0,
+   "w": 72.0,
+   "h": 72.0
+  }
+ ],
+ "meterSources": {
+  "meter_65": {
+   "vendorSpecificFloat": 7,
+   "calibration": [
+    [
+     0.0,
+     1.0
+    ],
+    [
+     0.001,
+     0.001
+    ],
+    [
+     0.001259,
+     0.0013
+    ],
+    [
+     0.001585,
+     0.0016
+    ],
+    [
+     0.001995,
+     0.002
+    ],
+    [
+     0.002512,
+     0.0025
+    ],
+    [
+     0.003162,
+     0.0032
+    ],
+    [
+     0.003981,
+     0.004
+    ],
+    [
+     0.005012,
+     0.005
+    ],
+    [
+     0.00631,
+     0.0063
+    ],
+    [
+     0.007943,
+     0.0079
+    ],
+    [
+     0.01,
+     0.01
+    ],
+    [
+     0.012589,
+     0.0126
+    ],
+    [
+     0.015849,
+     0.0158
+    ],
+    [
+     0.019953,
+     0.02
+    ],
+    [
+     0.025119,
+     0.0251
+    ],
+    [
+     0.031623,
+     0.0316
+    ],
+    [
+     0.039811,
+     0.0398
+    ],
+    [
+     0.050119,
+     0.0501
+    ],
+    [
+     0.063096,
+     0.0631
+    ],
+    [
+     0.079433,
+     0.0794
+    ],
+    [
+     0.1,
+     0.1
+    ],
+    [
+     0.125893,
+     0.1259
+    ],
+    [
+     0.158489,
+     0.1585
+    ],
+    [
+     0.199526,
+     0.1995
+    ],
+    [
+     0.251189,
+     0.2512
+    ],
+    [
+     0.316228,
+     0.3162
+    ],
+    [
+     0.398107,
+     0.3981
+    ],
+    [
+     0.501187,
+     0.5012
+    ],
+    [
+     0.630957,
+     0.631
+    ],
+    [
+     0.794328,
+     0.7943
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ]
+  }
+ }
+}

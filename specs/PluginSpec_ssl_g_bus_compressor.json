@@ -1,0 +1,427 @@
+{
+ "schema": 2,
+ "effectName": "UAD SSL G Bus Compressor",
+ "namePattern": "SSL G Bus Compressor",
+ "size": {
+  "w": 300,
+  "h": 621
+ },
+ "background": "SSL_G_Comp_background",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Thresh",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "Make Up",
+   "steps": null,
+   "default": 0.199981689453125
+  },
+  {
+   "index": 2,
+   "name": "Attack",
+   "steps": [
+    "0.1 ms",
+    "0.3 ms",
+    "1 ms",
+    "3 ms",
+    "10 ms",
+    "30 ms"
+   ],
+   "default": 0.4000000059604645
+  },
+  {
+   "index": 3,
+   "name": "Release",
+   "steps": [
+    "0.1 s",
+    "0.3 s",
+    "0.6 s",
+    "1.2 s",
+    "Auto"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 4,
+   "name": "Ratio",
+   "steps": [
+    "2:1",
+    "4:1",
+    "10:1"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "SC Filter",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "Headroom",
+   "steps": [
+    "4 dB",
+    "8 dB",
+    "12 dB",
+    "16 dB",
+    "20 dB",
+    "24 dB",
+    "28 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "Mix",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 8,
+   "name": "Fade Rate",
+   "steps": null,
+   "default": 0.673980712890625
+  },
+  {
+   "index": 9,
+   "name": "Fade",
+   "steps": [
+    "In",
+    "Out"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 10,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "meter": {
+   "vendorSpecificFloat": 99,
+   "smoothing": 0.7,
+   "calibration": [
+    [
+     -3.47,
+     1.0
+    ],
+    [
+     -2.88846,
+     0.955
+    ],
+    [
+     -2.28448,
+     0.77
+    ],
+    [
+     -1.72561,
+     0.58
+    ],
+    [
+     -1.15876,
+     0.385
+    ],
+    [
+     -0.56168,
+     0.195
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ]
+  }
+ },
+ "elements": [
+  {
+   "id": "backPanel",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 300.0,
+   "h": 621.0,
+   "kind": "image",
+   "sprite": "SSL_G_Comp_background"
+  },
+  {
+   "id": "ratio",
+   "x": 55,
+   "y": 329,
+   "w": 70,
+   "h": 66,
+   "kind": "knob",
+   "param": 4,
+   "sprite": "SSL_G_Comp_knob_ratio",
+   "frames": 3
+  },
+  {
+   "id": "thresh",
+   "x": 55,
+   "y": 169,
+   "w": 70,
+   "h": 66,
+   "kind": "knob",
+   "param": 0,
+   "sprite": "SSL_G_Comp_knob",
+   "frames": 101
+  },
+  {
+   "id": "thresh-rtd-button",
+   "x": 84,
+   "y": 170,
+   "w": 12,
+   "h": 15,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "make_up",
+   "x": 175,
+   "y": 169,
+   "w": 70,
+   "h": 66,
+   "kind": "knob",
+   "param": 1,
+   "sprite": "SSL_G_Comp_knob",
+   "frames": 101
+  },
+  {
+   "id": "makeup-rtz-button",
+   "x": 193,
+   "y": 219,
+   "w": 12,
+   "h": 15,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "attack",
+   "x": 55,
+   "y": 249,
+   "w": 70,
+   "h": 66,
+   "kind": "knob",
+   "param": 2,
+   "sprite": "SSL_G_Comp_knob_attack",
+   "frames": 6
+  },
+  {
+   "id": "release",
+   "x": 175,
+   "y": 249,
+   "w": 70,
+   "h": 66,
+   "kind": "knob",
+   "param": 3,
+   "sprite": "SSL_G_Comp_knob_release",
+   "frames": 5
+  },
+  {
+   "id": "sc_filter",
+   "x": 55,
+   "y": 423,
+   "w": 70,
+   "h": 66,
+   "kind": "knob",
+   "param": 5,
+   "sprite": "SSL_G_Comp_knob_SC",
+   "frames": 101
+  },
+  {
+   "id": "sc-toggle-button",
+   "x": 58,
+   "y": 472,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "mix",
+   "x": 175,
+   "y": 423,
+   "w": 70,
+   "h": 66,
+   "kind": "knob",
+   "param": 7,
+   "sprite": "SSL_G_Comp_knob",
+   "frames": 101
+  },
+  {
+   "id": "mix-rt50-button",
+   "x": 204,
+   "y": 424,
+   "w": 12,
+   "h": 15,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "mix-rt0-button",
+   "x": 191,
+   "y": 472,
+   "w": 12,
+   "h": 15,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "mix-rt100-button",
+   "x": 216,
+   "y": 472,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "fade_rate",
+   "x": 55,
+   "y": 519,
+   "w": 70,
+   "h": 66,
+   "kind": "knob",
+   "param": 8,
+   "sprite": "SSL_G_Comp_knob",
+   "frames": 101
+  },
+  {
+   "id": "headroom",
+   "x": 128,
+   "y": 430,
+   "w": 45,
+   "h": 55,
+   "kind": "knob",
+   "param": 6,
+   "sprite": "SSL_G_Comp_knob_HR_trim",
+   "frames": 7
+  },
+  {
+   "id": "hr-rtd-button",
+   "x": 132,
+   "y": 470,
+   "w": 36,
+   "h": 12,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "default",
+    "param": 6
+   }
+  },
+  {
+   "id": "meter",
+   "x": 86,
+   "y": 51,
+   "w": 128,
+   "h": 67,
+   "kind": "filmstrip",
+   "sprite": "SSL_G_Comp_needle",
+   "frames": 160,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter",
+    "channel": 0
+   }
+  },
+  {
+   "id": "fade",
+   "x": 165,
+   "y": 508,
+   "w": 90,
+   "h": 90,
+   "kind": "switch",
+   "param": 9,
+   "sprite": "SSL_G_Comp_switch_Auto_Fade",
+   "frames": 3,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     9,
+     10
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "power",
+   "x": 165,
+   "y": 318,
+   "w": 90,
+   "h": 90,
+   "kind": "switch",
+   "param": 10,
+   "sprite": "SSL_G_Comp_switch_IN",
+   "frames": 2,
+   "reverse": true
+  }
+ ]
+}

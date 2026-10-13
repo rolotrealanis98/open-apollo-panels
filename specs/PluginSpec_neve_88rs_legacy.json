@@ -1,0 +1,1098 @@
+{
+ "schema": 2,
+ "effectName": "UAD Neve 88RS Legacy",
+ "namePattern": "Neve 88RS Legacy",
+ "size": {
+  "w": 450,
+  "h": 545
+ },
+ "background": "neve_88rs_legacy_5000",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Gate Enable",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "G/E Hyst",
+   "steps": null,
+   "default": 0.0859375
+  },
+  {
+   "index": 2,
+   "name": "G/E THR",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 3,
+   "name": "G/E -40dB",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "G/E RGE",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 5,
+   "name": "G/E FAST",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "G/E REL",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "L/C Enable",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "L/C Gain",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "L/C HARD",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 10,
+   "name": "L/C THR",
+   "steps": null,
+   "default": 0.008056640625
+  },
+  {
+   "index": 11,
+   "name": "L/C -20dB",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "L/C RAT",
+   "steps": null,
+   "default": 0.49420166015625
+  },
+  {
+   "index": 13,
+   "name": "L/C FAST",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 14,
+   "name": "L/C REL",
+   "steps": null,
+   "default": 0.459075927734375
+  },
+  {
+   "index": 15,
+   "name": "EQ Enable",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 16,
+   "name": "LF Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 17,
+   "name": "LF Freq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 18,
+   "name": "LF Shelf",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 19,
+   "name": "LF HI-Q",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 20,
+   "name": "LMF Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 21,
+   "name": "LMF Freq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 22,
+   "name": "LMF Q",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 23,
+   "name": "HMF Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 24,
+   "name": "HMF Freq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 25,
+   "name": "HMF Q",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 26,
+   "name": "HF Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 27,
+   "name": "HF Freq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 28,
+   "name": "HF Shelf",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 29,
+   "name": "HF Hi-Q",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 30,
+   "name": "LC Enable",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 31,
+   "name": "LC Freq",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 32,
+   "name": "HC Enable",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 33,
+   "name": "HC Freq",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 34,
+   "name": "SC-EQ",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 35,
+   "name": "PRE-DYN",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 36,
+   "name": "Phase",
+   "steps": [
+    "Normal",
+    "Inverted"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 37,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 38,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-l_c_rel",
+   "x": 77,
+   "y": 364,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5031",
+   "frames": 67,
+   "kind": "knob",
+   "param": 14
+  },
+  {
+   "id": "knob-2-l_c_thr",
+   "x": 77,
+   "y": 194,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5027",
+   "frames": 61,
+   "kind": "knob",
+   "param": 10,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "x": 77,
+   "y": 194,
+   "w": 55,
+   "h": 56,
+   "sprite": "P_neve_88rs_legacy_5028",
+   "frames": 61,
+   "kind": "knob",
+   "param": 10,
+   "id": "P-knob-2-l_c_thr-alt0",
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-3-l_c_rat",
+   "x": 77,
+   "y": 279,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5029",
+   "frames": 61,
+   "kind": "knob",
+   "param": 12,
+   "visibility": {
+    "params": [
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "x": 77,
+   "y": 279,
+   "w": 55,
+   "h": 56,
+   "sprite": "P_neve_88rs_legacy_5030",
+   "frames": 61,
+   "kind": "knob",
+   "param": 12,
+   "id": "P-knob-3-l_c_rat-alt0",
+   "visibility": {
+    "params": [
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-4-l_c_gain",
+   "x": 77,
+   "y": 109,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5006",
+   "frames": 61,
+   "kind": "knob",
+   "param": 8,
+   "visibility": {
+    "params": [
+     9
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "x": 77,
+   "y": 109,
+   "w": 55,
+   "h": 56,
+   "sprite": "P_neve_88rs_legacy_5007",
+   "frames": 61,
+   "kind": "knob",
+   "param": 8,
+   "id": "P-knob-4-l_c_gain-alt0",
+   "visibility": {
+    "params": [
+     9
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-5-l_c_20db",
+   "kind": "switch",
+   "x": 104,
+   "y": 250,
+   "w": 42,
+   "h": 19,
+   "sprite": "neve_88rs_legacy_5025_5",
+   "frames": 2,
+   "param": 11,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-6-l_c_hard",
+   "kind": "switch",
+   "x": 104,
+   "y": 165,
+   "w": 42,
+   "h": 19,
+   "sprite": "neve_88rs_legacy_5025_5",
+   "frames": 2,
+   "param": 9,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-7-l_c_fast",
+   "kind": "switch",
+   "x": 104,
+   "y": 337,
+   "w": 42,
+   "h": 19,
+   "sprite": "neve_88rs_legacy_5025_5",
+   "frames": 2,
+   "param": 13,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-8-internal40",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter0"
+   },
+   "x": 106,
+   "y": 444,
+   "w": 25,
+   "h": 70,
+   "sprite": "neve_88rs_legacy_5005",
+   "frames": 28
+  },
+  {
+   "id": "knob-9-g_e_rel",
+   "x": 22,
+   "y": 329,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5034",
+   "frames": 61,
+   "kind": "knob",
+   "param": 6
+  },
+  {
+   "id": "knob-10-g_e_thr",
+   "x": 22,
+   "y": 159,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5027",
+   "frames": 61,
+   "kind": "knob",
+   "param": 2,
+   "visibility": {
+    "params": [
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "x": 22,
+   "y": 159,
+   "w": 55,
+   "h": 56,
+   "sprite": "P_neve_88rs_legacy_5028",
+   "frames": 61,
+   "kind": "knob",
+   "param": 2,
+   "id": "P-knob-10-g_e_thr-alt0",
+   "visibility": {
+    "params": [
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-11-g_e_rge",
+   "x": 22,
+   "y": 244,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5029",
+   "frames": 61,
+   "kind": "knob",
+   "param": 4,
+   "visibility": {
+    "params": [
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "x": 22,
+   "y": 244,
+   "w": 55,
+   "h": 56,
+   "sprite": "P_neve_88rs_legacy_5030",
+   "frames": 61,
+   "kind": "knob",
+   "param": 4,
+   "id": "P-knob-11-g_e_rge-alt0",
+   "visibility": {
+    "params": [
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-12-g_e_hyst",
+   "x": 22,
+   "y": 74,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5002",
+   "frames": 61,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "switch-13-g_e_40db",
+   "kind": "switch",
+   "x": 5,
+   "y": 217,
+   "w": 42,
+   "h": 19,
+   "sprite": "neve_88rs_legacy_5026_9",
+   "frames": 3,
+   "param": 3,
+   "orientation": "vertical",
+   "frameSource": {
+    "type": "table",
+    "params": [
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-14-g_e_fast",
+   "kind": "switch",
+   "x": 5,
+   "y": 302,
+   "w": 42,
+   "h": 19,
+   "sprite": "neve_88rs_legacy_5026_9",
+   "frames": 3,
+   "param": 5,
+   "orientation": "vertical",
+   "frameSource": {
+    "type": "table",
+    "params": [
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "filmstrip-15-internal41",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter1"
+   },
+   "x": 40,
+   "y": 444,
+   "w": 25,
+   "h": 70,
+   "sprite": "neve_88rs_legacy_5003",
+   "frames": 28
+  },
+  {
+   "id": "knob-16-lc_freq",
+   "x": 377,
+   "y": 109,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5033",
+   "frames": 61,
+   "kind": "knob",
+   "param": 31
+  },
+  {
+   "id": "knob-17-hc_freq",
+   "x": 322,
+   "y": 37,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5032",
+   "frames": 61,
+   "kind": "knob",
+   "param": 33
+  },
+  {
+   "id": "knob-18-lf_freq",
+   "x": 172,
+   "y": 434,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5017",
+   "frames": 61,
+   "kind": "knob",
+   "param": 17
+  },
+  {
+   "id": "knob-19-lf_gain",
+   "x": 227,
+   "y": 469,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5034",
+   "frames": 61,
+   "kind": "knob",
+   "param": 16
+  },
+  {
+   "id": "knob-20-lmf_freq",
+   "x": 172,
+   "y": 329,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5033",
+   "frames": 61,
+   "kind": "knob",
+   "param": 21
+  },
+  {
+   "id": "knob-21-lmf_gain",
+   "x": 227,
+   "y": 364,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5016",
+   "frames": 61,
+   "kind": "knob",
+   "param": 20
+  },
+  {
+   "id": "knob-22-lmf_q",
+   "x": 227,
+   "y": 289,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5015",
+   "frames": 61,
+   "kind": "knob",
+   "param": 22
+  },
+  {
+   "id": "knob-23-hmf_freq",
+   "x": 172,
+   "y": 178,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5032",
+   "frames": 61,
+   "kind": "knob",
+   "param": 24
+  },
+  {
+   "id": "knob-24-hmf_gain",
+   "x": 227,
+   "y": 214,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5014",
+   "frames": 61,
+   "kind": "knob",
+   "param": 23
+  },
+  {
+   "id": "knob-25-hmf_q",
+   "x": 172,
+   "y": 254,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5013",
+   "frames": 61,
+   "kind": "knob",
+   "param": 25
+  },
+  {
+   "id": "knob-26-hf_freq",
+   "x": 172,
+   "y": 74,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5009",
+   "frames": 61,
+   "kind": "knob",
+   "param": 27
+  },
+  {
+   "id": "knob-27-hf_gain",
+   "x": 227,
+   "y": 109,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5010",
+   "frames": 61,
+   "kind": "knob",
+   "param": 26
+  },
+  {
+   "id": "knob-28-output",
+   "x": 349,
+   "y": 289,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_legacy_5034",
+   "frames": 61,
+   "kind": "knob",
+   "param": 37
+  },
+  {
+   "id": "switch-29-pre_dyn",
+   "kind": "switch",
+   "x": 390,
+   "y": 200,
+   "w": 49,
+   "h": 28,
+   "sprite": "neve_88rs_legacy_5020_20",
+   "frames": 2,
+   "param": 35,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-30-phase",
+   "kind": "switch",
+   "x": 351,
+   "y": 232,
+   "w": 49,
+   "h": 28,
+   "sprite": "neve_88rs_legacy_5021_21",
+   "frames": 2,
+   "param": 36,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-31-sc_eq",
+   "kind": "switch",
+   "x": 315,
+   "y": 200,
+   "w": 45,
+   "h": 28,
+   "sprite": "neve_88rs_legacy_5022_22",
+   "frames": 2,
+   "param": 34,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-32-eq_enable",
+   "kind": "switch",
+   "x": 205,
+   "y": 30,
+   "w": 49,
+   "h": 28,
+   "sprite": "neve_88rs_legacy_5008_23",
+   "frames": 2,
+   "param": 15,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-33-l_c_enable",
+   "kind": "switch",
+   "x": 87,
+   "y": 30,
+   "w": 49,
+   "h": 28,
+   "sprite": "neve_88rs_legacy_5004_24",
+   "frames": 2,
+   "param": 7,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-34-gate_enable",
+   "kind": "switch",
+   "x": 20,
+   "y": 30,
+   "w": 45,
+   "h": 28,
+   "sprite": "neve_88rs_legacy_5001_25",
+   "frames": 2,
+   "param": 0,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-35-hf_shelf",
+   "kind": "switch",
+   "x": 229,
+   "y": 173,
+   "w": 49,
+   "h": 28,
+   "sprite": "neve_88rs_legacy_5011_26",
+   "frames": 2,
+   "param": 28,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-36-lf_shelf",
+   "kind": "switch",
+   "x": 229,
+   "y": 428,
+   "w": 49,
+   "h": 28,
+   "sprite": "neve_88rs_legacy_5012_27",
+   "frames": 2,
+   "param": 18,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-37-hf_hi_q",
+   "kind": "switch",
+   "x": 176,
+   "y": 138,
+   "w": 45,
+   "h": 28,
+   "sprite": "neve_88rs_legacy_5024_28",
+   "frames": 2,
+   "param": 29,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-38-lf_hi_q",
+   "kind": "switch",
+   "x": 176,
+   "y": 393,
+   "w": 45,
+   "h": 28,
+   "sprite": "neve_88rs_legacy_5024_28",
+   "frames": 2,
+   "param": 19,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-39-hc_enable",
+   "kind": "switch",
+   "x": 390,
+   "y": 30,
+   "w": 45,
+   "h": 28,
+   "sprite": "neve_88rs_legacy_5018_29",
+   "frames": 2,
+   "param": 32,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-40-lc_enable",
+   "kind": "switch",
+   "x": 315,
+   "y": 138,
+   "w": 45,
+   "h": 28,
+   "sprite": "neve_88rs_legacy_5019_30",
+   "frames": 2,
+   "param": 30,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-41-power",
+   "x": 345,
+   "y": 467,
+   "w": 62,
+   "h": 65,
+   "sprite": "neve_88rs_legacy_5023",
+   "frames": 2,
+   "kind": "switch",
+   "param": 38,
+   "orientation": "vertical"
+  }
+ ],
+ "meterSources": {
+  "meter0": {
+   "vendorSpecificFloat": 183,
+   "calibration": [
+    [
+     -1.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ]
+  },
+  "meter1": {
+   "vendorSpecificFloat": 184,
+   "calibration": [
+    [
+     -2.5,
+     1.0
+    ],
+    [
+     -1.25,
+     0.75
+    ],
+    [
+     -0.6,
+     0.5
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ]
+  }
+ }
+}

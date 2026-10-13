@@ -1,0 +1,2218 @@
+{
+ "schema": 2,
+ "effectName": "UAD Friedman DS40",
+ "namePattern": "Friedman DS40",
+ "size": {
+  "w": 1024,
+  "h": 450
+ },
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Bypass",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "ByPreA",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "ByPwA",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Preset",
+   "steps": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Input",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "PwrSk",
+   "steps": null,
+   "default": 0.875
+  },
+  {
+   "index": 6,
+   "name": "RecCh",
+   "steps": null,
+   "default": 0.1060606092214584
+  },
+  {
+   "index": 7,
+   "name": "InpType",
+   "steps": [
+    "L",
+    "H"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 9,
+   "name": "Master",
+   "steps": null,
+   "default": 0.3799999952316284
+  },
+  {
+   "index": 10,
+   "name": "Treble",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 11,
+   "name": "Mid",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 12,
+   "name": "Bass",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 13,
+   "name": "Presence",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 14,
+   "name": "NgByP",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 15,
+   "name": "NgTh",
+   "steps": null,
+   "default": 0.1833333373069763
+  },
+  {
+   "index": 16,
+   "name": "NgRa",
+   "steps": null,
+   "default": 0.300000011920929
+  },
+  {
+   "index": 17,
+   "name": "Delay",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 18,
+   "name": "DlyTime",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 19,
+   "name": "DlyMix",
+   "steps": null,
+   "default": 0.05000000074505806
+  },
+  {
+   "index": 20,
+   "name": "DlyFB",
+   "steps": null,
+   "default": 0.300000011920929
+  },
+  {
+   "index": 21,
+   "name": "DlyLoFi",
+   "steps": null,
+   "default": 0.1000000014901161
+  },
+  {
+   "index": 22,
+   "name": "Tight",
+   "steps": [
+    "Off",
+    "Pre",
+    "Post"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 23,
+   "name": "TFreq",
+   "steps": null,
+   "default": 0.1109243780374527
+  },
+  {
+   "index": 24,
+   "name": "Smooth",
+   "steps": [
+    "Off",
+    "Pre",
+    "Post"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 25,
+   "name": "SFreq",
+   "steps": null,
+   "default": 0.7722116708755493
+  }
+ ],
+ "elements": [
+  {
+   "id": "chrome-panel",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 1024,
+   "h": 426,
+   "sprite": "friedman_ds40__BACKGROUND"
+  },
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 1024,
+   "h": 24,
+   "toolbar": {
+    "family": "brainworx",
+    "items": [
+     {
+      "type": "switch",
+      "x": 0.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.power",
+      "frames": 2,
+      "param": 0,
+      "glyph": "power",
+      "invert": true
+     },
+     {
+      "type": "icon",
+      "x": 338.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.undo",
+      "frames": 2,
+      "glyph": "undo"
+     },
+     {
+      "type": "icon",
+      "x": 362.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.redo",
+      "frames": 2,
+      "glyph": "redo"
+     },
+     {
+      "type": "bank",
+      "x": 410.0,
+      "y": 0,
+      "w": 96.0,
+      "h": 24,
+      "sprite": "chrome.bx.bank",
+      "frames": 2,
+      "param": 3,
+      "cells": 4,
+      "glyph": "ABCD"
+     },
+     {
+      "type": "icon",
+      "x": 530.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.copy",
+      "frames": 2,
+      "glyph": "Copy"
+     },
+     {
+      "type": "icon",
+      "x": 582.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.paste",
+      "frames": 2,
+      "glyph": "Paste"
+     },
+     {
+      "type": "icon",
+      "x": 646.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.reset",
+      "frames": 2,
+      "glyph": "Reset"
+     },
+     {
+      "type": "icon",
+      "x": 969.0,
+      "y": 0,
+      "w": 55.0,
+      "h": 24,
+      "sprite": "chrome.bx.toolbaraboutbnt",
+      "frames": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "presence-knob",
+   "kind": "knob",
+   "sprite": "friedman_ds40__POTI",
+   "frames": 61,
+   "param": 13,
+   "x": 307.0,
+   "y": 304.0,
+   "w": 69.0,
+   "h": 69.0
+  },
+  {
+   "id": "j-rack-open",
+   "kind": "zone",
+   "x": 47.0,
+   "y": 92.0,
+   "w": 929.0,
+   "h": 171.0,
+   "action": {
+    "type": "setState",
+    "state": "rack",
+    "value": 1
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "bass-knob",
+   "kind": "knob",
+   "sprite": "friedman_ds40__POTI",
+   "frames": 61,
+   "param": 12,
+   "x": 395.0,
+   "y": 304.0,
+   "w": 69.0,
+   "h": 69.0
+  },
+  {
+   "id": "mid-knob",
+   "kind": "knob",
+   "sprite": "friedman_ds40__POTI",
+   "frames": 61,
+   "param": 11,
+   "x": 484.0,
+   "y": 304.0,
+   "w": 69.0,
+   "h": 69.0
+  },
+  {
+   "id": "treble-knob",
+   "kind": "knob",
+   "sprite": "friedman_ds40__POTI",
+   "frames": 61,
+   "param": 10,
+   "x": 574.0,
+   "y": 304.0,
+   "w": 69.0,
+   "h": 69.0
+  },
+  {
+   "id": "master-knob",
+   "kind": "knob",
+   "sprite": "friedman_ds40__POTI",
+   "frames": 61,
+   "param": 9,
+   "x": 662.0,
+   "y": 304.0,
+   "w": 69.0,
+   "h": 69.0
+  },
+  {
+   "id": "gain-knob",
+   "kind": "knob",
+   "sprite": "friedman_ds40__POTI",
+   "frames": 61,
+   "param": 8,
+   "x": 750.0,
+   "y": 304.0,
+   "w": 69.0,
+   "h": 69.0
+  },
+  {
+   "id": "bypass-switch",
+   "kind": "switch",
+   "sprite": "friedman_ds40__SWITCH",
+   "frames": 2,
+   "param": 0,
+   "orientation": "vertical",
+   "x": 175.0,
+   "y": 314.0,
+   "w": 38.0,
+   "h": 48.0
+  },
+  {
+   "id": "inptype-switch",
+   "kind": "switch",
+   "sprite": "friedman_ds40__SWITCH",
+   "frames": 2,
+   "param": 7,
+   "orientation": "vertical",
+   "x": 855.0,
+   "y": 314.0,
+   "w": 38.0,
+   "h": 48.0
+  },
+  {
+   "id": "bypass-led",
+   "kind": "filmstrip",
+   "sprite": "friedman_ds40__POWERLED",
+   "frames": 2,
+   "x": 232.0,
+   "y": 317.0,
+   "w": 45.0,
+   "h": 45.0,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
+  },
+  {
+   "id": "img-cviewcontainer",
+   "kind": "image",
+   "sprite": "friedman_ds40__HEADRACK",
+   "x": 0.0,
+   "y": 24.0,
+   "w": 1024.0,
+   "h": 242.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-rack-close",
+   "kind": "zone",
+   "x": 0.0,
+   "y": 24.0,
+   "w": 1024.0,
+   "h": 242.0,
+   "action": {
+    "type": "setState",
+    "state": "rack",
+    "value": 0
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ngth-knob",
+   "kind": "knob",
+   "sprite": "friedman_ds40__POTIFX",
+   "frames": 61,
+   "param": 15,
+   "x": 120.0,
+   "y": 97.0,
+   "w": 59.0,
+   "h": 59.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ngth-text",
+   "kind": "text",
+   "param": 15,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 124.0,
+   "y": 151.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ngra-knob",
+   "kind": "knob",
+   "sprite": "friedman_ds40__POTIFX",
+   "frames": 61,
+   "param": 16,
+   "x": 183.0,
+   "y": 97.0,
+   "w": 59.0,
+   "h": 59.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ngra-text",
+   "kind": "text",
+   "param": 16,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 187.0,
+   "y": 151.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "tfreq-knob",
+   "kind": "knob",
+   "sprite": "friedman_ds40__POTIFX",
+   "frames": 61,
+   "param": 23,
+   "x": 306.0,
+   "y": 97.0,
+   "w": 59.0,
+   "h": 59.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "tfreq-text",
+   "kind": "text",
+   "param": 23,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 310.0,
+   "y": 151.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sfreq-knob",
+   "kind": "knob",
+   "sprite": "friedman_ds40__POTIFX",
+   "frames": 61,
+   "param": 25,
+   "x": 388.0,
+   "y": 97.0,
+   "w": 59.0,
+   "h": 59.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sfreq-text",
+   "kind": "text",
+   "param": 25,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 392.0,
+   "y": 151.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dlytime-knob",
+   "kind": "knob",
+   "sprite": "friedman_ds40__POTIFX",
+   "frames": 61,
+   "param": 18,
+   "x": 611.0,
+   "y": 97.0,
+   "w": 59.0,
+   "h": 59.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dlytime-text",
+   "kind": "text",
+   "param": 18,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 613.0,
+   "y": 151.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dlymix-knob",
+   "kind": "knob",
+   "sprite": "friedman_ds40__POTIFX",
+   "frames": 61,
+   "param": 19,
+   "x": 773.0,
+   "y": 97.0,
+   "w": 59.0,
+   "h": 59.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dlymix-text",
+   "kind": "text",
+   "param": 19,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 777.0,
+   "y": 151.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dlyfb-knob",
+   "kind": "knob",
+   "sprite": "friedman_ds40__POTIFX",
+   "frames": 61,
+   "param": 20,
+   "x": 841.0,
+   "y": 97.0,
+   "w": 59.0,
+   "h": 59.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dlyfb-text",
+   "kind": "text",
+   "param": 20,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 845.0,
+   "y": 151.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dlylofi-knob",
+   "kind": "knob",
+   "sprite": "friedman_ds40__POTIFX",
+   "frames": 61,
+   "param": 21,
+   "x": 908.0,
+   "y": 97.0,
+   "w": 59.0,
+   "h": 59.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dlylofi-text",
+   "kind": "text",
+   "param": 21,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 912.0,
+   "y": 151.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "input-knob",
+   "kind": "knob",
+   "sprite": "friedman_ds40__POTIFX",
+   "frames": 61,
+   "param": 4,
+   "x": 535.0,
+   "y": 173.0,
+   "w": 59.0,
+   "h": 59.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "input-text",
+   "kind": "text",
+   "param": 4,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 539.0,
+   "y": 227.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pwrsk-knob",
+   "kind": "knob",
+   "sprite": "friedman_ds40__POTIFX",
+   "frames": 61,
+   "param": 5,
+   "x": 704.0,
+   "y": 173.0,
+   "w": 59.0,
+   "h": 59.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pwrsk-text",
+   "kind": "text",
+   "param": 5,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 708.0,
+   "y": 227.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ckickbutton-kick",
+   "kind": "button",
+   "sprite": "friedman_ds40__BUTTON",
+   "frames": 2,
+   "action": {
+    "type": "table",
+    "param": 6,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.015152
+     },
+     {
+      "current": 0.015152,
+      "value": 0.030303
+     },
+     {
+      "current": 0.030303,
+      "value": 0.045455
+     },
+     {
+      "current": 0.045455,
+      "value": 0.060606
+     },
+     {
+      "current": 0.060606,
+      "value": 0.075758
+     },
+     {
+      "current": 0.075758,
+      "value": 0.090909
+     },
+     {
+      "current": 0.090909,
+      "value": 0.106061
+     },
+     {
+      "current": 0.106061,
+      "value": 0.121212
+     },
+     {
+      "current": 0.121212,
+      "value": 0.136364
+     },
+     {
+      "current": 0.136364,
+      "value": 0.151515
+     },
+     {
+      "current": 0.151515,
+      "value": 0.166667
+     },
+     {
+      "current": 0.166667,
+      "value": 0.181818
+     },
+     {
+      "current": 0.181818,
+      "value": 0.19697
+     },
+     {
+      "current": 0.19697,
+      "value": 0.212121
+     },
+     {
+      "current": 0.212121,
+      "value": 0.227273
+     },
+     {
+      "current": 0.227273,
+      "value": 0.242424
+     },
+     {
+      "current": 0.242424,
+      "value": 0.257576
+     },
+     {
+      "current": 0.257576,
+      "value": 0.272727
+     },
+     {
+      "current": 0.272727,
+      "value": 0.287879
+     },
+     {
+      "current": 0.287879,
+      "value": 0.30303
+     },
+     {
+      "current": 0.30303,
+      "value": 0.318182
+     },
+     {
+      "current": 0.318182,
+      "value": 0.333333
+     },
+     {
+      "current": 0.333333,
+      "value": 0.348485
+     },
+     {
+      "current": 0.348485,
+      "value": 0.363636
+     },
+     {
+      "current": 0.363636,
+      "value": 0.378788
+     },
+     {
+      "current": 0.378788,
+      "value": 0.393939
+     },
+     {
+      "current": 0.393939,
+      "value": 0.409091
+     },
+     {
+      "current": 0.409091,
+      "value": 0.424242
+     },
+     {
+      "current": 0.424242,
+      "value": 0.439394
+     },
+     {
+      "current": 0.439394,
+      "value": 0.454545
+     },
+     {
+      "current": 0.454545,
+      "value": 0.469697
+     },
+     {
+      "current": 0.469697,
+      "value": 0.484848
+     },
+     {
+      "current": 0.484848,
+      "value": 0.5
+     },
+     {
+      "current": 0.5,
+      "value": 0.515152
+     },
+     {
+      "current": 0.515152,
+      "value": 0.530303
+     },
+     {
+      "current": 0.530303,
+      "value": 0.545455
+     },
+     {
+      "current": 0.545455,
+      "value": 0.560606
+     },
+     {
+      "current": 0.560606,
+      "value": 0.575758
+     },
+     {
+      "current": 0.575758,
+      "value": 0.590909
+     },
+     {
+      "current": 0.590909,
+      "value": 0.606061
+     },
+     {
+      "current": 0.606061,
+      "value": 0.621212
+     },
+     {
+      "current": 0.621212,
+      "value": 0.636364
+     },
+     {
+      "current": 0.636364,
+      "value": 0.651515
+     },
+     {
+      "current": 0.651515,
+      "value": 0.666667
+     },
+     {
+      "current": 0.666667,
+      "value": 0.681818
+     },
+     {
+      "current": 0.681818,
+      "value": 0.69697
+     },
+     {
+      "current": 0.69697,
+      "value": 0.712121
+     },
+     {
+      "current": 0.712121,
+      "value": 0.727273
+     },
+     {
+      "current": 0.727273,
+      "value": 0.742424
+     },
+     {
+      "current": 0.742424,
+      "value": 0.757576
+     },
+     {
+      "current": 0.757576,
+      "value": 0.772727
+     },
+     {
+      "current": 0.772727,
+      "value": 0.787879
+     },
+     {
+      "current": 0.787879,
+      "value": 0.80303
+     },
+     {
+      "current": 0.80303,
+      "value": 0.818182
+     },
+     {
+      "current": 0.818182,
+      "value": 0.833333
+     },
+     {
+      "current": 0.833333,
+      "value": 0.848485
+     },
+     {
+      "current": 0.848485,
+      "value": 0.863636
+     },
+     {
+      "current": 0.863636,
+      "value": 0.878788
+     },
+     {
+      "current": 0.878788,
+      "value": 0.893939
+     },
+     {
+      "current": 0.893939,
+      "value": 0.909091
+     },
+     {
+      "current": 0.909091,
+      "value": 0.924242
+     },
+     {
+      "current": 0.924242,
+      "value": 0.939394
+     },
+     {
+      "current": 0.939394,
+      "value": 0.954545
+     },
+     {
+      "current": 0.954545,
+      "value": 0.969697
+     },
+     {
+      "current": 0.969697,
+      "value": 0.984848
+     },
+     {
+      "current": 0.984848,
+      "value": 1.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.0
+     }
+    ]
+   },
+   "x": 81.0,
+   "y": 204.0,
+   "w": 25.0,
+   "h": 25.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ckickbutton-kick-1",
+   "kind": "button",
+   "sprite": "friedman_ds40__BUTTON",
+   "frames": 2,
+   "action": {
+    "type": "table",
+    "param": 6,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.015152,
+      "value": 0.0
+     },
+     {
+      "current": 0.030303,
+      "value": 0.015152
+     },
+     {
+      "current": 0.045455,
+      "value": 0.030303
+     },
+     {
+      "current": 0.060606,
+      "value": 0.045455
+     },
+     {
+      "current": 0.075758,
+      "value": 0.060606
+     },
+     {
+      "current": 0.090909,
+      "value": 0.075758
+     },
+     {
+      "current": 0.106061,
+      "value": 0.090909
+     },
+     {
+      "current": 0.121212,
+      "value": 0.106061
+     },
+     {
+      "current": 0.136364,
+      "value": 0.121212
+     },
+     {
+      "current": 0.151515,
+      "value": 0.136364
+     },
+     {
+      "current": 0.166667,
+      "value": 0.151515
+     },
+     {
+      "current": 0.181818,
+      "value": 0.166667
+     },
+     {
+      "current": 0.19697,
+      "value": 0.181818
+     },
+     {
+      "current": 0.212121,
+      "value": 0.19697
+     },
+     {
+      "current": 0.227273,
+      "value": 0.212121
+     },
+     {
+      "current": 0.242424,
+      "value": 0.227273
+     },
+     {
+      "current": 0.257576,
+      "value": 0.242424
+     },
+     {
+      "current": 0.272727,
+      "value": 0.257576
+     },
+     {
+      "current": 0.287879,
+      "value": 0.272727
+     },
+     {
+      "current": 0.30303,
+      "value": 0.287879
+     },
+     {
+      "current": 0.318182,
+      "value": 0.30303
+     },
+     {
+      "current": 0.333333,
+      "value": 0.318182
+     },
+     {
+      "current": 0.348485,
+      "value": 0.333333
+     },
+     {
+      "current": 0.363636,
+      "value": 0.348485
+     },
+     {
+      "current": 0.378788,
+      "value": 0.363636
+     },
+     {
+      "current": 0.393939,
+      "value": 0.378788
+     },
+     {
+      "current": 0.409091,
+      "value": 0.393939
+     },
+     {
+      "current": 0.424242,
+      "value": 0.409091
+     },
+     {
+      "current": 0.439394,
+      "value": 0.424242
+     },
+     {
+      "current": 0.454545,
+      "value": 0.439394
+     },
+     {
+      "current": 0.469697,
+      "value": 0.454545
+     },
+     {
+      "current": 0.484848,
+      "value": 0.469697
+     },
+     {
+      "current": 0.5,
+      "value": 0.484848
+     },
+     {
+      "current": 0.515152,
+      "value": 0.5
+     },
+     {
+      "current": 0.530303,
+      "value": 0.515152
+     },
+     {
+      "current": 0.545455,
+      "value": 0.530303
+     },
+     {
+      "current": 0.560606,
+      "value": 0.545455
+     },
+     {
+      "current": 0.575758,
+      "value": 0.560606
+     },
+     {
+      "current": 0.590909,
+      "value": 0.575758
+     },
+     {
+      "current": 0.606061,
+      "value": 0.590909
+     },
+     {
+      "current": 0.621212,
+      "value": 0.606061
+     },
+     {
+      "current": 0.636364,
+      "value": 0.621212
+     },
+     {
+      "current": 0.651515,
+      "value": 0.636364
+     },
+     {
+      "current": 0.666667,
+      "value": 0.651515
+     },
+     {
+      "current": 0.681818,
+      "value": 0.666667
+     },
+     {
+      "current": 0.69697,
+      "value": 0.681818
+     },
+     {
+      "current": 0.712121,
+      "value": 0.69697
+     },
+     {
+      "current": 0.727273,
+      "value": 0.712121
+     },
+     {
+      "current": 0.742424,
+      "value": 0.727273
+     },
+     {
+      "current": 0.757576,
+      "value": 0.742424
+     },
+     {
+      "current": 0.772727,
+      "value": 0.757576
+     },
+     {
+      "current": 0.787879,
+      "value": 0.772727
+     },
+     {
+      "current": 0.80303,
+      "value": 0.787879
+     },
+     {
+      "current": 0.818182,
+      "value": 0.80303
+     },
+     {
+      "current": 0.833333,
+      "value": 0.818182
+     },
+     {
+      "current": 0.848485,
+      "value": 0.833333
+     },
+     {
+      "current": 0.863636,
+      "value": 0.848485
+     },
+     {
+      "current": 0.878788,
+      "value": 0.863636
+     },
+     {
+      "current": 0.893939,
+      "value": 0.878788
+     },
+     {
+      "current": 0.909091,
+      "value": 0.893939
+     },
+     {
+      "current": 0.924242,
+      "value": 0.909091
+     },
+     {
+      "current": 0.939394,
+      "value": 0.924242
+     },
+     {
+      "current": 0.954545,
+      "value": 0.939394
+     },
+     {
+      "current": 0.969697,
+      "value": 0.954545
+     },
+     {
+      "current": 0.984848,
+      "value": 0.969697
+     },
+     {
+      "current": 1.0,
+      "value": 0.984848
+     }
+    ]
+   },
+   "x": 58.0,
+   "y": 204.0,
+   "w": 25.0,
+   "h": 25.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ckickbutton-kick-2",
+   "kind": "button",
+   "sprite": "friedman_ds40__BUTTON",
+   "frames": 2,
+   "action": {
+    "type": "nudge",
+    "param": 18,
+    "delta": -0.21111
+   },
+   "x": 667.0,
+   "y": 123.0,
+   "w": 25.0,
+   "h": 25.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ckickbutton-kick-3",
+   "kind": "image",
+   "sprite": "friedman_ds40__RACKBNTTAP",
+   "x": 570.0,
+   "y": 114.0,
+   "w": 31.0,
+   "h": 32.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "recch-text",
+   "kind": "text",
+   "param": 6,
+   "text": {
+    "size": 10,
+    "color": "#E9FFFF",
+    "align": "left",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 66.0,
+   "y": 187.0,
+   "w": 407.0,
+   "h": 11.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "tight-switch",
+   "kind": "switch",
+   "sprite": "friedman_ds40__SWITCH3POS",
+   "frames": 3,
+   "param": 22,
+   "orientation": "vertical",
+   "x": 270.0,
+   "y": 117.0,
+   "w": 30.0,
+   "h": 30.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "smooth-switch",
+   "kind": "switch",
+   "sprite": "friedman_ds40__SWITCH3POS",
+   "frames": 3,
+   "param": 24,
+   "orientation": "vertical",
+   "x": 453.0,
+   "y": 117.0,
+   "w": 30.0,
+   "h": 30.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ngbyp-switch",
+   "kind": "switch",
+   "sprite": "friedman_ds40__SWITCHFX",
+   "frames": 2,
+   "param": 14,
+   "orientation": "vertical",
+   "x": 85.0,
+   "y": 117.0,
+   "w": 30.0,
+   "h": 30.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "delay-switch",
+   "kind": "switch",
+   "sprite": "friedman_ds40__SWITCHFX",
+   "frames": 2,
+   "param": 17,
+   "orientation": "vertical",
+   "x": 526.0,
+   "y": 117.0,
+   "w": 30.0,
+   "h": 30.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "byprea-switch",
+   "kind": "switch",
+   "sprite": "friedman_ds40__SWITCHFX",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 608.0,
+   "y": 197.0,
+   "w": 30.0,
+   "h": 30.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bypwa-switch",
+   "kind": "switch",
+   "sprite": "friedman_ds40__SWITCHFX",
+   "frames": 2,
+   "param": 2,
+   "orientation": "vertical",
+   "x": 656.0,
+   "y": 197.0,
+   "w": 30.0,
+   "h": 30.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "friedman_ds40__LEDRED",
+   "frames": 2,
+   "x": 57.0,
+   "y": 120.0,
+   "w": 24.0,
+   "h": 24.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_20000000"
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-dly-x2",
+   "kind": "button",
+   "sprite": "friedman_ds40__BUTTON",
+   "frames": 2,
+   "action": {
+    "type": "nudge",
+    "param": 18,
+    "delta": 0.2111
+   },
+   "x": 667.0,
+   "y": 98.0,
+   "w": 25.0,
+   "h": 25.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-tb-rack",
+   "kind": "filmstrip",
+   "frames": 2,
+   "sprite": "J_friedman_ds40_tb_rack",
+   "x": 710.0,
+   "y": 0,
+   "w": 55.0,
+   "h": 24,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-tb-rack-zone",
+   "kind": "zone",
+   "x": 710.0,
+   "y": 0,
+   "w": 55.0,
+   "h": 24,
+   "action": {
+    "type": "cycleState",
+    "state": "rack",
+    "count": 2
+   }
+  }
+ ],
+ "meterSources": {
+  "led_20000000": {
+   "vendorSpecificFloat": 117440517,
+   "opcode": {
+    "op": 519,
+    "p0": 117440517,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144.0,
+     0.0
+    ],
+    [
+     0.5,
+     0.0
+    ],
+    [
+     0.5000001,
+     1.0
+    ],
+    [
+     100.0,
+     1.0
+    ]
+   ]
+  }
+ },
+ "states": {
+  "rack": 0
+ }
+}

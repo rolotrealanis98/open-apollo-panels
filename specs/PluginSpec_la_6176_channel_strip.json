@@ -1,0 +1,3277 @@
+{
+ "schema": 2,
+ "effectName": "UAD LA-6176 Channel Strip",
+ "namePattern": "LA-6176 Channel Strip",
+ "size": {
+  "w": 1200,
+  "h": 220
+ },
+ "background": "UA_LA-6176_panel_610B-1176",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Input Select",
+   "steps": [
+    "(Mic) 500",
+    "(Mic) 2.0k",
+    "Line",
+    "(Hi-Z) 47k",
+    "(Hi-Z) 2.2M"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "Input Pad",
+   "steps": [
+    "Off",
+    "-15 dB"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Input Gain",
+   "steps": [
+    "-10 dB",
+    "-5 dB",
+    "0 dB",
+    "+5 dB",
+    "+10 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "Polarity",
+   "steps": [
+    "In 0",
+    "Out 180"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Cut Filter",
+   "steps": [
+    "Off",
+    "75Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "EQ Bypass",
+   "steps": [
+    "EQ In",
+    "EQ Byp"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "EQ Lo Freq",
+   "steps": [
+    "70 Hz",
+    "200 Hz",
+    "100 Hz"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 7,
+   "name": "EQ Lo Gain",
+   "steps": [
+    "-9 dB",
+    "-6 dB",
+    "-4.5 dB",
+    "-3 dB",
+    "-1.5 dB",
+    "0 dB",
+    "+1.5 dB",
+    "+3 dB",
+    "+4.5 dB",
+    "+6 dB",
+    "+9 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 8,
+   "name": "EQ Hi Freq",
+   "steps": [
+    "4.5 kHz",
+    "10 kHz",
+    "7 kHz"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 9,
+   "name": "EQ Hi Gain",
+   "steps": [
+    "-9 dB",
+    "-6 dB",
+    "-4.5 dB",
+    "-3 dB",
+    "-1.5 dB",
+    "0 dB",
+    "+1.5 dB",
+    "+3 dB",
+    "+4.5 dB",
+    "+6 dB",
+    "+9 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "Level",
+   "steps": null,
+   "default": 0.604888916015625
+  },
+  {
+   "index": 11,
+   "name": "Dyn Bypass",
+   "steps": [
+    "Dyn In",
+    "Dyn Byp"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "Dyn Mode",
+   "steps": [
+    "1176",
+    "LA2A"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "1176 Atk",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 14,
+   "name": "1176 Rel",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 15,
+   "name": "1176 Ratio",
+   "steps": [
+    "1:1",
+    "4:1",
+    "8:1",
+    "12:1",
+    "20:1",
+    "ALL"
+   ],
+   "default": 0.4000000059604645
+  },
+  {
+   "index": 16,
+   "name": "1176 Input",
+   "steps": null,
+   "default": 0.29998779296875
+  },
+  {
+   "index": 17,
+   "name": "1176 Output",
+   "steps": null,
+   "default": 0.65997314453125
+  },
+  {
+   "index": 18,
+   "name": "1176 SC Filt",
+   "steps": [
+    "Off",
+    "Off"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 19,
+   "name": "1176 Mix",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 20,
+   "name": "LA2A Ratio",
+   "steps": [
+    "Comp",
+    "Comp"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 21,
+   "name": "LA2A Pk Red",
+   "steps": null,
+   "default": 0.149993896484375
+  },
+  {
+   "index": 22,
+   "name": "LA2A Gain",
+   "steps": null,
+   "default": 0.649993896484375
+  },
+  {
+   "index": 23,
+   "name": "Meter",
+   "steps": [
+    "Preamp",
+    "GR",
+    "Out"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 24,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "vu": {
+   "vendorSpecificFloat": 1047,
+   "smoothing": 0.7,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ]
+  },
+  "vu_la2a": {
+   "vendorSpecificFloat": 1046,
+   "smoothing": 0.7,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ]
+  },
+  "vu_la2a_level": {
+   "vendorSpecificFloat": 1045,
+   "smoothing": 0.7,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.00155039,
+     1.0
+    ]
+   ]
+  }
+ },
+ "elements": [
+  {
+   "id": "back-panel",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 1200.0,
+   "h": 220.0,
+   "kind": "image",
+   "sprite": "UA_LA-6176_panel_610B-1176",
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "la2a-overlay",
+   "kind": "image",
+   "x": 0,
+   "y": 0,
+   "w": 1200,
+   "h": 220,
+   "sprite": "UA_LA-6176_overlay_LA2A",
+   "visibility": {
+    "params": [
+     12
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "input-gain-knob",
+   "x": 102,
+   "y": 35,
+   "w": 60,
+   "h": 60,
+   "kind": "knob",
+   "param": 2,
+   "sprite": "UA_LA-6176_rotary-switch_5pos",
+   "frames": 5
+  },
+  {
+   "id": "low-input-gain-set",
+   "x": 84,
+   "y": 40,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "midlow-input-gain-set",
+   "x": 106,
+   "y": 25,
+   "w": 12,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "mid-input-gain-set",
+   "x": 126,
+   "y": 20,
+   "w": 12,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "default",
+    "param": 2
+   }
+  },
+  {
+   "id": "midhigh-input-gain-set",
+   "x": 144,
+   "y": 25,
+   "w": 12,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "high-input-gain-set",
+   "x": 161,
+   "y": 40,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "input-select-knob",
+   "x": 102,
+   "y": 125,
+   "w": 60,
+   "h": 60,
+   "kind": "switch",
+   "param": 0,
+   "sprite": "UA_LA-6176_rotary-switch_5pos",
+   "frames": 5,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.25
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.75
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 2
+     }
+    ]
+   },
+   "action": {
+    "type": "table",
+    "param": 0,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.25
+     },
+     {
+      "current": 0.25,
+      "value": 0.5
+     },
+     {
+      "current": 0.5,
+      "value": 0.0
+     },
+     {
+      "current": 0.75,
+      "value": 0.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "input_select-500-set",
+   "x": 82,
+   "y": 131,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "input_select-2k-set",
+   "x": 96,
+   "y": 117,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "input_select-line-rtd",
+   "x": 122,
+   "y": 103,
+   "w": 20,
+   "h": 24,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "default",
+    "param": 0
+   }
+  },
+  {
+   "id": "pad-switch",
+   "x": 193,
+   "y": 34,
+   "w": 30,
+   "h": 46,
+   "kind": "switch",
+   "param": 1,
+   "sprite": "UA_LA-6176_switch_VERT-2pos",
+   "frames": 2,
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.25
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.75
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pad-switch-off",
+   "x": 193.0,
+   "y": 34.0,
+   "w": 30.0,
+   "h": 46.0,
+   "kind": "filmstrip",
+   "sprite": "UA_LA-6176_switch_VERT-2pos",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.25
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.75
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pad-on-set",
+   "x": 193,
+   "y": 34,
+   "w": 30,
+   "h": 12,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "pad-off-set",
+   "x": 198,
+   "y": 69,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "phase-switch",
+   "x": 193,
+   "y": 87,
+   "w": 30,
+   "h": 46,
+   "kind": "switch",
+   "param": 3,
+   "sprite": "UA_LA-6176_switch_VERT-2pos",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "out-180-set",
+   "x": 193,
+   "y": 87,
+   "w": 30,
+   "h": 12,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "in-0-set",
+   "x": 198,
+   "y": 123,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "lo-cut-switch",
+   "x": 193,
+   "y": 140,
+   "w": 30,
+   "h": 46,
+   "kind": "switch",
+   "param": 4,
+   "sprite": "UA_LA-6176_switch_VERT-2pos",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "lo_cut75-set",
+   "x": 193,
+   "y": 140,
+   "w": 30,
+   "h": 12,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "lo_cutoff-set",
+   "x": 198,
+   "y": 176,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "level-knob",
+   "x": 241,
+   "y": 50,
+   "w": 120,
+   "h": 120,
+   "kind": "knob",
+   "param": 10,
+   "sprite": "UA_LA-6176_knob-L",
+   "frames": 101
+  },
+  {
+   "id": "level-rtd",
+   "x": 286,
+   "y": 24,
+   "w": 30,
+   "h": 12,
+   "kind": "zone",
+   "param": 10,
+   "action": {
+    "type": "default",
+    "param": 10
+   }
+  },
+  {
+   "id": "high-freq-switch",
+   "x": 379,
+   "y": 42,
+   "w": 30,
+   "h": 46,
+   "kind": "switch",
+   "param": 8,
+   "sprite": "UA_LA-6176_switch_VERT-3pos",
+   "frames": 3,
+   "orientation": "vertical"
+  },
+  {
+   "id": "hi-eq-7k-set",
+   "x": 385,
+   "y": 43,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "hi-eq-10k-set",
+   "x": 362,
+   "y": 60,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "hi-eq-4.5k-set",
+   "x": 384,
+   "y": 76,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "low-freq-switch",
+   "x": 379,
+   "y": 132,
+   "w": 30,
+   "h": 46,
+   "kind": "switch",
+   "param": 6,
+   "sprite": "UA_LA-6176_switch_VERT-3pos",
+   "frames": 3,
+   "orientation": "vertical"
+  },
+  {
+   "id": "low-eq-100-set",
+   "x": 385,
+   "y": 134,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "low-eq-200-set",
+   "x": 363,
+   "y": 150,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "low-eq-70-set",
+   "x": 384,
+   "y": 167,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "high-eq-gain-knob",
+   "x": 440,
+   "y": 35,
+   "w": 60,
+   "h": 60,
+   "kind": "knob",
+   "param": 9,
+   "sprite": "UA_LA-6176_rotary-switch_11pos",
+   "frames": 11
+  },
+  {
+   "id": "neg9-higheqgain-set",
+   "x": 446,
+   "y": 93,
+   "w": 12,
+   "h": 10,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "neg6-higheqgain-set",
+   "x": 431,
+   "y": 80,
+   "w": 12,
+   "h": 10,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "neg4dot5-higheqgain-set",
+   "x": 417,
+   "y": 60,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "neg3-higheqgain-set",
+   "x": 428,
+   "y": 41,
+   "w": 12,
+   "h": 10,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "neg1dot5-higheqgain-set",
+   "x": 440,
+   "y": 26,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "zero-higheqgain-set",
+   "x": 464,
+   "y": 21,
+   "w": 12,
+   "h": 10,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "default",
+    "param": 9
+   }
+  },
+  {
+   "id": "pos1dot5-higheqgain-set",
+   "x": 482,
+   "y": 26,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "pos3-higheqgain-set",
+   "x": 499,
+   "y": 41,
+   "w": 12,
+   "h": 10,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "pos4.5-higheqgain-set",
+   "x": 504,
+   "y": 60,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "pos6-higheqgain-set",
+   "x": 499,
+   "y": 79,
+   "w": 12,
+   "h": 10,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "pos9-higheqgain-set",
+   "x": 484,
+   "y": 93,
+   "w": 12,
+   "h": 10,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "low-eq-gain-knob",
+   "x": 440,
+   "y": 125,
+   "w": 60,
+   "h": 60,
+   "kind": "knob",
+   "param": 7,
+   "sprite": "UA_LA-6176_rotary-switch_11pos",
+   "frames": 11
+  },
+  {
+   "id": "neg9-loweqgain-set",
+   "x": 446,
+   "y": 183,
+   "w": 12,
+   "h": 10,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "neg6-loweqgain-set",
+   "x": 431,
+   "y": 170,
+   "w": 12,
+   "h": 10,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "neg4.5-loweqgain-set",
+   "x": 417,
+   "y": 150,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "neg3-loweqgain-set",
+   "x": 428,
+   "y": 130,
+   "w": 12,
+   "h": 10,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "neg1.5-loweqgain-set",
+   "x": 440,
+   "y": 116,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "zero-loweqgain-set",
+   "x": 464,
+   "y": 111,
+   "w": 12,
+   "h": 10,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "default",
+    "param": 7
+   }
+  },
+  {
+   "id": "pos1.5-loweqgain-set",
+   "x": 482,
+   "y": 116,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "pos3-loweqgain-set",
+   "x": 499,
+   "y": 130,
+   "w": 12,
+   "h": 10,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "pos4.5-loweqgain-set",
+   "x": 504,
+   "y": 150,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "pos6-loweqgain-set",
+   "x": 499,
+   "y": 170,
+   "w": 12,
+   "h": 10,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "pos9-loweqgain-set",
+   "x": 484,
+   "y": 183,
+   "w": 12,
+   "h": 10,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "power-switch",
+   "x": 577,
+   "y": 148,
+   "w": 46,
+   "h": 60,
+   "kind": "switch",
+   "param": 24,
+   "sprite": "UA_LA-6176_switch_POWER",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "power-button",
+   "x": 562,
+   "y": 72,
+   "w": 76,
+   "h": 76,
+   "kind": "switch",
+   "param": 24,
+   "sprite": "UA_LA-6176_lamp_POWER",
+   "frames": 2
+  },
+  {
+   "id": "eq_bypass-switch",
+   "x": 537,
+   "y": 152,
+   "w": 30,
+   "h": 46,
+   "kind": "switch",
+   "param": 5,
+   "sprite": "UA_LA-6176_switch_BYPASS",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "dyn_bypass-switch",
+   "x": 633,
+   "y": 152,
+   "w": 30,
+   "h": 46,
+   "kind": "switch",
+   "param": 11,
+   "sprite": "UA_LA-6176_switch_BYPASS",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "power-set-on",
+   "x": 586,
+   "y": 141,
+   "w": 30,
+   "h": 10,
+   "kind": "zone",
+   "param": 24,
+   "action": {
+    "type": "set",
+    "param": 24,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "power-set-off",
+   "x": 586,
+   "y": 201,
+   "w": 30,
+   "h": 10,
+   "kind": "zone",
+   "param": 24,
+   "action": {
+    "type": "set",
+    "param": 24,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "eq_bypass-set-in",
+   "x": 537,
+   "y": 149,
+   "w": 30,
+   "h": 10,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "eq_bypass-set-out",
+   "x": 542,
+   "y": 188,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "dyn_bypass-set-in",
+   "x": 633,
+   "y": 149,
+   "w": 30,
+   "h": 10,
+   "kind": "zone",
+   "param": 11,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "dyn_bypass-set-out",
+   "x": 638,
+   "y": 188,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 11,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "1176_attack-knob",
+   "x": 689,
+   "y": 35,
+   "w": 60,
+   "h": 60,
+   "kind": "knob",
+   "param": 13,
+   "sprite": "UA_LA-6176_knob-S",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "1176_input-knob",
+   "x": 689,
+   "y": 125,
+   "w": 60,
+   "h": 60,
+   "kind": "knob",
+   "param": 16,
+   "sprite": "UA_LA-6176_knob-S",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "1176_release-knob",
+   "x": 785,
+   "y": 35,
+   "w": 60,
+   "h": 60,
+   "kind": "knob",
+   "param": 14,
+   "sprite": "UA_LA-6176_knob-S",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "1176_output-knob",
+   "x": 785,
+   "y": 125,
+   "w": 60,
+   "h": 60,
+   "kind": "knob",
+   "param": 17,
+   "sprite": "UA_LA-6176_knob-S",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "1176_ratio-knob",
+   "x": 881,
+   "y": 35,
+   "w": 60,
+   "h": 60,
+   "kind": "knob",
+   "param": 15,
+   "sprite": "UA_LA-6176_rotary-switch_6pos",
+   "frames": 6,
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "1176_mix-knob",
+   "x": 881,
+   "y": 125,
+   "w": 60,
+   "h": 60,
+   "kind": "knob",
+   "param": 19,
+   "sprite": "UA_LA-6176_knob-S",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "1176_mix-set-dry",
+   "x": 883,
+   "y": 185,
+   "w": 14,
+   "h": 10,
+   "kind": "zone",
+   "param": 19,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "1176_mix-set-wet",
+   "x": 924,
+   "y": 185,
+   "w": 14,
+   "h": 10,
+   "kind": "zone",
+   "param": 19,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "1176_sc_filt-button",
+   "x": 754.0,
+   "y": 97.0,
+   "w": 26.0,
+   "h": 26.0,
+   "kind": "switch",
+   "param": 18,
+   "sprite": "UA_LA-6176_button",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "1176_sc_filt-button-off",
+   "x": 754,
+   "y": 97,
+   "w": 26,
+   "h": 26,
+   "kind": "switch",
+   "param": 18,
+   "sprite": "UA_LA-6176_button",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "1176_attack-slow-set",
+   "x": 684,
+   "y": 93,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 13,
+   "action": {
+    "type": "set",
+    "param": 13,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "1176_attack-fast-set",
+   "x": 734,
+   "y": 93,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 13,
+   "action": {
+    "type": "set",
+    "param": 13,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "1176_release-slow-set",
+   "x": 780,
+   "y": 93,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "1176_release-fast-set",
+   "x": 830,
+   "y": 93,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "1176_ratio-1to1-set",
+   "x": 865,
+   "y": 41,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 15,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "1176_ratio-4to1-set",
+   "x": 879,
+   "y": 25,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 15,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "1176_ratio-8to1-set",
+   "x": 900,
+   "y": 20,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 15,
+   "action": {
+    "type": "default",
+    "param": 15
+   },
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "1176_ratio-12to1-set",
+   "x": 922,
+   "y": 25,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 15,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "1176_ratio-20to1-set",
+   "x": 936,
+   "y": 41,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 15,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "1176_ratio-all-set",
+   "x": 941,
+   "y": 60,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 15,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "la2a_peak-knob",
+   "x": 692.0,
+   "y": 50.0,
+   "w": 120.0,
+   "h": 120.0,
+   "kind": "knob",
+   "param": 21,
+   "sprite": "UA_LA-6176_knob-L",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "la2a_ratio-switch",
+   "x": 787.0,
+   "y": 170.0,
+   "w": 70.0,
+   "h": 24.0,
+   "kind": "switch",
+   "param": 20,
+   "sprite": "UA_LA-6176_switch_HOR-2pos",
+   "frames": 2,
+   "orientation": "horizontal",
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "la2a_gain-knob",
+   "x": 832.0,
+   "y": 50.0,
+   "w": 120.0,
+   "h": 120.0,
+   "kind": "knob",
+   "param": 22,
+   "sprite": "UA_LA-6176_knob-L",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "la2a_ratio-comp-set",
+   "x": 785.0,
+   "y": 177.0,
+   "w": 22.0,
+   "h": 10.0,
+   "kind": "zone",
+   "param": 20,
+   "action": {
+    "type": "set",
+    "param": 20,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "la2a_ratio-limit-set",
+   "x": 835.0,
+   "y": 177.0,
+   "w": 20.0,
+   "h": 10.0,
+   "kind": "zone",
+   "param": 20,
+   "action": {
+    "type": "set",
+    "param": 20,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "vu-meter-on",
+   "x": 960.0,
+   "y": 16.0,
+   "w": 156.0,
+   "h": 100.0,
+   "kind": "filmstrip",
+   "sprite": "UA_LA-6176_meter_ON",
+   "frames": 140,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "vu-meter-off",
+   "x": 960,
+   "y": 16,
+   "w": 156,
+   "h": 100,
+   "kind": "filmstrip",
+   "sprite": "UA_LA-6176_meter_OFF",
+   "frames": 140,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [
+     12,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "vu-meter-on-la2a",
+   "sprite": "UA_LA-6176_meter_ON",
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu_la2a",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [
+     12,
+     24,
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "x": 960,
+   "y": 16,
+   "w": 156,
+   "h": 100,
+   "kind": "filmstrip",
+   "frames": 140
+  },
+  {
+   "id": "vu-meter-off-la2a",
+   "sprite": "UA_LA-6176_meter_OFF",
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu_la2a",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [
+     12,
+     24,
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "x": 960,
+   "y": 16,
+   "w": 156,
+   "h": 100,
+   "kind": "filmstrip",
+   "frames": 140
+  },
+  {
+   "id": "vu-meter-on-la2a-level",
+   "sprite": "UA_LA-6176_meter_ON",
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu_la2a_level",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [
+     12,
+     24,
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   },
+   "x": 960,
+   "y": 16,
+   "w": 156,
+   "h": 100,
+   "kind": "filmstrip",
+   "frames": 140
+  },
+  {
+   "id": "vu-meter-off-la2a-level",
+   "sprite": "UA_LA-6176_meter_OFF",
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu_la2a_level",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [
+     12,
+     24,
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "x": 960,
+   "y": 16,
+   "w": 156,
+   "h": 100,
+   "kind": "filmstrip",
+   "frames": 140
+  },
+  {
+   "id": "dyn_mode-switch",
+   "x": 967,
+   "y": 123,
+   "w": 70,
+   "h": 24,
+   "kind": "switch",
+   "param": 12,
+   "sprite": "UA_LA-6176_switch_HOR-2pos",
+   "frames": 2,
+   "orientation": "horizontal"
+  },
+  {
+   "id": "meter-sel-switch",
+   "x": 1039,
+   "y": 123,
+   "w": 70,
+   "h": 24,
+   "kind": "switch",
+   "param": 23,
+   "sprite": "UA_LA-6176_switch_HOR-3pos",
+   "frames": 3,
+   "orientation": "horizontal"
+  },
+  {
+   "id": "dyn_mode_1176-set",
+   "x": 968,
+   "y": 129,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 12,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "dyn_mode_la2a-set",
+   "x": 1017,
+   "y": 129,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 12,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "meter-in-set",
+   "x": 1039,
+   "y": 130,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 23,
+   "action": {
+    "type": "set",
+    "param": 23,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "meter-gr-set",
+   "x": 1064,
+   "y": 113,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 23,
+   "action": {
+    "type": "set",
+    "param": 23,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "meter-out-set",
+   "x": 1090,
+   "y": 129,
+   "w": 20,
+   "h": 10,
+   "kind": "zone",
+   "param": 23,
+   "action": {
+    "type": "set",
+    "param": 23,
+    "value": 1.0
+   }
+  }
+ ]
+}

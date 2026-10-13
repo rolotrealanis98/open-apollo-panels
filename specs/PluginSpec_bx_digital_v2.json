@@ -1,0 +1,6339 @@
+{
+ "schema": 2,
+ "effectName": "UAD bx_digital V2",
+ "namePattern": "bx_digital V2",
+ "size": {
+  "w": 1024,
+  "h": 660
+ },
+ "background": "bx_digital_v2__BACKGROUND",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Bypass",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Preset",
+   "steps": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Modus",
+   "steps": [
+    "M/S Mst.",
+    "Dual Mon",
+    "M/S Rec."
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "AutoSolo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "AListen",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 5,
+   "name": "AL Mode",
+   "steps": [
+    "Q - -",
+    "- f -",
+    "- - G",
+    "Q f -",
+    "Q - G",
+    "- f G",
+    "Q f G"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 6,
+   "name": "Ch1 Solo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "Ch2 Solo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "SwpIn",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "EQOn",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 10,
+   "name": "Link All",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "In Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 12,
+   "name": "Balance",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 13,
+   "name": "Out Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 14,
+   "name": "St.Width",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 15,
+   "name": "M Pan",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 16,
+   "name": "S Pan",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 17,
+   "name": "1 HP On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 18,
+   "name": "1 LP On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 19,
+   "name": "2 HP On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 20,
+   "name": "2 LP On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 21,
+   "name": "1 Lf On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 22,
+   "name": "1 Lmf On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 23,
+   "name": "1 Mf On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 24,
+   "name": "1 Hmf On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 25,
+   "name": "1 Hf On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 26,
+   "name": "1 BS On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 27,
+   "name": "1 PS On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 28,
+   "name": "1 Dsr On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 29,
+   "name": "2 Lf On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 30,
+   "name": "2 Lmf On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 31,
+   "name": "2 Mf On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 32,
+   "name": "2 Hmf On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 33,
+   "name": "2 Hf On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 34,
+   "name": "2 BS On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 35,
+   "name": "2 PS On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 36,
+   "name": "2 Dsr On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 37,
+   "name": "MMkOn",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 38,
+   "name": "1 HP",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 39,
+   "name": "1 Lf G",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 40,
+   "name": "1 Lf Q",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 41,
+   "name": "1 Lf F",
+   "steps": null,
+   "default": 0.3494850099086761
+  },
+  {
+   "index": 42,
+   "name": "1 Lmf G",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 43,
+   "name": "1 Lmf Q",
+   "steps": null,
+   "default": 0.3077622056007385
+  },
+  {
+   "index": 44,
+   "name": "1 Lmf F",
+   "steps": null,
+   "default": 0.5986402630805969
+  },
+  {
+   "index": 45,
+   "name": "1 Mf G",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 46,
+   "name": "1 Mf Q",
+   "steps": null,
+   "default": 0.4849460124969482
+  },
+  {
+   "index": 47,
+   "name": "1 Mf F",
+   "steps": null,
+   "default": 0.7224587202072144
+  },
+  {
+   "index": 48,
+   "name": "1 Hmf G",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 49,
+   "name": "1 Hmf Q",
+   "steps": null,
+   "default": 0.5885919332504272
+  },
+  {
+   "index": 50,
+   "name": "1 Hmf F",
+   "steps": null,
+   "default": 0.667313814163208
+  },
+  {
+   "index": 51,
+   "name": "1 Hf G",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 52,
+   "name": "1 Hf Q",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 53,
+   "name": "1 Hf F",
+   "steps": null,
+   "default": 0.8487434387207031
+  },
+  {
+   "index": 54,
+   "name": "1 LP",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 55,
+   "name": "2 HP",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 56,
+   "name": "2 Lf G",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 57,
+   "name": "2 Lf Q",
+   "steps": null,
+   "default": 0.3197590112686157
+  },
+  {
+   "index": 58,
+   "name": "2 Lf F",
+   "steps": null,
+   "default": 0.3010299801826477
+  },
+  {
+   "index": 59,
+   "name": "2 Lmf G",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 60,
+   "name": "2 Lmf Q",
+   "steps": null,
+   "default": 0.4114080965518951
+  },
+  {
+   "index": 61,
+   "name": "2 Lmf F",
+   "steps": null,
+   "default": 0.4515450000762939
+  },
+  {
+   "index": 62,
+   "name": "2 Mf G",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 63,
+   "name": "2 Mf Q",
+   "steps": null,
+   "default": 0.4849460124969482
+  },
+  {
+   "index": 64,
+   "name": "2 Mf F",
+   "steps": null,
+   "default": 0.444593220949173
+  },
+  {
+   "index": 65,
+   "name": "2 Hmf G",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 66,
+   "name": "2 Hmf Q",
+   "steps": null,
+   "default": 0.5419864654541016
+  },
+  {
+   "index": 67,
+   "name": "2 Hmf F",
+   "steps": null,
+   "default": 0.4016232192516327
+  },
+  {
+   "index": 68,
+   "name": "2 Hf G",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 69,
+   "name": "2 Hf Q",
+   "steps": null,
+   "default": 0.3197590112686157
+  },
+  {
+   "index": 70,
+   "name": "2 Hf F",
+   "steps": null,
+   "default": 0.6757736206054688
+  },
+  {
+   "index": 71,
+   "name": "2 LP",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 72,
+   "name": "1BShift",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 73,
+   "name": "1PShift",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 74,
+   "name": "2BShift",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 75,
+   "name": "2PShift",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 76,
+   "name": "MonoMkr",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 77,
+   "name": "1 Dsr Th",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 78,
+   "name": "1 Dsr Fq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 79,
+   "name": "1DsrSolo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 80,
+   "name": "2 Dsr Th",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 81,
+   "name": "2 Dsr Fq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 82,
+   "name": "2DsrSolo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 83,
+   "name": "1HpLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 84,
+   "name": "1LfLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 85,
+   "name": "1LmfLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 86,
+   "name": "1MfLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 87,
+   "name": "1HmfLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 88,
+   "name": "1HfLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 89,
+   "name": "1LpLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 90,
+   "name": "1BsLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 91,
+   "name": "1PsLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 92,
+   "name": "1DsrLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 93,
+   "name": "2HpLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 94,
+   "name": "2LfLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 95,
+   "name": "2LmfLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 96,
+   "name": "2MfLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 97,
+   "name": "2HmfLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 98,
+   "name": "2HfLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 99,
+   "name": "2LpLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 100,
+   "name": "2BsLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 101,
+   "name": "2PsLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 102,
+   "name": "2DsrLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "cmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__LABEL1",
+   "frames": 2,
+   "x": 680.0,
+   "y": 616.0,
+   "w": 7.0,
+   "h": 8.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-1",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__LABELSETTINGS",
+   "frames": 5,
+   "x": 298.0,
+   "y": 8.0,
+   "w": 60.0,
+   "h": 9.0
+  },
+  {
+   "id": "bypass-text",
+   "kind": "label",
+   "x": 398.5,
+   "y": 81.49,
+   "w": 26.54,
+   "h": 13.75,
+   "text": {
+    "string": "Gain",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-1",
+   "kind": "label",
+   "x": 398.5,
+   "y": 93.49,
+   "w": 14.13,
+   "h": 13.75,
+   "text": {
+    "string": "In",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-2",
+   "kind": "label",
+   "x": 469.5,
+   "y": 81.49,
+   "w": 26.54,
+   "h": 13.75,
+   "text": {
+    "string": "Gain",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-3",
+   "kind": "label",
+   "x": 469.5,
+   "y": 93.49,
+   "w": 21.72,
+   "h": 13.75,
+   "text": {
+    "string": "Out",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-4",
+   "kind": "label",
+   "x": 384.0,
+   "y": 296.77,
+   "w": 52.61,
+   "h": 16.01,
+   "text": {
+    "string": "Auto Solo",
+    "font": "Arial",
+    "size": 10.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-5",
+   "kind": "label",
+   "x": 490.0,
+   "y": 296.77,
+   "w": 48.41,
+   "h": 16.01,
+   "text": {
+    "string": "A.-Listen",
+    "font": "Arial",
+    "size": 10.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-6",
+   "kind": "label",
+   "x": 606.5,
+   "y": 296.27,
+   "w": 21.53,
+   "h": 16.01,
+   "text": {
+    "string": "EQ",
+    "font": "Arial",
+    "size": 10.75,
+    "align": "left",
+    "color": "#FFFFFF"
+   }
+  },
+  {
+   "id": "bypass-text-7",
+   "kind": "label",
+   "x": 445.0,
+   "y": 345.77,
+   "w": 27.52,
+   "h": 16.01,
+   "text": {
+    "string": "Solo",
+    "font": "Arial",
+    "size": 10.75,
+    "align": "left",
+    "color": "#FFFFFF"
+   }
+  },
+  {
+   "id": "bypass-text-8",
+   "kind": "label",
+   "x": 399.0,
+   "y": 401.49,
+   "w": 42.84,
+   "h": 13.75,
+   "text": {
+    "string": "M f DSR",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   },
+   "visibility": {
+    "params": [
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-bypass-text-8-v50",
+   "kind": "label",
+   "x": 400.0,
+   "y": 401.49,
+   "w": 45.84,
+   "h": 13.75,
+   "text": {
+    "string": "L f DSR",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#C8C8C7"
+   },
+   "visibility": {
+    "params": [
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "1dsrsolo-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONBIG",
+   "frames": 2,
+   "param": 79,
+   "orientation": "vertical",
+   "x": 449.0,
+   "y": 362.0,
+   "w": 16.0,
+   "h": 16.0
+  },
+  {
+   "id": "eqon-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONBIG",
+   "frames": 2,
+   "param": 9,
+   "orientation": "vertical",
+   "x": 606.0,
+   "y": 277.0,
+   "w": 16.0,
+   "h": 16.0
+  },
+  {
+   "id": "alisten-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONBIG",
+   "frames": 2,
+   "param": 4,
+   "orientation": "vertical",
+   "x": 504.0,
+   "y": 277.0,
+   "w": 16.0,
+   "h": 16.0
+  },
+  {
+   "id": "almode-menu",
+   "kind": "menu",
+   "param": 5,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 496.0,
+   "y": 257.0,
+   "w": 32.0,
+   "h": 14.0
+  },
+  {
+   "id": "bypass-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONBYPASS_C0",
+   "frames": 2,
+   "param": 0,
+   "orientation": "vertical",
+   "x": 2.0,
+   "y": 2.0,
+   "w": 58.0,
+   "h": 20.0
+  },
+  {
+   "id": "preset-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONPRESETA",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 368.0,
+   "y": 2.0,
+   "w": 21.0,
+   "h": 20.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "preset-switch-1",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONPRESETB",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 398.0,
+   "y": 2.0,
+   "w": 21.0,
+   "h": 20.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.333333
+   }
+  },
+  {
+   "id": "preset-switch-2",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONPRESETC",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 428.0,
+   "y": 2.0,
+   "w": 21.0,
+   "h": 20.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.666667
+   }
+  },
+  {
+   "id": "preset-switch-3",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONPRESETD",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 458.0,
+   "y": 2.0,
+   "w": 21.0,
+   "h": 20.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-2",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__LABELRESET",
+   "frames": 4,
+   "x": 596.0,
+   "y": 2.0,
+   "w": 59.0,
+   "h": 20.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "1hpon-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONHIPASS_C0",
+   "frames": 2,
+   "param": 17,
+   "orientation": "vertical",
+   "x": 84.0,
+   "y": 34.0,
+   "w": 34.0,
+   "h": 12.0
+  },
+  {
+   "id": "1lpon-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONLOPASS_C0",
+   "frames": 2,
+   "param": 18,
+   "orientation": "vertical",
+   "x": 308.0,
+   "y": 34.0,
+   "w": 34.0,
+   "h": 12.0
+  },
+  {
+   "id": "1lfon-text-label",
+   "kind": "label",
+   "x": 57.5,
+   "y": 295.34,
+   "w": 19.13,
+   "h": 15.25,
+   "param": 21,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "LF",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "1lfon-text",
+   "kind": "zone",
+   "x": 48.0,
+   "y": 294.0,
+   "w": 34.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 21
+   }
+  },
+  {
+   "id": "1lmfon-text-label",
+   "kind": "label",
+   "x": 127.5,
+   "y": 295.34,
+   "w": 28.38,
+   "h": 15.25,
+   "param": 22,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "LMF",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "1lmfon-text",
+   "kind": "zone",
+   "x": 122.0,
+   "y": 294.0,
+   "w": 34.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 22
+   }
+  },
+  {
+   "id": "1mfon-text-label",
+   "kind": "label",
+   "x": 203.5,
+   "y": 295.34,
+   "w": 22.25,
+   "h": 15.25,
+   "param": 23,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "MF",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "1mfon-text",
+   "kind": "zone",
+   "x": 195.0,
+   "y": 294.0,
+   "w": 34.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 23
+   }
+  },
+  {
+   "id": "1hmfon-text-label",
+   "kind": "label",
+   "x": 274.5,
+   "y": 295.34,
+   "w": 30.38,
+   "h": 15.25,
+   "param": 24,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "HMF",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "1hmfon-text",
+   "kind": "zone",
+   "x": 270.0,
+   "y": 294.0,
+   "w": 34.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 24
+   }
+  },
+  {
+   "id": "1hfon-text-label",
+   "kind": "label",
+   "x": 352.5,
+   "y": 295.34,
+   "w": 21.0,
+   "h": 15.25,
+   "param": 25,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "HF",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "1hfon-text",
+   "kind": "zone",
+   "x": 344.0,
+   "y": 294.0,
+   "w": 34.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 25
+   }
+  },
+  {
+   "id": "1bson-text-label",
+   "kind": "label",
+   "x": 72.5,
+   "y": 320.34,
+   "w": 56.87,
+   "h": 15.25,
+   "param": 26,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "Bass Shift",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "1bson-text",
+   "kind": "zone",
+   "x": 56.0,
+   "y": 319.0,
+   "w": 85.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 26
+   }
+  },
+  {
+   "id": "1pson-text-label",
+   "kind": "label",
+   "x": 187.5,
+   "y": 320.34,
+   "w": 57.83,
+   "h": 15.25,
+   "param": 27,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "Pres. Shift",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "1pson-text",
+   "kind": "zone",
+   "x": 171.0,
+   "y": 319.0,
+   "w": 85.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 27
+   }
+  },
+  {
+   "id": "1dsron-text-label",
+   "kind": "label",
+   "x": 302.5,
+   "y": 320.34,
+   "w": 52.89,
+   "h": 15.25,
+   "param": 28,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "De-Esser",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "1dsron-text",
+   "kind": "zone",
+   "x": 284.0,
+   "y": 319.0,
+   "w": 85.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 28
+   }
+  },
+  {
+   "id": "ingain-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 11,
+   "x": 425.0,
+   "y": 90.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "ingain-text",
+   "kind": "text",
+   "param": 11,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 416.0,
+   "y": 125.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "outgain-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 13,
+   "x": 496.0,
+   "y": 90.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "outgain-text",
+   "kind": "text",
+   "param": 13,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 487.0,
+   "y": 125.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1hp-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 38,
+   "x": 86.0,
+   "y": 53.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1hp-text",
+   "kind": "text",
+   "param": 38,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 77.0,
+   "y": 88.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1lfg-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBBIG",
+   "frames": 61,
+   "param": 39,
+   "x": 39.0,
+   "y": 109.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "1lfg-text",
+   "kind": "text",
+   "param": 39,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 40.0,
+   "y": 163.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1lfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 40,
+   "x": 48.0,
+   "y": 184.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1lfq-text",
+   "kind": "text",
+   "param": 40,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 39.0,
+   "y": 219.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1lff-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 41,
+   "x": 48.0,
+   "y": 245.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1lff-text",
+   "kind": "text",
+   "param": 41,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 39.0,
+   "y": 280.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1lmfg-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBBIG",
+   "frames": 61,
+   "param": 42,
+   "x": 113.0,
+   "y": 109.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "1lmfg-text",
+   "kind": "text",
+   "param": 42,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 114.0,
+   "y": 163.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1lmfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 43,
+   "x": 122.0,
+   "y": 184.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1lmfq-text",
+   "kind": "text",
+   "param": 43,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 113.0,
+   "y": 219.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1lmff-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 44,
+   "x": 122.0,
+   "y": 245.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1lmff-text",
+   "kind": "text",
+   "param": 44,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 113.0,
+   "y": 280.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1mfg-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBBIG",
+   "frames": 61,
+   "param": 45,
+   "x": 187.0,
+   "y": 109.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "1mfg-text",
+   "kind": "text",
+   "param": 45,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 188.0,
+   "y": 163.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1mfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 46,
+   "x": 196.0,
+   "y": 184.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1mfq-text",
+   "kind": "text",
+   "param": 46,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 187.0,
+   "y": 219.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1mff-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 47,
+   "x": 196.0,
+   "y": 245.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1mff-text",
+   "kind": "text",
+   "param": 47,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 187.0,
+   "y": 280.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1hmfg-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBBIG",
+   "frames": 61,
+   "param": 48,
+   "x": 262.0,
+   "y": 109.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "1hmfg-text",
+   "kind": "text",
+   "param": 48,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 263.0,
+   "y": 163.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1hmfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 49,
+   "x": 271.0,
+   "y": 184.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1hmfq-text",
+   "kind": "text",
+   "param": 49,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 262.0,
+   "y": 219.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1hmff-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 50,
+   "x": 271.0,
+   "y": 245.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1hmff-text",
+   "kind": "text",
+   "param": 50,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 262.0,
+   "y": 280.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1hfg-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBBIG",
+   "frames": 61,
+   "param": 51,
+   "x": 336.0,
+   "y": 109.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "1hfg-text",
+   "kind": "text",
+   "param": 51,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 337.0,
+   "y": 163.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1hfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 52,
+   "x": 345.0,
+   "y": 184.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1hfq-text",
+   "kind": "text",
+   "param": 52,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 336.0,
+   "y": 219.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1hff-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 53,
+   "x": 345.0,
+   "y": 245.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1hff-text",
+   "kind": "text",
+   "param": 53,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 336.0,
+   "y": 280.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1lp-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 54,
+   "x": 308.0,
+   "y": 53.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1lp-text",
+   "kind": "text",
+   "param": 54,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 299.0,
+   "y": 88.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1bshift-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBBIG",
+   "frames": 61,
+   "param": 72,
+   "x": 74.0,
+   "y": 341.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "1bshift-text",
+   "kind": "text",
+   "param": 72,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 75.0,
+   "y": 395.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1pshift-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBBIG",
+   "frames": 61,
+   "param": 73,
+   "x": 188.0,
+   "y": 341.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "1pshift-text",
+   "kind": "text",
+   "param": 73,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 189.0,
+   "y": 395.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1dsrth-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBBIG",
+   "frames": 61,
+   "param": 77,
+   "x": 302.0,
+   "y": 341.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "1dsrth-text",
+   "kind": "text",
+   "param": 77,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 303.0,
+   "y": 395.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1dsrfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 78,
+   "x": 402.0,
+   "y": 355.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1dsrfq-text",
+   "kind": "text",
+   "param": 78,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 393.0,
+   "y": 388.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "meter-77",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__METER_BAR",
+   "frames": 33,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000000"
+   },
+   "x": 680.0,
+   "y": 458.0,
+   "w": 7.0,
+   "h": 151.0
+  },
+  {
+   "id": "meter-78",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__METER_BAR",
+   "frames": 33,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000006"
+   },
+   "x": 808.0,
+   "y": 458.0,
+   "w": 7.0,
+   "h": 151.0
+  },
+  {
+   "id": "meter-79",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__METERDEESSEROFF_BAR",
+   "frames": 33,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000008"
+   },
+   "x": 264.0,
+   "y": 323.0,
+   "w": 12.0,
+   "h": 83.0
+  },
+  {
+   "id": "cmoviebitmap-led-3",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__LABELSECTION1",
+   "frames": 2,
+   "x": 149.0,
+   "y": 29.0,
+   "w": 127.0,
+   "h": 22.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-4",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__LABELSECTION2",
+   "frames": 2,
+   "x": 743.0,
+   "y": 29.0,
+   "w": 138.0,
+   "h": 25.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-5",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__LABELSECTION1SMALL",
+   "frames": 2,
+   "x": 148.0,
+   "y": 431.0,
+   "w": 92.0,
+   "h": 9.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-6",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__LABELSECTION2SMALL",
+   "frames": 2,
+   "x": 436.0,
+   "y": 431.0,
+   "w": 100.0,
+   "h": 10.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-7",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__LABEL2",
+   "frames": 2,
+   "x": 708.0,
+   "y": 616.0,
+   "w": 6.0,
+   "h": 8.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-8",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__LABELMODUS",
+   "frames": 5,
+   "x": 432.0,
+   "y": 219.0,
+   "w": 50.0,
+   "h": 8.0
+  },
+  {
+   "id": "bypass-text-9",
+   "kind": "label",
+   "x": 145.0,
+   "y": 61.49,
+   "w": 23.83,
+   "h": 13.75,
+   "text": {
+    "string": "Link",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-10",
+   "kind": "label",
+   "x": 259.0,
+   "y": 61.49,
+   "w": 23.83,
+   "h": 13.75,
+   "text": {
+    "string": "Link",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-11",
+   "kind": "label",
+   "x": 747.0,
+   "y": 61.49,
+   "w": 23.83,
+   "h": 13.75,
+   "text": {
+    "string": "Link",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-12",
+   "kind": "label",
+   "x": 860.0,
+   "y": 61.49,
+   "w": 23.83,
+   "h": 13.75,
+   "text": {
+    "string": "Link",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-13",
+   "kind": "label",
+   "x": 5.0,
+   "y": 265.49,
+   "w": 23.83,
+   "h": 13.75,
+   "text": {
+    "string": "Link",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-14",
+   "kind": "label",
+   "x": 999.0,
+   "y": 265.49,
+   "w": 23.83,
+   "h": 13.75,
+   "text": {
+    "string": "Link",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-15",
+   "kind": "label",
+   "x": 50.0,
+   "y": 401.49,
+   "w": 23.83,
+   "h": 13.75,
+   "text": {
+    "string": "Link",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-16",
+   "kind": "label",
+   "x": 165.0,
+   "y": 401.49,
+   "w": 23.83,
+   "h": 13.75,
+   "text": {
+    "string": "Link",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-17",
+   "kind": "label",
+   "x": 355.0,
+   "y": 401.49,
+   "w": 23.83,
+   "h": 13.75,
+   "text": {
+    "string": "Link",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-18",
+   "kind": "label",
+   "x": 648.0,
+   "y": 401.49,
+   "w": 23.83,
+   "h": 13.75,
+   "text": {
+    "string": "Link",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-19",
+   "kind": "label",
+   "x": 839.0,
+   "y": 401.49,
+   "w": 23.83,
+   "h": 13.75,
+   "text": {
+    "string": "Link",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-20",
+   "kind": "label",
+   "x": 953.0,
+   "y": 401.49,
+   "w": 23.83,
+   "h": 13.75,
+   "text": {
+    "string": "Link",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-21",
+   "kind": "label",
+   "x": 399.0,
+   "y": 139.49,
+   "w": 22.63,
+   "h": 13.75,
+   "text": {
+    "string": "Bal.",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-22",
+   "kind": "label",
+   "x": 399.0,
+   "y": 151.49,
+   "w": 21.48,
+   "h": 13.75,
+   "text": {
+    "string": "L/R",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-23",
+   "kind": "label",
+   "x": 469.5,
+   "y": 139.49,
+   "w": 23.08,
+   "h": 13.75,
+   "text": {
+    "string": "Pan",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-24",
+   "kind": "label",
+   "x": 470.0,
+   "y": 151.49,
+   "w": 14.12,
+   "h": 13.75,
+   "text": {
+    "string": "M",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-25",
+   "kind": "label",
+   "x": 540.5,
+   "y": 139.49,
+   "w": 23.08,
+   "h": 13.75,
+   "text": {
+    "string": "Pan",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-26",
+   "kind": "label",
+   "x": 540.5,
+   "y": 150.99,
+   "w": 12.5,
+   "h": 13.75,
+   "text": {
+    "string": "S",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-27",
+   "kind": "label",
+   "x": 535.5,
+   "y": 80.99,
+   "w": 34.46,
+   "h": 13.75,
+   "text": {
+    "string": "Stereo",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-28",
+   "kind": "label",
+   "x": 536.0,
+   "y": 93.49,
+   "w": 30.85,
+   "h": 13.75,
+   "text": {
+    "string": "Width",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-29",
+   "kind": "label",
+   "x": 543.0,
+   "y": 203.99,
+   "w": 44.28,
+   "h": 13.75,
+   "text": {
+    "string": "M/S Mst.",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-30",
+   "kind": "label",
+   "x": 545.5,
+   "y": 217.49,
+   "w": 53.15,
+   "h": 13.75,
+   "text": {
+    "string": "Dual Mono",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-31",
+   "kind": "label",
+   "x": 543.0,
+   "y": 229.99,
+   "w": 45.95,
+   "h": 13.75,
+   "text": {
+    "string": "M/S Rec.",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-32",
+   "kind": "label",
+   "x": 449.5,
+   "y": 297.27,
+   "w": 37.88,
+   "h": 16.01,
+   "text": {
+    "string": "L <> R",
+    "font": "Arial",
+    "size": 10.75,
+    "align": "left",
+    "color": "#FFFFFF"
+   }
+  },
+  {
+   "id": "bypass-text-33",
+   "kind": "label",
+   "x": 547.5,
+   "y": 297.77,
+   "w": 25.72,
+   "h": 16.01,
+   "text": {
+    "string": "Link",
+    "font": "Arial",
+    "size": 10.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-34",
+   "kind": "label",
+   "x": 554.0,
+   "y": 345.77,
+   "w": 27.52,
+   "h": 16.01,
+   "text": {
+    "string": "Solo",
+    "font": "Arial",
+    "size": 10.75,
+    "align": "left",
+    "color": "#FFFFFF"
+   }
+  },
+  {
+   "id": "bypass-text-35",
+   "kind": "label",
+   "x": 583.5,
+   "y": 400.99,
+   "w": 41.21,
+   "h": 13.75,
+   "text": {
+    "string": "S f DSR",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   },
+   "visibility": {
+    "params": [
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-bypass-text-35-v50",
+   "kind": "label",
+   "x": 588.5,
+   "y": 400.99,
+   "w": 44.21,
+   "h": 13.75,
+   "text": {
+    "string": "R f DSR",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#CACACA"
+   },
+   "visibility": {
+    "params": [
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "bypass-text-36",
+   "kind": "label",
+   "x": 420.0,
+   "y": 247.77,
+   "w": 39.45,
+   "h": 16.01,
+   "text": {
+    "string": "Solo M",
+    "font": "Arial",
+    "size": 10.75,
+    "align": "left",
+    "color": "#FFFFFF"
+   },
+   "visibility": {
+    "params": [
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-bypass-text-36-v50",
+   "kind": "label",
+   "x": 419.5,
+   "y": 247.77,
+   "w": 42.45,
+   "h": 16.01,
+   "text": {
+    "string": "Solo L",
+    "font": "Arial",
+    "size": 10.75,
+    "align": "left",
+    "color": "#DDDDDD"
+   },
+   "visibility": {
+    "params": [
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "bypass-text-37",
+   "kind": "label",
+   "x": 569.0,
+   "y": 247.77,
+   "w": 37.67,
+   "h": 16.01,
+   "text": {
+    "string": "Solo S",
+    "font": "Arial",
+    "size": 10.75,
+    "align": "left",
+    "color": "#FFFFFF"
+   },
+   "visibility": {
+    "params": [
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-bypass-text-37-v50",
+   "kind": "label",
+   "x": 566.5,
+   "y": 247.77,
+   "w": 40.67,
+   "h": 16.01,
+   "text": {
+    "string": "Solo R",
+    "font": "Arial",
+    "size": 10.75,
+    "align": "left",
+    "color": "#DCDCDC"
+   },
+   "visibility": {
+    "params": [
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "autosolo-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONBIG",
+   "frames": 2,
+   "param": 3,
+   "orientation": "vertical",
+   "x": 402.0,
+   "y": 277.0,
+   "w": 16.0,
+   "h": 16.0
+  },
+  {
+   "id": "ch1solo-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONBIG",
+   "frames": 2,
+   "param": 6,
+   "orientation": "vertical",
+   "x": 430.0,
+   "y": 264.0,
+   "w": 16.0,
+   "h": 16.0
+  },
+  {
+   "id": "ch2solo-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONBIG",
+   "frames": 2,
+   "param": 7,
+   "orientation": "vertical",
+   "x": 578.0,
+   "y": 264.0,
+   "w": 16.0,
+   "h": 16.0
+  },
+  {
+   "id": "2dsrsolo-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONBIG",
+   "frames": 2,
+   "param": 82,
+   "orientation": "vertical",
+   "x": 558.0,
+   "y": 362.0,
+   "w": 16.0,
+   "h": 16.0
+  },
+  {
+   "id": "swpin-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONBIG",
+   "frames": 2,
+   "param": 8,
+   "orientation": "vertical",
+   "x": 458.0,
+   "y": 277.0,
+   "w": 16.0,
+   "h": 16.0
+  },
+  {
+   "id": "linkall-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONBIG",
+   "frames": 2,
+   "param": 10,
+   "orientation": "vertical",
+   "x": 550.0,
+   "y": 277.0,
+   "w": 16.0,
+   "h": 16.0
+  },
+  {
+   "id": "1hplink-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 83,
+   "orientation": "vertical",
+   "x": 131.0,
+   "y": 62.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "2hplink-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 93,
+   "orientation": "vertical",
+   "x": 733.0,
+   "y": 62.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "1lflink-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 84,
+   "orientation": "vertical",
+   "x": 30.0,
+   "y": 266.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "2lflink-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 94,
+   "orientation": "vertical",
+   "x": 688.0,
+   "y": 266.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "1lmflink-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 85,
+   "orientation": "vertical",
+   "x": 104.0,
+   "y": 266.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "2lmflink-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 95,
+   "orientation": "vertical",
+   "x": 762.0,
+   "y": 266.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "1mflink-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 86,
+   "orientation": "vertical",
+   "x": 178.0,
+   "y": 266.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "2mflink-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 96,
+   "orientation": "vertical",
+   "x": 836.0,
+   "y": 266.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "1hmflink-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 87,
+   "orientation": "vertical",
+   "x": 253.0,
+   "y": 266.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "2hmflink-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 97,
+   "orientation": "vertical",
+   "x": 911.0,
+   "y": 266.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "1hflink-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 88,
+   "orientation": "vertical",
+   "x": 327.0,
+   "y": 266.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "2hflink-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 98,
+   "orientation": "vertical",
+   "x": 985.0,
+   "y": 266.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "1lplink-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 89,
+   "orientation": "vertical",
+   "x": 284.0,
+   "y": 62.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "2lplink-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 99,
+   "orientation": "vertical",
+   "x": 885.0,
+   "y": 62.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "1bslink-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 90,
+   "orientation": "vertical",
+   "x": 55.0,
+   "y": 390.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "2bslink-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 100,
+   "orientation": "vertical",
+   "x": 844.0,
+   "y": 390.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "1pslink-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 91,
+   "orientation": "vertical",
+   "x": 170.0,
+   "y": 390.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "2pslink-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 101,
+   "orientation": "vertical",
+   "x": 958.0,
+   "y": 390.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "1dsrlink-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 92,
+   "orientation": "vertical",
+   "x": 360.0,
+   "y": 390.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "2dsrlink-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 102,
+   "orientation": "vertical",
+   "x": 653.0,
+   "y": 390.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "2hpon-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONHIPASS_C0",
+   "frames": 2,
+   "param": 19,
+   "orientation": "vertical",
+   "x": 683.0,
+   "y": 34.0,
+   "w": 34.0,
+   "h": 12.0
+  },
+  {
+   "id": "2lpon-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__BUTTONLOPASS_C0",
+   "frames": 2,
+   "param": 20,
+   "orientation": "vertical",
+   "x": 907.0,
+   "y": 34.0,
+   "w": 34.0,
+   "h": 12.0
+  },
+  {
+   "id": "2lfon-text-label",
+   "kind": "label",
+   "x": 656.5,
+   "y": 295.34,
+   "w": 19.13,
+   "h": 15.25,
+   "param": 29,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "LF",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "2lfon-text",
+   "kind": "zone",
+   "x": 647.0,
+   "y": 294.0,
+   "w": 34.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 29
+   }
+  },
+  {
+   "id": "2lmfon-text-label",
+   "kind": "label",
+   "x": 726.5,
+   "y": 295.34,
+   "w": 28.38,
+   "h": 15.25,
+   "param": 30,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "LMF",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "2lmfon-text",
+   "kind": "zone",
+   "x": 721.0,
+   "y": 294.0,
+   "w": 34.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 30
+   }
+  },
+  {
+   "id": "2mfon-text-label",
+   "kind": "label",
+   "x": 802.5,
+   "y": 295.34,
+   "w": 22.25,
+   "h": 15.25,
+   "param": 31,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "MF",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "2mfon-text",
+   "kind": "zone",
+   "x": 794.0,
+   "y": 294.0,
+   "w": 34.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 31
+   }
+  },
+  {
+   "id": "2hmfon-text-label",
+   "kind": "label",
+   "x": 873.5,
+   "y": 295.34,
+   "w": 30.38,
+   "h": 15.25,
+   "param": 32,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "HMF",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "2hmfon-text",
+   "kind": "zone",
+   "x": 869.0,
+   "y": 294.0,
+   "w": 34.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 32
+   }
+  },
+  {
+   "id": "2hfon-text-label",
+   "kind": "label",
+   "x": 951.5,
+   "y": 295.34,
+   "w": 21.0,
+   "h": 15.25,
+   "param": 33,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "HF",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "2hfon-text",
+   "kind": "zone",
+   "x": 943.0,
+   "y": 294.0,
+   "w": 34.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 33
+   }
+  },
+  {
+   "id": "2bson-text-label",
+   "kind": "label",
+   "x": 785.5,
+   "y": 320.34,
+   "w": 56.87,
+   "h": 15.25,
+   "param": 34,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "Bass Shift",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "2bson-text",
+   "kind": "zone",
+   "x": 769.0,
+   "y": 319.0,
+   "w": 85.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 34
+   }
+  },
+  {
+   "id": "2pson-text-label",
+   "kind": "label",
+   "x": 900.5,
+   "y": 320.34,
+   "w": 57.83,
+   "h": 15.25,
+   "param": 35,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "Pres. Shift",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "2pson-text",
+   "kind": "zone",
+   "x": 884.0,
+   "y": 319.0,
+   "w": 85.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 35
+   }
+  },
+  {
+   "id": "2dsron-text-label",
+   "kind": "label",
+   "x": 673.5,
+   "y": 320.34,
+   "w": 52.89,
+   "h": 15.25,
+   "param": 36,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "De-Esser",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "2dsron-text",
+   "kind": "zone",
+   "x": 655.0,
+   "y": 319.0,
+   "w": 85.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 36
+   }
+  },
+  {
+   "id": "2hp-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 55,
+   "x": 685.0,
+   "y": 53.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "2hp-text",
+   "kind": "text",
+   "param": 55,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 676.0,
+   "y": 88.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "2lfg-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBBIG",
+   "frames": 61,
+   "param": 56,
+   "x": 638.0,
+   "y": 109.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "2lfg-text",
+   "kind": "text",
+   "param": 56,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 639.0,
+   "y": 163.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "2lfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 57,
+   "x": 647.0,
+   "y": 184.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "2lfq-text",
+   "kind": "text",
+   "param": 57,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 638.0,
+   "y": 219.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "2lff-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 58,
+   "x": 647.0,
+   "y": 245.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "2lff-text",
+   "kind": "text",
+   "param": 58,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 638.0,
+   "y": 280.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "2lmfg-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBBIG",
+   "frames": 61,
+   "param": 59,
+   "x": 712.0,
+   "y": 109.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "2lmfg-text",
+   "kind": "text",
+   "param": 59,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 713.0,
+   "y": 163.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "2lmfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 60,
+   "x": 721.0,
+   "y": 184.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "2lmfq-text",
+   "kind": "text",
+   "param": 60,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 712.0,
+   "y": 219.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "2lmff-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 61,
+   "x": 721.0,
+   "y": 245.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "2lmff-text",
+   "kind": "text",
+   "param": 61,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 712.0,
+   "y": 280.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "2mfg-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBBIG",
+   "frames": 61,
+   "param": 62,
+   "x": 786.0,
+   "y": 109.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "2mfg-text",
+   "kind": "text",
+   "param": 62,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 787.0,
+   "y": 163.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "2mfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 63,
+   "x": 795.0,
+   "y": 184.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "2mfq-text",
+   "kind": "text",
+   "param": 63,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 786.0,
+   "y": 219.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "2mff-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 64,
+   "x": 795.0,
+   "y": 245.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "2mff-text",
+   "kind": "text",
+   "param": 64,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 786.0,
+   "y": 280.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "2hmfg-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBBIG",
+   "frames": 61,
+   "param": 65,
+   "x": 861.0,
+   "y": 109.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "2hmfg-text",
+   "kind": "text",
+   "param": 65,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 862.0,
+   "y": 163.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "2hmfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 66,
+   "x": 870.0,
+   "y": 184.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "2hmfq-text",
+   "kind": "text",
+   "param": 66,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 861.0,
+   "y": 219.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "2hmff-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 67,
+   "x": 870.0,
+   "y": 245.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "2hmff-text",
+   "kind": "text",
+   "param": 67,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 861.0,
+   "y": 280.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "2hfg-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBBIG",
+   "frames": 61,
+   "param": 68,
+   "x": 935.0,
+   "y": 109.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "2hfg-text",
+   "kind": "text",
+   "param": 68,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 936.0,
+   "y": 163.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "2hfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 69,
+   "x": 944.0,
+   "y": 184.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "2hfq-text",
+   "kind": "text",
+   "param": 69,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 935.0,
+   "y": 219.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "2hff-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 70,
+   "x": 944.0,
+   "y": 245.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "2hff-text",
+   "kind": "text",
+   "param": 70,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 935.0,
+   "y": 280.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "2lp-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 71,
+   "x": 907.0,
+   "y": 53.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "2lp-text",
+   "kind": "text",
+   "param": 71,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 898.0,
+   "y": 88.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "2bshift-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBBIG",
+   "frames": 61,
+   "param": 74,
+   "x": 787.0,
+   "y": 341.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "2bshift-text",
+   "kind": "text",
+   "param": 74,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 788.0,
+   "y": 395.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "2pshift-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBBIG",
+   "frames": 61,
+   "param": 75,
+   "x": 901.0,
+   "y": 341.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "2pshift-text",
+   "kind": "text",
+   "param": 75,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 902.0,
+   "y": 395.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "2dsrth-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBBIG",
+   "frames": 61,
+   "param": 80,
+   "x": 673.0,
+   "y": 341.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "2dsrth-text",
+   "kind": "text",
+   "param": 80,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 674.0,
+   "y": 395.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "2dsrfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 81,
+   "x": 588.0,
+   "y": 355.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "2dsrfq-text",
+   "kind": "text",
+   "param": 81,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 579.0,
+   "y": 388.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "mmkon-text-label",
+   "kind": "label",
+   "x": 480.5,
+   "y": 398.34,
+   "w": 68.93,
+   "h": 15.25,
+   "param": 37,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "Mono-Maker",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "mmkon-text",
+   "kind": "zone",
+   "x": 471.0,
+   "y": 397.0,
+   "w": 82.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 37
+   }
+  },
+  {
+   "id": "monomkr-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 76,
+   "x": 496.0,
+   "y": 350.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "monomkr-text",
+   "kind": "text",
+   "param": 76,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 487.0,
+   "y": 383.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "modus-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2__KNOBMODUS",
+   "frames": 3,
+   "param": 2,
+   "orientation": "vertical",
+   "x": 487.0,
+   "y": 198.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "balance-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 12,
+   "x": 425.0,
+   "y": 148.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "balance-text",
+   "kind": "text",
+   "param": 12,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 416.0,
+   "y": 183.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "stwidth-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 14,
+   "x": 567.0,
+   "y": 90.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "stwidth-text",
+   "kind": "text",
+   "param": 14,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 558.0,
+   "y": 125.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "mpan-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 15,
+   "x": 496.0,
+   "y": 148.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "mpan-text",
+   "kind": "text",
+   "param": 15,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 487.0,
+   "y": 183.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "span-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 16,
+   "x": 567.0,
+   "y": 147.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "span-text",
+   "kind": "text",
+   "param": 16,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 558.0,
+   "y": 182.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "meter-205",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__METER_BAR",
+   "frames": 33,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000001"
+   },
+   "x": 707.0,
+   "y": 458.0,
+   "w": 7.0,
+   "h": 151.0
+  },
+  {
+   "id": "meter-206",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__METER_BAR",
+   "frames": 33,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000002"
+   },
+   "x": 10.0,
+   "y": 91.0,
+   "w": 7.0,
+   "h": 151.0
+  },
+  {
+   "id": "meter-207",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__METER_BAR",
+   "frames": 33,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000003"
+   },
+   "x": 1007.0,
+   "y": 91.0,
+   "w": 7.0,
+   "h": 151.0
+  },
+  {
+   "id": "meter-208",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__METER_BAR",
+   "frames": 33,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000004"
+   },
+   "x": 744.0,
+   "y": 458.0,
+   "w": 7.0,
+   "h": 151.0
+  },
+  {
+   "id": "meter-209",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__METER_BAR",
+   "frames": 33,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000005"
+   },
+   "x": 771.0,
+   "y": 458.0,
+   "w": 7.0,
+   "h": 151.0
+  },
+  {
+   "id": "meter-210",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__METER_BAR",
+   "frames": 33,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000007"
+   },
+   "x": 835.0,
+   "y": 458.0,
+   "w": 7.0,
+   "h": 151.0
+  },
+  {
+   "id": "meter-211",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__METERDEESSEROFF_BAR",
+   "frames": 33,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000009"
+   },
+   "x": 749.0,
+   "y": 323.0,
+   "w": 12.0,
+   "h": 83.0
+  },
+  {
+   "id": "cmoviebitmap-led-9",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__METERBALANCE",
+   "frames": 53,
+   "x": 877.0,
+   "y": 536.0,
+   "w": 105.0,
+   "h": 7.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_4000000a"
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-10",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2__METERCORRELATION",
+   "frames": 53,
+   "x": 877.0,
+   "y": 602.0,
+   "w": 105.0,
+   "h": 7.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_4000000b"
+   }
+  }
+ ],
+ "meterSources": {
+  "meter_40000000": {
+   "vendorSpecificFloat": 50331712,
+   "opcode": {
+    "op": 519,
+    "p0": 50331712,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     0.0
+    ],
+    [
+     0.0003,
+     0.0
+    ],
+    [
+     0.001,
+     0.03205
+    ],
+    [
+     0.002,
+     0.12854
+    ],
+    [
+     0.003,
+     0.18497
+    ],
+    [
+     0.005,
+     0.25608
+    ],
+    [
+     0.01,
+     0.35256
+    ],
+    [
+     0.015,
+     0.409
+    ],
+    [
+     0.02,
+     0.44905
+    ],
+    [
+     0.03,
+     0.50549
+    ],
+    [
+     0.04,
+     0.54553
+    ],
+    [
+     0.05,
+     0.57659
+    ],
+    [
+     0.07,
+     0.62343
+    ],
+    [
+     0.1,
+     0.67308
+    ],
+    [
+     0.13,
+     0.7096
+    ],
+    [
+     0.15,
+     0.72952
+    ],
+    [
+     0.18,
+     0.75489
+    ],
+    [
+     0.2,
+     0.76956
+    ],
+    [
+     0.25,
+     0.80062
+    ],
+    [
+     0.3,
+     0.826
+    ],
+    [
+     0.35,
+     0.84746
+    ],
+    [
+     0.4,
+     0.86604
+    ],
+    [
+     0.45,
+     0.88244
+    ],
+    [
+     0.5,
+     0.89711
+    ],
+    [
+     0.55,
+     0.91037
+    ],
+    [
+     0.6,
+     0.92248
+    ],
+    [
+     0.65,
+     0.93363
+    ],
+    [
+     0.7,
+     0.94394
+    ],
+    [
+     0.75,
+     0.95355
+    ],
+    [
+     0.8,
+     0.96253
+    ],
+    [
+     0.85,
+     0.97097
+    ],
+    [
+     0.9,
+     0.97892
+    ],
+    [
+     0.95,
+     0.98645
+    ],
+    [
+     1.0,
+     0.99359
+    ],
+    [
+     1.06,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  },
+  "meter_40000001": {
+   "vendorSpecificFloat": 50331713,
+   "opcode": {
+    "op": 519,
+    "p0": 50331713,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     0.0
+    ],
+    [
+     0.0003,
+     0.0
+    ],
+    [
+     0.001,
+     0.03205
+    ],
+    [
+     0.002,
+     0.12854
+    ],
+    [
+     0.003,
+     0.18497
+    ],
+    [
+     0.005,
+     0.25608
+    ],
+    [
+     0.01,
+     0.35256
+    ],
+    [
+     0.015,
+     0.409
+    ],
+    [
+     0.02,
+     0.44905
+    ],
+    [
+     0.03,
+     0.50549
+    ],
+    [
+     0.04,
+     0.54553
+    ],
+    [
+     0.05,
+     0.57659
+    ],
+    [
+     0.07,
+     0.62343
+    ],
+    [
+     0.1,
+     0.67308
+    ],
+    [
+     0.13,
+     0.7096
+    ],
+    [
+     0.15,
+     0.72952
+    ],
+    [
+     0.18,
+     0.75489
+    ],
+    [
+     0.2,
+     0.76956
+    ],
+    [
+     0.25,
+     0.80062
+    ],
+    [
+     0.3,
+     0.826
+    ],
+    [
+     0.35,
+     0.84746
+    ],
+    [
+     0.4,
+     0.86604
+    ],
+    [
+     0.45,
+     0.88244
+    ],
+    [
+     0.5,
+     0.89711
+    ],
+    [
+     0.55,
+     0.91037
+    ],
+    [
+     0.6,
+     0.92248
+    ],
+    [
+     0.65,
+     0.93363
+    ],
+    [
+     0.7,
+     0.94394
+    ],
+    [
+     0.75,
+     0.95355
+    ],
+    [
+     0.8,
+     0.96253
+    ],
+    [
+     0.85,
+     0.97097
+    ],
+    [
+     0.9,
+     0.97892
+    ],
+    [
+     0.95,
+     0.98645
+    ],
+    [
+     1.0,
+     0.99359
+    ],
+    [
+     1.06,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  },
+  "meter_40000002": {
+   "vendorSpecificFloat": 50331714,
+   "opcode": {
+    "op": 519,
+    "p0": 50331714,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     0.0
+    ],
+    [
+     0.0003,
+     0.0
+    ],
+    [
+     0.001,
+     0.03205
+    ],
+    [
+     0.002,
+     0.12854
+    ],
+    [
+     0.003,
+     0.18497
+    ],
+    [
+     0.005,
+     0.25608
+    ],
+    [
+     0.01,
+     0.35256
+    ],
+    [
+     0.015,
+     0.409
+    ],
+    [
+     0.02,
+     0.44905
+    ],
+    [
+     0.03,
+     0.50549
+    ],
+    [
+     0.04,
+     0.54553
+    ],
+    [
+     0.05,
+     0.57659
+    ],
+    [
+     0.07,
+     0.62343
+    ],
+    [
+     0.1,
+     0.67308
+    ],
+    [
+     0.13,
+     0.7096
+    ],
+    [
+     0.15,
+     0.72952
+    ],
+    [
+     0.18,
+     0.75489
+    ],
+    [
+     0.2,
+     0.76956
+    ],
+    [
+     0.25,
+     0.80062
+    ],
+    [
+     0.3,
+     0.826
+    ],
+    [
+     0.35,
+     0.84746
+    ],
+    [
+     0.4,
+     0.86604
+    ],
+    [
+     0.45,
+     0.88244
+    ],
+    [
+     0.5,
+     0.89711
+    ],
+    [
+     0.55,
+     0.91037
+    ],
+    [
+     0.6,
+     0.92248
+    ],
+    [
+     0.65,
+     0.93363
+    ],
+    [
+     0.7,
+     0.94394
+    ],
+    [
+     0.75,
+     0.95355
+    ],
+    [
+     0.8,
+     0.96253
+    ],
+    [
+     0.85,
+     0.97097
+    ],
+    [
+     0.9,
+     0.97892
+    ],
+    [
+     0.95,
+     0.98645
+    ],
+    [
+     1.0,
+     0.99359
+    ],
+    [
+     1.06,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  },
+  "meter_40000003": {
+   "vendorSpecificFloat": 50331715,
+   "opcode": {
+    "op": 519,
+    "p0": 50331715,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     0.0
+    ],
+    [
+     0.0003,
+     0.0
+    ],
+    [
+     0.001,
+     0.03205
+    ],
+    [
+     0.002,
+     0.12854
+    ],
+    [
+     0.003,
+     0.18497
+    ],
+    [
+     0.005,
+     0.25608
+    ],
+    [
+     0.01,
+     0.35256
+    ],
+    [
+     0.015,
+     0.409
+    ],
+    [
+     0.02,
+     0.44905
+    ],
+    [
+     0.03,
+     0.50549
+    ],
+    [
+     0.04,
+     0.54553
+    ],
+    [
+     0.05,
+     0.57659
+    ],
+    [
+     0.07,
+     0.62343
+    ],
+    [
+     0.1,
+     0.67308
+    ],
+    [
+     0.13,
+     0.7096
+    ],
+    [
+     0.15,
+     0.72952
+    ],
+    [
+     0.18,
+     0.75489
+    ],
+    [
+     0.2,
+     0.76956
+    ],
+    [
+     0.25,
+     0.80062
+    ],
+    [
+     0.3,
+     0.826
+    ],
+    [
+     0.35,
+     0.84746
+    ],
+    [
+     0.4,
+     0.86604
+    ],
+    [
+     0.45,
+     0.88244
+    ],
+    [
+     0.5,
+     0.89711
+    ],
+    [
+     0.55,
+     0.91037
+    ],
+    [
+     0.6,
+     0.92248
+    ],
+    [
+     0.65,
+     0.93363
+    ],
+    [
+     0.7,
+     0.94394
+    ],
+    [
+     0.75,
+     0.95355
+    ],
+    [
+     0.8,
+     0.96253
+    ],
+    [
+     0.85,
+     0.97097
+    ],
+    [
+     0.9,
+     0.97892
+    ],
+    [
+     0.95,
+     0.98645
+    ],
+    [
+     1.0,
+     0.99359
+    ],
+    [
+     1.06,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  },
+  "meter_40000004": {
+   "vendorSpecificFloat": 50331716,
+   "opcode": {
+    "op": 519,
+    "p0": 50331716,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     0.0
+    ],
+    [
+     0.0003,
+     0.0
+    ],
+    [
+     0.001,
+     0.03205
+    ],
+    [
+     0.002,
+     0.12854
+    ],
+    [
+     0.003,
+     0.18497
+    ],
+    [
+     0.005,
+     0.25608
+    ],
+    [
+     0.01,
+     0.35256
+    ],
+    [
+     0.015,
+     0.409
+    ],
+    [
+     0.02,
+     0.44905
+    ],
+    [
+     0.03,
+     0.50549
+    ],
+    [
+     0.04,
+     0.54553
+    ],
+    [
+     0.05,
+     0.57659
+    ],
+    [
+     0.07,
+     0.62343
+    ],
+    [
+     0.1,
+     0.67308
+    ],
+    [
+     0.13,
+     0.7096
+    ],
+    [
+     0.15,
+     0.72952
+    ],
+    [
+     0.18,
+     0.75489
+    ],
+    [
+     0.2,
+     0.76956
+    ],
+    [
+     0.25,
+     0.80062
+    ],
+    [
+     0.3,
+     0.826
+    ],
+    [
+     0.35,
+     0.84746
+    ],
+    [
+     0.4,
+     0.86604
+    ],
+    [
+     0.45,
+     0.88244
+    ],
+    [
+     0.5,
+     0.89711
+    ],
+    [
+     0.55,
+     0.91037
+    ],
+    [
+     0.6,
+     0.92248
+    ],
+    [
+     0.65,
+     0.93363
+    ],
+    [
+     0.7,
+     0.94394
+    ],
+    [
+     0.75,
+     0.95355
+    ],
+    [
+     0.8,
+     0.96253
+    ],
+    [
+     0.85,
+     0.97097
+    ],
+    [
+     0.9,
+     0.97892
+    ],
+    [
+     0.95,
+     0.98645
+    ],
+    [
+     1.0,
+     0.99359
+    ],
+    [
+     1.06,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  },
+  "meter_40000005": {
+   "vendorSpecificFloat": 50331717,
+   "opcode": {
+    "op": 519,
+    "p0": 50331717,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     0.0
+    ],
+    [
+     0.0003,
+     0.0
+    ],
+    [
+     0.001,
+     0.03205
+    ],
+    [
+     0.002,
+     0.12854
+    ],
+    [
+     0.003,
+     0.18497
+    ],
+    [
+     0.005,
+     0.25608
+    ],
+    [
+     0.01,
+     0.35256
+    ],
+    [
+     0.015,
+     0.409
+    ],
+    [
+     0.02,
+     0.44905
+    ],
+    [
+     0.03,
+     0.50549
+    ],
+    [
+     0.04,
+     0.54553
+    ],
+    [
+     0.05,
+     0.57659
+    ],
+    [
+     0.07,
+     0.62343
+    ],
+    [
+     0.1,
+     0.67308
+    ],
+    [
+     0.13,
+     0.7096
+    ],
+    [
+     0.15,
+     0.72952
+    ],
+    [
+     0.18,
+     0.75489
+    ],
+    [
+     0.2,
+     0.76956
+    ],
+    [
+     0.25,
+     0.80062
+    ],
+    [
+     0.3,
+     0.826
+    ],
+    [
+     0.35,
+     0.84746
+    ],
+    [
+     0.4,
+     0.86604
+    ],
+    [
+     0.45,
+     0.88244
+    ],
+    [
+     0.5,
+     0.89711
+    ],
+    [
+     0.55,
+     0.91037
+    ],
+    [
+     0.6,
+     0.92248
+    ],
+    [
+     0.65,
+     0.93363
+    ],
+    [
+     0.7,
+     0.94394
+    ],
+    [
+     0.75,
+     0.95355
+    ],
+    [
+     0.8,
+     0.96253
+    ],
+    [
+     0.85,
+     0.97097
+    ],
+    [
+     0.9,
+     0.97892
+    ],
+    [
+     0.95,
+     0.98645
+    ],
+    [
+     1.0,
+     0.99359
+    ],
+    [
+     1.06,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  },
+  "meter_40000006": {
+   "vendorSpecificFloat": 50331718,
+   "opcode": {
+    "op": 519,
+    "p0": 50331718,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     0.0
+    ],
+    [
+     0.0003,
+     0.0
+    ],
+    [
+     0.001,
+     0.03205
+    ],
+    [
+     0.002,
+     0.12854
+    ],
+    [
+     0.003,
+     0.18497
+    ],
+    [
+     0.005,
+     0.25608
+    ],
+    [
+     0.01,
+     0.35256
+    ],
+    [
+     0.015,
+     0.409
+    ],
+    [
+     0.02,
+     0.44905
+    ],
+    [
+     0.03,
+     0.50549
+    ],
+    [
+     0.04,
+     0.54553
+    ],
+    [
+     0.05,
+     0.57659
+    ],
+    [
+     0.07,
+     0.62343
+    ],
+    [
+     0.1,
+     0.67308
+    ],
+    [
+     0.13,
+     0.7096
+    ],
+    [
+     0.15,
+     0.72952
+    ],
+    [
+     0.18,
+     0.75489
+    ],
+    [
+     0.2,
+     0.76956
+    ],
+    [
+     0.25,
+     0.80062
+    ],
+    [
+     0.3,
+     0.826
+    ],
+    [
+     0.35,
+     0.84746
+    ],
+    [
+     0.4,
+     0.86604
+    ],
+    [
+     0.45,
+     0.88244
+    ],
+    [
+     0.5,
+     0.89711
+    ],
+    [
+     0.55,
+     0.91037
+    ],
+    [
+     0.6,
+     0.92248
+    ],
+    [
+     0.65,
+     0.93363
+    ],
+    [
+     0.7,
+     0.94394
+    ],
+    [
+     0.75,
+     0.95355
+    ],
+    [
+     0.8,
+     0.96253
+    ],
+    [
+     0.85,
+     0.97097
+    ],
+    [
+     0.9,
+     0.97892
+    ],
+    [
+     0.95,
+     0.98645
+    ],
+    [
+     1.0,
+     0.99359
+    ],
+    [
+     1.06,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  },
+  "meter_40000007": {
+   "vendorSpecificFloat": 50331719,
+   "opcode": {
+    "op": 519,
+    "p0": 50331719,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     0.0
+    ],
+    [
+     0.0003,
+     0.0
+    ],
+    [
+     0.001,
+     0.03205
+    ],
+    [
+     0.002,
+     0.12854
+    ],
+    [
+     0.003,
+     0.18497
+    ],
+    [
+     0.005,
+     0.25608
+    ],
+    [
+     0.01,
+     0.35256
+    ],
+    [
+     0.015,
+     0.409
+    ],
+    [
+     0.02,
+     0.44905
+    ],
+    [
+     0.03,
+     0.50549
+    ],
+    [
+     0.04,
+     0.54553
+    ],
+    [
+     0.05,
+     0.57659
+    ],
+    [
+     0.07,
+     0.62343
+    ],
+    [
+     0.1,
+     0.67308
+    ],
+    [
+     0.13,
+     0.7096
+    ],
+    [
+     0.15,
+     0.72952
+    ],
+    [
+     0.18,
+     0.75489
+    ],
+    [
+     0.2,
+     0.76956
+    ],
+    [
+     0.25,
+     0.80062
+    ],
+    [
+     0.3,
+     0.826
+    ],
+    [
+     0.35,
+     0.84746
+    ],
+    [
+     0.4,
+     0.86604
+    ],
+    [
+     0.45,
+     0.88244
+    ],
+    [
+     0.5,
+     0.89711
+    ],
+    [
+     0.55,
+     0.91037
+    ],
+    [
+     0.6,
+     0.92248
+    ],
+    [
+     0.65,
+     0.93363
+    ],
+    [
+     0.7,
+     0.94394
+    ],
+    [
+     0.75,
+     0.95355
+    ],
+    [
+     0.8,
+     0.96253
+    ],
+    [
+     0.85,
+     0.97097
+    ],
+    [
+     0.9,
+     0.97892
+    ],
+    [
+     0.95,
+     0.98645
+    ],
+    [
+     1.0,
+     0.99359
+    ],
+    [
+     1.06,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  },
+  "meter_40000008": {
+   "vendorSpecificFloat": 50331720,
+   "opcode": {
+    "op": 519,
+    "p0": 50331720,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     1.0
+    ],
+    [
+     1e-06,
+     1.0
+    ],
+    [
+     1e-05,
+     0.0
+    ],
+    [
+     0.25,
+     0.0
+    ],
+    [
+     0.3,
+     0.00404
+    ],
+    [
+     0.35,
+     0.13156
+    ],
+    [
+     0.4,
+     0.24202
+    ],
+    [
+     0.45,
+     0.33945
+    ],
+    [
+     0.5,
+     0.42661
+    ],
+    [
+     0.55,
+     0.50545
+    ],
+    [
+     0.6,
+     0.57743
+    ],
+    [
+     0.65,
+     0.64364
+    ],
+    [
+     0.7,
+     0.70495
+    ],
+    [
+     0.75,
+     0.76202
+    ],
+    [
+     0.8,
+     0.81541
+    ],
+    [
+     0.85,
+     0.86556
+    ],
+    [
+     0.9,
+     0.91284
+    ],
+    [
+     0.95,
+     0.95757
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  },
+  "meter_40000009": {
+   "vendorSpecificFloat": 50331721,
+   "opcode": {
+    "op": 519,
+    "p0": 50331721,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     1.0
+    ],
+    [
+     1e-06,
+     1.0
+    ],
+    [
+     1e-05,
+     0.0
+    ],
+    [
+     0.25,
+     0.0
+    ],
+    [
+     0.3,
+     0.00404
+    ],
+    [
+     0.35,
+     0.13156
+    ],
+    [
+     0.4,
+     0.24202
+    ],
+    [
+     0.45,
+     0.33945
+    ],
+    [
+     0.5,
+     0.42661
+    ],
+    [
+     0.55,
+     0.50545
+    ],
+    [
+     0.6,
+     0.57743
+    ],
+    [
+     0.65,
+     0.64364
+    ],
+    [
+     0.7,
+     0.70495
+    ],
+    [
+     0.75,
+     0.76202
+    ],
+    [
+     0.8,
+     0.81541
+    ],
+    [
+     0.85,
+     0.86556
+    ],
+    [
+     0.9,
+     0.91284
+    ],
+    [
+     0.95,
+     0.95757
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  },
+  "led_4000000a": {
+   "vendorSpecificFloat": 50331722,
+   "opcode": {
+    "op": 519,
+    "p0": 50331722,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     0.0
+    ],
+    [
+     -1,
+     0.0
+    ],
+    [
+     -0.5,
+     0.25
+    ],
+    [
+     0,
+     0.5
+    ],
+    [
+     1e-05,
+     0.50001
+    ],
+    [
+     3e-05,
+     0.50002
+    ],
+    [
+     0.0001,
+     0.50005
+    ],
+    [
+     0.0003,
+     0.50015
+    ],
+    [
+     0.001,
+     0.5005
+    ],
+    [
+     0.002,
+     0.501
+    ],
+    [
+     0.003,
+     0.5015
+    ],
+    [
+     0.005,
+     0.5025
+    ],
+    [
+     0.01,
+     0.505
+    ],
+    [
+     0.015,
+     0.5075
+    ],
+    [
+     0.02,
+     0.51
+    ],
+    [
+     0.03,
+     0.515
+    ],
+    [
+     0.04,
+     0.52
+    ],
+    [
+     0.05,
+     0.525
+    ],
+    [
+     0.07,
+     0.535
+    ],
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.13,
+     0.565
+    ],
+    [
+     0.15,
+     0.575
+    ],
+    [
+     0.18,
+     0.59
+    ],
+    [
+     0.2,
+     0.6
+    ],
+    [
+     0.25,
+     0.625
+    ],
+    [
+     0.3,
+     0.65
+    ],
+    [
+     0.35,
+     0.675
+    ],
+    [
+     0.4,
+     0.7
+    ],
+    [
+     0.45,
+     0.725
+    ],
+    [
+     0.5,
+     0.75
+    ],
+    [
+     0.55,
+     0.775
+    ],
+    [
+     0.6,
+     0.8
+    ],
+    [
+     0.65,
+     0.825
+    ],
+    [
+     0.7,
+     0.85
+    ],
+    [
+     0.75,
+     0.875
+    ],
+    [
+     0.8,
+     0.9
+    ],
+    [
+     0.85,
+     0.925
+    ],
+    [
+     0.9,
+     0.95
+    ],
+    [
+     0.95,
+     0.975
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  },
+  "led_4000000b": {
+   "vendorSpecificFloat": 50331723,
+   "opcode": {
+    "op": 519,
+    "p0": 50331723,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     0.0
+    ],
+    [
+     -1,
+     0.0
+    ],
+    [
+     -0.5,
+     0.25
+    ],
+    [
+     0,
+     0.5
+    ],
+    [
+     1e-05,
+     0.50001
+    ],
+    [
+     3e-05,
+     0.50002
+    ],
+    [
+     0.0001,
+     0.50005
+    ],
+    [
+     0.0003,
+     0.50015
+    ],
+    [
+     0.001,
+     0.5005
+    ],
+    [
+     0.002,
+     0.501
+    ],
+    [
+     0.003,
+     0.5015
+    ],
+    [
+     0.005,
+     0.5025
+    ],
+    [
+     0.01,
+     0.505
+    ],
+    [
+     0.015,
+     0.5075
+    ],
+    [
+     0.02,
+     0.51
+    ],
+    [
+     0.03,
+     0.515
+    ],
+    [
+     0.04,
+     0.52
+    ],
+    [
+     0.05,
+     0.525
+    ],
+    [
+     0.07,
+     0.535
+    ],
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.13,
+     0.565
+    ],
+    [
+     0.15,
+     0.575
+    ],
+    [
+     0.18,
+     0.59
+    ],
+    [
+     0.2,
+     0.6
+    ],
+    [
+     0.25,
+     0.625
+    ],
+    [
+     0.3,
+     0.65
+    ],
+    [
+     0.35,
+     0.675
+    ],
+    [
+     0.4,
+     0.7
+    ],
+    [
+     0.45,
+     0.725
+    ],
+    [
+     0.5,
+     0.75
+    ],
+    [
+     0.55,
+     0.775
+    ],
+    [
+     0.6,
+     0.8
+    ],
+    [
+     0.65,
+     0.825
+    ],
+    [
+     0.7,
+     0.85
+    ],
+    [
+     0.75,
+     0.875
+    ],
+    [
+     0.8,
+     0.9
+    ],
+    [
+     0.85,
+     0.925
+    ],
+    [
+     0.9,
+     0.95
+    ],
+    [
+     0.95,
+     0.975
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,190 @@
+{
+ "schema": 2,
+ "effectName": "UAD 4K Buss Compressor",
+ "namePattern": "4K Buss Compressor",
+ "size": {
+  "w": 300,
+  "h": 415
+ },
+ "background": "4k_buss_compressor_6500",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Thresh",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "Make Up",
+   "steps": null,
+   "default": 0.204833984375
+  },
+  {
+   "index": 2,
+   "name": "Attack",
+   "steps": [
+    " 0.10 ms",
+    " 0.30 ms",
+    " 1.00 ms",
+    " 3.00 ms",
+    "10.00 ms",
+    "30.00 ms"
+   ],
+   "default": 0.4000000059604645
+  },
+  {
+   "index": 3,
+   "name": "Release",
+   "steps": [
+    " 0.10 s",
+    " 0.30 s",
+    " 0.60 s",
+    " 1.20 s",
+    "AUTO"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 4,
+   "name": "Ratio",
+   "steps": [
+    "2:1",
+    "4:1",
+    "10:1"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-make_up",
+   "x": 175,
+   "y": 165,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_buss_compressor_6501",
+   "frames": 61,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "knob-2-thresh",
+   "x": 55,
+   "y": 165,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_buss_compressor_6501",
+   "frames": 61,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "knob-3-ratio",
+   "x": 55,
+   "y": 319,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_buss_compressor_6502",
+   "frames": 3,
+   "kind": "knob",
+   "param": 4
+  },
+  {
+   "id": "knob-4-attack",
+   "x": 55,
+   "y": 242,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_buss_compressor_6503",
+   "frames": 6,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "knob-5-release",
+   "x": 175,
+   "y": 242,
+   "w": 80,
+   "h": 61,
+   "sprite": "4k_buss_compressor_6504",
+   "frames": 5,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "filmstrip-6-internal7",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter0"
+   },
+   "x": 86,
+   "y": 29,
+   "w": 126,
+   "h": 64,
+   "sprite": "4k_buss_compressor_6505",
+   "frames": 61
+  },
+  {
+   "id": "switch-7-power",
+   "kind": "switch",
+   "x": 173,
+   "y": 315,
+   "w": 75,
+   "h": 75,
+   "sprite": "4k_buss_compressor_6506_6",
+   "frames": 2,
+   "param": 5,
+   "orientation": "vertical"
+  }
+ ],
+ "meterSources": {
+  "meter0": {
+   "vendorSpecificFloat": 0,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.398107,
+     0.0
+    ],
+    [
+     0.501187,
+     1.0
+    ],
+    [
+     14.0,
+     1.0
+    ],
+    [
+     15.848932,
+     0.0
+    ],
+    [
+     16.0,
+     0.0
+    ],
+    [
+     18.0,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,1511 @@
+{
+ "schema": 2,
+ "effectName": "UAD Vertigo VSC-2",
+ "namePattern": "Vertigo VSC-2",
+ "size": {
+  "w": 1024,
+  "h": 186
+ },
+ "background": "vertigo_vsc_2__BACKGROUND",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "Link",
+   "steps": [
+    "Mono",
+    "Stereo"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 2,
+   "name": "System A",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 3,
+   "name": "Thresh A",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 4,
+   "name": "Ratio A",
+   "steps": [
+    "Soft",
+    "2:1",
+    "4:1",
+    "8:1",
+    "10:1",
+    "Brick"
+   ],
+   "default": 0.2000000029802322
+  },
+  {
+   "index": 5,
+   "name": "Attack A",
+   "steps": [
+    "0.1 ms",
+    "0.3 ms",
+    "1 ms",
+    "3 ms",
+    "10 ms",
+    "30 ms"
+   ],
+   "default": 0.800000011920929
+  },
+  {
+   "index": 6,
+   "name": "ReleaseA",
+   "steps": [
+    "0.1 s",
+    "0.3 s",
+    "0.6 s",
+    "0.9 s",
+    "1.2 s",
+    "Auto"
+   ],
+   "default": 0.4000000059604645
+  },
+  {
+   "index": 7,
+   "name": "Make UpA",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "SC Flt A",
+   "steps": [
+    "60 Hz",
+    "Off",
+    "90 Hz"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 9,
+   "name": "System B",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 10,
+   "name": "Thresh B",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 11,
+   "name": "Ratio B",
+   "steps": [
+    "Soft",
+    "2:1",
+    "4:1",
+    "8:1",
+    "10:1",
+    "Brick"
+   ],
+   "default": 0.2000000029802322
+  },
+  {
+   "index": 12,
+   "name": "Attack B",
+   "steps": [
+    "0.1 ms",
+    "0.3 ms",
+    "1 ms",
+    "3 ms",
+    "10 ms",
+    "30 ms"
+   ],
+   "default": 0.800000011920929
+  },
+  {
+   "index": 13,
+   "name": "ReleaseB",
+   "steps": [
+    "0.1 s",
+    "0.3 s",
+    "0.6 s",
+    "0.9 s",
+    "1.2 s",
+    "Auto"
+   ],
+   "default": 0.4000000059604645
+  },
+  {
+   "index": 14,
+   "name": "Make UpB",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 15,
+   "name": "SC Flt B",
+   "steps": [
+    "60 Hz",
+    "Off",
+    "90 Hz"
+   ],
+   "default": 0.5
+  }
+ ],
+ "elements": [
+  {
+   "id": "power-led",
+   "kind": "filmstrip",
+   "sprite": "vertigo_vsc_2__LAMP",
+   "frames": 2,
+   "x": 853.0,
+   "y": 5.0,
+   "w": 74.0,
+   "h": 74.0,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
+  },
+  {
+   "id": "cmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "vertigo_vsc_2__METERGR",
+   "frames": 61,
+   "x": 614.0,
+   "y": 42.0,
+   "w": 83.0,
+   "h": 46.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_50000000"
+   }
+  },
+  {
+   "id": "thresha-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsc_2__KNOB",
+   "frames": 61,
+   "param": 3,
+   "x": 97.0,
+   "y": 9.0,
+   "w": 77.0,
+   "h": 77.0
+  },
+  {
+   "id": "makeupa-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsc_2__KNOB",
+   "frames": 61,
+   "param": 7,
+   "x": 420.0,
+   "y": 9.0,
+   "w": 77.0,
+   "h": 77.0
+  },
+  {
+   "id": "ratioa-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsc_2__KNOBSTEPPED",
+   "frames": 6,
+   "param": 4,
+   "x": 177.0,
+   "y": 9.0,
+   "w": 77.0,
+   "h": 77.0
+  },
+  {
+   "id": "attacka-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsc_2__KNOBSTEPPED",
+   "frames": 6,
+   "param": 5,
+   "x": 258.0,
+   "y": 9.0,
+   "w": 77.0,
+   "h": 77.0
+  },
+  {
+   "id": "releasea-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsc_2__KNOBSTEPPED",
+   "frames": 6,
+   "param": 6,
+   "x": 339.0,
+   "y": 9.0,
+   "w": 77.0,
+   "h": 77.0
+  },
+  {
+   "id": "systema-switch",
+   "kind": "switch",
+   "sprite": "vertigo_vsc_2__SWITCHRED",
+   "frames": 2,
+   "param": 2,
+   "orientation": "vertical",
+   "x": 516.0,
+   "y": 30.0,
+   "w": 36.0,
+   "h": 59.0
+  },
+  {
+   "id": "scflta-switch",
+   "kind": "switch",
+   "sprite": "vertigo_vsc_2__SWITCHBLUE",
+   "frames": 3,
+   "param": 8,
+   "orientation": "vertical",
+   "x": 588.0,
+   "y": 127.0,
+   "w": 36.0,
+   "h": 59.0
+  },
+  {
+   "id": "cmoviebitmap-led-1",
+   "kind": "filmstrip",
+   "sprite": "vertigo_vsc_2__METERGR",
+   "frames": 61,
+   "x": 748.0,
+   "y": 42.0,
+   "w": 83.0,
+   "h": 46.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_50000001"
+   }
+  },
+  {
+   "id": "threshb-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsc_2__KNOB",
+   "frames": 61,
+   "param": 10,
+   "x": 97.0,
+   "y": 94.0,
+   "w": 77.0,
+   "h": 77.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-threshb-knob-mono",
+   "kind": "filmstrip",
+   "x": 97.0,
+   "y": 94.0,
+   "w": 77.0,
+   "h": 77.0,
+   "sprite": "Q_vertigo_vsc_2__KNOB_mono140_086cb9",
+   "frames": 61,
+   "frameSource": {
+    "type": "param",
+    "param": 10
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "makeupb-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsc_2__KNOB",
+   "frames": 61,
+   "param": 14,
+   "x": 420.0,
+   "y": 94.0,
+   "w": 77.0,
+   "h": 77.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-makeupb-knob-mono",
+   "kind": "filmstrip",
+   "x": 420.0,
+   "y": 94.0,
+   "w": 77.0,
+   "h": 77.0,
+   "sprite": "Q_vertigo_vsc_2__KNOB_mono140_086cb9",
+   "frames": 61,
+   "frameSource": {
+    "type": "param",
+    "param": 14
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "ratiob-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsc_2__KNOBSTEPPED",
+   "frames": 6,
+   "param": 11,
+   "x": 177.0,
+   "y": 94.0,
+   "w": 77.0,
+   "h": 77.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-ratiob-knob-mono",
+   "kind": "filmstrip",
+   "x": 177.0,
+   "y": 94.0,
+   "w": 77.0,
+   "h": 77.0,
+   "sprite": "Q_vertigo_vsc_2__KNOBSTEPPED_mono140_086cb9",
+   "frames": 6,
+   "frameSource": {
+    "type": "param",
+    "param": 11
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "attackb-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsc_2__KNOBSTEPPED",
+   "frames": 6,
+   "param": 12,
+   "x": 258.0,
+   "y": 94.0,
+   "w": 77.0,
+   "h": 77.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-attackb-knob-mono",
+   "kind": "filmstrip",
+   "x": 258.0,
+   "y": 94.0,
+   "w": 77.0,
+   "h": 77.0,
+   "sprite": "Q_vertigo_vsc_2__KNOBSTEPPED_mono140_086cb9",
+   "frames": 6,
+   "frameSource": {
+    "type": "param",
+    "param": 12
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "releaseb-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsc_2__KNOBSTEPPED",
+   "frames": 6,
+   "param": 13,
+   "x": 339.0,
+   "y": 94.0,
+   "w": 77.0,
+   "h": 77.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-releaseb-knob-mono",
+   "kind": "filmstrip",
+   "x": 339.0,
+   "y": 94.0,
+   "w": 77.0,
+   "h": 77.0,
+   "sprite": "Q_vertigo_vsc_2__KNOBSTEPPED_mono140_086cb9",
+   "frames": 6,
+   "frameSource": {
+    "type": "param",
+    "param": 13
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "systemb-switch",
+   "kind": "switch",
+   "sprite": "vertigo_vsc_2__SWITCHRED",
+   "frames": 2,
+   "param": 9,
+   "orientation": "vertical",
+   "x": 516.0,
+   "y": 98.0,
+   "w": 36.0,
+   "h": 59.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-systemb-switch-mono",
+   "kind": "filmstrip",
+   "x": 516.0,
+   "y": 98.0,
+   "w": 36.0,
+   "h": 59.0,
+   "sprite": "Q_vertigo_vsc_2__SWITCHRED_mono140_086cb9",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 9
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   },
+   "orientation": "vertical"
+  },
+  {
+   "id": "scfltb-switch",
+   "kind": "switch",
+   "sprite": "vertigo_vsc_2__SWITCHBLUE",
+   "frames": 3,
+   "param": 15,
+   "orientation": "vertical",
+   "x": 820.0,
+   "y": 127.0,
+   "w": 36.0,
+   "h": 59.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-scfltb-switch-mono",
+   "kind": "filmstrip",
+   "x": 820.0,
+   "y": 127.0,
+   "w": 36.0,
+   "h": 59.0,
+   "sprite": "Q_vertigo_vsc_2__SWITCHBLUE_mono140_086cb9",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 15
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   },
+   "orientation": "vertical"
+  },
+  {
+   "id": "power-switch",
+   "kind": "switch",
+   "sprite": "vertigo_vsc_2__SWITCHPOWER",
+   "frames": 2,
+   "param": 0,
+   "orientation": "vertical",
+   "x": 867.0,
+   "y": 85.0,
+   "w": 46.0,
+   "h": 60.0
+  },
+  {
+   "id": "link-switch",
+   "kind": "switch",
+   "sprite": "vertigo_vsc_2__SWITCHBLACK",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 704.0,
+   "y": 127.0,
+   "w": 36.0,
+   "h": 59.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-link-switch-mono",
+   "kind": "filmstrip",
+   "x": 704.0,
+   "y": 127.0,
+   "w": 36.0,
+   "h": 59.0,
+   "sprite": "Q_vertigo_vsc_2__SWITCHBLACK_mono140_086cb9",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  }
+ ],
+ "meterSources": {
+  "led_50000000": {
+   "vendorSpecificFloat": 67108930,
+   "opcode": {
+    "op": 519,
+    "p0": 67108930,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     1.0
+    ],
+    [
+     -96,
+     1.0
+    ],
+    [
+     -80,
+     1.0
+    ],
+    [
+     -72,
+     1.0
+    ],
+    [
+     -60,
+     1.0
+    ],
+    [
+     -54,
+     1.0
+    ],
+    [
+     -48,
+     1.0
+    ],
+    [
+     -42,
+     1.0
+    ],
+    [
+     -40,
+     1.0
+    ],
+    [
+     -36,
+     1.0
+    ],
+    [
+     -30,
+     1.0
+    ],
+    [
+     -27,
+     1.0
+    ],
+    [
+     -24,
+     1.0
+    ],
+    [
+     -21,
+     1.0
+    ],
+    [
+     -20,
+     1.0
+    ],
+    [
+     -18,
+     1.0
+    ],
+    [
+     -15,
+     1.0
+    ],
+    [
+     -12,
+     1.0
+    ],
+    [
+     -10,
+     1.0
+    ],
+    [
+     -9,
+     1.0
+    ],
+    [
+     -8,
+     1.0
+    ],
+    [
+     -7,
+     1.0
+    ],
+    [
+     -6,
+     1.0
+    ],
+    [
+     -5,
+     1.0
+    ],
+    [
+     -4,
+     1.0
+    ],
+    [
+     -3,
+     1.0
+    ],
+    [
+     -2,
+     1.0
+    ],
+    [
+     -1,
+     1.0
+    ],
+    [
+     -0.5,
+     1.0
+    ],
+    [
+     0,
+     1.0
+    ],
+    [
+     1e-05,
+     0.99999
+    ],
+    [
+     0.0001,
+     0.99991
+    ],
+    [
+     0.0003,
+     0.99973
+    ],
+    [
+     0.001,
+     0.99909
+    ],
+    [
+     0.002,
+     0.99818
+    ],
+    [
+     0.003,
+     0.99727
+    ],
+    [
+     0.005,
+     0.99545
+    ],
+    [
+     0.01,
+     0.99091
+    ],
+    [
+     0.015,
+     0.98636
+    ],
+    [
+     0.02,
+     0.98182
+    ],
+    [
+     0.03,
+     0.97273
+    ],
+    [
+     0.05,
+     0.95455
+    ],
+    [
+     0.07,
+     0.93636
+    ],
+    [
+     0.1,
+     0.90909
+    ],
+    [
+     0.13,
+     0.88182
+    ],
+    [
+     0.15,
+     0.86364
+    ],
+    [
+     0.2,
+     0.81818
+    ],
+    [
+     0.25,
+     0.77273
+    ],
+    [
+     0.3,
+     0.72727
+    ],
+    [
+     0.35,
+     0.68182
+    ],
+    [
+     0.4,
+     0.63636
+    ],
+    [
+     0.45,
+     0.59091
+    ],
+    [
+     0.5,
+     0.54545
+    ],
+    [
+     0.55,
+     0.5
+    ],
+    [
+     0.6,
+     0.45455
+    ],
+    [
+     0.65,
+     0.40909
+    ],
+    [
+     0.7,
+     0.36364
+    ],
+    [
+     0.75,
+     0.31818
+    ],
+    [
+     0.8,
+     0.27273
+    ],
+    [
+     0.85,
+     0.22727
+    ],
+    [
+     0.9,
+     0.18182
+    ],
+    [
+     0.95,
+     0.13636
+    ],
+    [
+     1.0,
+     0.09091
+    ],
+    [
+     1.12,
+     0.0
+    ],
+    [
+     1.25,
+     0.0
+    ],
+    [
+     1.41,
+     0.0
+    ],
+    [
+     1.6,
+     0.0
+    ],
+    [
+     2,
+     0.0
+    ],
+    [
+     2.5,
+     0.0
+    ],
+    [
+     3,
+     0.0
+    ],
+    [
+     4,
+     0.0
+    ],
+    [
+     5,
+     0.0
+    ],
+    [
+     6,
+     0.0
+    ],
+    [
+     8,
+     0.0
+    ],
+    [
+     10,
+     0.0
+    ],
+    [
+     12,
+     0.0
+    ],
+    [
+     15,
+     0.0
+    ],
+    [
+     20,
+     0.0
+    ],
+    [
+     30,
+     0.0
+    ],
+    [
+     50,
+     0.0
+    ],
+    [
+     100,
+     0.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "led_50000001": {
+   "vendorSpecificFloat": 67108931,
+   "opcode": {
+    "op": 519,
+    "p0": 67108931,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     1.0
+    ],
+    [
+     -96,
+     1.0
+    ],
+    [
+     -80,
+     1.0
+    ],
+    [
+     -72,
+     1.0
+    ],
+    [
+     -60,
+     1.0
+    ],
+    [
+     -54,
+     1.0
+    ],
+    [
+     -48,
+     1.0
+    ],
+    [
+     -42,
+     1.0
+    ],
+    [
+     -40,
+     1.0
+    ],
+    [
+     -36,
+     1.0
+    ],
+    [
+     -30,
+     1.0
+    ],
+    [
+     -27,
+     1.0
+    ],
+    [
+     -24,
+     1.0
+    ],
+    [
+     -21,
+     1.0
+    ],
+    [
+     -20,
+     1.0
+    ],
+    [
+     -18,
+     1.0
+    ],
+    [
+     -15,
+     1.0
+    ],
+    [
+     -12,
+     1.0
+    ],
+    [
+     -10,
+     1.0
+    ],
+    [
+     -9,
+     1.0
+    ],
+    [
+     -8,
+     1.0
+    ],
+    [
+     -7,
+     1.0
+    ],
+    [
+     -6,
+     1.0
+    ],
+    [
+     -5,
+     1.0
+    ],
+    [
+     -4,
+     1.0
+    ],
+    [
+     -3,
+     1.0
+    ],
+    [
+     -2,
+     1.0
+    ],
+    [
+     -1,
+     1.0
+    ],
+    [
+     -0.5,
+     1.0
+    ],
+    [
+     0,
+     1.0
+    ],
+    [
+     1e-05,
+     0.99999
+    ],
+    [
+     0.0001,
+     0.99991
+    ],
+    [
+     0.0003,
+     0.99973
+    ],
+    [
+     0.001,
+     0.99909
+    ],
+    [
+     0.002,
+     0.99818
+    ],
+    [
+     0.003,
+     0.99727
+    ],
+    [
+     0.005,
+     0.99545
+    ],
+    [
+     0.01,
+     0.99091
+    ],
+    [
+     0.015,
+     0.98636
+    ],
+    [
+     0.02,
+     0.98182
+    ],
+    [
+     0.03,
+     0.97273
+    ],
+    [
+     0.05,
+     0.95455
+    ],
+    [
+     0.07,
+     0.93636
+    ],
+    [
+     0.1,
+     0.90909
+    ],
+    [
+     0.13,
+     0.88182
+    ],
+    [
+     0.15,
+     0.86364
+    ],
+    [
+     0.2,
+     0.81818
+    ],
+    [
+     0.25,
+     0.77273
+    ],
+    [
+     0.3,
+     0.72727
+    ],
+    [
+     0.35,
+     0.68182
+    ],
+    [
+     0.4,
+     0.63636
+    ],
+    [
+     0.45,
+     0.59091
+    ],
+    [
+     0.5,
+     0.54545
+    ],
+    [
+     0.55,
+     0.5
+    ],
+    [
+     0.6,
+     0.45455
+    ],
+    [
+     0.65,
+     0.40909
+    ],
+    [
+     0.7,
+     0.36364
+    ],
+    [
+     0.75,
+     0.31818
+    ],
+    [
+     0.8,
+     0.27273
+    ],
+    [
+     0.85,
+     0.22727
+    ],
+    [
+     0.9,
+     0.18182
+    ],
+    [
+     0.95,
+     0.13636
+    ],
+    [
+     1.0,
+     0.09091
+    ],
+    [
+     1.12,
+     0.0
+    ],
+    [
+     1.25,
+     0.0
+    ],
+    [
+     1.41,
+     0.0
+    ],
+    [
+     1.6,
+     0.0
+    ],
+    [
+     2,
+     0.0
+    ],
+    [
+     2.5,
+     0.0
+    ],
+    [
+     3,
+     0.0
+    ],
+    [
+     4,
+     0.0
+    ],
+    [
+     5,
+     0.0
+    ],
+    [
+     6,
+     0.0
+    ],
+    [
+     8,
+     0.0
+    ],
+    [
+     10,
+     0.0
+    ],
+    [
+     12,
+     0.0
+    ],
+    [
+     15,
+     0.0
+    ],
+    [
+     20,
+     0.0
+    ],
+    [
+     30,
+     0.0
+    ],
+    [
+     50,
+     0.0
+    ],
+    [
+     100,
+     0.0
+    ]
+   ],
+   "smoothing": 0.5
+  }
+ },
+ "states": {
+  "channels": 2
+ }
+}

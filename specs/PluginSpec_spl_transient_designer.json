@@ -1,0 +1,198 @@
+{
+ "schema": 2,
+ "effectName": "UAD SPL Transient Designer",
+ "namePattern": "SPL Transient Designer",
+ "size": {
+  "w": 306,
+  "h": 420
+ },
+ "background": "spl_transient_designer_5800",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Attack",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "Sustain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 2,
+   "name": "Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "switch-1-power",
+   "kind": "switch",
+   "x": 26,
+   "y": 227,
+   "w": 45,
+   "h": 30,
+   "sprite": "spl_transient_designer_5807_1",
+   "frames": 2,
+   "param": 3,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-2-power",
+   "kind": "switch",
+   "x": 207,
+   "y": 298,
+   "w": 43,
+   "h": 44,
+   "sprite": "spl_transient_designer_5806_2",
+   "frames": 2,
+   "param": 3,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-3-attack",
+   "x": 41,
+   "y": 58,
+   "w": 75,
+   "h": 70,
+   "sprite": "spl_transient_designer_5801",
+   "frames": 81,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "knob-4-sustain",
+   "x": 41,
+   "y": 148,
+   "w": 75,
+   "h": 70,
+   "sprite": "spl_transient_designer_5801",
+   "frames": 81,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "knob-5-gain",
+   "x": 32,
+   "y": 274,
+   "w": 95,
+   "h": 95,
+   "sprite": "spl_transient_designer_5802",
+   "frames": 81,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "filmstrip-6-internal5",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter0"
+   },
+   "x": 41,
+   "y": 50,
+   "w": 13,
+   "h": 13,
+   "sprite": "spl_transient_designer_5805",
+   "frames": 4
+  },
+  {
+   "id": "filmstrip-7-internal6",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter1"
+   },
+   "x": 103,
+   "y": 50,
+   "w": 13,
+   "h": 13,
+   "sprite": "spl_transient_designer_5803",
+   "frames": 2
+  },
+  {
+   "id": "filmstrip-8-internal7",
+   "kind": "filmstrip",
+   "x": 86,
+   "y": 227,
+   "w": 45,
+   "h": 30,
+   "sprite": "spl_transient_designer_5804",
+   "frames": 2
+  }
+ ],
+ "meterSources": {
+  "meter0": {
+   "vendorSpecificFloat": 100663296,
+   "calibration": [
+    [
+     0.0,
+     0.125
+    ],
+    [
+     0.050119,
+     0.125
+    ],
+    [
+     0.063096,
+     0.375
+    ],
+    [
+     0.1,
+     0.375
+    ],
+    [
+     0.125893,
+     0.625
+    ],
+    [
+     0.251189,
+     0.625
+    ],
+    [
+     0.316228,
+     0.875
+    ],
+    [
+     60.0,
+     0.875
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 100663296,
+    "p1": 1
+   }
+  },
+  "meter1": {
+   "vendorSpecificFloat": 100663298,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 100663298,
+    "p1": 1
+   }
+  }
+ }
+}

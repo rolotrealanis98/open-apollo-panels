@@ -1,0 +1,428 @@
+{
+ "schema": 2,
+ "effectName": "UAD Pultec HLF-3C",
+ "namePattern": "Pultec HLF-3C",
+ "size": {
+  "w": 950,
+  "h": 188
+ },
+ "background": "pultec_hlf_3c_back",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Low Cut",
+   "steps": [
+    "Off",
+    "50 CPS",
+    "80 CPS",
+    "100 CPS",
+    "150 CPS",
+    "250 CPS",
+    "500 CPS",
+    "750 CPS",
+    "1000 CPS",
+    "1500 CPS",
+    "2000 CPS"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "High Cut",
+   "steps": [
+    "1.5 KCS",
+    "2 KCS",
+    "3 KCS",
+    "4 KCS",
+    "5 KCS",
+    "6 KCS",
+    "8 KCS",
+    "10 KCS",
+    "12 KCS",
+    "15 KCS",
+    "Off"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 2,
+   "name": "Enable",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {},
+ "elements": [
+  {
+   "id": "ua-slider-enable",
+   "x": 145,
+   "y": 45,
+   "w": 55,
+   "h": 100,
+   "kind": "switch",
+   "param": 2,
+   "sprite": "pultec_in_switch_V1",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "ua-knob-low_cut",
+   "x": 273,
+   "y": 35,
+   "w": 120,
+   "h": 124,
+   "kind": "knob",
+   "param": 0,
+   "sprite": "pultec_freq_switch_11_step",
+   "frames": 11
+  },
+  {
+   "id": "ua-button-low_cut",
+   "x": 292,
+   "y": 134,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "ua-button-low_cut-2",
+   "x": 273,
+   "y": 115,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "ua-button-low_cut-3",
+   "x": 266,
+   "y": 88,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "ua-button-low_cut-4",
+   "x": 273,
+   "y": 61,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "ua-button-low_cut-5",
+   "x": 293,
+   "y": 42,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "ua-button-low_cut-6",
+   "x": 319,
+   "y": 35,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "ua-button-low_cut-7",
+   "x": 345,
+   "y": 42,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "ua-button-low_cut-8",
+   "x": 365,
+   "y": 61,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "ua-button-low_cut-9",
+   "x": 372,
+   "y": 88,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "ua-button-low_cut-10",
+   "x": 365,
+   "y": 115,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "ua-button-low_cut-11",
+   "x": 345,
+   "y": 134,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "ua-knob-high_cut",
+   "x": 560,
+   "y": 35,
+   "w": 120,
+   "h": 124,
+   "kind": "knob",
+   "param": 1,
+   "sprite": "pultec_freq_switch_11_step",
+   "frames": 11
+  },
+  {
+   "id": "ua-button-high_cut",
+   "x": 579,
+   "y": 134,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "ua-button-high_cut-2",
+   "x": 560,
+   "y": 115,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "ua-button-high_cut-3",
+   "x": 553,
+   "y": 88,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "ua-button-high_cut-4",
+   "x": 560,
+   "y": 61,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "ua-button-high_cut-5",
+   "x": 580,
+   "y": 42,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "ua-button-high_cut-6",
+   "x": 606,
+   "y": 35,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "ua-button-high_cut-7",
+   "x": 632,
+   "y": 42,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "ua-button-high_cut-8",
+   "x": 652,
+   "y": 61,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "ua-button-high_cut-9",
+   "x": 659,
+   "y": 88,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "ua-button-high_cut-10",
+   "x": 652,
+   "y": 115,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "ua-button-high_cut-11",
+   "x": 632,
+   "y": 134,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "ua-button-low_cut-12",
+   "x": 316,
+   "y": 19,
+   "w": 34,
+   "h": 15,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "toggle",
+    "param": 0
+   }
+  },
+  {
+   "id": "ua-button-high_cut-12",
+   "x": 601,
+   "y": 19,
+   "w": 34,
+   "h": 15,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "toggle",
+    "param": 1
+   }
+  }
+ ]
+}

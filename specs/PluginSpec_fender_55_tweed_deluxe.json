@@ -1,0 +1,1522 @@
+{
+ "schema": 2,
+ "effectName": "UAD Fender 55 Tweed Deluxe",
+ "namePattern": "Fender 55 Tweed Deluxe",
+ "size": {
+  "w": 577,
+  "h": 700
+ },
+ "background": "fender_55_tweed_deluxe_8091",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Line-Normal",
+   "steps": [
+    "Normal",
+    "Line"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Speaker",
+   "steps": [
+    "JP12",
+    "JB120",
+    "GB25"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Tone",
+   "steps": null,
+   "default": 0.514892578125
+  },
+  {
+   "index": 3,
+   "name": "Inst Vol",
+   "steps": null,
+   "default": 0.137542724609375
+  },
+  {
+   "index": 4,
+   "name": "Mic Vol",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Input Select",
+   "steps": [
+    "Inst 1",
+    "Inst 2",
+    "Mic 1",
+    "Mic 2",
+    "Y 1",
+    "Y 2"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "Mic 1",
+   "steps": [
+    "Dyn-57",
+    "Dyn-421",
+    "Rib-121",
+    "Rib-160",
+    "Con-67"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "Mic 1 Pan",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 8,
+   "name": "Mic 1 Vol",
+   "steps": null,
+   "default": 0.559295654296875
+  },
+  {
+   "index": 9,
+   "name": "Mic 1 Axis",
+   "steps": [
+    "On Axis",
+    "Off Axis"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 10,
+   "name": "Mic 1 HPF",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "Mic 1 Mute",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "Mic 2",
+   "steps": [
+    "Dyn-57",
+    "Dyn-421",
+    "Rib-121",
+    "Rib-160",
+    "Con-67"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 13,
+   "name": "Mic 2 Pan",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 14,
+   "name": "Mic 2 Vol",
+   "steps": null,
+   "default": 0.203643798828125
+  },
+  {
+   "index": 15,
+   "name": "Mic 2 Axis",
+   "steps": [
+    "On Axis",
+    "Off Axis"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 16,
+   "name": "Mic 2 HPF",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 17,
+   "name": "Mic 2 Mute",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 18,
+   "name": "Master Vol",
+   "steps": null,
+   "default": 0.573394775390625
+  },
+  {
+   "index": 19,
+   "name": "Enable",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 20,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "switch-1-line_normal",
+   "x": 24,
+   "y": 39,
+   "w": 42,
+   "h": 72,
+   "sprite": "fender_55_tweed_deluxe_8092",
+   "frames": 2,
+   "kind": "switch",
+   "param": 0,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-2-enable",
+   "x": 142,
+   "y": 39,
+   "w": 42,
+   "h": 72,
+   "sprite": "fender_55_tweed_deluxe_8092",
+   "frames": 2,
+   "kind": "switch",
+   "param": 19,
+   "orientation": "vertical",
+   "reverse": true
+  },
+  {
+   "id": "knob-3-speaker",
+   "x": 74,
+   "y": 39,
+   "w": 62,
+   "h": 72,
+   "sprite": "fender_55_tweed_deluxe_8093",
+   "frames": 3,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "switch-4-enable",
+   "kind": "switch",
+   "x": 188,
+   "y": 39,
+   "w": 45,
+   "h": 72,
+   "sprite": "fender_55_tweed_deluxe_8094_3",
+   "frames": 3,
+   "param": 19,
+   "orientation": "vertical",
+   "frameSource": {
+    "type": "table",
+    "params": [
+     19
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-5-tone",
+   "x": 244,
+   "y": 39,
+   "w": 62,
+   "h": 72,
+   "sprite": "fender_55_tweed_deluxe_8095",
+   "frames": 101,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "knob-6-inst_vol",
+   "x": 315,
+   "y": 39,
+   "w": 62,
+   "h": 72,
+   "sprite": "fender_55_tweed_deluxe_8095",
+   "frames": 101,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "knob-7-mic_vol",
+   "x": 387,
+   "y": 39,
+   "w": 62,
+   "h": 72,
+   "sprite": "fender_55_tweed_deluxe_8095",
+   "frames": 101,
+   "kind": "knob",
+   "param": 4
+  },
+  {
+   "id": "switch-8-input_select",
+   "x": 457,
+   "y": 0,
+   "w": 120,
+   "h": 137,
+   "sprite": "fender_55_tweed_deluxe_8096",
+   "frames": 6,
+   "kind": "switch",
+   "param": 5,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-9-input_select",
+   "x": 457,
+   "y": 0,
+   "w": 120,
+   "h": 137,
+   "sprite": "fender_55_tweed_deluxe_8096",
+   "frames": 6,
+   "kind": "switch",
+   "param": 5,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-10-internal35",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "table",
+    "params": [
+     6,
+     9
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.25,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.25,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.5,
+       0.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.5,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.75,
+       0.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.75,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 9
+     }
+    ]
+   },
+   "x": 0,
+   "y": 187,
+   "w": 524,
+   "h": 332,
+   "sprite": "fender_55_tweed_deluxe_8098",
+   "frames": 10
+  },
+  {
+   "id": "filmstrip-11-internal35",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "table",
+    "params": [
+     6,
+     9
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.25,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.25,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.5,
+       0.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.5,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.75,
+       0.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.75,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 9
+     }
+    ]
+   },
+   "x": 0,
+   "y": 187,
+   "w": 524,
+   "h": 332,
+   "sprite": "fender_55_tweed_deluxe_8098",
+   "frames": 10
+  },
+  {
+   "id": "filmstrip-12-internal36",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "table",
+    "params": [
+     12,
+     15
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.25,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.25,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.5,
+       0.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.5,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.75,
+       0.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.75,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 9
+     }
+    ]
+   },
+   "x": 0,
+   "y": 187,
+   "w": 524,
+   "h": 332,
+   "sprite": "fender_55_tweed_deluxe_8099",
+   "frames": 10
+  },
+  {
+   "id": "filmstrip-13-internal36",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "table",
+    "params": [
+     12,
+     15
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.25,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.25,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.5,
+       0.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.5,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.75,
+       0.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.75,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 9
+     }
+    ]
+   },
+   "x": 0,
+   "y": 187,
+   "w": 524,
+   "h": 332,
+   "sprite": "fender_55_tweed_deluxe_8099",
+   "frames": 10
+  },
+  {
+   "id": "switch-14-mic_1",
+   "x": 166,
+   "y": 551,
+   "w": 57,
+   "h": 56,
+   "sprite": "fender_55_tweed_deluxe_8100",
+   "frames": 5,
+   "kind": "switch",
+   "param": 6,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-15-mic_1",
+   "x": 166,
+   "y": 551,
+   "w": 57,
+   "h": 56,
+   "sprite": "fender_55_tweed_deluxe_8100",
+   "frames": 5,
+   "kind": "switch",
+   "param": 6,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-16-mic_2",
+   "x": 326,
+   "y": 551,
+   "w": 57,
+   "h": 56,
+   "sprite": "fender_55_tweed_deluxe_8100",
+   "frames": 5,
+   "kind": "switch",
+   "param": 12,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-17-mic_2",
+   "x": 326,
+   "y": 551,
+   "w": 57,
+   "h": 56,
+   "sprite": "fender_55_tweed_deluxe_8100",
+   "frames": 5,
+   "kind": "switch",
+   "param": 12,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-18-mic_1_axis",
+   "kind": "switch",
+   "x": 157,
+   "y": 616,
+   "w": 40,
+   "h": 40,
+   "sprite": "fender_55_tweed_deluxe_8101_9",
+   "frames": 3,
+   "param": 9,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-19-mic_2_axis",
+   "kind": "switch",
+   "x": 317,
+   "y": 616,
+   "w": 40,
+   "h": 40,
+   "sprite": "fender_55_tweed_deluxe_8101_9",
+   "frames": 3,
+   "param": 15,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-20-mic_1_hpf",
+   "kind": "switch",
+   "x": 197,
+   "y": 616,
+   "w": 40,
+   "h": 40,
+   "sprite": "fender_55_tweed_deluxe_8102_10",
+   "frames": 3,
+   "param": 10,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-21-mic_2_hpf",
+   "kind": "switch",
+   "x": 357,
+   "y": 616,
+   "w": 40,
+   "h": 40,
+   "sprite": "fender_55_tweed_deluxe_8102_10",
+   "frames": 3,
+   "param": 16,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-22-mic_1_mute",
+   "kind": "switch",
+   "x": 157,
+   "y": 656,
+   "w": 80,
+   "h": 40,
+   "sprite": "fender_55_tweed_deluxe_8103_11",
+   "frames": 2,
+   "param": 11,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-23-mic_2_mute",
+   "kind": "switch",
+   "x": 317,
+   "y": 656,
+   "w": 80,
+   "h": 40,
+   "sprite": "fender_55_tweed_deluxe_8103_11",
+   "frames": 2,
+   "param": 17,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-24-mic_1_pan",
+   "x": 238,
+   "y": 559,
+   "w": 62,
+   "h": 57,
+   "sprite": "fender_55_tweed_deluxe_8105",
+   "frames": 101,
+   "kind": "knob",
+   "param": 7
+  },
+  {
+   "id": "knob-25-mic_2_pan",
+   "x": 398,
+   "y": 559,
+   "w": 62,
+   "h": 57,
+   "sprite": "fender_55_tweed_deluxe_8105",
+   "frames": 101,
+   "kind": "knob",
+   "param": 13
+  },
+  {
+   "id": "knob-26-mic_1_vol",
+   "x": 238,
+   "y": 619,
+   "w": 62,
+   "h": 72,
+   "sprite": "fender_55_tweed_deluxe_8106",
+   "frames": 101,
+   "kind": "knob",
+   "param": 8
+  },
+  {
+   "id": "knob-27-mic_2_vol",
+   "x": 398,
+   "y": 619,
+   "w": 62,
+   "h": 72,
+   "sprite": "fender_55_tweed_deluxe_8106",
+   "frames": 101,
+   "kind": "knob",
+   "param": 14
+  },
+  {
+   "id": "knob-28-master_vol",
+   "x": 491,
+   "y": 619,
+   "w": 62,
+   "h": 72,
+   "sprite": "fender_55_tweed_deluxe_8106",
+   "frames": 101,
+   "kind": "knob",
+   "param": 18
+  },
+  {
+   "id": "switch-29-power",
+   "kind": "switch",
+   "x": 497,
+   "y": 579,
+   "w": 47,
+   "h": 27,
+   "sprite": "fender_55_tweed_deluxe_8107_14",
+   "frames": 2,
+   "param": 20,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-30-enable",
+   "kind": "switch",
+   "x": 431,
+   "y": 205,
+   "w": 16,
+   "h": 16,
+   "sprite": "P_fender_55_tweed_deluxe_switch-30-enable",
+   "frames": 2,
+   "param": 19,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-31-input_select",
+   "x": 279,
+   "y": 137,
+   "w": 113,
+   "h": 61,
+   "sprite": "fender_55_tweed_deluxe_8097",
+   "frames": 6,
+   "kind": "switch",
+   "param": 5,
+   "orientation": "horizontal"
+  },
+  {
+   "id": "switch-32-input_select",
+   "x": 279,
+   "y": 137,
+   "w": 113,
+   "h": 61,
+   "sprite": "fender_55_tweed_deluxe_8097",
+   "frames": 6,
+   "kind": "switch",
+   "param": 5,
+   "orientation": "horizontal"
+  },
+  {
+   "id": "switch-33-line_normal",
+   "x": 471,
+   "y": 211,
+   "w": 16,
+   "h": 16,
+   "sprite": "fender_55_tweed_deluxe_8109",
+   "frames": 2,
+   "kind": "switch",
+   "param": 0,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-34-line_normal",
+   "x": 471,
+   "y": 211,
+   "w": 16,
+   "h": 16,
+   "sprite": "fender_55_tweed_deluxe_8109",
+   "frames": 2,
+   "kind": "switch",
+   "param": 0,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-35-enable",
+   "x": 447,
+   "y": 205,
+   "w": 16,
+   "h": 16,
+   "sprite": "fender_55_tweed_deluxe_8110",
+   "frames": 2,
+   "kind": "switch",
+   "param": 19,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-36-enable",
+   "x": 447,
+   "y": 205,
+   "w": 16,
+   "h": 16,
+   "sprite": "fender_55_tweed_deluxe_8110",
+   "frames": 2,
+   "kind": "switch",
+   "param": 19,
+   "orientation": "vertical"
+  },
+  {
+   "id": "zone-37-line_normal",
+   "kind": "zone",
+   "x": 238,
+   "y": 559,
+   "w": 62,
+   "h": 57,
+   "param": 0,
+   "action": {
+    "type": "toggle",
+    "param": 0
+   }
+  },
+  {
+   "id": "zone-38-line_normal",
+   "kind": "zone",
+   "x": 398,
+   "y": 559,
+   "w": 62,
+   "h": 57,
+   "param": 0,
+   "action": {
+    "type": "toggle",
+    "param": 0
+   }
+  },
+  {
+   "id": "filmstrip-39-inst_vol-hover",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   },
+   "x": 315,
+   "y": 39,
+   "w": 62,
+   "h": 72,
+   "sprite": "fender_55_tweed_deluxe_8111",
+   "frames": 101,
+   "opacity": 0
+  },
+  {
+   "id": "filmstrip-40-mic_vol-hover",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 4
+   },
+   "x": 387,
+   "y": 39,
+   "w": 62,
+   "h": 72,
+   "sprite": "fender_55_tweed_deluxe_8112",
+   "frames": 101,
+   "opacity": 0
+  },
+  {
+   "id": "image-41-internal37-hover",
+   "kind": "image",
+   "x": 491,
+   "y": 619,
+   "w": 62,
+   "h": 72,
+   "sprite": "fender_55_tweed_deluxe_8113",
+   "opacity": 0
+  },
+  {
+   "id": "filmstrip-42-internal24",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter4"
+   },
+   "x": 508,
+   "y": 546,
+   "w": 12,
+   "h": 12,
+   "sprite": "fender_55_tweed_deluxe_8104",
+   "frames": 10
+  },
+  {
+   "id": "filmstrip-43-internal25",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter5"
+   },
+   "x": 521,
+   "y": 546,
+   "w": 12,
+   "h": 12,
+   "sprite": "fender_55_tweed_deluxe_8104",
+   "frames": 10
+  },
+  {
+   "id": "filmstrip-44-internal22",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter6"
+   },
+   "x": 263,
+   "y": 546,
+   "w": 12,
+   "h": 12,
+   "sprite": "fender_55_tweed_deluxe_8114",
+   "frames": 8
+  },
+  {
+   "id": "filmstrip-45-internal22",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter7"
+   },
+   "x": 263,
+   "y": 546,
+   "w": 12,
+   "h": 12,
+   "sprite": "fender_55_tweed_deluxe_8114",
+   "frames": 8
+  },
+  {
+   "id": "filmstrip-46-internal23",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter8"
+   },
+   "x": 422,
+   "y": 546,
+   "w": 12,
+   "h": 12,
+   "sprite": "fender_55_tweed_deluxe_8114",
+   "frames": 8
+  },
+  {
+   "id": "filmstrip-47-internal23",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter9"
+   },
+   "x": 422,
+   "y": 546,
+   "w": 12,
+   "h": 12,
+   "sprite": "fender_55_tweed_deluxe_8114",
+   "frames": 8
+  }
+ ],
+ "meterSources": {
+  "meter6": {
+   "vendorSpecificFloat": 1716,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0079354,
+     0.0
+    ],
+    [
+     0.0079433,
+     0.14285714285714285
+    ],
+    [
+     0.0158331,
+     0.14285714285714285
+    ],
+    [
+     0.0158489,
+     0.2857142857142857
+    ],
+    [
+     0.0315912,
+     0.2857142857142857
+    ],
+    [
+     0.0316228,
+     0.42857142857142855
+    ],
+    [
+     0.0630326,
+     0.42857142857142855
+    ],
+    [
+     0.0630957,
+     0.5714285714285714
+    ],
+    [
+     0.1257666,
+     0.5714285714285714
+    ],
+    [
+     0.1258925,
+     0.7142857142857143
+    ],
+    [
+     0.2509374,
+     0.7142857142857143
+    ],
+    [
+     0.2511886,
+     0.8571428571428571
+    ],
+    [
+     0.500686,
+     0.8571428571428571
+    ],
+    [
+     0.5011872,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "meter7": {
+   "vendorSpecificFloat": 1716,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0079354,
+     0.0
+    ],
+    [
+     0.0079433,
+     0.14285714285714285
+    ],
+    [
+     0.0158331,
+     0.14285714285714285
+    ],
+    [
+     0.0158489,
+     0.2857142857142857
+    ],
+    [
+     0.0315912,
+     0.2857142857142857
+    ],
+    [
+     0.0316228,
+     0.42857142857142855
+    ],
+    [
+     0.0630326,
+     0.42857142857142855
+    ],
+    [
+     0.0630957,
+     0.5714285714285714
+    ],
+    [
+     0.1257666,
+     0.5714285714285714
+    ],
+    [
+     0.1258925,
+     0.7142857142857143
+    ],
+    [
+     0.2509374,
+     0.7142857142857143
+    ],
+    [
+     0.2511886,
+     0.8571428571428571
+    ],
+    [
+     0.500686,
+     0.8571428571428571
+    ],
+    [
+     0.5011872,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "meter8": {
+   "vendorSpecificFloat": 1728,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0079354,
+     0.0
+    ],
+    [
+     0.0079433,
+     0.14285714285714285
+    ],
+    [
+     0.0158331,
+     0.14285714285714285
+    ],
+    [
+     0.0158489,
+     0.2857142857142857
+    ],
+    [
+     0.0315912,
+     0.2857142857142857
+    ],
+    [
+     0.0316228,
+     0.42857142857142855
+    ],
+    [
+     0.0630326,
+     0.42857142857142855
+    ],
+    [
+     0.0630957,
+     0.5714285714285714
+    ],
+    [
+     0.1257666,
+     0.5714285714285714
+    ],
+    [
+     0.1258925,
+     0.7142857142857143
+    ],
+    [
+     0.2509374,
+     0.7142857142857143
+    ],
+    [
+     0.2511886,
+     0.8571428571428571
+    ],
+    [
+     0.500686,
+     0.8571428571428571
+    ],
+    [
+     0.5011872,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "meter9": {
+   "vendorSpecificFloat": 1728,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0079354,
+     0.0
+    ],
+    [
+     0.0079433,
+     0.14285714285714285
+    ],
+    [
+     0.0158331,
+     0.14285714285714285
+    ],
+    [
+     0.0158489,
+     0.2857142857142857
+    ],
+    [
+     0.0315912,
+     0.2857142857142857
+    ],
+    [
+     0.0316228,
+     0.42857142857142855
+    ],
+    [
+     0.0630326,
+     0.42857142857142855
+    ],
+    [
+     0.0630957,
+     0.5714285714285714
+    ],
+    [
+     0.1257666,
+     0.5714285714285714
+    ],
+    [
+     0.1258925,
+     0.7142857142857143
+    ],
+    [
+     0.2509374,
+     0.7142857142857143
+    ],
+    [
+     0.2511886,
+     0.8571428571428571
+    ],
+    [
+     0.500686,
+     0.8571428571428571
+    ],
+    [
+     0.5011872,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "meter4": {
+   "vendorSpecificFloat": 1747,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0079354,
+     0.0
+    ],
+    [
+     0.0079433,
+     0.1111111111111111
+    ],
+    [
+     0.0158331,
+     0.1111111111111111
+    ],
+    [
+     0.0158489,
+     0.2222222222222222
+    ],
+    [
+     0.0315912,
+     0.2222222222222222
+    ],
+    [
+     0.0316228,
+     0.3333333333333333
+    ],
+    [
+     0.0630326,
+     0.3333333333333333
+    ],
+    [
+     0.0630957,
+     0.4444444444444444
+    ],
+    [
+     0.1257666,
+     0.4444444444444444
+    ],
+    [
+     0.1258925,
+     0.5555555555555556
+    ],
+    [
+     0.2509374,
+     0.5555555555555556
+    ],
+    [
+     0.2511886,
+     0.6666666666666666
+    ],
+    [
+     0.3544586,
+     0.6666666666666666
+    ],
+    [
+     0.3548134,
+     0.7777777777777778
+    ],
+    [
+     0.500686,
+     0.7777777777777778
+    ],
+    [
+     0.5011872,
+     0.8888888888888888
+    ],
+    [
+     0.8903596,
+     0.8888888888888888
+    ],
+    [
+     0.8912509,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "meter5": {
+   "vendorSpecificFloat": 1759,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0079354,
+     0.0
+    ],
+    [
+     0.0079433,
+     0.1111111111111111
+    ],
+    [
+     0.0158331,
+     0.1111111111111111
+    ],
+    [
+     0.0158489,
+     0.2222222222222222
+    ],
+    [
+     0.0315912,
+     0.2222222222222222
+    ],
+    [
+     0.0316228,
+     0.3333333333333333
+    ],
+    [
+     0.0630326,
+     0.3333333333333333
+    ],
+    [
+     0.0630957,
+     0.4444444444444444
+    ],
+    [
+     0.1257666,
+     0.4444444444444444
+    ],
+    [
+     0.1258925,
+     0.5555555555555556
+    ],
+    [
+     0.2509374,
+     0.5555555555555556
+    ],
+    [
+     0.2511886,
+     0.6666666666666666
+    ],
+    [
+     0.3544586,
+     0.6666666666666666
+    ],
+    [
+     0.3548134,
+     0.7777777777777778
+    ],
+    [
+     0.500686,
+     0.7777777777777778
+    ],
+    [
+     0.5011872,
+     0.8888888888888888
+    ],
+    [
+     0.8903596,
+     0.8888888888888888
+    ],
+    [
+     0.8912509,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  }
+ }
+}

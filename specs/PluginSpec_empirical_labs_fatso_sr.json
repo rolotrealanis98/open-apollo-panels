@@ -1,0 +1,2687 @@
+{
+ "schema": 2,
+ "effectName": "UAD Empirical Labs FATSO Sr",
+ "namePattern": "Empirical Labs FATSO Sr",
+ "size": {
+  "w": 950,
+  "h": 188
+ },
+ "background": "empirical_labs_fatso_sr_6700",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Ch1Input",
+   "steps": null,
+   "default": 0.476165771484375
+  },
+  {
+   "index": 1,
+   "name": "Ch1Comp",
+   "steps": [
+    "Off",
+    "BUSS",
+    "G Purpose",
+    "Tracking",
+    "SPANK",
+    "BUSS+SPK",
+    "GP+SPK",
+    "Trkng+SPK"
+   ],
+   "default": 0.4285714328289032
+  },
+  {
+   "index": 2,
+   "name": "Ch1Warmth",
+   "steps": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Ch1Bypass",
+   "steps": [
+    "ENABLE",
+    "TRANNY",
+    "BYPASS"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Ch1Output",
+   "steps": null,
+   "default": 0.4765625
+  },
+  {
+   "index": 5,
+   "name": "Ch1Thresh",
+   "steps": null,
+   "default": 0.476165771484375
+  },
+  {
+   "index": 6,
+   "name": "Ch1Filter",
+   "steps": [
+    "60 Hz",
+    "120 Hz",
+    "240 Hz",
+    "480 Hz",
+    "Off"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 7,
+   "name": "Ch1Attack",
+   "steps": [
+    "0.9 ms",
+    "10 ms",
+    "30 ms",
+    "60 ms",
+    "Default"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 8,
+   "name": "Ch1Release",
+   "steps": [
+    "0.05 sec",
+    "0.1 sec",
+    "0.2 sec",
+    "0.5 sec",
+    "Default"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 9,
+   "name": "Ch1TrannyLvl",
+   "steps": null,
+   "default": 0.476165771484375
+  },
+  {
+   "index": 10,
+   "name": "Ch2Input",
+   "steps": null,
+   "default": 0.476165771484375
+  },
+  {
+   "index": 11,
+   "name": "Ch2Comp",
+   "steps": [
+    "Off",
+    "BUSS",
+    "G Purpose",
+    "Tracking",
+    "SPANK",
+    "Buss+SPK",
+    "GP+SPK",
+    "Trkng+SPK"
+   ],
+   "default": 0.4285714328289032
+  },
+  {
+   "index": 12,
+   "name": "Ch2Warmth",
+   "steps": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "Ch2Bypass",
+   "steps": [
+    "ENABLE",
+    "TRANNY",
+    "BYPASS"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 14,
+   "name": "Ch2Output",
+   "steps": null,
+   "default": 0.4765625
+  },
+  {
+   "index": 15,
+   "name": "Ch2Thresh",
+   "steps": null,
+   "default": 0.476165771484375
+  },
+  {
+   "index": 16,
+   "name": "Ch2Filter",
+   "steps": [
+    "60 Hz",
+    "120 Hz",
+    "240 Hz",
+    "480 Hz",
+    "Off"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 17,
+   "name": "Ch2Attack",
+   "steps": [
+    "0.9 ms",
+    "10 ms",
+    "30 ms",
+    "60 ms",
+    "Default"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 18,
+   "name": "Ch2Release",
+   "steps": [
+    "0.05 sec",
+    "0.1 sec",
+    "0.2 sec",
+    "0.5 sec",
+    "Default"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 19,
+   "name": "Ch2TrannyLvl",
+   "steps": null,
+   "default": 0.476165771484375
+  },
+  {
+   "index": 20,
+   "name": "CompLink",
+   "steps": [
+    "UnLinked",
+    "Linked"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 21,
+   "name": "CtrlLink",
+   "steps": [
+    "UnLinked",
+    "Linked"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 22,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-ch1input",
+   "x": 40,
+   "y": 6,
+   "w": 82,
+   "h": 82,
+   "sprite": "empirical_labs_fatso_sr_6703",
+   "frames": 106,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "knob-2-ch2input",
+   "x": 452,
+   "y": 6,
+   "w": 82,
+   "h": 82,
+   "sprite": "empirical_labs_fatso_sr_6703",
+   "frames": 106,
+   "kind": "knob",
+   "param": 10
+  },
+  {
+   "id": "knob-3-ch1output",
+   "x": 370,
+   "y": 6,
+   "w": 82,
+   "h": 82,
+   "sprite": "empirical_labs_fatso_sr_6703",
+   "frames": 106,
+   "kind": "knob",
+   "param": 4
+  },
+  {
+   "id": "knob-4-ch2output",
+   "x": 784,
+   "y": 6,
+   "w": 82,
+   "h": 82,
+   "sprite": "empirical_labs_fatso_sr_6703",
+   "frames": 106,
+   "kind": "knob",
+   "param": 14
+  },
+  {
+   "id": "switch-5-complink",
+   "kind": "switch",
+   "x": 277,
+   "y": 51,
+   "w": 46,
+   "h": 19,
+   "sprite": "empirical_labs_fatso_sr_6711_2",
+   "frames": 3,
+   "param": 20,
+   "orientation": "vertical",
+   "frameSource": {
+    "type": "table",
+    "params": [
+     20
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-6-ctrllink",
+   "kind": "switch",
+   "x": 691,
+   "y": 51,
+   "w": 46,
+   "h": 19,
+   "sprite": "empirical_labs_fatso_sr_6712_3",
+   "frames": 2,
+   "param": 21,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-7-ch1comp",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 1
+   },
+   "x": 152,
+   "y": 19,
+   "w": 10,
+   "h": 36,
+   "sprite": "empirical_labs_fatso_sr_6709",
+   "frames": 8,
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 1
+   },
+   "x": 152,
+   "y": 19,
+   "w": 10,
+   "h": 36,
+   "sprite": "P_empirical_labs_fatso_sr_6716",
+   "frames": 8,
+   "id": "P-filmstrip-7-ch1comp-alt0",
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "image-8-internal24",
+   "kind": "image",
+   "x": 122,
+   "y": 60,
+   "w": 40,
+   "h": 21,
+   "sprite": "empirical_labs_fatso_sr_6704_5"
+  },
+  {
+   "id": "image-9-internal25",
+   "kind": "image",
+   "x": 227,
+   "y": 51,
+   "w": 40,
+   "h": 21,
+   "sprite": "empirical_labs_fatso_sr_6704_5"
+  },
+  {
+   "id": "filmstrip-10-ch1warmth",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   },
+   "x": 213,
+   "y": 26,
+   "w": 64,
+   "h": 32,
+   "sprite": "empirical_labs_fatso_sr_6708",
+   "frames": 8,
+   "reverse": true,
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   },
+   "x": 213,
+   "y": 26,
+   "w": 64,
+   "h": 32,
+   "sprite": "P_empirical_labs_fatso_sr_6719",
+   "frames": 8,
+   "reverse": true,
+   "id": "P-filmstrip-10-ch1warmth-alt0",
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "filmstrip-11-ch1bypass",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   },
+   "x": 360,
+   "y": 25,
+   "w": 10,
+   "h": 23,
+   "sprite": "empirical_labs_fatso_sr_6710",
+   "frames": 3,
+   "reverse": true,
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   },
+   "x": 360,
+   "y": 25,
+   "w": 10,
+   "h": 23,
+   "sprite": "P_empirical_labs_fatso_sr_6718",
+   "frames": 3,
+   "reverse": true,
+   "id": "P-filmstrip-11-ch1bypass-alt0",
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "image-12-internal26",
+   "kind": "image",
+   "x": 325,
+   "y": 51,
+   "w": 40,
+   "h": 21,
+   "sprite": "empirical_labs_fatso_sr_6705_8"
+  },
+  {
+   "id": "filmstrip-13-ch2comp",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 11
+   },
+   "x": 566,
+   "y": 19,
+   "w": 10,
+   "h": 36,
+   "sprite": "empirical_labs_fatso_sr_6709",
+   "frames": 8,
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 11
+   },
+   "x": 566,
+   "y": 19,
+   "w": 10,
+   "h": 36,
+   "sprite": "P_empirical_labs_fatso_sr_6716",
+   "frames": 8,
+   "id": "P-filmstrip-13-ch2comp-alt0",
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "image-14-internal30",
+   "kind": "image",
+   "x": 536,
+   "y": 60,
+   "w": 40,
+   "h": 21,
+   "sprite": "empirical_labs_fatso_sr_6704_5"
+  },
+  {
+   "id": "image-15-internal31",
+   "kind": "image",
+   "x": 641,
+   "y": 51,
+   "w": 40,
+   "h": 21,
+   "sprite": "empirical_labs_fatso_sr_6704_5"
+  },
+  {
+   "id": "filmstrip-16-ch2warmth",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 12
+   },
+   "x": 627,
+   "y": 26,
+   "w": 64,
+   "h": 32,
+   "sprite": "empirical_labs_fatso_sr_6708",
+   "frames": 8,
+   "reverse": true,
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 12
+   },
+   "x": 627,
+   "y": 26,
+   "w": 64,
+   "h": 32,
+   "sprite": "P_empirical_labs_fatso_sr_6719",
+   "frames": 8,
+   "reverse": true,
+   "id": "P-filmstrip-16-ch2warmth-alt0",
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "filmstrip-17-ch2bypass",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 13
+   },
+   "x": 774,
+   "y": 25,
+   "w": 10,
+   "h": 23,
+   "sprite": "empirical_labs_fatso_sr_6710",
+   "frames": 3,
+   "reverse": true,
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 13
+   },
+   "x": 774,
+   "y": 25,
+   "w": 10,
+   "h": 23,
+   "sprite": "P_empirical_labs_fatso_sr_6718",
+   "frames": 3,
+   "reverse": true,
+   "id": "P-filmstrip-17-ch2bypass-alt0",
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "image-18-internal32",
+   "kind": "image",
+   "x": 739,
+   "y": 51,
+   "w": 40,
+   "h": 21,
+   "sprite": "empirical_labs_fatso_sr_6705_8"
+  },
+  {
+   "id": "switch-19-power",
+   "x": 868,
+   "y": 27,
+   "w": 31,
+   "h": 41,
+   "sprite": "empirical_labs_fatso_sr_6702",
+   "frames": 2,
+   "kind": "switch",
+   "param": 22,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-20-internal36",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter0"
+   },
+   "x": 162,
+   "y": 12,
+   "w": 178,
+   "h": 10,
+   "sprite": "P_empirical_labs_fatso_sr_6706_rev",
+   "frames": 9
+  },
+  {
+   "id": "filmstrip-21-internal37",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter1"
+   },
+   "x": 576,
+   "y": 12,
+   "w": 178,
+   "h": 10,
+   "sprite": "P_empirical_labs_fatso_sr_6706_rev",
+   "frames": 9
+  },
+  {
+   "id": "filmstrip-22-internal38",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter2"
+   },
+   "x": 162,
+   "y": 72,
+   "w": 178,
+   "h": 10,
+   "sprite": "P_empirical_labs_fatso_sr_6706_rev",
+   "frames": 9
+  },
+  {
+   "id": "filmstrip-23-internal39",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter3"
+   },
+   "x": 576,
+   "y": 72,
+   "w": 178,
+   "h": 10,
+   "sprite": "P_empirical_labs_fatso_sr_6706_rev",
+   "frames": 9
+  },
+  {
+   "id": "filmstrip-24-internal40",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter4"
+   },
+   "x": 313,
+   "y": 38,
+   "w": 10,
+   "h": 10,
+   "sprite": "P_empirical_labs_fatso_sr_6714_rev",
+   "frames": 2
+  },
+  {
+   "id": "filmstrip-25-internal41",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter5"
+   },
+   "x": 727,
+   "y": 38,
+   "w": 10,
+   "h": 10,
+   "sprite": "P_empirical_labs_fatso_sr_6714_rev",
+   "frames": 2
+  },
+  {
+   "id": "filmstrip-26-internal42",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter6"
+   },
+   "x": 313,
+   "y": 25,
+   "w": 10,
+   "h": 10,
+   "sprite": "P_empirical_labs_fatso_sr_6715_rev",
+   "frames": 2
+  },
+  {
+   "id": "filmstrip-27-internal43",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter7"
+   },
+   "x": 727,
+   "y": 25,
+   "w": 10,
+   "h": 10,
+   "sprite": "P_empirical_labs_fatso_sr_6715_rev",
+   "frames": 2
+  },
+  {
+   "id": "knob-28-ch1thresh",
+   "x": 40,
+   "y": 100,
+   "w": 82,
+   "h": 82,
+   "sprite": "empirical_labs_fatso_sr_6703",
+   "frames": 106,
+   "kind": "knob",
+   "param": 5
+  },
+  {
+   "id": "knob-29-ch2thresh",
+   "x": 452,
+   "y": 100,
+   "w": 82,
+   "h": 82,
+   "sprite": "empirical_labs_fatso_sr_6703",
+   "frames": 106,
+   "kind": "knob",
+   "param": 15
+  },
+  {
+   "id": "knob-30-ch1trannylvl",
+   "x": 370,
+   "y": 100,
+   "w": 82,
+   "h": 82,
+   "sprite": "empirical_labs_fatso_sr_6703",
+   "frames": 106,
+   "kind": "knob",
+   "param": 9
+  },
+  {
+   "id": "knob-31-ch2trannylvl",
+   "x": 784,
+   "y": 100,
+   "w": 82,
+   "h": 82,
+   "sprite": "empirical_labs_fatso_sr_6703",
+   "frames": 106,
+   "kind": "knob",
+   "param": 19
+  },
+  {
+   "id": "image-32-internal27",
+   "kind": "image",
+   "x": 158,
+   "y": 155,
+   "w": 40,
+   "h": 21,
+   "sprite": "empirical_labs_fatso_sr_6704_5"
+  },
+  {
+   "id": "image-33-internal28",
+   "kind": "image",
+   "x": 229,
+   "y": 155,
+   "w": 40,
+   "h": 21,
+   "sprite": "empirical_labs_fatso_sr_6704_5"
+  },
+  {
+   "id": "image-34-internal29",
+   "kind": "image",
+   "x": 302,
+   "y": 155,
+   "w": 40,
+   "h": 21,
+   "sprite": "empirical_labs_fatso_sr_6704_5"
+  },
+  {
+   "id": "image-35-internal33",
+   "kind": "image",
+   "x": 572,
+   "y": 155,
+   "w": 40,
+   "h": 21,
+   "sprite": "empirical_labs_fatso_sr_6704_5"
+  },
+  {
+   "id": "image-36-internal34",
+   "kind": "image",
+   "x": 643,
+   "y": 155,
+   "w": 40,
+   "h": 21,
+   "sprite": "empirical_labs_fatso_sr_6704_5"
+  },
+  {
+   "id": "image-37-internal35",
+   "kind": "image",
+   "x": 716,
+   "y": 155,
+   "w": 40,
+   "h": 21,
+   "sprite": "empirical_labs_fatso_sr_6704_5"
+  },
+  {
+   "id": "filmstrip-38-internal44",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter8"
+   },
+   "x": 358,
+   "y": 154,
+   "w": 10,
+   "h": 10,
+   "sprite": "P_empirical_labs_fatso_sr_6707_rev",
+   "frames": 20
+  },
+  {
+   "id": "filmstrip-39-internal45",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter9"
+   },
+   "x": 770,
+   "y": 154,
+   "w": 10,
+   "h": 10,
+   "sprite": "P_empirical_labs_fatso_sr_6707_rev",
+   "frames": 20
+  },
+  {
+   "id": "filmstrip-40-ch1filter",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 6
+   },
+   "x": 184,
+   "y": 111,
+   "w": 10,
+   "h": 43,
+   "sprite": "empirical_labs_fatso_sr_6713",
+   "frames": 5,
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 6
+   },
+   "x": 184,
+   "y": 111,
+   "w": 10,
+   "h": 43,
+   "sprite": "P_empirical_labs_fatso_sr_6717",
+   "frames": 5,
+   "id": "P-filmstrip-40-ch1filter-alt0",
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "filmstrip-41-ch2filter",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 16
+   },
+   "x": 598,
+   "y": 111,
+   "w": 10,
+   "h": 43,
+   "sprite": "empirical_labs_fatso_sr_6713",
+   "frames": 5,
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 16
+   },
+   "x": 598,
+   "y": 111,
+   "w": 10,
+   "h": 43,
+   "sprite": "P_empirical_labs_fatso_sr_6717",
+   "frames": 5,
+   "id": "P-filmstrip-41-ch2filter-alt0",
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "filmstrip-42-ch1attack",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 7
+   },
+   "x": 255,
+   "y": 111,
+   "w": 10,
+   "h": 43,
+   "sprite": "empirical_labs_fatso_sr_6713",
+   "frames": 5,
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 7
+   },
+   "x": 255,
+   "y": 111,
+   "w": 10,
+   "h": 43,
+   "sprite": "P_empirical_labs_fatso_sr_6717",
+   "frames": 5,
+   "id": "P-filmstrip-42-ch1attack-alt0",
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "filmstrip-43-ch2attack",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 17
+   },
+   "x": 669,
+   "y": 111,
+   "w": 10,
+   "h": 43,
+   "sprite": "empirical_labs_fatso_sr_6713",
+   "frames": 5,
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 17
+   },
+   "x": 669,
+   "y": 111,
+   "w": 10,
+   "h": 43,
+   "sprite": "P_empirical_labs_fatso_sr_6717",
+   "frames": 5,
+   "id": "P-filmstrip-43-ch2attack-alt0",
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "filmstrip-44-ch1release",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 8
+   },
+   "x": 328,
+   "y": 111,
+   "w": 10,
+   "h": 43,
+   "sprite": "empirical_labs_fatso_sr_6713",
+   "frames": 5,
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 8
+   },
+   "x": 328,
+   "y": 111,
+   "w": 10,
+   "h": 43,
+   "sprite": "P_empirical_labs_fatso_sr_6717",
+   "frames": 5,
+   "id": "P-filmstrip-44-ch1release-alt0",
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "filmstrip-45-ch2release",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 18
+   },
+   "x": 742,
+   "y": 111,
+   "w": 10,
+   "h": 43,
+   "sprite": "empirical_labs_fatso_sr_6713",
+   "frames": 5,
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 18
+   },
+   "x": 742,
+   "y": 111,
+   "w": 10,
+   "h": 43,
+   "sprite": "P_empirical_labs_fatso_sr_6717",
+   "frames": 5,
+   "id": "P-filmstrip-45-ch2release-alt0",
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-cycle-1",
+   "kind": "zone",
+   "x": 122,
+   "y": 60,
+   "w": 40,
+   "h": 21,
+   "action": {
+    "type": "toggle",
+    "param": 1
+   },
+   "longPressAction": {
+    "type": "table",
+    "param": 1,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.142857,
+      "value": 0.0
+     },
+     {
+      "current": 0.285714,
+      "value": 0.142857
+     },
+     {
+      "current": 0.428571,
+      "value": 0.285714
+     },
+     {
+      "current": 0.571429,
+      "value": 0.428571
+     },
+     {
+      "current": 0.714286,
+      "value": 0.571429
+     },
+     {
+      "current": 0.857143,
+      "value": 0.714286
+     },
+     {
+      "current": 1.0,
+      "value": 0.857143
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-cycle-2",
+   "kind": "zone",
+   "x": 227,
+   "y": 51,
+   "w": 40,
+   "h": 21,
+   "action": {
+    "type": "toggle",
+    "param": 2
+   },
+   "longPressAction": {
+    "type": "table",
+    "param": 2,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.142857,
+      "value": 0.0
+     },
+     {
+      "current": 0.285714,
+      "value": 0.142857
+     },
+     {
+      "current": 0.428571,
+      "value": 0.285714
+     },
+     {
+      "current": 0.571429,
+      "value": 0.428571
+     },
+     {
+      "current": 0.714286,
+      "value": 0.571429
+     },
+     {
+      "current": 0.857143,
+      "value": 0.714286
+     },
+     {
+      "current": 1.0,
+      "value": 0.857143
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-cycle-3",
+   "kind": "zone",
+   "x": 325,
+   "y": 51,
+   "w": 40,
+   "h": 21,
+   "action": {
+    "type": "toggle",
+    "param": 3
+   },
+   "longPressAction": {
+    "type": "table",
+    "param": 3,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-cycle-6",
+   "kind": "zone",
+   "x": 158,
+   "y": 155,
+   "w": 40,
+   "h": 21,
+   "action": {
+    "type": "toggle",
+    "param": 6
+   },
+   "longPressAction": {
+    "type": "table",
+    "param": 6,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.25,
+      "value": 0.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.25
+     },
+     {
+      "current": 0.75,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 0.75
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-cycle-7",
+   "kind": "zone",
+   "x": 229,
+   "y": 155,
+   "w": 40,
+   "h": 21,
+   "action": {
+    "type": "toggle",
+    "param": 7
+   },
+   "longPressAction": {
+    "type": "table",
+    "param": 7,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.25,
+      "value": 0.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.25
+     },
+     {
+      "current": 0.75,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 0.75
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-cycle-8",
+   "kind": "zone",
+   "x": 302,
+   "y": 155,
+   "w": 40,
+   "h": 21,
+   "action": {
+    "type": "toggle",
+    "param": 8
+   },
+   "longPressAction": {
+    "type": "table",
+    "param": 8,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.25,
+      "value": 0.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.25
+     },
+     {
+      "current": 0.75,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 0.75
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-cycle-11",
+   "kind": "zone",
+   "x": 536,
+   "y": 60,
+   "w": 40,
+   "h": 21,
+   "action": {
+    "type": "toggle",
+    "param": 11
+   },
+   "longPressAction": {
+    "type": "table",
+    "param": 11,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.142857,
+      "value": 0.0
+     },
+     {
+      "current": 0.285714,
+      "value": 0.142857
+     },
+     {
+      "current": 0.428571,
+      "value": 0.285714
+     },
+     {
+      "current": 0.571429,
+      "value": 0.428571
+     },
+     {
+      "current": 0.714286,
+      "value": 0.571429
+     },
+     {
+      "current": 0.857143,
+      "value": 0.714286
+     },
+     {
+      "current": 1.0,
+      "value": 0.857143
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-cycle-12",
+   "kind": "zone",
+   "x": 641,
+   "y": 51,
+   "w": 40,
+   "h": 21,
+   "action": {
+    "type": "toggle",
+    "param": 12
+   },
+   "longPressAction": {
+    "type": "table",
+    "param": 12,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.142857,
+      "value": 0.0
+     },
+     {
+      "current": 0.285714,
+      "value": 0.142857
+     },
+     {
+      "current": 0.428571,
+      "value": 0.285714
+     },
+     {
+      "current": 0.571429,
+      "value": 0.428571
+     },
+     {
+      "current": 0.714286,
+      "value": 0.571429
+     },
+     {
+      "current": 0.857143,
+      "value": 0.714286
+     },
+     {
+      "current": 1.0,
+      "value": 0.857143
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-cycle-13",
+   "kind": "zone",
+   "x": 739,
+   "y": 51,
+   "w": 40,
+   "h": 21,
+   "action": {
+    "type": "toggle",
+    "param": 13
+   },
+   "longPressAction": {
+    "type": "table",
+    "param": 13,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-cycle-16",
+   "kind": "zone",
+   "x": 572,
+   "y": 155,
+   "w": 40,
+   "h": 21,
+   "action": {
+    "type": "toggle",
+    "param": 16
+   },
+   "longPressAction": {
+    "type": "table",
+    "param": 16,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.25,
+      "value": 0.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.25
+     },
+     {
+      "current": 0.75,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 0.75
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-cycle-17",
+   "kind": "zone",
+   "x": 643,
+   "y": 155,
+   "w": 40,
+   "h": 21,
+   "action": {
+    "type": "toggle",
+    "param": 17
+   },
+   "longPressAction": {
+    "type": "table",
+    "param": 17,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.25,
+      "value": 0.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.25
+     },
+     {
+      "current": 0.75,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 0.75
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-cycle-18",
+   "kind": "zone",
+   "x": 716,
+   "y": 155,
+   "w": 40,
+   "h": 21,
+   "action": {
+    "type": "toggle",
+    "param": 18
+   },
+   "longPressAction": {
+    "type": "table",
+    "param": 18,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.25,
+      "value": 0.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.25
+     },
+     {
+      "current": 0.75,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 0.75
+     }
+    ]
+   }
+  }
+ ],
+ "meterSources": {
+  "meter2": {
+   "vendorSpecificFloat": 42,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0745282,
+     0.0
+    ],
+    [
+     0.0745283,
+     0.166687
+    ],
+    [
+     0.1349055,
+     0.166687
+    ],
+    [
+     0.1349057,
+     0.277771
+    ],
+    [
+     0.1971696,
+     0.277771
+    ],
+    [
+     0.1971698,
+     0.388885
+    ],
+    [
+     0.2603771,
+     0.388885
+    ],
+    [
+     0.2603774,
+     0.5
+    ],
+    [
+     0.3235846,
+     0.5
+    ],
+    [
+     0.3235849,
+     0.611084
+    ],
+    [
+     0.4150939,
+     0.611084
+    ],
+    [
+     0.4150943,
+     0.722198
+    ],
+    [
+     0.5103769,
+     0.722198
+    ],
+    [
+     0.5103774,
+     0.833282
+    ],
+    [
+     0.71132,
+     0.833282
+    ],
+    [
+     0.7113207,
+     1.0
+    ],
+    [
+     1000.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "meter3": {
+   "vendorSpecificFloat": 43,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0745282,
+     0.0
+    ],
+    [
+     0.0745283,
+     0.166687
+    ],
+    [
+     0.1349055,
+     0.166687
+    ],
+    [
+     0.1349057,
+     0.277771
+    ],
+    [
+     0.1971696,
+     0.277771
+    ],
+    [
+     0.1971698,
+     0.388885
+    ],
+    [
+     0.2603771,
+     0.388885
+    ],
+    [
+     0.2603774,
+     0.5
+    ],
+    [
+     0.3235846,
+     0.5
+    ],
+    [
+     0.3235849,
+     0.611084
+    ],
+    [
+     0.4150939,
+     0.611084
+    ],
+    [
+     0.4150943,
+     0.722198
+    ],
+    [
+     0.5103769,
+     0.722198
+    ],
+    [
+     0.5103774,
+     0.833282
+    ],
+    [
+     0.71132,
+     0.833282
+    ],
+    [
+     0.7113207,
+     1.0
+    ],
+    [
+     1000.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "meter0": {
+   "vendorSpecificFloat": 44,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0731481,
+     0.0
+    ],
+    [
+     0.0731481,
+     0.166687
+    ],
+    [
+     0.1324073,
+     0.166687
+    ],
+    [
+     0.1324074,
+     0.277771
+    ],
+    [
+     0.1935183,
+     0.277771
+    ],
+    [
+     0.1935185,
+     0.388885
+    ],
+    [
+     0.2555553,
+     0.388885
+    ],
+    [
+     0.2555556,
+     0.5
+    ],
+    [
+     0.3175923,
+     0.5
+    ],
+    [
+     0.3175926,
+     0.611084
+    ],
+    [
+     0.407407,
+     0.611084
+    ],
+    [
+     0.4074074,
+     0.722198
+    ],
+    [
+     0.5009254,
+     0.722198
+    ],
+    [
+     0.5009259,
+     0.833282
+    ],
+    [
+     0.6981475,
+     0.833282
+    ],
+    [
+     0.6981482,
+     1.0
+    ],
+    [
+     1000.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "meter1": {
+   "vendorSpecificFloat": 45,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0731481,
+     0.0
+    ],
+    [
+     0.0731481,
+     0.166687
+    ],
+    [
+     0.1324073,
+     0.166687
+    ],
+    [
+     0.1324074,
+     0.277771
+    ],
+    [
+     0.1935183,
+     0.277771
+    ],
+    [
+     0.1935185,
+     0.388885
+    ],
+    [
+     0.2555553,
+     0.388885
+    ],
+    [
+     0.2555556,
+     0.5
+    ],
+    [
+     0.3175923,
+     0.5
+    ],
+    [
+     0.3175926,
+     0.611084
+    ],
+    [
+     0.407407,
+     0.611084
+    ],
+    [
+     0.4074074,
+     0.722198
+    ],
+    [
+     0.5009254,
+     0.722198
+    ],
+    [
+     0.5009259,
+     0.833282
+    ],
+    [
+     0.6981475,
+     0.833282
+    ],
+    [
+     0.6981482,
+     1.0
+    ],
+    [
+     1000.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "meter4": {
+   "vendorSpecificFloat": 46,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     4.2729957,
+     0.0
+    ],
+    [
+     4.273,
+     1.0
+    ],
+    [
+     10.9999895,
+     1.0
+    ],
+    [
+     11.0000005,
+     0.0
+    ],
+    [
+     1000.0,
+     0.0
+    ]
+   ],
+   "smoothing": 0.3
+  },
+  "meter5": {
+   "vendorSpecificFloat": 47,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     4.2729957,
+     0.0
+    ],
+    [
+     4.273,
+     1.0
+    ],
+    [
+     10.9999895,
+     1.0
+    ],
+    [
+     11.0000005,
+     0.0
+    ],
+    [
+     1000.0,
+     0.0
+    ]
+   ],
+   "smoothing": 0.3
+  },
+  "meter6": {
+   "vendorSpecificFloat": 46,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     10.9999895,
+     0.0
+    ],
+    [
+     11.0000005,
+     1.0
+    ],
+    [
+     1000.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.3
+  },
+  "meter7": {
+   "vendorSpecificFloat": 47,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     10.9999895,
+     0.0
+    ],
+    [
+     11.0000005,
+     1.0
+    ],
+    [
+     1000.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.3
+  },
+  "meter8": {
+   "vendorSpecificFloat": 48,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1000.0,
+     0.0
+    ]
+   ],
+   "smoothing": 0.5,
+   "modeParam": 3,
+   "modeCalibrations": [
+    {
+     "value": 0.5,
+     "calibration": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       0.8629809916019442,
+       0.00354
+      ],
+      [
+       0.8800049722194672,
+       0.013397
+      ],
+      [
+       0.8900173008441932,
+       0.014008
+      ],
+      [
+       0.8912689983844829,
+       0.01825
+      ],
+      [
+       0.9300417602062228,
+       0.03714
+      ],
+      [
+       0.9440667331218731,
+       0.041748
+      ],
+      [
+       1.0500411391258302,
+       0.08902
+      ],
+      [
+       1.0593048930168152,
+       0.089325
+      ],
+      [
+       1.060049593448648,
+       0.093384
+      ],
+      [
+       1.1100581288337712,
+       0.11322
+      ],
+      [
+       1.120008766651154,
+       0.114014
+      ],
+      [
+       1.1400184035301208,
+       0.124725
+      ],
+      [
+       1.1800380349159318,
+       0.139008
+      ],
+      [
+       1.1885263323783875,
+       0.139557
+      ],
+      [
+       1.1900305151939392,
+       0.143188
+      ],
+      [
+       1.2500298619270405,
+       0.164001
+      ],
+      [
+       1.2589332461357121,
+       0.164398
+      ],
+      [
+       1.2600837349891667,
+       0.167816
+      ],
+      [
+       1.4000555872917262,
+       0.213226
+      ],
+      [
+       1.4126058220863362,
+       0.216309
+      ],
+      [
+       1.6600449681282048,
+       0.286743
+      ],
+      [
+       1.678814351558686,
+       0.289337
+      ],
+      [
+       1.6900588870048523,
+       0.294464
+      ],
+      [
+       1.778390347957611,
+       0.314423
+      ],
+      [
+       1.8400436043739323,
+       0.331177
+      ],
+      [
+       2.2200926542282113,
+       0.412323
+      ],
+      [
+       2.6501799821853727,
+       0.488892
+      ],
+      [
+       2.990019679069519,
+       0.541138
+      ],
+      [
+       3.0001219511032406,
+       0.564026
+      ],
+      [
+       3.3498162031174106,
+       0.614014
+      ],
+      [
+       3.981096148491066,
+       0.689026
+      ],
+      [
+       4.731674432754601,
+       0.764008
+      ],
+      [
+       5.623763799667403,
+       0.83902
+      ],
+      [
+       6.683573961258089,
+       0.914001
+      ],
+      [
+       7.9436657428743445,
+       0.989014
+      ],
+      [
+       8.41423940658596,
+       1.0
+      ],
+      [
+       1000.0,
+       1.0
+      ]
+     ]
+    }
+   ]
+  },
+  "meter9": {
+   "vendorSpecificFloat": 49,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1000.0,
+     0.0
+    ]
+   ],
+   "smoothing": 0.5,
+   "modeParam": 13,
+   "modeCalibrations": [
+    {
+     "value": 0.5,
+     "calibration": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       0.8629809916019442,
+       0.00354
+      ],
+      [
+       0.8800049722194672,
+       0.013397
+      ],
+      [
+       0.8900173008441932,
+       0.014008
+      ],
+      [
+       0.8912689983844829,
+       0.01825
+      ],
+      [
+       0.9300417602062228,
+       0.03714
+      ],
+      [
+       0.9440667331218731,
+       0.041748
+      ],
+      [
+       1.0500411391258302,
+       0.08902
+      ],
+      [
+       1.0593048930168152,
+       0.089325
+      ],
+      [
+       1.060049593448648,
+       0.093384
+      ],
+      [
+       1.1100581288337712,
+       0.11322
+      ],
+      [
+       1.120008766651154,
+       0.114014
+      ],
+      [
+       1.1400184035301208,
+       0.124725
+      ],
+      [
+       1.1800380349159318,
+       0.139008
+      ],
+      [
+       1.1885263323783875,
+       0.139557
+      ],
+      [
+       1.1900305151939392,
+       0.143188
+      ],
+      [
+       1.2500298619270405,
+       0.164001
+      ],
+      [
+       1.2589332461357121,
+       0.164398
+      ],
+      [
+       1.2600837349891667,
+       0.167816
+      ],
+      [
+       1.4000555872917262,
+       0.213226
+      ],
+      [
+       1.4126058220863362,
+       0.216309
+      ],
+      [
+       1.6600449681282048,
+       0.286743
+      ],
+      [
+       1.678814351558686,
+       0.289337
+      ],
+      [
+       1.6900588870048523,
+       0.294464
+      ],
+      [
+       1.778390347957611,
+       0.314423
+      ],
+      [
+       1.8400436043739323,
+       0.331177
+      ],
+      [
+       2.2200926542282113,
+       0.412323
+      ],
+      [
+       2.6501799821853727,
+       0.488892
+      ],
+      [
+       2.990019679069519,
+       0.541138
+      ],
+      [
+       3.0001219511032406,
+       0.564026
+      ],
+      [
+       3.3498162031174106,
+       0.614014
+      ],
+      [
+       3.981096148491066,
+       0.689026
+      ],
+      [
+       4.731674432754601,
+       0.764008
+      ],
+      [
+       5.623763799667403,
+       0.83902
+      ],
+      [
+       6.683573961258089,
+       0.914001
+      ],
+      [
+       7.9436657428743445,
+       0.989014
+      ],
+      [
+       8.41423940658596,
+       1.0
+      ],
+      [
+       1000.0,
+       1.0
+      ]
+     ]
+    }
+   ]
+  }
+ }
+}

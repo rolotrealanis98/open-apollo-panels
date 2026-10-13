@@ -1,0 +1,3715 @@
+{
+ "schema": 2,
+ "effectName": "UAD Neve 88RS",
+ "namePattern": "Neve 88RS",
+ "size": {
+  "w": 451,
+  "h": 700
+ },
+ "background": "neve_88rs_8000",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Input Select",
+   "steps": [
+    "Line",
+    "Mic"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Line Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 2,
+   "name": "Mic Gain",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Phase",
+   "steps": [
+    "Normal",
+    "Inverted"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Pad",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "LP Enable",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "LP Freq",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "HP Enable",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "HP Freq",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "Gate Enable",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 10,
+   "name": "G/E Hyst",
+   "steps": null,
+   "default": 0.0859375
+  },
+  {
+   "index": 11,
+   "name": "G/E THR",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 12,
+   "name": "G/E -40dB",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "G/E RGE",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 14,
+   "name": "G/E FAST",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 15,
+   "name": "G/E REL",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 16,
+   "name": "L/C Enable",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 17,
+   "name": "L/C Gain",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 18,
+   "name": "L/C HARD",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 19,
+   "name": "L/C THR",
+   "steps": null,
+   "default": 0.008056640625
+  },
+  {
+   "index": 20,
+   "name": "L/C -20dB",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 21,
+   "name": "L/C RAT",
+   "steps": null,
+   "default": 0.5009765625
+  },
+  {
+   "index": 22,
+   "name": "L/C FAST",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 23,
+   "name": "L/C REL",
+   "steps": null,
+   "default": 0.50274658203125
+  },
+  {
+   "index": 24,
+   "name": "SC-EQ",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 25,
+   "name": "SC-Link",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 26,
+   "name": "EQ Enable",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 27,
+   "name": "HF Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 28,
+   "name": "HF Freq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 29,
+   "name": "HF Shelf",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 30,
+   "name": "HF Hi-Q",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 31,
+   "name": "HMF Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 32,
+   "name": "HMF Freq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 33,
+   "name": "HMF Q",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 34,
+   "name": "LMF Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 35,
+   "name": "LMF Freq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 36,
+   "name": "LMF Q",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 37,
+   "name": "LF Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 38,
+   "name": "LF Freq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 39,
+   "name": "LF Shelf",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 40,
+   "name": "LF HI-Q",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 41,
+   "name": "PRE-DYN",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 42,
+   "name": "Level",
+   "steps": null,
+   "default": 0.747039794921875
+  },
+  {
+   "index": 43,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 44,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-line_gain",
+   "x": 21,
+   "y": 46,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8003",
+   "frames": 151,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "knob-2-mic_gain",
+   "x": 76,
+   "y": 81,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8004",
+   "frames": 151,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "knob-3-l_c_gain",
+   "x": 76,
+   "y": 365,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8004",
+   "frames": 151,
+   "kind": "knob",
+   "param": 17,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "x": 76,
+   "y": 365,
+   "w": 55,
+   "h": 56,
+   "sprite": "P_neve_88rs_8023",
+   "frames": 151,
+   "kind": "knob",
+   "param": 17,
+   "id": "P-knob-3-l_c_gain-alt0",
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "image-4-internal52",
+   "kind": "image",
+   "x": 15,
+   "y": 6,
+   "w": 55,
+   "h": 31,
+   "sprite": "neve_88rs_8001_3"
+  },
+  {
+   "id": "image-5-internal53",
+   "kind": "image",
+   "x": 80,
+   "y": 6,
+   "w": 55,
+   "h": 31,
+   "sprite": "neve_88rs_8002_4"
+  },
+  {
+   "id": "switch-6-phase",
+   "kind": "switch",
+   "x": 15,
+   "y": 102,
+   "w": 55,
+   "h": 31,
+   "sprite": "neve_88rs_8005_5",
+   "frames": 3,
+   "param": 3,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-7-pad",
+   "kind": "switch",
+   "x": 80,
+   "y": 137,
+   "w": 55,
+   "h": 31,
+   "sprite": "neve_88rs_8006_6",
+   "frames": 2,
+   "param": 4,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-8-hp_freq",
+   "x": 76,
+   "y": 202,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8010",
+   "frames": 151,
+   "kind": "knob",
+   "param": 8,
+   "visibility": {
+    "params": [
+     7
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "x": 76,
+   "y": 202,
+   "w": 55,
+   "h": 56,
+   "sprite": "P_neve_88rs_8012",
+   "frames": 151,
+   "kind": "knob",
+   "param": 8,
+   "id": "P-knob-8-hp_freq-alt0",
+   "visibility": {
+    "params": [
+     7
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-9-lmf_freq",
+   "x": 172,
+   "y": 316,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8010",
+   "frames": 151,
+   "kind": "knob",
+   "param": 35
+  },
+  {
+   "id": "knob-10-lp_freq",
+   "x": 21,
+   "y": 167,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8009",
+   "frames": 151,
+   "kind": "knob",
+   "param": 6,
+   "visibility": {
+    "params": [
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "x": 21,
+   "y": 167,
+   "w": 55,
+   "h": 56,
+   "sprite": "P_neve_88rs_8011",
+   "frames": 151,
+   "kind": "knob",
+   "param": 6,
+   "id": "P-knob-10-lp_freq-alt0",
+   "visibility": {
+    "params": [
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-11-hmf_freq",
+   "x": 172,
+   "y": 166,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8009",
+   "frames": 151,
+   "kind": "knob",
+   "param": 32
+  },
+  {
+   "id": "switch-12-lp_enable",
+   "kind": "switch",
+   "x": 4,
+   "y": 223,
+   "w": 46,
+   "h": 21,
+   "sprite": "neve_88rs_8008_9",
+   "frames": 2,
+   "param": 5,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-13-g_e_40db",
+   "kind": "switch",
+   "x": 4,
+   "y": 471,
+   "w": 46,
+   "h": 21,
+   "sprite": "neve_88rs_8008_9",
+   "frames": 2,
+   "param": 12,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-14-g_e_fast",
+   "kind": "switch",
+   "x": 4,
+   "y": 556,
+   "w": 46,
+   "h": 21,
+   "sprite": "neve_88rs_8008_9",
+   "frames": 2,
+   "param": 14,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-15-internal49",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter0"
+   },
+   "x": 76,
+   "y": 43,
+   "w": 46,
+   "h": 21,
+   "sprite": "neve_88rs_8008",
+   "frames": 2
+  },
+  {
+   "id": "switch-16-hp_enable",
+   "kind": "switch",
+   "x": 100,
+   "y": 256,
+   "w": 46,
+   "h": 21,
+   "sprite": "neve_88rs_8007_11",
+   "frames": 2,
+   "param": 7,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-17-l_c_hard",
+   "kind": "switch",
+   "x": 100,
+   "y": 421,
+   "w": 46,
+   "h": 21,
+   "sprite": "neve_88rs_8007_11",
+   "frames": 2,
+   "param": 18,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-18-l_c_20db",
+   "kind": "switch",
+   "x": 100,
+   "y": 506,
+   "w": 46,
+   "h": 21,
+   "sprite": "neve_88rs_8007_11",
+   "frames": 2,
+   "param": 20,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-19-l_c_fast",
+   "kind": "switch",
+   "x": 100,
+   "y": 591,
+   "w": 46,
+   "h": 21,
+   "sprite": "neve_88rs_8007_11",
+   "frames": 2,
+   "param": 22,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-20-l_c_enable",
+   "kind": "switch",
+   "x": 80,
+   "y": 281,
+   "w": 55,
+   "h": 31,
+   "sprite": "neve_88rs_8021_12",
+   "frames": 2,
+   "param": 16,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-21-gate_enable",
+   "kind": "switch",
+   "x": 15,
+   "y": 281,
+   "w": 55,
+   "h": 31,
+   "sprite": "neve_88rs_8013_13",
+   "frames": 2,
+   "param": 9,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-22-sc_link",
+   "kind": "switch",
+   "x": 80,
+   "y": 315,
+   "w": 55,
+   "h": 31,
+   "sprite": "neve_88rs_8022_14",
+   "frames": 2,
+   "param": 25,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-23-sc_eq",
+   "kind": "switch",
+   "x": 15,
+   "y": 648,
+   "w": 55,
+   "h": 31,
+   "sprite": "neve_88rs_8020_15",
+   "frames": 2,
+   "param": 24,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-24-g_e_hyst",
+   "x": 21,
+   "y": 330,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8044",
+   "frames": 151,
+   "kind": "knob",
+   "param": 10
+  },
+  {
+   "id": "knob-25-g_e_thr",
+   "x": 21,
+   "y": 415,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8015",
+   "frames": 151,
+   "kind": "knob",
+   "param": 11,
+   "visibility": {
+    "params": [
+     12
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "x": 21,
+   "y": 415,
+   "w": 55,
+   "h": 56,
+   "sprite": "P_neve_88rs_8016",
+   "frames": 151,
+   "kind": "knob",
+   "param": 11,
+   "id": "P-knob-25-g_e_thr-alt0",
+   "visibility": {
+    "params": [
+     12
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-26-l_c_thr",
+   "x": 76,
+   "y": 450,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8015",
+   "frames": 151,
+   "kind": "knob",
+   "param": 19,
+   "visibility": {
+    "params": [
+     20
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "x": 76,
+   "y": 450,
+   "w": 55,
+   "h": 56,
+   "sprite": "P_neve_88rs_8016",
+   "frames": 151,
+   "kind": "knob",
+   "param": 19,
+   "id": "P-knob-26-l_c_thr-alt0",
+   "visibility": {
+    "params": [
+     20
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-27-g_e_rge",
+   "x": 21,
+   "y": 500,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8017",
+   "frames": 151,
+   "kind": "knob",
+   "param": 13,
+   "visibility": {
+    "params": [
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "x": 21,
+   "y": 500,
+   "w": 55,
+   "h": 56,
+   "sprite": "P_neve_88rs_8018",
+   "frames": 151,
+   "kind": "knob",
+   "param": 13,
+   "id": "P-knob-27-g_e_rge-alt0",
+   "visibility": {
+    "params": [
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-28-l_c_rat",
+   "x": 76,
+   "y": 535,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8017",
+   "frames": 151,
+   "kind": "knob",
+   "param": 21,
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "x": 76,
+   "y": 535,
+   "w": 55,
+   "h": 56,
+   "sprite": "P_neve_88rs_8018",
+   "frames": 151,
+   "kind": "knob",
+   "param": 21,
+   "id": "P-knob-28-l_c_rat-alt0",
+   "visibility": {
+    "params": [
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-29-g_e_rel",
+   "x": 21,
+   "y": 585,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8019",
+   "frames": 151,
+   "kind": "knob",
+   "param": 15
+  },
+  {
+   "id": "knob-30-lf_gain",
+   "x": 227,
+   "y": 456,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8019",
+   "frames": 151,
+   "kind": "knob",
+   "param": 37
+  },
+  {
+   "id": "knob-31-l_c_rel",
+   "x": 76,
+   "y": 620,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8043",
+   "frames": 151,
+   "kind": "knob",
+   "param": 23
+  },
+  {
+   "id": "switch-32-eq_enable",
+   "kind": "switch",
+   "x": 198,
+   "y": 6,
+   "w": 55,
+   "h": 31,
+   "sprite": "neve_88rs_8024_21",
+   "frames": 2,
+   "param": 26,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-33-pre_dyn",
+   "kind": "switch",
+   "x": 228,
+   "y": 51,
+   "w": 55,
+   "h": 31,
+   "sprite": "neve_88rs_8025_22",
+   "frames": 2,
+   "param": 41,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-34-hf_hi_q",
+   "kind": "switch",
+   "x": 169,
+   "y": 124,
+   "w": 55,
+   "h": 31,
+   "sprite": "neve_88rs_8028_23",
+   "frames": 2,
+   "param": 30,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-35-lf_hi_q",
+   "kind": "switch",
+   "x": 169,
+   "y": 380,
+   "w": 55,
+   "h": 31,
+   "sprite": "neve_88rs_8028_23",
+   "frames": 2,
+   "param": 40,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-36-hf_freq",
+   "x": 172,
+   "y": 60,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8026",
+   "frames": 151,
+   "kind": "knob",
+   "param": 28
+  },
+  {
+   "id": "knob-37-hf_gain",
+   "x": 227,
+   "y": 95,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8027",
+   "frames": 151,
+   "kind": "knob",
+   "param": 27
+  },
+  {
+   "id": "switch-38-hf_shelf",
+   "kind": "switch",
+   "x": 228,
+   "y": 159,
+   "w": 55,
+   "h": 31,
+   "sprite": "neve_88rs_8034_26",
+   "frames": 2,
+   "param": 29,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-39-hmf_gain",
+   "x": 227,
+   "y": 201,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8030",
+   "frames": 151,
+   "kind": "knob",
+   "param": 31
+  },
+  {
+   "id": "knob-40-hmf_q",
+   "x": 172,
+   "y": 241,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8031",
+   "frames": 151,
+   "kind": "knob",
+   "param": 33
+  },
+  {
+   "id": "knob-41-lmf_q",
+   "x": 227,
+   "y": 276,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8032",
+   "frames": 151,
+   "kind": "knob",
+   "param": 36
+  },
+  {
+   "id": "knob-42-lmf_gain",
+   "x": 227,
+   "y": 351,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8033",
+   "frames": 151,
+   "kind": "knob",
+   "param": 34
+  },
+  {
+   "id": "switch-43-lf_shelf",
+   "kind": "switch",
+   "x": 228,
+   "y": 415,
+   "w": 55,
+   "h": 31,
+   "sprite": "neve_88rs_8029_31",
+   "frames": 2,
+   "param": 39,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-44-lf_freq",
+   "x": 172,
+   "y": 420,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8035",
+   "frames": 151,
+   "kind": "knob",
+   "param": 38
+  },
+  {
+   "id": "switch-45-power",
+   "x": 187,
+   "y": 610,
+   "w": 77,
+   "h": 84,
+   "sprite": "neve_88rs_8037",
+   "frames": 2,
+   "kind": "switch",
+   "param": 44,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-46-internal47",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter1"
+   },
+   "x": 318,
+   "y": 26,
+   "w": 17,
+   "h": 57,
+   "sprite": "neve_88rs_8038",
+   "frames": 28
+  },
+  {
+   "id": "filmstrip-47-internal46",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter2"
+   },
+   "x": 348,
+   "y": 26,
+   "w": 17,
+   "h": 57,
+   "sprite": "neve_88rs_8039",
+   "frames": 28
+  },
+  {
+   "id": "filmstrip-48-internal48",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter3"
+   },
+   "x": 408,
+   "y": 26,
+   "w": 17,
+   "h": 57,
+   "sprite": "neve_88rs_8040",
+   "frames": 28
+  },
+  {
+   "id": "knob-50-output",
+   "x": 349,
+   "y": 616,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8042",
+   "frames": 151,
+   "kind": "knob",
+   "param": 43
+  },
+  {
+   "id": "image-51-internal64-hover",
+   "kind": "image",
+   "x": 21,
+   "y": 46,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8045",
+   "opacity": 0
+  },
+  {
+   "id": "image-52-internal64-hover",
+   "kind": "image",
+   "x": 76,
+   "y": 81,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8045",
+   "opacity": 0
+  },
+  {
+   "id": "image-53-internal64-hover",
+   "kind": "image",
+   "x": 349,
+   "y": 616,
+   "w": 55,
+   "h": 56,
+   "sprite": "neve_88rs_8047",
+   "opacity": 0
+  },
+  {
+   "id": "v-8002",
+   "kind": "switch",
+   "x": 80,
+   "y": 6,
+   "w": 55,
+   "h": 31,
+   "sprite": "neve_88rs_8002_strip",
+   "frames": 4,
+   "param": 0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "v-8001",
+   "kind": "switch",
+   "x": 15,
+   "y": 6,
+   "w": 55,
+   "h": 31,
+   "sprite": "neve_88rs_8001_strip",
+   "frames": 4,
+   "param": 0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-0",
+   "kind": "image",
+   "x": 327.0,
+   "y": 454.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.021277
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-1",
+   "kind": "image",
+   "x": 327.0,
+   "y": 447.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.021277
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.042553
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-2",
+   "kind": "image",
+   "x": 327.0,
+   "y": 440.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.021277
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.042553
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.06383
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-3",
+   "kind": "image",
+   "x": 327.0,
+   "y": 434.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.042553
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.06383
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.085106
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-4",
+   "kind": "image",
+   "x": 327.0,
+   "y": 427.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.06383
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.085106
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.106383
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-5",
+   "kind": "image",
+   "x": 327.0,
+   "y": 421.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.085106
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.106383
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.12766
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-6",
+   "kind": "image",
+   "x": 327.0,
+   "y": 413.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.106383
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.12766
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.148936
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-7",
+   "kind": "image",
+   "x": 327.0,
+   "y": 407.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.12766
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.148936
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.170213
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-8",
+   "kind": "image",
+   "x": 327.0,
+   "y": 400.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.148936
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.170213
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.191489
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-9",
+   "kind": "image",
+   "x": 327.0,
+   "y": 394.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.170213
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.191489
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.212766
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-10",
+   "kind": "image",
+   "x": 327.0,
+   "y": 388.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.191489
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.212766
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.234043
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-11",
+   "kind": "image",
+   "x": 327.0,
+   "y": 380.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.212766
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.234043
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.255319
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-12",
+   "kind": "image",
+   "x": 327.0,
+   "y": 374.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.234043
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.255319
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.276596
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-13",
+   "kind": "image",
+   "x": 327.0,
+   "y": 367.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.255319
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.276596
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.297872
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-14",
+   "kind": "image",
+   "x": 327.0,
+   "y": 361.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.276596
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.297872
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.319149
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-15",
+   "kind": "image",
+   "x": 327.0,
+   "y": 354.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.297872
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.319149
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.340426
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-16",
+   "kind": "image",
+   "x": 327.0,
+   "y": 347.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.319149
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.340426
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.361702
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-17",
+   "kind": "image",
+   "x": 327.0,
+   "y": 340.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.340426
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.361702
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.382979
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-18",
+   "kind": "image",
+   "x": 327.0,
+   "y": 334.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.361702
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.382979
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.404255
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-19",
+   "kind": "image",
+   "x": 327.0,
+   "y": 328.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.382979
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.404255
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.425532
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-20",
+   "kind": "image",
+   "x": 327.0,
+   "y": 321.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.404255
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.425532
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.446809
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-21",
+   "kind": "image",
+   "x": 327.0,
+   "y": 315.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.425532
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.446809
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.468085
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-22",
+   "kind": "image",
+   "x": 327.0,
+   "y": 307.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.446809
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.468085
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.489362
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-23",
+   "kind": "image",
+   "x": 327.0,
+   "y": 301.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.468085
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.489362
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.510638
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-24",
+   "kind": "image",
+   "x": 327.0,
+   "y": 294.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.489362
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.510638
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.531915
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-25",
+   "kind": "image",
+   "x": 327.0,
+   "y": 288.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.510638
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.531915
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.553191
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-26",
+   "kind": "image",
+   "x": 327.0,
+   "y": 280.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.531915
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.553191
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.574468
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-27",
+   "kind": "image",
+   "x": 327.0,
+   "y": 274.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.553191
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.574468
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.595745
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-28",
+   "kind": "image",
+   "x": 327.0,
+   "y": 267.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.574468
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.595745
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.617021
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-29",
+   "kind": "image",
+   "x": 327.0,
+   "y": 261.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.595745
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.617021
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.638298
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-30",
+   "kind": "image",
+   "x": 327.0,
+   "y": 255.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.617021
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.638298
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.659574
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-31",
+   "kind": "image",
+   "x": 327.0,
+   "y": 248.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.638298
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.659574
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.680851
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-32",
+   "kind": "image",
+   "x": 327.0,
+   "y": 241.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.659574
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.680851
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.702128
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-33",
+   "kind": "image",
+   "x": 327.0,
+   "y": 234.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.680851
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.702128
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.723404
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-34",
+   "kind": "image",
+   "x": 327.0,
+   "y": 228.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.702128
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.723404
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.744681
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-35",
+   "kind": "image",
+   "x": 327.0,
+   "y": 221.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.723404
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.744681
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.765957
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-36",
+   "kind": "image",
+   "x": 327.0,
+   "y": 215.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.744681
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.765957
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.787234
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-37",
+   "kind": "image",
+   "x": 327.0,
+   "y": 207.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.765957
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.787234
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.808511
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-38",
+   "kind": "image",
+   "x": 327.0,
+   "y": 201.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.787234
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.808511
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.829787
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-39",
+   "kind": "image",
+   "x": 327.0,
+   "y": 195.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.808511
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.829787
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.851064
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-40",
+   "kind": "image",
+   "x": 327.0,
+   "y": 188.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.829787
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.851064
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.87234
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-41",
+   "kind": "image",
+   "x": 327.0,
+   "y": 182.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.851064
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.87234
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.893617
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-42",
+   "kind": "image",
+   "x": 327.0,
+   "y": 174.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.87234
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.893617
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.914894
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-43",
+   "kind": "image",
+   "x": 327.0,
+   "y": 168.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.893617
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.914894
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.93617
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-44",
+   "kind": "image",
+   "x": 327.0,
+   "y": 161.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.914894
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.93617
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.957447
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-45",
+   "kind": "image",
+   "x": 327.0,
+   "y": 155.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.93617
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.957447
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.978723
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-46",
+   "kind": "image",
+   "x": 327.0,
+   "y": 148.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.957447
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.978723
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-47",
+   "kind": "image",
+   "x": 327.0,
+   "y": 142.0,
+   "w": 97,
+   "h": 99,
+   "sprite": "P_neve_88rs_8041",
+   "visibility": {
+    "params": [
+     42
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.978723
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-level-thumb-drag",
+   "kind": "zone",
+   "x": 327,
+   "y": 142,
+   "w": 97,
+   "h": 411,
+   "gesture": "drag",
+   "param": 42
+  }
+ ],
+ "meterSources": {
+  "meter3": {
+   "vendorSpecificFloat": 144,
+   "calibration": [
+    [
+     0.00024038,
+     0.0
+    ],
+    [
+     0.00033977,
+     0.0
+    ],
+    [
+     0.00047998,
+     0.0
+    ],
+    [
+     0.0006777,
+     0.0
+    ],
+    [
+     0.00095817,
+     0.037
+    ],
+    [
+     0.00135313,
+     0.037
+    ],
+    [
+     0.00191139,
+     0.037
+    ],
+    [
+     0.00270027,
+     0.037
+    ],
+    [
+     0.0038124,
+     0.0741
+    ],
+    [
+     0.00538756,
+     0.1111
+    ],
+    [
+     0.00760721,
+     0.1481
+    ],
+    [
+     0.01074472,
+     0.2222
+    ],
+    [
+     0.01517761,
+     0.2963
+    ],
+    [
+     0.02144386,
+     0.4074
+    ],
+    [
+     0.03025519,
+     0.5926
+    ],
+    [
+     0.04277383,
+     0.8148
+    ],
+    [
+     0.0603896,
+     1.0
+    ]
+   ]
+  },
+  "meter1": {
+   "combine": {
+    "op": "max",
+    "meters": [
+     "lc_l",
+     "lc_r"
+    ]
+   },
+   "calibration": []
+  },
+  "meter2": {
+   "combine": {
+    "op": "max",
+    "meters": [
+     "gate_l",
+     "gate_r"
+    ]
+   },
+   "calibration": []
+  },
+  "meter0": {
+   "vendorSpecificFloat": 139,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.001,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ]
+  },
+  "lc_l": {
+   "vendorSpecificFloat": 140,
+   "calibration": [
+    [
+     -1.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "smoothing": 0.3
+  },
+  "lc_r": {
+   "vendorSpecificFloat": 141,
+   "calibration": [
+    [
+     -1.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "smoothing": 0.3
+  },
+  "gate_l": {
+   "vendorSpecificFloat": 142,
+   "calibration": [
+    [
+     -2.5,
+     1.0
+    ],
+    [
+     -1.25,
+     0.75
+    ],
+    [
+     -0.6,
+     0.5
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "smoothing": 0.3
+  },
+  "gate_r": {
+   "vendorSpecificFloat": 143,
+   "calibration": [
+    [
+     -2.5,
+     1.0
+    ],
+    [
+     -1.25,
+     0.75
+    ],
+    [
+     -0.6,
+     0.5
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "smoothing": 0.3
+  }
+ }
+}

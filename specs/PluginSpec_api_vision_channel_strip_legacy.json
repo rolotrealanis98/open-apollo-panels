@@ -1,0 +1,1624 @@
+{
+ "schema": 2,
+ "effectName": "UAD API Vision Channel Strip Legacy",
+ "namePattern": "API Vision Channel Strip Legacy",
+ "size": {
+  "w": 520,
+  "h": 640
+ },
+ "background": "api_vision_channel_strip_legacy_7700",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "212 Gain",
+   "steps": null,
+   "default": 0.428985595703125
+  },
+  {
+   "index": 1,
+   "name": "212 Pad",
+   "steps": [
+    "0 dB",
+    "-20 dB"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "212 Phase",
+   "steps": [
+    "Normal",
+    "Inverted"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "215 LP",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 4,
+   "name": "215 HP",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "215 SC",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "215 On",
+   "steps": [
+    "Off",
+    "50 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "235 Thr",
+   "steps": null,
+   "default": 0.426483154296875
+  },
+  {
+   "index": 8,
+   "name": "235 Depth",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 9,
+   "name": "235 Atk",
+   "steps": [
+    "Normal",
+    "Fast"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 10,
+   "name": "235 Rel",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 11,
+   "name": "235 R/H",
+   "steps": [
+    "Release",
+    "Hold"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "235 G/E",
+   "steps": [
+    "Gate",
+    "Expand"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "235 On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 14,
+   "name": "225 Thr",
+   "steps": null,
+   "default": 0.418975830078125
+  },
+  {
+   "index": 15,
+   "name": "225 Rat",
+   "steps": null,
+   "default": 0.46661376953125
+  },
+  {
+   "index": 16,
+   "name": "225 Atk",
+   "steps": [
+    "Medium",
+    "Slow",
+    "Fast"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 17,
+   "name": "225 Rel",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 18,
+   "name": "225 Knee",
+   "steps": [
+    "Soft",
+    "Hard"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 19,
+   "name": "225 Type",
+   "steps": [
+    "Old (FB)",
+    "New (FF)"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 20,
+   "name": "225 On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 21,
+   "name": "HF Freq",
+   "steps": [
+    "20 kHz",
+    "15 kHz",
+    "12.5 kHz",
+    "10 kHz",
+    "7 kHz",
+    "5 kHz",
+    "2.5 kHz"
+   ],
+   "default": 0.1666666716337204
+  },
+  {
+   "index": 22,
+   "name": "HF Gain",
+   "steps": [
+    "-12 dB",
+    "-9 dB",
+    "-6 dB",
+    "-4 dB",
+    "-2 dB",
+    "0 dB",
+    "2 dB",
+    "4 dB",
+    "6 dB",
+    "9 dB",
+    "12 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 23,
+   "name": "HMF Freq",
+   "steps": [
+    "12.5 kHz",
+    "10 kHz",
+    "8 kHz",
+    "5 kHz",
+    "3 kHz",
+    "1.5 kHz",
+    "800 Hz"
+   ],
+   "default": 0.1666666716337204
+  },
+  {
+   "index": 24,
+   "name": "HMF Gain",
+   "steps": [
+    "-12 dB",
+    "-9 dB",
+    "-6 dB",
+    "-4 dB",
+    "-2 dB",
+    "0 dB",
+    "2 dB",
+    "4 dB",
+    "6 dB",
+    "9 dB",
+    "12 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 25,
+   "name": "LMF Freq",
+   "steps": [
+    "1 kHz",
+    "700 Hz",
+    "500 Hz",
+    "240 Hz",
+    "180 Hz",
+    "150 Hz",
+    "75 Hz"
+   ],
+   "default": 0.1666666716337204
+  },
+  {
+   "index": 26,
+   "name": "LMF Gain",
+   "steps": [
+    "-12 dB",
+    "-9 dB",
+    "-6 dB",
+    "-4 dB",
+    "-2 dB",
+    "0 dB",
+    "2 dB",
+    "4 dB",
+    "6 dB",
+    "9 dB",
+    "12 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 27,
+   "name": "LF Freq",
+   "steps": [
+    "400 Hz",
+    "300 Hz",
+    "200 Hz",
+    "100 Hz",
+    "50 Hz",
+    "40 Hz",
+    "30 Hz"
+   ],
+   "default": 0.1666666716337204
+  },
+  {
+   "index": 28,
+   "name": "LF Gain",
+   "steps": [
+    "-12 dB",
+    "-9 dB",
+    "-6 dB",
+    "-4 dB",
+    "-2 dB",
+    "0 dB",
+    "2 dB",
+    "4 dB",
+    "6 dB",
+    "9 dB",
+    "12 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 29,
+   "name": "HF Shelf",
+   "steps": [
+    "Shelf",
+    "Peak"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 30,
+   "name": "LF Shelf",
+   "steps": [
+    "Shelf",
+    "Peak"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 31,
+   "name": "EQ PreDyn",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 32,
+   "name": "EQ SC",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 33,
+   "name": "550 On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 34,
+   "name": "SC Link",
+   "steps": [
+    "Unlink",
+    "Link"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 35,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 36,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-212_gain",
+   "x": 0,
+   "y": 32,
+   "w": 106,
+   "h": 90,
+   "sprite": "api_vision_channel_strip_legacy_7709",
+   "frames": 101,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "switch-2-212_pad",
+   "kind": "switch",
+   "x": 2,
+   "y": 179,
+   "w": 72,
+   "h": 36,
+   "sprite": "P_api_vision_channel_strip_legacy_7703",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-3-212_phase",
+   "kind": "switch",
+   "x": 2,
+   "y": 222,
+   "w": 72,
+   "h": 36,
+   "sprite": "P_api_vision_channel_strip_legacy_7704",
+   "frames": 2,
+   "param": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-4-internal43",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter0"
+   },
+   "x": 105,
+   "y": 60,
+   "w": 22,
+   "h": 122,
+   "sprite": "api_vision_channel_strip_legacy_7718",
+   "frames": 21
+  },
+  {
+   "id": "knob-5-215_lp",
+   "x": 0,
+   "y": 352,
+   "w": 106,
+   "h": 90,
+   "sprite": "api_vision_channel_strip_legacy_7707",
+   "frames": 101,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "knob-6-215_hp",
+   "x": 0,
+   "y": 487,
+   "w": 106,
+   "h": 90,
+   "sprite": "api_vision_channel_strip_legacy_7707",
+   "frames": 101,
+   "kind": "knob",
+   "param": 4
+  },
+  {
+   "id": "knob-7-235_thr",
+   "x": 130,
+   "y": 32,
+   "w": 106,
+   "h": 90,
+   "sprite": "api_vision_channel_strip_legacy_7710",
+   "frames": 101,
+   "kind": "knob",
+   "param": 7
+  },
+  {
+   "id": "knob-8-225_thr",
+   "x": 130,
+   "y": 352,
+   "w": 106,
+   "h": 90,
+   "sprite": "api_vision_channel_strip_legacy_7710",
+   "frames": 101,
+   "kind": "knob",
+   "param": 14
+  },
+  {
+   "id": "knob-9-output",
+   "x": 402,
+   "y": 449,
+   "w": 106,
+   "h": 90,
+   "sprite": "api_vision_channel_strip_legacy_7710",
+   "frames": 101,
+   "kind": "knob",
+   "param": 35
+  },
+  {
+   "id": "knob-10-235_depth",
+   "x": 130,
+   "y": 122,
+   "w": 106,
+   "h": 90,
+   "sprite": "api_vision_channel_strip_legacy_7712",
+   "frames": 101,
+   "kind": "knob",
+   "param": 8
+  },
+  {
+   "id": "knob-11-225_rel",
+   "x": 130,
+   "y": 532,
+   "w": 106,
+   "h": 90,
+   "sprite": "api_vision_channel_strip_legacy_7712",
+   "frames": 101,
+   "kind": "knob",
+   "param": 17
+  },
+  {
+   "id": "knob-12-235_rel",
+   "x": 130,
+   "y": 211,
+   "w": 106,
+   "h": 90,
+   "sprite": "api_vision_channel_strip_legacy_7711",
+   "frames": 101,
+   "kind": "knob",
+   "param": 10
+  },
+  {
+   "id": "filmstrip-13-internal46",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter1"
+   },
+   "x": 236,
+   "y": 80,
+   "w": 22,
+   "h": 87,
+   "sprite": "api_vision_channel_strip_legacy_7720",
+   "frames": 21
+  },
+  {
+   "id": "knob-14-225_rat",
+   "x": 130,
+   "y": 442,
+   "w": 106,
+   "h": 90,
+   "sprite": "api_vision_channel_strip_legacy_7708",
+   "frames": 101,
+   "kind": "knob",
+   "param": 15
+  },
+  {
+   "id": "switch-15-225_atk",
+   "x": 228,
+   "y": 356,
+   "w": 32,
+   "h": 42,
+   "sprite": "api_vision_channel_strip_legacy_7724",
+   "frames": 3,
+   "kind": "switch",
+   "param": 16,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-16-internal45",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter2"
+   },
+   "x": 236,
+   "y": 400,
+   "w": 22,
+   "h": 87,
+   "sprite": "api_vision_channel_strip_legacy_7719",
+   "frames": 21
+  },
+  {
+   "id": "knob-17-hf_gain",
+   "x": 260,
+   "y": 30,
+   "w": 130,
+   "h": 118,
+   "sprite": "api_vision_channel_strip_legacy_7713",
+   "frames": 11,
+   "kind": "knob",
+   "param": 22
+  },
+  {
+   "id": "knob-18-hmf_gain",
+   "x": 260,
+   "y": 165,
+   "w": 130,
+   "h": 118,
+   "sprite": "api_vision_channel_strip_legacy_7714",
+   "frames": 11,
+   "kind": "knob",
+   "param": 24
+  },
+  {
+   "id": "knob-19-lmf_gain",
+   "x": 260,
+   "y": 300,
+   "w": 130,
+   "h": 118,
+   "sprite": "api_vision_channel_strip_legacy_7716",
+   "frames": 11,
+   "kind": "knob",
+   "param": 26
+  },
+  {
+   "id": "knob-20-lf_gain",
+   "x": 260,
+   "y": 435,
+   "w": 130,
+   "h": 118,
+   "sprite": "api_vision_channel_strip_legacy_7715",
+   "frames": 11,
+   "kind": "knob",
+   "param": 28
+  },
+  {
+   "id": "knob-21-hf_freq",
+   "x": 260,
+   "y": 30,
+   "w": 130,
+   "h": 118,
+   "sprite": "api_vision_channel_strip_legacy_7717",
+   "frames": 7,
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 21
+   }
+  },
+  {
+   "id": "P-knob-21-hf_freq-cap",
+   "kind": "zone",
+   "x": 302,
+   "y": 66,
+   "w": 49,
+   "h": 55,
+   "gesture": "drag",
+   "param": 21
+  },
+  {
+   "id": "knob-22-hmf_freq",
+   "x": 260,
+   "y": 165,
+   "w": 130,
+   "h": 118,
+   "sprite": "api_vision_channel_strip_legacy_7717",
+   "frames": 7,
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 23
+   }
+  },
+  {
+   "id": "P-knob-22-hmf_freq-cap",
+   "kind": "zone",
+   "x": 302,
+   "y": 201,
+   "w": 49,
+   "h": 55,
+   "gesture": "drag",
+   "param": 23
+  },
+  {
+   "id": "knob-23-lmf_freq",
+   "x": 260,
+   "y": 300,
+   "w": 130,
+   "h": 118,
+   "sprite": "api_vision_channel_strip_legacy_7717",
+   "frames": 7,
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 25
+   }
+  },
+  {
+   "id": "P-knob-23-lmf_freq-cap",
+   "kind": "zone",
+   "x": 302,
+   "y": 336,
+   "w": 49,
+   "h": 55,
+   "gesture": "drag",
+   "param": 25
+  },
+  {
+   "id": "knob-24-lf_freq",
+   "x": 260,
+   "y": 435,
+   "w": 130,
+   "h": 118,
+   "sprite": "api_vision_channel_strip_legacy_7717",
+   "frames": 7,
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 27
+   }
+  },
+  {
+   "id": "P-knob-24-lf_freq-cap",
+   "kind": "zone",
+   "x": 302,
+   "y": 471,
+   "w": 49,
+   "h": 55,
+   "gesture": "drag",
+   "param": 27
+  },
+  {
+   "id": "switch-25-hf_shelf",
+   "x": 274,
+   "y": 140,
+   "w": 37,
+   "h": 33,
+   "sprite": "api_vision_channel_strip_legacy_7723",
+   "frames": 2,
+   "kind": "switch",
+   "param": 29,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-26-lf_shelf",
+   "x": 274,
+   "y": 410,
+   "w": 37,
+   "h": 33,
+   "sprite": "api_vision_channel_strip_legacy_7723",
+   "frames": 2,
+   "kind": "switch",
+   "param": 30,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-27-internal52",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     33
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 2
+     }
+    ]
+   },
+   "x": 298,
+   "y": 556,
+   "w": 92,
+   "h": 57,
+   "sprite": "api_vision_channel_strip_legacy_8583",
+   "frames": 4
+  },
+  {
+   "id": "zone-28-eq_predyn",
+   "kind": "zone",
+   "x": 298,
+   "y": 556,
+   "w": 92,
+   "h": 28,
+   "param": 31,
+   "action": {
+    "type": "toggle",
+    "param": 31
+   }
+  },
+  {
+   "id": "zone-29-550_on",
+   "kind": "zone",
+   "x": 298,
+   "y": 584,
+   "w": 92,
+   "h": 28,
+   "param": 33,
+   "action": {
+    "type": "toggle",
+    "param": 33
+   }
+  },
+  {
+   "id": "switch-30-215_on",
+   "kind": "switch",
+   "x": 78,
+   "y": 577,
+   "w": 49,
+   "h": 36,
+   "sprite": "P_api_vision_channel_strip_legacy_7702",
+   "frames": 2,
+   "param": 6,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-31-235_on",
+   "kind": "switch",
+   "x": 211,
+   "y": 257,
+   "w": 49,
+   "h": 36,
+   "sprite": "P_api_vision_channel_strip_legacy_7702",
+   "frames": 2,
+   "param": 13,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-32-225_on",
+   "kind": "switch",
+   "x": 211,
+   "y": 577,
+   "w": 49,
+   "h": 36,
+   "sprite": "P_api_vision_channel_strip_legacy_7702",
+   "frames": 2,
+   "param": 20,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-33-215_sc",
+   "kind": "switch",
+   "x": 78,
+   "y": 447,
+   "w": 49,
+   "h": 36,
+   "sprite": "P_api_vision_channel_strip_legacy_7706",
+   "frames": 2,
+   "param": 5,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-34-eq_sc",
+   "kind": "switch",
+   "x": 341,
+   "y": 274,
+   "w": 49,
+   "h": 36,
+   "sprite": "P_api_vision_channel_strip_legacy_7706",
+   "frames": 2,
+   "param": 32,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-35-235_atk",
+   "x": 228,
+   "y": 36,
+   "w": 32,
+   "h": 42,
+   "sprite": "api_vision_channel_strip_legacy_7722",
+   "frames": 2,
+   "kind": "switch",
+   "param": 9,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-36-235_g_e",
+   "x": 228,
+   "y": 168,
+   "w": 32,
+   "h": 42,
+   "sprite": "api_vision_channel_strip_legacy_7722",
+   "frames": 2,
+   "kind": "switch",
+   "param": 12,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-37-235_r_h",
+   "x": 228,
+   "y": 209,
+   "w": 32,
+   "h": 42,
+   "sprite": "api_vision_channel_strip_legacy_7722",
+   "frames": 2,
+   "kind": "switch",
+   "param": 11,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-38-225_knee",
+   "x": 228,
+   "y": 487,
+   "w": 32,
+   "h": 42,
+   "sprite": "api_vision_channel_strip_legacy_7722",
+   "frames": 2,
+   "kind": "switch",
+   "param": 18,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-39-225_type",
+   "x": 228,
+   "y": 529,
+   "w": 32,
+   "h": 42,
+   "sprite": "api_vision_channel_strip_legacy_7722",
+   "frames": 2,
+   "kind": "switch",
+   "param": 19,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-40-internal44",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter4"
+   },
+   "x": 444,
+   "y": 111,
+   "w": 22,
+   "h": 202,
+   "sprite": "api_vision_channel_strip_legacy_7721",
+   "frames": 45
+  },
+  {
+   "id": "filmstrip-41-internal53",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "table",
+    "params": [
+     34,
+     36
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 2
+     }
+    ]
+   },
+   "x": 426,
+   "y": 555,
+   "w": 92,
+   "h": 57,
+   "sprite": "api_vision_channel_strip_legacy_7701",
+   "frames": 4
+  },
+  {
+   "id": "zone-42-sc_link",
+   "kind": "zone",
+   "x": 426,
+   "y": 555,
+   "w": 92,
+   "h": 28,
+   "param": 34,
+   "action": {
+    "type": "toggle",
+    "param": 34
+   }
+  },
+  {
+   "id": "zone-43-power",
+   "kind": "zone",
+   "x": 426,
+   "y": 583,
+   "w": 92,
+   "h": 28,
+   "param": 36,
+   "action": {
+    "type": "toggle",
+    "param": 36
+   }
+  },
+  {
+   "id": "filmstrip-44-output-hover",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 35
+   },
+   "x": 402,
+   "y": 449,
+   "w": 106,
+   "h": 90,
+   "sprite": "api_vision_channel_strip_legacy_8594",
+   "frames": 101,
+   "opacity": 0
+  },
+  {
+   "id": "filmstrip-45-212_gain-hover",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   },
+   "x": 0,
+   "y": 32,
+   "w": 106,
+   "h": 90,
+   "sprite": "api_vision_channel_strip_legacy_7776",
+   "frames": 101,
+   "opacity": 0
+  },
+  {
+   "id": "switch-15-225_atk-rz00",
+   "kind": "zone",
+   "x": 228,
+   "y": 356,
+   "w": 32,
+   "h": 14.7,
+   "param": 16,
+   "action": {
+    "type": "set",
+    "value": 1.0,
+    "param": 16
+   }
+  },
+  {
+   "id": "switch-15-225_atk-rz10",
+   "kind": "zone",
+   "x": 228,
+   "y": 370.7,
+   "w": 32,
+   "h": 12.6,
+   "param": 16,
+   "action": {
+    "type": "set",
+    "value": 0.5,
+    "param": 16
+   }
+  },
+  {
+   "id": "switch-15-225_atk-rz20",
+   "kind": "zone",
+   "x": 228,
+   "y": 383.3,
+   "w": 32,
+   "h": 14.7,
+   "param": 16,
+   "action": {
+    "type": "set",
+    "value": 0.0,
+    "param": 16
+   }
+  },
+  {
+   "id": "switch-25-hf_shelf-rz00",
+   "kind": "zone",
+   "x": 274,
+   "y": 140,
+   "w": 37,
+   "h": 11.5,
+   "param": 29,
+   "action": {
+    "type": "set",
+    "value": 1.0,
+    "param": 29
+   }
+  },
+  {
+   "id": "switch-25-hf_shelf-rz10",
+   "kind": "zone",
+   "x": 274,
+   "y": 151.6,
+   "w": 37,
+   "h": 9.9,
+   "param": 29,
+   "action": {
+    "type": "set",
+    "value": 1.0,
+    "param": 29
+   }
+  },
+  {
+   "id": "switch-25-hf_shelf-rz20",
+   "kind": "zone",
+   "x": 274,
+   "y": 161.4,
+   "w": 37,
+   "h": 11.5,
+   "param": 29,
+   "action": {
+    "type": "set",
+    "value": 0.0,
+    "param": 29
+   }
+  },
+  {
+   "id": "switch-26-lf_shelf-rz00",
+   "kind": "zone",
+   "x": 274,
+   "y": 410,
+   "w": 37,
+   "h": 11.5,
+   "param": 30,
+   "action": {
+    "type": "set",
+    "value": 1.0,
+    "param": 30
+   }
+  },
+  {
+   "id": "switch-26-lf_shelf-rz10",
+   "kind": "zone",
+   "x": 274,
+   "y": 421.6,
+   "w": 37,
+   "h": 9.9,
+   "param": 30,
+   "action": {
+    "type": "set",
+    "value": 1.0,
+    "param": 30
+   }
+  },
+  {
+   "id": "switch-26-lf_shelf-rz20",
+   "kind": "zone",
+   "x": 274,
+   "y": 431.4,
+   "w": 37,
+   "h": 11.5,
+   "param": 30,
+   "action": {
+    "type": "set",
+    "value": 0.0,
+    "param": 30
+   }
+  },
+  {
+   "id": "switch-35-235_atk-rz00",
+   "kind": "zone",
+   "x": 228,
+   "y": 36,
+   "w": 32,
+   "h": 14.7,
+   "param": 9,
+   "action": {
+    "type": "set",
+    "value": 1.0,
+    "param": 9
+   }
+  },
+  {
+   "id": "switch-35-235_atk-rz10",
+   "kind": "zone",
+   "x": 228,
+   "y": 50.7,
+   "w": 32,
+   "h": 12.6,
+   "param": 9,
+   "action": {
+    "type": "set",
+    "value": 1.0,
+    "param": 9
+   }
+  },
+  {
+   "id": "switch-35-235_atk-rz20",
+   "kind": "zone",
+   "x": 228,
+   "y": 63.3,
+   "w": 32,
+   "h": 14.7,
+   "param": 9,
+   "action": {
+    "type": "set",
+    "value": 0.0,
+    "param": 9
+   }
+  },
+  {
+   "id": "switch-36-235_g_e-rz00",
+   "kind": "zone",
+   "x": 228,
+   "y": 168,
+   "w": 32,
+   "h": 14.7,
+   "param": 12,
+   "action": {
+    "type": "set",
+    "value": 1.0,
+    "param": 12
+   }
+  },
+  {
+   "id": "switch-36-235_g_e-rz10",
+   "kind": "zone",
+   "x": 228,
+   "y": 182.7,
+   "w": 32,
+   "h": 12.6,
+   "param": 12,
+   "action": {
+    "type": "set",
+    "value": 1.0,
+    "param": 12
+   }
+  },
+  {
+   "id": "switch-36-235_g_e-rz20",
+   "kind": "zone",
+   "x": 228,
+   "y": 195.3,
+   "w": 32,
+   "h": 14.7,
+   "param": 12,
+   "action": {
+    "type": "set",
+    "value": 0.0,
+    "param": 12
+   }
+  },
+  {
+   "id": "switch-37-235_r_h-rz00",
+   "kind": "zone",
+   "x": 228,
+   "y": 209,
+   "w": 32,
+   "h": 14.7,
+   "param": 11,
+   "action": {
+    "type": "set",
+    "value": 1.0,
+    "param": 11
+   }
+  },
+  {
+   "id": "switch-37-235_r_h-rz10",
+   "kind": "zone",
+   "x": 228,
+   "y": 223.7,
+   "w": 32,
+   "h": 12.6,
+   "param": 11,
+   "action": {
+    "type": "set",
+    "value": 1.0,
+    "param": 11
+   }
+  },
+  {
+   "id": "switch-37-235_r_h-rz20",
+   "kind": "zone",
+   "x": 228,
+   "y": 236.3,
+   "w": 32,
+   "h": 14.7,
+   "param": 11,
+   "action": {
+    "type": "set",
+    "value": 0.0,
+    "param": 11
+   }
+  },
+  {
+   "id": "switch-38-225_knee-rz00",
+   "kind": "zone",
+   "x": 228,
+   "y": 487,
+   "w": 32,
+   "h": 14.7,
+   "param": 18,
+   "action": {
+    "type": "set",
+    "value": 1.0,
+    "param": 18
+   }
+  },
+  {
+   "id": "switch-38-225_knee-rz10",
+   "kind": "zone",
+   "x": 228,
+   "y": 501.7,
+   "w": 32,
+   "h": 12.6,
+   "param": 18,
+   "action": {
+    "type": "set",
+    "value": 1.0,
+    "param": 18
+   }
+  },
+  {
+   "id": "switch-38-225_knee-rz20",
+   "kind": "zone",
+   "x": 228,
+   "y": 514.3,
+   "w": 32,
+   "h": 14.7,
+   "param": 18,
+   "action": {
+    "type": "set",
+    "value": 0.0,
+    "param": 18
+   }
+  },
+  {
+   "id": "switch-39-225_type-rz00",
+   "kind": "zone",
+   "x": 228,
+   "y": 529,
+   "w": 32,
+   "h": 14.7,
+   "param": 19,
+   "action": {
+    "type": "set",
+    "value": 1.0,
+    "param": 19
+   }
+  },
+  {
+   "id": "switch-39-225_type-rz10",
+   "kind": "zone",
+   "x": 228,
+   "y": 543.7,
+   "w": 32,
+   "h": 12.6,
+   "param": 19,
+   "action": {
+    "type": "set",
+    "value": 1.0,
+    "param": 19
+   }
+  },
+  {
+   "id": "switch-39-225_type-rz20",
+   "kind": "zone",
+   "x": 228,
+   "y": 556.3,
+   "w": 32,
+   "h": 14.7,
+   "param": 19,
+   "action": {
+    "type": "set",
+    "value": 0.0,
+    "param": 19
+   }
+  }
+ ],
+ "meterSources": {
+  "meter0": {
+   "vendorSpecificFloat": 293,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.031623,
+     0.0
+    ],
+    [
+     0.039811,
+     0.2
+    ],
+    [
+     0.050119,
+     0.4
+    ],
+    [
+     0.063096,
+     0.4
+    ],
+    [
+     0.079433,
+     0.6
+    ],
+    [
+     0.125893,
+     0.6
+    ],
+    [
+     0.158489,
+     0.8
+    ],
+    [
+     0.501187,
+     0.8
+    ],
+    [
+     0.630957,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ]
+  },
+  "meter4": {
+   "vendorSpecificFloat": 294,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.003981,
+     0.0
+    ],
+    [
+     0.005012,
+     0.0909
+    ],
+    [
+     0.012589,
+     0.0909
+    ],
+    [
+     0.015849,
+     0.1818
+    ],
+    [
+     0.039811,
+     0.1818
+    ],
+    [
+     0.050119,
+     0.2727
+    ],
+    [
+     0.079433,
+     0.2727
+    ],
+    [
+     0.1,
+     0.3636
+    ],
+    [
+     0.125893,
+     0.4545
+    ],
+    [
+     0.158489,
+     0.4545
+    ],
+    [
+     0.199526,
+     0.5454
+    ],
+    [
+     0.251189,
+     0.6364
+    ],
+    [
+     0.316228,
+     0.6364
+    ],
+    [
+     0.398107,
+     0.7273
+    ],
+    [
+     0.501187,
+     0.7273
+    ],
+    [
+     0.630957,
+     0.8182
+    ],
+    [
+     0.794328,
+     0.9091
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ]
+  },
+  "meter2": {
+   "vendorSpecificFloat": 295,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.2372925,
+     0.0
+    ],
+    [
+     0.23753,
+     0.2
+    ],
+    [
+     0.4745849,
+     0.2
+    ],
+    [
+     0.47506,
+     0.4
+    ],
+    [
+     0.7118774,
+     0.4
+    ],
+    [
+     0.71259,
+     0.6
+    ],
+    [
+     1.4237548,
+     0.6
+    ],
+    [
+     1.42518,
+     0.8
+    ],
+    [
+     2.8475096,
+     0.8
+    ],
+    [
+     2.85036,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "meter1": {
+   "vendorSpecificFloat": 296,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     100.0,
+     0.0
+    ]
+   ],
+   "smoothing": 0.5,
+   "modeParam": 13,
+   "modeCalibrations": [
+    {
+     "value": 1.0,
+     "calibration": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       0.2401396,
+       0.0
+      ],
+      [
+       0.24038,
+       0.2
+      ],
+      [
+       0.4802892,
+       0.2
+      ],
+      [
+       0.48077,
+       0.4
+      ],
+      [
+       0.7204289,
+       0.4
+      ],
+      [
+       0.72115,
+       0.6
+      ],
+      [
+       0.9605785,
+       0.6
+      ],
+      [
+       0.96154,
+       0.8
+      ],
+      [
+       1.2007181,
+       0.8
+      ],
+      [
+       1.20192,
+       1.0
+      ]
+     ]
+    }
+   ]
+  }
+ }
+}

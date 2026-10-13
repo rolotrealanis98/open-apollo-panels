@@ -1,0 +1,2923 @@
+{
+ "schema": 2,
+ "effectName": "UAD MDWEQ5-3B",
+ "namePattern": "MDWEQ5-3B",
+ "size": {
+  "w": 676,
+  "h": 200
+ },
+ "background": "MDW3_bg",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Channel Gain",
+   "steps": null,
+   "default": 0.800000011920929
+  },
+  {
+   "index": 1,
+   "name": "Graph Scale",
+   "steps": [
+    "6 dB",
+    "12 dB",
+    "24 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 2,
+   "name": "Channel Phase",
+   "steps": [
+    "Normal",
+    "Inverted"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 4,
+   "name": "Band 1 Freq",
+   "steps": null,
+   "default": 0.25
+  },
+  {
+   "index": 5,
+   "name": "Band 1 Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "Band 1 Q",
+   "steps": null,
+   "default": 0.03529411926865578
+  },
+  {
+   "index": 7,
+   "name": "Band 1 Type",
+   "steps": [
+    "Bypass",
+    "Peak/Dip",
+    "Lo Shelf",
+    "Hi Shelf",
+    "Lo Pass 6",
+    "Hi Pass 6",
+    "Lo Pass 12",
+    "Hi Pass 12"
+   ],
+   "default": 0.2857142984867096
+  },
+  {
+   "index": 8,
+   "name": "Band 1 In/Out",
+   "steps": [
+    "In",
+    "Out"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "Band 1 Solo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 10,
+   "name": "Band 2 Freq",
+   "steps": null,
+   "default": 0.6369880437850952
+  },
+  {
+   "index": 11,
+   "name": "Band 2 Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 12,
+   "name": "Band 2 Q",
+   "steps": null,
+   "default": 0.03529411926865578
+  },
+  {
+   "index": 13,
+   "name": "Band 2 Type",
+   "steps": [
+    "Bypass",
+    "Peak/Dip",
+    "Lo Shelf",
+    "Hi Shelf",
+    "Lo Pass 6",
+    "Hi Pass 6",
+    "Lo Pass 12",
+    "Hi Pass 12"
+   ],
+   "default": 0.1428571492433548
+  },
+  {
+   "index": 14,
+   "name": "Band 2 In/Out",
+   "steps": [
+    "In",
+    "Out"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 15,
+   "name": "Band 2 Solo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 16,
+   "name": "Band 3 Freq",
+   "steps": null,
+   "default": 0.8869880437850952
+  },
+  {
+   "index": 17,
+   "name": "Band 3 Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 18,
+   "name": "Band 3 Q",
+   "steps": null,
+   "default": 0.03529411926865578
+  },
+  {
+   "index": 19,
+   "name": "Band 3 Type",
+   "steps": [
+    "Bypass",
+    "Peak/Dip",
+    "Lo Shelf",
+    "Hi Shelf",
+    "Lo Pass 6",
+    "Hi Pass 6",
+    "Lo Pass 12",
+    "Hi Pass 12",
+    "Lo Pass 18",
+    "Hi Pass 18",
+    "Lo Pass 24",
+    "Hi Pass 24"
+   ],
+   "default": 0.2727272808551788
+  },
+  {
+   "index": 20,
+   "name": "Band 3 In/Out",
+   "steps": [
+    "In",
+    "Out"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 21,
+   "name": "Band 3 Solo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  }
+ ],
+ "meterSources": {},
+ "elements": [
+  {
+   "id": "graph",
+   "kind": "filmstrip",
+   "x": 6,
+   "y": 3,
+   "w": 300,
+   "h": 156,
+   "sprite": "MDW3_graph",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 1
+   }
+  },
+  {
+   "id": "k-solo-bg-1",
+   "kind": "image",
+   "x": 0,
+   "y": 0,
+   "w": 676,
+   "h": 200,
+   "sprite": "K_MDW3_solo_bg1",
+   "visibility": {
+    "params": [
+     9
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "k-solo-bg-2",
+   "kind": "image",
+   "x": 0,
+   "y": 0,
+   "w": 676,
+   "h": 200,
+   "sprite": "K_MDW3_solo_bg2",
+   "visibility": {
+    "params": [
+     15
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "k-solo-bg-3",
+   "kind": "image",
+   "x": 0,
+   "y": 0,
+   "w": 676,
+   "h": 200,
+   "sprite": "K_MDW3_solo_bg3",
+   "visibility": {
+    "params": [
+     21
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "graph-scale",
+   "kind": "zone",
+   "x": 6,
+   "y": 3,
+   "w": 26,
+   "h": 156,
+   "action": {
+    "type": "toggle",
+    "param": 1
+   }
+  },
+  {
+   "id": "graph-eq-6",
+   "kind": "graph",
+   "x": 6,
+   "y": 3,
+   "w": 300,
+   "h": 156,
+   "graph": {
+    "type": "eq",
+    "clip": {
+     "x": 22.0,
+     "y": 0,
+     "w": 272.0,
+     "h": 156
+    },
+    "x": {
+     "min": 25,
+     "max": 26000,
+     "log": true,
+     "from": 22.0,
+     "to": 294.0
+    },
+    "y": {
+     "min": -6,
+     "max": 6,
+     "from": 151.5,
+     "to": 7.5
+    },
+    "bands": [
+     {
+      "id": "b1",
+      "filterParam": {
+       "param": 7,
+       "values": [
+        "bypass",
+        "bell",
+        "lowShelf",
+        "highShelf",
+        "lowPass",
+        "highPass",
+        "lowPass",
+        "highPass"
+       ]
+      },
+      "freq": {
+       "product": [
+        {
+         "param": 4,
+         "law": {
+          "type": "log",
+          "min": 10,
+          "max": 40960
+         }
+        },
+        {
+         "select": {
+          "param": 7,
+          "cases": [
+           1,
+           1,
+           {
+            "param": 5,
+            "law": {
+             "type": "table",
+             "points": [
+              [
+               0,
+               3.9810717055349722
+              ],
+              [
+               0.5,
+               1
+              ],
+              [
+               1,
+               3.9810717055349722
+              ]
+             ],
+             "interp": "log"
+            }
+           },
+           {
+            "param": 5,
+            "law": {
+             "type": "table",
+             "points": [
+              [
+               0,
+               0.251188643150958
+              ],
+              [
+               0.5,
+               1
+              ],
+              [
+               1,
+               0.251188643150958
+              ]
+             ],
+             "interp": "log"
+            }
+           },
+           1,
+           1,
+           1,
+           1
+          ]
+         }
+        }
+       ]
+      },
+      "gain": {
+       "param": 5,
+       "law": {
+        "type": "linear",
+        "min": -24,
+        "max": 24
+       }
+      },
+      "q": {
+       "param": 6,
+       "law": {
+        "type": "linear",
+        "min": 0.1,
+        "max": 25.6
+       }
+      },
+      "order": {
+       "param": 7,
+       "law": {
+        "type": "steps",
+        "values": [
+         0,
+         2,
+         2,
+         2,
+         1,
+         1,
+         2,
+         2
+        ]
+       }
+      },
+      "enable": {
+       "param": 8,
+       "law": {
+        "type": "steps",
+        "values": [
+         1,
+         0
+        ]
+       }
+      },
+      "qMode": "peak",
+      "shelfOrder": 1,
+      "shelfShift": 0
+     },
+     {
+      "id": "b2",
+      "filterParam": {
+       "param": 13,
+       "values": [
+        "bypass",
+        "bell",
+        "lowShelf",
+        "highShelf",
+        "lowPass",
+        "highPass",
+        "lowPass",
+        "highPass"
+       ]
+      },
+      "freq": {
+       "product": [
+        {
+         "param": 10,
+         "law": {
+          "type": "log",
+          "min": 10,
+          "max": 40960
+         }
+        },
+        {
+         "select": {
+          "param": 13,
+          "cases": [
+           1,
+           1,
+           {
+            "param": 11,
+            "law": {
+             "type": "table",
+             "points": [
+              [
+               0,
+               3.9810717055349722
+              ],
+              [
+               0.5,
+               1
+              ],
+              [
+               1,
+               3.9810717055349722
+              ]
+             ],
+             "interp": "log"
+            }
+           },
+           {
+            "param": 11,
+            "law": {
+             "type": "table",
+             "points": [
+              [
+               0,
+               0.251188643150958
+              ],
+              [
+               0.5,
+               1
+              ],
+              [
+               1,
+               0.251188643150958
+              ]
+             ],
+             "interp": "log"
+            }
+           },
+           1,
+           1,
+           1,
+           1
+          ]
+         }
+        }
+       ]
+      },
+      "gain": {
+       "param": 11,
+       "law": {
+        "type": "linear",
+        "min": -24,
+        "max": 24
+       }
+      },
+      "q": {
+       "param": 12,
+       "law": {
+        "type": "linear",
+        "min": 0.1,
+        "max": 25.6
+       }
+      },
+      "order": {
+       "param": 13,
+       "law": {
+        "type": "steps",
+        "values": [
+         0,
+         2,
+         2,
+         2,
+         1,
+         1,
+         2,
+         2
+        ]
+       }
+      },
+      "enable": {
+       "param": 14,
+       "law": {
+        "type": "steps",
+        "values": [
+         1,
+         0
+        ]
+       }
+      },
+      "qMode": "peak",
+      "shelfOrder": 1,
+      "shelfShift": 0
+     },
+     {
+      "id": "b3",
+      "filterParam": {
+       "param": 19,
+       "values": [
+        "bypass",
+        "bell",
+        "lowShelf",
+        "highShelf",
+        "lowPass",
+        "highPass",
+        "lowPass",
+        "highPass",
+        "lowPass",
+        "highPass",
+        "lowPass",
+        "highPass"
+       ]
+      },
+      "freq": {
+       "product": [
+        {
+         "param": 16,
+         "law": {
+          "type": "log",
+          "min": 10,
+          "max": 40960
+         }
+        },
+        {
+         "select": {
+          "param": 19,
+          "cases": [
+           1,
+           1,
+           {
+            "param": 17,
+            "law": {
+             "type": "table",
+             "points": [
+              [
+               0,
+               3.9810717055349722
+              ],
+              [
+               0.5,
+               1
+              ],
+              [
+               1,
+               3.9810717055349722
+              ]
+             ],
+             "interp": "log"
+            }
+           },
+           {
+            "param": 17,
+            "law": {
+             "type": "table",
+             "points": [
+              [
+               0,
+               0.251188643150958
+              ],
+              [
+               0.5,
+               1
+              ],
+              [
+               1,
+               0.251188643150958
+              ]
+             ],
+             "interp": "log"
+            }
+           },
+           1,
+           1,
+           1,
+           1,
+           1,
+           1,
+           1,
+           1
+          ]
+         }
+        }
+       ]
+      },
+      "gain": {
+       "param": 17,
+       "law": {
+        "type": "linear",
+        "min": -24,
+        "max": 24
+       }
+      },
+      "q": {
+       "param": 18,
+       "law": {
+        "type": "linear",
+        "min": 0.1,
+        "max": 25.6
+       }
+      },
+      "order": {
+       "param": 19,
+       "law": {
+        "type": "steps",
+        "values": [
+         0,
+         2,
+         2,
+         2,
+         1,
+         1,
+         2,
+         2,
+         3,
+         3,
+         4,
+         4
+        ]
+       }
+      },
+      "enable": {
+       "param": 20,
+       "law": {
+        "type": "steps",
+        "values": [
+         1,
+         0
+        ]
+       }
+      },
+      "qMode": "peak",
+      "shelfOrder": 1,
+      "shelfShift": 0
+     }
+    ],
+    "curves": [
+     {
+      "stroke": "#FFFFFF",
+      "width": 1.0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "graph-eq-12",
+   "kind": "graph",
+   "x": 6,
+   "y": 3,
+   "w": 300,
+   "h": 156,
+   "graph": {
+    "type": "eq",
+    "clip": {
+     "x": 22.0,
+     "y": 0,
+     "w": 272.0,
+     "h": 156
+    },
+    "x": {
+     "min": 25,
+     "max": 26000,
+     "log": true,
+     "from": 22.0,
+     "to": 294.0
+    },
+    "y": {
+     "min": -12,
+     "max": 12,
+     "from": 151.5,
+     "to": 7.5
+    },
+    "bands": [
+     {
+      "id": "b1",
+      "filterParam": {
+       "param": 7,
+       "values": [
+        "bypass",
+        "bell",
+        "lowShelf",
+        "highShelf",
+        "lowPass",
+        "highPass",
+        "lowPass",
+        "highPass"
+       ]
+      },
+      "freq": {
+       "product": [
+        {
+         "param": 4,
+         "law": {
+          "type": "log",
+          "min": 10,
+          "max": 40960
+         }
+        },
+        {
+         "select": {
+          "param": 7,
+          "cases": [
+           1,
+           1,
+           {
+            "param": 5,
+            "law": {
+             "type": "table",
+             "points": [
+              [
+               0,
+               3.9810717055349722
+              ],
+              [
+               0.5,
+               1
+              ],
+              [
+               1,
+               3.9810717055349722
+              ]
+             ],
+             "interp": "log"
+            }
+           },
+           {
+            "param": 5,
+            "law": {
+             "type": "table",
+             "points": [
+              [
+               0,
+               0.251188643150958
+              ],
+              [
+               0.5,
+               1
+              ],
+              [
+               1,
+               0.251188643150958
+              ]
+             ],
+             "interp": "log"
+            }
+           },
+           1,
+           1,
+           1,
+           1
+          ]
+         }
+        }
+       ]
+      },
+      "gain": {
+       "param": 5,
+       "law": {
+        "type": "linear",
+        "min": -24,
+        "max": 24
+       }
+      },
+      "q": {
+       "param": 6,
+       "law": {
+        "type": "linear",
+        "min": 0.1,
+        "max": 25.6
+       }
+      },
+      "order": {
+       "param": 7,
+       "law": {
+        "type": "steps",
+        "values": [
+         0,
+         2,
+         2,
+         2,
+         1,
+         1,
+         2,
+         2
+        ]
+       }
+      },
+      "enable": {
+       "param": 8,
+       "law": {
+        "type": "steps",
+        "values": [
+         1,
+         0
+        ]
+       }
+      },
+      "qMode": "peak",
+      "shelfOrder": 1,
+      "shelfShift": 0
+     },
+     {
+      "id": "b2",
+      "filterParam": {
+       "param": 13,
+       "values": [
+        "bypass",
+        "bell",
+        "lowShelf",
+        "highShelf",
+        "lowPass",
+        "highPass",
+        "lowPass",
+        "highPass"
+       ]
+      },
+      "freq": {
+       "product": [
+        {
+         "param": 10,
+         "law": {
+          "type": "log",
+          "min": 10,
+          "max": 40960
+         }
+        },
+        {
+         "select": {
+          "param": 13,
+          "cases": [
+           1,
+           1,
+           {
+            "param": 11,
+            "law": {
+             "type": "table",
+             "points": [
+              [
+               0,
+               3.9810717055349722
+              ],
+              [
+               0.5,
+               1
+              ],
+              [
+               1,
+               3.9810717055349722
+              ]
+             ],
+             "interp": "log"
+            }
+           },
+           {
+            "param": 11,
+            "law": {
+             "type": "table",
+             "points": [
+              [
+               0,
+               0.251188643150958
+              ],
+              [
+               0.5,
+               1
+              ],
+              [
+               1,
+               0.251188643150958
+              ]
+             ],
+             "interp": "log"
+            }
+           },
+           1,
+           1,
+           1,
+           1
+          ]
+         }
+        }
+       ]
+      },
+      "gain": {
+       "param": 11,
+       "law": {
+        "type": "linear",
+        "min": -24,
+        "max": 24
+       }
+      },
+      "q": {
+       "param": 12,
+       "law": {
+        "type": "linear",
+        "min": 0.1,
+        "max": 25.6
+       }
+      },
+      "order": {
+       "param": 13,
+       "law": {
+        "type": "steps",
+        "values": [
+         0,
+         2,
+         2,
+         2,
+         1,
+         1,
+         2,
+         2
+        ]
+       }
+      },
+      "enable": {
+       "param": 14,
+       "law": {
+        "type": "steps",
+        "values": [
+         1,
+         0
+        ]
+       }
+      },
+      "qMode": "peak",
+      "shelfOrder": 1,
+      "shelfShift": 0
+     },
+     {
+      "id": "b3",
+      "filterParam": {
+       "param": 19,
+       "values": [
+        "bypass",
+        "bell",
+        "lowShelf",
+        "highShelf",
+        "lowPass",
+        "highPass",
+        "lowPass",
+        "highPass",
+        "lowPass",
+        "highPass",
+        "lowPass",
+        "highPass"
+       ]
+      },
+      "freq": {
+       "product": [
+        {
+         "param": 16,
+         "law": {
+          "type": "log",
+          "min": 10,
+          "max": 40960
+         }
+        },
+        {
+         "select": {
+          "param": 19,
+          "cases": [
+           1,
+           1,
+           {
+            "param": 17,
+            "law": {
+             "type": "table",
+             "points": [
+              [
+               0,
+               3.9810717055349722
+              ],
+              [
+               0.5,
+               1
+              ],
+              [
+               1,
+               3.9810717055349722
+              ]
+             ],
+             "interp": "log"
+            }
+           },
+           {
+            "param": 17,
+            "law": {
+             "type": "table",
+             "points": [
+              [
+               0,
+               0.251188643150958
+              ],
+              [
+               0.5,
+               1
+              ],
+              [
+               1,
+               0.251188643150958
+              ]
+             ],
+             "interp": "log"
+            }
+           },
+           1,
+           1,
+           1,
+           1,
+           1,
+           1,
+           1,
+           1
+          ]
+         }
+        }
+       ]
+      },
+      "gain": {
+       "param": 17,
+       "law": {
+        "type": "linear",
+        "min": -24,
+        "max": 24
+       }
+      },
+      "q": {
+       "param": 18,
+       "law": {
+        "type": "linear",
+        "min": 0.1,
+        "max": 25.6
+       }
+      },
+      "order": {
+       "param": 19,
+       "law": {
+        "type": "steps",
+        "values": [
+         0,
+         2,
+         2,
+         2,
+         1,
+         1,
+         2,
+         2,
+         3,
+         3,
+         4,
+         4
+        ]
+       }
+      },
+      "enable": {
+       "param": 20,
+       "law": {
+        "type": "steps",
+        "values": [
+         1,
+         0
+        ]
+       }
+      },
+      "qMode": "peak",
+      "shelfOrder": 1,
+      "shelfShift": 0
+     }
+    ],
+    "curves": [
+     {
+      "stroke": "#FFFFFF",
+      "width": 1.0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "graph-eq-24",
+   "kind": "graph",
+   "x": 6,
+   "y": 3,
+   "w": 300,
+   "h": 156,
+   "graph": {
+    "type": "eq",
+    "clip": {
+     "x": 22.0,
+     "y": 0,
+     "w": 272.0,
+     "h": 156
+    },
+    "x": {
+     "min": 25,
+     "max": 26000,
+     "log": true,
+     "from": 22.0,
+     "to": 294.0
+    },
+    "y": {
+     "min": -24,
+     "max": 24,
+     "from": 151.5,
+     "to": 7.5
+    },
+    "bands": [
+     {
+      "id": "b1",
+      "filterParam": {
+       "param": 7,
+       "values": [
+        "bypass",
+        "bell",
+        "lowShelf",
+        "highShelf",
+        "lowPass",
+        "highPass",
+        "lowPass",
+        "highPass"
+       ]
+      },
+      "freq": {
+       "product": [
+        {
+         "param": 4,
+         "law": {
+          "type": "log",
+          "min": 10,
+          "max": 40960
+         }
+        },
+        {
+         "select": {
+          "param": 7,
+          "cases": [
+           1,
+           1,
+           {
+            "param": 5,
+            "law": {
+             "type": "table",
+             "points": [
+              [
+               0,
+               3.9810717055349722
+              ],
+              [
+               0.5,
+               1
+              ],
+              [
+               1,
+               3.9810717055349722
+              ]
+             ],
+             "interp": "log"
+            }
+           },
+           {
+            "param": 5,
+            "law": {
+             "type": "table",
+             "points": [
+              [
+               0,
+               0.251188643150958
+              ],
+              [
+               0.5,
+               1
+              ],
+              [
+               1,
+               0.251188643150958
+              ]
+             ],
+             "interp": "log"
+            }
+           },
+           1,
+           1,
+           1,
+           1
+          ]
+         }
+        }
+       ]
+      },
+      "gain": {
+       "param": 5,
+       "law": {
+        "type": "linear",
+        "min": -24,
+        "max": 24
+       }
+      },
+      "q": {
+       "param": 6,
+       "law": {
+        "type": "linear",
+        "min": 0.1,
+        "max": 25.6
+       }
+      },
+      "order": {
+       "param": 7,
+       "law": {
+        "type": "steps",
+        "values": [
+         0,
+         2,
+         2,
+         2,
+         1,
+         1,
+         2,
+         2
+        ]
+       }
+      },
+      "enable": {
+       "param": 8,
+       "law": {
+        "type": "steps",
+        "values": [
+         1,
+         0
+        ]
+       }
+      },
+      "qMode": "peak",
+      "shelfOrder": 1,
+      "shelfShift": 0
+     },
+     {
+      "id": "b2",
+      "filterParam": {
+       "param": 13,
+       "values": [
+        "bypass",
+        "bell",
+        "lowShelf",
+        "highShelf",
+        "lowPass",
+        "highPass",
+        "lowPass",
+        "highPass"
+       ]
+      },
+      "freq": {
+       "product": [
+        {
+         "param": 10,
+         "law": {
+          "type": "log",
+          "min": 10,
+          "max": 40960
+         }
+        },
+        {
+         "select": {
+          "param": 13,
+          "cases": [
+           1,
+           1,
+           {
+            "param": 11,
+            "law": {
+             "type": "table",
+             "points": [
+              [
+               0,
+               3.9810717055349722
+              ],
+              [
+               0.5,
+               1
+              ],
+              [
+               1,
+               3.9810717055349722
+              ]
+             ],
+             "interp": "log"
+            }
+           },
+           {
+            "param": 11,
+            "law": {
+             "type": "table",
+             "points": [
+              [
+               0,
+               0.251188643150958
+              ],
+              [
+               0.5,
+               1
+              ],
+              [
+               1,
+               0.251188643150958
+              ]
+             ],
+             "interp": "log"
+            }
+           },
+           1,
+           1,
+           1,
+           1
+          ]
+         }
+        }
+       ]
+      },
+      "gain": {
+       "param": 11,
+       "law": {
+        "type": "linear",
+        "min": -24,
+        "max": 24
+       }
+      },
+      "q": {
+       "param": 12,
+       "law": {
+        "type": "linear",
+        "min": 0.1,
+        "max": 25.6
+       }
+      },
+      "order": {
+       "param": 13,
+       "law": {
+        "type": "steps",
+        "values": [
+         0,
+         2,
+         2,
+         2,
+         1,
+         1,
+         2,
+         2
+        ]
+       }
+      },
+      "enable": {
+       "param": 14,
+       "law": {
+        "type": "steps",
+        "values": [
+         1,
+         0
+        ]
+       }
+      },
+      "qMode": "peak",
+      "shelfOrder": 1,
+      "shelfShift": 0
+     },
+     {
+      "id": "b3",
+      "filterParam": {
+       "param": 19,
+       "values": [
+        "bypass",
+        "bell",
+        "lowShelf",
+        "highShelf",
+        "lowPass",
+        "highPass",
+        "lowPass",
+        "highPass",
+        "lowPass",
+        "highPass",
+        "lowPass",
+        "highPass"
+       ]
+      },
+      "freq": {
+       "product": [
+        {
+         "param": 16,
+         "law": {
+          "type": "log",
+          "min": 10,
+          "max": 40960
+         }
+        },
+        {
+         "select": {
+          "param": 19,
+          "cases": [
+           1,
+           1,
+           {
+            "param": 17,
+            "law": {
+             "type": "table",
+             "points": [
+              [
+               0,
+               3.9810717055349722
+              ],
+              [
+               0.5,
+               1
+              ],
+              [
+               1,
+               3.9810717055349722
+              ]
+             ],
+             "interp": "log"
+            }
+           },
+           {
+            "param": 17,
+            "law": {
+             "type": "table",
+             "points": [
+              [
+               0,
+               0.251188643150958
+              ],
+              [
+               0.5,
+               1
+              ],
+              [
+               1,
+               0.251188643150958
+              ]
+             ],
+             "interp": "log"
+            }
+           },
+           1,
+           1,
+           1,
+           1,
+           1,
+           1,
+           1,
+           1
+          ]
+         }
+        }
+       ]
+      },
+      "gain": {
+       "param": 17,
+       "law": {
+        "type": "linear",
+        "min": -24,
+        "max": 24
+       }
+      },
+      "q": {
+       "param": 18,
+       "law": {
+        "type": "linear",
+        "min": 0.1,
+        "max": 25.6
+       }
+      },
+      "order": {
+       "param": 19,
+       "law": {
+        "type": "steps",
+        "values": [
+         0,
+         2,
+         2,
+         2,
+         1,
+         1,
+         2,
+         2,
+         3,
+         3,
+         4,
+         4
+        ]
+       }
+      },
+      "enable": {
+       "param": 20,
+       "law": {
+        "type": "steps",
+        "values": [
+         1,
+         0
+        ]
+       }
+      },
+      "qMode": "peak",
+      "shelfOrder": 1,
+      "shelfShift": 0
+     }
+    ],
+    "curves": [
+     {
+      "stroke": "#FFFFFF",
+      "width": 1.0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "b1-freq",
+   "kind": "knob",
+   "x": 338,
+   "y": 5,
+   "w": 64,
+   "h": 62,
+   "sprite": "K_MDW3_knob_grey",
+   "frames": 64,
+   "param": 4
+  },
+  {
+   "id": "b1-freq-value",
+   "kind": "text",
+   "x": 346,
+   "y": 29,
+   "w": 48,
+   "h": 14,
+   "param": 4,
+   "text": {
+    "size": 10,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "semibold",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "b1-gain",
+   "kind": "knob",
+   "x": 338,
+   "y": 104,
+   "w": 64,
+   "h": 62,
+   "sprite": "K_MDW3_knob_grey",
+   "frames": 64,
+   "param": 5
+  },
+  {
+   "id": "b1-gain-value",
+   "kind": "text",
+   "x": 346,
+   "y": 128,
+   "w": 48,
+   "h": 14,
+   "param": 5,
+   "text": {
+    "size": 10,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "semibold",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "b1-q",
+   "kind": "knob",
+   "x": 316,
+   "y": 65,
+   "w": 40,
+   "h": 38,
+   "sprite": "K_MDW3_qknob_grey",
+   "frames": 64,
+   "param": 6,
+   "visibility": {
+    "params": [
+     7
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.142857
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.285714
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.428571
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.571429
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.714286
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.857143
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "b1-q-value",
+   "kind": "text",
+   "x": 360,
+   "y": 80,
+   "w": 26,
+   "h": 14,
+   "param": 6,
+   "text": {
+    "size": 9,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "semibold",
+    "monospaced": false
+   },
+   "visibility": {
+    "params": [
+     7
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.142857
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.285714
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.428571
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.571429
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.714286
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.857143
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "b1-in",
+   "kind": "switch",
+   "x": 386,
+   "y": 68,
+   "w": 35,
+   "h": 31,
+   "sprite": "K_MDW3_inout_grey",
+   "frames": 2,
+   "param": 8
+  },
+  {
+   "id": "b1-type",
+   "kind": "image",
+   "x": 319,
+   "y": 168,
+   "w": 75,
+   "h": 24,
+   "sprite": "K_MDW3_menu_grey"
+  },
+  {
+   "id": "b1-type-menu",
+   "kind": "menu",
+   "x": 319,
+   "y": 168,
+   "w": 66,
+   "h": 24,
+   "param": 7,
+   "text": {
+    "size": 11,
+    "color": "#FFFFFF",
+    "align": "left",
+    "weight": "semibold",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "b1-solo",
+   "kind": "zone",
+   "x": 398,
+   "y": 169,
+   "w": 23,
+   "h": 23,
+   "action": {
+    "type": "toggle",
+    "param": 9
+   }
+  },
+  {
+   "id": "b2-freq",
+   "kind": "knob",
+   "x": 459,
+   "y": 5,
+   "w": 64,
+   "h": 62,
+   "sprite": "K_MDW3_knob_grey",
+   "frames": 64,
+   "param": 10
+  },
+  {
+   "id": "b2-freq-value",
+   "kind": "text",
+   "x": 467,
+   "y": 29,
+   "w": 48,
+   "h": 14,
+   "param": 10,
+   "text": {
+    "size": 10,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "semibold",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "b2-gain",
+   "kind": "knob",
+   "x": 459,
+   "y": 104,
+   "w": 64,
+   "h": 62,
+   "sprite": "K_MDW3_knob_grey",
+   "frames": 64,
+   "param": 11
+  },
+  {
+   "id": "b2-gain-value",
+   "kind": "text",
+   "x": 467,
+   "y": 128,
+   "w": 48,
+   "h": 14,
+   "param": 11,
+   "text": {
+    "size": 10,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "semibold",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "b2-q",
+   "kind": "knob",
+   "x": 437,
+   "y": 65,
+   "w": 40,
+   "h": 38,
+   "sprite": "K_MDW3_qknob_grey",
+   "frames": 64,
+   "param": 12,
+   "visibility": {
+    "params": [
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.142857
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.285714
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.428571
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.571429
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.714286
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.857143
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "b2-q-value",
+   "kind": "text",
+   "x": 481,
+   "y": 80,
+   "w": 26,
+   "h": 14,
+   "param": 12,
+   "text": {
+    "size": 9,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "semibold",
+    "monospaced": false
+   },
+   "visibility": {
+    "params": [
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.142857
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.285714
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.428571
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.571429
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.714286
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.857143
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "b2-in",
+   "kind": "switch",
+   "x": 507,
+   "y": 68,
+   "w": 35,
+   "h": 31,
+   "sprite": "K_MDW3_inout_grey",
+   "frames": 2,
+   "param": 14
+  },
+  {
+   "id": "b2-type",
+   "kind": "image",
+   "x": 440,
+   "y": 168,
+   "w": 75,
+   "h": 24,
+   "sprite": "K_MDW3_menu_grey"
+  },
+  {
+   "id": "b2-type-menu",
+   "kind": "menu",
+   "x": 440,
+   "y": 168,
+   "w": 66,
+   "h": 24,
+   "param": 13,
+   "text": {
+    "size": 11,
+    "color": "#FFFFFF",
+    "align": "left",
+    "weight": "semibold",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "b2-solo",
+   "kind": "zone",
+   "x": 519,
+   "y": 169,
+   "w": 23,
+   "h": 23,
+   "action": {
+    "type": "toggle",
+    "param": 15
+   }
+  },
+  {
+   "id": "b3-freq",
+   "kind": "knob",
+   "x": 580,
+   "y": 5,
+   "w": 64,
+   "h": 62,
+   "sprite": "K_MDW3_knob_grey",
+   "frames": 64,
+   "param": 16
+  },
+  {
+   "id": "b3-freq-value",
+   "kind": "text",
+   "x": 588,
+   "y": 29,
+   "w": 48,
+   "h": 14,
+   "param": 16,
+   "text": {
+    "size": 10,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "semibold",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "b3-gain",
+   "kind": "knob",
+   "x": 580,
+   "y": 104,
+   "w": 64,
+   "h": 62,
+   "sprite": "K_MDW3_knob_grey",
+   "frames": 64,
+   "param": 17
+  },
+  {
+   "id": "b3-gain-value",
+   "kind": "text",
+   "x": 588,
+   "y": 128,
+   "w": 48,
+   "h": 14,
+   "param": 17,
+   "text": {
+    "size": 10,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "semibold",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "b3-q",
+   "kind": "knob",
+   "x": 558,
+   "y": 65,
+   "w": 40,
+   "h": 38,
+   "sprite": "K_MDW3_qknob_grey",
+   "frames": 64,
+   "param": 18,
+   "visibility": {
+    "params": [
+     19
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.090909
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.181818
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.272727
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.363636
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.454545
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.545455
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.636364
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.727273
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.818182
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.909091
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "b3-q-value",
+   "kind": "text",
+   "x": 602,
+   "y": 80,
+   "w": 26,
+   "h": 14,
+   "param": 18,
+   "text": {
+    "size": 9,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "semibold",
+    "monospaced": false
+   },
+   "visibility": {
+    "params": [
+     19
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.090909
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.181818
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.272727
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.363636
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.454545
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.545455
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.636364
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.727273
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.818182
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.909091
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "b3-in",
+   "kind": "switch",
+   "x": 628,
+   "y": 68,
+   "w": 35,
+   "h": 31,
+   "sprite": "K_MDW3_inout_grey",
+   "frames": 2,
+   "param": 20
+  },
+  {
+   "id": "b3-type",
+   "kind": "image",
+   "x": 561,
+   "y": 168,
+   "w": 75,
+   "h": 24,
+   "sprite": "K_MDW3_menu_grey"
+  },
+  {
+   "id": "b3-type-menu",
+   "kind": "menu",
+   "x": 561,
+   "y": 168,
+   "w": 66,
+   "h": 24,
+   "param": 19,
+   "text": {
+    "size": 11,
+    "color": "#FFFFFF",
+    "align": "left",
+    "weight": "semibold",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "b3-solo",
+   "kind": "zone",
+   "x": 640,
+   "y": 169,
+   "w": 23,
+   "h": 23,
+   "action": {
+    "type": "toggle",
+    "param": 21
+   }
+  },
+  {
+   "id": "in-lvl",
+   "kind": "image",
+   "x": 16,
+   "y": 166,
+   "w": 79,
+   "h": 22,
+   "sprite": "MDW3_inlvl"
+  },
+  {
+   "id": "in-lvl-value",
+   "kind": "text",
+   "x": 57,
+   "y": 170,
+   "w": 34,
+   "h": 14,
+   "param": 0,
+   "text": {
+    "size": 10,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "semibold",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "in-lvl-drag",
+   "kind": "zone",
+   "x": 55,
+   "y": 166,
+   "w": 40,
+   "h": 22,
+   "gesture": "drag",
+   "param": 0
+  },
+  {
+   "id": "phase",
+   "kind": "switch",
+   "x": 94,
+   "y": 167,
+   "w": 30,
+   "h": 24,
+   "sprite": "MDW3_phase",
+   "frames": 2,
+   "param": 2
+  },
+  {
+   "id": "power",
+   "kind": "switch",
+   "x": 126,
+   "y": 168,
+   "w": 69,
+   "h": 25,
+   "sprite": "MDW3_power",
+   "frames": 2,
+   "param": 3
+  },
+  {
+   "id": "a-to-b",
+   "kind": "image",
+   "x": 263,
+   "y": 168,
+   "w": 39,
+   "h": 25,
+   "sprite": "MDW3_atob"
+  },
+  {
+   "id": "k-solo-grey-1",
+   "kind": "image",
+   "x": 313,
+   "y": 0,
+   "w": 121,
+   "h": 200,
+   "sprite": "K_MDW3_solo_grey1",
+   "visibility": {
+    "params": [
+     9,
+     15,
+     21
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "k-solo-grey-2",
+   "kind": "image",
+   "x": 434,
+   "y": 0,
+   "w": 121,
+   "h": 200,
+   "sprite": "K_MDW3_solo_grey2",
+   "visibility": {
+    "params": [
+     9,
+     15,
+     21
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "k-solo-grey-3",
+   "kind": "image",
+   "x": 555,
+   "y": 0,
+   "w": 121,
+   "h": 200,
+   "sprite": "K_MDW3_solo_grey3",
+   "visibility": {
+    "params": [
+     9,
+     15,
+     21
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-snap-a",
+   "kind": "button",
+   "x": 196,
+   "y": 168,
+   "w": 67,
+   "h": 25,
+   "sprite": "Q_MDW_snapA",
+   "frames": 2,
+   "action": {
+    "type": "snapshot",
+    "op": "switch",
+    "state": "snap",
+    "value": 1,
+    "slots": [
+     "A",
+     "B"
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "snap"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-snap-b",
+   "kind": "button",
+   "x": 196,
+   "y": 168,
+   "w": 67,
+   "h": 25,
+   "sprite": "Q_MDW_snapB",
+   "frames": 2,
+   "action": {
+    "type": "snapshot",
+    "op": "switch",
+    "state": "snap",
+    "value": 0,
+    "slots": [
+     "A",
+     "B"
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "snap"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-snap-atob",
+   "kind": "button",
+   "x": 263,
+   "y": 168,
+   "w": 39,
+   "h": 25,
+   "sprite": "Q_MDW_AtoB",
+   "frames": 2,
+   "action": {
+    "type": "snapshot",
+    "op": "store",
+    "slot": "B"
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "snap"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-snap-btoa",
+   "kind": "button",
+   "x": 263,
+   "y": 168,
+   "w": 39,
+   "h": 25,
+   "sprite": "Q_MDW_BtoA",
+   "frames": 2,
+   "action": {
+    "type": "snapshot",
+    "op": "store",
+    "slot": "A"
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "snap"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  }
+ ],
+ "states": {
+  "snap": 0
+ }
+}

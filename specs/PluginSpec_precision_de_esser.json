@@ -1,0 +1,610 @@
+{
+ "schema": 2,
+ "effectName": "UAD Precision De-Esser",
+ "namePattern": "Precision De-Esser",
+ "size": {
+  "w": 720,
+  "h": 65
+ },
+ "background": "precision_de_esser_5600",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Thresh",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Speed",
+   "steps": [
+    "Slow",
+    "Fast"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 2,
+   "name": "Freq",
+   "steps": null,
+   "default": 0.321380615234375
+  },
+  {
+   "index": 3,
+   "name": "Solo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Width",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 5,
+   "name": "Split",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "switch-1-power",
+   "kind": "switch",
+   "x": 630,
+   "y": 4,
+   "w": 54,
+   "h": 34,
+   "sprite": "precision_de_esser_5510_1",
+   "frames": 2,
+   "param": 6,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-2-power",
+   "x": 640,
+   "y": 40,
+   "w": 38,
+   "h": 24,
+   "sprite": "precision_de_esser_4207",
+   "frames": 2,
+   "kind": "switch",
+   "param": 6,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-3-thresh",
+   "x": 40,
+   "y": 9,
+   "w": 46,
+   "h": 48,
+   "sprite": "precision_de_esser_5601",
+   "frames": 41,
+   "kind": "knob",
+   "param": 0,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   },
+   "reverse": true
+  },
+  {
+   "id": "knob-4-freq",
+   "x": 171,
+   "y": 9,
+   "w": 46,
+   "h": 48,
+   "sprite": "precision_de_esser_5601",
+   "frames": 41,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "knob-5-width",
+   "x": 292,
+   "y": 9,
+   "w": 46,
+   "h": 48,
+   "sprite": "precision_de_esser_5602",
+   "frames": 46,
+   "kind": "knob",
+   "param": 4
+  },
+  {
+   "id": "switch-6-solo",
+   "kind": "switch",
+   "x": 235,
+   "y": 37,
+   "w": 24,
+   "h": 24,
+   "sprite": "precision_de_esser_5608_5",
+   "frames": 2,
+   "param": 3,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-7-speed",
+   "kind": "switch",
+   "x": 85,
+   "y": 41,
+   "w": 31,
+   "h": 19,
+   "sprite": "precision_de_esser_5604_6",
+   "frames": 1,
+   "param": 1,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-8-speed",
+   "x": 116,
+   "y": 40,
+   "w": 21,
+   "h": 20,
+   "sprite": "precision_de_esser_5603",
+   "frames": 2,
+   "kind": "switch",
+   "param": 1,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-9-speed",
+   "x": 137,
+   "y": 42,
+   "w": 18,
+   "h": 7,
+   "sprite": "precision_de_esser_5605_8",
+   "frames": 2,
+   "kind": "switch",
+   "param": 1,
+   "orientation": "vertical",
+   "reverse": true
+  },
+  {
+   "id": "switch-10-split",
+   "kind": "switch",
+   "x": 338,
+   "y": 41,
+   "w": 31,
+   "h": 19,
+   "sprite": "precision_de_esser_5606_9",
+   "frames": 1,
+   "param": 5,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-11-split",
+   "x": 369,
+   "y": 40,
+   "w": 21,
+   "h": 20,
+   "sprite": "precision_de_esser_5603",
+   "frames": 2,
+   "kind": "switch",
+   "param": 5,
+   "orientation": "vertical",
+   "reverse": true
+  },
+  {
+   "id": "switch-12-split",
+   "x": 390,
+   "y": 42,
+   "w": 12,
+   "h": 7,
+   "sprite": "precision_de_esser_5607_10",
+   "frames": 2,
+   "kind": "switch",
+   "param": 5,
+   "orientation": "vertical"
+  },
+  {
+   "id": "text-13-thresh",
+   "kind": "text",
+   "x": 91,
+   "y": 22,
+   "w": 47,
+   "h": 13,
+   "param": 0,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "text-14-freq",
+   "kind": "text",
+   "x": 223,
+   "y": 22,
+   "w": 47,
+   "h": 13,
+   "param": 2,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "text-15-width",
+   "kind": "text",
+   "x": 344,
+   "y": 22,
+   "w": 47,
+   "h": 13,
+   "param": 4,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "P-meter-gr",
+   "kind": "filmstrip",
+   "x": 418,
+   "y": 20,
+   "w": 109,
+   "h": 15,
+   "sprite": "P_precision_de_esser_m_gr_rev",
+   "frames": 37,
+   "frameSource": {
+    "type": "meter",
+    "meter": "pdes_gr"
+   }
+  },
+  {
+   "id": "P-meter-gr_hold",
+   "kind": "filmstrip",
+   "x": 418,
+   "y": 20,
+   "w": 108,
+   "h": 15,
+   "sprite": "P_precision_de_esser_m_gr_hold_rev",
+   "frames": 37,
+   "frameSource": {
+    "type": "meter",
+    "meter": "pdes_gr_hold"
+   }
+  }
+ ],
+ "meterSources": {
+  "pdes_gr": {
+   "vendorSpecificFloat": 97,
+   "calibration": [
+    [
+     1e-06,
+     1.0
+    ],
+    [
+     0.0635,
+     0.972222
+    ],
+    [
+     0.0725,
+     0.944444
+    ],
+    [
+     0.0925,
+     0.916667
+    ],
+    [
+     0.11885022274370183,
+     0.888889
+    ],
+    [
+     0.1525,
+     0.861111
+    ],
+    [
+     0.1855,
+     0.833333
+    ],
+    [
+     0.2075,
+     0.805556
+    ],
+    [
+     0.232,
+     0.777778
+    ],
+    [
+     0.2595,
+     0.75
+    ],
+    [
+     0.2905,
+     0.722222
+    ],
+    [
+     0.3215,
+     0.694444
+    ],
+    [
+     0.3435,
+     0.666667
+    ],
+    [
+     0.3675,
+     0.638889
+    ],
+    [
+     0.393,
+     0.611111
+    ],
+    [
+     0.4205,
+     0.583333
+    ],
+    [
+     0.4485,
+     0.555556
+    ],
+    [
+     0.469,
+     0.527778
+    ],
+    [
+     0.4905,
+     0.5
+    ],
+    [
+     0.513,
+     0.472222
+    ],
+    [
+     0.5365,
+     0.444444
+    ],
+    [
+     0.561,
+     0.416667
+    ],
+    [
+     0.587,
+     0.388889
+    ],
+    [
+     0.6135,
+     0.361111
+    ],
+    [
+     0.642,
+     0.333333
+    ],
+    [
+     0.671,
+     0.305556
+    ],
+    [
+     0.702,
+     0.277778
+    ],
+    [
+     0.7265,
+     0.25
+    ],
+    [
+     0.75,
+     0.222222
+    ],
+    [
+     0.7745,
+     0.194444
+    ],
+    [
+     0.7995,
+     0.166667
+    ],
+    [
+     0.8255,
+     0.138889
+    ],
+    [
+     0.8525,
+     0.111111
+    ],
+    [
+     0.88,
+     0.083333
+    ],
+    [
+     0.909,
+     0.055556
+    ],
+    [
+     0.9385,
+     0.027778
+    ],
+    [
+     0.9685,
+     0.0
+    ],
+    [
+     2.0,
+     0.0
+    ]
+   ],
+   "smoothing": 0.3
+  },
+  "pdes_gr_hold": {
+   "vendorSpecificFloat": 100,
+   "calibration": [
+    [
+     1e-06,
+     1.0
+    ],
+    [
+     0.0635,
+     0.972222
+    ],
+    [
+     0.0725,
+     0.944444
+    ],
+    [
+     0.0925,
+     0.916667
+    ],
+    [
+     0.11885022274370183,
+     0.888889
+    ],
+    [
+     0.1525,
+     0.861111
+    ],
+    [
+     0.1855,
+     0.833333
+    ],
+    [
+     0.2075,
+     0.805556
+    ],
+    [
+     0.232,
+     0.777778
+    ],
+    [
+     0.2595,
+     0.75
+    ],
+    [
+     0.2905,
+     0.722222
+    ],
+    [
+     0.3215,
+     0.694444
+    ],
+    [
+     0.3435,
+     0.666667
+    ],
+    [
+     0.3675,
+     0.638889
+    ],
+    [
+     0.393,
+     0.611111
+    ],
+    [
+     0.4205,
+     0.583333
+    ],
+    [
+     0.4485,
+     0.555556
+    ],
+    [
+     0.469,
+     0.527778
+    ],
+    [
+     0.4905,
+     0.5
+    ],
+    [
+     0.513,
+     0.472222
+    ],
+    [
+     0.5365,
+     0.444444
+    ],
+    [
+     0.561,
+     0.416667
+    ],
+    [
+     0.587,
+     0.388889
+    ],
+    [
+     0.6135,
+     0.361111
+    ],
+    [
+     0.642,
+     0.333333
+    ],
+    [
+     0.671,
+     0.305556
+    ],
+    [
+     0.702,
+     0.277778
+    ],
+    [
+     0.7265,
+     0.25
+    ],
+    [
+     0.75,
+     0.222222
+    ],
+    [
+     0.7745,
+     0.194444
+    ],
+    [
+     0.7995,
+     0.166667
+    ],
+    [
+     0.8255,
+     0.138889
+    ],
+    [
+     0.8525,
+     0.111111
+    ],
+    [
+     0.88,
+     0.083333
+    ],
+    [
+     0.909,
+     0.055556
+    ],
+    [
+     0.9385,
+     0.027778
+    ],
+    [
+     0.9685,
+     0.0
+    ],
+    [
+     2.0,
+     0.0
+    ]
+   ],
+   "smoothing": 0.3
+  }
+ }
+}

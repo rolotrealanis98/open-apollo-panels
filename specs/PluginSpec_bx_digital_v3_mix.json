@@ -1,0 +1,3202 @@
+{
+ "schema": 2,
+ "effectName": "UAD bx_digital V3 mix",
+ "namePattern": "bx_digital V3 mix",
+ "size": {
+  "w": 424,
+  "h": 654
+ },
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Bypass",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Bank",
+   "steps": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "InGain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "OutGain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "PhaseRev",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "ALActive",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 6,
+   "name": "ALMode",
+   "steps": [
+    "Q - -",
+    "- f -",
+    "- - G",
+    "Q f -",
+    "Q - G",
+    "- f G",
+    "Q f G"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 7,
+   "name": "EQActive",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 8,
+   "name": "GSAmnt",
+   "steps": null,
+   "default": 0.75
+  },
+  {
+   "index": 9,
+   "name": "GSclActv",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 10,
+   "name": "Prop Q",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "HPSlope",
+   "steps": [
+    "Off",
+    "6 dB",
+    "12 dB"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "HPassFrq",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "LPSlope",
+   "steps": [
+    "Off",
+    "6 dB",
+    "12 dB"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 14,
+   "name": "LPassFrq",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 15,
+   "name": "LF Type",
+   "steps": [
+    "Peak",
+    "LowShelf"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 16,
+   "name": "LF Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 17,
+   "name": "EQ LF Q",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 18,
+   "name": "LF Freq",
+   "steps": null,
+   "default": 0.3494850099086761
+  },
+  {
+   "index": 19,
+   "name": "LFActv",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 20,
+   "name": "LMF Type",
+   "steps": [
+    "Peak",
+    "Notch"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 21,
+   "name": "LMF Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 22,
+   "name": "EQ LMF Q",
+   "steps": null,
+   "default": 0.3197590112686157
+  },
+  {
+   "index": 23,
+   "name": "LMF Freq",
+   "steps": null,
+   "default": 0.5986402630805969
+  },
+  {
+   "index": 24,
+   "name": "LMFActv",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 25,
+   "name": "MF Type",
+   "steps": [
+    "Peak",
+    "Notch"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 26,
+   "name": "MF Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 27,
+   "name": "EQ MF Q",
+   "steps": null,
+   "default": 0.4938721358776093
+  },
+  {
+   "index": 28,
+   "name": "MF Freq",
+   "steps": null,
+   "default": 0.7224586606025696
+  },
+  {
+   "index": 29,
+   "name": "MFActv",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 30,
+   "name": "HMF Type",
+   "steps": [
+    "Peak",
+    "Notch"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 31,
+   "name": "HMF Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 32,
+   "name": "EQ HMF Q",
+   "steps": null,
+   "default": 0.5957217812538147
+  },
+  {
+   "index": 33,
+   "name": "HMF Freq",
+   "steps": null,
+   "default": 0.6673137545585632
+  },
+  {
+   "index": 34,
+   "name": "HMFActv",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 35,
+   "name": "HF Type",
+   "steps": [
+    "Peak",
+    "HiShelf"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 36,
+   "name": "HF Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 37,
+   "name": "EQ HF Q",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 38,
+   "name": "HF Freq",
+   "steps": null,
+   "default": 0.5981040000915527
+  },
+  {
+   "index": 39,
+   "name": "HFActv",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 40,
+   "name": "BSTone",
+   "steps": [
+    "A",
+    "B",
+    "C"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 41,
+   "name": "BSGn",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 42,
+   "name": "BSActv",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 43,
+   "name": "PSTone",
+   "steps": [
+    "A",
+    "B",
+    "C"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 44,
+   "name": "PSGn",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 45,
+   "name": "PSActv",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 46,
+   "name": "DyEQPos",
+   "steps": [
+    "Pre EQ",
+    "Post EQ"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 47,
+   "name": "DyEQRng",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 48,
+   "name": "DynEQFrq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 49,
+   "name": "DyEQSpd",
+   "steps": [
+    "Slow",
+    "Fast"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 50,
+   "name": "DyEQSolo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 51,
+   "name": "DyEQActv",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "chrome-panel",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 424,
+   "h": 630,
+   "sprite": "bx_digital_v3_mix__BACKGROUNDMIX"
+  },
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 424,
+   "h": 24,
+   "toolbar": {
+    "family": "brainworx",
+    "items": [
+     {
+      "type": "switch",
+      "x": 0.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.power",
+      "frames": 2,
+      "param": 0,
+      "glyph": "power",
+      "invert": true
+     },
+     {
+      "type": "icon",
+      "x": 50.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.undo",
+      "frames": 2,
+      "glyph": "undo"
+     },
+     {
+      "type": "icon",
+      "x": 74.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.redo",
+      "frames": 2,
+      "glyph": "redo"
+     },
+     {
+      "type": "bank",
+      "x": 122.0,
+      "y": 0,
+      "w": 96.0,
+      "h": 24,
+      "sprite": "chrome.bx.bank",
+      "frames": 2,
+      "param": 1,
+      "cells": 4,
+      "glyph": "ABCD"
+     },
+     {
+      "type": "icon",
+      "x": 242.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.copy",
+      "frames": 2,
+      "glyph": "Copy"
+     },
+     {
+      "type": "icon",
+      "x": 294.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.paste",
+      "frames": 2,
+      "glyph": "Paste"
+     },
+     {
+      "type": "icon",
+      "x": 358.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.reset",
+      "frames": 2,
+      "glyph": "Reset"
+     }
+    ]
+   }
+  },
+  {
+   "id": "hpslope-led",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v3_mix__HPFILTER",
+   "frames": 3,
+   "x": 85.0,
+   "y": 27.0,
+   "w": 32.0,
+   "h": 12.0,
+   "frameSource": {
+    "type": "param",
+    "param": 11
+   }
+  },
+  {
+   "id": "hpslope-zone",
+   "kind": "zone",
+   "action": {
+    "type": "toggle",
+    "param": 11
+   },
+   "x": 85.0,
+   "y": 27.0,
+   "w": 32.0,
+   "h": 12.0
+  },
+  {
+   "id": "lpslope-led",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v3_mix__LPFILTER",
+   "frames": 3,
+   "x": 307.0,
+   "y": 27.0,
+   "w": 32.0,
+   "h": 12.0,
+   "frameSource": {
+    "type": "param",
+    "param": 13
+   }
+  },
+  {
+   "id": "lpslope-zone",
+   "kind": "zone",
+   "action": {
+    "type": "toggle",
+    "param": 13
+   },
+   "x": 307.0,
+   "y": 27.0,
+   "w": 32.0,
+   "h": 12.0
+  },
+  {
+   "id": "hpassfrq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBSMALL",
+   "frames": 61,
+   "param": 12,
+   "x": 70.0,
+   "y": 31.0,
+   "w": 62.0,
+   "h": 62.0
+  },
+  {
+   "id": "hpassfrq-text",
+   "kind": "text",
+   "param": 12,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 78.0,
+   "y": 80.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "lpassfrq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBSMALL",
+   "frames": 61,
+   "param": 14,
+   "x": 292.0,
+   "y": 31.0,
+   "w": 62.0,
+   "h": 62.0
+  },
+  {
+   "id": "lpassfrq-text",
+   "kind": "text",
+   "param": 14,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 300.0,
+   "y": 80.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "lfgain-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBBIG",
+   "frames": 61,
+   "param": 16,
+   "x": 19.0,
+   "y": 83.0,
+   "w": 90.0,
+   "h": 90.0
+  },
+  {
+   "id": "lfgain-text",
+   "kind": "text",
+   "param": 16,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 41.0,
+   "y": 156.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "lmfgain-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBCLICKBIG",
+   "frames": 61,
+   "param": 21,
+   "x": 93.0,
+   "y": 83.0,
+   "w": 90.0,
+   "h": 90.0
+  },
+  {
+   "id": "mfgain-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBCLICKBIG",
+   "frames": 61,
+   "param": 26,
+   "x": 167.0,
+   "y": 83.0,
+   "w": 90.0,
+   "h": 90.0
+  },
+  {
+   "id": "hmfgain-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBCLICKBIG",
+   "frames": 61,
+   "param": 31,
+   "x": 241.0,
+   "y": 83.0,
+   "w": 90.0,
+   "h": 90.0
+  },
+  {
+   "id": "hfgain-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBBIG",
+   "frames": 61,
+   "param": 36,
+   "x": 315.0,
+   "y": 83.0,
+   "w": 90.0,
+   "h": 90.0
+  },
+  {
+   "id": "hfgain-text",
+   "kind": "text",
+   "param": 36,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 337.0,
+   "y": 156.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "eqlfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBCLICKSMALL",
+   "frames": 61,
+   "param": 17,
+   "x": 33.0,
+   "y": 161.0,
+   "w": 62.0,
+   "h": 62.0
+  },
+  {
+   "id": "eqlmfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBSMALL",
+   "frames": 61,
+   "param": 22,
+   "x": 107.0,
+   "y": 161.0,
+   "w": 62.0,
+   "h": 62.0
+  },
+  {
+   "id": "eqlmfq-text",
+   "kind": "text",
+   "param": 22,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 115.0,
+   "y": 214.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "eqmfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBSMALL",
+   "frames": 61,
+   "param": 27,
+   "x": 181.0,
+   "y": 161.0,
+   "w": 62.0,
+   "h": 62.0
+  },
+  {
+   "id": "eqmfq-text",
+   "kind": "text",
+   "param": 27,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 189.0,
+   "y": 214.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "eqhmfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBSMALL",
+   "frames": 61,
+   "param": 32,
+   "x": 255.0,
+   "y": 161.0,
+   "w": 62.0,
+   "h": 62.0
+  },
+  {
+   "id": "eqhmfq-text",
+   "kind": "text",
+   "param": 32,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 263.0,
+   "y": 214.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "eqhfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBCLICKSMALL",
+   "frames": 61,
+   "param": 37,
+   "x": 329.0,
+   "y": 161.0,
+   "w": 62.0,
+   "h": 62.0
+  },
+  {
+   "id": "lffreq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBSMALL",
+   "frames": 61,
+   "param": 18,
+   "x": 33.0,
+   "y": 223.0,
+   "w": 62.0,
+   "h": 62.0
+  },
+  {
+   "id": "lffreq-text",
+   "kind": "text",
+   "param": 18,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 41.0,
+   "y": 272.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "lmffreq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBCLICKSMALL",
+   "frames": 61,
+   "param": 23,
+   "x": 107.0,
+   "y": 223.0,
+   "w": 62.0,
+   "h": 62.0
+  },
+  {
+   "id": "lmffreq-text",
+   "kind": "text",
+   "param": 23,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 115.0,
+   "y": 272.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "mffreq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBCLICKSMALL",
+   "frames": 61,
+   "param": 28,
+   "x": 181.0,
+   "y": 223.0,
+   "w": 62.0,
+   "h": 62.0
+  },
+  {
+   "id": "mffreq-text",
+   "kind": "text",
+   "param": 28,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 189.0,
+   "y": 272.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "hmffreq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBCLICKSMALL",
+   "frames": 61,
+   "param": 33,
+   "x": 255.0,
+   "y": 223.0,
+   "w": 62.0,
+   "h": 62.0
+  },
+  {
+   "id": "hmffreq-text",
+   "kind": "text",
+   "param": 33,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 263.0,
+   "y": 272.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "hffreq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBSMALL",
+   "frames": 61,
+   "param": 38,
+   "x": 329.0,
+   "y": 223.0,
+   "w": 62.0,
+   "h": 62.0
+  },
+  {
+   "id": "hffreq-text",
+   "kind": "text",
+   "param": 38,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 337.0,
+   "y": 272.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "propq-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v3_mix__PUSHBLUESMALL",
+   "frames": 2,
+   "param": 10,
+   "orientation": "vertical",
+   "x": 193.0,
+   "y": 53.0,
+   "w": 27.5,
+   "h": 27.25
+  },
+  {
+   "id": "lfactv-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v3_mix__LF",
+   "frames": 2,
+   "param": 19,
+   "orientation": "vertical",
+   "x": 53.0,
+   "y": 288.0,
+   "w": 23.0,
+   "h": 13.0
+  },
+  {
+   "id": "lmfactv-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v3_mix__LMF",
+   "frames": 2,
+   "param": 24,
+   "orientation": "vertical",
+   "x": 123.0,
+   "y": 288.0,
+   "w": 31.0,
+   "h": 13.0
+  },
+  {
+   "id": "mfactv-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v3_mix__MF",
+   "frames": 2,
+   "param": 29,
+   "orientation": "vertical",
+   "x": 201.0,
+   "y": 288.0,
+   "w": 23.0,
+   "h": 13.0
+  },
+  {
+   "id": "hmfactv-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v3_mix__HMF",
+   "frames": 2,
+   "param": 34,
+   "orientation": "vertical",
+   "x": 271.0,
+   "y": 288.0,
+   "w": 31.0,
+   "h": 13.0
+  },
+  {
+   "id": "hfactv-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v3_mix__HF",
+   "frames": 2,
+   "param": 39,
+   "orientation": "vertical",
+   "x": 349.0,
+   "y": 288.0,
+   "w": 23.0,
+   "h": 13.0
+  },
+  {
+   "id": "ingain-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBSMALL",
+   "frames": 61,
+   "param": 2,
+   "x": -2.0,
+   "y": 32.0,
+   "w": 62.0,
+   "h": 62.0
+  },
+  {
+   "id": "ingain-text",
+   "kind": "text",
+   "param": 2,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 6.0,
+   "y": 81.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "outgain-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBSMALL",
+   "frames": 61,
+   "param": 3,
+   "x": 365.0,
+   "y": 32.0,
+   "w": 62.0,
+   "h": 62.0
+  },
+  {
+   "id": "outgain-text",
+   "kind": "text",
+   "param": 3,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 372.0,
+   "y": 81.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "eqactive-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v3_mix__PUSHBLUESMALL",
+   "frames": 2,
+   "param": 7,
+   "orientation": "vertical",
+   "x": 128.0,
+   "y": 53.0,
+   "w": 27.5,
+   "h": 27.25
+  },
+  {
+   "id": "phaserev-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v3_mix__PUSHBLUESMALL",
+   "frames": 2,
+   "param": 4,
+   "orientation": "vertical",
+   "x": 161.0,
+   "y": 53.0,
+   "w": 27.5,
+   "h": 27.25
+  },
+  {
+   "id": "propq-switch-1",
+   "kind": "switch",
+   "sprite": "bx_digital_v3_mix__PUSHBLUESMALL",
+   "frames": 2,
+   "param": 10,
+   "orientation": "vertical",
+   "x": 193.0,
+   "y": 53.0,
+   "w": 27.5,
+   "h": 27.25
+  },
+  {
+   "id": "alactive-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v3_mix__PUSHBLUESMALL",
+   "frames": 2,
+   "param": 5,
+   "orientation": "vertical",
+   "x": 226.0,
+   "y": 53.0,
+   "w": 27.5,
+   "h": 27.25
+  },
+  {
+   "id": "almode-menu",
+   "kind": "menu",
+   "param": 6,
+   "text": {
+    "size": 12.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 254.0,
+   "y": 59.0,
+   "w": 35.0,
+   "h": 16.0
+  },
+  {
+   "id": "bsactv-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v3_mix__BASSSHIFT",
+   "frames": 2,
+   "param": 42,
+   "orientation": "vertical",
+   "x": 30.0,
+   "y": 313.0,
+   "w": 68.0,
+   "h": 14.0
+  },
+  {
+   "id": "bsgn-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBBIG",
+   "frames": 61,
+   "param": 41,
+   "x": 19.0,
+   "y": 318.0,
+   "w": 90.0,
+   "h": 90.0
+  },
+  {
+   "id": "bsgn-text",
+   "kind": "text",
+   "param": 41,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 40.0,
+   "y": 389.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "bstone-led",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v3_mix__SHIFTEQONTONE",
+   "frames": 3,
+   "x": 21.0,
+   "y": 332.0,
+   "w": 14.0,
+   "h": 14.0,
+   "frameSource": {
+    "type": "param",
+    "param": 40
+   }
+  },
+  {
+   "id": "bstone-zone",
+   "kind": "zone",
+   "action": {
+    "type": "toggle",
+    "param": 40
+   },
+   "x": 21.0,
+   "y": 332.0,
+   "w": 14.0,
+   "h": 14.0
+  },
+  {
+   "id": "psactv-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v3_mix__PRESENCESHIFTMIX",
+   "frames": 2,
+   "param": 45,
+   "orientation": "vertical",
+   "x": 104.0,
+   "y": 313.0,
+   "w": 68.0,
+   "h": 14.0
+  },
+  {
+   "id": "psgn-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBBIG",
+   "frames": 61,
+   "param": 44,
+   "x": 93.0,
+   "y": 318.0,
+   "w": 90.0,
+   "h": 90.0
+  },
+  {
+   "id": "psgn-text",
+   "kind": "text",
+   "param": 44,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 114.0,
+   "y": 389.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "pstone-led",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v3_mix__SHIFTEQONTONE",
+   "frames": 3,
+   "x": 95.0,
+   "y": 332.0,
+   "w": 14.0,
+   "h": 14.0,
+   "frameSource": {
+    "type": "param",
+    "param": 43
+   }
+  },
+  {
+   "id": "pstone-zone",
+   "kind": "zone",
+   "action": {
+    "type": "toggle",
+    "param": 43
+   },
+   "x": 95.0,
+   "y": 332.0,
+   "w": 14.0,
+   "h": 14.0
+  },
+  {
+   "id": "cmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v3_mix__DYNEQMETERCOMP",
+   "frames": 31,
+   "x": 187.0,
+   "y": 333.0,
+   "w": 51.0,
+   "h": 50.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000000"
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-1",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v3_mix__DYNEQMETEREXP",
+   "frames": 31,
+   "x": 187.0,
+   "y": 333.0,
+   "w": 51.0,
+   "h": 50.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000001"
+   }
+  },
+  {
+   "id": "dyeqactv-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v3_mix__DYNEQMIX",
+   "frames": 2,
+   "param": 51,
+   "orientation": "vertical",
+   "x": 185.0,
+   "y": 313.0,
+   "w": 54.0,
+   "h": 14.0
+  },
+  {
+   "id": "dyeqrng-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBSMALL",
+   "frames": 61,
+   "param": 47,
+   "x": 181.0,
+   "y": 329.0,
+   "w": 62.0,
+   "h": 62.0
+  },
+  {
+   "id": "dyeqrng-text",
+   "kind": "text",
+   "param": 47,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 189.0,
+   "y": 389.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "dyeqpos-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v3_mix__DYNEQONPOSITION",
+   "frames": 2,
+   "param": 46,
+   "orientation": "vertical",
+   "x": 272.0,
+   "y": 316.0,
+   "w": 28.0,
+   "h": 13.0
+  },
+  {
+   "id": "dyeqspd-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v3_mix__DYNEQONSPEED",
+   "frames": 2,
+   "param": 49,
+   "orientation": "vertical",
+   "x": 272.0,
+   "y": 332.0,
+   "w": 28.0,
+   "h": 13.0
+  },
+  {
+   "id": "dyneqfrq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBSMALL",
+   "frames": 61,
+   "param": 48,
+   "x": 255.0,
+   "y": 339.0,
+   "w": 62.0,
+   "h": 62.0
+  },
+  {
+   "id": "dyneqfrq-text",
+   "kind": "text",
+   "param": 48,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 263.0,
+   "y": 389.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "dyeqsolo-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v3_mix__PUSHBLUESMALL",
+   "frames": 2,
+   "param": 50,
+   "orientation": "vertical",
+   "x": 241.0,
+   "y": 340.0,
+   "w": 27.5,
+   "h": 27.25
+  },
+  {
+   "id": "gsclactv-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v3_mix__GAINSCALE",
+   "frames": 2,
+   "param": 9,
+   "orientation": "vertical",
+   "x": 324.0,
+   "y": 313.0,
+   "w": 71.0,
+   "h": 14.0
+  },
+  {
+   "id": "gsamnt-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v3_mix__KNOBBIG",
+   "frames": 61,
+   "param": 8,
+   "x": 315.0,
+   "y": 318.0,
+   "w": 90.0,
+   "h": 90.0
+  },
+  {
+   "id": "gsamnt-text",
+   "kind": "text",
+   "param": 8,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 336.0,
+   "y": 389.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "meter-71",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v3_mix__METER_BAR",
+   "frames": 33,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000002"
+   },
+   "x": 362.0,
+   "y": 440.0,
+   "w": 13.0,
+   "h": 171.0
+  },
+  {
+   "id": "meter-72",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v3_mix__METER_BAR",
+   "frames": 33,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000003"
+   },
+   "x": 380.0,
+   "y": 440.0,
+   "w": 13.0,
+   "h": 171.0
+  },
+  {
+   "id": "img-cbrainworxmovieclipled",
+   "kind": "filmstrip",
+   "sprite": "J_bx_digital_v3_mix_img-cbrainworxmovieclipled_clip",
+   "x": 380.0,
+   "y": 440.0,
+   "w": 13.0,
+   "h": 15.0,
+   "frames": 2,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_20000000"
+   }
+  },
+  {
+   "id": "v-g-p0_r1-grid0",
+   "kind": "shape",
+   "x": 252,
+   "y": 524,
+   "w": 72.0,
+   "h": 27.0,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      4.0,
+      3.5
+     ],
+     [
+      4.0,
+      27.0
+     ]
+    ],
+    "stroke": "#313132",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-g-p0_r1-grid1",
+   "kind": "shape",
+   "x": 252,
+   "y": 524,
+   "w": 72.0,
+   "h": 27.0,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      9.0,
+      3.5
+     ],
+     [
+      9.0,
+      27.0
+     ]
+    ],
+    "stroke": "#313132",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-g-p0_r1-grid2",
+   "kind": "shape",
+   "x": 252,
+   "y": 524,
+   "w": 72.0,
+   "h": 27.0,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      13.5,
+      3.5
+     ],
+     [
+      13.5,
+      27.0
+     ]
+    ],
+    "stroke": "#313132",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-g-p0_r1-grid3",
+   "kind": "shape",
+   "x": 252,
+   "y": 524,
+   "w": 72.0,
+   "h": 27.0,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      17.75,
+      3.5
+     ],
+     [
+      17.75,
+      27.0
+     ]
+    ],
+    "stroke": "#313132",
+    "width": 1.5
+   }
+  },
+  {
+   "id": "v-g-p0_r1-grid4",
+   "kind": "shape",
+   "x": 252,
+   "y": 524,
+   "w": 72.0,
+   "h": 27.0,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      44.5,
+      3.5
+     ],
+     [
+      44.5,
+      27.0
+     ]
+    ],
+    "stroke": "#313132",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-g-p0_r1-grid5",
+   "kind": "shape",
+   "x": 252,
+   "y": 524,
+   "w": 72.0,
+   "h": 27.0,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      60.25,
+      3.5
+     ],
+     [
+      60.25,
+      27.0
+     ]
+    ],
+    "stroke": "#313132",
+    "width": 0.5
+   }
+  },
+  {
+   "id": "v-g-p0_r1-grid6",
+   "kind": "shape",
+   "x": 252,
+   "y": 524,
+   "w": 72.0,
+   "h": 27.0,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      71.5,
+      3.5
+     ],
+     [
+      71.5,
+      27.0
+     ]
+    ],
+    "stroke": "#313132",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-g-p0_r1-line",
+   "kind": "shape",
+   "x": 252,
+   "y": 524,
+   "w": 72.0,
+   "h": 27.0,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      0.0,
+      2.5
+     ],
+     [
+      70.0,
+      2.5
+     ]
+    ],
+    "stroke": "#C3C3C3",
+    "width": 2.0
+   }
+  },
+  {
+   "id": "v-g-p0_r1-curve",
+   "kind": "shape",
+   "x": 252,
+   "y": 524,
+   "w": 72.0,
+   "h": 27.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "shape": {
+    "type": "polyline",
+    "points": [
+     [
+      0.25,
+      4.15
+     ],
+     [
+      8.25,
+      4.33
+     ],
+     [
+      16.25,
+      4.86
+     ],
+     [
+      23.25,
+      5.78
+     ],
+     [
+      28.75,
+      6.75
+     ],
+     [
+      35.25,
+      8.28
+     ],
+     [
+      41.75,
+      9.64
+     ],
+     [
+      46.75,
+      11.92
+     ],
+     [
+      53.25,
+      14.39
+     ],
+     [
+      58.25,
+      17.5
+     ],
+     [
+      64.25,
+      20.64
+     ],
+     [
+      68.75,
+      22.75
+     ]
+    ],
+    "stroke": "#969697",
+    "width": 2.0,
+    "dash": [
+     2,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "v-g-p0_r1-zone",
+   "kind": "zone",
+   "x": 252,
+   "y": 524,
+   "w": 72.0,
+   "h": 27.0,
+   "action": {
+    "type": "toggle",
+    "param": 0
+   }
+  },
+  {
+   "id": "v-g-p0_r0-grid0",
+   "kind": "shape",
+   "x": 25,
+   "y": 524,
+   "w": 62.0,
+   "h": 21.0,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      19.25,
+      3.5
+     ],
+     [
+      19.25,
+      21.0
+     ]
+    ],
+    "stroke": "#2F3031",
+    "width": 0.5
+   }
+  },
+  {
+   "id": "v-g-p0_r0-grid1",
+   "kind": "shape",
+   "x": 25,
+   "y": 524,
+   "w": 62.0,
+   "h": 21.0,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      30.5,
+      3.5
+     ],
+     [
+      30.5,
+      21.0
+     ]
+    ],
+    "stroke": "#2F3031",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-g-p0_r0-grid2",
+   "kind": "shape",
+   "x": 25,
+   "y": 524,
+   "w": 62.0,
+   "h": 21.0,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      39.0,
+      3.5
+     ],
+     [
+      39.0,
+      21.0
+     ]
+    ],
+    "stroke": "#2F3031",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-g-p0_r0-grid3",
+   "kind": "shape",
+   "x": 25,
+   "y": 524,
+   "w": 62.0,
+   "h": 21.0,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      46.0,
+      3.5
+     ],
+     [
+      46.0,
+      21.0
+     ]
+    ],
+    "stroke": "#2F3031",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-g-p0_r0-grid4",
+   "kind": "shape",
+   "x": 25,
+   "y": 524,
+   "w": 62.0,
+   "h": 21.0,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      52.0,
+      3.5
+     ],
+     [
+      52.0,
+      21.0
+     ]
+    ],
+    "stroke": "#2F3031",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-g-p0_r0-grid5",
+   "kind": "shape",
+   "x": 25,
+   "y": 524,
+   "w": 62.0,
+   "h": 21.0,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      57.25,
+      3.5
+     ],
+     [
+      57.25,
+      21.0
+     ]
+    ],
+    "stroke": "#2F3031",
+    "width": 1.5
+   }
+  },
+  {
+   "id": "v-g-p0_r0-grid6",
+   "kind": "shape",
+   "x": 25,
+   "y": 524,
+   "w": 62.0,
+   "h": 21.0,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      61.75,
+      3.5
+     ],
+     [
+      61.75,
+      21.0
+     ]
+    ],
+    "stroke": "#2F3031",
+    "width": 0.5
+   }
+  },
+  {
+   "id": "v-g-p0_r0-line",
+   "kind": "shape",
+   "x": 25,
+   "y": 524,
+   "w": 62.0,
+   "h": 21.0,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      3.0,
+      2.5
+     ],
+     [
+      62.0,
+      2.5
+     ]
+    ],
+    "stroke": "#C3C3C3",
+    "width": 2.0
+   }
+  },
+  {
+   "id": "v-g-p0_r0-curve",
+   "kind": "shape",
+   "x": 25,
+   "y": 524,
+   "w": 62.0,
+   "h": 21.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "shape": {
+    "type": "polyline",
+    "points": [
+     [
+      3.25,
+      16.55
+     ],
+     [
+      7.75,
+      14.78
+     ],
+     [
+      13.75,
+      12.61
+     ],
+     [
+      17.75,
+      10.75
+     ],
+     [
+      22.75,
+      9.06
+     ],
+     [
+      29.25,
+      7.75
+     ],
+     [
+      34.25,
+      6.42
+     ],
+     [
+      40.75,
+      5.39
+     ],
+     [
+      45.75,
+      4.67
+     ],
+     [
+      50.25,
+      4.33
+     ],
+     [
+      56.75,
+      4.19
+     ],
+     [
+      61.75,
+      4.05
+     ]
+    ],
+    "stroke": "#969697",
+    "width": 2.0,
+    "dash": [
+     2,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "v-g-p0_r0-zone",
+   "kind": "zone",
+   "x": 25,
+   "y": 524,
+   "w": 62.0,
+   "h": 21.0,
+   "action": {
+    "type": "toggle",
+    "param": 0
+   }
+  },
+  {
+   "id": "j-lftype-val",
+   "kind": "text",
+   "param": 17,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 41.0,
+   "y": 214.0,
+   "w": 46.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [
+     15
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-lftype-type",
+   "kind": "text",
+   "param": 15,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 41.0,
+   "y": 214.0,
+   "w": 46.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [
+     15
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-lftype-zone",
+   "kind": "zone",
+   "action": {
+    "type": "toggle",
+    "param": 15
+   },
+   "x": 41.0,
+   "y": 214.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "j-lmftype-val",
+   "kind": "text",
+   "param": 21,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 115.0,
+   "y": 156.0,
+   "w": 46.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [
+     20
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-lmftype-type",
+   "kind": "text",
+   "param": 20,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 115.0,
+   "y": 156.0,
+   "w": 46.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [
+     20
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-lmftype-zone",
+   "kind": "zone",
+   "action": {
+    "type": "toggle",
+    "param": 20
+   },
+   "x": 115.0,
+   "y": 156.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "j-mftype-val",
+   "kind": "text",
+   "param": 26,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 189.0,
+   "y": 156.0,
+   "w": 46.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [
+     25
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-mftype-type",
+   "kind": "text",
+   "param": 25,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 189.0,
+   "y": 156.0,
+   "w": 46.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [
+     25
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-mftype-zone",
+   "kind": "zone",
+   "action": {
+    "type": "toggle",
+    "param": 25
+   },
+   "x": 189.0,
+   "y": 156.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "j-hmftype-val",
+   "kind": "text",
+   "param": 31,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 263.0,
+   "y": 156.0,
+   "w": 46.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [
+     30
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-hmftype-type",
+   "kind": "text",
+   "param": 30,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 263.0,
+   "y": 156.0,
+   "w": 46.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [
+     30
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-hmftype-zone",
+   "kind": "zone",
+   "action": {
+    "type": "toggle",
+    "param": 30
+   },
+   "x": 263.0,
+   "y": 156.0,
+   "w": 46.0,
+   "h": 15.0
+  },
+  {
+   "id": "j-hftype-val",
+   "kind": "text",
+   "param": 37,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 337.0,
+   "y": 214.0,
+   "w": 46.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [
+     35
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-hftype-type",
+   "kind": "text",
+   "param": 35,
+   "text": {
+    "size": 10.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 337.0,
+   "y": 214.0,
+   "w": 46.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [
+     35
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-hftype-zone",
+   "kind": "zone",
+   "action": {
+    "type": "toggle",
+    "param": 35
+   },
+   "x": 337.0,
+   "y": 214.0,
+   "w": 46.0,
+   "h": 15.0
+  }
+ ],
+ "meterSources": {
+  "led_40000000": {
+   "vendorSpecificFloat": 67108864,
+   "opcode": {
+    "op": 519,
+    "p0": 67108864,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     0.0
+    ],
+    [
+     1e-05,
+     0.0
+    ],
+    [
+     3e-05,
+     1e-05
+    ],
+    [
+     0.0001,
+     3e-05
+    ],
+    [
+     0.0003,
+     9e-05
+    ],
+    [
+     0.001,
+     0.00029
+    ],
+    [
+     0.002,
+     0.00058
+    ],
+    [
+     0.003,
+     0.00087
+    ],
+    [
+     0.005,
+     0.00144
+    ],
+    [
+     0.01,
+     0.00288
+    ],
+    [
+     0.015,
+     0.00431
+    ],
+    [
+     0.02,
+     0.00573
+    ],
+    [
+     0.03,
+     0.00856
+    ],
+    [
+     0.04,
+     0.01136
+    ],
+    [
+     0.05,
+     0.01413
+    ],
+    [
+     0.07,
+     0.01959
+    ],
+    [
+     0.1,
+     0.0276
+    ],
+    [
+     0.13,
+     0.03539
+    ],
+    [
+     0.15,
+     0.04047
+    ],
+    [
+     0.18,
+     0.04792
+    ],
+    [
+     0.2,
+     0.05279
+    ],
+    [
+     0.25,
+     0.06461
+    ],
+    [
+     0.3,
+     0.07596
+    ],
+    [
+     0.35,
+     0.08689
+    ],
+    [
+     0.4,
+     0.09742
+    ],
+    [
+     0.45,
+     0.10758
+    ],
+    [
+     0.5,
+     0.11739
+    ],
+    [
+     0.55,
+     0.12689
+    ],
+    [
+     0.6,
+     0.13608
+    ],
+    [
+     0.65,
+     0.14499
+    ],
+    [
+     0.7,
+     0.15363
+    ],
+    [
+     0.75,
+     0.16203
+    ],
+    [
+     0.8,
+     0.17018
+    ],
+    [
+     0.85,
+     0.17811
+    ],
+    [
+     0.9,
+     0.18584
+    ],
+    [
+     0.95,
+     0.19336
+    ],
+    [
+     1.0,
+     0.20069
+    ],
+    [
+     1.06,
+     0.20924
+    ],
+    [
+     1.12,
+     0.21756
+    ],
+    [
+     1.25,
+     0.23479
+    ],
+    [
+     1.41,
+     0.25468
+    ],
+    [
+     1.6,
+     0.27665
+    ],
+    [
+     1.8,
+     0.29811
+    ],
+    [
+     2,
+     0.31808
+    ],
+    [
+     2.5,
+     0.36271
+    ],
+    [
+     3,
+     0.40137
+    ],
+    [
+     4,
+     0.46598
+    ],
+    [
+     5,
+     0.51877
+    ],
+    [
+     6,
+     0.5634
+    ],
+    [
+     8,
+     0.63616
+    ],
+    [
+     10,
+     0.69426
+    ],
+    [
+     12,
+     0.74263
+    ],
+    [
+     15,
+     0.80275
+    ],
+    [
+     20,
+     0.88148
+    ],
+    [
+     24,
+     0.93196
+    ],
+    [
+     30,
+     0.99424
+    ],
+    [
+     40,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  },
+  "led_40000001": {
+   "vendorSpecificFloat": 67108865,
+   "opcode": {
+    "op": 519,
+    "p0": 67108865,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     0.0
+    ],
+    [
+     1e-06,
+     0.0
+    ],
+    [
+     1e-05,
+     1e-05
+    ],
+    [
+     3e-05,
+     3e-05
+    ],
+    [
+     0.0001,
+     0.00011
+    ],
+    [
+     0.0003,
+     0.00033
+    ],
+    [
+     0.001,
+     0.00109
+    ],
+    [
+     0.002,
+     0.00217
+    ],
+    [
+     0.003,
+     0.00325
+    ],
+    [
+     0.005,
+     0.00542
+    ],
+    [
+     0.01,
+     0.0108
+    ],
+    [
+     0.015,
+     0.01617
+    ],
+    [
+     0.02,
+     0.0215
+    ],
+    [
+     0.03,
+     0.03209
+    ],
+    [
+     0.04,
+     0.04258
+    ],
+    [
+     0.05,
+     0.05297
+    ],
+    [
+     0.07,
+     0.07346
+    ],
+    [
+     0.1,
+     0.10348
+    ],
+    [
+     0.13,
+     0.1327
+    ],
+    [
+     0.15,
+     0.15174
+    ],
+    [
+     0.18,
+     0.17971
+    ],
+    [
+     0.2,
+     0.19795
+    ],
+    [
+     0.25,
+     0.24228
+    ],
+    [
+     0.3,
+     0.28486
+    ],
+    [
+     0.35,
+     0.32583
+    ],
+    [
+     0.4,
+     0.36532
+    ],
+    [
+     0.45,
+     0.40342
+    ],
+    [
+     0.5,
+     0.44023
+    ],
+    [
+     0.55,
+     0.47583
+    ],
+    [
+     0.6,
+     0.5103
+    ],
+    [
+     0.65,
+     0.54371
+    ],
+    [
+     0.7,
+     0.57612
+    ],
+    [
+     0.75,
+     0.6076
+    ],
+    [
+     0.8,
+     0.63818
+    ],
+    [
+     0.85,
+     0.66793
+    ],
+    [
+     0.9,
+     0.69688
+    ],
+    [
+     0.95,
+     0.72509
+    ],
+    [
+     1.0,
+     0.75258
+    ],
+    [
+     1.06,
+     0.78467
+    ],
+    [
+     1.12,
+     0.81584
+    ],
+    [
+     1.25,
+     0.88046
+    ],
+    [
+     1.41,
+     0.95504
+    ],
+    [
+     1.6,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  },
+  "meter_40000002": {
+   "vendorSpecificFloat": 67108866,
+   "opcode": {
+    "op": 519,
+    "p0": 67108866,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     0.0
+    ],
+    [
+     0.001,
+     0.0
+    ],
+    [
+     0.002,
+     0.10034
+    ],
+    [
+     0.003,
+     0.15904
+    ],
+    [
+     0.005,
+     0.23299
+    ],
+    [
+     0.01,
+     0.33333
+    ],
+    [
+     0.015,
+     0.39203
+    ],
+    [
+     0.02,
+     0.43368
+    ],
+    [
+     0.03,
+     0.49237
+    ],
+    [
+     0.04,
+     0.53402
+    ],
+    [
+     0.05,
+     0.56632
+    ],
+    [
+     0.07,
+     0.61503
+    ],
+    [
+     0.1,
+     0.66667
+    ],
+    [
+     0.13,
+     0.70465
+    ],
+    [
+     0.15,
+     0.72536
+    ],
+    [
+     0.18,
+     0.75176
+    ],
+    [
+     0.2,
+     0.76701
+    ],
+    [
+     0.25,
+     0.79931
+    ],
+    [
+     0.3,
+     0.82571
+    ],
+    [
+     0.35,
+     0.84802
+    ],
+    [
+     0.4,
+     0.86735
+    ],
+    [
+     0.45,
+     0.8844
+    ],
+    [
+     0.5,
+     0.89966
+    ],
+    [
+     0.55,
+     0.91345
+    ],
+    [
+     0.6,
+     0.92605
+    ],
+    [
+     0.65,
+     0.93764
+    ],
+    [
+     0.7,
+     0.94837
+    ],
+    [
+     0.75,
+     0.95835
+    ],
+    [
+     0.8,
+     0.9677
+    ],
+    [
+     0.85,
+     0.97647
+    ],
+    [
+     0.9,
+     0.98475
+    ],
+    [
+     0.95,
+     0.99257
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  },
+  "meter_40000003": {
+   "vendorSpecificFloat": 67108867,
+   "opcode": {
+    "op": 519,
+    "p0": 67108867,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     0.0
+    ],
+    [
+     0.001,
+     0.0
+    ],
+    [
+     0.002,
+     0.10034
+    ],
+    [
+     0.003,
+     0.15904
+    ],
+    [
+     0.005,
+     0.23299
+    ],
+    [
+     0.01,
+     0.33333
+    ],
+    [
+     0.015,
+     0.39203
+    ],
+    [
+     0.02,
+     0.43368
+    ],
+    [
+     0.03,
+     0.49237
+    ],
+    [
+     0.04,
+     0.53402
+    ],
+    [
+     0.05,
+     0.56632
+    ],
+    [
+     0.07,
+     0.61503
+    ],
+    [
+     0.1,
+     0.66667
+    ],
+    [
+     0.13,
+     0.70465
+    ],
+    [
+     0.15,
+     0.72536
+    ],
+    [
+     0.18,
+     0.75176
+    ],
+    [
+     0.2,
+     0.76701
+    ],
+    [
+     0.25,
+     0.79931
+    ],
+    [
+     0.3,
+     0.82571
+    ],
+    [
+     0.35,
+     0.84802
+    ],
+    [
+     0.4,
+     0.86735
+    ],
+    [
+     0.45,
+     0.8844
+    ],
+    [
+     0.5,
+     0.89966
+    ],
+    [
+     0.55,
+     0.91345
+    ],
+    [
+     0.6,
+     0.92605
+    ],
+    [
+     0.65,
+     0.93764
+    ],
+    [
+     0.7,
+     0.94837
+    ],
+    [
+     0.75,
+     0.95835
+    ],
+    [
+     0.8,
+     0.9677
+    ],
+    [
+     0.85,
+     0.97647
+    ],
+    [
+     0.9,
+     0.98475
+    ],
+    [
+     0.95,
+     0.99257
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  },
+  "led_20000000": {
+   "vendorSpecificFloat": 67108868,
+   "opcode": {
+    "op": 519,
+    "p0": 67108868,
+    "p1": 1
+   },
+   "integer": true,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.495
+    ],
+    [
+     2.0,
+     1.0
+    ],
+    [
+     3.0,
+     0.0
+    ]
+   ],
+   "smoothing": 1.0
+  }
+ }
+}

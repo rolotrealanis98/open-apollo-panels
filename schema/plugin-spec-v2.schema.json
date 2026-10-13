@@ -1,0 +1,1963 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://open-apollo.invalid/schema/plugin-spec-v2.schema.json",
+ "title": "Open Apollo plug-in panel spec, schema 2 (release format)",
+ "description": "Schema 1's runtime contract (PIPELINE.md + console-rs plugin-ui spec.rs) with three changes: (1) every sprite reference (background, elements[].sprite, graph.underlay, text.spriteFont.sprite/decimalSprite) is a recipe id resolved through plugin-recipes files, not a file name; (2) verbatim UA prose is referenced by text.stringRef / parameters[].stepsRef (dll-string recipes) instead of being inlined; (3) maintainer-only metadata (provenance, notes, todo, _images, meters, meterSources.*.provenance) is not allowed. additionalProperties is false everywhere so CI rejects anything that slips back in.",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "schema",
+  "effectName",
+  "namePattern",
+  "size",
+  "parameters",
+  "elements"
+ ],
+ "properties": {
+  "schema": {
+   "const": 2
+  },
+  "effectName": {
+   "type": "string",
+   "minLength": 1,
+   "maxLength": 64,
+   "description": "Engine EffectName (nominative use of product names)."
+  },
+  "namePattern": {
+   "type": "string",
+   "maxLength": 64
+  },
+  "size": {
+   "$ref": "#/$defs/size"
+  },
+  "monoSize": {
+   "$ref": "#/$defs/size"
+  },
+  "background": {
+   "oneOf": [
+    {
+     "$ref": "#/$defs/recipeId"
+    },
+    {
+     "type": "null"
+    }
+   ]
+  },
+  "parameters": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/parameter"
+   }
+  },
+  "elements": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/element"
+   }
+  },
+  "meterSources": {
+   "type": "object",
+   "additionalProperties": {
+    "$ref": "#/$defs/meterSource"
+   },
+   "propertyNames": {
+    "$ref": "#/$defs/shortId"
+   }
+  },
+  "states": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "number"
+   },
+   "propertyNames": {
+    "$ref": "#/$defs/shortId"
+   }
+  },
+  "panelless": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/paramIndex"
+   }
+  }
+ },
+ "$defs": {
+  "recipeId": {
+   "type": "string",
+   "pattern": "^[A-Za-z0-9][A-Za-z0-9_.+-]{0,127}$",
+   "description": "Key of plugin-recipes sprites/texts; also the generated file stem (<sprite-root>/<id>@2x.png)."
+  },
+  "shortId": {
+   "type": "string",
+   "pattern": "^[A-Za-z0-9_.:@+-]{1,64}$"
+  },
+  "label": {
+   "type": "string",
+   "maxLength": 48,
+   "pattern": "^[^\\n]*$",
+   "description": "Short functional label (parameter names, step names, units). Prose is not allowed inline: use a text recipe."
+  },
+  "color": {
+   "type": "string",
+   "pattern": "^#[0-9A-Fa-f]{6}([0-9A-Fa-f]{2})?$"
+  },
+  "paramIndex": {
+   "type": "integer",
+   "minimum": 0,
+   "maximum": 65535
+  },
+  "size": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "w",
+    "h"
+   ],
+   "properties": {
+    "w": {
+     "type": "number",
+     "exclusiveMinimum": 0
+    },
+    "h": {
+     "type": "number",
+     "exclusiveMinimum": 0
+    }
+   }
+  },
+  "numList": {
+   "type": "array",
+   "items": {
+    "type": "number"
+   }
+  },
+  "intList": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/paramIndex"
+   }
+  },
+  "strList": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/shortId"
+   }
+  },
+  "points": {
+   "type": "array",
+   "items": {
+    "type": "array",
+    "items": {
+     "type": "number"
+    },
+    "minItems": 2
+   }
+  },
+  "parameter": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "index",
+    "name"
+   ],
+   "properties": {
+    "index": {
+     "$ref": "#/$defs/paramIndex"
+    },
+    "name": {
+     "$ref": "#/$defs/label"
+    },
+    "steps": {
+     "oneOf": [
+      {
+       "type": "null"
+      },
+      {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/label"
+       }
+      }
+     ]
+    },
+    "default": {
+     "type": "number"
+    },
+    "stepCount": {
+     "type": "integer",
+     "minimum": 2,
+     "description": "v2: number of steps when the labels are withheld (steps absent/null)."
+    },
+    "stepsRef": {
+     "$ref": "#/$defs/recipeId",
+     "description": "v2: texts recipe producing the step labels (a JSON list of strings); labels past its end fall back to the engine's."
+    }
+   },
+   "dependentRequired": {
+    "stepsRef": [
+     "stepCount"
+    ]
+   }
+  },
+  "row": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "key"
+   ],
+   "properties": {
+    "key": {
+     "$ref": "#/$defs/numList"
+    },
+    "frame": {
+     "type": [
+      "integer",
+      "number",
+      "boolean"
+     ]
+    },
+    "frameNormalized": {
+     "type": "number"
+    },
+    "opacity": {
+     "type": "number"
+    }
+   }
+  },
+  "frameSource": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "type"
+   ],
+   "properties": {
+    "type": {
+     "enum": [
+      "param",
+      "table",
+      "meter",
+      "blink"
+     ]
+    },
+    "param": {
+     "$ref": "#/$defs/paramIndex"
+    },
+    "params": {
+     "$ref": "#/$defs/intList"
+    },
+    "table": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/row"
+     }
+    },
+    "meter": {
+     "$ref": "#/$defs/shortId"
+    },
+    "states": {
+     "$ref": "#/$defs/strList"
+    },
+    "meters": {
+     "$ref": "#/$defs/strList"
+    },
+    "threshold": {
+     "type": "number"
+    },
+    "period": {
+     "type": "number"
+    },
+    "channel": {
+     "type": "integer"
+    }
+   }
+  },
+  "visibility": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "params",
+    "table"
+   ],
+   "properties": {
+    "params": {
+     "$ref": "#/$defs/intList"
+    },
+    "table": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/row"
+     }
+    },
+    "states": {
+     "$ref": "#/$defs/strList"
+    },
+    "meters": {
+     "$ref": "#/$defs/strList"
+    }
+   }
+  },
+  "actionRow": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "value"
+   ],
+   "properties": {
+    "current": {
+     "type": "number"
+    },
+    "key": {
+     "$ref": "#/$defs/numList"
+    },
+    "value": {
+     "type": "number"
+    }
+   }
+  },
+  "action": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "type"
+   ],
+   "properties": {
+    "type": {
+     "enum": [
+      "set",
+      "nudge",
+      "toggle",
+      "default",
+      "table",
+      "multi",
+      "setState",
+      "cycleState",
+      "copy",
+      "random",
+      "snapshot",
+      "resend"
+     ]
+    },
+    "param": {
+     "$ref": "#/$defs/paramIndex"
+    },
+    "value": {
+     "type": "number"
+    },
+    "delta": {
+     "type": "number"
+    },
+    "table": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/actionRow"
+     }
+    },
+    "actions": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/action"
+     }
+    },
+    "state": {
+     "$ref": "#/$defs/shortId"
+    },
+    "count": {
+     "type": "integer"
+    },
+    "to": {
+     "$ref": "#/$defs/intList"
+    },
+    "keys": {
+     "$ref": "#/$defs/intList"
+    },
+    "op": {
+     "enum": [
+      "switch",
+      "store",
+      "recall"
+     ]
+    },
+    "slot": {
+     "$ref": "#/$defs/shortId"
+    },
+    "slots": {
+     "$ref": "#/$defs/strList"
+    },
+    "params": {
+     "$ref": "#/$defs/intList"
+    },
+    "wrap": {
+     "type": "boolean"
+    }
+   }
+  },
+  "touchState": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "state",
+    "value"
+   ],
+   "properties": {
+    "state": {
+     "$ref": "#/$defs/shortId"
+    },
+    "value": {
+     "type": "number"
+    },
+    "timeout": {
+     "type": "number"
+    },
+    "fallback": {
+     "type": "number"
+    },
+    "hold": {
+     "$ref": "#/$defs/shortId"
+    }
+   }
+  },
+  "spriteFont": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "sprite",
+    "frames",
+    "charset",
+    "cell"
+   ],
+   "properties": {
+    "sprite": {
+     "$ref": "#/$defs/recipeId"
+    },
+    "frames": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "charset": {
+     "type": "string",
+     "maxLength": 64
+    },
+    "cell": {
+     "$ref": "#/$defs/numList"
+    },
+    "align": {
+     "enum": [
+      "left",
+      "center",
+      "right"
+     ]
+    },
+    "decimalSprite": {
+     "$ref": "#/$defs/recipeId"
+    }
+   }
+  },
+  "textStyle": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "size": {
+     "type": "number"
+    },
+    "color": {
+     "$ref": "#/$defs/color"
+    },
+    "align": {
+     "enum": [
+      "left",
+      "center",
+      "right"
+     ]
+    },
+    "weight": {
+     "enum": [
+      "regular",
+      "medium",
+      "bold",
+      "semibold"
+     ],
+     "description": "semibold draws as regular (Swift parity; 3 specs use it)"
+    },
+    "monospaced": {
+     "type": "boolean"
+    },
+    "spriteFont": {
+     "$ref": "#/$defs/spriteFont"
+    },
+    "select": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "state",
+      "params"
+     ],
+     "properties": {
+      "state": {
+       "$ref": "#/$defs/shortId"
+      },
+      "params": {
+       "$ref": "#/$defs/intList"
+      }
+     }
+    },
+    "lines": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "string": {
+     "$ref": "#/$defs/label",
+     "description": "Static short label only. Prose goes through stringRef."
+    },
+    "stringRef": {
+     "$ref": "#/$defs/recipeId",
+     "description": "v2: texts recipe id; the runtime draws the generated text (empty when not imported)."
+    },
+    "names": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/label"
+     }
+    },
+    "value": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "format": {
+     "$ref": "#/$defs/label"
+    },
+    "meter": {
+     "$ref": "#/$defs/shortId"
+    },
+    "scale": {
+     "type": "number"
+    },
+    "offset": {
+     "type": "number"
+    },
+    "db": {
+     "type": "number"
+    },
+    "min": {
+     "type": "number"
+    },
+    "max": {
+     "type": "number"
+    },
+    "floor": {
+     "type": "number"
+    },
+    "floorText": {
+     "$ref": "#/$defs/label"
+    },
+    "font": {
+     "type": "string",
+     "maxLength": 48
+    },
+    "fit": {
+     "enum": [
+      "shrink",
+      "squeeze"
+     ],
+     "description": "squeeze narrows the glyphs to fit; shrink (default) lowers the size"
+    },
+    "valign": {
+     "enum": [
+      "top",
+      "center",
+      "bottom"
+     ]
+    },
+    "italic": {
+     "type": "boolean"
+    }
+   },
+   "not": {
+    "required": [
+     "string",
+     "stringRef"
+    ]
+   }
+  },
+  "element": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "kind",
+    "x",
+    "y"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^[^\\s]{1,96}$",
+     "not": {
+      "pattern": "0x[0-9A-Fa-f]{6,}"
+     }
+    },
+    "kind": {
+     "enum": [
+      "knob",
+      "switch",
+      "button",
+      "filmstrip",
+      "image",
+      "zone",
+      "text",
+      "menu",
+      "graph",
+      "label",
+      "shape",
+      "lamp",
+      "toolbar"
+     ]
+    },
+    "x": {
+     "type": "number"
+    },
+    "y": {
+     "type": "number"
+    },
+    "w": {
+     "type": "number"
+    },
+    "h": {
+     "type": "number"
+    },
+    "sprite": {
+     "$ref": "#/$defs/recipeId"
+    },
+    "frames": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "param": {
+     "oneOf": [
+      {
+       "$ref": "#/$defs/paramIndex"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "orientation": {
+     "type": "string",
+     "maxLength": 24
+    },
+    "reverse": {
+     "type": "boolean"
+    },
+    "opacity": {
+     "type": "number"
+    },
+    "gesture": {
+     "enum": [
+      "drag",
+      "swipe"
+     ]
+    },
+    "frameSource": {
+     "$ref": "#/$defs/frameSource"
+    },
+    "visibility": {
+     "$ref": "#/$defs/visibility"
+    },
+    "action": {
+     "$ref": "#/$defs/action"
+    },
+    "drag": {
+     "enum": [
+      "vertical",
+      "horizontal"
+     ]
+    },
+    "text": {
+     "$ref": "#/$defs/textStyle"
+    },
+    "graph": {
+     "$ref": "#/$defs/graph"
+    },
+    "segments": {
+     "enum": [
+      "vertical",
+      "horizontal"
+     ]
+    },
+    "touchState": {
+     "$ref": "#/$defs/touchState"
+    },
+    "blink": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "period"
+     ],
+     "properties": {
+      "period": {
+       "type": "number"
+      }
+     }
+    },
+    "pressedFrameOffset": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "longPressAction": {
+     "$ref": "#/$defs/action"
+    },
+    "tapAction": {
+     "$ref": "#/$defs/action"
+    },
+    "visibleWhen": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "repeat": {
+     "type": "number"
+    },
+    "axis": {
+     "enum": [
+      "horizontal",
+      "vertical"
+     ]
+    },
+    "distance": {
+     "type": "number"
+    },
+    "reveal": {
+     "type": "object",
+     "additionalProperties": false,
+     "properties": {
+      "left": {
+       "$ref": "#/$defs/graphValue"
+      },
+      "right": {
+       "$ref": "#/$defs/graphValue"
+      },
+      "top": {
+       "$ref": "#/$defs/graphValue"
+      },
+      "bottom": {
+       "$ref": "#/$defs/graphValue"
+      }
+     }
+    },
+    "move": {
+     "type": "object",
+     "additionalProperties": false,
+     "properties": {
+      "x": {
+       "$ref": "#/$defs/graphValue"
+      },
+      "y": {
+       "$ref": "#/$defs/graphValue"
+      }
+     }
+    },
+    "rotate": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "spin": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "rpm"
+     ],
+     "properties": {
+      "rpm": {
+       "type": "number"
+      },
+      "while": {
+       "$ref": "#/$defs/graphValue"
+      }
+     }
+    },
+    "shape": {
+     "$ref": "#/$defs/shape"
+    },
+    "lamp": {
+     "$ref": "#/$defs/lamp"
+    },
+    "toolbar": {
+     "$ref": "#/$defs/toolbar"
+    },
+    "colors": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/color"
+     }
+    },
+    "fills": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/fill"
+     }
+    }
+   }
+  },
+  "meterSource": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "vendorSpecificFloat": {
+     "type": "integer"
+    },
+    "calibration": {
+     "$ref": "#/$defs/points"
+    },
+    "smoothing": {
+     "type": "number"
+    },
+    "opcode": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "op",
+      "p0",
+      "p1"
+     ],
+     "properties": {
+      "op": {
+       "type": "integer"
+      },
+      "p0": {
+       "type": "integer"
+      },
+      "p1": {
+       "type": "integer"
+      }
+     }
+    },
+    "ignoreZero": {
+     "type": "boolean"
+    },
+    "absolute": {
+     "type": "boolean"
+    },
+    "integer": {
+     "type": "boolean"
+    },
+    "derive": {
+     "enum": [
+      "direction"
+     ]
+    },
+    "modeParam": {
+     "$ref": "#/$defs/paramIndex"
+    },
+    "modeCalibrations": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "value",
+       "calibration"
+      ],
+      "properties": {
+       "value": {
+        "type": "number"
+       },
+       "calibration": {
+        "$ref": "#/$defs/points"
+       }
+      }
+     }
+    },
+    "combine": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "op",
+      "meters"
+     ],
+     "properties": {
+      "op": {
+       "enum": [
+        "max"
+       ]
+      },
+      "meters": {
+       "$ref": "#/$defs/strList"
+      }
+     }
+    }
+   }
+  },
+  "graphLaw": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "type"
+   ],
+   "properties": {
+    "type": {
+     "type": "string",
+     "maxLength": 16
+    },
+    "min": {
+     "type": "number"
+    },
+    "max": {
+     "type": "number"
+    },
+    "power": {
+     "type": "number"
+    },
+    "values": {
+     "type": "array",
+     "items": {
+      "type": [
+       "number",
+       "string"
+      ]
+     }
+    },
+    "points": {
+     "$ref": "#/$defs/points"
+    },
+    "interp": {
+     "enum": [
+      "log",
+      "linear"
+     ]
+    }
+   }
+  },
+  "graphValue": {
+   "oneOf": [
+    {
+     "type": "number"
+    },
+    {
+     "type": "object",
+     "additionalProperties": false,
+     "properties": {
+      "param": {
+       "$ref": "#/$defs/paramIndex"
+      },
+      "law": {
+       "$ref": "#/$defs/graphLaw"
+      },
+      "scale": {
+       "type": "number"
+      },
+      "offset": {
+       "type": "number"
+      },
+      "params": {
+       "$ref": "#/$defs/intList"
+      },
+      "table": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "key",
+         "value"
+        ],
+        "properties": {
+         "key": {
+          "$ref": "#/$defs/numList"
+         },
+         "value": {
+          "type": "number"
+         }
+        }
+       }
+      },
+      "sum": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/graphValue"
+       }
+      },
+      "product": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/graphValue"
+       }
+      },
+      "select": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "param",
+        "cases"
+       ],
+       "properties": {
+        "param": {
+         "$ref": "#/$defs/paramIndex"
+        },
+        "cases": {
+         "type": "array",
+         "items": {
+          "$ref": "#/$defs/graphValue"
+         }
+        }
+       }
+      },
+      "meter": {
+       "$ref": "#/$defs/shortId"
+      },
+      "db": {
+       "type": "number"
+      },
+      "min": {
+       "type": [
+        "array",
+        "number"
+       ],
+       "items": {
+        "$ref": "#/$defs/graphValue"
+       },
+       "description": "list = min of values; a scalar is ignored by the runtime (Swift try?)"
+      },
+      "max": {
+       "type": [
+        "array",
+        "number"
+       ],
+       "items": {
+        "$ref": "#/$defs/graphValue"
+       }
+      },
+      "ratio": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/graphValue"
+       }
+      },
+      "apply": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/graphValue"
+       }
+      }
+     }
+    }
+   ]
+  },
+  "gradient": {
+   "type": "array",
+   "items": {
+    "type": "array",
+    "prefixItems": [
+     {
+      "type": "number"
+     },
+     {
+      "$ref": "#/$defs/color"
+     }
+    ],
+    "minItems": 2,
+    "maxItems": 2
+   }
+  },
+  "graph": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "type"
+   ],
+   "properties": {
+    "type": {
+     "type": "string",
+     "maxLength": 16
+    },
+    "background": {
+     "$ref": "#/$defs/color",
+     "description": "fill colour, not a sprite"
+    },
+    "underlay": {
+     "$ref": "#/$defs/recipeId"
+    },
+    "clip": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "x",
+      "y",
+      "w",
+      "h"
+     ],
+     "properties": {
+      "x": {
+       "type": "number"
+      },
+      "y": {
+       "type": "number"
+      },
+      "w": {
+       "type": "number"
+      },
+      "h": {
+       "type": "number"
+      }
+     }
+    },
+    "x": {
+     "$ref": "#/$defs/graphAxis"
+    },
+    "y": {
+     "$ref": "#/$defs/graphAxis"
+    },
+    "bands": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/graphBand"
+     }
+    },
+    "curves": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/graphCurve"
+     }
+    },
+    "handles": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/graphHandle"
+     }
+    },
+    "polar": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "center",
+      "radius"
+     ],
+     "properties": {
+      "center": {
+       "$ref": "#/$defs/numList"
+      },
+      "radius": {
+       "type": "number"
+      },
+      "scale": {
+       "enum": [
+        "linear",
+        "db"
+       ]
+      },
+      "innerRadius": {
+       "type": "number"
+      },
+      "dbRange": {
+       "type": "number"
+      }
+     }
+    },
+    "traces": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/graphTrace"
+     }
+    },
+    "markers": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "angle"
+      ],
+      "properties": {
+       "angle": {
+        "$ref": "#/$defs/graphValue"
+       },
+       "flip": {
+        "$ref": "#/$defs/graphValue"
+       },
+       "visible": {
+        "$ref": "#/$defs/graphValue"
+       },
+       "size": {
+        "type": "number"
+       },
+       "color": {
+        "$ref": "#/$defs/color"
+       },
+       "radius": {
+        "type": "number"
+       }
+      }
+     }
+    },
+    "ranges": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "from",
+       "to"
+      ],
+      "properties": {
+       "from": {
+        "$ref": "#/$defs/graphValue"
+       },
+       "to": {
+        "$ref": "#/$defs/graphValue"
+       },
+       "y": {
+        "type": "number"
+       },
+       "yValue": {
+        "$ref": "#/$defs/graphValue"
+       },
+       "dots": {
+        "type": "boolean"
+       },
+       "dotRadius": {
+        "type": "number"
+       },
+       "width": {
+        "type": "number"
+       },
+       "color": {
+        "$ref": "#/$defs/color"
+       },
+       "visible": {
+        "$ref": "#/$defs/graphValue"
+       }
+      }
+     }
+    },
+    "spectrum": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "first",
+      "count",
+      "hz0",
+      "hzStep"
+     ],
+     "properties": {
+      "first": {
+       "type": "integer"
+      },
+      "count": {
+       "type": "integer"
+      },
+      "hz0": {
+       "type": "number"
+      },
+      "hzStep": {
+       "type": "number"
+      },
+      "db": {
+       "type": "number"
+      },
+      "scale": {
+       "type": "number"
+      },
+      "offset": {
+       "type": "number"
+      },
+      "floor": {
+       "type": "number"
+      },
+      "stroke": {
+       "$ref": "#/$defs/color"
+      },
+      "width": {
+       "type": "number"
+      },
+      "fill": {
+       "$ref": "#/$defs/color"
+      },
+      "visible": {
+       "$ref": "#/$defs/graphValue"
+      },
+      "hz": {
+       "$ref": "#/$defs/numList"
+      },
+      "reverse": {
+       "type": "boolean"
+      },
+      "fillGradient": {
+       "$ref": "#/$defs/gradient"
+      },
+      "smooth": {
+       "type": "boolean"
+      },
+      "decode": {
+       "enum": [
+        "fp16x2"
+       ]
+      }
+     }
+    },
+    "polylines": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "points"
+      ],
+      "properties": {
+       "points": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "additionalProperties": false,
+         "required": [
+          "x",
+          "y"
+         ],
+         "properties": {
+          "x": {
+           "type": "number"
+          },
+          "y": {
+           "$ref": "#/$defs/graphValue"
+          }
+         }
+        }
+       },
+       "stroke": {
+        "$ref": "#/$defs/color"
+       },
+       "width": {
+        "type": "number"
+       },
+       "fill": {
+        "$ref": "#/$defs/color"
+       },
+       "fillGradient": {
+        "$ref": "#/$defs/gradient"
+       },
+       "fillTo": {
+        "type": "number"
+       },
+       "smooth": {
+        "type": "boolean"
+       },
+       "visible": {
+        "$ref": "#/$defs/graphValue"
+       }
+      }
+     }
+    },
+    "peakMarker": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "from",
+      "to"
+     ],
+     "properties": {
+      "from": {
+       "$ref": "#/$defs/graphValue"
+      },
+      "to": {
+       "$ref": "#/$defs/graphValue"
+      },
+      "top": {
+       "$ref": "#/$defs/graphValue"
+      },
+      "minDb": {
+       "type": "number"
+      },
+      "stroke": {
+       "$ref": "#/$defs/color"
+      },
+      "width": {
+       "type": "number"
+      },
+      "label": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "y"
+       ],
+       "properties": {
+        "format": {
+         "$ref": "#/$defs/label"
+        },
+        "color": {
+         "$ref": "#/$defs/color"
+        },
+        "size": {
+         "type": "number"
+        },
+        "dx": {
+         "type": "number"
+        },
+        "y": {
+         "type": "number"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "graphAxis": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "min",
+    "max"
+   ],
+   "properties": {
+    "min": {
+     "type": "number"
+    },
+    "max": {
+     "type": "number"
+    },
+    "log": {
+     "type": "boolean"
+    },
+    "from": {
+     "type": "number"
+    },
+    "to": {
+     "type": "number"
+    }
+   }
+  },
+  "graphBand": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id"
+   ],
+   "properties": {
+    "id": {
+     "$ref": "#/$defs/shortId"
+    },
+    "filter": {
+     "type": "string",
+     "maxLength": 16
+    },
+    "filterParam": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "param",
+      "values"
+     ],
+     "properties": {
+      "param": {
+       "$ref": "#/$defs/paramIndex"
+      },
+      "values": {
+       "type": "array",
+       "items": {
+        "type": "string",
+        "maxLength": 16
+       }
+      }
+     }
+    },
+    "freq": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "gain": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "q": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "bandwidth": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "order": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "slope": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "enable": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "qMode": {
+     "type": "string",
+     "maxLength": 8
+    },
+    "shelfQ": {
+     "type": "number"
+    },
+    "shelfOrder": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "shelfShift": {
+     "type": "number"
+    },
+    "shape": {
+     "type": "string",
+     "maxLength": 16
+    }
+   }
+  },
+  "graphCurve": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "bands": {
+     "$ref": "#/$defs/strList"
+    },
+    "groups": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/strList"
+     }
+    },
+    "gain": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "fillToGain": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "includeDisabled": {
+     "type": "boolean"
+    },
+    "stroke": {
+     "$ref": "#/$defs/color"
+    },
+    "width": {
+     "type": "number"
+    },
+    "fill": {
+     "$ref": "#/$defs/color"
+    },
+    "fillTo": {
+     "type": "number"
+    },
+    "requireEnabled": {
+     "type": "boolean"
+    },
+    "offset": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "hideBelow": {
+     "type": "number"
+    },
+    "visible": {
+     "$ref": "#/$defs/graphValue"
+    }
+   }
+  },
+  "graphHandle": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "band": {
+     "$ref": "#/$defs/shortId"
+    },
+    "trace": {
+     "$ref": "#/$defs/shortId"
+    },
+    "x": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "y": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "yMode": {
+     "enum": [
+      "gain",
+      "curve"
+     ]
+    },
+    "clamp": {
+     "type": "boolean"
+    },
+    "radius": {
+     "type": "number"
+    },
+    "fill": {
+     "$ref": "#/$defs/color"
+    },
+    "stroke": {
+     "$ref": "#/$defs/color"
+    },
+    "strokeWidth": {
+     "type": "number"
+    },
+    "shape": {
+     "enum": [
+      "circle",
+      "square"
+     ]
+    },
+    "label": {
+     "$ref": "#/$defs/label"
+    },
+    "labelColor": {
+     "$ref": "#/$defs/color"
+    },
+    "labelSize": {
+     "type": "number"
+    },
+    "visible": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "drag": {
+     "type": "boolean"
+    },
+    "touchState": {
+     "$ref": "#/$defs/touchState"
+    }
+   }
+  },
+  "graphTrace": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "id": {
+     "$ref": "#/$defs/shortId"
+    },
+    "visible": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "stroke": {
+     "$ref": "#/$defs/color"
+    },
+    "width": {
+     "type": "number"
+    },
+    "fill": {
+     "$ref": "#/$defs/color"
+    },
+    "pattern": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "patternScale": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "patternOffset": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "rotation": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "flip": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "opacity": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "kind": {
+     "enum": [
+      "compressor",
+      "limiter",
+      "expander",
+      "gate"
+     ]
+    },
+    "threshold": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "ratio": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "range": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "knee": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "makeup": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "enable": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "chain": {
+     "$ref": "#/$defs/strList"
+    },
+    "amplitude": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "shape": {
+     "enum": [
+      "lobe",
+      "arc"
+     ]
+    },
+    "lobeWidth": {
+     "type": "number"
+    },
+    "mirror": {
+     "enum": [
+      "horizontal",
+      "opposite"
+     ]
+    },
+    "arcFrom": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "arcTo": {
+     "$ref": "#/$defs/graphValue"
+    }
+   }
+  },
+  "fill": {
+   "description": "A colour or a gradient (RUNTIME-V2.md: per-frame palettes).",
+   "oneOf": [
+    {
+     "$ref": "#/$defs/color"
+    },
+    {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "stops"
+     ],
+     "properties": {
+      "linear": {
+       "type": "array",
+       "items": {
+        "type": "number"
+       },
+       "minItems": 4,
+       "maxItems": 4
+      },
+      "radial": {
+       "type": "array",
+       "items": {
+        "type": "number"
+       },
+       "minItems": 3,
+       "maxItems": 3
+      },
+      "stops": {
+       "type": "array",
+       "items": {
+        "type": "array",
+        "prefixItems": [
+         {
+          "type": "number"
+         },
+         {
+          "$ref": "#/$defs/color"
+         }
+        ],
+        "minItems": 2,
+        "maxItems": 2
+       }
+      }
+     }
+    }
+   ]
+  },
+  "shape": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "type"
+   ],
+   "properties": {
+    "type": {
+     "enum": [
+      "rect",
+      "ellipse",
+      "line",
+      "polyline",
+      "polygon",
+      "arc",
+      "gear",
+      "hexagon"
+     ]
+    },
+    "radius": {
+     "type": "number"
+    },
+    "points": {
+     "$ref": "#/$defs/points"
+    },
+    "fill": {
+     "$ref": "#/$defs/fill"
+    },
+    "stroke": {
+     "$ref": "#/$defs/color"
+    },
+    "width": {
+     "type": "number"
+    },
+    "dash": {
+     "type": "array",
+     "items": {
+      "type": "number"
+     }
+    },
+    "from": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "to": {
+     "$ref": "#/$defs/graphValue"
+    },
+    "teeth": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "inner": {
+     "type": "number"
+    },
+    "inset": {
+     "type": "number"
+    }
+   }
+  },
+  "lamp": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "on"
+   ],
+   "properties": {
+    "on": {
+     "$ref": "#/$defs/color"
+    },
+    "off": {
+     "$ref": "#/$defs/color"
+    },
+    "shape": {
+     "enum": [
+      "circle",
+      "rect"
+     ]
+    },
+    "radius": {
+     "type": "number"
+    },
+    "glow": {
+     "type": "number"
+    },
+    "highlight": {
+     "type": "boolean"
+    },
+    "bezel": {
+     "$ref": "#/$defs/color"
+    },
+    "bezelWidth": {
+     "type": "number"
+    }
+   }
+  },
+  "toolbarItem": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "type"
+   ],
+   "properties": {
+    "type": {
+     "enum": [
+      "icon",
+      "switch",
+      "bank",
+      "knob",
+      "gear",
+      "rect"
+     ]
+    },
+    "id": {
+     "$ref": "#/$defs/shortId"
+    },
+    "x": {
+     "type": "number"
+    },
+    "y": {
+     "type": "number"
+    },
+    "w": {
+     "type": "number"
+    },
+    "h": {
+     "type": "number"
+    },
+    "sprite": {
+     "$ref": "#/$defs/recipeId"
+    },
+    "frames": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "frame": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "param": {
+     "$ref": "#/$defs/paramIndex"
+    },
+    "invert": {
+     "type": "boolean"
+    },
+    "cells": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "pitch": {
+     "type": "number"
+    },
+    "glyph": {
+     "$ref": "#/$defs/label"
+    },
+    "color": {
+     "$ref": "#/$defs/color"
+    },
+    "ring": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "cx",
+      "cy",
+      "r",
+      "width"
+     ],
+     "properties": {
+      "cx": {
+       "type": "number"
+      },
+      "cy": {
+       "type": "number"
+      },
+      "r": {
+       "type": "number"
+      },
+      "width": {
+       "type": "number"
+      },
+      "gap": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "toolbar": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "family"
+   ],
+   "properties": {
+    "family": {
+     "enum": [
+      "brainworx",
+      "softube"
+     ]
+    },
+    "color": {
+     "$ref": "#/$defs/color"
+    },
+    "track": {
+     "$ref": "#/$defs/color"
+    },
+    "accent": {
+     "$ref": "#/$defs/color"
+    },
+    "items": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/toolbarItem"
+     }
+    }
+   }
+  }
+ }
+}

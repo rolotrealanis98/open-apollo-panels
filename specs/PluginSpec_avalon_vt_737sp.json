@@ -1,0 +1,3796 @@
+{
+ "schema": 2,
+ "effectName": "UAD Avalon VT-737sp",
+ "namePattern": "Avalon VT-737sp",
+ "size": {
+  "w": 1200,
+  "h": 220
+ },
+ "background": "UA_Avalon_VT-737sp_panel",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Input Select",
+   "steps": [
+    "Line",
+    "Mic"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Preamp Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 2,
+   "name": "High Gain",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Phase",
+   "steps": [
+    "0",
+    "Rev"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Pad",
+   "steps": [
+    "0 dB",
+    "-20 dB"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Filter",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "HP Freq",
+   "steps": null,
+   "default": 0.699981689453125
+  },
+  {
+   "index": 7,
+   "name": "Comp Thresh",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 8,
+   "name": "Comp Ratio",
+   "steps": null,
+   "default": 0.29998779296875
+  },
+  {
+   "index": 9,
+   "name": "Comp Attack",
+   "steps": null,
+   "default": 0.25
+  },
+  {
+   "index": 10,
+   "name": "Comp Rel",
+   "steps": null,
+   "default": 0.75
+  },
+  {
+   "index": 11,
+   "name": "EQ to Comp",
+   "steps": [
+    "Off",
+    "EQ Pre"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "Comp Link",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 13,
+   "name": "Comp Meter",
+   "steps": [
+    "Output",
+    "GR"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 14,
+   "name": "Comp /4",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 15,
+   "name": "Comp In",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 16,
+   "name": "Bass Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 17,
+   "name": "Bass Freq",
+   "steps": [
+    "15 Hz",
+    "30 Hz",
+    "60 Hz",
+    "150 Hz"
+   ],
+   "default": 0.3333333432674408
+  },
+  {
+   "index": 18,
+   "name": "Lo Mid Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 19,
+   "name": "Lo Mid Q",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 20,
+   "name": "Lo Mid X10",
+   "steps": [
+    "Out",
+    "X10"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 21,
+   "name": "Lo Mid Freq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 22,
+   "name": "Hi Mid Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 23,
+   "name": "Hi Mid Q",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 24,
+   "name": "Hi Mid X10",
+   "steps": [
+    "Out",
+    "X10"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 25,
+   "name": "Hi Mid Freq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 26,
+   "name": "Treble Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 27,
+   "name": "Treble Freq",
+   "steps": [
+    "10 kHz",
+    "15 kHz",
+    "20 kHz",
+    "32 kHz"
+   ],
+   "default": 0.6666666865348816
+  },
+  {
+   "index": 28,
+   "name": "EQ to SC",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 29,
+   "name": "EQ In",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 30,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 31,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "vumeter": {
+   "vendorSpecificFloat": 157,
+   "calibration": [
+    [
+     0.017,
+     0.0
+    ],
+    [
+     0.021,
+     0.0
+    ],
+    [
+     0.064,
+     0.115
+    ],
+    [
+     0.089,
+     0.208
+    ],
+    [
+     0.113,
+     0.292
+    ],
+    [
+     0.142,
+     0.406
+    ],
+    [
+     0.158,
+     0.479
+    ],
+    [
+     0.178,
+     0.563
+    ],
+    [
+     0.199,
+     0.656
+    ],
+    [
+     0.224,
+     0.76
+    ],
+    [
+     0.251,
+     0.885
+    ],
+    [
+     0.281,
+     1.0
+    ],
+    [
+     0.394,
+     1.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 157,
+    "p1": 1
+   }
+  }
+ },
+ "elements": [
+  {
+   "id": "back-panel",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 1200.0,
+   "h": 220.0,
+   "kind": "image",
+   "sprite": "UA_Avalon_VT-737sp_panel",
+   "visibility": {
+    "params": [
+     0,
+     31
+    ],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "alt-panel",
+   "kind": "image",
+   "x": 0,
+   "y": 0,
+   "w": 1200,
+   "h": 220,
+   "sprite": "UA_Avalon_VT-737sp_panel_BLACK",
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "preamp_gain-knob",
+   "x": 92,
+   "y": 23,
+   "w": 78,
+   "h": 78,
+   "kind": "knob",
+   "param": 1,
+   "sprite": "UA_Avalon_VT-737sp_knob_BIG",
+   "frames": 101
+  },
+  {
+   "id": "input_select-knob",
+   "x": 180,
+   "y": 30,
+   "w": 64,
+   "h": 64,
+   "kind": "knob",
+   "param": 0,
+   "sprite": "UA_Avalon_VT-737sp_switch_INPUT",
+   "frames": 2
+  },
+  {
+   "id": "high_gain-button",
+   "x": 264,
+   "y": 47,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 2,
+   "sprite": "UA_Avalon_VT-737sp_button_GAIN",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "high_gain-button-black",
+   "x": 264,
+   "y": 47,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 2,
+   "sprite": "UA_Avalon_VT-737sp_button_GAIN_BLACK",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "phase-button",
+   "x": 264,
+   "y": 78,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 3,
+   "sprite": "UA_Avalon_VT-737sp_button_PHASE",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "phase-button-black",
+   "x": 264,
+   "y": 78,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 3,
+   "sprite": "UA_Avalon_VT-737sp_button_PHASE_BLACK",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pad-button",
+   "x": 264.0,
+   "y": 109.0,
+   "w": 38.0,
+   "h": 30.0,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 4,
+   "sprite": "UA_Avalon_VT-737sp_button_PAD",
+   "frames": 6,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   }
+  },
+  {
+   "id": "pad-button-black",
+   "x": 264.0,
+   "y": 109.0,
+   "w": 38.0,
+   "h": 30.0,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 4,
+   "sprite": "UA_Avalon_VT-737sp_button_PAD_BLACK",
+   "frames": 6,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   }
+  },
+  {
+   "id": "pad-button-disabled",
+   "x": 264,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "filmstrip",
+   "sprite": "UA_Avalon_VT-737sp_button_PAD",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     0,
+     31
+    ],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pad-button-disabled-black",
+   "x": 264,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "filmstrip",
+   "sprite": "UA_Avalon_VT-737sp_button_PAD_BLACK",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     0,
+     31
+    ],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "filter-button",
+   "x": 264,
+   "y": 140,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 5,
+   "sprite": "UA_Avalon_VT-737sp_button_IN",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "filter-button-black",
+   "x": 264,
+   "y": 140,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 5,
+   "sprite": "UA_Avalon_VT-737sp_button_IN_BLACK",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "comp_by4-button",
+   "x": 264,
+   "y": 177,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 14,
+   "sprite": "UA_Avalon_VT-737sp_button_BY4",
+   "frames": 6,
+   "action": {
+    "type": "toggle",
+    "param": 14
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "comp_by4-button-black",
+   "x": 264,
+   "y": 177,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 14,
+   "sprite": "UA_Avalon_VT-737sp_button_BY4_BLACK",
+   "frames": 6,
+   "action": {
+    "type": "toggle",
+    "param": 14
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "comp_thresh-knob",
+   "x": 322,
+   "y": 23,
+   "w": 78,
+   "h": 78,
+   "kind": "knob",
+   "param": 7,
+   "sprite": "UA_Avalon_VT-737sp_knob_BIG",
+   "frames": 101
+  },
+  {
+   "id": "eq_to_comp-button",
+   "x": 323,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 11,
+   "sprite": "UA_Avalon_VT-737sp_button_EQ-COMP",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "eq_to_comp-button-black",
+   "x": 323,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 11,
+   "sprite": "UA_Avalon_VT-737sp_button_EQ-COMP_BLACK",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "comp_meter-button",
+   "x": 361,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 13,
+   "sprite": "UA_Avalon_VT-737sp_button_METER",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "comp_meter-button-black",
+   "x": 361,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 13,
+   "sprite": "UA_Avalon_VT-737sp_button_METER_BLACK",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "comp_ratio-knob",
+   "x": 405,
+   "y": 23,
+   "w": 78,
+   "h": 78,
+   "kind": "knob",
+   "param": 8,
+   "sprite": "UA_Avalon_VT-737sp_knob_BIG",
+   "frames": 101
+  },
+  {
+   "id": "comp_in-button",
+   "x": 406,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 15,
+   "sprite": "UA_Avalon_VT-737sp_button_IN",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     15
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "comp_in-button-black",
+   "x": 406,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 15,
+   "sprite": "UA_Avalon_VT-737sp_button_IN_BLACK",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     15
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "comp_link-button",
+   "x": 444,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 12,
+   "sprite": "UA_Avalon_VT-737sp_button_IN",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     12
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "comp_link-button-black",
+   "x": 444,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 12,
+   "sprite": "UA_Avalon_VT-737sp_button_IN_BLACK",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     12
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "comp_link-button-disabled",
+   "x": 444.0,
+   "y": 109.0,
+   "w": 38.0,
+   "h": 30.0,
+   "opacity": 0,
+   "kind": "filmstrip",
+   "sprite": "UA_Avalon_VT-737sp_button_IN",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "bass_gain-knob",
+   "x": 717,
+   "y": 23,
+   "w": 78,
+   "h": 78,
+   "kind": "knob",
+   "param": 16,
+   "sprite": "UA_Avalon_VT-737sp_knob_BIG",
+   "frames": 101
+  },
+  {
+   "id": "lo_mid_gain-knob",
+   "x": 795,
+   "y": 23,
+   "w": 78,
+   "h": 78,
+   "kind": "knob",
+   "param": 18,
+   "sprite": "UA_Avalon_VT-737sp_knob_BIG",
+   "frames": 101
+  },
+  {
+   "id": "hi_mid_gain-knob",
+   "x": 873,
+   "y": 23,
+   "w": 78,
+   "h": 78,
+   "kind": "knob",
+   "param": 22,
+   "sprite": "UA_Avalon_VT-737sp_knob_BIG",
+   "frames": 101
+  },
+  {
+   "id": "treble_gain-knob",
+   "x": 951,
+   "y": 23,
+   "w": 78,
+   "h": 78,
+   "kind": "knob",
+   "param": 26,
+   "sprite": "UA_Avalon_VT-737sp_knob_BIG",
+   "frames": 101
+  },
+  {
+   "id": "output-knob",
+   "x": 1036,
+   "y": 30,
+   "w": 64,
+   "h": 64,
+   "kind": "knob",
+   "param": 30,
+   "sprite": "UA_Avalon_VT-737sp_knob_SMALL",
+   "frames": 101
+  },
+  {
+   "id": "lo_mid_q-button",
+   "x": 796,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 19,
+   "sprite": "UA_Avalon_VT-737sp_button_IN",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     19
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "lo_mid_q-button-black",
+   "x": 796,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 19,
+   "sprite": "UA_Avalon_VT-737sp_button_IN_BLACK",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     19
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "lo_mid_x10-button",
+   "x": 834,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 20,
+   "sprite": "UA_Avalon_VT-737sp_button_FREQUENCY",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     20
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "lo_mid_x10-button-black",
+   "x": 834,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 20,
+   "sprite": "UA_Avalon_VT-737sp_button_FREQUENCY_BLACK",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     20
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hi_mid_q-button",
+   "x": 874,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 23,
+   "sprite": "UA_Avalon_VT-737sp_button_IN",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "hi_mid_q-button-black",
+   "x": 874,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 23,
+   "sprite": "UA_Avalon_VT-737sp_button_IN_BLACK",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hi_mid_x10-button",
+   "x": 912,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 24,
+   "sprite": "UA_Avalon_VT-737sp_button_FREQUENCY",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "hi_mid_x10-button-black",
+   "x": 912,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 24,
+   "sprite": "UA_Avalon_VT-737sp_button_FREQUENCY_BLACK",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "eq_to_sc-button",
+   "x": 1030,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 28,
+   "sprite": "UA_Avalon_VT-737sp_button_IN",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     28
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "eq_to_sc-button-black",
+   "x": 1030,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 28,
+   "sprite": "UA_Avalon_VT-737sp_button_IN_BLACK",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     28
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "eq_in-button",
+   "x": 1068,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 29,
+   "sprite": "UA_Avalon_VT-737sp_button_IN",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "eq_in-button-black",
+   "x": 1068,
+   "y": 109,
+   "w": 38,
+   "h": 30,
+   "kind": "switch",
+   "param": 29,
+   "sprite": "UA_Avalon_VT-737sp_button_IN_BLACK",
+   "frames": 6,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     31,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hp_freq-knob",
+   "x": 180,
+   "y": 143,
+   "w": 64,
+   "h": 64,
+   "kind": "knob",
+   "param": 6,
+   "sprite": "UA_Avalon_VT-737sp_knob_SMALL",
+   "frames": 101
+  },
+  {
+   "id": "comp_attack-knob",
+   "x": 329,
+   "y": 143,
+   "w": 64,
+   "h": 64,
+   "kind": "knob",
+   "param": 9,
+   "sprite": "UA_Avalon_VT-737sp_knob_SMALL",
+   "frames": 101
+  },
+  {
+   "id": "comp_rel-knob",
+   "x": 412,
+   "y": 143,
+   "w": 64,
+   "h": 64,
+   "kind": "knob",
+   "param": 10,
+   "sprite": "UA_Avalon_VT-737sp_knob_SMALL",
+   "frames": 101
+  },
+  {
+   "id": "bass_freq-knob",
+   "x": 724,
+   "y": 143,
+   "w": 64,
+   "h": 64,
+   "kind": "knob",
+   "param": 17,
+   "sprite": "UA_Avalon_VT-737sp_switch_BASS-TREBLE-freq",
+   "frames": 4
+  },
+  {
+   "id": "lo_mid_freq-knob",
+   "x": 802,
+   "y": 143,
+   "w": 64,
+   "h": 64,
+   "kind": "knob",
+   "param": 21,
+   "sprite": "UA_Avalon_VT-737sp_knob_SMALL",
+   "frames": 101
+  },
+  {
+   "id": "lo_mid_freq-450-ctv-h",
+   "kind": "zone",
+   "x": 844.0,
+   "y": 196.0,
+   "w": 17.0,
+   "h": 12.0,
+   "param": 21,
+   "action": {
+    "type": "set",
+    "param": 21,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "lo_mid_freq-350-ctv-h",
+   "kind": "zone",
+   "x": 852.0,
+   "y": 184.0,
+   "w": 17.0,
+   "h": 12.0,
+   "param": 21,
+   "action": {
+    "type": "set",
+    "param": 21,
+    "value": 0.89999
+   }
+  },
+  {
+   "id": "lo_mid_freq-300-ctv-h",
+   "kind": "zone",
+   "x": 854.0,
+   "y": 169.0,
+   "w": 17.0,
+   "h": 12.0,
+   "param": 21,
+   "action": {
+    "type": "set",
+    "param": 21,
+    "value": 0.79999
+   }
+  },
+  {
+   "id": "lo_mid_freq-250-ctv-h",
+   "kind": "zone",
+   "x": 852.0,
+   "y": 155.0,
+   "w": 17.0,
+   "h": 12.0,
+   "param": 21,
+   "action": {
+    "type": "set",
+    "param": 21,
+    "value": 0.69998
+   }
+  },
+  {
+   "id": "lo_mid_freq-200-ctv-h",
+   "kind": "zone",
+   "x": 842.0,
+   "y": 144.0,
+   "w": 17.0,
+   "h": 12.0,
+   "param": 21,
+   "action": {
+    "type": "set",
+    "param": 21,
+    "value": 0.59998
+   }
+  },
+  {
+   "id": "lo_mid_freq-150-ctv-h",
+   "kind": "zone",
+   "x": 825.0,
+   "y": 140.0,
+   "w": 17.0,
+   "h": 12.0,
+   "param": 21,
+   "action": {
+    "type": "set",
+    "param": 21,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "lo_mid_freq-100-ctv-h",
+   "kind": "zone",
+   "x": 809.0,
+   "y": 144.0,
+   "w": 17.0,
+   "h": 12.0,
+   "param": 21,
+   "action": {
+    "type": "set",
+    "param": 21,
+    "value": 0.39999
+   }
+  },
+  {
+   "id": "lo_mid_freq-75-ctv-h",
+   "kind": "zone",
+   "x": 799.0,
+   "y": 155.0,
+   "w": 13.0,
+   "h": 12.0,
+   "param": 21,
+   "action": {
+    "type": "set",
+    "param": 21,
+    "value": 0.29999
+   }
+  },
+  {
+   "id": "lo_mid_freq-50-ctv-h",
+   "kind": "zone",
+   "x": 797.0,
+   "y": 170.0,
+   "w": 13.0,
+   "h": 12.0,
+   "param": 21,
+   "action": {
+    "type": "set",
+    "param": 21,
+    "value": 0.19998
+   }
+  },
+  {
+   "id": "lo_mid_freq-40-ctv-h",
+   "kind": "zone",
+   "x": 800.0,
+   "y": 185.0,
+   "w": 13.0,
+   "h": 12.0,
+   "param": 21,
+   "action": {
+    "type": "set",
+    "param": 21,
+    "value": 0.099976
+   }
+  },
+  {
+   "id": "lo_mid_freq-35-ctv-h",
+   "kind": "zone",
+   "x": 810.0,
+   "y": 196.0,
+   "w": 13.0,
+   "h": 12.0,
+   "param": 21,
+   "action": {
+    "type": "set",
+    "param": 21,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "hi_mid_freq-knob",
+   "x": 880,
+   "y": 143,
+   "w": 64,
+   "h": 64,
+   "kind": "knob",
+   "param": 25,
+   "sprite": "UA_Avalon_VT-737sp_knob_SMALL",
+   "frames": 101
+  },
+  {
+   "id": "hi_mid_freq-2k8-ctv-h",
+   "kind": "zone",
+   "x": 921.0,
+   "y": 196.0,
+   "w": 17.0,
+   "h": 12.0,
+   "param": 25,
+   "action": {
+    "type": "set",
+    "param": 25,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "hi_mid_freq-2k5-ctv-h",
+   "kind": "zone",
+   "x": 929.0,
+   "y": 184.0,
+   "w": 13.0,
+   "h": 12.0,
+   "param": 25,
+   "action": {
+    "type": "set",
+    "param": 25,
+    "value": 0.89999
+   }
+  },
+  {
+   "id": "hi_mid_freq-2k-ctv-h",
+   "kind": "zone",
+   "x": 931.0,
+   "y": 169.0,
+   "w": 13.0,
+   "h": 12.0,
+   "param": 25,
+   "action": {
+    "type": "set",
+    "param": 25,
+    "value": 0.79999
+   }
+  },
+  {
+   "id": "hi_mid_freq-1k6-ctv-h",
+   "kind": "zone",
+   "x": 929.0,
+   "y": 155.0,
+   "w": 17.0,
+   "h": 12.0,
+   "param": 25,
+   "action": {
+    "type": "set",
+    "param": 25,
+    "value": 0.69998
+   }
+  },
+  {
+   "id": "hi_mid_freq-1k4-ctv-h",
+   "kind": "zone",
+   "x": 919.0,
+   "y": 144.0,
+   "w": 17.0,
+   "h": 12.0,
+   "param": 25,
+   "action": {
+    "type": "set",
+    "param": 25,
+    "value": 0.59998
+   }
+  },
+  {
+   "id": "hi_mid_freq-1k2-ctv-h",
+   "kind": "zone",
+   "x": 902.0,
+   "y": 140.0,
+   "w": 17.0,
+   "h": 12.0,
+   "param": 25,
+   "action": {
+    "type": "set",
+    "param": 25,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "hi_mid_freq-1k-ctv-h",
+   "kind": "zone",
+   "x": 886.0,
+   "y": 144.0,
+   "w": 13.0,
+   "h": 12.0,
+   "param": 25,
+   "action": {
+    "type": "set",
+    "param": 25,
+    "value": 0.39999
+   }
+  },
+  {
+   "id": "hi_mid_freq-550-ctv-h",
+   "kind": "zone",
+   "x": 876.0,
+   "y": 155.0,
+   "w": 17.0,
+   "h": 12.0,
+   "param": 25,
+   "action": {
+    "type": "set",
+    "param": 25,
+    "value": 0.29999
+   }
+  },
+  {
+   "id": "hi_mid_freq-350-ctv-h",
+   "kind": "zone",
+   "x": 874.0,
+   "y": 170.0,
+   "w": 17.0,
+   "h": 12.0,
+   "param": 25,
+   "action": {
+    "type": "set",
+    "param": 25,
+    "value": 0.19998
+   }
+  },
+  {
+   "id": "hi_mid_freq-250-ctv-h",
+   "kind": "zone",
+   "x": 877.0,
+   "y": 185.0,
+   "w": 17.0,
+   "h": 12.0,
+   "param": 25,
+   "action": {
+    "type": "set",
+    "param": 25,
+    "value": 0.099976
+   }
+  },
+  {
+   "id": "hi_mid_freq-220-ctv-h",
+   "kind": "zone",
+   "x": 887.0,
+   "y": 196.0,
+   "w": 17.0,
+   "h": 12.0,
+   "param": 25,
+   "action": {
+    "type": "set",
+    "param": 25,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "treble_freq-knob",
+   "x": 958,
+   "y": 143,
+   "w": 64,
+   "h": 64,
+   "kind": "knob",
+   "param": 27,
+   "sprite": "UA_Avalon_VT-737sp_switch_BASS-TREBLE-freq",
+   "frames": 4
+  },
+  {
+   "id": "vumeter-on",
+   "x": 506.0,
+   "y": 29.0,
+   "w": 188.0,
+   "h": 99.0,
+   "opacity": 0,
+   "kind": "filmstrip",
+   "sprite": "UA_Avalon_VT-737sp_meter_ON-overlay",
+   "frames": 1,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     31
+    ],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "vumeter-on-black",
+   "x": 506.0,
+   "y": 29.0,
+   "w": 188.0,
+   "h": 99.0,
+   "opacity": 0,
+   "kind": "filmstrip",
+   "sprite": "UA_Avalon_VT-737sp_meter_ON-overlay_BLACK",
+   "frames": 1,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     31
+    ],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "power-led-button",
+   "x": 588,
+   "y": 175,
+   "w": 24,
+   "h": 24,
+   "kind": "switch",
+   "param": 31,
+   "sprite": "UA_Avalon_VT-737sp_LED",
+   "frames": 2,
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "power-led-button-black",
+   "x": 588,
+   "y": 175,
+   "w": 24,
+   "h": 24,
+   "kind": "switch",
+   "param": 31,
+   "sprite": "UA_Avalon_VT-737sp_LED_BLACK",
+   "frames": 2,
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "vumeter-needle-film",
+   "x": 522.0,
+   "y": 48.0,
+   "w": 156.0,
+   "h": 73.0,
+   "opacity": 0,
+   "kind": "filmstrip",
+   "sprite": "UA_Avalon_VT-737sp_meter_NEEDLE_ON",
+   "frames": 97,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vumeter",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [
+     0,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "vumeter-needle-film-off",
+   "x": 522,
+   "y": 48,
+   "w": 156,
+   "h": 73,
+   "kind": "filmstrip",
+   "sprite": "UA_Avalon_VT-737sp_meter_NEEDLE_OFF",
+   "frames": 97,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vumeter",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [
+     0,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "power-button",
+   "x": 1037,
+   "y": 149,
+   "w": 62,
+   "h": 48,
+   "kind": "switch",
+   "param": 31,
+   "sprite": "UA_Avalon_VT-737sp_switch_POWER",
+   "frames": 2,
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "power-button-black",
+   "x": 1037,
+   "y": 149,
+   "w": 62,
+   "h": 48,
+   "kind": "switch",
+   "param": 31,
+   "sprite": "UA_Avalon_VT-737sp_switch_POWER_BLACK",
+   "frames": 2,
+   "visibility": {
+    "params": [],
+    "states": [
+     "avalon_logo"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "preamp_gain-rtd",
+   "x": 124,
+   "y": 15,
+   "w": 14,
+   "h": 12,
+   "kind": "zone",
+   "param": null,
+   "action": {
+    "type": "default",
+    "param": 1
+   }
+  },
+  {
+   "id": "input_select-line-ctv",
+   "x": 174,
+   "y": 31,
+   "w": 26,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "input_select-mic-ctv",
+   "x": 224,
+   "y": 31,
+   "w": 25,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "comp_thresh-rtd",
+   "x": 331,
+   "y": 6,
+   "w": 60,
+   "h": 20,
+   "kind": "zone",
+   "param": null,
+   "action": {
+    "type": "default",
+    "param": 7
+   }
+  },
+  {
+   "id": "bass_gain-rtd",
+   "x": 742,
+   "y": 6,
+   "w": 27,
+   "h": 20,
+   "kind": "zone",
+   "param": null,
+   "action": {
+    "type": "default",
+    "param": 16
+   }
+  },
+  {
+   "id": "lo_mid_gain-rtd",
+   "x": 809,
+   "y": 6,
+   "w": 49,
+   "h": 20,
+   "kind": "zone",
+   "param": null,
+   "action": {
+    "type": "default",
+    "param": 18
+   }
+  },
+  {
+   "id": "hi_mid_gain-rtd",
+   "x": 887,
+   "y": 6,
+   "w": 50,
+   "h": 20,
+   "kind": "zone",
+   "param": null,
+   "action": {
+    "type": "default",
+    "param": 22
+   }
+  },
+  {
+   "id": "treble_gain-rtd",
+   "x": 973,
+   "y": 6,
+   "w": 34,
+   "h": 20,
+   "kind": "zone",
+   "param": null,
+   "action": {
+    "type": "default",
+    "param": 26
+   }
+  },
+  {
+   "id": "output-rtd",
+   "x": 1045,
+   "y": 6,
+   "w": 45,
+   "h": 21,
+   "kind": "zone",
+   "param": null,
+   "action": {
+    "type": "default",
+    "param": 30
+   }
+  },
+  {
+   "id": "bass_freq-15-ctv",
+   "x": 726,
+   "y": 149,
+   "w": 13,
+   "h": 12,
+   "kind": "zone",
+   "param": 17,
+   "action": {
+    "type": "set",
+    "param": 17,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "bass_freq-30-ctv",
+   "x": 742,
+   "y": 141,
+   "w": 13,
+   "h": 12,
+   "kind": "zone",
+   "param": 17,
+   "action": {
+    "type": "set",
+    "param": 17,
+    "value": 0.333333
+   }
+  },
+  {
+   "id": "bass_freq-60-ctv",
+   "x": 757,
+   "y": 141,
+   "w": 13,
+   "h": 12,
+   "kind": "zone",
+   "param": 17,
+   "action": {
+    "type": "set",
+    "param": 17,
+    "value": 0.666667
+   }
+  },
+  {
+   "id": "bass_freq-150-ctv",
+   "x": 770,
+   "y": 149,
+   "w": 17,
+   "h": 12,
+   "kind": "zone",
+   "param": 17,
+   "action": {
+    "type": "set",
+    "param": 17,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "treble_freq-10k-ctv",
+   "x": 959,
+   "y": 149,
+   "w": 17,
+   "h": 12,
+   "kind": "zone",
+   "param": 27,
+   "action": {
+    "type": "set",
+    "param": 27,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "treble_freq-15k-ctv",
+   "x": 972,
+   "y": 141,
+   "w": 17,
+   "h": 12,
+   "kind": "zone",
+   "param": 27,
+   "action": {
+    "type": "set",
+    "param": 27,
+    "value": 0.333333
+   }
+  },
+  {
+   "id": "treble_freq-20k-ctv",
+   "x": 990,
+   "y": 141,
+   "w": 17,
+   "h": 12,
+   "kind": "zone",
+   "param": 27,
+   "action": {
+    "type": "set",
+    "param": 27,
+    "value": 0.666667
+   }
+  },
+  {
+   "id": "treble_freq-32k-ctv",
+   "x": 1005,
+   "y": 149,
+   "w": 17,
+   "h": 12,
+   "kind": "zone",
+   "param": 27,
+   "action": {
+    "type": "set",
+    "param": 27,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "logo-left-button",
+   "kind": "zone",
+   "x": 23,
+   "y": 71,
+   "w": 60,
+   "h": 78,
+   "action": {
+    "type": "cycleState",
+    "state": "avalon_logo",
+    "count": 2
+   }
+  },
+  {
+   "id": "logo-right-button",
+   "kind": "zone",
+   "x": 1116,
+   "y": 71,
+   "w": 60,
+   "h": 78,
+   "action": {
+    "type": "cycleState",
+    "state": "avalon_logo",
+    "count": 2
+   }
+  }
+ ],
+ "states": {
+  "avalon_logo": 0
+ }
+}

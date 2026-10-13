@@ -1,0 +1,1473 @@
+{
+ "schema": 2,
+ "effectName": "UAD Empirical Labs FATSO Jr",
+ "namePattern": "Empirical Labs FATSO Jr",
+ "size": {
+  "w": 950,
+  "h": 94
+ },
+ "background": "empirical_labs_fatso_jr_6701",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Ch1Input",
+   "steps": null,
+   "default": 0.476165771484375
+  },
+  {
+   "index": 1,
+   "name": "Ch1Comp",
+   "steps": [
+    "Off",
+    "BUSS",
+    "G Purpose",
+    "Tracking",
+    "SPANK",
+    "BUSS+SPK",
+    "GP+SPK",
+    "Trkng+SPK"
+   ],
+   "default": 0.4285714328289032
+  },
+  {
+   "index": 2,
+   "name": "Ch1Warmth",
+   "steps": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Ch1Bypass",
+   "steps": [
+    "ENABLE",
+    "TRANNY",
+    "BYPASS"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Ch1Output",
+   "steps": null,
+   "default": 0.476165771484375
+  },
+  {
+   "index": 5,
+   "name": "Ch2Input",
+   "steps": null,
+   "default": 0.476165771484375
+  },
+  {
+   "index": 6,
+   "name": "Ch2Comp",
+   "steps": [
+    "Off",
+    "BUSS",
+    "G Purpose",
+    "Tracking",
+    "SPANK",
+    "Buss+SPK",
+    "GP+SPK",
+    "Trkng+SPK"
+   ],
+   "default": 0.4285714328289032
+  },
+  {
+   "index": 7,
+   "name": "Ch2Warmth",
+   "steps": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "Ch2Bypass",
+   "steps": [
+    "ENABLE",
+    "TRANNY",
+    "BYPASS"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "Ch2Output",
+   "steps": null,
+   "default": 0.476165771484375
+  },
+  {
+   "index": 10,
+   "name": "CompLink",
+   "steps": [
+    "UnLinked",
+    "Linked"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "CtrlLink",
+   "steps": [
+    "UnLinked",
+    "Linked"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-ch1input",
+   "x": 40,
+   "y": 6,
+   "w": 82,
+   "h": 82,
+   "sprite": "empirical_labs_fatso_jr_6703",
+   "frames": 106,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "knob-2-ch2input",
+   "x": 452,
+   "y": 6,
+   "w": 82,
+   "h": 82,
+   "sprite": "empirical_labs_fatso_jr_6703",
+   "frames": 106,
+   "kind": "knob",
+   "param": 5
+  },
+  {
+   "id": "knob-3-ch1output",
+   "x": 370,
+   "y": 6,
+   "w": 82,
+   "h": 82,
+   "sprite": "empirical_labs_fatso_jr_6703",
+   "frames": 106,
+   "kind": "knob",
+   "param": 4
+  },
+  {
+   "id": "knob-4-ch2output",
+   "x": 784,
+   "y": 6,
+   "w": 82,
+   "h": 82,
+   "sprite": "empirical_labs_fatso_jr_6703",
+   "frames": 106,
+   "kind": "knob",
+   "param": 9
+  },
+  {
+   "id": "switch-5-complink",
+   "kind": "switch",
+   "x": 277,
+   "y": 51,
+   "w": 46,
+   "h": 19,
+   "sprite": "empirical_labs_fatso_jr_6711_2",
+   "frames": 2,
+   "param": 10,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-6-ctrllink",
+   "kind": "switch",
+   "x": 691,
+   "y": 51,
+   "w": 46,
+   "h": 19,
+   "sprite": "empirical_labs_fatso_jr_6712_3",
+   "frames": 2,
+   "param": 11,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-7-ch1comp",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 1
+   },
+   "x": 152,
+   "y": 19,
+   "w": 10,
+   "h": 36,
+   "sprite": "empirical_labs_fatso_jr_6709",
+   "frames": 8,
+   "visibility": {
+    "params": [
+     12
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 1
+   },
+   "x": 152,
+   "y": 19,
+   "w": 10,
+   "h": 36,
+   "sprite": "P_empirical_labs_fatso_jr_6716",
+   "frames": 8,
+   "id": "P-filmstrip-7-ch1comp-alt0",
+   "visibility": {
+    "params": [
+     12
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "image-8-internal14",
+   "kind": "image",
+   "x": 122,
+   "y": 60,
+   "w": 40,
+   "h": 21,
+   "sprite": "empirical_labs_fatso_jr_6704_5"
+  },
+  {
+   "id": "image-9-internal15",
+   "kind": "image",
+   "x": 227,
+   "y": 51,
+   "w": 40,
+   "h": 21,
+   "sprite": "empirical_labs_fatso_jr_6704_5"
+  },
+  {
+   "id": "filmstrip-10-ch1warmth",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   },
+   "x": 213,
+   "y": 26,
+   "w": 64,
+   "h": 32,
+   "sprite": "empirical_labs_fatso_jr_6708",
+   "frames": 8,
+   "reverse": true,
+   "visibility": {
+    "params": [
+     12
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   },
+   "x": 213,
+   "y": 26,
+   "w": 64,
+   "h": 32,
+   "sprite": "P_empirical_labs_fatso_jr_6719",
+   "frames": 8,
+   "reverse": true,
+   "id": "P-filmstrip-10-ch1warmth-alt0",
+   "visibility": {
+    "params": [
+     12
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "filmstrip-11-ch1bypass",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   },
+   "x": 360,
+   "y": 25,
+   "w": 10,
+   "h": 23,
+   "sprite": "empirical_labs_fatso_jr_6710",
+   "frames": 3,
+   "reverse": true,
+   "visibility": {
+    "params": [
+     12
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   },
+   "x": 360,
+   "y": 25,
+   "w": 10,
+   "h": 23,
+   "sprite": "P_empirical_labs_fatso_jr_6718",
+   "frames": 3,
+   "reverse": true,
+   "id": "P-filmstrip-11-ch1bypass-alt0",
+   "visibility": {
+    "params": [
+     12
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "image-12-internal16",
+   "kind": "image",
+   "x": 325,
+   "y": 51,
+   "w": 40,
+   "h": 21,
+   "sprite": "empirical_labs_fatso_jr_6705_8"
+  },
+  {
+   "id": "filmstrip-13-ch2comp",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 6
+   },
+   "x": 566,
+   "y": 19,
+   "w": 10,
+   "h": 36,
+   "sprite": "empirical_labs_fatso_jr_6709",
+   "frames": 8,
+   "visibility": {
+    "params": [
+     12
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 6
+   },
+   "x": 566,
+   "y": 19,
+   "w": 10,
+   "h": 36,
+   "sprite": "P_empirical_labs_fatso_jr_6716",
+   "frames": 8,
+   "id": "P-filmstrip-13-ch2comp-alt0",
+   "visibility": {
+    "params": [
+     12
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "image-14-internal17",
+   "kind": "image",
+   "x": 536,
+   "y": 60,
+   "w": 40,
+   "h": 21,
+   "sprite": "empirical_labs_fatso_jr_6704_5"
+  },
+  {
+   "id": "image-15-internal18",
+   "kind": "image",
+   "x": 641,
+   "y": 51,
+   "w": 40,
+   "h": 21,
+   "sprite": "empirical_labs_fatso_jr_6704_5"
+  },
+  {
+   "id": "filmstrip-16-ch2warmth",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 7
+   },
+   "x": 627,
+   "y": 26,
+   "w": 64,
+   "h": 32,
+   "sprite": "empirical_labs_fatso_jr_6708",
+   "frames": 8,
+   "reverse": true,
+   "visibility": {
+    "params": [
+     12
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 7
+   },
+   "x": 627,
+   "y": 26,
+   "w": 64,
+   "h": 32,
+   "sprite": "P_empirical_labs_fatso_jr_6719",
+   "frames": 8,
+   "reverse": true,
+   "id": "P-filmstrip-16-ch2warmth-alt0",
+   "visibility": {
+    "params": [
+     12
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "filmstrip-17-ch2bypass",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 8
+   },
+   "x": 774,
+   "y": 25,
+   "w": 10,
+   "h": 23,
+   "sprite": "empirical_labs_fatso_jr_6710",
+   "frames": 3,
+   "reverse": true,
+   "visibility": {
+    "params": [
+     12
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 8
+   },
+   "x": 774,
+   "y": 25,
+   "w": 10,
+   "h": 23,
+   "sprite": "P_empirical_labs_fatso_jr_6718",
+   "frames": 3,
+   "reverse": true,
+   "id": "P-filmstrip-17-ch2bypass-alt0",
+   "visibility": {
+    "params": [
+     12
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "image-18-internal19",
+   "kind": "image",
+   "x": 739,
+   "y": 51,
+   "w": 40,
+   "h": 21,
+   "sprite": "empirical_labs_fatso_jr_6705_8"
+  },
+  {
+   "id": "switch-19-power",
+   "x": 868,
+   "y": 27,
+   "w": 31,
+   "h": 41,
+   "sprite": "empirical_labs_fatso_jr_6702",
+   "frames": 2,
+   "kind": "switch",
+   "param": 12,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-20-internal20",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter0"
+   },
+   "x": 162,
+   "y": 12,
+   "w": 178,
+   "h": 10,
+   "sprite": "P_empirical_labs_fatso_jr_6706_rev",
+   "frames": 9
+  },
+  {
+   "id": "filmstrip-21-internal21",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter1"
+   },
+   "x": 576,
+   "y": 12,
+   "w": 178,
+   "h": 10,
+   "sprite": "P_empirical_labs_fatso_jr_6706_rev",
+   "frames": 9
+  },
+  {
+   "id": "filmstrip-22-internal22",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter2"
+   },
+   "x": 162,
+   "y": 72,
+   "w": 178,
+   "h": 10,
+   "sprite": "P_empirical_labs_fatso_jr_6706_rev",
+   "frames": 9
+  },
+  {
+   "id": "filmstrip-23-internal23",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter3"
+   },
+   "x": 576,
+   "y": 72,
+   "w": 178,
+   "h": 10,
+   "sprite": "P_empirical_labs_fatso_jr_6706_rev",
+   "frames": 9
+  },
+  {
+   "id": "filmstrip-24-internal24",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter4"
+   },
+   "x": 313,
+   "y": 38,
+   "w": 10,
+   "h": 10,
+   "sprite": "P_empirical_labs_fatso_jr_6714_rev",
+   "frames": 2
+  },
+  {
+   "id": "filmstrip-25-internal25",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter5"
+   },
+   "x": 727,
+   "y": 38,
+   "w": 10,
+   "h": 10,
+   "sprite": "P_empirical_labs_fatso_jr_6714_rev",
+   "frames": 2
+  },
+  {
+   "id": "filmstrip-26-internal26",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter6"
+   },
+   "x": 313,
+   "y": 25,
+   "w": 10,
+   "h": 10,
+   "sprite": "P_empirical_labs_fatso_jr_6715_rev",
+   "frames": 2
+  },
+  {
+   "id": "filmstrip-27-internal27",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter7"
+   },
+   "x": 727,
+   "y": 25,
+   "w": 10,
+   "h": 10,
+   "sprite": "P_empirical_labs_fatso_jr_6715_rev",
+   "frames": 2
+  },
+  {
+   "id": "I-cycle-1",
+   "kind": "zone",
+   "x": 122,
+   "y": 60,
+   "w": 40,
+   "h": 21,
+   "action": {
+    "type": "toggle",
+    "param": 1
+   },
+   "longPressAction": {
+    "type": "table",
+    "param": 1,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.142857,
+      "value": 0.0
+     },
+     {
+      "current": 0.285714,
+      "value": 0.142857
+     },
+     {
+      "current": 0.428571,
+      "value": 0.285714
+     },
+     {
+      "current": 0.571429,
+      "value": 0.428571
+     },
+     {
+      "current": 0.714286,
+      "value": 0.571429
+     },
+     {
+      "current": 0.857143,
+      "value": 0.714286
+     },
+     {
+      "current": 1.0,
+      "value": 0.857143
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-cycle-2",
+   "kind": "zone",
+   "x": 227,
+   "y": 51,
+   "w": 40,
+   "h": 21,
+   "action": {
+    "type": "toggle",
+    "param": 2
+   },
+   "longPressAction": {
+    "type": "table",
+    "param": 2,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.142857,
+      "value": 0.0
+     },
+     {
+      "current": 0.285714,
+      "value": 0.142857
+     },
+     {
+      "current": 0.428571,
+      "value": 0.285714
+     },
+     {
+      "current": 0.571429,
+      "value": 0.428571
+     },
+     {
+      "current": 0.714286,
+      "value": 0.571429
+     },
+     {
+      "current": 0.857143,
+      "value": 0.714286
+     },
+     {
+      "current": 1.0,
+      "value": 0.857143
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-cycle-3",
+   "kind": "zone",
+   "x": 325,
+   "y": 51,
+   "w": 40,
+   "h": 21,
+   "action": {
+    "type": "toggle",
+    "param": 3
+   },
+   "longPressAction": {
+    "type": "table",
+    "param": 3,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-cycle-6",
+   "kind": "zone",
+   "x": 536,
+   "y": 60,
+   "w": 40,
+   "h": 21,
+   "action": {
+    "type": "toggle",
+    "param": 6
+   },
+   "longPressAction": {
+    "type": "table",
+    "param": 6,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.142857,
+      "value": 0.0
+     },
+     {
+      "current": 0.285714,
+      "value": 0.142857
+     },
+     {
+      "current": 0.428571,
+      "value": 0.285714
+     },
+     {
+      "current": 0.571429,
+      "value": 0.428571
+     },
+     {
+      "current": 0.714286,
+      "value": 0.571429
+     },
+     {
+      "current": 0.857143,
+      "value": 0.714286
+     },
+     {
+      "current": 1.0,
+      "value": 0.857143
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-cycle-7",
+   "kind": "zone",
+   "x": 641,
+   "y": 51,
+   "w": 40,
+   "h": 21,
+   "action": {
+    "type": "toggle",
+    "param": 7
+   },
+   "longPressAction": {
+    "type": "table",
+    "param": 7,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.142857,
+      "value": 0.0
+     },
+     {
+      "current": 0.285714,
+      "value": 0.142857
+     },
+     {
+      "current": 0.428571,
+      "value": 0.285714
+     },
+     {
+      "current": 0.571429,
+      "value": 0.428571
+     },
+     {
+      "current": 0.714286,
+      "value": 0.571429
+     },
+     {
+      "current": 0.857143,
+      "value": 0.714286
+     },
+     {
+      "current": 1.0,
+      "value": 0.857143
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-cycle-8",
+   "kind": "zone",
+   "x": 739,
+   "y": 51,
+   "w": 40,
+   "h": 21,
+   "action": {
+    "type": "toggle",
+    "param": 8
+   },
+   "longPressAction": {
+    "type": "table",
+    "param": 8,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.5
+     }
+    ]
+   }
+  }
+ ],
+ "meterSources": {
+  "meter2": {
+   "vendorSpecificFloat": 42,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0745282,
+     0.0
+    ],
+    [
+     0.0745283,
+     0.166687
+    ],
+    [
+     0.1349055,
+     0.166687
+    ],
+    [
+     0.1349057,
+     0.277771
+    ],
+    [
+     0.1971696,
+     0.277771
+    ],
+    [
+     0.1971698,
+     0.388885
+    ],
+    [
+     0.2603771,
+     0.388885
+    ],
+    [
+     0.2603774,
+     0.5
+    ],
+    [
+     0.3235846,
+     0.5
+    ],
+    [
+     0.3235849,
+     0.611084
+    ],
+    [
+     0.4150939,
+     0.611084
+    ],
+    [
+     0.4150943,
+     0.722198
+    ],
+    [
+     0.5103769,
+     0.722198
+    ],
+    [
+     0.5103774,
+     0.833282
+    ],
+    [
+     0.71132,
+     0.833282
+    ],
+    [
+     0.7113207,
+     1.0
+    ],
+    [
+     1000.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "meter3": {
+   "vendorSpecificFloat": 43,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0745282,
+     0.0
+    ],
+    [
+     0.0745283,
+     0.166687
+    ],
+    [
+     0.1349055,
+     0.166687
+    ],
+    [
+     0.1349057,
+     0.277771
+    ],
+    [
+     0.1971696,
+     0.277771
+    ],
+    [
+     0.1971698,
+     0.388885
+    ],
+    [
+     0.2603771,
+     0.388885
+    ],
+    [
+     0.2603774,
+     0.5
+    ],
+    [
+     0.3235846,
+     0.5
+    ],
+    [
+     0.3235849,
+     0.611084
+    ],
+    [
+     0.4150939,
+     0.611084
+    ],
+    [
+     0.4150943,
+     0.722198
+    ],
+    [
+     0.5103769,
+     0.722198
+    ],
+    [
+     0.5103774,
+     0.833282
+    ],
+    [
+     0.71132,
+     0.833282
+    ],
+    [
+     0.7113207,
+     1.0
+    ],
+    [
+     1000.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "meter0": {
+   "vendorSpecificFloat": 44,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0731481,
+     0.0
+    ],
+    [
+     0.0731481,
+     0.166687
+    ],
+    [
+     0.1324073,
+     0.166687
+    ],
+    [
+     0.1324074,
+     0.277771
+    ],
+    [
+     0.1935183,
+     0.277771
+    ],
+    [
+     0.1935185,
+     0.388885
+    ],
+    [
+     0.2555553,
+     0.388885
+    ],
+    [
+     0.2555556,
+     0.5
+    ],
+    [
+     0.3175923,
+     0.5
+    ],
+    [
+     0.3175926,
+     0.611084
+    ],
+    [
+     0.407407,
+     0.611084
+    ],
+    [
+     0.4074074,
+     0.722198
+    ],
+    [
+     0.5009254,
+     0.722198
+    ],
+    [
+     0.5009259,
+     0.833282
+    ],
+    [
+     0.6981475,
+     0.833282
+    ],
+    [
+     0.6981482,
+     1.0
+    ],
+    [
+     1000.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "meter1": {
+   "vendorSpecificFloat": 45,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0731481,
+     0.0
+    ],
+    [
+     0.0731481,
+     0.166687
+    ],
+    [
+     0.1324073,
+     0.166687
+    ],
+    [
+     0.1324074,
+     0.277771
+    ],
+    [
+     0.1935183,
+     0.277771
+    ],
+    [
+     0.1935185,
+     0.388885
+    ],
+    [
+     0.2555553,
+     0.388885
+    ],
+    [
+     0.2555556,
+     0.5
+    ],
+    [
+     0.3175923,
+     0.5
+    ],
+    [
+     0.3175926,
+     0.611084
+    ],
+    [
+     0.407407,
+     0.611084
+    ],
+    [
+     0.4074074,
+     0.722198
+    ],
+    [
+     0.5009254,
+     0.722198
+    ],
+    [
+     0.5009259,
+     0.833282
+    ],
+    [
+     0.6981475,
+     0.833282
+    ],
+    [
+     0.6981482,
+     1.0
+    ],
+    [
+     1000.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "meter4": {
+   "vendorSpecificFloat": 46,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     4.2729957,
+     0.0
+    ],
+    [
+     4.273,
+     1.0
+    ],
+    [
+     10.9999895,
+     1.0
+    ],
+    [
+     11.0000005,
+     0.0
+    ],
+    [
+     1000.0,
+     0.0
+    ]
+   ],
+   "smoothing": 0.3
+  },
+  "meter5": {
+   "vendorSpecificFloat": 47,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     4.2729957,
+     0.0
+    ],
+    [
+     4.273,
+     1.0
+    ],
+    [
+     10.9999895,
+     1.0
+    ],
+    [
+     11.0000005,
+     0.0
+    ],
+    [
+     1000.0,
+     0.0
+    ]
+   ],
+   "smoothing": 0.3
+  },
+  "meter6": {
+   "vendorSpecificFloat": 46,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     10.9999895,
+     0.0
+    ],
+    [
+     11.0000005,
+     1.0
+    ],
+    [
+     1000.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.3
+  },
+  "meter7": {
+   "vendorSpecificFloat": 47,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     10.9999895,
+     0.0
+    ],
+    [
+     11.0000005,
+     1.0
+    ],
+    [
+     1000.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.3
+  }
+ }
+}

@@ -1,0 +1,429 @@
+{
+ "schema": 2,
+ "effectName": "UAD Neve 1081SE",
+ "namePattern": "Neve 1081SE",
+ "size": {
+  "w": 720,
+  "h": 110
+ },
+ "background": "neve_1081se_4901",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "InputGain",
+   "steps": null,
+   "default": 0.630859375
+  },
+  {
+   "index": 1,
+   "name": "HiPeak",
+   "steps": [
+    "Shelf",
+    "Peak"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "HiFreq",
+   "steps": [
+    "OFF",
+    "15.0 k",
+    "10.0 k",
+    "6.80 k",
+    "4.70 k",
+    "3.30 k"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "HiGain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "HiMidQ",
+   "steps": [
+    "Normal",
+    "High"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "HiMidFreq",
+   "steps": [
+    "OFF",
+    "1.50 k",
+    "1.80 k",
+    "2.20 k",
+    "2.70 k",
+    "3.30 k",
+    "3.90 k",
+    "4.70 k",
+    "5.60 k",
+    "6.80 k",
+    "8.20 k"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "HiMidGain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "LoMidQ",
+   "steps": [
+    "Normal",
+    "High"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "LoMidFreq",
+   "steps": [
+    "OFF",
+    "220 Hz",
+    "270 Hz",
+    "330 Hz",
+    "390 Hz",
+    "470 Hz",
+    "560 Hz",
+    "680 Hz",
+    "820 Hz",
+    "1.00 k",
+    "1.20 k"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "LoMidGain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "LoPeak",
+   "steps": [
+    "Shelf",
+    "Peak"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "LoFreq",
+   "steps": [
+    "OFF",
+    "33.0 Hz",
+    "56.0 Hz",
+    "100 Hz",
+    "180 Hz",
+    "330 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "LoGain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 13,
+   "name": "LoCut",
+   "steps": [
+    "OFF",
+    "27.0 Hz",
+    "47.0 Hz",
+    "82.0 Hz",
+    "150 Hz",
+    "270 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 14,
+   "name": "HiCut",
+   "steps": [
+    "3.90 k",
+    "5.60 k",
+    "8.20 k",
+    "12.0 k",
+    "18.0 k",
+    "OFF"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 15,
+   "name": "Phase",
+   "steps": [
+    "Normal",
+    "Inverted"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 16,
+   "name": "EQL",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-inputgain",
+   "x": 25,
+   "y": 19,
+   "w": 94,
+   "h": 80,
+   "sprite": "neve_1081se_4902",
+   "frames": 64,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "knob-2-hifreq",
+   "x": 144,
+   "y": 19,
+   "w": 82,
+   "h": 80,
+   "sprite": "neve_1081se_4905",
+   "frames": 6,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "knob-3-higain",
+   "x": 161,
+   "y": 19,
+   "w": 60,
+   "h": 80,
+   "sprite": "neve_1081se_4914",
+   "frames": 61,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "knob-4-himidfreq",
+   "x": 226,
+   "y": 19,
+   "w": 88,
+   "h": 80,
+   "sprite": "neve_1081se_4906",
+   "frames": 11,
+   "kind": "knob",
+   "param": 5
+  },
+  {
+   "id": "knob-5-himidgain",
+   "x": 239,
+   "y": 19,
+   "w": 60,
+   "h": 80,
+   "sprite": "neve_1081se_4914",
+   "frames": 61,
+   "kind": "knob",
+   "param": 6
+  },
+  {
+   "id": "knob-6-lomidfreq",
+   "x": 338,
+   "y": 19,
+   "w": 82,
+   "h": 80,
+   "sprite": "neve_1081se_4909",
+   "frames": 11,
+   "kind": "knob",
+   "param": 8
+  },
+  {
+   "id": "knob-7-lomidgain",
+   "x": 349,
+   "y": 19,
+   "w": 60,
+   "h": 80,
+   "sprite": "neve_1081se_4914",
+   "frames": 61,
+   "kind": "knob",
+   "param": 9
+  },
+  {
+   "id": "knob-8-lofreq",
+   "x": 445,
+   "y": 19,
+   "w": 81,
+   "h": 80,
+   "sprite": "neve_1081se_4913",
+   "frames": 6,
+   "kind": "knob",
+   "param": 11
+  },
+  {
+   "id": "knob-9-logain",
+   "x": 459,
+   "y": 19,
+   "w": 60,
+   "h": 80,
+   "sprite": "neve_1081se_4914",
+   "frames": 61,
+   "kind": "knob",
+   "param": 12
+  },
+  {
+   "id": "knob-10-locut",
+   "x": 527,
+   "y": 19,
+   "w": 88,
+   "h": 80,
+   "sprite": "neve_1081se_4915",
+   "frames": 6,
+   "kind": "knob",
+   "param": 13
+  },
+  {
+   "id": "knob-11-hicut",
+   "x": 527,
+   "y": 19,
+   "w": 88,
+   "h": 80,
+   "sprite": "neve_1081se_4916",
+   "frames": 6,
+   "kind": "knob",
+   "param": 14
+  },
+  {
+   "id": "switch-12-himidq",
+   "kind": "switch",
+   "x": 317,
+   "y": 28,
+   "w": 21,
+   "h": 29,
+   "sprite": "neve_1081se_4908_9",
+   "frames": 2,
+   "param": 4,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-13-lomidq",
+   "kind": "switch",
+   "x": 317,
+   "y": 60,
+   "w": 21,
+   "h": 29,
+   "sprite": "neve_1081se_4908_9",
+   "frames": 2,
+   "param": 7,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-14-hipeak",
+   "kind": "switch",
+   "x": 122,
+   "y": 44,
+   "w": 21,
+   "h": 29,
+   "sprite": "neve_1081se_4903_10",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-15-lopeak",
+   "kind": "switch",
+   "x": 423,
+   "y": 44,
+   "w": 21,
+   "h": 29,
+   "sprite": "neve_1081se_4903_10",
+   "frames": 2,
+   "param": 10,
+   "orientation": "vertical"
+  },
+  {
+   "id": "P-eql-phase",
+   "kind": "filmstrip",
+   "x": 615,
+   "y": 27,
+   "w": 72,
+   "h": 60,
+   "sprite": "P_neve_1081se_eqlphase",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     15,
+     16
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-eql",
+   "kind": "zone",
+   "x": 648,
+   "y": 54,
+   "w": 25,
+   "h": 26,
+   "param": 16,
+   "action": {
+    "type": "toggle",
+    "param": 16
+   }
+  },
+  {
+   "id": "zone-17-phase",
+   "kind": "zone",
+   "x": 621,
+   "y": 54,
+   "w": 25,
+   "h": 26,
+   "param": 15,
+   "action": {
+    "type": "toggle",
+    "param": 15
+   }
+  }
+ ],
+ "meterSources": {}
+}

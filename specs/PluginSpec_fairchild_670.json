@@ -1,0 +1,2615 @@
+{
+ "schema": 2,
+ "effectName": "UAD Fairchild 670",
+ "namePattern": "Fairchild 670",
+ "size": {
+  "w": 950,
+  "h": 680
+ },
+ "background": null,
+ "parameters": [
+  {
+   "index": 0,
+   "name": "L Meter",
+   "steps": [
+    "In",
+    "GR",
+    "Out"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "L Input",
+   "steps": [
+    "-20 dB",
+    "-19 dB",
+    "-18 dB",
+    "-17 dB",
+    "-16 dB",
+    "-15 dB",
+    "-14 dB",
+    "-13 dB",
+    "-12 dB",
+    "-11 dB",
+    "-10 dB",
+    "-9 dB",
+    "-8 dB",
+    "-7 dB",
+    "-6 dB",
+    "-5 dB",
+    "-4 dB",
+    "-3 dB",
+    "-2 dB",
+    "-1 dB",
+    "0 dB"
+   ],
+   "default": 0.800000011920929
+  },
+  {
+   "index": 2,
+   "name": "L Thresh",
+   "steps": null,
+   "default": 0.149871826171875
+  },
+  {
+   "index": 3,
+   "name": "L TimeCnst",
+   "steps": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "default": 0.800000011920929
+  },
+  {
+   "index": 4,
+   "name": "L SC Filt",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "L Bal",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "L DC Thr",
+   "steps": null,
+   "default": 0.86083984375
+  },
+  {
+   "index": 7,
+   "name": "L Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 8,
+   "name": "R Meter",
+   "steps": [
+    "In",
+    "GR",
+    "Out"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 9,
+   "name": "R Input",
+   "steps": [
+    "-20 dB",
+    "-19 dB",
+    "-18 dB",
+    "-17 dB",
+    "-16 dB",
+    "-15 dB",
+    "-14 dB",
+    "-13 dB",
+    "-12 dB",
+    "-11 dB",
+    "-10 dB",
+    "-9 dB",
+    "-8 dB",
+    "-7 dB",
+    "-6 dB",
+    "-5 dB",
+    "-4 dB",
+    "-3 dB",
+    "-2 dB",
+    "-1 dB",
+    "0 dB"
+   ],
+   "default": 0.800000011920929
+  },
+  {
+   "index": 10,
+   "name": "R Thresh",
+   "steps": null,
+   "default": 0.149871826171875
+  },
+  {
+   "index": 11,
+   "name": "R TimeCnst",
+   "steps": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "default": 0.800000011920929
+  },
+  {
+   "index": 12,
+   "name": "R SC Filt",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "R Bal",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 14,
+   "name": "R DC Thr",
+   "steps": null,
+   "default": 0.86083984375
+  },
+  {
+   "index": 15,
+   "name": "R Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 16,
+   "name": "AGC Matrix",
+   "steps": [
+    "L-R",
+    "L-V"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 17,
+   "name": "SC Link",
+   "steps": [
+    "Unlink",
+    "Link"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 18,
+   "name": "Ctrl Link",
+   "steps": [
+    "Unlink",
+    "Link"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 19,
+   "name": "Mix",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 20,
+   "name": "Headroom",
+   "steps": [
+    "4 dB",
+    "8 dB",
+    "12 dB",
+    "16 dB",
+    "20 dB",
+    "24 dB",
+    "28 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 21,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "vu_a": {
+   "vendorSpecificFloat": 67108866,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.001,
+     0.0022
+    ],
+    [
+     0.001259,
+     0.0028
+    ],
+    [
+     0.001585,
+     0.0036
+    ],
+    [
+     0.001995,
+     0.0047
+    ],
+    [
+     0.002512,
+     0.0061
+    ],
+    [
+     0.003162,
+     0.0079
+    ],
+    [
+     0.003981,
+     0.0105
+    ],
+    [
+     0.005012,
+     0.0139
+    ],
+    [
+     0.00631,
+     0.0186
+    ],
+    [
+     0.007943,
+     0.0252
+    ],
+    [
+     0.01,
+     0.0346
+    ],
+    [
+     0.012589,
+     0.048
+    ],
+    [
+     0.015849,
+     0.0676
+    ],
+    [
+     0.019953,
+     0.0965
+    ],
+    [
+     0.025119,
+     0.1394
+    ],
+    [
+     0.031623,
+     0.2039
+    ],
+    [
+     0.039811,
+     0.2955
+    ],
+    [
+     0.050119,
+     0.4113
+    ],
+    [
+     0.063096,
+     0.5569
+    ],
+    [
+     0.079433,
+     0.7403
+    ],
+    [
+     0.1,
+     0.9712
+    ],
+    [
+     0.125893,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 67108866,
+    "p1": 1
+   }
+  },
+  "vu_b": {
+   "vendorSpecificFloat": 67108867,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.001,
+     0.0022
+    ],
+    [
+     0.001259,
+     0.0028
+    ],
+    [
+     0.001585,
+     0.0036
+    ],
+    [
+     0.001995,
+     0.0047
+    ],
+    [
+     0.002512,
+     0.0061
+    ],
+    [
+     0.003162,
+     0.0079
+    ],
+    [
+     0.003981,
+     0.0105
+    ],
+    [
+     0.005012,
+     0.0139
+    ],
+    [
+     0.00631,
+     0.0186
+    ],
+    [
+     0.007943,
+     0.0252
+    ],
+    [
+     0.01,
+     0.0346
+    ],
+    [
+     0.012589,
+     0.048
+    ],
+    [
+     0.015849,
+     0.0676
+    ],
+    [
+     0.019953,
+     0.0965
+    ],
+    [
+     0.025119,
+     0.1394
+    ],
+    [
+     0.031623,
+     0.2039
+    ],
+    [
+     0.039811,
+     0.2955
+    ],
+    [
+     0.050119,
+     0.4113
+    ],
+    [
+     0.063096,
+     0.5569
+    ],
+    [
+     0.079433,
+     0.7403
+    ],
+    [
+     0.1,
+     0.9712
+    ],
+    [
+     0.125893,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 67108867,
+    "p1": 1
+   }
+  }
+ },
+ "elements": [
+  {
+   "id": "background-image",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 950.0,
+   "h": 680.0,
+   "kind": "image",
+   "sprite": "UA_Fairchild670New_PANEL",
+   "visibility": {
+    "params": [
+     21
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "background-image-glow",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 950.0,
+   "h": 680.0,
+   "opacity": 0,
+   "kind": "image",
+   "sprite": "UA_Fairchild670New_GLOW",
+   "visibility": {
+    "params": [
+     21
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "left-input-meter",
+   "x": 180,
+   "y": 95,
+   "w": 110,
+   "h": 55,
+   "kind": "filmstrip",
+   "sprite": "UA_Fairchild_needle_METER",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu_a",
+    "channel": 0
+   }
+  },
+  {
+   "id": "left-knob-meter",
+   "x": 310,
+   "y": 57,
+   "w": 140,
+   "h": 150,
+   "kind": "knob",
+   "param": 0,
+   "sprite": "UA_Fairchild_METERING_A",
+   "frames": 3
+  },
+  {
+   "id": "left-knob-meter-ctv-0",
+   "x": 341,
+   "y": 77,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "left-knob-meter-ctv-1",
+   "x": 371,
+   "y": 71,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "left-knob-meter-ctv-2",
+   "x": 401,
+   "y": 77,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "left-headroom-knob",
+   "x": 326,
+   "y": 207,
+   "w": 22,
+   "h": 22,
+   "kind": "knob",
+   "param": 20,
+   "sprite": "UA_Fairchild_trimpot_HEADROOM",
+   "frames": 7
+  },
+  {
+   "id": "left-headroom-rtd",
+   "x": 327,
+   "y": 196,
+   "w": 20,
+   "h": 14,
+   "kind": "button",
+   "param": null,
+   "sprite": "transparent",
+   "frames": 1,
+   "action": {
+    "type": "default",
+    "param": 20
+   }
+  },
+  {
+   "id": "left-balance-knob",
+   "x": 412,
+   "y": 207,
+   "w": 22,
+   "h": 22,
+   "kind": "knob",
+   "param": 5,
+   "sprite": "UA_Fairchild_trimpot_BALANCE",
+   "frames": 101
+  },
+  {
+   "id": "left-balance-rtd",
+   "x": 413,
+   "y": 196,
+   "w": 20,
+   "h": 14,
+   "kind": "button",
+   "param": null,
+   "sprite": "transparent",
+   "frames": 1,
+   "action": {
+    "type": "default",
+    "param": 5
+   }
+  },
+  {
+   "id": "left-knob-gain",
+   "x": 453,
+   "y": 76,
+   "w": 122,
+   "h": 122,
+   "kind": "knob",
+   "param": 1,
+   "sprite": "UA_Fairchild_INPUT_A",
+   "frames": 21
+  },
+  {
+   "id": "left-knob-threshold",
+   "x": 587,
+   "y": 76,
+   "w": 121,
+   "h": 121,
+   "kind": "knob",
+   "param": 2,
+   "sprite": "UA_Fairchild_THRESHOLD_A",
+   "frames": 101
+  },
+  {
+   "id": "left-knob-time",
+   "x": 731,
+   "y": 67,
+   "w": 100,
+   "h": 100,
+   "kind": "knob",
+   "param": 3,
+   "sprite": "UA_Fairchild670_TIMECONSTANT_A",
+   "frames": 6
+  },
+  {
+   "id": "left-knob-time-ctv-0",
+   "x": 738,
+   "y": 101,
+   "w": 16,
+   "h": 16,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "left-knob-time-ctv-1",
+   "x": 747,
+   "y": 84,
+   "w": 16,
+   "h": 16,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "left-knob-time-ctv-2",
+   "x": 764,
+   "y": 74,
+   "w": 16,
+   "h": 16,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "left-knob-time-ctv-3",
+   "x": 782,
+   "y": 74,
+   "w": 16,
+   "h": 16,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "left-knob-time-ctv-4",
+   "x": 799,
+   "y": 84,
+   "w": 16,
+   "h": 16,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "left-knob-time-ctv-5",
+   "x": 808,
+   "y": 101,
+   "w": 16,
+   "h": 16,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "right-input-meter",
+   "x": 180,
+   "y": 295,
+   "w": 110,
+   "h": 55,
+   "kind": "filmstrip",
+   "sprite": "UA_Fairchild_needle_METER",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu_b",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-knob-meter",
+   "x": 310,
+   "y": 259,
+   "w": 140,
+   "h": 150,
+   "kind": "knob",
+   "param": 8,
+   "sprite": "UA_Fairchild_METERING_B",
+   "frames": 3,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-knob-meter-ctv-0",
+   "x": 341,
+   "y": 279,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-knob-meter-ctv-1",
+   "x": 371,
+   "y": 273,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-knob-meter-ctv-2",
+   "x": 401,
+   "y": 279,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-headroom-knob",
+   "x": 326,
+   "y": 409,
+   "w": 22,
+   "h": 22,
+   "kind": "knob",
+   "param": 20,
+   "sprite": "UA_Fairchild_trimpot_HEADROOM",
+   "frames": 7,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-headroom-rtd",
+   "x": 327,
+   "y": 398,
+   "w": 20,
+   "h": 14,
+   "kind": "button",
+   "param": null,
+   "sprite": "transparent",
+   "frames": 1,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "action": {
+    "type": "default",
+    "param": 20
+   }
+  },
+  {
+   "id": "right-balance-knob",
+   "x": 412,
+   "y": 409,
+   "w": 22,
+   "h": 22,
+   "kind": "knob",
+   "param": 13,
+   "sprite": "UA_Fairchild_trimpot_BALANCE",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-balance-rtd",
+   "x": 413,
+   "y": 398,
+   "w": 20,
+   "h": 14,
+   "kind": "button",
+   "param": null,
+   "sprite": "transparent",
+   "frames": 1,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "action": {
+    "type": "default",
+    "param": 13
+   }
+  },
+  {
+   "id": "right-knob-gain",
+   "x": 453,
+   "y": 278,
+   "w": 122,
+   "h": 122,
+   "kind": "knob",
+   "param": 9,
+   "sprite": "UA_Fairchild_INPUT_B",
+   "frames": 21,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-knob-threshold",
+   "x": 587,
+   "y": 278,
+   "w": 121,
+   "h": 121,
+   "kind": "knob",
+   "param": 10,
+   "sprite": "UA_Fairchild_THRESHOLD_B",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-knob-time",
+   "x": 731,
+   "y": 309,
+   "w": 100,
+   "h": 100,
+   "kind": "knob",
+   "param": 11,
+   "sprite": "UA_Fairchild670_TIMECONSTANT_B",
+   "frames": 6,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-knob-time-ctv-0",
+   "x": 738,
+   "y": 343,
+   "w": 16,
+   "h": 16,
+   "kind": "zone",
+   "param": 11,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-knob-time-ctv-1",
+   "x": 747,
+   "y": 326,
+   "w": 16,
+   "h": 16,
+   "kind": "zone",
+   "param": 11,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-knob-time-ctv-2",
+   "x": 764,
+   "y": 316,
+   "w": 16,
+   "h": 16,
+   "kind": "zone",
+   "param": 11,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-knob-time-ctv-3",
+   "x": 782,
+   "y": 316,
+   "w": 16,
+   "h": 16,
+   "kind": "zone",
+   "param": 11,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-knob-time-ctv-4",
+   "x": 799,
+   "y": 326,
+   "w": 16,
+   "h": 16,
+   "kind": "zone",
+   "param": 11,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-knob-time-ctv-5",
+   "x": 808,
+   "y": 343,
+   "w": 16,
+   "h": 16,
+   "kind": "zone",
+   "param": 11,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-link-input-meter",
+   "x": 180.0,
+   "y": 295.0,
+   "w": 110.0,
+   "h": 55.0,
+   "kind": "filmstrip",
+   "sprite": "UA_Fairchild_needle_METER",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu_b",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-link-knob-meter",
+   "x": 310.0,
+   "y": 259.0,
+   "w": 140.0,
+   "h": 150.0,
+   "kind": "knob",
+   "param": 0,
+   "sprite": "UA_Fairchild_METERING_B",
+   "frames": 3,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-link-knob-meter-ctv-0",
+   "x": 341.0,
+   "y": 279.0,
+   "w": 20.0,
+   "h": 16.0,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-link-knob-meter-ctv-1",
+   "x": 371.0,
+   "y": 273.0,
+   "w": 20.0,
+   "h": 16.0,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-link-knob-meter-ctv-2",
+   "x": 401.0,
+   "y": 279.0,
+   "w": 20.0,
+   "h": 16.0,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-link-headroom-knob",
+   "x": 326.0,
+   "y": 409.0,
+   "w": 22.0,
+   "h": 22.0,
+   "kind": "knob",
+   "param": 20,
+   "sprite": "UA_Fairchild_trimpot_HEADROOM",
+   "frames": 7,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-link-headroom-rtd",
+   "x": 327.0,
+   "y": 398.0,
+   "w": 20.0,
+   "h": 14.0,
+   "kind": "button",
+   "param": null,
+   "sprite": "transparent",
+   "frames": 1,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   },
+   "action": {
+    "type": "default",
+    "param": 20
+   }
+  },
+  {
+   "id": "right-link-balance-knob",
+   "x": 412.0,
+   "y": 409.0,
+   "w": 22.0,
+   "h": 22.0,
+   "kind": "knob",
+   "param": 5,
+   "sprite": "UA_Fairchild_trimpot_BALANCE",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-link-balance-rtd",
+   "x": 413.0,
+   "y": 398.0,
+   "w": 20.0,
+   "h": 14.0,
+   "kind": "button",
+   "param": null,
+   "sprite": "transparent",
+   "frames": 1,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   },
+   "action": {
+    "type": "default",
+    "param": 5
+   }
+  },
+  {
+   "id": "right-link-knob-gain",
+   "x": 453.0,
+   "y": 278.0,
+   "w": 122.0,
+   "h": 122.0,
+   "kind": "knob",
+   "param": 1,
+   "sprite": "UA_Fairchild_INPUT_B",
+   "frames": 21,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-link-knob-threshold",
+   "x": 587.0,
+   "y": 278.0,
+   "w": 121.0,
+   "h": 121.0,
+   "kind": "knob",
+   "param": 2,
+   "sprite": "UA_Fairchild_THRESHOLD_B",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-link-knob-time",
+   "x": 731.0,
+   "y": 309.0,
+   "w": 100.0,
+   "h": 100.0,
+   "kind": "knob",
+   "param": 3,
+   "sprite": "UA_Fairchild670_TIMECONSTANT_B",
+   "frames": 6,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-link-knob-time-ctv-0",
+   "x": 738.0,
+   "y": 343.0,
+   "w": 16.0,
+   "h": 16.0,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-link-knob-time-ctv-1",
+   "x": 747.0,
+   "y": 326.0,
+   "w": 16.0,
+   "h": 16.0,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-link-knob-time-ctv-2",
+   "x": 764.0,
+   "y": 316.0,
+   "w": 16.0,
+   "h": 16.0,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.4
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-link-knob-time-ctv-3",
+   "x": 782.0,
+   "y": 316.0,
+   "w": 16.0,
+   "h": 16.0,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-link-knob-time-ctv-4",
+   "x": 799.0,
+   "y": 326.0,
+   "w": 16.0,
+   "h": 16.0,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "right-link-knob-time-ctv-5",
+   "x": 808.0,
+   "y": 343.0,
+   "w": 16.0,
+   "h": 16.0,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "power-switch",
+   "x": 111,
+   "y": 105,
+   "w": 50,
+   "h": 71,
+   "kind": "switch",
+   "param": 21,
+   "sprite": "UA_Fairchild_POWER",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "power-led-invisible-switch",
+   "x": 118,
+   "y": 224,
+   "w": 28,
+   "h": 30,
+   "kind": "switch",
+   "param": 21,
+   "sprite": "transparent",
+   "frames": 1
+  },
+  {
+   "id": "sidechain-link-switch-disabled",
+   "x": 339.0,
+   "y": 488.0,
+   "w": 50.0,
+   "h": 80.0,
+   "kind": "image",
+   "sprite": "UA_Fairchild_LINK"
+  },
+  {
+   "id": "sidechain-link-switch",
+   "x": 339,
+   "y": 488,
+   "w": 50,
+   "h": 80,
+   "kind": "switch",
+   "param": 17,
+   "sprite": "UA_Fairchild_LINK",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "controls-link-switch-disabled",
+   "x": 399.0,
+   "y": 488.0,
+   "w": 50.0,
+   "h": 80.0,
+   "kind": "image",
+   "sprite": "UA_Fairchild_LINK"
+  },
+  {
+   "id": "controls-link-switch",
+   "x": 399,
+   "y": 488,
+   "w": 50,
+   "h": 80,
+   "kind": "switch",
+   "param": 18,
+   "sprite": "UA_Fairchild_LINK",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-master-sidechain",
+   "x": 98,
+   "y": 470,
+   "w": 110,
+   "h": 110,
+   "kind": "knob",
+   "param": 4,
+   "sprite": "UA_Fairchild_SIDECHAIN_A",
+   "frames": 101
+  },
+  {
+   "id": "knob-master-sidechain-ctv-0",
+   "x": 112,
+   "y": 562,
+   "w": 24,
+   "h": 16,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "knob-master-sidechain-right",
+   "x": 218,
+   "y": 470,
+   "w": 110,
+   "h": 110,
+   "kind": "knob",
+   "param": 12,
+   "sprite": "UA_Fairchild_SIDECHAIN_B",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-master-sidechain-right-ctv-0",
+   "x": 232,
+   "y": 562,
+   "w": 24,
+   "h": 16,
+   "kind": "zone",
+   "param": 12,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-master-sidechain-right-linked",
+   "x": 218.0,
+   "y": 470.0,
+   "w": 110.0,
+   "h": 110.0,
+   "kind": "knob",
+   "param": 4,
+   "sprite": "UA_Fairchild_SIDECHAIN_B",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-master-sidechain-right-linked-ctv-0",
+   "x": 232.0,
+   "y": 562.0,
+   "w": 24.0,
+   "h": 16.0,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-master-dcthreshold",
+   "x": 671,
+   "y": 588,
+   "w": 70,
+   "h": 62,
+   "kind": "knob",
+   "param": 6,
+   "sprite": "UA_Fairchild_DCThres_A",
+   "frames": 101
+  },
+  {
+   "id": "knob-master-dcthreshold-ctv-0",
+   "x": 734,
+   "y": 603,
+   "w": 22,
+   "h": 16,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "knob-master-dcthreshold-ctv-1",
+   "x": 734,
+   "y": 617,
+   "w": 22,
+   "h": 16,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.859894
+   }
+  },
+  {
+   "id": "knob-master-dcthreshold-right",
+   "x": 762,
+   "y": 588,
+   "w": 70,
+   "h": 62,
+   "kind": "knob",
+   "param": 14,
+   "sprite": "UA_Fairchild_DCThres_B",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-master-dcthreshold-right-ctv-0",
+   "x": 825,
+   "y": 603,
+   "w": 22,
+   "h": 16,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.75
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-master-dcthreshold-right-ctv-1",
+   "x": 825,
+   "y": 617,
+   "w": 22,
+   "h": 16,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.859894
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-master-dcthreshold-right-linked",
+   "x": 762.0,
+   "y": 588.0,
+   "w": 70.0,
+   "h": 62.0,
+   "kind": "knob",
+   "param": 6,
+   "sprite": "UA_Fairchild_DCThres_B",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-master-dcthreshold-right-linked-ctv-0",
+   "x": 825.0,
+   "y": 603.0,
+   "w": 22.0,
+   "h": 16.0,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.75
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-master-dcthreshold-right-linked-ctv-1",
+   "x": 825.0,
+   "y": 617.0,
+   "w": 22.0,
+   "h": 16.0,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.859894
+   },
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-master-output-left",
+   "x": 453,
+   "y": 464,
+   "w": 122,
+   "h": 122,
+   "kind": "knob",
+   "param": 7,
+   "sprite": "UA_Fairchild_OUTPUT_A_101steps",
+   "frames": 101
+  },
+  {
+   "id": "knob-master-output-left-rtd",
+   "x": 485,
+   "y": 454,
+   "w": 60,
+   "h": 16,
+   "kind": "button",
+   "param": null,
+   "sprite": "transparent",
+   "frames": 1,
+   "action": {
+    "type": "default",
+    "param": 7
+   }
+  },
+  {
+   "id": "knob-master-output-right",
+   "x": 587,
+   "y": 464,
+   "w": 122,
+   "h": 122,
+   "kind": "knob",
+   "param": 15,
+   "sprite": "UA_Fairchild_OUTPUT_B_101steps",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-master-output-right-rtd",
+   "x": 619,
+   "y": 454,
+   "w": 60,
+   "h": 16,
+   "kind": "button",
+   "param": null,
+   "sprite": "transparent",
+   "frames": 1,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "action": {
+    "type": "default",
+    "param": 15
+   }
+  },
+  {
+   "id": "knob-master-output-right-linked",
+   "x": 587.0,
+   "y": 464.0,
+   "w": 122.0,
+   "h": 122.0,
+   "kind": "knob",
+   "param": 7,
+   "sprite": "UA_Fairchild_OUTPUT_B_101steps",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-master-output-right-linked-rtd",
+   "x": 619.0,
+   "y": 454.0,
+   "w": 60.0,
+   "h": 16.0,
+   "kind": "button",
+   "param": null,
+   "sprite": "transparent",
+   "frames": 1,
+   "visibility": {
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   },
+   "action": {
+    "type": "default",
+    "param": 7
+   }
+  },
+  {
+   "id": "knob-master-agc",
+   "x": 731,
+   "y": 188,
+   "w": 100,
+   "h": 100,
+   "kind": "knob",
+   "param": 16,
+   "sprite": "UA_Fairchild670_AGC",
+   "frames": 2
+  },
+  {
+   "id": "knob-master-agc-ctv-0",
+   "x": 731,
+   "y": 193,
+   "w": 28,
+   "h": 24,
+   "kind": "zone",
+   "param": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "knob-master-agc-ctv-1",
+   "x": 803,
+   "y": 193,
+   "w": 28,
+   "h": 24,
+   "kind": "zone",
+   "param": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "knob-master-mix",
+   "x": 726,
+   "y": 470,
+   "w": 110,
+   "h": 110,
+   "kind": "knob",
+   "param": 19,
+   "sprite": "UA_Fairchild_MIX",
+   "frames": 101
+  },
+  {
+   "id": "knob-master-mix-ctv-0",
+   "x": 743,
+   "y": 562,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 19,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "knob-master-mix-ctv-1",
+   "x": 771,
+   "y": 471,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 19,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "knob-master-mix-ctv-2",
+   "x": 800,
+   "y": 562,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 19,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 1.0
+   }
+  }
+ ]
+}

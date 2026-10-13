@@ -1,0 +1,254 @@
+{
+ "schema": 2,
+ "effectName": "UAD API 560",
+ "namePattern": "API 560",
+ "size": {
+  "w": 310,
+  "h": 550
+ },
+ "background": "api_560_7490",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "16K",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "8K",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 2,
+   "name": "4K",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "2K",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "1K",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "500",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "250",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "125",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 8,
+   "name": "63",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 9,
+   "name": "31",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 11,
+   "name": "EQ In",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 12,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-16k",
+   "kind": "knob",
+   "x": 13,
+   "y": 81,
+   "w": 130,
+   "h": 32,
+   "sprite": "api_560_7496_fader1",
+   "frames": 90,
+   "param": 0,
+   "drag": "horizontal"
+  },
+  {
+   "id": "knob-2-8k",
+   "kind": "knob",
+   "x": 13,
+   "y": 120,
+   "w": 130,
+   "h": 32,
+   "sprite": "api_560_7496_fader2",
+   "frames": 90,
+   "param": 1,
+   "drag": "horizontal"
+  },
+  {
+   "id": "knob-3-4k",
+   "kind": "knob",
+   "x": 13,
+   "y": 159,
+   "w": 130,
+   "h": 32,
+   "sprite": "api_560_7496_fader3",
+   "frames": 90,
+   "param": 2,
+   "drag": "horizontal"
+  },
+  {
+   "id": "knob-4-2k",
+   "kind": "knob",
+   "x": 13,
+   "y": 198,
+   "w": 130,
+   "h": 32,
+   "sprite": "api_560_7496_fader4",
+   "frames": 90,
+   "param": 3,
+   "drag": "horizontal"
+  },
+  {
+   "id": "knob-5-1k",
+   "kind": "knob",
+   "x": 13,
+   "y": 237,
+   "w": 130,
+   "h": 32,
+   "sprite": "api_560_7499_fader5",
+   "frames": 90,
+   "param": 4,
+   "drag": "horizontal"
+  },
+  {
+   "id": "knob-6-500",
+   "kind": "knob",
+   "x": 13,
+   "y": 276,
+   "w": 130,
+   "h": 32,
+   "sprite": "api_560_7496_fader6",
+   "frames": 90,
+   "param": 5,
+   "drag": "horizontal"
+  },
+  {
+   "id": "knob-7-250",
+   "kind": "knob",
+   "x": 13,
+   "y": 315,
+   "w": 130,
+   "h": 32,
+   "sprite": "api_560_7496_fader7",
+   "frames": 90,
+   "param": 6,
+   "drag": "horizontal"
+  },
+  {
+   "id": "knob-8-125",
+   "kind": "knob",
+   "x": 13,
+   "y": 354,
+   "w": 130,
+   "h": 32,
+   "sprite": "api_560_7496_fader8",
+   "frames": 90,
+   "param": 7,
+   "drag": "horizontal"
+  },
+  {
+   "id": "knob-9-63",
+   "kind": "knob",
+   "x": 13,
+   "y": 393,
+   "w": 130,
+   "h": 32,
+   "sprite": "api_560_7496_fader9",
+   "frames": 90,
+   "param": 8,
+   "drag": "horizontal"
+  },
+  {
+   "id": "knob-10-31",
+   "kind": "knob",
+   "x": 13,
+   "y": 432,
+   "w": 130,
+   "h": 32,
+   "sprite": "api_560_7496_fader10",
+   "frames": 90,
+   "param": 9,
+   "drag": "horizontal"
+  },
+  {
+   "id": "switch-11-eq_in",
+   "kind": "switch",
+   "x": 28,
+   "y": 464,
+   "w": 99,
+   "h": 41,
+   "sprite": "api_560_7492_11",
+   "frames": 2,
+   "param": 11,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-12-output",
+   "x": 190,
+   "y": 308,
+   "w": 85,
+   "h": 84,
+   "sprite": "api_560_7493",
+   "frames": 101,
+   "kind": "knob",
+   "param": 10
+  },
+  {
+   "id": "switch-13-power",
+   "kind": "switch",
+   "x": 214,
+   "y": 421,
+   "w": 42,
+   "h": 101,
+   "sprite": "api_560_7491_13",
+   "frames": 2,
+   "param": 12,
+   "orientation": "vertical"
+  }
+ ],
+ "meterSources": {}
+}

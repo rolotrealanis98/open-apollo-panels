@@ -1,0 +1,1499 @@
+{
+ "schema": 2,
+ "effectName": "UAD ADA Flanger",
+ "namePattern": "ADA Flanger",
+ "size": {
+  "w": 615,
+  "h": 560
+ },
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Power",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "Bypass",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Level",
+   "steps": [
+    "Low",
+    "High"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 3,
+   "name": "Output",
+   "steps": null,
+   "default": 0.666700005531311
+  },
+  {
+   "index": 4,
+   "name": "Thrshld",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 5,
+   "name": "Manual",
+   "steps": null,
+   "default": 0.3799999952316284
+  },
+  {
+   "index": 6,
+   "name": "Range",
+   "steps": null,
+   "default": 0.6200000047683716
+  },
+  {
+   "index": 7,
+   "name": "Speed",
+   "steps": null,
+   "default": 0.4399999976158142
+  },
+  {
+   "index": 8,
+   "name": "Enhance",
+   "steps": null,
+   "default": 0.3799999952316284
+  },
+  {
+   "index": 9,
+   "name": "Harm",
+   "steps": [
+    "Even",
+    "Odd"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 10,
+   "name": "Noise",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "Model",
+   "steps": [
+    "1979",
+    "2009"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "Mix",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 13,
+   "name": "Sat",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 14,
+   "name": "Sync",
+   "steps": [
+    "Off",
+    "Synced"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 15,
+   "name": "SycSpd",
+   "steps": null,
+   "default": 0.4000000059604645
+  },
+  {
+   "index": 16,
+   "name": "Stereo",
+   "steps": [
+    "On",
+    "Off"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 17,
+   "name": "Bank",
+   "steps": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "default": 0.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "chrome-panel",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 615,
+   "h": 536,
+   "sprite": "ada_flanger__BACKGROUND79"
+  },
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 615,
+   "h": 24,
+   "toolbar": {
+    "family": "brainworx",
+    "items": [
+     {
+      "type": "switch",
+      "x": 0.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.power",
+      "frames": 2,
+      "param": 0,
+      "glyph": "power"
+     },
+     {
+      "type": "icon",
+      "x": 36.5,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.undo",
+      "frames": 2,
+      "glyph": "undo"
+     },
+     {
+      "type": "icon",
+      "x": 60.5,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.redo",
+      "frames": 2,
+      "glyph": "redo"
+     },
+     {
+      "type": "bank",
+      "x": 93.5,
+      "y": 0,
+      "w": 96.0,
+      "h": 24,
+      "sprite": "chrome.bx.bank",
+      "frames": 2,
+      "param": 17,
+      "cells": 4,
+      "glyph": "ABCD"
+     },
+     {
+      "type": "icon",
+      "x": 198.5,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.copy",
+      "frames": 2,
+      "glyph": "Copy"
+     },
+     {
+      "type": "icon",
+      "x": 243.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.paste",
+      "frames": 2,
+      "glyph": "Paste"
+     },
+     {
+      "type": "icon",
+      "x": 291.5,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.reset",
+      "frames": 2,
+      "glyph": "Reset"
+     },
+     {
+      "type": "icon",
+      "x": 366.0,
+      "y": 0,
+      "w": 68.5,
+      "h": 24,
+      "sprite": "ada_flanger.tb.saturationlabel",
+      "frames": 1
+     },
+     {
+      "type": "knob",
+      "x": 435.0,
+      "y": 0,
+      "w": 18.5,
+      "h": 24,
+      "param": 13,
+      "ring": {
+       "cx": 8.88,
+       "cy": 11.81,
+       "r": 7.08,
+       "width": 2.15,
+       "gap": 95.8
+      }
+     },
+     {
+      "type": "icon",
+      "x": 477.5,
+      "y": 0,
+      "w": 30.0,
+      "h": 24,
+      "sprite": "chrome.bx.mix",
+      "frames": 1
+     },
+     {
+      "type": "knob",
+      "x": 508.0,
+      "y": 0,
+      "w": 18.5,
+      "h": 24,
+      "param": 12,
+      "ring": {
+       "cx": 9.01,
+       "cy": 11.72,
+       "r": 6.93,
+       "width": 2.22,
+       "gap": 92.3
+      }
+     },
+     {
+      "type": "icon",
+      "x": 551.0,
+      "y": 0,
+      "w": 42.5,
+      "h": 24,
+      "sprite": "ada_flanger.tb.noise",
+      "frames": 1
+     },
+     {
+      "type": "knob",
+      "x": 594.0,
+      "y": 0,
+      "w": 18.0,
+      "h": 24,
+      "param": 10,
+      "ring": {
+       "cx": 8.75,
+       "cy": 11.72,
+       "r": 6.98,
+       "width": 2.14,
+       "gap": 94.9
+      }
+     }
+    ],
+    "track": "#CCCCCC",
+    "accent": "#0088BA"
+   }
+  },
+  {
+   "id": "img-cview",
+   "kind": "image",
+   "sprite": "ada_flanger__BACKGROUND",
+   "x": 0.0,
+   "y": 24.0,
+   "w": 615.0,
+   "h": 536.5,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cbxtogglebutton-btn",
+   "kind": "button",
+   "sprite": "ada_flanger__FOOTSWITCH_C0",
+   "frames": 2,
+   "action": {
+    "type": "toggle",
+    "param": 1
+   },
+   "x": 271.0,
+   "y": 393.0,
+   "w": 85.0,
+   "h": 82.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cbxtogglebutton-btn-col1",
+   "kind": "filmstrip",
+   "sprite": "ada_flanger__FOOTSWITCH_C1",
+   "frames": 2,
+   "x": 271.0,
+   "y": 393.0,
+   "w": 85.0,
+   "h": 82.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "bypass-led",
+   "kind": "filmstrip",
+   "sprite": "ada_flanger__LED_C0",
+   "frames": 2,
+   "x": 299.0,
+   "y": 373.0,
+   "w": 22.0,
+   "h": 23.0,
+   "frameSource": {
+    "type": "param",
+    "param": 1
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bypass-led-col1",
+   "kind": "filmstrip",
+   "sprite": "ada_flanger__LED_C1",
+   "frames": 2,
+   "x": 299.0,
+   "y": 373.0,
+   "w": 22.0,
+   "h": 23.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "param",
+    "param": 1
+   }
+  },
+  {
+   "id": "thrshld-knob",
+   "kind": "knob",
+   "sprite": "ada_flanger__KNOB_C0",
+   "frames": 61,
+   "param": 4,
+   "x": 50.0,
+   "y": 142.0,
+   "w": 122.0,
+   "h": 122.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "thrshld-knob-col1",
+   "kind": "filmstrip",
+   "sprite": "ada_flanger__KNOB_C1",
+   "frames": 61,
+   "x": 50.0,
+   "y": 142.0,
+   "w": 122.0,
+   "h": 122.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "param",
+    "param": 4
+   }
+  },
+  {
+   "id": "manual-knob",
+   "kind": "knob",
+   "sprite": "ada_flanger__KNOB_C0",
+   "frames": 61,
+   "param": 5,
+   "x": 152.0,
+   "y": 142.0,
+   "w": 122.0,
+   "h": 122.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "manual-knob-col1",
+   "kind": "filmstrip",
+   "sprite": "ada_flanger__KNOB_C1",
+   "frames": 61,
+   "x": 152.0,
+   "y": 142.0,
+   "w": 122.0,
+   "h": 122.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "param",
+    "param": 5
+   }
+  },
+  {
+   "id": "range-knob",
+   "kind": "knob",
+   "sprite": "ada_flanger__KNOB_C0",
+   "frames": 61,
+   "param": 6,
+   "x": 247.0,
+   "y": 142.0,
+   "w": 122.0,
+   "h": 122.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "range-knob-col1",
+   "kind": "filmstrip",
+   "sprite": "ada_flanger__KNOB_C1",
+   "frames": 61,
+   "x": 247.0,
+   "y": 142.0,
+   "w": 122.0,
+   "h": 122.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "param",
+    "param": 6
+   }
+  },
+  {
+   "id": "speed-knob",
+   "kind": "knob",
+   "sprite": "ada_flanger__KNOB_C0",
+   "frames": 61,
+   "param": 7,
+   "x": 342.0,
+   "y": 142.0,
+   "w": 122.0,
+   "h": 122.0,
+   "visibility": {
+    "params": [
+     11,
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "speed-knob-col1",
+   "kind": "filmstrip",
+   "sprite": "ada_flanger__KNOB_C1",
+   "frames": 61,
+   "x": 342.0,
+   "y": 142.0,
+   "w": 122.0,
+   "h": 122.0,
+   "visibility": {
+    "params": [
+     11,
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "param",
+    "param": 7
+   }
+  },
+  {
+   "id": "enhance-knob",
+   "kind": "knob",
+   "sprite": "ada_flanger__KNOB_C0",
+   "frames": 61,
+   "param": 8,
+   "x": 444.0,
+   "y": 142.0,
+   "w": 122.0,
+   "h": 122.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "enhance-knob-col1",
+   "kind": "filmstrip",
+   "sprite": "ada_flanger__KNOB_C1",
+   "frames": 61,
+   "x": 444.0,
+   "y": 142.0,
+   "w": 122.0,
+   "h": 122.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "param",
+    "param": 8
+   }
+  },
+  {
+   "id": "sycspd-knob",
+   "kind": "knob",
+   "sprite": "ada_flanger__KNOBSTEPPED_C0",
+   "frames": 16,
+   "param": 15,
+   "x": 342.0,
+   "y": 142.0,
+   "w": 122.0,
+   "h": 122.0,
+   "visibility": {
+    "params": [
+     11,
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "sycspd-knob-col1",
+   "kind": "filmstrip",
+   "sprite": "ada_flanger__KNOBSTEPPED_C1",
+   "frames": 16,
+   "x": 342.0,
+   "y": 142.0,
+   "w": 122.0,
+   "h": 122.0,
+   "visibility": {
+    "params": [
+     11,
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "param",
+    "param": 15
+   }
+  },
+  {
+   "id": "output-knob",
+   "kind": "knob",
+   "sprite": "ada_flanger__KNOBTRIM",
+   "frames": 21,
+   "param": 3,
+   "x": 474.0,
+   "y": 84.0,
+   "w": 62.5,
+   "h": 62.5
+  },
+  {
+   "id": "harm-switch",
+   "kind": "switch",
+   "sprite": "ada_flanger__SWITCH_C0",
+   "frames": 2,
+   "param": 9,
+   "orientation": "vertical",
+   "x": 95.0,
+   "y": 102.0,
+   "w": 37.0,
+   "h": 25.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "harm-switch-col1",
+   "kind": "filmstrip",
+   "sprite": "ada_flanger__SWITCH_C1",
+   "frames": 2,
+   "x": 95.0,
+   "y": 102.0,
+   "w": 37.0,
+   "h": 25.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "param",
+    "param": 9
+   }
+  },
+  {
+   "id": "stereo-switch",
+   "kind": "switch",
+   "sprite": "ada_flanger__SWITCH_C0",
+   "frames": 2,
+   "param": 16,
+   "orientation": "vertical",
+   "x": 294.0,
+   "y": 102.0,
+   "w": 37.0,
+   "h": 25.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "stereo-switch-col1",
+   "kind": "filmstrip",
+   "sprite": "ada_flanger__SWITCH_C1",
+   "frames": 2,
+   "x": 294.0,
+   "y": 102.0,
+   "w": 37.0,
+   "h": 25.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "param",
+    "param": 16
+   }
+  },
+  {
+   "id": "sync-switch",
+   "kind": "switch",
+   "sprite": "ada_flanger__SWITCH_C0",
+   "frames": 2,
+   "param": 14,
+   "orientation": "vertical",
+   "x": 386.0,
+   "y": 102.0,
+   "w": 37.0,
+   "h": 25.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sync-switch-col1",
+   "kind": "filmstrip",
+   "sprite": "ada_flanger__SWITCH_C1",
+   "frames": 2,
+   "x": 386.0,
+   "y": 102.0,
+   "w": 37.0,
+   "h": 25.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "param",
+    "param": 14
+   }
+  },
+  {
+   "id": "model-switch",
+   "kind": "switch",
+   "sprite": "ada_flanger__SWITCH_C0",
+   "frames": 2,
+   "param": 11,
+   "orientation": "vertical",
+   "x": 95.0,
+   "y": 316.0,
+   "w": 37.0,
+   "h": 25.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "model-switch-col1",
+   "kind": "filmstrip",
+   "sprite": "ada_flanger__SWITCH_C1",
+   "frames": 2,
+   "x": 95.0,
+   "y": 316.0,
+   "w": 37.0,
+   "h": 25.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "param",
+    "param": 11
+   }
+  },
+  {
+   "id": "cbxonoffbutton-btn",
+   "kind": "button",
+   "sprite": "ada_flanger__SWITCH_C0",
+   "frames": 2,
+   "action": {
+    "type": "toggle",
+    "param": 2
+   },
+   "x": 198.0,
+   "y": 102.0,
+   "w": 37.0,
+   "h": 25.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cbxonoffbutton-btn-col1",
+   "kind": "filmstrip",
+   "sprite": "ada_flanger__SWITCH_C1",
+   "frames": 2,
+   "x": 198.0,
+   "y": 102.0,
+   "w": 37.0,
+   "h": 25.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "sycspd-text",
+   "kind": "text",
+   "param": 15,
+   "text": {
+    "size": 13,
+    "color": "#FB4242",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 430.0,
+   "y": 109.0,
+   "w": 48.0,
+   "h": 14.0,
+   "visibility": {
+    "params": [
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "speed-text",
+   "kind": "text",
+   "param": 7,
+   "text": {
+    "size": 13,
+    "color": "#FB4242",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 430.0,
+   "y": 109.0,
+   "w": 48.0,
+   "h": 14.0,
+   "visibility": {
+    "params": [
+     0,
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cbxextendedmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "ada_flanger__LABELS_C0",
+   "frames": 3,
+   "x": 207.0,
+   "y": 227.0,
+   "w": 205.0,
+   "h": 25.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.25
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.75
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 2
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cbxextendedmoviebitmap-led-col1",
+   "kind": "filmstrip",
+   "sprite": "ada_flanger__LABELS_C1",
+   "frames": 3,
+   "x": 207.0,
+   "y": 227.0,
+   "w": 205.0,
+   "h": 25.0,
+   "visibility": {
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.25
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.75
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-tb-knob-p12-label",
+   "kind": "zone",
+   "gesture": "drag",
+   "param": 12,
+   "x": 456.1,
+   "y": 0,
+   "w": 51.9,
+   "h": 24
+  },
+  {
+   "id": "j-tb-knob-p13-label",
+   "kind": "zone",
+   "gesture": "drag",
+   "param": 13,
+   "x": 344.4,
+   "y": 0,
+   "w": 90.6,
+   "h": 24
+  },
+  {
+   "id": "j-tb-knob-p10-label",
+   "kind": "zone",
+   "gesture": "drag",
+   "param": 10,
+   "x": 529.3,
+   "y": 0,
+   "w": 64.7,
+   "h": 24
+  }
+ ],
+ "meterSources": {}
+}

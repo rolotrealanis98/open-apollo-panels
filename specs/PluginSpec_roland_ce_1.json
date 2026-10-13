@@ -1,0 +1,291 @@
+{
+ "schema": 2,
+ "effectName": "UAD Roland CE-1",
+ "namePattern": "Roland CE-1",
+ "size": {
+  "w": 420,
+  "h": 280
+ },
+ "background": "roland_ce_1_4300",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Level",
+   "steps": null,
+   "default": 0.361175537109375
+  },
+  {
+   "index": 1,
+   "name": "Intens",
+   "steps": null,
+   "default": 0.511322021484375
+  },
+  {
+   "index": 2,
+   "name": "Depth",
+   "steps": null,
+   "default": 0.501739501953125
+  },
+  {
+   "index": 3,
+   "name": "Rate",
+   "steps": null,
+   "default": 0.67144775390625
+  },
+  {
+   "index": 4,
+   "name": "FxMode",
+   "steps": [
+    "chorus",
+    "vibrato"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Bypass",
+   "steps": [
+    "effect",
+    "normal"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "StMode",
+   "steps": [
+    "classic",
+    "dual"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 7,
+   "name": "Power",
+   "steps": [
+    "off",
+    "on"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "switch-1-power",
+   "x": 367,
+   "y": 43,
+   "w": 24,
+   "h": 50,
+   "sprite": "roland_ce_1_4301",
+   "frames": 2,
+   "kind": "switch",
+   "param": 7,
+   "orientation": "vertical",
+   "reverse": true
+  },
+  {
+   "id": "switch-2-stmode",
+   "x": 35,
+   "y": 61,
+   "w": 14,
+   "h": 26,
+   "sprite": "roland_ce_1_4302",
+   "frames": 2,
+   "kind": "switch",
+   "param": 6,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-3-level",
+   "x": 68,
+   "y": 48,
+   "w": 38,
+   "h": 38,
+   "sprite": "roland_ce_1_4303",
+   "frames": 64,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "knob-4-intens",
+   "x": 149,
+   "y": 48,
+   "w": 38,
+   "h": 38,
+   "sprite": "roland_ce_1_4303",
+   "frames": 64,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "knob-5-depth",
+   "x": 230,
+   "y": 48,
+   "w": 38,
+   "h": 38,
+   "sprite": "roland_ce_1_4303",
+   "frames": 64,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "knob-6-rate",
+   "x": 291,
+   "y": 48,
+   "w": 38,
+   "h": 38,
+   "sprite": "roland_ce_1_4303",
+   "frames": 64,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "switch-7-fxmode",
+   "x": 327,
+   "y": 194,
+   "w": 32,
+   "h": 54,
+   "sprite": "roland_ce_1_4308",
+   "frames": 2,
+   "kind": "switch",
+   "param": 4,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-8-bypass",
+   "x": 62,
+   "y": 194,
+   "w": 32,
+   "h": 54,
+   "sprite": "roland_ce_1_4307",
+   "frames": 2,
+   "kind": "switch",
+   "param": 5,
+   "orientation": "vertical"
+  },
+  {
+   "id": "image-9-internal11",
+   "kind": "button",
+   "x": 67,
+   "y": 211,
+   "w": 26,
+   "h": 24,
+   "sprite": "roland_ce_1_4304_6",
+   "frames": 2,
+   "action": {
+    "type": "toggle",
+    "param": 5
+   }
+  },
+  {
+   "id": "image-10-internal12",
+   "kind": "button",
+   "x": 333,
+   "y": 211,
+   "w": 26,
+   "h": 24,
+   "sprite": "roland_ce_1_4305_7",
+   "frames": 2,
+   "action": {
+    "type": "toggle",
+    "param": 4
+   }
+  },
+  {
+   "id": "filmstrip-11-internal9",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter0"
+   },
+   "x": 64,
+   "y": 135,
+   "w": 24,
+   "h": 24,
+   "sprite": "roland_ce_1_4306",
+   "frames": 5
+  },
+  {
+   "id": "filmstrip-12-internal10",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter1"
+   },
+   "x": 333,
+   "y": 134,
+   "w": 24,
+   "h": 24,
+   "sprite": "roland_ce_1_4306",
+   "frames": 5
+  }
+ ],
+ "meterSources": {
+  "meter0": {
+   "vendorSpecificFloat": 114,
+   "calibration": [
+    [
+     0.001,
+     0.0
+    ],
+    [
+     0.079433,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ],
+   "modeParam": 7,
+   "modeCalibrations": [
+    {
+     "value": 0.0,
+     "calibration": [
+      [
+       0.0,
+       0.3767
+      ],
+      [
+       60.0,
+       0.3767
+      ]
+     ]
+    }
+   ]
+  },
+  "meter1": {
+   "vendorSpecificFloat": 115,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.001,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ],
+   "modeParam": 7,
+   "modeCalibrations": [
+    {
+     "value": 0.0,
+     "calibration": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       60.0,
+       0.0
+      ]
+     ]
+    }
+   ]
+  }
+ }
+}

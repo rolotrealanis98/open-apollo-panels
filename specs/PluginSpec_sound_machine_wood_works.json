@@ -1,0 +1,583 @@
+{
+ "schema": 2,
+ "effectName": "UAD Sound Machine Wood Works",
+ "namePattern": "Sound Machine Wood Works",
+ "size": {
+  "w": 800,
+  "h": 575
+ },
+ "background": "SMWW_bg",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Voicing",
+   "steps": [
+    "Studio1",
+    "Studio2",
+    "Studio3",
+    "Studio4",
+    "Dread 1",
+    "Dread 2",
+    "Dread 3",
+    "Dread 4",
+    "Dread 5",
+    "Dread 6",
+    "Dread 7",
+    "Dread 8",
+    "Jumbo 1",
+    "Jumbo 2",
+    "Jumbo 3",
+    "Jumbo 4"
+   ],
+   "default": 0.2666666805744171
+  },
+  {
+   "index": 1,
+   "name": "Defaults",
+   "steps": [
+    "Manual",
+    "Default"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 2,
+   "name": "Neck Pan",
+   "steps": null,
+   "default": 0.3400000035762787
+  },
+  {
+   "index": 3,
+   "name": "Body Pan",
+   "steps": null,
+   "default": 0.7039899826049805
+  },
+  {
+   "index": 4,
+   "name": "Neck Level",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 5,
+   "name": "Body Level",
+   "steps": null,
+   "default": 0.8079900145530701
+  },
+  {
+   "index": 6,
+   "name": "Input",
+   "steps": null,
+   "default": 0.4760000109672546
+  },
+  {
+   "index": 7,
+   "name": "Output",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 8,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "clip": {
+   "vendorSpecificFloat": 10,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "integer": true
+  },
+  "output_vu": {
+   "vendorSpecificFloat": 8,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  }
+ },
+ "elements": [
+  {
+   "id": "voicing-0",
+   "kind": "knob",
+   "x": 113,
+   "y": 101,
+   "w": 266,
+   "h": 163,
+   "sprite": "SMWW_voicing_off",
+   "frames": 101,
+   "param": 0,
+   "visibility": {
+    "params": [
+     8
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "voicing-1",
+   "kind": "knob",
+   "x": 113,
+   "y": 101,
+   "w": 266,
+   "h": 163,
+   "sprite": "SMWW_voicing_on",
+   "frames": 101,
+   "param": 0,
+   "visibility": {
+    "params": [
+     8
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "vu-0",
+   "kind": "filmstrip",
+   "x": 478,
+   "y": 136,
+   "w": 145,
+   "h": 83,
+   "sprite": "SMWW_vu_off",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "output_vu"
+   },
+   "visibility": {
+    "params": [
+     8
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "vu-1",
+   "kind": "filmstrip",
+   "x": 478,
+   "y": 136,
+   "w": 145,
+   "h": 83,
+   "sprite": "SMWW_vu_on",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "output_vu"
+   },
+   "visibility": {
+    "params": [
+     8
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "clip",
+   "kind": "filmstrip",
+   "x": 501,
+   "y": 84,
+   "w": 101,
+   "h": 52,
+   "sprite": "SMWW_clip2",
+   "frames": 2,
+   "frameSource": {
+    "type": "meter",
+    "meter": "clip"
+   }
+  },
+  {
+   "id": "knob-4",
+   "kind": "knob",
+   "x": 121,
+   "y": 385,
+   "w": 105,
+   "h": 102,
+   "sprite": "SMWW_knob",
+   "frames": 101,
+   "param": 4
+  },
+  {
+   "id": "knob-5",
+   "kind": "knob",
+   "x": 268,
+   "y": 385,
+   "w": 105,
+   "h": 102,
+   "sprite": "SMWW_knob",
+   "frames": 101,
+   "param": 5
+  },
+  {
+   "id": "knob-6",
+   "kind": "knob",
+   "x": 424,
+   "y": 385,
+   "w": 105,
+   "h": 102,
+   "sprite": "SMWW_knob",
+   "frames": 101,
+   "param": 6
+  },
+  {
+   "id": "knob-7",
+   "kind": "knob",
+   "x": 570,
+   "y": 385,
+   "w": 105,
+   "h": 102,
+   "sprite": "SMWW_knob",
+   "frames": 101,
+   "param": 7
+  },
+  {
+   "id": "pan-2",
+   "kind": "knob",
+   "x": 147,
+   "y": 297,
+   "w": 51,
+   "h": 50,
+   "sprite": "SMWW_pan_a",
+   "frames": 101,
+   "param": 2
+  },
+  {
+   "id": "pan-3",
+   "kind": "knob",
+   "x": 294,
+   "y": 297,
+   "w": 51,
+   "h": 50,
+   "sprite": "SMWW_pan_b",
+   "frames": 101,
+   "param": 3
+  },
+  {
+   "id": "switch-1",
+   "kind": "switch",
+   "x": 219,
+   "y": 273,
+   "w": 65,
+   "h": 72,
+   "sprite": "SMWW_toggle_a",
+   "frames": 2,
+   "param": 1
+  },
+  {
+   "id": "switch-8",
+   "kind": "switch",
+   "x": 522,
+   "y": 252,
+   "w": 65,
+   "h": 72,
+   "sprite": "SMWW_toggle_b",
+   "frames": 2,
+   "param": 8
+  },
+  {
+   "id": "voicing-pick-0",
+   "kind": "zone",
+   "x": 142,
+   "y": 197,
+   "w": 14,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "voicing-pick-1",
+   "kind": "zone",
+   "x": 147,
+   "y": 179,
+   "w": 14,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.066667
+   }
+  },
+  {
+   "id": "voicing-pick-2",
+   "kind": "zone",
+   "x": 156,
+   "y": 163,
+   "w": 14,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.133333
+   }
+  },
+  {
+   "id": "voicing-pick-3",
+   "kind": "zone",
+   "x": 168,
+   "y": 149,
+   "w": 14,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "voicing-pick-4",
+   "kind": "zone",
+   "x": 182,
+   "y": 137,
+   "w": 14,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.266667
+   }
+  },
+  {
+   "id": "voicing-pick-5",
+   "kind": "zone",
+   "x": 196,
+   "y": 128,
+   "w": 14,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.333333
+   }
+  },
+  {
+   "id": "voicing-pick-6",
+   "kind": "zone",
+   "x": 213,
+   "y": 121,
+   "w": 14,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "voicing-pick-7",
+   "kind": "zone",
+   "x": 231,
+   "y": 118,
+   "w": 14,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.466667
+   }
+  },
+  {
+   "id": "voicing-pick-8",
+   "kind": "zone",
+   "x": 249,
+   "y": 118,
+   "w": 14,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.533333
+   }
+  },
+  {
+   "id": "voicing-pick-9",
+   "kind": "zone",
+   "x": 267,
+   "y": 121,
+   "w": 14,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "voicing-pick-10",
+   "kind": "zone",
+   "x": 284,
+   "y": 128,
+   "w": 14,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.666667
+   }
+  },
+  {
+   "id": "voicing-pick-11",
+   "kind": "zone",
+   "x": 299,
+   "y": 137,
+   "w": 14,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.733333
+   }
+  },
+  {
+   "id": "voicing-pick-12",
+   "kind": "zone",
+   "x": 313,
+   "y": 149,
+   "w": 14,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "voicing-pick-13",
+   "kind": "zone",
+   "x": 324,
+   "y": 163,
+   "w": 14,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.866667
+   }
+  },
+  {
+   "id": "voicing-pick-14",
+   "kind": "zone",
+   "x": 334,
+   "y": 179,
+   "w": 14,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.933333
+   }
+  },
+  {
+   "id": "voicing-pick-15",
+   "kind": "zone",
+   "x": 339,
+   "y": 197,
+   "w": 14,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "q-pan-2-center",
+   "kind": "zone",
+   "x": 152,
+   "y": 280,
+   "w": 39,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "q-pan-3-center",
+   "kind": "zone",
+   "x": 300,
+   "y": 280,
+   "w": 39,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.5
+   }
+  }
+ ]
+}

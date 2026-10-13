@@ -1,0 +1,233 @@
+{
+ "schema": 2,
+ "effectName": "UAD Helios Type 69 Legacy",
+ "namePattern": "Helios Type 69 Legacy",
+ "size": {
+  "w": 545,
+  "h": 110
+ },
+ "background": "helios_type_69_legacy_5100",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Bass",
+   "steps": [
+    "300 Hz",
+    "200 Hz",
+    "100 Hz",
+    "60 Hz",
+    "0",
+    "-3 dB",
+    "-6 dB",
+    "-9 dB",
+    "-12 dB",
+    "-15 dB"
+   ],
+   "default": 0.4444444477558136
+  },
+  {
+   "index": 1,
+   "name": "Bass Gain",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Mid Freq",
+   "steps": [
+    ".7 kHz",
+    "1 kHz",
+    "1.4 kHz",
+    "2 kHz",
+    "2.8 kHz",
+    "3.5 kHz",
+    "4.5 kHz",
+    "6 kHz"
+   ],
+   "default": 0.5714285969734192
+  },
+  {
+   "index": 3,
+   "name": "Mid Gain",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Mid Type",
+   "steps": [
+    "Trough",
+    "Peak"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 5,
+   "name": "Hi Shelf Gain",
+   "steps": [
+    "-6 dB",
+    "-3 dB",
+    "0 dB",
+    "2 dB",
+    "4 dB",
+    "6 dB",
+    "8 dB",
+    "10 dB",
+    "12 dB",
+    "14 dB",
+    "16 dB"
+   ],
+   "default": 0.2000000029802322
+  },
+  {
+   "index": 6,
+   "name": "EQ Cut",
+   "steps": [
+    "Byp",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 7,
+   "name": "Phase",
+   "steps": [
+    "Normal",
+    "Inverted"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "Level",
+   "steps": null,
+   "default": 0.66668701171875
+  },
+  {
+   "index": 9,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-bass_gain",
+   "x": 94,
+   "y": 4,
+   "w": 70,
+   "h": 67,
+   "sprite": "helios_type_69_legacy_5102",
+   "frames": 61,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "knob-2-mid_gain",
+   "x": 244,
+   "y": 4,
+   "w": 70,
+   "h": 67,
+   "sprite": "helios_type_69_legacy_5102",
+   "frames": 61,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "switch-3-mid_type",
+   "x": 267,
+   "y": 65,
+   "w": 24,
+   "h": 42,
+   "sprite": "helios_type_69_legacy_5105",
+   "frames": 2,
+   "kind": "switch",
+   "param": 4,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-4-bass",
+   "x": 22,
+   "y": 37,
+   "w": 70,
+   "h": 70,
+   "sprite": "helios_type_69_legacy_5101",
+   "frames": 10,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "knob-5-mid_freq",
+   "x": 169,
+   "y": 37,
+   "w": 70,
+   "h": 67,
+   "sprite": "helios_type_69_legacy_5103",
+   "frames": 8,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "knob-6-hi_shelf_gain",
+   "x": 318,
+   "y": 37,
+   "w": 70,
+   "h": 67,
+   "sprite": "helios_type_69_legacy_5104",
+   "frames": 11,
+   "kind": "knob",
+   "param": 5
+  },
+  {
+   "id": "switch-7-eq_cut",
+   "x": 392,
+   "y": 17,
+   "w": 24,
+   "h": 42,
+   "sprite": "helios_type_69_legacy_5105",
+   "frames": 2,
+   "kind": "switch",
+   "param": 6,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-8-phase",
+   "x": 392,
+   "y": 65,
+   "w": 24,
+   "h": 42,
+   "sprite": "helios_type_69_legacy_5105",
+   "frames": 2,
+   "kind": "switch",
+   "param": 7,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-9-level",
+   "x": 414,
+   "y": 21,
+   "w": 70,
+   "h": 67,
+   "sprite": "helios_type_69_legacy_5106",
+   "frames": 61,
+   "kind": "knob",
+   "param": 8
+  },
+  {
+   "id": "switch-10-power",
+   "kind": "switch",
+   "x": 481,
+   "y": 16,
+   "w": 55,
+   "h": 57,
+   "sprite": "helios_type_69_legacy_5107_7",
+   "frames": 2,
+   "param": 9,
+   "orientation": "vertical"
+  }
+ ],
+ "meterSources": {}
+}

@@ -1,0 +1,706 @@
+{
+ "schema": 2,
+ "effectName": "UAD Teletronix LA-2A Silver",
+ "namePattern": "Teletronix LA-2A Silver",
+ "size": {
+  "w": 950,
+  "h": 263
+ },
+ "background": "UA_LA-2A-SILVER_panel",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Peak Reduct",
+   "steps": null,
+   "default": 0.2774658203125
+  },
+  {
+   "index": 1,
+   "name": "Gain",
+   "steps": null,
+   "default": 0.321868896484375
+  },
+  {
+   "index": 2,
+   "name": "Comp/Limit",
+   "steps": [
+    "Comp",
+    "Limit"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Emphasis",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 4,
+   "name": "Meter",
+   "steps": [
+    "+10dB",
+    "GR",
+    "+4dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "Mix",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 6,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "vu_meter": {
+   "vendorSpecificFloat": 34,
+   "smoothing": 0.3,
+   "calibration": [
+    [
+     0.005565,
+     0.068
+    ],
+    [
+     0.068224,
+     0.078
+    ],
+    [
+     0.20144,
+     0.155
+    ],
+    [
+     0.282257,
+     0.233
+    ],
+    [
+     0.342075,
+     0.311
+    ],
+    [
+     0.429208,
+     0.417
+    ],
+    [
+     0.475461,
+     0.476
+    ],
+    [
+     0.532798,
+     0.544
+    ],
+    [
+     0.597134,
+     0.631
+    ],
+    [
+     0.669326,
+     0.718
+    ],
+    [
+     0.750222,
+     0.806
+    ],
+    [
+     0.993698,
+     0.951
+    ],
+    [
+     1.569574,
+     0.961
+    ]
+   ]
+  }
+ },
+ "elements": [
+  {
+   "id": "compress-limit-slider",
+   "x": 70,
+   "y": 150,
+   "w": 56,
+   "h": 56,
+   "kind": "switch",
+   "param": 2,
+   "sprite": "UA_LA-2A-SILVER_switch_LIM-COMP",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "limit-label",
+   "x": 77.0,
+   "y": 141.0,
+   "w": 41.0,
+   "h": 17.0,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "compress-label",
+   "x": 77.0,
+   "y": 197.0,
+   "w": 41.0,
+   "h": 17.0,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "v-emph-shadow",
+   "kind": "shape",
+   "x": 130,
+   "y": 160,
+   "w": 37,
+   "h": 36,
+   "shape": {
+    "type": "polygon",
+    "points": [
+     [
+      14.5,
+      6.75
+     ],
+     [
+      27.0,
+      6.75
+     ],
+     [
+      33.5,
+      19.6
+     ],
+     [
+      27.0,
+      32.5
+     ],
+     [
+      14.5,
+      32.5
+     ],
+     [
+      6.25,
+      19.6
+     ]
+    ],
+    "fill": "#0000004D"
+   }
+  },
+  {
+   "id": "v-emph-nut",
+   "kind": "shape",
+   "x": 130,
+   "y": 160,
+   "w": 37,
+   "h": 36,
+   "shape": {
+    "type": "polygon",
+    "points": [
+     [
+      13,
+      4.75
+     ],
+     [
+      25.5,
+      4.75
+     ],
+     [
+      32,
+      17.6
+     ],
+     [
+      25.5,
+      30.5
+     ],
+     [
+      13,
+      30.5
+     ],
+     [
+      4.75,
+      17.6
+     ]
+    ],
+    "stroke": "#4A443A",
+    "width": 0.6,
+    "fill": {
+     "linear": [
+      6,
+      5,
+      30,
+      31
+     ],
+     "stops": [
+      [
+       0,
+       "#BDB4A5"
+      ],
+      [
+       0.45,
+       "#988F80"
+      ],
+      [
+       1,
+       "#6C6252"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "v-emph-screw",
+   "kind": "shape",
+   "x": 141.0,
+   "y": 170.25,
+   "w": 15.0,
+   "h": 15.0,
+   "shape": {
+    "type": "ellipse",
+    "stroke": "#25221D",
+    "width": 1.1,
+    "fill": {
+     "radial": [
+      5.5,
+      5.5,
+      11.25
+     ],
+     "stops": [
+      [
+       0,
+       "#B3AC9F"
+      ],
+      [
+       1,
+       "#7F786A"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "v-emph-slot",
+   "kind": "shape",
+   "x": 141.0,
+   "y": 170.25,
+   "w": 15.0,
+   "h": 15.0,
+   "rotate": {
+    "param": 3,
+    "scale": 300,
+    "offset": -150
+   },
+   "shape": {
+    "type": "polygon",
+    "points": [
+     [
+      1.0,
+      6.5
+     ],
+     [
+      14.0,
+      6.5
+     ],
+     [
+      14.0,
+      9.0
+     ],
+     [
+      1.0,
+      9.0
+     ]
+    ],
+    "fill": {
+     "linear": [
+      0,
+      6.5,
+      0,
+      9.0
+     ],
+     "stops": [
+      [
+       0,
+       "#1E1C18"
+      ],
+      [
+       0.4,
+       "#4A453C"
+      ],
+      [
+       1,
+       "#A49C8D"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "v-emph-hole",
+   "kind": "shape",
+   "x": 141.0,
+   "y": 170.25,
+   "w": 15.0,
+   "h": 15.0,
+   "rotate": {
+    "param": 3,
+    "scale": 300,
+    "offset": -150
+   },
+   "shape": {
+    "type": "polygon",
+    "points": [
+     [
+      8.9,
+      3.1
+     ],
+     [
+      8.71,
+      3.8
+     ],
+     [
+      8.2,
+      4.31
+     ],
+     [
+      7.5,
+      4.5
+     ],
+     [
+      6.8,
+      4.31
+     ],
+     [
+      6.29,
+      3.8
+     ],
+     [
+      6.1,
+      3.1
+     ],
+     [
+      6.29,
+      2.4
+     ],
+     [
+      6.8,
+      1.89
+     ],
+     [
+      7.5,
+      1.7
+     ],
+     [
+      8.2,
+      1.89
+     ],
+     [
+      8.71,
+      2.4
+     ]
+    ],
+    "fill": "#1E1C18"
+   }
+  },
+  {
+   "id": "v-emph-drag",
+   "kind": "zone",
+   "gesture": "drag",
+   "param": 3,
+   "x": 130,
+   "y": 160,
+   "w": 37,
+   "h": 36
+  },
+  {
+   "id": "emphasis_increase-label",
+   "x": 128.0,
+   "y": 197.0,
+   "w": 12.0,
+   "h": 17.0,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "nudge",
+    "param": 3,
+    "delta": -0.1
+   }
+  },
+  {
+   "id": "emphasis_decrease-label",
+   "x": 158.0,
+   "y": 198.0,
+   "w": 12.0,
+   "h": 17.0,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "nudge",
+    "param": 3,
+    "delta": 0.1
+   }
+  },
+  {
+   "id": "gain-knob",
+   "x": 230,
+   "y": 112,
+   "w": 84,
+   "h": 84,
+   "kind": "knob",
+   "param": 1,
+   "sprite": "UA_LA-2A_knob_MODERN",
+   "frames": 103
+  },
+  {
+   "id": "vu_meter_off-img",
+   "x": 394.0,
+   "y": 72.0,
+   "w": 162.0,
+   "h": 78.0,
+   "kind": "image",
+   "sprite": "UA_LA-2A-SILVER_meter-overlay_OFF",
+   "visibility": {
+    "params": [
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "vu_meter_needle_off-film",
+   "x": 404,
+   "y": 99,
+   "w": 142,
+   "h": 51,
+   "kind": "filmstrip",
+   "sprite": "UA_LA-2A_needle_OFF",
+   "frames": 105,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu_meter",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "vu_meter_needle_on-film",
+   "x": 404,
+   "y": 99,
+   "w": 142,
+   "h": 51,
+   "kind": "filmstrip",
+   "sprite": "UA_LA-2A_needle_ON",
+   "frames": 105,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu_meter",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "mix-knob",
+   "x": 468,
+   "y": 190,
+   "w": 14,
+   "h": 14,
+   "kind": "knob",
+   "param": 5,
+   "sprite": "UA_LA-2A_trimpot_MIX",
+   "frames": 101
+  },
+  {
+   "id": "mix_decrease-label",
+   "x": 454.0,
+   "y": 190.0,
+   "w": 14.0,
+   "h": 14.0,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "nudge",
+    "param": 5,
+    "delta": -0.1
+   }
+  },
+  {
+   "id": "mix_increase-label",
+   "x": 482.0,
+   "y": 190.0,
+   "w": 14.0,
+   "h": 14.0,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "nudge",
+    "param": 5,
+    "delta": 0.1
+   }
+  },
+  {
+   "id": "peak-reduction-knob",
+   "x": 636,
+   "y": 112,
+   "w": 84,
+   "h": 84,
+   "kind": "knob",
+   "param": 0,
+   "sprite": "UA_LA-2A_knob_MODERN",
+   "frames": 103
+  },
+  {
+   "id": "meter-knob",
+   "x": 759,
+   "y": 47,
+   "w": 84,
+   "h": 84,
+   "kind": "knob",
+   "param": 4,
+   "sprite": "UA_LA-2A_3pos-rotary_MODERN",
+   "frames": 3
+  },
+  {
+   "id": "output_10-label",
+   "x": 713.0,
+   "y": 42.0,
+   "w": 72.0,
+   "h": 19.0,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "output_4-label",
+   "x": 817.0,
+   "y": 42.0,
+   "w": 67.0,
+   "h": 19.0,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "gain_reduction-label",
+   "x": 758.0,
+   "y": 29.0,
+   "w": 86.0,
+   "h": 16.0,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "power-slider",
+   "x": 773,
+   "y": 150,
+   "w": 56,
+   "h": 56,
+   "kind": "switch",
+   "param": 6,
+   "sprite": "UA_LA-2A-SILVER_switch_POWER",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "on-label",
+   "x": 788.0,
+   "y": 141.0,
+   "w": 26.0,
+   "h": 19.0,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "power-label",
+   "x": 781.0,
+   "y": 198.0,
+   "w": 40.0,
+   "h": 19.0,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.0
+   }
+  }
+ ]
+}

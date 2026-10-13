@@ -1,0 +1,514 @@
+{
+ "schema": 2,
+ "effectName": "UAD UA 1176SE Legacy",
+ "namePattern": "UA 1176SE Legacy",
+ "size": {
+  "w": 950,
+  "h": 172
+ },
+ "background": "I_ua_1176se_legacy_bg",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Input",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "Output",
+   "steps": null,
+   "default": 0.625
+  },
+  {
+   "index": 2,
+   "name": "Attack",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "Release",
+   "steps": null,
+   "default": 0.665985107421875
+  },
+  {
+   "index": 4,
+   "name": "Ratio",
+   "steps": [
+    "4:1",
+    "8:1",
+    "12:1",
+    "20:1",
+    "ALL"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Meter",
+   "steps": [
+    "OFF",
+    "+4",
+    "+8",
+    "GR"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 6,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-input",
+   "x": 91,
+   "y": 42,
+   "w": 90,
+   "h": 90,
+   "sprite": "ua_1176se_legacy_8561",
+   "frames": 109,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "knob-2-output",
+   "x": 278,
+   "y": 42,
+   "w": 90,
+   "h": 90,
+   "sprite": "ua_1176se_legacy_8561",
+   "frames": 109,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "knob-3-attack",
+   "x": 447,
+   "y": 21,
+   "w": 56,
+   "h": 56,
+   "sprite": "ua_1176se_legacy_8552",
+   "frames": 101,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "knob-4-release",
+   "x": 447,
+   "y": 97,
+   "w": 56,
+   "h": 56,
+   "sprite": "ua_1176se_legacy_8552",
+   "frames": 101,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "image-5-internal9",
+   "kind": "image",
+   "x": 642,
+   "y": 39,
+   "w": 148,
+   "h": 82,
+   "sprite": "ua_1176se_legacy_8559",
+   "visibility": {
+    "params": [
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "filmstrip-6-internal8",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter0"
+   },
+   "x": 651,
+   "y": 43,
+   "w": 130,
+   "h": 66,
+   "sprite": "ua_1176se_legacy_8557",
+   "frames": 101
+  },
+  {
+   "id": "filmstrip-7-ratio-bank",
+   "kind": "filmstrip",
+   "x": 575,
+   "y": 13,
+   "w": 45,
+   "h": 143,
+   "sprite": "ua_1176se_legacy_8555",
+   "frames": 16,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.25
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.75
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 15
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-8-ratio-bank",
+   "kind": "zone",
+   "x": 575,
+   "y": 115,
+   "w": 45,
+   "h": 30,
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   },
+   "longPressAction": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-9-ratio-bank",
+   "kind": "zone",
+   "x": 575,
+   "y": 85,
+   "w": 45,
+   "h": 30,
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.25
+   },
+   "longPressAction": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-10-ratio-bank",
+   "kind": "zone",
+   "x": 575,
+   "y": 55,
+   "w": 45,
+   "h": 30,
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.5
+   },
+   "longPressAction": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-11-ratio-bank",
+   "kind": "zone",
+   "x": 575,
+   "y": 25,
+   "w": 45,
+   "h": 30,
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.75
+   },
+   "longPressAction": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "filmstrip-12-meter-bank",
+   "kind": "filmstrip",
+   "x": 812,
+   "y": 13,
+   "w": 45,
+   "h": 143,
+   "sprite": "ua_1176se_legacy_8556",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-13-meter-bank",
+   "kind": "zone",
+   "x": 812,
+   "y": 115,
+   "w": 45,
+   "h": 30,
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-14-meter-bank",
+   "kind": "zone",
+   "x": 812,
+   "y": 85,
+   "w": 45,
+   "h": 30,
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.333333
+   }
+  },
+  {
+   "id": "zone-15-meter-bank",
+   "kind": "zone",
+   "x": 812,
+   "y": 55,
+   "w": 45,
+   "h": 30,
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.666667
+   }
+  },
+  {
+   "id": "zone-16-meter-bank",
+   "kind": "zone",
+   "x": 812,
+   "y": 25,
+   "w": 45,
+   "h": 30,
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "g-p6_r0",
+   "kind": "switch",
+   "x": 639,
+   "y": 37,
+   "w": 153.0,
+   "h": 70.0,
+   "sprite": "G_ua_1176se_legacy_p6_r0",
+   "frames": 2,
+   "param": 6
+  },
+  {
+   "id": "g-p6_r1",
+   "kind": "switch",
+   "x": 655,
+   "y": 113,
+   "w": 56.0,
+   "h": 10.0,
+   "sprite": "G_ua_1176se_legacy_p6_r1",
+   "frames": 2,
+   "param": 6
+  },
+  {
+   "id": "g-p6_r2",
+   "kind": "switch",
+   "x": 716,
+   "y": 113,
+   "w": 58.0,
+   "h": 10.0,
+   "sprite": "G_ua_1176se_legacy_p6_r2",
+   "frames": 2,
+   "param": 6
+  }
+ ],
+ "meterSources": {
+  "meter0": {
+   "vendorSpecificFloat": 53,
+   "calibration": [
+    [
+     0.0,
+     0.0417
+    ],
+    [
+     0.002512,
+     0.0417
+    ],
+    [
+     0.003162,
+     0.0521
+    ],
+    [
+     0.01,
+     0.0521
+    ],
+    [
+     0.012589,
+     0.0625
+    ],
+    [
+     0.019953,
+     0.0625
+    ],
+    [
+     0.025119,
+     0.0729
+    ],
+    [
+     0.031623,
+     0.0729
+    ],
+    [
+     0.039811,
+     0.0833
+    ],
+    [
+     0.050119,
+     0.0938
+    ],
+    [
+     0.063096,
+     0.1042
+    ],
+    [
+     0.079433,
+     0.125
+    ],
+    [
+     0.1,
+     0.1354
+    ],
+    [
+     0.125893,
+     0.1667
+    ],
+    [
+     0.158489,
+     0.1875
+    ],
+    [
+     0.199526,
+     0.2188
+    ],
+    [
+     0.251189,
+     0.2604
+    ],
+    [
+     0.316228,
+     0.3229
+    ],
+    [
+     0.398107,
+     0.4062
+    ],
+    [
+     0.501187,
+     0.5312
+    ],
+    [
+     0.630957,
+     0.6875
+    ],
+    [
+     0.794328,
+     0.8333
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ]
+  }
+ }
+}

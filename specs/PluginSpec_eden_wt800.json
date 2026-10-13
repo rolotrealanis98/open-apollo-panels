@@ -1,0 +1,4889 @@
+{
+ "schema": 2,
+ "effectName": "UAD Eden WT800",
+ "namePattern": "Eden WT800",
+ "size": {
+  "w": 1160,
+  "h": 410
+ },
+ "background": null,
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Input Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "Enhance",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Compressor",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Bass",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "Treble",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "Low Frequency",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "Low",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "Mid Frequency",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 8,
+   "name": "Mid",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 9,
+   "name": "High Frequency",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "High",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 11,
+   "name": "Master",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 12,
+   "name": "Crossover",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 13,
+   "name": "Bi-Amp Mode",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 14,
+   "name": "Mic 1x15",
+   "steps": [
+    "D112",
+    "RE20",
+    "Mel. R",
+    "U47"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 15,
+   "name": "Mic 4x10",
+   "steps": [
+    "D112",
+    "RE20",
+    "R121",
+    "U47"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 16,
+   "name": "Level 1x15",
+   "steps": null,
+   "default": 0.6000000238418579
+  },
+  {
+   "index": 17,
+   "name": "Level 4x10",
+   "steps": null,
+   "default": 0.6000000238418579
+  },
+  {
+   "index": 18,
+   "name": "Level Direct",
+   "steps": null,
+   "default": 0.6000000238418579
+  },
+  {
+   "index": 19,
+   "name": "Tweeter",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 20,
+   "name": "Phase Invert 1x15",
+   "steps": [
+    "Off",
+    "Inverted"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 21,
+   "name": "In 1x15",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 22,
+   "name": "Phase Invert 4x10",
+   "steps": [
+    "Off",
+    "Inverted"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 23,
+   "name": "In 4x10",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 24,
+   "name": "Phase Invert Direct",
+   "steps": [
+    "Off",
+    "Inverted"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 25,
+   "name": "In Direct",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 26,
+   "name": "View",
+   "steps": [
+    "Amp",
+    "Channel "
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 27,
+   "name": "Mode",
+   "steps": [
+    "Bypass",
+    "Active"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "gfx3": {
+   "vendorSpecificFloat": 134217728,
+   "opcode": {
+    "op": 519,
+    "p0": 134217728,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     1.0
+    ],
+    [
+     0.52381,
+     1.0
+    ],
+    [
+     1.0,
+     0.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "gfx4": {
+   "vendorSpecificFloat": 134217729,
+   "opcode": {
+    "op": 519,
+    "p0": 134217729,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "gfx5": {
+   "vendorSpecificFloat": 134217730,
+   "opcode": {
+    "op": 519,
+    "p0": 134217730,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.98,
+     0.0
+    ],
+    [
+     0.980098001,
+     1.0
+    ],
+    [
+     1.96,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "gfx5b": {
+   "vendorSpecificFloat": 134217731,
+   "opcode": {
+    "op": 519,
+    "p0": 134217731,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.98,
+     0.0
+    ],
+    [
+     0.980098001,
+     1.0
+    ],
+    [
+     1.96,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "gfx5any": {
+   "combine": {
+    "op": "max",
+    "meters": [
+     "gfx5",
+     "gfx5b"
+    ]
+   },
+   "calibration": []
+  }
+ },
+ "elements": [
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 1160,
+   "h": 24,
+   "toolbar": {
+    "family": "softube",
+    "items": [
+     {
+      "type": "switch",
+      "x": 978.0,
+      "y": 6.0,
+      "w": 30,
+      "h": 12,
+      "param": 27,
+      "sprite": "chrome.softube.toggle",
+      "frames": 2,
+      "glyph": "power"
+     },
+     {
+      "type": "gear",
+      "x": 1048.0,
+      "y": 6.5,
+      "w": 11.0,
+      "h": 11.5,
+      "color": "#E5E5E5"
+     },
+     {
+      "type": "rect",
+      "x": 1070.0,
+      "y": 0,
+      "w": 90.0,
+      "h": 24,
+      "color": "#019C74"
+     },
+     {
+      "type": "icon",
+      "x": 1086.0,
+      "y": 6.5,
+      "w": 58.0,
+      "h": 11.0,
+      "sprite": "chrome.softube.logo",
+      "frames": 1,
+      "glyph": "Softube",
+      "color": "#E5F5F0"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-amp-click",
+   "kind": "zone",
+   "x": 0,
+   "y": 24,
+   "w": 1160,
+   "h": 300,
+   "action": {
+    "type": "set",
+    "param": 26,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "panel-background",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 1442,
+   "h": 386,
+   "sprite": "STB_Eden_WT800_1000",
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-3-1002",
+   "kind": "knob",
+   "x": 302,
+   "y": 178,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1002",
+   "frames": 120,
+   "param": 3,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-13-1003",
+   "kind": "switch",
+   "x": 877,
+   "y": 207,
+   "w": 60,
+   "h": 46.0,
+   "sprite": "STB_Eden_WT800_1003",
+   "frames": 2,
+   "param": 13,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-2-1004",
+   "kind": "knob",
+   "x": 628,
+   "y": 90,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1004",
+   "frames": 120,
+   "param": 2,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-12-1005",
+   "kind": "knob",
+   "x": 803,
+   "y": 178,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1005",
+   "frames": 120,
+   "param": 12,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-1-1010",
+   "kind": "knob",
+   "x": 213,
+   "y": 178,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1010",
+   "frames": 120,
+   "param": 1,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-0-1011",
+   "kind": "knob",
+   "x": 123,
+   "y": 178,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1011",
+   "frames": 120,
+   "param": 0,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-9-1013",
+   "kind": "knob",
+   "x": 547,
+   "y": 90,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1013",
+   "frames": 120,
+   "param": 9,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-10-1014",
+   "kind": "knob",
+   "x": 547,
+   "y": 178,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1014",
+   "frames": 120,
+   "param": 10,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-19-1021",
+   "kind": "filmstrip",
+   "x": 48,
+   "y": 77,
+   "w": 66,
+   "h": 66.0,
+   "sprite": "STB_Eden_WT800_1021",
+   "frames": 41,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 40
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-ret:1022",
+   "kind": "switch",
+   "x": 1013,
+   "y": 174,
+   "w": 61,
+   "h": 70.0,
+   "sprite": "STB_Eden_WT800_1022",
+   "frames": 2,
+   "param": 27,
+   "reverse": false,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-20-1024",
+   "kind": "filmstrip",
+   "x": 990,
+   "y": 217,
+   "w": 23,
+   "h": 23.0,
+   "sprite": "STB_Eden_WT800_1024",
+   "frames": 41,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 40
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-5-1028",
+   "kind": "knob",
+   "x": 384,
+   "y": 90,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1028",
+   "frames": 120,
+   "param": 5,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-6-1029",
+   "kind": "knob",
+   "x": 384,
+   "y": 178,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1029",
+   "frames": 120,
+   "param": 6,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-11-1036",
+   "kind": "knob",
+   "x": 722,
+   "y": 178,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1036",
+   "frames": 120,
+   "param": 11,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-7-1037",
+   "kind": "knob",
+   "x": 466,
+   "y": 90,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1037",
+   "frames": 120,
+   "param": 7,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-8-1038",
+   "kind": "knob",
+   "x": 466,
+   "y": 178,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1038",
+   "frames": 120,
+   "param": 8,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-4-1039",
+   "kind": "knob",
+   "x": 628,
+   "y": 178,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1039",
+   "frames": 120,
+   "param": 4,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-9-1040",
+   "kind": "filmstrip",
+   "x": 227,
+   "y": 196,
+   "w": 17,
+   "h": 17.0,
+   "sprite": "STB_Eden_WT800_1040",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-8-1042",
+   "kind": "filmstrip",
+   "x": 136,
+   "y": 196,
+   "w": 17,
+   "h": 17.0,
+   "sprite": "STB_Eden_WT800_1042",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-10-1041",
+   "kind": "filmstrip",
+   "x": 749,
+   "y": 196,
+   "w": 17,
+   "h": 17.0,
+   "sprite": "STB_Eden_WT800_1041",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-3-1025",
+   "kind": "filmstrip",
+   "x": 688,
+   "y": 129,
+   "w": 23,
+   "h": 23.0,
+   "sprite": "STB_Eden_WT800_1025",
+   "frames": 41,
+   "frameSource": {
+    "type": "meter",
+    "meter": "gfx3"
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-4-1026",
+   "kind": "filmstrip",
+   "x": 183,
+   "y": 217,
+   "w": 23,
+   "h": 23.0,
+   "sprite": "STB_Eden_WT800_1026",
+   "frames": 41,
+   "frameSource": {
+    "type": "meter",
+    "meter": "gfx4"
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-0-10",
+   "kind": "zone",
+   "x": 113,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-0-11",
+   "kind": "zone",
+   "x": 165,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-12",
+   "kind": "zone",
+   "x": 203,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-13",
+   "kind": "zone",
+   "x": 255,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-14",
+   "kind": "zone",
+   "x": 292,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-15",
+   "kind": "zone",
+   "x": 344,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-6-16",
+   "kind": "zone",
+   "x": 374,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-6-17",
+   "kind": "zone",
+   "x": 426,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-8-18",
+   "kind": "zone",
+   "x": 456,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-8-19",
+   "kind": "zone",
+   "x": 508,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-10-20",
+   "kind": "zone",
+   "x": 537,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-10-21",
+   "kind": "zone",
+   "x": 589,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-4-22",
+   "kind": "zone",
+   "x": 618,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-4-23",
+   "kind": "zone",
+   "x": 670,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-11-24",
+   "kind": "zone",
+   "x": 712,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-11-25",
+   "kind": "zone",
+   "x": 764,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-12-26",
+   "kind": "zone",
+   "x": 793,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-12-27",
+   "kind": "zone",
+   "x": 847,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-5-28",
+   "kind": "zone",
+   "x": 374,
+   "y": 141,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-5-29",
+   "kind": "zone",
+   "x": 428,
+   "y": 141,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-7-30",
+   "kind": "zone",
+   "x": 456,
+   "y": 141,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-7-31",
+   "kind": "zone",
+   "x": 510,
+   "y": 141,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-9-32",
+   "kind": "zone",
+   "x": 537,
+   "y": 141,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-9-33",
+   "kind": "zone",
+   "x": 591,
+   "y": 141,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-34",
+   "kind": "zone",
+   "x": 618,
+   "y": 141,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-35",
+   "kind": "zone",
+   "x": 628,
+   "y": 68,
+   "w": 60,
+   "h": 24,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-36",
+   "kind": "zone",
+   "x": 672,
+   "y": 141,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "panel-1001",
+   "kind": "image",
+   "x": 855,
+   "y": 24,
+   "w": 587,
+   "h": 386,
+   "sprite": "STB_Eden_WT800_1001",
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "drawer-tab",
+   "kind": "zone",
+   "x": 1137,
+   "y": 24,
+   "w": 23,
+   "h": 386,
+   "action": {
+    "type": "toggle",
+    "param": 26
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "panel-background@ch",
+   "kind": "image",
+   "x": -90,
+   "y": 24,
+   "w": 1442,
+   "h": 386,
+   "sprite": "STB_Eden_WT800_1000",
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-3-1002@ch",
+   "kind": "knob",
+   "x": 212,
+   "y": 178,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1002",
+   "frames": 120,
+   "param": 3,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-13-1003@ch",
+   "kind": "switch",
+   "x": 787,
+   "y": 207,
+   "w": 60,
+   "h": 46.0,
+   "sprite": "STB_Eden_WT800_1003",
+   "frames": 2,
+   "param": 13,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-2-1004@ch",
+   "kind": "knob",
+   "x": 538,
+   "y": 90,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1004",
+   "frames": 120,
+   "param": 2,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-12-1005@ch",
+   "kind": "knob",
+   "x": 713,
+   "y": 178,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1005",
+   "frames": 120,
+   "param": 12,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-1-1010@ch",
+   "kind": "knob",
+   "x": 123,
+   "y": 178,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1010",
+   "frames": 120,
+   "param": 1,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-0-1011@ch",
+   "kind": "knob",
+   "x": 33,
+   "y": 178,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1011",
+   "frames": 120,
+   "param": 0,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-9-1013@ch",
+   "kind": "knob",
+   "x": 457,
+   "y": 90,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1013",
+   "frames": 120,
+   "param": 9,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-10-1014@ch",
+   "kind": "knob",
+   "x": 457,
+   "y": 178,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1014",
+   "frames": 120,
+   "param": 10,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-19-1021@ch",
+   "kind": "filmstrip",
+   "x": -42,
+   "y": 77,
+   "w": 66,
+   "h": 66.0,
+   "sprite": "STB_Eden_WT800_1021",
+   "frames": 41,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 40
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-ret:1022@ch",
+   "kind": "switch",
+   "x": 923,
+   "y": 174,
+   "w": 61,
+   "h": 70.0,
+   "sprite": "STB_Eden_WT800_1022",
+   "frames": 2,
+   "param": 27,
+   "reverse": false,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-20-1024@ch",
+   "kind": "filmstrip",
+   "x": 900,
+   "y": 217,
+   "w": 23,
+   "h": 23.0,
+   "sprite": "STB_Eden_WT800_1024",
+   "frames": 41,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 40
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-5-1028@ch",
+   "kind": "knob",
+   "x": 294,
+   "y": 90,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1028",
+   "frames": 120,
+   "param": 5,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-6-1029@ch",
+   "kind": "knob",
+   "x": 294,
+   "y": 178,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1029",
+   "frames": 120,
+   "param": 6,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-11-1036@ch",
+   "kind": "knob",
+   "x": 632,
+   "y": 178,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1036",
+   "frames": 120,
+   "param": 11,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-7-1037@ch",
+   "kind": "knob",
+   "x": 376,
+   "y": 90,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1037",
+   "frames": 120,
+   "param": 7,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-8-1038@ch",
+   "kind": "knob",
+   "x": 376,
+   "y": 178,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1038",
+   "frames": 120,
+   "param": 8,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-4-1039@ch",
+   "kind": "knob",
+   "x": 538,
+   "y": 178,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Eden_WT800_1039",
+   "frames": 120,
+   "param": 4,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-9-1040@ch",
+   "kind": "filmstrip",
+   "x": 137,
+   "y": 196,
+   "w": 17,
+   "h": 17.0,
+   "sprite": "STB_Eden_WT800_1040",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-8-1042@ch",
+   "kind": "filmstrip",
+   "x": 46,
+   "y": 196,
+   "w": 17,
+   "h": 17.0,
+   "sprite": "STB_Eden_WT800_1042",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-10-1041@ch",
+   "kind": "filmstrip",
+   "x": 659,
+   "y": 196,
+   "w": 17,
+   "h": 17.0,
+   "sprite": "STB_Eden_WT800_1041",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-3-1025@ch",
+   "kind": "filmstrip",
+   "x": 598,
+   "y": 129,
+   "w": 23,
+   "h": 23.0,
+   "sprite": "STB_Eden_WT800_1025",
+   "frames": 41,
+   "frameSource": {
+    "type": "meter",
+    "meter": "gfx3"
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-4-1026@ch",
+   "kind": "filmstrip",
+   "x": 93,
+   "y": 217,
+   "w": 23,
+   "h": 23.0,
+   "sprite": "STB_Eden_WT800_1026",
+   "frames": 41,
+   "frameSource": {
+    "type": "meter",
+    "meter": "gfx4"
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-0-10@ch",
+   "kind": "zone",
+   "x": 23,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-0-11@ch",
+   "kind": "zone",
+   "x": 75,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-12@ch",
+   "kind": "zone",
+   "x": 113,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-13@ch",
+   "kind": "zone",
+   "x": 165,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-14@ch",
+   "kind": "zone",
+   "x": 202,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-15@ch",
+   "kind": "zone",
+   "x": 254,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-6-16@ch",
+   "kind": "zone",
+   "x": 284,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-6-17@ch",
+   "kind": "zone",
+   "x": 336,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-8-18@ch",
+   "kind": "zone",
+   "x": 366,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-8-19@ch",
+   "kind": "zone",
+   "x": 418,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-10-20@ch",
+   "kind": "zone",
+   "x": 447,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-10-21@ch",
+   "kind": "zone",
+   "x": 499,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-4-22@ch",
+   "kind": "zone",
+   "x": 528,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-4-23@ch",
+   "kind": "zone",
+   "x": 580,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-11-24@ch",
+   "kind": "zone",
+   "x": 622,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-11-25@ch",
+   "kind": "zone",
+   "x": 674,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-12-26@ch",
+   "kind": "zone",
+   "x": 703,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-12-27@ch",
+   "kind": "zone",
+   "x": 757,
+   "y": 229,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-5-28@ch",
+   "kind": "zone",
+   "x": 284,
+   "y": 141,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-5-29@ch",
+   "kind": "zone",
+   "x": 338,
+   "y": 141,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-7-30@ch",
+   "kind": "zone",
+   "x": 366,
+   "y": 141,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-7-31@ch",
+   "kind": "zone",
+   "x": 420,
+   "y": 141,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-9-32@ch",
+   "kind": "zone",
+   "x": 447,
+   "y": 141,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-9-33@ch",
+   "kind": "zone",
+   "x": 501,
+   "y": 141,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-34@ch",
+   "kind": "zone",
+   "x": 528,
+   "y": 141,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-35@ch",
+   "kind": "zone",
+   "x": 538,
+   "y": 68,
+   "w": 60,
+   "h": 24,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-36@ch",
+   "kind": "zone",
+   "x": 582,
+   "y": 141,
+   "w": 28,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "panel-1001@ch",
+   "kind": "image",
+   "x": 585,
+   "y": 24,
+   "w": 587,
+   "h": 386,
+   "sprite": "STB_Eden_WT800_1001",
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "slider-18-1006@ch",
+   "kind": "knob",
+   "x": 1079,
+   "y": 165,
+   "w": 48,
+   "h": 209,
+   "sprite": "STB_Eden_WT800_1006_slider",
+   "frames": 81,
+   "param": 18,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-25-1007@ch",
+   "kind": "switch",
+   "x": 1083,
+   "y": 148,
+   "w": 34,
+   "h": 16.0,
+   "sprite": "STB_Eden_WT800_1007",
+   "frames": 2,
+   "param": 25,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-24-1008@ch",
+   "kind": "switch",
+   "x": 1083,
+   "y": 130,
+   "w": 34,
+   "h": 16.0,
+   "sprite": "STB_Eden_WT800_1008",
+   "frames": 2,
+   "param": 24,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-19-1009@ch",
+   "kind": "knob",
+   "x": 1072,
+   "y": 53,
+   "w": 54,
+   "h": 54.0,
+   "sprite": "STB_Eden_WT800_1009",
+   "frames": 120,
+   "param": 19,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "slider-17-1012@ch",
+   "kind": "knob",
+   "x": 994,
+   "y": 165,
+   "w": 48,
+   "h": 209,
+   "sprite": "STB_Eden_WT800_1012_slider",
+   "frames": 81,
+   "param": 17,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-11-1015@ch",
+   "kind": "filmstrip",
+   "x": 1000,
+   "y": 52,
+   "w": 34,
+   "h": 16.0,
+   "sprite": "STB_Eden_WT800_1015",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-12-1016@ch",
+   "kind": "filmstrip",
+   "x": 1000,
+   "y": 68,
+   "w": 34,
+   "h": 16.0,
+   "sprite": "STB_Eden_WT800_1016",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-13-1017@ch",
+   "kind": "filmstrip",
+   "x": 1000,
+   "y": 84,
+   "w": 34,
+   "h": 16.0,
+   "sprite": "STB_Eden_WT800_1017",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-14-1018@ch",
+   "kind": "filmstrip",
+   "x": 1000,
+   "y": 101,
+   "w": 34,
+   "h": 16.0,
+   "sprite": "STB_Eden_WT800_1018",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-23-1019@ch",
+   "kind": "switch",
+   "x": 1000,
+   "y": 148,
+   "w": 34,
+   "h": 16.0,
+   "sprite": "STB_Eden_WT800_1019",
+   "frames": 2,
+   "param": 23,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-22-1020@ch",
+   "kind": "switch",
+   "x": 1000,
+   "y": 130,
+   "w": 34,
+   "h": 16.0,
+   "sprite": "STB_Eden_WT800_1020",
+   "frames": 2,
+   "param": 22,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "slider-16-1027@ch",
+   "kind": "knob",
+   "x": 909,
+   "y": 165,
+   "w": 48,
+   "h": 209,
+   "sprite": "STB_Eden_WT800_1027_slider",
+   "frames": 81,
+   "param": 16,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-15-1030@ch",
+   "kind": "filmstrip",
+   "x": 917,
+   "y": 52,
+   "w": 34,
+   "h": 16.0,
+   "sprite": "STB_Eden_WT800_1030",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     15
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-16-1031@ch",
+   "kind": "filmstrip",
+   "x": 917,
+   "y": 68,
+   "w": 34,
+   "h": 16.0,
+   "sprite": "STB_Eden_WT800_1031",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     15
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-17-1032@ch",
+   "kind": "filmstrip",
+   "x": 917,
+   "y": 84,
+   "w": 34,
+   "h": 16.0,
+   "sprite": "STB_Eden_WT800_1032",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     15
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-18-1033@ch",
+   "kind": "filmstrip",
+   "x": 917,
+   "y": 101,
+   "w": 34,
+   "h": 16.0,
+   "sprite": "STB_Eden_WT800_1033",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     15
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-21-1034@ch",
+   "kind": "switch",
+   "x": 917,
+   "y": 148,
+   "w": 34,
+   "h": 16.0,
+   "sprite": "STB_Eden_WT800_1034",
+   "frames": 2,
+   "param": 21,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-20-1035@ch",
+   "kind": "switch",
+   "x": 917,
+   "y": 130,
+   "w": 34,
+   "h": 16.0,
+   "sprite": "STB_Eden_WT800_1035",
+   "frames": 2,
+   "param": 20,
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-5-1023@ch",
+   "kind": "filmstrip",
+   "x": 1124,
+   "y": 37,
+   "w": 16,
+   "h": 16.0,
+   "sprite": "STB_Eden_WT800_1023",
+   "frames": 41,
+   "frameSource": {
+    "type": "meter",
+    "meter": "gfx5any"
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-2@ch",
+   "kind": "zone",
+   "x": 1000,
+   "y": 52,
+   "w": 36,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-3@ch",
+   "kind": "zone",
+   "x": 1000,
+   "y": 68,
+   "w": 36,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.333333
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-4@ch",
+   "kind": "zone",
+   "x": 1000,
+   "y": 84,
+   "w": 36,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.666667
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-5@ch",
+   "kind": "zone",
+   "x": 1000,
+   "y": 101,
+   "w": 36,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-6@ch",
+   "kind": "zone",
+   "x": 917,
+   "y": 52,
+   "w": 36,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-7@ch",
+   "kind": "zone",
+   "x": 917,
+   "y": 68,
+   "w": 36,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.333333
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-8@ch",
+   "kind": "zone",
+   "x": 917,
+   "y": 84,
+   "w": 36,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.666667
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-9@ch",
+   "kind": "zone",
+   "x": 917,
+   "y": 101,
+   "w": 36,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-37@ch",
+   "kind": "zone",
+   "x": 1065,
+   "y": 91,
+   "w": 24,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-38@ch",
+   "kind": "zone",
+   "x": 1072,
+   "y": 31,
+   "w": 51,
+   "h": 24,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-19-39@ch",
+   "kind": "zone",
+   "x": 1105,
+   "y": 91,
+   "w": 28,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "drawer-tab@ch",
+   "kind": "zone",
+   "x": 867,
+   "y": 24,
+   "w": 23,
+   "h": 386,
+   "action": {
+    "type": "toggle",
+    "param": 26
+   },
+   "visibility": {
+    "params": [
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,1146 @@
+{
+ "schema": 2,
+ "effectName": "UAD bx_subsynth",
+ "namePattern": "bx_subsynth",
+ "size": {
+  "w": 595,
+  "h": 505
+ },
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Bypass",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Setting",
+   "steps": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Synth In",
+   "steps": [
+    "Mid",
+    "Stereo"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "In Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "Out Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "Mix",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 6,
+   "name": "MonMaker",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "St Width",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 8,
+   "name": "Subharm.",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 9,
+   "name": "Trim 1",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 10,
+   "name": "24-36Hz",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "Trim 2",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "36-56Hz",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "Trim 3",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 14,
+   "name": "56-80Hz",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 15,
+   "name": "SoloMode",
+   "steps": [
+    "Inactive",
+    "Solo 1",
+    "Solo 2",
+    "Solo 3"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 16,
+   "name": "Mode",
+   "steps": [
+    "Smooth",
+    "Harsh"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 17,
+   "name": "Squeeze",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 18,
+   "name": "Drive",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 19,
+   "name": "Low Cut",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 20,
+   "name": "High Cut",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 21,
+   "name": "T. Punch",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 22,
+   "name": "Low End",
+   "steps": null,
+   "default": 0.5
+  }
+ ],
+ "elements": [
+  {
+   "id": "chrome-panel",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 595,
+   "h": 481,
+   "sprite": "bx_subsynth__BACKGROUND"
+  },
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 595,
+   "h": 24,
+   "toolbar": {
+    "family": "brainworx",
+    "items": [
+     {
+      "type": "switch",
+      "x": 0.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.power",
+      "frames": 2,
+      "param": 0,
+      "glyph": "power",
+      "invert": true
+     },
+     {
+      "type": "icon",
+      "x": 123.5,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.undo",
+      "frames": 2,
+      "glyph": "undo"
+     },
+     {
+      "type": "icon",
+      "x": 147.5,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.redo",
+      "frames": 2,
+      "glyph": "redo"
+     },
+     {
+      "type": "bank",
+      "x": 195.5,
+      "y": 0,
+      "w": 96.0,
+      "h": 24,
+      "sprite": "chrome.bx.bank",
+      "frames": 2,
+      "param": 1,
+      "cells": 4,
+      "glyph": "ABCD"
+     },
+     {
+      "type": "icon",
+      "x": 315.5,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.copy",
+      "frames": 2,
+      "glyph": "Copy"
+     },
+     {
+      "type": "icon",
+      "x": 367.5,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.paste",
+      "frames": 2,
+      "glyph": "Paste"
+     },
+     {
+      "type": "icon",
+      "x": 431.5,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.reset",
+      "frames": 2,
+      "glyph": "Reset"
+     }
+    ]
+   }
+  },
+  {
+   "id": "synthin-switch",
+   "kind": "switch",
+   "sprite": "bx_subsynth__SWITCH",
+   "frames": 2,
+   "param": 2,
+   "orientation": "vertical",
+   "x": 65.0,
+   "y": 83.0,
+   "w": 38.0,
+   "h": 25.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "ingain-knob",
+   "kind": "knob",
+   "sprite": "bx_subsynth__KNOB",
+   "frames": 61,
+   "param": 3,
+   "x": 13.0,
+   "y": 142.0,
+   "w": 68.0,
+   "h": 68.0
+  },
+  {
+   "id": "ingain-text",
+   "kind": "text",
+   "param": 3,
+   "text": {
+    "size": 11.0,
+    "color": "#D2BEBE",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 13.0,
+   "y": 203.0,
+   "w": 68.0,
+   "h": 13.0
+  },
+  {
+   "id": "outgain-knob",
+   "kind": "knob",
+   "sprite": "bx_subsynth__KNOB",
+   "frames": 61,
+   "param": 4,
+   "x": 89.0,
+   "y": 142.0,
+   "w": 68.0,
+   "h": 68.0
+  },
+  {
+   "id": "outgain-text",
+   "kind": "text",
+   "param": 4,
+   "text": {
+    "size": 11.0,
+    "color": "#D2BEBE",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 89.0,
+   "y": 203.0,
+   "w": 68.0,
+   "h": 13.0
+  },
+  {
+   "id": "mix-knob",
+   "kind": "knob",
+   "sprite": "bx_subsynth__KNOB",
+   "frames": 61,
+   "param": 5,
+   "x": 51.0,
+   "y": 238.0,
+   "w": 68.0,
+   "h": 68.0
+  },
+  {
+   "id": "mix-text",
+   "kind": "text",
+   "param": 5,
+   "text": {
+    "size": 11.0,
+    "color": "#D2BEBE",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 51.0,
+   "y": 299.0,
+   "w": 68.0,
+   "h": 13.0
+  },
+  {
+   "id": "monmaker-knob",
+   "kind": "knob",
+   "sprite": "bx_subsynth__KNOB",
+   "frames": 61,
+   "param": 6,
+   "x": 13.0,
+   "y": 354.0,
+   "w": 68.0,
+   "h": 68.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "monmaker-text",
+   "kind": "text",
+   "param": 6,
+   "text": {
+    "size": 11.0,
+    "color": "#D2BEBE",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 13.0,
+   "y": 415.0,
+   "w": 68.0,
+   "h": 13.0
+  },
+  {
+   "id": "stwidth-knob",
+   "kind": "knob",
+   "sprite": "bx_subsynth__KNOB",
+   "frames": 61,
+   "param": 7,
+   "x": 89.0,
+   "y": 354.0,
+   "w": 68.0,
+   "h": 68.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "stwidth-text",
+   "kind": "text",
+   "param": 7,
+   "text": {
+    "size": 11.0,
+    "color": "#D2BEBE",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 89.0,
+   "y": 415.0,
+   "w": 68.0,
+   "h": 13.0
+  },
+  {
+   "id": "subharm-knob",
+   "kind": "knob",
+   "sprite": "bx_subsynth__KNOBBIG",
+   "frames": 61,
+   "param": 8,
+   "x": 240.0,
+   "y": 76.0,
+   "w": 115.0,
+   "h": 115.0
+  },
+  {
+   "id": "subharm-text",
+   "kind": "text",
+   "param": 8,
+   "text": {
+    "size": 11.0,
+    "color": "#D2BEBE",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 263.0,
+   "y": 176.0,
+   "w": 68.0,
+   "h": 13.0
+  },
+  {
+   "id": "2436hz-knob",
+   "kind": "knob",
+   "sprite": "bx_subsynth__KNOB",
+   "frames": 61,
+   "param": 10,
+   "x": 207.0,
+   "y": 337.0,
+   "w": 68.0,
+   "h": 68.0
+  },
+  {
+   "id": "2436hz-text",
+   "kind": "text",
+   "param": 10,
+   "text": {
+    "size": 11.0,
+    "color": "#D2BEBE",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 207.0,
+   "y": 398.0,
+   "w": 68.0,
+   "h": 13.0
+  },
+  {
+   "id": "3656hz-knob",
+   "kind": "knob",
+   "sprite": "bx_subsynth__KNOB",
+   "frames": 61,
+   "param": 12,
+   "x": 320.0,
+   "y": 337.0,
+   "w": 68.0,
+   "h": 68.0
+  },
+  {
+   "id": "3656hz-text",
+   "kind": "text",
+   "param": 12,
+   "text": {
+    "size": 11.0,
+    "color": "#D2BEBE",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 320.0,
+   "y": 398.0,
+   "w": 68.0,
+   "h": 13.0
+  },
+  {
+   "id": "5680hz-knob",
+   "kind": "knob",
+   "sprite": "bx_subsynth__KNOB",
+   "frames": 61,
+   "param": 14,
+   "x": 264.0,
+   "y": 226.0,
+   "w": 68.0,
+   "h": 68.0
+  },
+  {
+   "id": "5680hz-text",
+   "kind": "text",
+   "param": 14,
+   "text": {
+    "size": 11.0,
+    "color": "#D2BEBE",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 264.0,
+   "y": 287.0,
+   "w": 68.0,
+   "h": 13.0
+  },
+  {
+   "id": "trim1-knob",
+   "kind": "knob",
+   "sprite": "bx_subsynth__KNOBTRIM",
+   "frames": 21,
+   "param": 9,
+   "x": 205.0,
+   "y": 394.0,
+   "w": 72.5,
+   "h": 62.5
+  },
+  {
+   "id": "trim2-knob",
+   "kind": "knob",
+   "sprite": "bx_subsynth__KNOBTRIM",
+   "frames": 21,
+   "param": 11,
+   "x": 318.0,
+   "y": 393.0,
+   "w": 72.5,
+   "h": 62.5
+  },
+  {
+   "id": "trim3-knob",
+   "kind": "knob",
+   "sprite": "bx_subsynth__KNOBTRIM",
+   "frames": 21,
+   "param": 13,
+   "x": 261.0,
+   "y": 282.0,
+   "w": 72.5,
+   "h": 62.5
+  },
+  {
+   "id": "solomode-switch",
+   "kind": "switch",
+   "sprite": "bx_subsynth__BUTTONSOLO_C0",
+   "frames": 2,
+   "param": 15,
+   "orientation": "vertical",
+   "x": 258.0,
+   "y": 388.0,
+   "w": 23.0,
+   "h": 26.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     15
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "action": {
+    "type": "table",
+    "param": 15,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.333333
+     },
+     {
+      "current": 0.333333,
+      "value": 0.0
+     },
+     {
+      "current": 0.666667,
+      "value": 0.333333
+     },
+     {
+      "current": 1.0,
+      "value": 0.333333
+     }
+    ]
+   }
+  },
+  {
+   "id": "solomode-switch-col1",
+   "kind": "filmstrip",
+   "sprite": "bx_subsynth__BUTTONSOLO_C1",
+   "frames": 2,
+   "x": 258.0,
+   "y": 388.0,
+   "w": 23.0,
+   "h": 26.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "param",
+    "param": 15
+   }
+  },
+  {
+   "id": "solomode-switch-1",
+   "kind": "switch",
+   "sprite": "bx_subsynth__BUTTONSOLO_C0",
+   "frames": 2,
+   "param": 15,
+   "orientation": "vertical",
+   "x": 370.0,
+   "y": 388.0,
+   "w": 23.0,
+   "h": 26.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     15
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "action": {
+    "type": "table",
+    "param": 15,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.666667
+     },
+     {
+      "current": 0.333333,
+      "value": 0.666667
+     },
+     {
+      "current": 0.666667,
+      "value": 0.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.666667
+     }
+    ]
+   }
+  },
+  {
+   "id": "solomode-switch-col1-1",
+   "kind": "filmstrip",
+   "sprite": "bx_subsynth__BUTTONSOLO_C1",
+   "frames": 2,
+   "x": 370.0,
+   "y": 388.0,
+   "w": 23.0,
+   "h": 26.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "param",
+    "param": 15
+   }
+  },
+  {
+   "id": "solomode-switch-2",
+   "kind": "switch",
+   "sprite": "bx_subsynth__BUTTONSOLO_C0",
+   "frames": 2,
+   "param": 15,
+   "orientation": "vertical",
+   "x": 313.0,
+   "y": 278.0,
+   "w": 23.0,
+   "h": 26.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     15
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "action": {
+    "type": "table",
+    "param": 15,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.333333,
+      "value": 1.0
+     },
+     {
+      "current": 0.666667,
+      "value": 1.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "solomode-switch-col1-2",
+   "kind": "filmstrip",
+   "sprite": "bx_subsynth__BUTTONSOLO_C1",
+   "frames": 2,
+   "x": 313.0,
+   "y": 278.0,
+   "w": 23.0,
+   "h": 26.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "param",
+    "param": 15
+   }
+  },
+  {
+   "id": "mode-switch",
+   "kind": "switch",
+   "sprite": "bx_subsynth__SWITCH",
+   "frames": 2,
+   "param": 16,
+   "orientation": "vertical",
+   "x": 490.0,
+   "y": 83.0,
+   "w": 38.0,
+   "h": 25.0
+  },
+  {
+   "id": "squeeze-knob",
+   "kind": "knob",
+   "sprite": "bx_subsynth__KNOB",
+   "frames": 61,
+   "param": 17,
+   "x": 438.0,
+   "y": 142.0,
+   "w": 68.0,
+   "h": 68.0
+  },
+  {
+   "id": "squeeze-text",
+   "kind": "text",
+   "param": 17,
+   "text": {
+    "size": 11.0,
+    "color": "#D2BEBE",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 438.0,
+   "y": 203.0,
+   "w": 68.0,
+   "h": 13.0
+  },
+  {
+   "id": "drive-knob",
+   "kind": "knob",
+   "sprite": "bx_subsynth__KNOB",
+   "frames": 61,
+   "param": 18,
+   "x": 514.0,
+   "y": 142.0,
+   "w": 68.0,
+   "h": 68.0
+  },
+  {
+   "id": "drive-text",
+   "kind": "text",
+   "param": 18,
+   "text": {
+    "size": 11.0,
+    "color": "#D2BEBE",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 514.0,
+   "y": 203.0,
+   "w": 68.0,
+   "h": 13.0
+  },
+  {
+   "id": "lowcut-knob",
+   "kind": "knob",
+   "sprite": "bx_subsynth__KNOB",
+   "frames": 61,
+   "param": 19,
+   "x": 438.0,
+   "y": 237.0,
+   "w": 68.0,
+   "h": 68.0
+  },
+  {
+   "id": "lowcut-text",
+   "kind": "text",
+   "param": 19,
+   "text": {
+    "size": 11.0,
+    "color": "#D2BEBE",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 438.0,
+   "y": 298.0,
+   "w": 68.0,
+   "h": 13.0
+  },
+  {
+   "id": "highcut-knob",
+   "kind": "knob",
+   "sprite": "bx_subsynth__KNOB",
+   "frames": 61,
+   "param": 20,
+   "x": 514.0,
+   "y": 237.0,
+   "w": 68.0,
+   "h": 68.0
+  },
+  {
+   "id": "highcut-text",
+   "kind": "text",
+   "param": 20,
+   "text": {
+    "size": 11.0,
+    "color": "#D2BEBE",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 514.0,
+   "y": 298.0,
+   "w": 68.0,
+   "h": 13.0
+  },
+  {
+   "id": "tpunch-knob",
+   "kind": "knob",
+   "sprite": "bx_subsynth__KNOB",
+   "frames": 61,
+   "param": 21,
+   "x": 438.0,
+   "y": 354.0,
+   "w": 68.0,
+   "h": 68.0
+  },
+  {
+   "id": "tpunch-text",
+   "kind": "text",
+   "param": 21,
+   "text": {
+    "size": 11.0,
+    "color": "#D2BEBE",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 438.0,
+   "y": 415.0,
+   "w": 68.0,
+   "h": 13.0
+  },
+  {
+   "id": "lowend-knob",
+   "kind": "knob",
+   "sprite": "bx_subsynth__KNOB",
+   "frames": 61,
+   "param": 22,
+   "x": 514.0,
+   "y": 354.0,
+   "w": 68.0,
+   "h": 68.0
+  },
+  {
+   "id": "lowend-text",
+   "kind": "text",
+   "param": 22,
+   "text": {
+    "size": 11.0,
+    "color": "#D2BEBE",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 514.0,
+   "y": 415.0,
+   "w": 68.0,
+   "h": 13.0
+  }
+ ],
+ "meterSources": {},
+ "states": {
+  "channels": 2
+ }
+}

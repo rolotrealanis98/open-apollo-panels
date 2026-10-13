@@ -1,0 +1,1991 @@
+{
+ "schema": 2,
+ "effectName": "UAD Softube Vintage Amp Room",
+ "namePattern": "Softube Vintage Amp Room",
+ "size": {
+  "w": 480,
+  "h": 664
+ },
+ "background": null,
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Amp Switch",
+   "steps": [
+    "WHITE",
+    "BROWN",
+    "GREEN"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Presence (White)",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 2,
+   "name": "Bass (White)",
+   "steps": null,
+   "default": 0.125
+  },
+  {
+   "index": 3,
+   "name": "Middle (White)",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 4,
+   "name": "Treble (White)",
+   "steps": null,
+   "default": 0.4350000023841858
+  },
+  {
+   "index": 5,
+   "name": "Master Vol (White)",
+   "steps": null,
+   "default": 0.1899999976158142
+  },
+  {
+   "index": 6,
+   "name": "Preamp Vol (White)",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 7,
+   "name": "Microphone (White)",
+   "steps": null,
+   "default": 0.2949999868869781
+  },
+  {
+   "index": 8,
+   "name": "Bright Switch (Brown)",
+   "steps": [
+    "OFF",
+    "ON"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "Volume (Brown)",
+   "steps": null,
+   "default": 0.7149999737739563
+  },
+  {
+   "index": 10,
+   "name": "Treble (Brown)",
+   "steps": null,
+   "default": 0.574999988079071
+  },
+  {
+   "index": 11,
+   "name": "Middle (Brown)",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 12,
+   "name": "Bass (Brown)",
+   "steps": null,
+   "default": 0.5620409846305847
+  },
+  {
+   "index": 13,
+   "name": "Vibrato Switch (Brown)",
+   "steps": [
+    "OFF",
+    "ON"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 14,
+   "name": "Vibrato Speed (Brown)",
+   "steps": null,
+   "default": 0.625
+  },
+  {
+   "index": 15,
+   "name": "Vibrato Intensity (Brown)",
+   "steps": null,
+   "default": 0.5350000262260437
+  },
+  {
+   "index": 16,
+   "name": "Microphone (Brown)",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 17,
+   "name": "Vib-Trem Off-On (Green)",
+   "steps": [
+    "OFF",
+    "ON"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 18,
+   "name": "Vib-Trem Speed (Green)",
+   "steps": [
+    "SLOW",
+    "MED",
+    "FAST"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 19,
+   "name": "Vib-Trem Switch (Green)",
+   "steps": [
+    "VIB",
+    "TREM"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 20,
+   "name": "Vib-Trem Volume (Green)",
+   "steps": null,
+   "default": 0.4650000035762787
+  },
+  {
+   "index": 21,
+   "name": "Normal Volume (Green)",
+   "steps": null,
+   "default": 0.3650000095367432
+  },
+  {
+   "index": 22,
+   "name": "Brilliant Volume (Green)",
+   "steps": null,
+   "default": 0.7799999713897705
+  },
+  {
+   "index": 23,
+   "name": "Tone (Green)",
+   "steps": null,
+   "default": 0.7049999833106995
+  },
+  {
+   "index": 24,
+   "name": "Microphone (Green)",
+   "steps": null,
+   "default": 0.1700000017881393
+  },
+  {
+   "index": 25,
+   "name": "Amp Cab Bypass",
+   "steps": [
+    "OFF",
+    "AMP",
+    "CAB"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 26,
+   "name": "Mode",
+   "steps": [
+    "Bypass",
+    "Active"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {},
+ "elements": [
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 480,
+   "h": 24,
+   "toolbar": {
+    "family": "softube",
+    "items": [
+     {
+      "type": "switch",
+      "x": 367.0,
+      "y": 6.0,
+      "w": 30,
+      "h": 12,
+      "param": 26,
+      "sprite": "chrome.softube.toggle",
+      "frames": 2,
+      "glyph": "power"
+     },
+     {
+      "type": "gear",
+      "x": 435.0,
+      "y": 6.5,
+      "w": 11.0,
+      "h": 11.5,
+      "color": "#E5E5E5"
+     },
+     {
+      "type": "rect",
+      "x": 455.0,
+      "y": 0,
+      "w": 25.0,
+      "h": 24,
+      "color": "#019C74"
+     },
+     {
+      "type": "icon",
+      "x": 461.0,
+      "y": 5.0,
+      "w": 13.5,
+      "h": 13.5,
+      "sprite": "chrome.softube.smiley",
+      "frames": 1,
+      "glyph": "",
+      "color": "#E5F5F0"
+     }
+    ]
+   }
+  },
+  {
+   "id": "room-0",
+   "kind": "image",
+   "x": 0,
+   "y": 134,
+   "w": 480,
+   "h": 530,
+   "sprite": "K_VintageRoom_room0",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "lamp0-s0",
+   "kind": "filmstrip",
+   "x": 104,
+   "y": 259,
+   "w": 24,
+   "h": 24,
+   "sprite": "K_VintageRoom_lamp0",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-7-s0",
+   "kind": "knob",
+   "x": 179,
+   "y": 271,
+   "w": 301,
+   "h": 393,
+   "sprite": "K_VintageRoom_mic7_s0",
+   "frames": 65,
+   "param": 7,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-16-s0",
+   "kind": "knob",
+   "x": 477,
+   "y": 247,
+   "w": 3,
+   "h": 417,
+   "sprite": "K_VintageRoom_mic16_s0",
+   "frames": 65,
+   "param": 16,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "room-1",
+   "kind": "image",
+   "x": 0,
+   "y": 134,
+   "w": 480,
+   "h": 530,
+   "sprite": "K_VintageRoom_room1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "lamp1-s1",
+   "kind": "filmstrip",
+   "x": 322,
+   "y": 332,
+   "w": 24,
+   "h": 20,
+   "sprite": "K_VintageRoom_lamp1",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "lamp2-s1",
+   "kind": "filmstrip",
+   "x": 447,
+   "y": 289,
+   "w": 56,
+   "h": 44,
+   "sprite": "K_VintageRoom_lamp2",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-7-s1",
+   "kind": "knob",
+   "x": 0,
+   "y": 251,
+   "w": 242,
+   "h": 413,
+   "sprite": "K_VintageRoom_mic7_s1",
+   "frames": 65,
+   "param": 7,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-16-s1",
+   "kind": "knob",
+   "x": 191,
+   "y": 227,
+   "w": 263,
+   "h": 437,
+   "sprite": "K_VintageRoom_mic16_s1",
+   "frames": 65,
+   "param": 16,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-24-s1",
+   "kind": "knob",
+   "x": 414,
+   "y": 235,
+   "w": 66,
+   "h": 429,
+   "sprite": "K_VintageRoom_mic24_s1",
+   "frames": 65,
+   "param": 24,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "room-2",
+   "kind": "image",
+   "x": 0,
+   "y": 134,
+   "w": 480,
+   "h": 530,
+   "sprite": "K_VintageRoom_room2",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-room-swipe",
+   "kind": "zone",
+   "x": 0,
+   "y": 134,
+   "w": 480,
+   "h": 530,
+   "gesture": "swipe",
+   "param": 0,
+   "axis": "horizontal",
+   "distance": 100,
+   "reverse": true
+  },
+  {
+   "id": "lamp1-s2",
+   "kind": "filmstrip",
+   "x": 36,
+   "y": 312,
+   "w": 24,
+   "h": 20,
+   "sprite": "K_VintageRoom_lamp1",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "lamp2-s2",
+   "kind": "filmstrip",
+   "x": 161,
+   "y": 269,
+   "w": 56,
+   "h": 44,
+   "sprite": "K_VintageRoom_lamp2",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-16-s2",
+   "kind": "knob",
+   "x": 0,
+   "y": 207,
+   "w": 168,
+   "h": 457,
+   "sprite": "K_VintageRoom_mic16_s2",
+   "frames": 65,
+   "param": 16,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-24-s2",
+   "kind": "knob",
+   "x": 128,
+   "y": 215,
+   "w": 257,
+   "h": 441,
+   "sprite": "K_VintageRoom_mic24_s2",
+   "frames": 65,
+   "param": 24,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "header-0",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 480,
+   "h": 110,
+   "sprite": "K_VintageRoom_hdr0",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "header-1",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 480,
+   "h": 110,
+   "sprite": "K_VintageRoom_hdr1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "header-2",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 480,
+   "h": 110,
+   "sprite": "K_VintageRoom_hdr2",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-1-1004",
+   "kind": "knob",
+   "x": 34,
+   "y": 66,
+   "w": 33,
+   "h": 33,
+   "sprite": "STB_Softube_Vintage_Amp_Room_1004_cells",
+   "frames": 100,
+   "param": 1,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-2-1004",
+   "kind": "knob",
+   "x": 102,
+   "y": 66,
+   "w": 33,
+   "h": 33,
+   "sprite": "STB_Softube_Vintage_Amp_Room_1004_cells",
+   "frames": 100,
+   "param": 2,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-3-1004",
+   "kind": "knob",
+   "x": 168,
+   "y": 66,
+   "w": 33,
+   "h": 33,
+   "sprite": "STB_Softube_Vintage_Amp_Room_1004_cells",
+   "frames": 100,
+   "param": 3,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-4-1004",
+   "kind": "knob",
+   "x": 233,
+   "y": 66,
+   "w": 33,
+   "h": 33,
+   "sprite": "STB_Softube_Vintage_Amp_Room_1004_cells",
+   "frames": 100,
+   "param": 4,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-5-1004",
+   "kind": "knob",
+   "x": 301,
+   "y": 66,
+   "w": 33,
+   "h": 33,
+   "sprite": "STB_Softube_Vintage_Amp_Room_1004_cells",
+   "frames": 100,
+   "param": 5,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-6-1004",
+   "kind": "knob",
+   "x": 364,
+   "y": 66,
+   "w": 33,
+   "h": 33,
+   "sprite": "STB_Softube_Vintage_Amp_Room_1004_cells",
+   "frames": 100,
+   "param": 6,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-9-1002",
+   "kind": "knob",
+   "x": 60,
+   "y": 65,
+   "w": 56,
+   "h": 56,
+   "sprite": "STB_Softube_Vintage_Amp_Room_1002_cells",
+   "frames": 101,
+   "param": 9,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-10-1002",
+   "kind": "knob",
+   "x": 122,
+   "y": 65,
+   "w": 56,
+   "h": 56,
+   "sprite": "STB_Softube_Vintage_Amp_Room_1002_cells",
+   "frames": 101,
+   "param": 10,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-11-1002",
+   "kind": "knob",
+   "x": 182,
+   "y": 65,
+   "w": 56,
+   "h": 56,
+   "sprite": "STB_Softube_Vintage_Amp_Room_1002_cells",
+   "frames": 101,
+   "param": 11,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-12-1002",
+   "kind": "knob",
+   "x": 240,
+   "y": 65,
+   "w": 56,
+   "h": 56,
+   "sprite": "STB_Softube_Vintage_Amp_Room_1002_cells",
+   "frames": 101,
+   "param": 12,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-14-1002",
+   "kind": "knob",
+   "x": 359,
+   "y": 65,
+   "w": 56,
+   "h": 56,
+   "sprite": "STB_Softube_Vintage_Amp_Room_1002_cells",
+   "frames": 101,
+   "param": 14,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-15-1002",
+   "kind": "knob",
+   "x": 420,
+   "y": 65,
+   "w": 56,
+   "h": 56,
+   "sprite": "STB_Softube_Vintage_Amp_Room_1002_cells",
+   "frames": 101,
+   "param": 15,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-20-1013",
+   "kind": "knob",
+   "x": 196,
+   "y": 52,
+   "w": 52,
+   "h": 52,
+   "sprite": "STB_Softube_Vintage_Amp_Room_1013_cells",
+   "frames": 104,
+   "param": 20,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-21-1013",
+   "kind": "knob",
+   "x": 277,
+   "y": 52,
+   "w": 52,
+   "h": 52,
+   "sprite": "STB_Softube_Vintage_Amp_Room_1013_cells",
+   "frames": 104,
+   "param": 21,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-22-1013",
+   "kind": "knob",
+   "x": 349,
+   "y": 52,
+   "w": 52,
+   "h": 52,
+   "sprite": "STB_Softube_Vintage_Amp_Room_1013_cells",
+   "frames": 104,
+   "param": 22,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-23-1013",
+   "kind": "knob",
+   "x": 420,
+   "y": 52,
+   "w": 52,
+   "h": 52,
+   "sprite": "STB_Softube_Vintage_Amp_Room_1013_cells",
+   "frames": 104,
+   "param": 23,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-8",
+   "kind": "switch",
+   "x": 33,
+   "y": 83,
+   "w": 17,
+   "h": 24,
+   "sprite": "K_VintageRoom_rocker",
+   "frames": 2,
+   "param": 8,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-13",
+   "kind": "switch",
+   "x": 318,
+   "y": 83,
+   "w": 17,
+   "h": 24,
+   "sprite": "K_VintageRoom_rocker",
+   "frames": 2,
+   "param": 13,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-17",
+   "kind": "switch",
+   "x": 4,
+   "y": 52,
+   "w": 52,
+   "h": 52,
+   "sprite": "STB_Softube_Vintage_Amp_Room_1013_cells",
+   "frames": 104,
+   "param": 17,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     17
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 36
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 52
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-18",
+   "kind": "switch",
+   "x": 64,
+   "y": 52,
+   "w": 52,
+   "h": 52,
+   "sprite": "STB_Softube_Vintage_Amp_Room_1013_cells",
+   "frames": 104,
+   "param": 18,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 36
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 44
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 52
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-19",
+   "kind": "switch",
+   "x": 130,
+   "y": 52,
+   "w": 52,
+   "h": 52,
+   "sprite": "STB_Softube_Vintage_Amp_Room_1013_cells",
+   "frames": 104,
+   "param": 19,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     19
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 36
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 52
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "bypass-0",
+   "kind": "filmstrip",
+   "x": 392,
+   "y": 604,
+   "w": 88,
+   "h": 16,
+   "sprite": "K_VintageRoom_bypass0",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     25
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "bypass-0-zone",
+   "kind": "zone",
+   "x": 392,
+   "y": 604,
+   "w": 88,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 25,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "bypass-1",
+   "kind": "filmstrip",
+   "x": 392,
+   "y": 620,
+   "w": 88,
+   "h": 16,
+   "sprite": "K_VintageRoom_bypass1",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     25
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bypass-1-zone",
+   "kind": "zone",
+   "x": 392,
+   "y": 620,
+   "w": 88,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 25,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "select-next-s0",
+   "kind": "zone",
+   "x": 444,
+   "y": 174,
+   "w": 36,
+   "h": 450,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "select-prev-s1",
+   "kind": "zone",
+   "x": 0,
+   "y": 174,
+   "w": 36,
+   "h": 450,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "select-next-s1",
+   "kind": "zone",
+   "x": 444,
+   "y": 174,
+   "w": 36,
+   "h": 450,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "select-prev-s2",
+   "kind": "zone",
+   "x": 0,
+   "y": 174,
+   "w": 36,
+   "h": 450,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  }
+ ]
+}

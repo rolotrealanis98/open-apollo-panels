@@ -1,0 +1,4953 @@
+{
+ "schema": 2,
+ "effectName": "UAD Vertigo VSM-3",
+ "namePattern": "Vertigo VSM-3",
+ "size": {
+  "w": 1024,
+  "h": 188
+ },
+ "background": "vertigo_vsm_3__BACKGROUND",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "GlobSys",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 2,
+   "name": "InptGain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "FETSys",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 4,
+   "name": "FETDrv",
+   "steps": null,
+   "default": 0.4000000059604645
+  },
+  {
+   "index": 5,
+   "name": "FETLev",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "FETFilt",
+   "steps": [
+    "Low",
+    "Mid",
+    "HiMid",
+    "High",
+    "Full",
+    "Track"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 7,
+   "name": "FETShape",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 8,
+   "name": "FETMix",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 9,
+   "name": "FETStyle",
+   "steps": [
+    "Hard",
+    "Soft"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 10,
+   "name": "FETMode",
+   "steps": [
+    "M",
+    "LR",
+    "S"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 11,
+   "name": "ZnBlSys",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 12,
+   "name": "ZnBlDrv",
+   "steps": null,
+   "default": 0.4000000059604645
+  },
+  {
+   "index": 13,
+   "name": "ZnBlLev",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 14,
+   "name": "ZnBlFilt",
+   "steps": [
+    "Low",
+    "Mid",
+    "HiMid",
+    "High",
+    "Full",
+    "Track"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 15,
+   "name": "ZBSh",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 16,
+   "name": "ZnBlMix",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 17,
+   "name": "ZBSt",
+   "steps": [
+    "Hard",
+    "Soft"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 18,
+   "name": "ZnBlMode",
+   "steps": [
+    "M",
+    "LR",
+    "S"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 19,
+   "name": "THDSys",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 20,
+   "name": "THDMix",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 21,
+   "name": "MonMS",
+   "steps": [
+    "M",
+    "Off",
+    "S"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 22,
+   "name": "MonDist",
+   "steps": [
+    "2nd+3rd",
+    "2nd",
+    "Off",
+    "3rd"
+   ],
+   "default": 0.6600000262260437
+  },
+  {
+   "index": 23,
+   "name": "OutGnL",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 24,
+   "name": "OutGnR",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 25,
+   "name": "Link",
+   "steps": [
+    "Unlinked",
+    "Linked"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "power-led",
+   "kind": "filmstrip",
+   "sprite": "vertigo_vsm_3__LAMP",
+   "frames": 2,
+   "x": 865.0,
+   "y": 3.0,
+   "w": 50.0,
+   "h": 60.0,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
+  },
+  {
+   "id": "fetsys-switch",
+   "kind": "switch",
+   "sprite": "vertigo_vsm_3__SWITCHRED",
+   "frames": 2,
+   "param": 3,
+   "orientation": "vertical",
+   "x": 218.0,
+   "y": 123.0,
+   "w": 36.0,
+   "h": 59.0
+  },
+  {
+   "id": "fetmode-switch",
+   "kind": "switch",
+   "sprite": "vertigo_vsm_3__SWITCHBLUE",
+   "frames": 3,
+   "param": 10,
+   "orientation": "vertical",
+   "x": 271.0,
+   "y": 141.0,
+   "w": 59.0,
+   "h": 36.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-fetmode-switch-mono",
+   "kind": "filmstrip",
+   "x": 271.0,
+   "y": 141.0,
+   "w": 59.0,
+   "h": 36.0,
+   "sprite": "Q_vertigo_vsm_3__SWITCHBLUE_mono140_ffb92e",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 10
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   },
+   "orientation": "vertical"
+  },
+  {
+   "id": "fetstyle-switch",
+   "kind": "switch",
+   "sprite": "vertigo_vsm_3__SWITCHSILVER",
+   "frames": 2,
+   "param": 9,
+   "orientation": "vertical",
+   "x": 305.0,
+   "y": 75.0,
+   "w": 36.0,
+   "h": 59.0
+  },
+  {
+   "id": "fetdrv-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsm_3__KNOBSMALL",
+   "frames": 61,
+   "param": 4,
+   "x": 179.0,
+   "y": 24.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "fetlev-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsm_3__KNOBSMALL",
+   "frames": 61,
+   "param": 5,
+   "x": 234.0,
+   "y": 24.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "fetshape-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsm_3__KNOBSMALL",
+   "frames": 61,
+   "param": 7,
+   "x": 179.0,
+   "y": 85.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "fetmix-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsm_3__KNOBSMALL",
+   "frames": 61,
+   "param": 8,
+   "x": 234.0,
+   "y": 85.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "fetfilt-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsm_3__KNOBSTEPPED",
+   "frames": 6,
+   "param": 6,
+   "x": 288.0,
+   "y": 24.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "cmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "vertigo_vsm_3__LEVEL",
+   "frames": 8,
+   "x": 256.0,
+   "y": 24.0,
+   "w": 7.0,
+   "h": 7.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     3
+    ],
+    "meters": [
+     "led_40000004"
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.25
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.75
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.025
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.05
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.075
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.125
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.15
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.175
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.2
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.225
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.25
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.275
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.3
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.325
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.35
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.375
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.4
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.425
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.45
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.475
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.525
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.55
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.575
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.6
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.625
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.65
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.675
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.7
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.725
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.75
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.775
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.8
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.825
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.85
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.875
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.9
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.925
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.95
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       1.0,
+       0.975
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 7
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-1",
+   "kind": "filmstrip",
+   "sprite": "vertigo_vsm_3__LEVEL",
+   "frames": 8,
+   "x": 265.0,
+   "y": 24.0,
+   "w": 7.0,
+   "h": 7.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     3
+    ],
+    "meters": [
+     "led_40000005"
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.25
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.75
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.025
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.05
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.075
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.125
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.15
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.175
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.2
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.225
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.25
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.275
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.3
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.325
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.35
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.375
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.4
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.425
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.45
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.475
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.525
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.55
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.575
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.6
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.625
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.65
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.675
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.7
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.725
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.75
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.775
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.8
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.825
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.85
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.875
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.9
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.925
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.95
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       1.0,
+       0.975
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 7
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-2",
+   "kind": "filmstrip",
+   "sprite": "vertigo_vsm_3__DRIVE",
+   "frames": 6,
+   "x": 205.0,
+   "y": 24.0,
+   "w": 8.0,
+   "h": 8.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     3
+    ],
+    "meters": [
+     "led_40000008"
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.25
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.75
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.025
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.05
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.075
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.125
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.15
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.175
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.2
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.225
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.25
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.275
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.3
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.325
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.35
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.375
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.4
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.425
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.45
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.475
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.525
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.55
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.575
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.6
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.625
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.65
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.675
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.7
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.725
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.75
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.775
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.8
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.825
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.85
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.875
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.9
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.925
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.95
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.975
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   }
+  },
+  {
+   "id": "znblsys-switch",
+   "kind": "switch",
+   "sprite": "vertigo_vsm_3__SWITCHRED",
+   "frames": 2,
+   "param": 11,
+   "orientation": "vertical",
+   "x": 472.0,
+   "y": 123.0,
+   "w": 36.0,
+   "h": 59.0
+  },
+  {
+   "id": "znblmode-switch",
+   "kind": "switch",
+   "sprite": "vertigo_vsm_3__SWITCHBLUE",
+   "frames": 3,
+   "param": 18,
+   "orientation": "vertical",
+   "x": 525.0,
+   "y": 141.0,
+   "w": 59.0,
+   "h": 36.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-znblmode-switch-mono",
+   "kind": "filmstrip",
+   "x": 525.0,
+   "y": 141.0,
+   "w": 59.0,
+   "h": 36.0,
+   "sprite": "Q_vertigo_vsm_3__SWITCHBLUE_mono140_ffb92e",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 18
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   },
+   "orientation": "vertical"
+  },
+  {
+   "id": "zbst-switch",
+   "kind": "switch",
+   "sprite": "vertigo_vsm_3__SWITCHSILVER",
+   "frames": 2,
+   "param": 17,
+   "orientation": "vertical",
+   "x": 559.0,
+   "y": 75.0,
+   "w": 36.0,
+   "h": 59.0
+  },
+  {
+   "id": "znbldrv-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsm_3__KNOBSMALL",
+   "frames": 61,
+   "param": 12,
+   "x": 433.0,
+   "y": 24.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "znbllev-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsm_3__KNOBSMALL",
+   "frames": 61,
+   "param": 13,
+   "x": 488.0,
+   "y": 24.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "zbsh-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsm_3__KNOBSMALL",
+   "frames": 61,
+   "param": 15,
+   "x": 433.0,
+   "y": 85.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "znblmix-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsm_3__KNOBSMALL",
+   "frames": 61,
+   "param": 16,
+   "x": 488.0,
+   "y": 85.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "znblfilt-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsm_3__KNOBSTEPPED",
+   "frames": 6,
+   "param": 14,
+   "x": 542.0,
+   "y": 24.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "cmoviebitmap-led-3",
+   "kind": "filmstrip",
+   "sprite": "vertigo_vsm_3__LEVEL",
+   "frames": 8,
+   "x": 509.0,
+   "y": 24.0,
+   "w": 7.0,
+   "h": 7.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     11
+    ],
+    "meters": [
+     "led_40000006"
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.25
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.75
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.025
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.05
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.075
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.125
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.15
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.175
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.2
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.225
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.25
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.275
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.3
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.325
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.35
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.375
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.4
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.425
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.45
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.475
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.525
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.55
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.575
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.6
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.625
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.65
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.675
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.7
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.725
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.75
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.775
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.8
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.825
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.85
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.875
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.9
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.925
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.95
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       1.0,
+       0.975
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 7
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-4",
+   "kind": "filmstrip",
+   "sprite": "vertigo_vsm_3__LEVEL",
+   "frames": 8,
+   "x": 518.0,
+   "y": 24.0,
+   "w": 7.0,
+   "h": 7.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     11
+    ],
+    "meters": [
+     "led_40000007"
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.25
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.75
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.025
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.05
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.075
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.125
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.15
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.175
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.2
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.225
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.25
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.275
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.3
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.325
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.35
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.375
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.4
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.425
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.45
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.475
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.525
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.55
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.575
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.6
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.625
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.65
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.675
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.7
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.725
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.75
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.775
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.8
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.825
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.85
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.875
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.9
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.925
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1.0,
+       0.95
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       1.0,
+       0.975
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 7
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-5",
+   "kind": "filmstrip",
+   "sprite": "vertigo_vsm_3__DRIVE",
+   "frames": 6,
+   "x": 458.0,
+   "y": 24.0,
+   "w": 8.0,
+   "h": 8.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     11
+    ],
+    "meters": [
+     "led_40000009"
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.25
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.75
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.025
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.05
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.075
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.125
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.15
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.175
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.2
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.225
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.25
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.275
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.3
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.325
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.35
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.375
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.4
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.425
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.45
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.475
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.525
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.55
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.575
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.6
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.625
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.65
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.675
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.7
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.725
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.75
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.775
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.8
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.825
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.85
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.875
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1.0,
+       0.9
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.925
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.95
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       0.975
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 5
+     }
+    ]
+   }
+  },
+  {
+   "id": "inptgain-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsm_3__KNOB",
+   "frames": 61,
+   "param": 2,
+   "x": 109.0,
+   "y": 24.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "thdmix-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsm_3__KNOB",
+   "frames": 61,
+   "param": 20,
+   "x": 363.0,
+   "y": 24.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "outgnl-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsm_3__KNOB",
+   "frames": 61,
+   "param": 23,
+   "x": 696.0,
+   "y": 24.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "outgnr-knob",
+   "kind": "knob",
+   "sprite": "vertigo_vsm_3__KNOB",
+   "frames": 61,
+   "param": 24,
+   "x": 696.0,
+   "y": 104.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "globsys-switch",
+   "kind": "switch",
+   "sprite": "vertigo_vsm_3__SWITCHRED",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 120.0,
+   "y": 123.0,
+   "w": 36.0,
+   "h": 59.0
+  },
+  {
+   "id": "thdsys-switch",
+   "kind": "switch",
+   "sprite": "vertigo_vsm_3__SWITCHRED",
+   "frames": 2,
+   "param": 19,
+   "orientation": "vertical",
+   "x": 376.0,
+   "y": 123.0,
+   "w": 36.0,
+   "h": 59.0
+  },
+  {
+   "id": "monms-switch",
+   "kind": "switch",
+   "sprite": "vertigo_vsm_3__SWITCHBLUE",
+   "frames": 3,
+   "param": 21,
+   "orientation": "vertical",
+   "x": 616.0,
+   "y": 38.0,
+   "w": 59.0,
+   "h": 36.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-monms-switch-mono",
+   "kind": "filmstrip",
+   "x": 616.0,
+   "y": 38.0,
+   "w": 59.0,
+   "h": 36.0,
+   "sprite": "Q_vertigo_vsm_3__SWITCHBLUE_mono140_ffb92e",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 21
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   },
+   "orientation": "vertical"
+  },
+  {
+   "id": "img-vertigovsm3joystick",
+   "kind": "filmstrip",
+   "sprite": "vertigo_vsm_3__SWITCHBLACK",
+   "x": 616.0,
+   "y": 90.0,
+   "w": 59.0,
+   "h": 59,
+   "frames": 4,
+   "frameSource": {
+    "type": "param",
+    "param": 22
+   }
+  },
+  {
+   "id": "power-switch",
+   "kind": "switch",
+   "sprite": "vertigo_vsm_3__SWITCHPOWER",
+   "frames": 2,
+   "param": 0,
+   "orientation": "vertical",
+   "x": 867.0,
+   "y": 85.0,
+   "w": 46.0,
+   "h": 60.0
+  },
+  {
+   "id": "cmoviebitmap-led-6",
+   "kind": "filmstrip",
+   "sprite": "vertigo_vsm_3__INDICATORRED",
+   "frames": 2,
+   "x": 602.0,
+   "y": 25.0,
+   "w": 32.0,
+   "h": 32.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     21
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "blink": {
+    "period": 0.25
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-7",
+   "kind": "filmstrip",
+   "sprite": "vertigo_vsm_3__INDICATORRED",
+   "frames": 2,
+   "x": 659.0,
+   "y": 25.0,
+   "w": 32.0,
+   "h": 32.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     21
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "blink": {
+    "period": 0.25
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-8",
+   "kind": "filmstrip",
+   "sprite": "vertigo_vsm_3__INDICATORRED",
+   "frames": 2,
+   "x": 602.0,
+   "y": 91.0,
+   "w": 32.0,
+   "h": 32.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.333333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "blink": {
+    "period": 0.25
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-9",
+   "kind": "filmstrip",
+   "sprite": "vertigo_vsm_3__INDICATORRED",
+   "frames": 2,
+   "x": 659.0,
+   "y": 91.0,
+   "w": 32.0,
+   "h": 32.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "blink": {
+    "period": 0.25
+   }
+  },
+  {
+   "id": "link-switch",
+   "kind": "switch",
+   "sprite": "Q_vertigo_vsm_3__LINK_COLS",
+   "frames": 4,
+   "param": 25,
+   "orientation": "vertical",
+   "x": 712.0,
+   "y": 94.0,
+   "w": 25.0,
+   "h": 8.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     1,
+     25
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-link-switch-mono",
+   "kind": "filmstrip",
+   "x": 712.0,
+   "y": 94.0,
+   "w": 25.0,
+   "h": 8.0,
+   "sprite": "Q_Q_vertigo_vsm_3__LINK_COLS_mono140_ffb92e",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     1,
+     25
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-10",
+   "kind": "filmstrip",
+   "sprite": "vertigo_vsm_3__METERIN",
+   "frames": 9,
+   "x": 129.0,
+   "y": 99.0,
+   "w": 9.0,
+   "h": 33.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000000"
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-11",
+   "kind": "filmstrip",
+   "sprite": "vertigo_vsm_3__METERIN",
+   "frames": 9,
+   "x": 140.0,
+   "y": 99.0,
+   "w": 9.0,
+   "h": 33.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000001"
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-12",
+   "kind": "filmstrip",
+   "sprite": "vertigo_vsm_3__METEROUT",
+   "frames": 33,
+   "x": 818.0,
+   "y": 34.0,
+   "w": 9.0,
+   "h": 135.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000002"
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-13",
+   "kind": "filmstrip",
+   "sprite": "vertigo_vsm_3__METEROUT",
+   "frames": 33,
+   "x": 829.0,
+   "y": 34.0,
+   "w": 9.0,
+   "h": 135.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000003"
+   }
+  },
+  {
+   "id": "g-p22_r0",
+   "kind": "switch",
+   "x": 611,
+   "y": 100,
+   "w": 13.0,
+   "h": 13.0,
+   "sprite": "G_vertigo_vsm_3_p22_r0",
+   "frames": 4,
+   "param": 22
+  },
+  {
+   "id": "g-p22_r1",
+   "kind": "switch",
+   "x": 668,
+   "y": 100,
+   "w": 13.0,
+   "h": 13.0,
+   "sprite": "G_vertigo_vsm_3_p22_r1",
+   "frames": 4,
+   "param": 22
+  },
+  {
+   "id": "v-p22-zone",
+   "kind": "zone",
+   "x": 630,
+   "y": 106,
+   "w": 34.0,
+   "h": 37.0,
+   "action": {
+    "type": "toggle",
+    "param": 22
+   }
+  }
+ ],
+ "meterSources": {
+  "led_40000000": {
+   "vendorSpecificFloat": 83886080,
+   "opcode": {
+    "op": 519,
+    "p0": 83886080,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.141253754,
+     0.0
+    ],
+    [
+     0.149623566,
+     0.0
+    ],
+    [
+     0.158489319,
+     0.0
+    ],
+    [
+     0.167880402,
+     0.02778
+    ],
+    [
+     0.177827941,
+     0.05556
+    ],
+    [
+     0.188364909,
+     0.08333
+    ],
+    [
+     0.199526231,
+     0.11111
+    ],
+    [
+     0.211348904,
+     0.13889
+    ],
+    [
+     0.223872114,
+     0.16667
+    ],
+    [
+     0.237137371,
+     0.19444
+    ],
+    [
+     0.251188643,
+     0.22222
+    ],
+    [
+     0.266072506,
+     0.25
+    ],
+    [
+     0.281838293,
+     0.27778
+    ],
+    [
+     0.298538262,
+     0.30556
+    ],
+    [
+     0.316227766,
+     0.33333
+    ],
+    [
+     0.334965439,
+     0.35
+    ],
+    [
+     0.354813389,
+     0.36667
+    ],
+    [
+     0.375837404,
+     0.38333
+    ],
+    [
+     0.398107171,
+     0.4
+    ],
+    [
+     0.421696503,
+     0.41667
+    ],
+    [
+     0.446683592,
+     0.43333
+    ],
+    [
+     0.473151259,
+     0.45
+    ],
+    [
+     0.501187234,
+     0.46667
+    ],
+    [
+     0.530884444,
+     0.48333
+    ],
+    [
+     0.562341325,
+     0.5
+    ],
+    [
+     0.595662144,
+     0.51667
+    ],
+    [
+     0.630957344,
+     0.53333
+    ],
+    [
+     0.668343918,
+     0.55
+    ],
+    [
+     0.707945784,
+     0.56667
+    ],
+    [
+     0.749894209,
+     0.58333
+    ],
+    [
+     0.794328235,
+     0.6
+    ],
+    [
+     0.841395142,
+     0.61667
+    ],
+    [
+     0.891250938,
+     0.63333
+    ],
+    [
+     0.944060876,
+     0.65
+    ],
+    [
+     1.0,
+     0.66667
+    ],
+    [
+     1.059253725,
+     0.6875
+    ],
+    [
+     1.122018454,
+     0.70833
+    ],
+    [
+     1.188502227,
+     0.72917
+    ],
+    [
+     1.258925412,
+     0.75
+    ],
+    [
+     1.333521432,
+     0.77083
+    ],
+    [
+     1.412537545,
+     0.79167
+    ],
+    [
+     1.496235656,
+     0.8125
+    ],
+    [
+     1.584893192,
+     0.83333
+    ],
+    [
+     1.678804018,
+     0.85417
+    ],
+    [
+     1.77827941,
+     0.875
+    ],
+    [
+     1.883649089,
+     0.89583
+    ],
+    [
+     1.995262315,
+     0.91667
+    ],
+    [
+     2.11348904,
+     0.9375
+    ],
+    [
+     2.238721139,
+     0.95833
+    ],
+    [
+     2.371373706,
+     0.97917
+    ],
+    [
+     2.511886432,
+     1.0
+    ],
+    [
+     2.66072506,
+     1.0
+    ],
+    [
+     2.818382931,
+     1.0
+    ],
+    [
+     100.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "led_40000001": {
+   "vendorSpecificFloat": 83886081,
+   "opcode": {
+    "op": 519,
+    "p0": 83886081,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.141253754,
+     0.0
+    ],
+    [
+     0.149623566,
+     0.0
+    ],
+    [
+     0.158489319,
+     0.0
+    ],
+    [
+     0.167880402,
+     0.02778
+    ],
+    [
+     0.177827941,
+     0.05556
+    ],
+    [
+     0.188364909,
+     0.08333
+    ],
+    [
+     0.199526231,
+     0.11111
+    ],
+    [
+     0.211348904,
+     0.13889
+    ],
+    [
+     0.223872114,
+     0.16667
+    ],
+    [
+     0.237137371,
+     0.19444
+    ],
+    [
+     0.251188643,
+     0.22222
+    ],
+    [
+     0.266072506,
+     0.25
+    ],
+    [
+     0.281838293,
+     0.27778
+    ],
+    [
+     0.298538262,
+     0.30556
+    ],
+    [
+     0.316227766,
+     0.33333
+    ],
+    [
+     0.334965439,
+     0.35
+    ],
+    [
+     0.354813389,
+     0.36667
+    ],
+    [
+     0.375837404,
+     0.38333
+    ],
+    [
+     0.398107171,
+     0.4
+    ],
+    [
+     0.421696503,
+     0.41667
+    ],
+    [
+     0.446683592,
+     0.43333
+    ],
+    [
+     0.473151259,
+     0.45
+    ],
+    [
+     0.501187234,
+     0.46667
+    ],
+    [
+     0.530884444,
+     0.48333
+    ],
+    [
+     0.562341325,
+     0.5
+    ],
+    [
+     0.595662144,
+     0.51667
+    ],
+    [
+     0.630957344,
+     0.53333
+    ],
+    [
+     0.668343918,
+     0.55
+    ],
+    [
+     0.707945784,
+     0.56667
+    ],
+    [
+     0.749894209,
+     0.58333
+    ],
+    [
+     0.794328235,
+     0.6
+    ],
+    [
+     0.841395142,
+     0.61667
+    ],
+    [
+     0.891250938,
+     0.63333
+    ],
+    [
+     0.944060876,
+     0.65
+    ],
+    [
+     1.0,
+     0.66667
+    ],
+    [
+     1.059253725,
+     0.6875
+    ],
+    [
+     1.122018454,
+     0.70833
+    ],
+    [
+     1.188502227,
+     0.72917
+    ],
+    [
+     1.258925412,
+     0.75
+    ],
+    [
+     1.333521432,
+     0.77083
+    ],
+    [
+     1.412537545,
+     0.79167
+    ],
+    [
+     1.496235656,
+     0.8125
+    ],
+    [
+     1.584893192,
+     0.83333
+    ],
+    [
+     1.678804018,
+     0.85417
+    ],
+    [
+     1.77827941,
+     0.875
+    ],
+    [
+     1.883649089,
+     0.89583
+    ],
+    [
+     1.995262315,
+     0.91667
+    ],
+    [
+     2.11348904,
+     0.9375
+    ],
+    [
+     2.238721139,
+     0.95833
+    ],
+    [
+     2.371373706,
+     0.97917
+    ],
+    [
+     2.511886432,
+     1.0
+    ],
+    [
+     2.66072506,
+     1.0
+    ],
+    [
+     2.818382931,
+     1.0
+    ],
+    [
+     100.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "led_40000002": {
+   "vendorSpecificFloat": 83886082,
+   "opcode": {
+    "op": 519,
+    "p0": 83886082,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.002238721,
+     0.0
+    ],
+    [
+     0.002371374,
+     0.0
+    ],
+    [
+     0.002511886,
+     0.0
+    ],
+    [
+     0.002660725,
+     0.00667
+    ],
+    [
+     0.002818383,
+     0.01333
+    ],
+    [
+     0.002985383,
+     0.02
+    ],
+    [
+     0.003162278,
+     0.02667
+    ],
+    [
+     0.003349654,
+     0.03333
+    ],
+    [
+     0.003548134,
+     0.04
+    ],
+    [
+     0.003758374,
+     0.04667
+    ],
+    [
+     0.003981072,
+     0.05333
+    ],
+    [
+     0.004216965,
+     0.06
+    ],
+    [
+     0.004466836,
+     0.06667
+    ],
+    [
+     0.004731513,
+     0.07333
+    ],
+    [
+     0.005011872,
+     0.08
+    ],
+    [
+     0.005308844,
+     0.08667
+    ],
+    [
+     0.005623413,
+     0.09333
+    ],
+    [
+     0.005956621,
+     0.1
+    ],
+    [
+     0.006309573,
+     0.10667
+    ],
+    [
+     0.006683439,
+     0.11333
+    ],
+    [
+     0.007079458,
+     0.12
+    ],
+    [
+     0.007498942,
+     0.12667
+    ],
+    [
+     0.007943282,
+     0.13333
+    ],
+    [
+     0.008413951,
+     0.13667
+    ],
+    [
+     0.008912509,
+     0.14
+    ],
+    [
+     0.009440609,
+     0.14333
+    ],
+    [
+     0.01,
+     0.14667
+    ],
+    [
+     0.010592537,
+     0.15
+    ],
+    [
+     0.011220185,
+     0.15333
+    ],
+    [
+     0.011885022,
+     0.15667
+    ],
+    [
+     0.012589254,
+     0.16
+    ],
+    [
+     0.013335214,
+     0.16333
+    ],
+    [
+     0.014125375,
+     0.16667
+    ],
+    [
+     0.014962357,
+     0.17
+    ],
+    [
+     0.015848932,
+     0.17333
+    ],
+    [
+     0.01678804,
+     0.17667
+    ],
+    [
+     0.017782794,
+     0.18
+    ],
+    [
+     0.018836491,
+     0.18333
+    ],
+    [
+     0.019952623,
+     0.18667
+    ],
+    [
+     0.02113489,
+     0.19
+    ],
+    [
+     0.022387211,
+     0.19333
+    ],
+    [
+     0.023713737,
+     0.19667
+    ],
+    [
+     0.025118864,
+     0.2
+    ],
+    [
+     0.026607251,
+     0.20833
+    ],
+    [
+     0.028183829,
+     0.21667
+    ],
+    [
+     0.029853826,
+     0.225
+    ],
+    [
+     0.031622777,
+     0.23333
+    ],
+    [
+     0.033496544,
+     0.24167
+    ],
+    [
+     0.035481339,
+     0.25
+    ],
+    [
+     0.03758374,
+     0.25833
+    ],
+    [
+     0.039810717,
+     0.26667
+    ],
+    [
+     0.04216965,
+     0.27222
+    ],
+    [
+     0.044668359,
+     0.27778
+    ],
+    [
+     0.047315126,
+     0.28333
+    ],
+    [
+     0.050118723,
+     0.28889
+    ],
+    [
+     0.053088444,
+     0.29444
+    ],
+    [
+     0.056234133,
+     0.3
+    ],
+    [
+     0.059566214,
+     0.30556
+    ],
+    [
+     0.063095734,
+     0.31111
+    ],
+    [
+     0.066834392,
+     0.31667
+    ],
+    [
+     0.070794578,
+     0.32222
+    ],
+    [
+     0.074989421,
+     0.32778
+    ],
+    [
+     0.079432823,
+     0.33333
+    ],
+    [
+     0.084139514,
+     0.34444
+    ],
+    [
+     0.089125094,
+     0.35556
+    ],
+    [
+     0.094406088,
+     0.36667
+    ],
+    [
+     0.1,
+     0.37778
+    ],
+    [
+     0.105925373,
+     0.38889
+    ],
+    [
+     0.112201845,
+     0.4
+    ],
+    [
+     0.118850223,
+     0.41111
+    ],
+    [
+     0.125892541,
+     0.42222
+    ],
+    [
+     0.133352143,
+     0.43333
+    ],
+    [
+     0.141253754,
+     0.44444
+    ],
+    [
+     0.149623566,
+     0.45556
+    ],
+    [
+     0.158489319,
+     0.46667
+    ],
+    [
+     0.167880402,
+     0.47778
+    ],
+    [
+     0.177827941,
+     0.48889
+    ],
+    [
+     0.188364909,
+     0.5
+    ],
+    [
+     0.199526231,
+     0.51111
+    ],
+    [
+     0.211348904,
+     0.52222
+    ],
+    [
+     0.223872114,
+     0.53333
+    ],
+    [
+     0.237137371,
+     0.54444
+    ],
+    [
+     0.251188643,
+     0.55556
+    ],
+    [
+     0.266072506,
+     0.56667
+    ],
+    [
+     0.281838293,
+     0.57778
+    ],
+    [
+     0.298538262,
+     0.58889
+    ],
+    [
+     0.316227766,
+     0.6
+    ],
+    [
+     0.334965439,
+     0.61111
+    ],
+    [
+     0.354813389,
+     0.62222
+    ],
+    [
+     0.375837404,
+     0.63333
+    ],
+    [
+     0.398107171,
+     0.64444
+    ],
+    [
+     0.421696503,
+     0.65556
+    ],
+    [
+     0.446683592,
+     0.66667
+    ],
+    [
+     0.473151259,
+     0.67778
+    ],
+    [
+     0.501187234,
+     0.68889
+    ],
+    [
+     0.530884444,
+     0.7
+    ],
+    [
+     0.562341325,
+     0.71111
+    ],
+    [
+     0.595662144,
+     0.72222
+    ],
+    [
+     0.630957344,
+     0.73333
+    ],
+    [
+     0.668343918,
+     0.74167
+    ],
+    [
+     0.707945784,
+     0.75
+    ],
+    [
+     0.749894209,
+     0.75833
+    ],
+    [
+     0.794328235,
+     0.76667
+    ],
+    [
+     0.841395142,
+     0.775
+    ],
+    [
+     0.891250938,
+     0.78333
+    ],
+    [
+     0.944060876,
+     0.79167
+    ],
+    [
+     1.0,
+     0.8
+    ],
+    [
+     1.059253725,
+     0.81667
+    ],
+    [
+     1.122018454,
+     0.83333
+    ],
+    [
+     1.188502227,
+     0.85
+    ],
+    [
+     1.258925412,
+     0.86667
+    ],
+    [
+     1.333521432,
+     0.87778
+    ],
+    [
+     1.412537545,
+     0.88889
+    ],
+    [
+     1.496235656,
+     0.9
+    ],
+    [
+     1.584893192,
+     0.91111
+    ],
+    [
+     1.678804018,
+     0.92222
+    ],
+    [
+     1.77827941,
+     0.93333
+    ],
+    [
+     1.883649089,
+     0.94444
+    ],
+    [
+     1.995262315,
+     0.95556
+    ],
+    [
+     2.11348904,
+     0.96667
+    ],
+    [
+     2.238721139,
+     0.97778
+    ],
+    [
+     2.371373706,
+     0.98889
+    ],
+    [
+     2.511886432,
+     1.0
+    ],
+    [
+     2.66072506,
+     1.0
+    ],
+    [
+     2.818382931,
+     1.0
+    ],
+    [
+     100.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "led_40000003": {
+   "vendorSpecificFloat": 83886083,
+   "opcode": {
+    "op": 519,
+    "p0": 83886083,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.002238721,
+     0.0
+    ],
+    [
+     0.002371374,
+     0.0
+    ],
+    [
+     0.002511886,
+     0.0
+    ],
+    [
+     0.002660725,
+     0.00667
+    ],
+    [
+     0.002818383,
+     0.01333
+    ],
+    [
+     0.002985383,
+     0.02
+    ],
+    [
+     0.003162278,
+     0.02667
+    ],
+    [
+     0.003349654,
+     0.03333
+    ],
+    [
+     0.003548134,
+     0.04
+    ],
+    [
+     0.003758374,
+     0.04667
+    ],
+    [
+     0.003981072,
+     0.05333
+    ],
+    [
+     0.004216965,
+     0.06
+    ],
+    [
+     0.004466836,
+     0.06667
+    ],
+    [
+     0.004731513,
+     0.07333
+    ],
+    [
+     0.005011872,
+     0.08
+    ],
+    [
+     0.005308844,
+     0.08667
+    ],
+    [
+     0.005623413,
+     0.09333
+    ],
+    [
+     0.005956621,
+     0.1
+    ],
+    [
+     0.006309573,
+     0.10667
+    ],
+    [
+     0.006683439,
+     0.11333
+    ],
+    [
+     0.007079458,
+     0.12
+    ],
+    [
+     0.007498942,
+     0.12667
+    ],
+    [
+     0.007943282,
+     0.13333
+    ],
+    [
+     0.008413951,
+     0.13667
+    ],
+    [
+     0.008912509,
+     0.14
+    ],
+    [
+     0.009440609,
+     0.14333
+    ],
+    [
+     0.01,
+     0.14667
+    ],
+    [
+     0.010592537,
+     0.15
+    ],
+    [
+     0.011220185,
+     0.15333
+    ],
+    [
+     0.011885022,
+     0.15667
+    ],
+    [
+     0.012589254,
+     0.16
+    ],
+    [
+     0.013335214,
+     0.16333
+    ],
+    [
+     0.014125375,
+     0.16667
+    ],
+    [
+     0.014962357,
+     0.17
+    ],
+    [
+     0.015848932,
+     0.17333
+    ],
+    [
+     0.01678804,
+     0.17667
+    ],
+    [
+     0.017782794,
+     0.18
+    ],
+    [
+     0.018836491,
+     0.18333
+    ],
+    [
+     0.019952623,
+     0.18667
+    ],
+    [
+     0.02113489,
+     0.19
+    ],
+    [
+     0.022387211,
+     0.19333
+    ],
+    [
+     0.023713737,
+     0.19667
+    ],
+    [
+     0.025118864,
+     0.2
+    ],
+    [
+     0.026607251,
+     0.20833
+    ],
+    [
+     0.028183829,
+     0.21667
+    ],
+    [
+     0.029853826,
+     0.225
+    ],
+    [
+     0.031622777,
+     0.23333
+    ],
+    [
+     0.033496544,
+     0.24167
+    ],
+    [
+     0.035481339,
+     0.25
+    ],
+    [
+     0.03758374,
+     0.25833
+    ],
+    [
+     0.039810717,
+     0.26667
+    ],
+    [
+     0.04216965,
+     0.27222
+    ],
+    [
+     0.044668359,
+     0.27778
+    ],
+    [
+     0.047315126,
+     0.28333
+    ],
+    [
+     0.050118723,
+     0.28889
+    ],
+    [
+     0.053088444,
+     0.29444
+    ],
+    [
+     0.056234133,
+     0.3
+    ],
+    [
+     0.059566214,
+     0.30556
+    ],
+    [
+     0.063095734,
+     0.31111
+    ],
+    [
+     0.066834392,
+     0.31667
+    ],
+    [
+     0.070794578,
+     0.32222
+    ],
+    [
+     0.074989421,
+     0.32778
+    ],
+    [
+     0.079432823,
+     0.33333
+    ],
+    [
+     0.084139514,
+     0.34444
+    ],
+    [
+     0.089125094,
+     0.35556
+    ],
+    [
+     0.094406088,
+     0.36667
+    ],
+    [
+     0.1,
+     0.37778
+    ],
+    [
+     0.105925373,
+     0.38889
+    ],
+    [
+     0.112201845,
+     0.4
+    ],
+    [
+     0.118850223,
+     0.41111
+    ],
+    [
+     0.125892541,
+     0.42222
+    ],
+    [
+     0.133352143,
+     0.43333
+    ],
+    [
+     0.141253754,
+     0.44444
+    ],
+    [
+     0.149623566,
+     0.45556
+    ],
+    [
+     0.158489319,
+     0.46667
+    ],
+    [
+     0.167880402,
+     0.47778
+    ],
+    [
+     0.177827941,
+     0.48889
+    ],
+    [
+     0.188364909,
+     0.5
+    ],
+    [
+     0.199526231,
+     0.51111
+    ],
+    [
+     0.211348904,
+     0.52222
+    ],
+    [
+     0.223872114,
+     0.53333
+    ],
+    [
+     0.237137371,
+     0.54444
+    ],
+    [
+     0.251188643,
+     0.55556
+    ],
+    [
+     0.266072506,
+     0.56667
+    ],
+    [
+     0.281838293,
+     0.57778
+    ],
+    [
+     0.298538262,
+     0.58889
+    ],
+    [
+     0.316227766,
+     0.6
+    ],
+    [
+     0.334965439,
+     0.61111
+    ],
+    [
+     0.354813389,
+     0.62222
+    ],
+    [
+     0.375837404,
+     0.63333
+    ],
+    [
+     0.398107171,
+     0.64444
+    ],
+    [
+     0.421696503,
+     0.65556
+    ],
+    [
+     0.446683592,
+     0.66667
+    ],
+    [
+     0.473151259,
+     0.67778
+    ],
+    [
+     0.501187234,
+     0.68889
+    ],
+    [
+     0.530884444,
+     0.7
+    ],
+    [
+     0.562341325,
+     0.71111
+    ],
+    [
+     0.595662144,
+     0.72222
+    ],
+    [
+     0.630957344,
+     0.73333
+    ],
+    [
+     0.668343918,
+     0.74167
+    ],
+    [
+     0.707945784,
+     0.75
+    ],
+    [
+     0.749894209,
+     0.75833
+    ],
+    [
+     0.794328235,
+     0.76667
+    ],
+    [
+     0.841395142,
+     0.775
+    ],
+    [
+     0.891250938,
+     0.78333
+    ],
+    [
+     0.944060876,
+     0.79167
+    ],
+    [
+     1.0,
+     0.8
+    ],
+    [
+     1.059253725,
+     0.81667
+    ],
+    [
+     1.122018454,
+     0.83333
+    ],
+    [
+     1.188502227,
+     0.85
+    ],
+    [
+     1.258925412,
+     0.86667
+    ],
+    [
+     1.333521432,
+     0.87778
+    ],
+    [
+     1.412537545,
+     0.88889
+    ],
+    [
+     1.496235656,
+     0.9
+    ],
+    [
+     1.584893192,
+     0.91111
+    ],
+    [
+     1.678804018,
+     0.92222
+    ],
+    [
+     1.77827941,
+     0.93333
+    ],
+    [
+     1.883649089,
+     0.94444
+    ],
+    [
+     1.995262315,
+     0.95556
+    ],
+    [
+     2.11348904,
+     0.96667
+    ],
+    [
+     2.238721139,
+     0.97778
+    ],
+    [
+     2.371373706,
+     0.98889
+    ],
+    [
+     2.511886432,
+     1.0
+    ],
+    [
+     2.66072506,
+     1.0
+    ],
+    [
+     2.818382931,
+     1.0
+    ],
+    [
+     100.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "led_40000004": {
+   "vendorSpecificFloat": 83886084,
+   "opcode": {
+    "op": 519,
+    "p0": 83886084,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "led_40000005": {
+   "vendorSpecificFloat": 83886085,
+   "opcode": {
+    "op": 519,
+    "p0": 83886085,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "led_40000006": {
+   "vendorSpecificFloat": 83886086,
+   "opcode": {
+    "op": 519,
+    "p0": 83886086,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "led_40000007": {
+   "vendorSpecificFloat": 83886087,
+   "opcode": {
+    "op": 519,
+    "p0": 83886087,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "led_40000008": {
+   "vendorSpecificFloat": 83886088,
+   "opcode": {
+    "op": 519,
+    "p0": 83886088,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "led_40000009": {
+   "vendorSpecificFloat": 83886089,
+   "opcode": {
+    "op": 519,
+    "p0": 83886089,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  }
+ },
+ "states": {
+  "channels": 2
+ }
+}

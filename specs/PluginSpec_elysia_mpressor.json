@@ -1,0 +1,540 @@
+{
+ "schema": 2,
+ "effectName": "UAD elysia mpressor",
+ "namePattern": "elysia mpressor",
+ "size": {
+  "w": 752,
+  "h": 256
+ },
+ "background": "elysia_mpressor__BACKGROUNDNONSC",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Floor",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "Link",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 2,
+   "name": "Active",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 3,
+   "name": "Threshld",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Attack",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "AutoFast",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "Release",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "Anti Log",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "Ratio",
+   "steps": null,
+   "default": 0.3636363744735718
+  },
+  {
+   "index": 9,
+   "name": "EQ Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "EQ On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "EQ Freq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 12,
+   "name": "EQ x10",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "GR Limit",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 14,
+   "name": "GR On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 15,
+   "name": "Gain",
+   "steps": null,
+   "default": 0.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "threshld-knob",
+   "kind": "knob",
+   "sprite": "elysia_mpressor__KNOB",
+   "frames": 61,
+   "param": 3,
+   "x": 254.0,
+   "y": 40.0,
+   "w": 88.0,
+   "h": 88.0
+  },
+  {
+   "id": "attack-knob",
+   "kind": "knob",
+   "sprite": "elysia_mpressor__KNOB",
+   "frames": 61,
+   "param": 4,
+   "x": 373.0,
+   "y": 40.0,
+   "w": 88.0,
+   "h": 88.0
+  },
+  {
+   "id": "release-knob",
+   "kind": "knob",
+   "sprite": "elysia_mpressor__KNOB",
+   "frames": 61,
+   "param": 6,
+   "x": 492.0,
+   "y": 40.0,
+   "w": 88.0,
+   "h": 88.0
+  },
+  {
+   "id": "ratio-knob",
+   "kind": "knob",
+   "sprite": "elysia_mpressor__KNOB",
+   "frames": 61,
+   "param": 8,
+   "x": 610.0,
+   "y": 40.0,
+   "w": 88.0,
+   "h": 88.0
+  },
+  {
+   "id": "eqgain-knob",
+   "kind": "knob",
+   "sprite": "elysia_mpressor__KNOB",
+   "frames": 61,
+   "param": 9,
+   "x": 245.0,
+   "y": 133.0,
+   "w": 88.0,
+   "h": 88.0
+  },
+  {
+   "id": "eqfreq-knob",
+   "kind": "knob",
+   "sprite": "elysia_mpressor__KNOB",
+   "frames": 61,
+   "param": 11,
+   "x": 365.0,
+   "y": 133.0,
+   "w": 88.0,
+   "h": 88.0
+  },
+  {
+   "id": "grlimit-knob",
+   "kind": "knob",
+   "sprite": "elysia_mpressor__KNOB",
+   "frames": 61,
+   "param": 13,
+   "x": 486.0,
+   "y": 133.0,
+   "w": 88.0,
+   "h": 88.0
+  },
+  {
+   "id": "gain-knob",
+   "kind": "knob",
+   "sprite": "elysia_mpressor__KNOB",
+   "frames": 61,
+   "param": 15,
+   "x": 607.0,
+   "y": 133.0,
+   "w": 88.0,
+   "h": 88.0
+  },
+  {
+   "id": "autofast-switch",
+   "kind": "switch",
+   "sprite": "elysia_mpressor__BUTTONRED",
+   "frames": 2,
+   "param": 5,
+   "orientation": "vertical",
+   "x": 452.0,
+   "y": 76.0,
+   "w": 37.0,
+   "h": 30.0
+  },
+  {
+   "id": "antilog-switch",
+   "kind": "switch",
+   "sprite": "elysia_mpressor__BUTTONRED",
+   "frames": 2,
+   "param": 7,
+   "orientation": "vertical",
+   "x": 570.0,
+   "y": 76.0,
+   "w": 37.0,
+   "h": 30.0
+  },
+  {
+   "id": "eqon-switch",
+   "kind": "switch",
+   "sprite": "elysia_mpressor__BUTTONRED",
+   "frames": 2,
+   "param": 10,
+   "orientation": "vertical",
+   "x": 324.0,
+   "y": 168.0,
+   "w": 37.0,
+   "h": 30.0
+  },
+  {
+   "id": "eqx10-switch",
+   "kind": "switch",
+   "sprite": "elysia_mpressor__BUTTONRED",
+   "frames": 2,
+   "param": 12,
+   "orientation": "vertical",
+   "x": 445.0,
+   "y": 168.0,
+   "w": 37.0,
+   "h": 30.0
+  },
+  {
+   "id": "gron-switch",
+   "kind": "switch",
+   "sprite": "elysia_mpressor__BUTTONRED",
+   "frames": 2,
+   "param": 14,
+   "orientation": "vertical",
+   "x": 565.0,
+   "y": 168.0,
+   "w": 37.0,
+   "h": 30.0
+  },
+  {
+   "id": "link-switch",
+   "kind": "switch",
+   "sprite": "elysia_mpressor__BUTTONBLUE",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 99.0,
+   "y": 207.0,
+   "w": 37.0,
+   "h": 30.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-link-switch-mono",
+   "kind": "filmstrip",
+   "x": 99.0,
+   "y": 207.0,
+   "w": 37.0,
+   "h": 30.0,
+   "sprite": "Q_elysia_mpressor__BUTTONBLUE_mono128_565656",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "floor-switch",
+   "kind": "switch",
+   "sprite": "elysia_mpressor__BUTTONWHITE",
+   "frames": 2,
+   "param": 0,
+   "orientation": "vertical",
+   "x": 47.0,
+   "y": 207.0,
+   "w": 37.0,
+   "h": 30.0
+  },
+  {
+   "id": "active-switch",
+   "kind": "switch",
+   "sprite": "elysia_mpressor__BUTTONWHITE",
+   "frames": 2,
+   "param": 2,
+   "orientation": "vertical",
+   "x": 151.0,
+   "y": 207.0,
+   "w": 37.0,
+   "h": 30.0
+  },
+  {
+   "id": "cbxextendedmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "elysia_mpressor__METERGR",
+   "frames": 40,
+   "x": 212.0,
+   "y": 31.0,
+   "w": 37.0,
+   "h": 176.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000000"
+   }
+  },
+  {
+   "id": "cmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "elysia_mpressor__METERGRLIMIT",
+   "frames": 2,
+   "x": 211.0,
+   "y": 198.0,
+   "w": 22.0,
+   "h": 22.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_20000001"
+   }
+  }
+ ],
+ "meterSources": {
+  "led_40000000": {
+   "vendorSpecificFloat": 67109135,
+   "opcode": {
+    "op": 519,
+    "p0": 67109135,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     1.0
+    ],
+    [
+     0.1,
+     1.0
+    ],
+    [
+     0.13,
+     0.90878
+    ],
+    [
+     0.15,
+     0.84503
+    ],
+    [
+     0.2,
+     0.71689
+    ],
+    [
+     0.25,
+     0.6175
+    ],
+    [
+     0.3,
+     0.53629
+    ],
+    [
+     0.35,
+     0.46762
+    ],
+    [
+     0.4,
+     0.40814
+    ],
+    [
+     0.45,
+     0.35568
+    ],
+    [
+     0.5,
+     0.30875
+    ],
+    [
+     0.55,
+     0.26629
+    ],
+    [
+     0.6,
+     0.22754
+    ],
+    [
+     0.65,
+     0.19188
+    ],
+    [
+     0.7,
+     0.15887
+    ],
+    [
+     0.75,
+     0.12814
+    ],
+    [
+     0.8,
+     0.09939
+    ],
+    [
+     0.85,
+     0.07239
+    ],
+    [
+     0.9,
+     0.04693
+    ],
+    [
+     0.95,
+     0.02285
+    ],
+    [
+     1.0,
+     -0.0
+    ],
+    [
+     100,
+     -0.0
+    ]
+   ]
+  },
+  "led_20000001": {
+   "vendorSpecificFloat": 67109136,
+   "opcode": {
+    "op": 519,
+    "p0": 67109136,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0,
+     0.0
+    ],
+    [
+     1,
+     0.495
+    ],
+    [
+     2,
+     1.0
+    ],
+    [
+     3,
+     0.0
+    ],
+    [
+     255,
+     0.0
+    ]
+   ],
+   "integer": true
+  }
+ },
+ "states": {
+  "channels": 2
+ }
+}

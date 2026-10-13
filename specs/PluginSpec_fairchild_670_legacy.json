@@ -1,0 +1,601 @@
+{
+ "schema": 2,
+ "effectName": "UAD Fairchild 670 Legacy",
+ "namePattern": "Fairchild 670 Legacy",
+ "size": {
+  "w": 950,
+  "h": 595
+ },
+ "background": "P_fairchild_670_legacy_3518",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "L Input",
+   "steps": [
+    "-20 dB",
+    "-19 dB",
+    "-18 dB",
+    "-17 dB",
+    "-16 dB",
+    "-15 dB",
+    "-14 dB",
+    "-13 dB",
+    "-12 dB",
+    "-11 dB",
+    "-10 dB",
+    " -9 dB",
+    " -8 dB",
+    " -7 dB",
+    " -6 dB",
+    " -5 dB",
+    " -4 dB",
+    " -3 dB",
+    " -2 dB",
+    " -1 dB",
+    "  0 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 2,
+   "name": "R Input",
+   "steps": [
+    "-10 dB",
+    "-10 dB",
+    "-10 dB",
+    "-10 dB",
+    "-10 dB",
+    "-10 dB",
+    "-10 dB",
+    "-10 dB",
+    "-10 dB",
+    "-10 dB",
+    "-10 dB",
+    "-10 dB",
+    "-10 dB",
+    "-10 dB",
+    "-10 dB",
+    "-10 dB",
+    "-10 dB",
+    "-10 dB",
+    "-10 dB",
+    "-10 dB",
+    "-10 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "L Thresh",
+   "steps": null,
+   "default": 0.30157470703125
+  },
+  {
+   "index": 4,
+   "name": "R Thresh",
+   "steps": null,
+   "default": 0.30157470703125
+  },
+  {
+   "index": 5,
+   "name": "L TimeCnst",
+   "steps": [
+    "  1",
+    "  2",
+    "  3",
+    "  4",
+    "  5",
+    "  6"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "R TimeCnst",
+   "steps": [
+    "  1",
+    "  1",
+    "  1",
+    "  1",
+    "  1",
+    "  1"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "AGC Matrix",
+   "steps": [
+    "L-R",
+    "L-V"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "L DC Thr",
+   "steps": null,
+   "default": 0.939971923828125
+  },
+  {
+   "index": 9,
+   "name": "R DC Thr",
+   "steps": null,
+   "default": 0.939971923828125
+  },
+  {
+   "index": 10,
+   "name": "SC Link",
+   "steps": [
+    "Unlink",
+    "Link"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "L Output",
+   "steps": [
+    "-18.0 dB",
+    "-17.5 dB",
+    "-17.0 dB",
+    "-16.5 dB",
+    "-16.0 dB",
+    "-15.5 dB",
+    "-15.0 dB",
+    "-14.5 dB",
+    "-14.0 dB",
+    "-13.5 dB",
+    "-13.0 dB",
+    "-12.5 dB",
+    "-12.0 dB",
+    "-11.5 dB",
+    "-11.0 dB",
+    "-10.5 dB",
+    "-10.0 dB",
+    "-9.5 dB",
+    "-9.0 dB",
+    "-8.5 dB",
+    "-8.0 dB",
+    "-7.5 dB",
+    "-7.0 dB",
+    "-6.5 dB",
+    "-6.0 dB",
+    "-5.5 dB",
+    "-5.0 dB",
+    "-4.5 dB",
+    "-4.0 dB",
+    "-3.5 dB",
+    "-3.0 dB",
+    "-2.5 dB",
+    "-2.0 dB",
+    "-1.5 dB",
+    "-1.0 dB",
+    "-0.5 dB",
+    "0.0 dB",
+    "0.5 dB",
+    "1.0 dB",
+    "1.5 dB",
+    "2.0 dB",
+    "2.5 dB",
+    "3.0 dB",
+    "3.5 dB",
+    "4.0 dB",
+    "4.5 dB",
+    "5.0 dB",
+    "5.5 dB",
+    "6.0 dB"
+   ],
+   "default": 0.6666666865348816
+  },
+  {
+   "index": 12,
+   "name": "R Output",
+   "steps": [
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB",
+    "-2.0 dB"
+   ],
+   "default": 0.6666666865348816
+  },
+  {
+   "index": 13,
+   "name": "L Meter",
+   "steps": [
+    "In",
+    "GR",
+    "Out"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 14,
+   "name": "R Meter",
+   "steps": [
+    "GR",
+    "GR",
+    "GR"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 15,
+   "name": "L Bal",
+   "steps": null,
+   "default": 0.48809814453125
+  },
+  {
+   "index": 16,
+   "name": "R Bal",
+   "steps": null,
+   "default": 0.48809814453125
+  },
+  {
+   "index": 17,
+   "name": "Ctrl Link",
+   "steps": [
+    "Unlink",
+    "Link"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "P-panel-power-off",
+   "kind": "image",
+   "x": 0,
+   "y": 0,
+   "w": 950,
+   "h": 595,
+   "sprite": "fairchild_670_legacy_3500",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-1-l_thresh",
+   "x": 587,
+   "y": 76,
+   "w": 121,
+   "h": 121,
+   "sprite": "fairchild_670_legacy_3501",
+   "frames": 101,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "knob-2-r_thresh",
+   "x": 587,
+   "y": 278,
+   "w": 121,
+   "h": 121,
+   "sprite": "fairchild_670_legacy_3502",
+   "frames": 101,
+   "kind": "knob",
+   "param": 4
+  },
+  {
+   "id": "knob-3-l_dc_thr",
+   "x": 153,
+   "y": 474,
+   "w": 70,
+   "h": 62,
+   "sprite": "fairchild_670_legacy_3503",
+   "frames": 101,
+   "kind": "knob",
+   "param": 8
+  },
+  {
+   "id": "knob-4-r_dc_thr",
+   "x": 247,
+   "y": 474,
+   "w": 70,
+   "h": 62,
+   "sprite": "fairchild_670_legacy_3504",
+   "frames": 101,
+   "kind": "knob",
+   "param": 9
+  },
+  {
+   "id": "knob-5-l_input",
+   "x": 453,
+   "y": 76,
+   "w": 122,
+   "h": 122,
+   "sprite": "fairchild_670_legacy_3505",
+   "frames": 21,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "knob-6-r_input",
+   "x": 453,
+   "y": 278,
+   "w": 122,
+   "h": 122,
+   "sprite": "fairchild_670_legacy_3506",
+   "frames": 21,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "switch-7-agc_matrix",
+   "x": 731,
+   "y": 188,
+   "w": 100,
+   "h": 100,
+   "sprite": "fairchild_670_legacy_3507",
+   "frames": 2,
+   "kind": "switch",
+   "param": 7,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-8-internal21",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter0"
+   },
+   "x": 180,
+   "y": 95,
+   "w": 110,
+   "h": 55,
+   "sprite": "fairchild_670_legacy_3508",
+   "frames": 101
+  },
+  {
+   "id": "filmstrip-9-internal22",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter1"
+   },
+   "x": 180,
+   "y": 295,
+   "w": 110,
+   "h": 55,
+   "sprite": "fairchild_670_legacy_3509",
+   "frames": 101
+  },
+  {
+   "id": "knob-10-l_timecnst",
+   "x": 731,
+   "y": 67,
+   "w": 100,
+   "h": 100,
+   "sprite": "fairchild_670_legacy_3510",
+   "frames": 6,
+   "kind": "knob",
+   "param": 5
+  },
+  {
+   "id": "knob-11-r_timecnst",
+   "x": 731,
+   "y": 309,
+   "w": 100,
+   "h": 100,
+   "sprite": "fairchild_670_legacy_3511",
+   "frames": 6,
+   "kind": "knob",
+   "param": 6
+  },
+  {
+   "id": "switch-12-sc_link",
+   "x": 384,
+   "y": 472,
+   "w": 50,
+   "h": 80,
+   "sprite": "fairchild_670_legacy_3512",
+   "frames": 2,
+   "kind": "switch",
+   "param": 10,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-13-l_output",
+   "x": 593,
+   "y": 466,
+   "w": 110,
+   "h": 110,
+   "sprite": "fairchild_670_legacy_3513",
+   "frames": 101,
+   "kind": "knob",
+   "param": 11
+  },
+  {
+   "id": "knob-14-r_output",
+   "x": 726,
+   "y": 466,
+   "w": 110,
+   "h": 110,
+   "sprite": "fairchild_670_legacy_3514",
+   "frames": 101,
+   "kind": "knob",
+   "param": 12
+  },
+  {
+   "id": "knob-15-l_meter",
+   "x": 310,
+   "y": 67,
+   "w": 140,
+   "h": 140,
+   "sprite": "fairchild_670_legacy_3515_15",
+   "frames": 3,
+   "kind": "knob",
+   "param": 13
+  },
+  {
+   "id": "knob-16-r_meter",
+   "x": 310,
+   "y": 269,
+   "w": 140,
+   "h": 140,
+   "sprite": "fairchild_670_legacy_3516_16",
+   "frames": 3,
+   "kind": "knob",
+   "param": 14
+  },
+  {
+   "id": "switch-17-power",
+   "x": 112,
+   "y": 110,
+   "w": 50,
+   "h": 71,
+   "sprite": "fairchild_670_legacy_3517",
+   "frames": 2,
+   "kind": "switch",
+   "param": 0,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-18-ctrl_link",
+   "x": 493,
+   "y": 472,
+   "w": 50,
+   "h": 80,
+   "sprite": "fairchild_670_legacy_3519",
+   "frames": 2,
+   "kind": "switch",
+   "param": 17,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-19-l_bal",
+   "x": 412,
+   "y": 207,
+   "w": 22,
+   "h": 22,
+   "sprite": "fairchild_670_legacy_3521",
+   "frames": 101,
+   "kind": "knob",
+   "param": 15
+  },
+  {
+   "id": "knob-20-r_bal",
+   "x": 412,
+   "y": 409,
+   "w": 22,
+   "h": 22,
+   "sprite": "fairchild_670_legacy_3522",
+   "frames": 101,
+   "kind": "knob",
+   "param": 16
+  },
+  {
+   "id": "zone-21-power",
+   "kind": "zone",
+   "x": 118,
+   "y": 224,
+   "w": 29,
+   "h": 29,
+   "param": 0,
+   "action": {
+    "type": "toggle",
+    "param": 0
+   }
+  }
+ ],
+ "meterSources": {
+  "meter0": {
+   "vendorSpecificFloat": 62,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "meter1": {
+   "vendorSpecificFloat": 63,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  }
+ }
+}

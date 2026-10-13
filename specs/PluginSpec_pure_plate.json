@@ -1,0 +1,417 @@
+{
+ "schema": 2,
+ "effectName": "UAD Pure Plate",
+ "namePattern": "Pure Plate",
+ "size": {
+  "w": 410,
+  "h": 662
+ },
+ "background": "Pure_Plate_background",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Low Cut",
+   "steps": [
+    "Off",
+    "90 Hz",
+    "180 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Predelay",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Decay",
+   "steps": null,
+   "default": 0.449981689453125
+  },
+  {
+   "index": 3,
+   "name": "Bass",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "Treble",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "Bal",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "Mix",
+   "steps": null,
+   "default": 0.265625
+  },
+  {
+   "index": 7,
+   "name": "Wet Solo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 8,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "vu": {
+   "vendorSpecificFloat": 467,
+   "calibration": [
+    [
+     0.00013197,
+     0.0
+    ],
+    [
+     0.0001559,
+     0.0
+    ],
+    [
+     0.00023593,
+     0.05
+    ],
+    [
+     0.0003203,
+     0.09
+    ],
+    [
+     0.0004493,
+     0.14
+    ],
+    [
+     0.0006207,
+     0.19
+    ],
+    [
+     0.00099747,
+     0.23
+    ],
+    [
+     0.00127523,
+     0.28
+    ],
+    [
+     0.00178717,
+     0.32
+    ],
+    [
+     0.00261282,
+     0.37
+    ],
+    [
+     0.00358014,
+     0.42
+    ],
+    [
+     0.00518792,
+     0.46
+    ],
+    [
+     0.00753456,
+     0.51
+    ],
+    [
+     0.00986122,
+     0.55
+    ],
+    [
+     0.01525314,
+     0.6
+    ],
+    [
+     0.02141685,
+     0.65
+    ],
+    [
+     0.02645139,
+     0.69
+    ],
+    [
+     0.06546907500000008,
+     1.0
+    ]
+   ]
+  }
+ },
+ "elements": [
+  {
+   "id": "low_cut",
+   "x": 34,
+   "y": 231,
+   "w": 113,
+   "h": 66,
+   "kind": "switch",
+   "param": 0,
+   "sprite": "Pure_Plate_slider_cap_3p",
+   "frames": 3,
+   "orientation": "vertical"
+  },
+  {
+   "id": "predelay",
+   "x": 147,
+   "y": 231,
+   "w": 113,
+   "h": 66,
+   "kind": "switch",
+   "param": 1,
+   "sprite": "Pure_Plate_slider_cap",
+   "frames": 101,
+   "orientation": "vertical"
+  },
+  {
+   "id": "decay-background",
+   "x": 95,
+   "y": 315,
+   "w": 96,
+   "h": 23,
+   "kind": "filmstrip",
+   "sprite": "Pure_plate_damper_needle_BG",
+   "frames": 2,
+   "reverse": true,
+   "frameSource": {
+    "type": "param",
+    "param": 8
+   }
+  },
+  {
+   "id": "decay",
+   "x": 95,
+   "y": 315,
+   "w": 96,
+   "h": 23,
+   "kind": "switch",
+   "param": 2,
+   "sprite": "Pure_plate_damper_needle",
+   "frames": 101,
+   "orientation": "vertical"
+  },
+  {
+   "id": "decay-plate",
+   "x": 286,
+   "y": 0,
+   "w": 124,
+   "h": 662,
+   "kind": "switch",
+   "param": 2,
+   "sprite": "Pure_Plate_damper_bg",
+   "frames": 31,
+   "orientation": "vertical"
+  },
+  {
+   "id": "decay-minus",
+   "x": 46,
+   "y": 302,
+   "w": 42,
+   "h": 49,
+   "kind": "button",
+   "param": 2,
+   "sprite": "Pure_Plate_damper_switch_minus",
+   "frames": 3,
+   "action": {
+    "type": "nudge",
+    "param": 2,
+    "delta": -0.01
+   }
+  },
+  {
+   "id": "decay-plus",
+   "x": 199,
+   "y": 302,
+   "w": 42,
+   "h": 49,
+   "kind": "button",
+   "param": 2,
+   "sprite": "Pure_Plate_damper_switch_plus",
+   "frames": 3,
+   "action": {
+    "type": "nudge",
+    "param": 2,
+    "delta": 0.01
+   }
+  },
+  {
+   "id": "bass",
+   "x": 52,
+   "y": 362,
+   "w": 80,
+   "h": 95,
+   "kind": "knob",
+   "param": 3,
+   "sprite": "Pure_Plate_knob",
+   "frames": 101
+  },
+  {
+   "id": "treble",
+   "x": 158,
+   "y": 362,
+   "w": 80,
+   "h": 95,
+   "kind": "knob",
+   "param": 4,
+   "sprite": "Pure_Plate_knob",
+   "frames": 101
+  },
+  {
+   "id": "bal",
+   "x": 52,
+   "y": 460,
+   "w": 80,
+   "h": 95,
+   "kind": "knob",
+   "param": 5,
+   "sprite": "Pure_Plate_knob",
+   "frames": 101
+  },
+  {
+   "id": "mix",
+   "x": 158,
+   "y": 460,
+   "w": 80,
+   "h": 95,
+   "kind": "knob",
+   "param": 6,
+   "sprite": "Pure_Plate_knob",
+   "frames": 101
+  },
+  {
+   "id": "bass-rtz",
+   "x": 83.5,
+   "y": 372,
+   "w": 12,
+   "h": 12,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "treble-rtz",
+   "x": 189.5,
+   "y": 372,
+   "w": 12,
+   "h": 12,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "bal-rtz",
+   "x": 83.5,
+   "y": 472,
+   "w": 12,
+   "h": 12,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "mix-rtz",
+   "x": 165,
+   "y": 538,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "mix-rt100",
+   "x": 202,
+   "y": 538,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "power",
+   "x": 47,
+   "y": 559,
+   "w": 88,
+   "h": 68,
+   "kind": "switch",
+   "param": 8,
+   "sprite": "Pure_Plate_switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "wet_solo",
+   "x": 152,
+   "y": 559,
+   "w": 88,
+   "h": 68,
+   "kind": "switch",
+   "param": 7,
+   "sprite": "Pure_Plate_switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "vu-background",
+   "x": 63,
+   "y": 73.5,
+   "w": 161,
+   "h": 81,
+   "kind": "switch",
+   "param": 8,
+   "sprite": "Pure_Plate_vu_meter_background",
+   "frames": 2,
+   "reverse": true
+  },
+  {
+   "id": "vu",
+   "x": 86,
+   "y": 93,
+   "w": 119,
+   "h": 58,
+   "kind": "filmstrip",
+   "sprite": "Pure_Plate_vu_needle",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu",
+    "channel": 0
+   }
+  }
+ ]
+}

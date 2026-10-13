@@ -1,0 +1,7353 @@
+{
+ "schema": 2,
+ "effectName": "UAD Hitsville Reverb Chambers",
+ "namePattern": "Hitsville Reverb Chambers",
+ "size": {
+  "w": 950,
+  "h": 642
+ },
+ "background": null,
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Chamber",
+   "steps": [
+    "2648",
+    "2644"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Dist 2648",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Dist 2644",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "Speakers",
+   "steps": [
+    "Set 1",
+    "Set 2"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Microphones",
+   "steps": [
+    "545",
+    "44",
+    "631",
+    "KM86"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Width",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 6,
+   "name": "Mono",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "Predelay",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "Low",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 9,
+   "name": "High",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "Decay",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 11,
+   "name": "Mix",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 12,
+   "name": "Wet Solo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 13,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {},
+ "elements": [
+  {
+   "id": "background-image",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 950.0,
+   "h": 642.0,
+   "kind": "image",
+   "sprite": "UA_Hitsville-Chambers_panel"
+  },
+  {
+   "id": "mono-switch",
+   "x": 108,
+   "y": 526,
+   "w": 62,
+   "h": 88,
+   "kind": "switch",
+   "param": 6,
+   "sprite": "UA_Hitsville-Chambers_switch_MONO",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "mono-switch-label",
+   "x": 115,
+   "y": 518,
+   "w": 48,
+   "h": 12,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "toggle",
+    "param": 6
+   }
+  },
+  {
+   "id": "width-knob",
+   "x": 163,
+   "y": 524,
+   "w": 92,
+   "h": 92,
+   "kind": "knob",
+   "param": 5,
+   "sprite": "UA_Hitsville-Chambers_knob_L",
+   "frames": 101
+  },
+  {
+   "id": "anon-1",
+   "x": 164,
+   "y": 599,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "anon-2",
+   "x": 197,
+   "y": 518,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "anon-3",
+   "x": 230,
+   "y": 599,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "predelay-knob",
+   "x": 263,
+   "y": 524,
+   "w": 92,
+   "h": 92,
+   "kind": "knob",
+   "param": 7,
+   "sprite": "UA_Hitsville-Chambers_knob_L",
+   "frames": 101
+  },
+  {
+   "id": "anon-4",
+   "x": 264,
+   "y": 599,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "anon-5",
+   "x": 297,
+   "y": 518,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "anon-6",
+   "x": 330,
+   "y": 599,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "level-lo-knob",
+   "x": 381,
+   "y": 526,
+   "w": 88,
+   "h": 88,
+   "kind": "knob",
+   "param": 8,
+   "sprite": "UA_Hitsville-Chambers_knob_S",
+   "frames": 101
+  },
+  {
+   "id": "anon-7",
+   "x": 385,
+   "y": 593,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "anon-8",
+   "x": 413,
+   "y": 527,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "anon-9",
+   "x": 441,
+   "y": 593,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "level-hi-knob",
+   "x": 481,
+   "y": 526,
+   "w": 88,
+   "h": 88,
+   "kind": "knob",
+   "param": 9,
+   "sprite": "UA_Hitsville-Chambers_knob_S",
+   "frames": 101
+  },
+  {
+   "id": "anon-10",
+   "x": 485,
+   "y": 593,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "anon-11",
+   "x": 513,
+   "y": 527,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "anon-12",
+   "x": 541,
+   "y": 593,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "decay-knob",
+   "x": 595,
+   "y": 524,
+   "w": 92,
+   "h": 92,
+   "kind": "knob",
+   "param": 10,
+   "sprite": "UA_Hitsville-Chambers_knob_L",
+   "frames": 101
+  },
+  {
+   "id": "anon-13",
+   "x": 596,
+   "y": 599,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 10,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "anon-14",
+   "x": 629,
+   "y": 518,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 10,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "anon-15",
+   "x": 662,
+   "y": 599,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 10,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "solo-switch",
+   "x": 780,
+   "y": 526,
+   "w": 62,
+   "h": 88,
+   "kind": "switch",
+   "param": 12,
+   "sprite": "UA_Hitsville-Chambers_switch_SOLO",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "solo-switch-label",
+   "x": 787,
+   "y": 518,
+   "w": 48,
+   "h": 12,
+   "kind": "zone",
+   "param": 12,
+   "action": {
+    "type": "toggle",
+    "param": 12
+   }
+  },
+  {
+   "id": "mix-knob",
+   "x": 695,
+   "y": 524,
+   "w": 92,
+   "h": 92,
+   "kind": "knob",
+   "param": 11,
+   "sprite": "UA_Hitsville-Chambers_knob_L",
+   "frames": 101
+  },
+  {
+   "id": "anon-16",
+   "x": 696,
+   "y": 599,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 11,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "anon-17",
+   "x": 729,
+   "y": 518,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 11,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "anon-18",
+   "x": 762,
+   "y": 599,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 11,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "power-switch",
+   "x": 860,
+   "y": 519,
+   "w": 62,
+   "h": 102,
+   "kind": "switch",
+   "param": 13,
+   "sprite": "UA_Hitsville-Chambers_switch_POWER",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "anon-19",
+   "x": 867,
+   "y": 518,
+   "w": 48,
+   "h": 12,
+   "kind": "zone",
+   "param": 13,
+   "action": {
+    "type": "toggle",
+    "param": 13
+   }
+  },
+  {
+   "id": "room-2648_BZK-800-lightsout",
+   "kind": "image",
+   "x": 0,
+   "y": 0,
+   "w": 950,
+   "h": 506,
+   "sprite": "UA_Hitsville-Chambers_room-2648_BZK-800_lightsout",
+   "visibility": {
+    "params": [
+     0,
+     3,
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "room-2648_BZK-800-default",
+   "kind": "image",
+   "x": 0,
+   "y": 0,
+   "w": 950,
+   "h": 506,
+   "sprite": "UA_Hitsville-Chambers_room-2648_BZK-800_default",
+   "visibility": {
+    "params": [
+     0,
+     3,
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "room-2648_JB-2482-lightsout",
+   "kind": "image",
+   "x": 0,
+   "y": 0,
+   "w": 950,
+   "h": 506,
+   "sprite": "UA_Hitsville-Chambers_room-2648_JB-2482_lightsout",
+   "visibility": {
+    "params": [
+     0,
+     3,
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "room-2648_JB-2482-default",
+   "kind": "image",
+   "x": 0,
+   "y": 0,
+   "w": 950,
+   "h": 506,
+   "sprite": "UA_Hitsville-Chambers_room-2648_JB-2482_default",
+   "visibility": {
+    "params": [
+     0,
+     3,
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "room-2644_ALT-605-lightsout",
+   "kind": "image",
+   "x": 0,
+   "y": 0,
+   "w": 950,
+   "h": 506,
+   "sprite": "UA_Hitsville-Chambers_room-2644_ALT-605_lightsout",
+   "visibility": {
+    "params": [
+     0,
+     3,
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "room-2644_ALT-605-default",
+   "kind": "image",
+   "x": 0,
+   "y": 0,
+   "w": 950,
+   "h": 506,
+   "sprite": "UA_Hitsville-Chambers_room-2644_ALT-605_default",
+   "visibility": {
+    "params": [
+     0,
+     3,
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "room-2644_BSE-901-lightsout",
+   "kind": "image",
+   "x": 0,
+   "y": 0,
+   "w": 950,
+   "h": 506,
+   "sprite": "UA_Hitsville-Chambers_room-2644_BSE-901_lightsout",
+   "visibility": {
+    "params": [
+     0,
+     3,
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "room-2644_BSE-901-default",
+   "kind": "image",
+   "x": 0,
+   "y": 0,
+   "w": 950,
+   "h": 506,
+   "sprite": "UA_Hitsville-Chambers_room-2644_BSE-901_default",
+   "visibility": {
+    "params": [
+     0,
+     3,
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-animation-2648-545",
+   "kind": "knob",
+   "x": 197,
+   "y": 165,
+   "w": 685,
+   "h": 296,
+   "sprite": "UA_Hitsville-Chambers_MIC-ANIMATION_2648-545",
+   "frames": 35,
+   "param": 1,
+   "visibility": {
+    "params": [
+     0,
+     4,
+     3,
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-animation-2648-44",
+   "kind": "knob",
+   "x": 264,
+   "y": 75,
+   "w": 676,
+   "h": 392,
+   "sprite": "UA_Hitsville-Chambers_MIC-ANIMATION_2648-44",
+   "frames": 35,
+   "param": 1,
+   "visibility": {
+    "params": [
+     0,
+     4,
+     3,
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-animation-2648-631",
+   "kind": "knob",
+   "x": 261,
+   "y": 189,
+   "w": 599,
+   "h": 248,
+   "sprite": "UA_Hitsville-Chambers_MIC-ANIMATION_2648-631",
+   "frames": 35,
+   "param": 1,
+   "visibility": {
+    "params": [
+     0,
+     4,
+     3,
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-animation-2648-86",
+   "kind": "knob",
+   "x": 157,
+   "y": 96,
+   "w": 793,
+   "h": 410,
+   "sprite": "UA_Hitsville-Chambers_MIC-ANIMATION_2648-86",
+   "frames": 35,
+   "param": 1,
+   "visibility": {
+    "params": [
+     0,
+     4,
+     3,
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-animation-2644-545",
+   "kind": "knob",
+   "x": 225,
+   "y": 272,
+   "w": 460,
+   "h": 234,
+   "sprite": "UA_Hitsville-Chambers_MIC-ANIMATION_2644-545",
+   "frames": 35,
+   "param": 2,
+   "visibility": {
+    "params": [
+     0,
+     4,
+     3,
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-animation-2644-44",
+   "kind": "knob",
+   "x": 241,
+   "y": 102,
+   "w": 411,
+   "h": 404,
+   "sprite": "UA_Hitsville-Chambers_MIC-ANIMATION_2644-44",
+   "frames": 35,
+   "param": 2,
+   "visibility": {
+    "params": [
+     0,
+     4,
+     3,
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-animation-2644-631",
+   "kind": "knob",
+   "x": 265,
+   "y": 276,
+   "w": 386,
+   "h": 230,
+   "sprite": "UA_Hitsville-Chambers_MIC-ANIMATION_2644-631",
+   "frames": 35,
+   "param": 2,
+   "visibility": {
+    "params": [
+     0,
+     4,
+     3,
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-animation-2644-86-Altec",
+   "kind": "knob",
+   "x": 133,
+   "y": 122,
+   "w": 626,
+   "h": 345,
+   "sprite": "UA_Hitsville-Chambers_MIC-ANIMATION_2644-86-Altec",
+   "frames": 35,
+   "param": 2,
+   "visibility": {
+    "params": [
+     0,
+     4,
+     3,
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-animation-2644-86-Bose",
+   "kind": "knob",
+   "x": 152,
+   "y": 95,
+   "w": 478,
+   "h": 411,
+   "sprite": "UA_Hitsville-Chambers_MIC-ANIMATION_2644-86-Bose",
+   "frames": 35,
+   "param": 2,
+   "visibility": {
+    "params": [
+     0,
+     4,
+     3,
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1.0,
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "labels-overlay",
+   "x": 47,
+   "y": 487,
+   "w": 856,
+   "h": 16,
+   "kind": "filmstrip",
+   "sprite": "UA_Hitsville-Chambers_LABELS_overlay-rooms",
+   "frames": 1
+  },
+  {
+   "id": "distance-groove",
+   "x": 343,
+   "y": 457,
+   "w": 264,
+   "h": 27,
+   "kind": "filmstrip",
+   "sprite": "UA_Hitsville-Chambers_DISTANCE_slider-background",
+   "frames": 1
+  },
+  {
+   "id": "distance-slider-2648",
+   "x": 343.0,
+   "y": 457.0,
+   "w": 264.0,
+   "h": 15.0,
+   "kind": "knob",
+   "param": 1,
+   "sprite": "synth_uadhitsvillereverbchambers_distance-slider-2648",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     0,
+     4,
+     13,
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 50
+     }
+    ]
+   }
+  },
+  {
+   "id": "distance-slider-2644",
+   "x": 343.0,
+   "y": 457.0,
+   "w": 264.0,
+   "h": 15.0,
+   "kind": "knob",
+   "param": 2,
+   "sprite": "synth_uadhitsvillereverbchambers_distance-slider-2644",
+   "frames": 101,
+   "visibility": {
+    "params": [
+     0,
+     4,
+     13,
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 50
+     }
+    ]
+   }
+  },
+  {
+   "id": "distance-min-2648",
+   "x": 346.0,
+   "y": 472.0,
+   "w": 24.0,
+   "h": 12.0,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     0,
+     4,
+     13,
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "distance-min-2644",
+   "x": 346.0,
+   "y": 472.0,
+   "w": 24.0,
+   "h": 12.0,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     0,
+     4,
+     13,
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "distance-max-2648",
+   "x": 580.0,
+   "y": 472.0,
+   "w": 24.0,
+   "h": 12.0,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     0,
+     4,
+     13,
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "distance-max-2644",
+   "x": 580.0,
+   "y": 472.0,
+   "w": 24.0,
+   "h": 12.0,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     0,
+     4,
+     13,
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "distance-rtd-2648",
+   "x": 439.0,
+   "y": 487.0,
+   "w": 72.0,
+   "h": 16.0,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     0,
+     4,
+     13,
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "distance-rtd-2644",
+   "x": 439.0,
+   "y": 487.0,
+   "w": 72.0,
+   "h": 16.0,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     0,
+     4,
+     13,
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1,
+       1,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.3333333333333333,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0.6666666666666666,
+       1,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "info-tooltip",
+   "x": 902,
+   "y": 18,
+   "w": 28,
+   "h": 28,
+   "kind": "filmstrip",
+   "param": null,
+   "sprite": "UA_Hitsville-Chambers_INFO_button",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "states": [
+     "info"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "info-toggle",
+   "kind": "zone",
+   "x": 902,
+   "y": 18,
+   "w": 28,
+   "h": 28,
+   "action": {
+    "type": "cycleState",
+    "state": "info",
+    "count": 2
+   }
+  },
+  {
+   "id": "chamber1-indicator",
+   "x": 340,
+   "y": 8,
+   "w": 135,
+   "h": 56,
+   "kind": "switch",
+   "param": 0,
+   "sprite": "UA_Hitsville-Chambers_SELECT_room_2648",
+   "frames": 4,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "chamber2-indicator",
+   "x": 475,
+   "y": 8,
+   "w": 135,
+   "h": 56,
+   "kind": "switch",
+   "param": 0,
+   "sprite": "UA_Hitsville-Chambers_SELECT_room_2644",
+   "frames": 4,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "chamber-room-tooltip",
+   "x": 340,
+   "y": 64,
+   "w": 270,
+   "h": 117,
+   "opacity": 0,
+   "kind": "filmstrip",
+   "sprite": "UA_Hitsville-Chambers_TOOLTIPS_rooms",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "speaker-tooltip",
+   "x": 47,
+   "y": 169,
+   "w": 176,
+   "h": 290,
+   "opacity": 0,
+   "kind": "filmstrip",
+   "sprite": "UA_Hitsville-Chambers_TOOLTIPS_speakers_2648",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "speaker-thumb-left",
+   "x": 47,
+   "y": 394,
+   "w": 88,
+   "h": 65,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 3,
+   "sprite": "UA_Hitsville-Chambers_THUMBNAIL_speaker_2648-BZK-800",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "speaker-thumb-right",
+   "x": 135,
+   "y": 394,
+   "w": 88,
+   "h": 65,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 3,
+   "sprite": "UA_Hitsville-Chambers_THUMBNAIL_speaker_2648-JB-2482",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "speaker-indicator-left",
+   "x": 47,
+   "y": 459,
+   "w": 88,
+   "h": 26,
+   "kind": "switch",
+   "param": 3,
+   "sprite": "UA_Hitsville-Chambers_SELECT_speaker_2648_BZK-800",
+   "frames": 4,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "speaker-indicator-right",
+   "x": 135,
+   "y": 459,
+   "w": 88,
+   "h": 26,
+   "kind": "switch",
+   "param": 3,
+   "sprite": "UA_Hitsville-Chambers_SELECT_speaker_2648_JB-2482",
+   "frames": 4,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "speaker-indicator-2644-1",
+   "kind": "switch",
+   "x": 135,
+   "y": 459,
+   "w": 88,
+   "h": 26,
+   "param": 3,
+   "sprite": "UA_Hitsville-Chambers_SELECT_speaker_2644_BSE-901",
+   "frames": 4,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "speaker-indicator-2644-0",
+   "kind": "switch",
+   "x": 47,
+   "y": 459,
+   "w": 88,
+   "h": 26,
+   "param": 3,
+   "sprite": "UA_Hitsville-Chambers_SELECT_speaker_2644_ALT-605",
+   "frames": 4,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-tooltip",
+   "x": 727,
+   "y": 169,
+   "w": 176,
+   "h": 290,
+   "opacity": 0,
+   "kind": "filmstrip",
+   "sprite": "UA_Hitsville-Chambers_TOOLTIPS_microphones",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-thumb-545",
+   "x": 727,
+   "y": 394,
+   "w": 44,
+   "h": 65,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 4,
+   "sprite": "UA_Hitsville-Chambers_THUMBNAIL_microphone_545",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.3333333333333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6666666666666666
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-thumb-44",
+   "x": 771,
+   "y": 394,
+   "w": 44,
+   "h": 65,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 4,
+   "sprite": "UA_Hitsville-Chambers_THUMBNAIL_microphone_44",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.333333
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.3333333333333333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.6666666666666666
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-thumb-631",
+   "x": 815,
+   "y": 394,
+   "w": 44,
+   "h": 65,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 4,
+   "sprite": "UA_Hitsville-Chambers_THUMBNAIL_microphone_631",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.666667
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.3333333333333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6666666666666666
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-thumb-86",
+   "x": 859,
+   "y": 394,
+   "w": 44,
+   "h": 65,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 4,
+   "sprite": "UA_Hitsville-Chambers_THUMBNAIL_microphone_86",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.3333333333333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6666666666666666
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-indicator-545",
+   "x": 727,
+   "y": 459,
+   "w": 44,
+   "h": 26,
+   "kind": "switch",
+   "param": 4,
+   "sprite": "UA_Hitsville-Chambers_SELECT_microphone_545",
+   "frames": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.3333333333333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6666666666666666
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-indicator-44",
+   "x": 771,
+   "y": 459,
+   "w": 44,
+   "h": 26,
+   "kind": "switch",
+   "param": 4,
+   "sprite": "UA_Hitsville-Chambers_SELECT_microphone_44",
+   "frames": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.333333
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.3333333333333333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.6666666666666666
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-indicator-631",
+   "x": 815,
+   "y": 459,
+   "w": 44,
+   "h": 26,
+   "kind": "switch",
+   "param": 4,
+   "sprite": "UA_Hitsville-Chambers_SELECT_microphone_631",
+   "frames": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.666667
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.3333333333333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6666666666666666
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mic-indicator-86",
+   "x": 859,
+   "y": 459,
+   "w": 44,
+   "h": 26,
+   "kind": "switch",
+   "param": 4,
+   "sprite": "UA_Hitsville-Chambers_SELECT_microphone_86",
+   "frames": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.3333333333333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6666666666666666
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  }
+ ],
+ "states": {
+  "info": 0
+ }
+}

@@ -1,0 +1,647 @@
+{
+ "schema": 2,
+ "effectName": "UAD Manley Reference Mic Preamp",
+ "namePattern": "Manley Reference Mic Preamp",
+ "size": {
+  "w": 360,
+  "h": 525
+ },
+ "background": "UA_Manley_Preamp_panel",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Source Select",
+   "steps": [
+    "Line",
+    "Mic"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Low Cut",
+   "steps": [
+    "Off",
+    "80 Hz",
+    "120 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Polarity",
+   "steps": [
+    "0",
+    "180"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Pad",
+   "steps": [
+    "0 dB",
+    "-20 dB"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Input",
+   "steps": null,
+   "default": 0.30322265625
+  },
+  {
+   "index": 5,
+   "name": "Gain",
+   "steps": [
+    "40 dB",
+    "45 dB",
+    "50 dB",
+    "55 dB",
+    "60 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "Transformer",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 7,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 8,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "vu": {
+   "vendorSpecificFloat": 251658250,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.125893,
+     0.0
+    ],
+    [
+     0.158489,
+     0.0018
+    ],
+    [
+     0.199526,
+     0.0346
+    ],
+    [
+     0.251189,
+     0.076
+    ],
+    [
+     0.316228,
+     0.128
+    ],
+    [
+     0.398107,
+     0.1935
+    ],
+    [
+     0.501187,
+     0.2759
+    ],
+    [
+     0.630957,
+     0.3798
+    ],
+    [
+     0.794328,
+     0.5105
+    ],
+    [
+     1.0,
+     0.675
+    ],
+    [
+     1.258925,
+     0.8821
+    ],
+    [
+     1.584893,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 251658250,
+    "p1": 1
+   }
+  }
+ },
+ "elements": [
+  {
+   "id": "power_button",
+   "x": 156,
+   "y": 236,
+   "w": 48,
+   "h": 48,
+   "kind": "switch",
+   "param": 8,
+   "sprite": "UA_Manley_Preamp_push_switch",
+   "frames": 2
+  },
+  {
+   "id": "input_gain",
+   "x": 231,
+   "y": 240,
+   "w": 100,
+   "h": 100,
+   "kind": "knob",
+   "param": 5,
+   "sprite": "UA_Manley_Preamp_knob_5pos",
+   "frames": 5
+  },
+  {
+   "id": "hpf_switch",
+   "x": 150,
+   "y": 293,
+   "w": 60,
+   "h": 30,
+   "kind": "switch",
+   "param": 1,
+   "sprite": "UA_Manley_Preamp_switch_3pos",
+   "frames": 3,
+   "orientation": "horizontal"
+  },
+  {
+   "id": "phase_select_switch",
+   "x": 150,
+   "y": 338,
+   "w": 60,
+   "h": 30,
+   "kind": "switch",
+   "param": 2,
+   "sprite": "UA_Manley_Preamp_switch_2pos",
+   "frames": 2,
+   "orientation": "horizontal"
+  },
+  {
+   "id": "pad_select_switch",
+   "x": 150.0,
+   "y": 383.0,
+   "w": 60.0,
+   "h": 30.0,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 3,
+   "sprite": "UA_Manley_Preamp_switch_2pos",
+   "frames": 2,
+   "orientation": "horizontal",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pad_select_switch_off",
+   "x": 150,
+   "y": 383,
+   "w": 60,
+   "h": 30,
+   "kind": "filmstrip",
+   "sprite": "UA_Manley_Preamp_switch_2pos",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "xfmr_select_switch",
+   "x": 150,
+   "y": 428,
+   "w": 60,
+   "h": 30,
+   "kind": "switch",
+   "param": 6,
+   "sprite": "UA_Manley_Preamp_switch_2pos",
+   "frames": 2,
+   "orientation": "horizontal"
+  },
+  {
+   "id": "input_select_knob",
+   "x": 29,
+   "y": 240,
+   "w": 100,
+   "h": 100,
+   "kind": "knob",
+   "param": 0,
+   "sprite": "UA_Manley_Preamp_knob_2pos",
+   "frames": 2
+  },
+  {
+   "id": "output_gain",
+   "x": 231,
+   "y": 360,
+   "w": 100,
+   "h": 100,
+   "kind": "knob",
+   "param": 7,
+   "sprite": "UA_Manley_Preamp_knob",
+   "frames": 101
+  },
+  {
+   "id": "input",
+   "x": 29,
+   "y": 360,
+   "w": 100,
+   "h": 100,
+   "kind": "knob",
+   "param": 4,
+   "sprite": "UA_Manley_Preamp_knob",
+   "frames": 101
+  },
+  {
+   "id": "meter-overlay-on",
+   "x": 78.0,
+   "y": 42.0,
+   "w": 204.0,
+   "h": 90.0,
+   "opacity": 0,
+   "kind": "filmstrip",
+   "sprite": "UA_Manley_Preamp_meter_on",
+   "frames": 1,
+   "visibility": {
+    "params": [
+     8
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "meter-overlay-off",
+   "x": 78,
+   "y": 42,
+   "w": 204,
+   "h": 90,
+   "kind": "filmstrip",
+   "sprite": "UA_Manley_Preamp_meter_off",
+   "frames": 1,
+   "visibility": {
+    "params": [
+     8
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "vumeter_needle-film",
+   "x": 78,
+   "y": 42,
+   "w": 204,
+   "h": 90,
+   "kind": "filmstrip",
+   "sprite": "UA_Manley_Preamp_meter_needle",
+   "frames": 123,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu",
+    "channel": 0
+   }
+  },
+  {
+   "id": "line-label",
+   "x": 44,
+   "y": 233,
+   "w": 35,
+   "h": 18,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "mic-label",
+   "x": 80,
+   "y": 233,
+   "w": 35,
+   "h": 18,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "gain-label-40",
+   "x": 234,
+   "y": 232,
+   "w": 22,
+   "h": 20,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "gain-label-45",
+   "x": 253,
+   "y": 232,
+   "w": 22,
+   "h": 20,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "gain-label-50",
+   "x": 270,
+   "y": 232,
+   "w": 22,
+   "h": 20,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "gain-label-55",
+   "x": 288,
+   "y": 232,
+   "w": 22,
+   "h": 20,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "gain-label-60",
+   "x": 306,
+   "y": 232,
+   "w": 22,
+   "h": 20,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "lpf-off-label",
+   "x": 138,
+   "y": 297,
+   "w": 30,
+   "h": 20,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "lpf-80-label",
+   "x": 162,
+   "y": 318,
+   "w": 36,
+   "h": 20,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "lpf-120-label",
+   "x": 194,
+   "y": 297,
+   "w": 30,
+   "h": 20,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "phase-0-label",
+   "x": 137,
+   "y": 344,
+   "w": 28,
+   "h": 22,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "phase-180-label",
+   "x": 195,
+   "y": 344,
+   "w": 28,
+   "h": 22,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "pad-0-label",
+   "x": 136,
+   "y": 386,
+   "w": 30,
+   "h": 26,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "pad-m20-label",
+   "x": 194,
+   "y": 386,
+   "w": 30,
+   "h": 26,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "xfmr-out-label",
+   "x": 136,
+   "y": 432,
+   "w": 32,
+   "h": 26,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "xfmr-in-label",
+   "x": 192,
+   "y": 432,
+   "w": 32,
+   "h": 26,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "input-gain-label",
+   "x": 56,
+   "y": 448,
+   "w": 46,
+   "h": 22,
+   "kind": "zone",
+   "param": null,
+   "action": {
+    "type": "default",
+    "param": 4
+   }
+  },
+  {
+   "id": "output-gain-label",
+   "x": 254,
+   "y": 448,
+   "w": 54,
+   "h": 22,
+   "kind": "zone",
+   "param": null,
+   "action": {
+    "type": "default",
+    "param": 7
+   }
+  }
+ ]
+}

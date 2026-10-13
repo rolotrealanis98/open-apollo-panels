@@ -1,0 +1,1688 @@
+{
+ "schema": 2,
+ "effectName": "UAD 4K Channel Strip",
+ "namePattern": "4K Channel Strip",
+ "size": {
+  "w": 450,
+  "h": 590
+ },
+ "background": "4k_channel_strip_6400",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Input",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "Phase",
+   "steps": [
+    "Normal",
+    "Inverted"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "HP Freq",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "LP Freq",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "HP/LP Dyn SC",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "CMP Ratio",
+   "steps": null,
+   "default": 0.49298095703125
+  },
+  {
+   "index": 6,
+   "name": "CMP Thresh",
+   "steps": null,
+   "default": 0.331756591796875
+  },
+  {
+   "index": 7,
+   "name": "CMP Release",
+   "steps": null,
+   "default": 0.49755859375
+  },
+  {
+   "index": 8,
+   "name": "CMP Attack",
+   "steps": [
+    "Auto",
+    "Fast"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "Stereo Link",
+   "steps": [
+    "UnLink",
+    "Link"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 10,
+   "name": "Select",
+   "steps": [
+    "Expand",
+    "Gate 1",
+    "Gate 2"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 11,
+   "name": "EXP Thresh",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "EXP Range",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 13,
+   "name": "EXP Release",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 14,
+   "name": "EXP Attack",
+   "steps": [
+    "Auto",
+    "Fast"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 15,
+   "name": "DYN In",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 16,
+   "name": "Comp In",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 17,
+   "name": "Exp In",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 18,
+   "name": "LF Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 19,
+   "name": "LF Freq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 20,
+   "name": "LF Bell",
+   "steps": [
+    "Shelf",
+    "Bell"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 21,
+   "name": "LMF Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 22,
+   "name": "LMF Freq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 23,
+   "name": "LMF Q",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 24,
+   "name": "HMF Q",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 25,
+   "name": "HMF Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 26,
+   "name": "HMF Freq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 27,
+   "name": "HF Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 28,
+   "name": "HF Freq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 29,
+   "name": "HF Bell",
+   "steps": [
+    "Shelf",
+    "Bell"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 30,
+   "name": "EQ In",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 31,
+   "name": "EQ Dyn SC",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 32,
+   "name": "Pre Dyn",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 33,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 34,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-input",
+   "x": 340,
+   "y": 138,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_channel_strip_6403",
+   "frames": 61,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "image-2-internal36",
+   "kind": "image",
+   "x": 370,
+   "y": 138,
+   "w": 10,
+   "h": 14,
+   "sprite": "4k_channel_strip_6400_2"
+  },
+  {
+   "id": "switch-3-phase",
+   "kind": "switch",
+   "x": 354,
+   "y": 464,
+   "w": 46,
+   "h": 28,
+   "sprite": "4k_channel_strip_6404_3",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-4-internal43",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter0"
+   },
+   "x": 351,
+   "y": 214,
+   "w": 15,
+   "h": 15,
+   "sprite": "4k_channel_strip_6409",
+   "frames": 2
+  },
+  {
+   "id": "filmstrip-5-internal44",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter1"
+   },
+   "x": 351,
+   "y": 230,
+   "w": 15,
+   "h": 159,
+   "sprite": "4k_channel_strip_6432",
+   "frames": 21
+  },
+  {
+   "id": "knob-6-output",
+   "x": 340,
+   "y": 392,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_channel_strip_6403",
+   "frames": 61,
+   "kind": "knob",
+   "param": 33
+  },
+  {
+   "id": "image-7-internal37",
+   "kind": "image",
+   "x": 370,
+   "y": 392,
+   "w": 10,
+   "h": 14,
+   "sprite": "4k_channel_strip_6400_6"
+  },
+  {
+   "id": "filmstrip-8-internal45",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter2"
+   },
+   "x": 384,
+   "y": 214,
+   "w": 15,
+   "h": 15,
+   "sprite": "4k_channel_strip_6409",
+   "frames": 2
+  },
+  {
+   "id": "filmstrip-9-internal46",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter3"
+   },
+   "x": 384,
+   "y": 230,
+   "w": 15,
+   "h": 159,
+   "sprite": "4k_channel_strip_6432",
+   "frames": 21
+  },
+  {
+   "id": "switch-10-power",
+   "kind": "switch",
+   "x": 342,
+   "y": 503,
+   "w": 75,
+   "h": 75,
+   "sprite": "4k_channel_strip_6401_7",
+   "frames": 2,
+   "param": 34,
+   "orientation": "vertical"
+  },
+  {
+   "id": "image-11-internal49",
+   "kind": "image",
+   "x": 6,
+   "y": 101,
+   "w": 20,
+   "h": 10,
+   "sprite": "4k_channel_strip_6400_8"
+  },
+  {
+   "id": "knob-12-hp_freq",
+   "x": 6,
+   "y": 50,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_channel_strip_6405",
+   "frames": 61,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "image-13-internal50",
+   "kind": "image",
+   "x": 76,
+   "y": 57,
+   "w": 20,
+   "h": 10,
+   "sprite": "4k_channel_strip_6400_10"
+  },
+  {
+   "id": "knob-14-lp_freq",
+   "x": 76,
+   "y": 6,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_channel_strip_6405",
+   "frames": 61,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "switch-15-hp_lp_dyn_sc",
+   "kind": "switch",
+   "x": 90,
+   "y": 78,
+   "w": 46,
+   "h": 28,
+   "sprite": "4k_channel_strip_6406_11",
+   "frames": 2,
+   "param": 4,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-16-cmp_ratio",
+   "x": 6,
+   "y": 172,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_channel_strip_6408",
+   "frames": 61,
+   "kind": "knob",
+   "param": 5
+  },
+  {
+   "id": "knob-17-cmp_thresh",
+   "x": 76,
+   "y": 216,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_channel_strip_6408",
+   "frames": 61,
+   "kind": "knob",
+   "param": 6
+  },
+  {
+   "id": "switch-18-stereo_link",
+   "kind": "switch",
+   "x": 90,
+   "y": 161,
+   "w": 46,
+   "h": 28,
+   "sprite": "4k_channel_strip_6410_13",
+   "frames": 2,
+   "param": 9,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-19-internal42",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 9
+   },
+   "x": 104,
+   "y": 140,
+   "w": 15,
+   "h": 15,
+   "sprite": "4k_channel_strip_6411",
+   "frames": 2
+  },
+  {
+   "id": "knob-20-cmp_release",
+   "x": 1,
+   "y": 260,
+   "w": 75,
+   "h": 64,
+   "sprite": "4k_channel_strip_6428",
+   "frames": 61,
+   "kind": "knob",
+   "param": 7,
+   "visibility": {
+    "params": [
+     8
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "x": 1,
+   "y": 260,
+   "w": 75,
+   "h": 64,
+   "sprite": "P_4k_channel_strip_6429",
+   "frames": 61,
+   "kind": "knob",
+   "param": 7,
+   "id": "P-knob-20-cmp_release-alt0",
+   "visibility": {
+    "params": [
+     8
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-21-cmp_attack",
+   "kind": "switch",
+   "x": 1,
+   "y": 306,
+   "w": 15,
+   "h": 15,
+   "sprite": "4k_channel_strip_6409_16",
+   "frames": 3,
+   "param": 8,
+   "orientation": "vertical",
+   "frameSource": {
+    "type": "table",
+    "params": [
+     8
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-22-select",
+   "kind": "switch",
+   "x": 86,
+   "y": 374,
+   "w": 50,
+   "h": 43,
+   "sprite": "4k_channel_strip_6412_17",
+   "frames": 3,
+   "param": 10,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-23-exp_thresh",
+   "x": 76,
+   "y": 304,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_channel_strip_6407",
+   "frames": 61,
+   "kind": "knob",
+   "param": 11
+  },
+  {
+   "id": "knob-24-exp_range",
+   "x": 6,
+   "y": 348,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_channel_strip_6407",
+   "frames": 61,
+   "kind": "knob",
+   "param": 12
+  },
+  {
+   "id": "switch-25-dyn_in",
+   "kind": "switch",
+   "x": 27,
+   "y": 523,
+   "w": 28,
+   "h": 58,
+   "sprite": "4k_channel_strip_6415_19",
+   "frames": 2,
+   "param": 15,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-26-comp_in",
+   "kind": "switch",
+   "x": 99,
+   "y": 523,
+   "w": 28,
+   "h": 58,
+   "sprite": "4k_channel_strip_6416_20",
+   "frames": 2,
+   "param": 16,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-27-exp_in",
+   "kind": "switch",
+   "x": 63,
+   "y": 523,
+   "w": 28,
+   "h": 58,
+   "sprite": "4k_channel_strip_6417_21",
+   "frames": 2,
+   "param": 17,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-28-internal47",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter5"
+   },
+   "x": 118,
+   "y": 429,
+   "w": 15,
+   "h": 79,
+   "sprite": "4k_channel_strip_6430",
+   "frames": 11
+  },
+  {
+   "id": "filmstrip-29-internal48",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter6"
+   },
+   "x": 88,
+   "y": 429,
+   "w": 15,
+   "h": 79,
+   "sprite": "4k_channel_strip_6431",
+   "frames": 11
+  },
+  {
+   "id": "knob-30-exp_release",
+   "x": 0,
+   "y": 436,
+   "w": 75,
+   "h": 64,
+   "sprite": "4k_channel_strip_6426",
+   "frames": 61,
+   "kind": "knob",
+   "param": 13,
+   "visibility": {
+    "params": [
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "x": 0,
+   "y": 436,
+   "w": 75,
+   "h": 64,
+   "sprite": "P_4k_channel_strip_6427",
+   "frames": 61,
+   "kind": "knob",
+   "param": 13,
+   "id": "P-knob-30-exp_release-alt0",
+   "visibility": {
+    "params": [
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-31-exp_attack",
+   "kind": "switch",
+   "x": 0,
+   "y": 480,
+   "w": 15,
+   "h": 15,
+   "sprite": "4k_channel_strip_6409_16",
+   "frames": 3,
+   "param": 14,
+   "orientation": "vertical",
+   "frameSource": {
+    "type": "table",
+    "params": [
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-32-lf_gain",
+   "x": 154,
+   "y": 436,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_channel_strip_6418",
+   "frames": 61,
+   "kind": "knob",
+   "param": 18
+  },
+  {
+   "id": "image-33-internal38",
+   "kind": "image",
+   "x": 184,
+   "y": 435,
+   "w": 10,
+   "h": 15,
+   "sprite": "4k_channel_strip_6400_26"
+  },
+  {
+   "id": "knob-34-lf_freq",
+   "x": 224,
+   "y": 392,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_channel_strip_6418",
+   "frames": 61,
+   "kind": "knob",
+   "param": 19
+  },
+  {
+   "id": "switch-35-lf_bell",
+   "kind": "switch",
+   "x": 238,
+   "y": 464,
+   "w": 46,
+   "h": 28,
+   "sprite": "4k_channel_strip_6422_27",
+   "frames": 2,
+   "param": 20,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-36-eq_in",
+   "kind": "switch",
+   "x": 177,
+   "y": 523,
+   "w": 28,
+   "h": 58,
+   "sprite": "4k_channel_strip_6423_28",
+   "frames": 2,
+   "param": 30,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-37-eq_dyn_sc",
+   "kind": "switch",
+   "x": 213,
+   "y": 523,
+   "w": 28,
+   "h": 58,
+   "sprite": "4k_channel_strip_6424_29",
+   "frames": 2,
+   "param": 31,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-38-pre_dyn",
+   "kind": "switch",
+   "x": 249,
+   "y": 523,
+   "w": 28,
+   "h": 58,
+   "sprite": "4k_channel_strip_6425_30",
+   "frames": 2,
+   "param": 32,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-39-lmf_gain",
+   "x": 154,
+   "y": 260,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_channel_strip_6419",
+   "frames": 61,
+   "kind": "knob",
+   "param": 21
+  },
+  {
+   "id": "image-40-internal39",
+   "kind": "image",
+   "x": 184,
+   "y": 260,
+   "w": 10,
+   "h": 14,
+   "sprite": "4k_channel_strip_6400_32"
+  },
+  {
+   "id": "knob-41-lmf_freq",
+   "x": 224,
+   "y": 304,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_channel_strip_6419",
+   "frames": 61,
+   "kind": "knob",
+   "param": 22
+  },
+  {
+   "id": "knob-42-lmf_q",
+   "x": 154,
+   "y": 348,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_channel_strip_6419",
+   "frames": 61,
+   "kind": "knob",
+   "param": 23
+  },
+  {
+   "id": "knob-43-hmf_gain",
+   "x": 154,
+   "y": 94,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_channel_strip_6420",
+   "frames": 61,
+   "kind": "knob",
+   "param": 25
+  },
+  {
+   "id": "image-44-internal40",
+   "kind": "image",
+   "x": 184,
+   "y": 94,
+   "w": 10,
+   "h": 14,
+   "sprite": "4k_channel_strip_6400_34"
+  },
+  {
+   "id": "knob-45-hmf_freq",
+   "x": 224,
+   "y": 138,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_channel_strip_6420",
+   "frames": 61,
+   "kind": "knob",
+   "param": 26
+  },
+  {
+   "id": "knob-46-hmf_q",
+   "x": 154,
+   "y": 182,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_channel_strip_6420",
+   "frames": 61,
+   "kind": "knob",
+   "param": 24
+  },
+  {
+   "id": "knob-47-hf_gain",
+   "x": 154,
+   "y": 6,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_channel_strip_6421",
+   "frames": 61,
+   "kind": "knob",
+   "param": 27
+  },
+  {
+   "id": "image-48-internal41",
+   "kind": "image",
+   "x": 184,
+   "y": 6,
+   "w": 10,
+   "h": 14,
+   "sprite": "4k_channel_strip_6400_36"
+  },
+  {
+   "id": "knob-49-hf_freq",
+   "x": 224,
+   "y": 50,
+   "w": 70,
+   "h": 61,
+   "sprite": "4k_channel_strip_6421",
+   "frames": 61,
+   "kind": "knob",
+   "param": 28
+  },
+  {
+   "id": "switch-50-hf_bell",
+   "kind": "switch",
+   "x": 238,
+   "y": 22,
+   "w": 46,
+   "h": 28,
+   "sprite": "4k_channel_strip_6422_27",
+   "frames": 2,
+   "param": 29,
+   "orientation": "vertical"
+  },
+  {
+   "id": "h-hot-0-p8",
+   "kind": "zone",
+   "x": 0.0,
+   "y": 320.0,
+   "w": 16.0,
+   "h": 40.0,
+   "param": 8,
+   "action": {
+    "type": "toggle",
+    "param": 8
+   }
+  },
+  {
+   "id": "h-hot-1-p14",
+   "kind": "zone",
+   "x": 0.0,
+   "y": 496.0,
+   "w": 16.0,
+   "h": 40.0,
+   "param": 14,
+   "action": {
+    "type": "toggle",
+    "param": 14
+   }
+  },
+  {
+   "id": "h-todo-2-p8",
+   "kind": "zone",
+   "x": 1,
+   "y": 306,
+   "w": 15,
+   "h": 15,
+   "param": 8,
+   "action": {
+    "type": "toggle",
+    "param": 8
+   }
+  },
+  {
+   "id": "h-todo-3-p14",
+   "kind": "zone",
+   "x": 0,
+   "y": 480,
+   "w": 15,
+   "h": 15,
+   "param": 14,
+   "action": {
+    "type": "toggle",
+    "param": 14
+   }
+  }
+ ],
+ "meterSources": {
+  "meter0": {
+   "vendorSpecificFloat": 159,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.001,
+     0.001
+    ],
+    [
+     0.001259,
+     0.0013
+    ],
+    [
+     0.001585,
+     0.0016
+    ],
+    [
+     0.001995,
+     0.002
+    ],
+    [
+     0.002512,
+     0.0025
+    ],
+    [
+     0.003162,
+     0.0032
+    ],
+    [
+     0.003981,
+     0.004
+    ],
+    [
+     0.005012,
+     0.005
+    ],
+    [
+     0.00631,
+     0.0063
+    ],
+    [
+     0.007943,
+     0.0079
+    ],
+    [
+     0.01,
+     0.01
+    ],
+    [
+     0.012589,
+     0.0126
+    ],
+    [
+     0.015849,
+     0.0158
+    ],
+    [
+     0.019953,
+     0.02
+    ],
+    [
+     0.025119,
+     0.0251
+    ],
+    [
+     0.031623,
+     0.0316
+    ],
+    [
+     0.039811,
+     0.0398
+    ],
+    [
+     0.050119,
+     0.0501
+    ],
+    [
+     0.063096,
+     0.0631
+    ],
+    [
+     0.079433,
+     0.0794
+    ],
+    [
+     0.1,
+     0.1
+    ],
+    [
+     0.125893,
+     0.1259
+    ],
+    [
+     0.158489,
+     0.1585
+    ],
+    [
+     0.199526,
+     0.1995
+    ],
+    [
+     0.251189,
+     0.2512
+    ],
+    [
+     0.316228,
+     0.3162
+    ],
+    [
+     0.398107,
+     0.3981
+    ],
+    [
+     0.501187,
+     0.5012
+    ],
+    [
+     0.630957,
+     0.631
+    ],
+    [
+     0.794328,
+     0.7943
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ]
+  },
+  "meter1": {
+   "vendorSpecificFloat": 159,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.001995,
+     0.0
+    ],
+    [
+     0.002512,
+     0.0095
+    ],
+    [
+     0.003162,
+     0.0476
+    ],
+    [
+     0.003981,
+     0.0857
+    ],
+    [
+     0.005012,
+     0.1238
+    ],
+    [
+     0.00631,
+     0.1619
+    ],
+    [
+     0.007943,
+     0.2
+    ],
+    [
+     0.01,
+     0.2381
+    ],
+    [
+     0.012589,
+     0.2762
+    ],
+    [
+     0.015849,
+     0.3143
+    ],
+    [
+     0.019953,
+     0.3524
+    ],
+    [
+     0.025119,
+     0.3905
+    ],
+    [
+     0.031623,
+     0.4286
+    ],
+    [
+     0.039811,
+     0.4666
+    ],
+    [
+     0.050119,
+     0.5048
+    ],
+    [
+     0.063096,
+     0.5428
+    ],
+    [
+     0.079433,
+     0.5809
+    ],
+    [
+     0.1,
+     0.619
+    ],
+    [
+     0.125893,
+     0.6571
+    ],
+    [
+     0.158489,
+     0.6952
+    ],
+    [
+     0.199526,
+     0.7333
+    ],
+    [
+     0.251189,
+     0.7714
+    ],
+    [
+     0.316228,
+     0.8095
+    ],
+    [
+     0.398107,
+     0.8476
+    ],
+    [
+     0.501187,
+     0.8857
+    ],
+    [
+     0.630957,
+     0.9238
+    ],
+    [
+     0.794328,
+     0.9619
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ],
+   "modeParam": 34,
+   "modeCalibrations": [
+    {
+     "value": 0.0,
+     "calibration": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       60.0,
+       0.0
+      ]
+     ]
+    }
+   ]
+  },
+  "meter2": {
+   "vendorSpecificFloat": 160,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.001,
+     0.001
+    ],
+    [
+     0.001259,
+     0.0013
+    ],
+    [
+     0.001585,
+     0.0016
+    ],
+    [
+     0.001995,
+     0.002
+    ],
+    [
+     0.002512,
+     0.0025
+    ],
+    [
+     0.003162,
+     0.0032
+    ],
+    [
+     0.003981,
+     0.004
+    ],
+    [
+     0.005012,
+     0.005
+    ],
+    [
+     0.00631,
+     0.0063
+    ],
+    [
+     0.007943,
+     0.0079
+    ],
+    [
+     0.01,
+     0.01
+    ],
+    [
+     0.012589,
+     0.0126
+    ],
+    [
+     0.015849,
+     0.0158
+    ],
+    [
+     0.019953,
+     0.02
+    ],
+    [
+     0.025119,
+     0.0251
+    ],
+    [
+     0.031623,
+     0.0316
+    ],
+    [
+     0.039811,
+     0.0398
+    ],
+    [
+     0.050119,
+     0.0501
+    ],
+    [
+     0.063096,
+     0.0631
+    ],
+    [
+     0.079433,
+     0.0794
+    ],
+    [
+     0.1,
+     0.1
+    ],
+    [
+     0.125893,
+     0.1259
+    ],
+    [
+     0.158489,
+     0.1585
+    ],
+    [
+     0.199526,
+     0.1995
+    ],
+    [
+     0.251189,
+     0.2512
+    ],
+    [
+     0.316228,
+     0.3162
+    ],
+    [
+     0.398107,
+     0.3981
+    ],
+    [
+     0.501187,
+     0.5012
+    ],
+    [
+     0.630957,
+     0.631
+    ],
+    [
+     0.794328,
+     0.7943
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ]
+  },
+  "meter3": {
+   "vendorSpecificFloat": 160,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.001995,
+     0.0
+    ],
+    [
+     0.002512,
+     0.0095
+    ],
+    [
+     0.003162,
+     0.0476
+    ],
+    [
+     0.003981,
+     0.0857
+    ],
+    [
+     0.005012,
+     0.1238
+    ],
+    [
+     0.00631,
+     0.1619
+    ],
+    [
+     0.007943,
+     0.2
+    ],
+    [
+     0.01,
+     0.2381
+    ],
+    [
+     0.012589,
+     0.2762
+    ],
+    [
+     0.015849,
+     0.3143
+    ],
+    [
+     0.019953,
+     0.3524
+    ],
+    [
+     0.025119,
+     0.3905
+    ],
+    [
+     0.031623,
+     0.4286
+    ],
+    [
+     0.039811,
+     0.4666
+    ],
+    [
+     0.050119,
+     0.5048
+    ],
+    [
+     0.063096,
+     0.5428
+    ],
+    [
+     0.079433,
+     0.5809
+    ],
+    [
+     0.1,
+     0.619
+    ],
+    [
+     0.125893,
+     0.6571
+    ],
+    [
+     0.158489,
+     0.6952
+    ],
+    [
+     0.199526,
+     0.7333
+    ],
+    [
+     0.251189,
+     0.7714
+    ],
+    [
+     0.316228,
+     0.8095
+    ],
+    [
+     0.398107,
+     0.8476
+    ],
+    [
+     0.501187,
+     0.8857
+    ],
+    [
+     0.630957,
+     0.9238
+    ],
+    [
+     0.794328,
+     0.9619
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ],
+   "modeParam": 34,
+   "modeCalibrations": [
+    {
+     "value": 0.0,
+     "calibration": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       60.0,
+       0.0
+      ]
+     ]
+    }
+   ]
+  },
+  "meter5": {
+   "vendorSpecificFloat": 161,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.4197498,
+     0.0
+    ],
+    [
+     0.42017,
+     0.2
+    ],
+    [
+     0.8394997,
+     0.2
+    ],
+    [
+     0.84034,
+     0.4
+    ],
+    [
+     1.3991594,
+     0.4
+    ],
+    [
+     1.40056,
+     0.6
+    ],
+    [
+     1.9588192,
+     0.6
+    ],
+    [
+     1.96078,
+     0.8
+    ],
+    [
+     2.7983189,
+     0.8
+    ],
+    [
+     2.80112,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "meter6": {
+   "vendorSpecificFloat": 162,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.4197498,
+     0.0
+    ],
+    [
+     0.42017,
+     0.2
+    ],
+    [
+     0.8394997,
+     0.2
+    ],
+    [
+     0.84034,
+     0.4
+    ],
+    [
+     1.3991594,
+     0.4
+    ],
+    [
+     1.40056,
+     0.6
+    ],
+    [
+     1.9588192,
+     0.6
+    ],
+    [
+     1.96078,
+     0.8
+    ],
+    [
+     2.7983189,
+     0.8
+    ],
+    [
+     2.80112,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  }
+ }
+}

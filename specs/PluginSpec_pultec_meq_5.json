@@ -1,0 +1,665 @@
+{
+ "schema": 2,
+ "effectName": "UAD Pultec MEQ-5",
+ "namePattern": "Pultec MEQ-5",
+ "size": {
+  "w": 950,
+  "h": 188
+ },
+ "background": "pultec_meq_5_back",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "LM Freq",
+   "steps": [
+    "200 CPS",
+    "300 CPS",
+    "500 CPS",
+    "700 CPS",
+    "1000 CPS"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "LM Peak",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Mid Freq",
+   "steps": [
+    "200 CPS",
+    "300 CPS",
+    "500 CPS",
+    "700 CPS",
+    "1 KCS",
+    "1.5 KCS",
+    "2 KCS",
+    "3 KCS",
+    "4 KCS",
+    "5 KCS",
+    "7 KCS"
+   ],
+   "default": 0.300000011920929
+  },
+  {
+   "index": 3,
+   "name": "Mid Dip",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "HM Freq",
+   "steps": [
+    "1.5 KCS",
+    "2 KCS",
+    "3 KCS",
+    "4 KCS",
+    "5 KCS"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "HM Peak",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "Enable",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 7,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 8,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {},
+ "elements": [
+  {
+   "id": "ua-film-strip-pultec_power_light_2",
+   "x": 796,
+   "y": 2,
+   "w": 85,
+   "h": 85,
+   "kind": "filmstrip",
+   "sprite": "pultec_power_light_2",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     7,
+     8
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.02,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.02,
+       1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ua-slider-enable",
+   "x": 75,
+   "y": 43,
+   "w": 55,
+   "h": 100,
+   "kind": "switch",
+   "param": 6,
+   "sprite": "pultec_in_switch_V2",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "ua-knob-lm_freq",
+   "x": 130,
+   "y": 32,
+   "w": 120,
+   "h": 124,
+   "kind": "knob",
+   "param": 0,
+   "sprite": "pultec_freq_switch_5_step",
+   "frames": 5
+  },
+  {
+   "id": "ua-button-lm_freq",
+   "x": 130,
+   "y": 58,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "ua-button-lm_freq-2",
+   "x": 150,
+   "y": 39,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "ua-button-lm_freq-3",
+   "x": 176,
+   "y": 32,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "ua-button-lm_freq-4",
+   "x": 202,
+   "y": 39,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "ua-button-lm_freq-5",
+   "x": 222,
+   "y": 58,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "ua-knob-lm_peak",
+   "x": 250,
+   "y": 35,
+   "w": 105,
+   "h": 123,
+   "kind": "knob",
+   "param": 1,
+   "sprite": "pultec_continuous_knob",
+   "frames": 111
+  },
+  {
+   "id": "ua-knob-mid_freq",
+   "x": 357,
+   "y": 32,
+   "w": 120,
+   "h": 124,
+   "kind": "knob",
+   "param": 2,
+   "sprite": "pultec_freq_switch_11_step",
+   "frames": 11
+  },
+  {
+   "id": "ua-button-mid_freq",
+   "x": 379,
+   "y": 127,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "ua-button-mid_freq-2",
+   "x": 361,
+   "y": 109,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "ua-button-mid_freq-3",
+   "x": 355,
+   "y": 85,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "ua-button-mid_freq-4",
+   "x": 361,
+   "y": 61,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "ua-button-mid_freq-5",
+   "x": 379,
+   "y": 43,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "ua-button-mid_freq-6",
+   "x": 403,
+   "y": 37,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "ua-button-mid_freq-7",
+   "x": 427,
+   "y": 43,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "ua-button-mid_freq-8",
+   "x": 445,
+   "y": 61,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "ua-button-mid_freq-9",
+   "x": 451,
+   "y": 85,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "ua-button-mid_freq-10",
+   "x": 445,
+   "y": 109,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "ua-button-mid_freq-11",
+   "x": 427,
+   "y": 127,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "ua-knob-mid_dip",
+   "x": 482,
+   "y": 35,
+   "w": 105,
+   "h": 123,
+   "kind": "knob",
+   "param": 3,
+   "sprite": "pultec_continuous_knob",
+   "frames": 111
+  },
+  {
+   "id": "ua-knob-hm_freq",
+   "x": 587,
+   "y": 32,
+   "w": 120,
+   "h": 124,
+   "kind": "knob",
+   "param": 4,
+   "sprite": "pultec_freq_switch_5_step",
+   "frames": 5
+  },
+  {
+   "id": "ua-button-hm_freq",
+   "x": 587,
+   "y": 58,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "ua-button-hm_freq-2",
+   "x": 607,
+   "y": 39,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "ua-button-hm_freq-3",
+   "x": 633,
+   "y": 32,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "ua-button-hm_freq-4",
+   "x": 659,
+   "y": 39,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "ua-button-hm_freq-5",
+   "x": 679,
+   "y": 58,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "ua-knob-hm_peak",
+   "x": 716,
+   "y": 35,
+   "w": 105,
+   "h": 123,
+   "kind": "knob",
+   "param": 5,
+   "sprite": "pultec_continuous_knob",
+   "frames": 111
+  },
+  {
+   "id": "ua-film-strip-output",
+   "x": 812,
+   "y": 87,
+   "w": 65,
+   "h": 68,
+   "kind": "filmstrip",
+   "sprite": "pultec_power_switch_270",
+   "frames": 51,
+   "frameSource": {
+    "type": "param",
+    "param": 7
+   }
+  },
+  {
+   "id": "ua-knob-output",
+   "x": 812,
+   "y": 87,
+   "w": 65,
+   "h": 68,
+   "kind": "zone",
+   "param": 7,
+   "gesture": "drag"
+  },
+  {
+   "id": "ua-button-lm_freq-6",
+   "x": 228,
+   "y": 12,
+   "w": 34,
+   "h": 15,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "toggle",
+    "param": 0
+   }
+  },
+  {
+   "id": "ua-button-mid_freq-12",
+   "x": 458,
+   "y": 12,
+   "w": 34,
+   "h": 15,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "toggle",
+    "param": 2
+   }
+  },
+  {
+   "id": "ua-button-hm_freq-6",
+   "x": 691,
+   "y": 12,
+   "w": 34,
+   "h": 15,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "toggle",
+    "param": 4
+   }
+  },
+  {
+   "id": "ua-button-output",
+   "x": 799,
+   "y": 144,
+   "w": 32,
+   "h": 15,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "table",
+    "param": 7,
+    "table": [
+     {
+      "current": 0,
+      "value": 0.5
+     },
+     {
+      "current": 0.02,
+      "value": 0
+     },
+     {
+      "current": 1,
+      "value": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "ua-button-output-2",
+   "x": 821,
+   "y": 25,
+   "w": 40,
+   "h": 40,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "table",
+    "param": 7,
+    "table": [
+     {
+      "current": 0,
+      "value": 0.5
+     },
+     {
+      "current": 0.02,
+      "value": 0
+     },
+     {
+      "current": 1,
+      "value": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "ua-button-output-3",
+   "x": 830,
+   "y": 88,
+   "w": 16,
+   "h": 14,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "default",
+    "param": 7
+   }
+  }
+ ],
+ "panelless": [
+  8
+ ]
+}

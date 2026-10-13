@@ -1,0 +1,421 @@
+{
+ "schema": 2,
+ "effectName": "UAD API 550A",
+ "namePattern": "API 550A",
+ "size": {
+  "w": 310,
+  "h": 550
+ },
+ "background": "api_550a_7480",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "HF Freq",
+   "steps": [
+    "15 kHz",
+    "12.5 kHz",
+    "10 kHz",
+    "7 kHz",
+    "5 kHz"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "HF Gain",
+   "steps": [
+    "-12 dB",
+    "-9 dB",
+    "-6 dB",
+    "-4 dB",
+    "-2 dB",
+    "0 dB",
+    "2 dB",
+    "4 dB",
+    "6 dB",
+    "9 dB",
+    "12 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 2,
+   "name": "MF Freq",
+   "steps": [
+    "5 kHz",
+    "3 kHz",
+    "1.5 kHz",
+    "0.8 kHz",
+    "0.4 kHz"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "MF Gain",
+   "steps": [
+    "-12 dB",
+    "-9 dB",
+    "-6 dB",
+    "-4 dB",
+    "-2 dB",
+    "0 dB",
+    "2 dB",
+    "4 dB",
+    "6 dB",
+    "9 dB",
+    "12 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "LF Freq",
+   "steps": [
+    "400 Hz",
+    "300 Hz",
+    "200 Hz",
+    "100 Hz",
+    "50 Hz"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "LF Gain",
+   "steps": [
+    "-12 dB",
+    "-9 dB",
+    "-6 dB",
+    "-4 dB",
+    "-2 dB",
+    "0 dB",
+    "2 dB",
+    "4 dB",
+    "6 dB",
+    "9 dB",
+    "12 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "BP Filter",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "LF Shelf",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "HF Shelf",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "EQ In",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 11,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-hf_gain",
+   "x": 4,
+   "y": 53,
+   "w": 147,
+   "h": 115,
+   "sprite": "api_550a_7486",
+   "frames": 11,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "knob-2-hf_freq",
+   "x": 4,
+   "y": 53,
+   "w": 147,
+   "h": 115,
+   "sprite": "api_550a_7485",
+   "frames": 5,
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
+  },
+  {
+   "id": "P-knob-2-hf_freq-cap",
+   "kind": "zone",
+   "x": 55,
+   "y": 81,
+   "w": 53,
+   "h": 47,
+   "gesture": "drag",
+   "param": 0
+  },
+  {
+   "id": "knob-3-mf_gain",
+   "x": 4,
+   "y": 176,
+   "w": 147,
+   "h": 115,
+   "sprite": "api_550a_7488",
+   "frames": 11,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "knob-4-mf_freq",
+   "x": 4,
+   "y": 176,
+   "w": 147,
+   "h": 115,
+   "sprite": "api_550a_7485",
+   "frames": 5,
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   }
+  },
+  {
+   "id": "P-knob-4-mf_freq-cap",
+   "kind": "zone",
+   "x": 55,
+   "y": 204,
+   "w": 53,
+   "h": 47,
+   "gesture": "drag",
+   "param": 2
+  },
+  {
+   "id": "knob-5-lf_gain",
+   "x": 4,
+   "y": 299,
+   "w": 147,
+   "h": 115,
+   "sprite": "api_550a_7487",
+   "frames": 11,
+   "kind": "knob",
+   "param": 5
+  },
+  {
+   "id": "knob-6-lf_freq",
+   "x": 4,
+   "y": 299,
+   "w": 147,
+   "h": 115,
+   "sprite": "api_550a_7485",
+   "frames": 5,
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 4
+   }
+  },
+  {
+   "id": "P-knob-6-lf_freq-cap",
+   "kind": "zone",
+   "x": 55,
+   "y": 327,
+   "w": 53,
+   "h": 47,
+   "gesture": "drag",
+   "param": 4
+  },
+  {
+   "id": "switch-7-bp_filter",
+   "x": 11,
+   "y": 416,
+   "w": 75,
+   "h": 45,
+   "sprite": "api_550a_7489",
+   "frames": 2,
+   "kind": "switch",
+   "param": 6,
+   "orientation": "vertical",
+   "action": {
+    "type": "set",
+    "value": 1.0,
+    "param": 6
+   }
+  },
+  {
+   "id": "switch-8-lf_shelf",
+   "kind": "switch",
+   "x": 17,
+   "y": 464,
+   "w": 42,
+   "h": 58,
+   "sprite": "api_550a_7484_6",
+   "frames": 2,
+   "param": 7,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-9-hf_shelf",
+   "kind": "switch",
+   "x": 59,
+   "y": 464,
+   "w": 42,
+   "h": 58,
+   "sprite": "api_550a_7484_6",
+   "frames": 2,
+   "param": 8,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-10-eq_in",
+   "kind": "switch",
+   "x": 101,
+   "y": 421,
+   "w": 42,
+   "h": 101,
+   "sprite": "api_550a_7482_7",
+   "frames": 2,
+   "param": 10,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-11-output",
+   "x": 190,
+   "y": 308,
+   "w": 85,
+   "h": 84,
+   "sprite": "api_550a_7483",
+   "frames": 101,
+   "kind": "knob",
+   "param": 9
+  },
+  {
+   "id": "switch-12-power",
+   "kind": "switch",
+   "x": 214,
+   "y": 421,
+   "w": 42,
+   "h": 101,
+   "sprite": "api_550a_7481_9",
+   "frames": 2,
+   "param": 11,
+   "orientation": "vertical"
+  },
+  {
+   "id": "h-hot-0-p1",
+   "kind": "zone",
+   "x": 16.0,
+   "y": 48.0,
+   "w": 24.0,
+   "h": 8.0,
+   "param": 1,
+   "action": {
+    "type": "nudge",
+    "delta": -0.1,
+    "param": 1
+   }
+  },
+  {
+   "id": "h-hot-1-p1",
+   "kind": "zone",
+   "x": 120.0,
+   "y": 48.0,
+   "w": 16.0,
+   "h": 8.0,
+   "param": 1,
+   "action": {
+    "type": "nudge",
+    "delta": 0.1,
+    "param": 1
+   }
+  },
+  {
+   "id": "h-hot-2-p3",
+   "kind": "zone",
+   "x": 16.0,
+   "y": 168.0,
+   "w": 24.0,
+   "h": 8.0,
+   "param": 3,
+   "action": {
+    "type": "nudge",
+    "delta": -0.1,
+    "param": 3
+   }
+  },
+  {
+   "id": "h-hot-3-p3",
+   "kind": "zone",
+   "x": 120.0,
+   "y": 168.0,
+   "w": 16.0,
+   "h": 8.0,
+   "param": 3,
+   "action": {
+    "type": "nudge",
+    "delta": 0.1,
+    "param": 3
+   }
+  },
+  {
+   "id": "h-hot-4-p2",
+   "kind": "zone",
+   "x": 32.0,
+   "y": 288.0,
+   "w": 32.0,
+   "h": 8.0,
+   "param": 2,
+   "action": {
+    "type": "set",
+    "value": 0.75,
+    "param": 2
+   }
+  },
+  {
+   "id": "h-hot-5-p2",
+   "kind": "zone",
+   "x": 96.0,
+   "y": 288.0,
+   "w": 32.0,
+   "h": 8.0,
+   "param": 2,
+   "action": {
+    "type": "set",
+    "value": 0.25,
+    "param": 2
+   }
+  }
+ ],
+ "meterSources": {}
+}

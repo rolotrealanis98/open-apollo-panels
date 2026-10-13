@@ -1,0 +1,240 @@
+{
+ "schema": 2,
+ "effectName": "UAD SSL G Bus Compressor Legacy",
+ "namePattern": "SSL G Bus Compressor Legacy",
+ "size": {
+  "w": 300,
+  "h": 512
+ },
+ "background": "ssl_g_bus_compressor_legacy_6507",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Thresh",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "Make Up",
+   "steps": null,
+   "default": 0.204833984375
+  },
+  {
+   "index": 2,
+   "name": "Attack",
+   "steps": [
+    " 0.10 ms",
+    " 0.30 ms",
+    " 1.00 ms",
+    " 3.00 ms",
+    "10.00 ms",
+    "30.00 ms"
+   ],
+   "default": 0.4000000059604645
+  },
+  {
+   "index": 3,
+   "name": "Release",
+   "steps": [
+    " 0.10 s",
+    " 0.30 s",
+    " 0.60 s",
+    " 1.20 s",
+    "AUTO"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 4,
+   "name": "Ratio",
+   "steps": [
+    "2:1",
+    "4:1",
+    "10:1"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "FadeRate",
+   "steps": null,
+   "default": 0.696929931640625
+  },
+  {
+   "index": 6,
+   "name": "Fade",
+   "steps": [
+    "In",
+    "Out"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-faderate",
+   "x": 55,
+   "y": 429,
+   "w": 70,
+   "h": 61,
+   "sprite": "ssl_g_bus_compressor_legacy_6508",
+   "frames": 61,
+   "kind": "knob",
+   "param": 5
+  },
+  {
+   "id": "knob-2-make_up",
+   "x": 175,
+   "y": 165,
+   "w": 70,
+   "h": 61,
+   "sprite": "ssl_g_bus_compressor_legacy_6508",
+   "frames": 61,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "knob-3-thresh",
+   "x": 55,
+   "y": 165,
+   "w": 70,
+   "h": 61,
+   "sprite": "ssl_g_bus_compressor_legacy_6508",
+   "frames": 61,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "knob-4-ratio",
+   "x": 55,
+   "y": 325,
+   "w": 70,
+   "h": 61,
+   "sprite": "ssl_g_bus_compressor_legacy_6509",
+   "frames": 3,
+   "kind": "knob",
+   "param": 4
+  },
+  {
+   "id": "knob-5-attack",
+   "x": 55,
+   "y": 245,
+   "w": 70,
+   "h": 61,
+   "sprite": "ssl_g_bus_compressor_legacy_6510",
+   "frames": 6,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "knob-6-release",
+   "x": 175,
+   "y": 245,
+   "w": 80,
+   "h": 61,
+   "sprite": "ssl_g_bus_compressor_legacy_6511",
+   "frames": 5,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "filmstrip-7-internal9",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter0"
+   },
+   "x": 86,
+   "y": 29,
+   "w": 126,
+   "h": 64,
+   "sprite": "ssl_g_bus_compressor_legacy_6512",
+   "frames": 61
+  },
+  {
+   "id": "switch-8-power",
+   "kind": "switch",
+   "x": 173,
+   "y": 322,
+   "w": 75,
+   "h": 75,
+   "sprite": "ssl_g_bus_compressor_legacy_6513_6",
+   "frames": 2,
+   "param": 7,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-9-fade-bank",
+   "kind": "filmstrip",
+   "x": 173,
+   "y": 422,
+   "w": 75,
+   "h": 75,
+   "sprite": "ssl_g_bus_compressor_legacy_6514",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-fade-toggle",
+   "kind": "zone",
+   "x": 173,
+   "y": 422,
+   "w": 75,
+   "h": 75,
+   "action": {
+    "type": "toggle",
+    "param": 6
+   }
+  }
+ ],
+ "meterSources": {
+  "meter0": {
+   "vendorSpecificFloat": 83886088,
+   "opcode": {
+    "op": 519,
+    "p0": 83886088,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     2.6316,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  }
+ }
+}

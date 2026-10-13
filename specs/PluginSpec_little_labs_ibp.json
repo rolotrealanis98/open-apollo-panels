@@ -1,0 +1,189 @@
+{
+ "schema": 2,
+ "effectName": "UAD Little Labs IBP",
+ "namePattern": "Little Labs IBP",
+ "size": {
+  "w": 466,
+  "h": 166
+ },
+ "background": "I_little_labs_ibp_bg",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "DelayAdj",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "DlyAdjByp",
+   "steps": [
+    "Effect",
+    "Bypass"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "PhaseAdj",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "PhsAdjByp",
+   "steps": [
+    "Effect",
+    "Bypass"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "PhaseInv",
+   "steps": [
+    "Normal",
+    "Inverted"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "90/180",
+   "steps": [
+    "180",
+    "90"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "PhaseCtr",
+   "steps": [
+    " Hi ",
+    " Lo "
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-delayadj",
+   "x": 32,
+   "y": 53,
+   "w": 82,
+   "h": 80,
+   "sprite": "little_labs_ibp_6101",
+   "frames": 81,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "knob-2-phaseadj",
+   "x": 362,
+   "y": 53,
+   "w": 82,
+   "h": 80,
+   "sprite": "little_labs_ibp_6101",
+   "frames": 81,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "switch-3-phsadjbyp",
+   "kind": "switch",
+   "x": 199,
+   "y": 94,
+   "w": 31,
+   "h": 30,
+   "sprite": "little_labs_ibp_6102_2",
+   "frames": 2,
+   "param": 3,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-4-phaseinv",
+   "kind": "switch",
+   "x": 240,
+   "y": 94,
+   "w": 31,
+   "h": 30,
+   "sprite": "little_labs_ibp_6102_2",
+   "frames": 2,
+   "param": 4,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-5-90_180",
+   "kind": "switch",
+   "x": 283,
+   "y": 94,
+   "w": 31,
+   "h": 30,
+   "sprite": "little_labs_ibp_6102_2",
+   "frames": 2,
+   "param": 5,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-6-phasectr",
+   "kind": "switch",
+   "x": 326,
+   "y": 94,
+   "w": 31,
+   "h": 30,
+   "sprite": "little_labs_ibp_6102_2",
+   "frames": 2,
+   "param": 6,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-7-dlyadjbyp",
+   "kind": "switch",
+   "x": 157,
+   "y": 94,
+   "w": 31,
+   "h": 30,
+   "sprite": "little_labs_ibp_6102_2",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-8-power",
+   "kind": "switch",
+   "x": 113,
+   "y": 94,
+   "w": 31,
+   "h": 30,
+   "sprite": "little_labs_ibp_6102_2",
+   "frames": 2,
+   "param": 7,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-9-power",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 7
+   },
+   "x": 117,
+   "y": 70,
+   "w": 18,
+   "h": 18,
+   "sprite": "little_labs_ibp_6103",
+   "frames": 2
+  }
+ ],
+ "meterSources": {}
+}

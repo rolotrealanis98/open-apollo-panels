@@ -1,0 +1,2649 @@
+{
+ "schema": 2,
+ "effectName": "UAD bx_saturator V2",
+ "namePattern": "bx_saturator V2",
+ "size": {
+  "w": 510,
+  "h": 617
+ },
+ "background": "bx_saturator_v2__BACKGROUND",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Bypass",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Bank",
+   "steps": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "OpGnMOn",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 3,
+   "name": "OpGainM",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "OpGnSOn",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 5,
+   "name": "OpGainS",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "LnkInGns",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 7,
+   "name": "LnkCross",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "MstrXLOn",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 9,
+   "name": "MasterXL",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "MLoXLOn",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 11,
+   "name": "MidLoXL",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "MHiXLOn",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 13,
+   "name": "MidHiXL",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 14,
+   "name": "MCrossov",
+   "steps": null,
+   "default": 0.3920304179191589
+  },
+  {
+   "index": 15,
+   "name": "Mid Solo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 16,
+   "name": "MLoSolo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 17,
+   "name": "MHiSolo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 18,
+   "name": "SLoXLOn",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 19,
+   "name": "SideLoXL",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 20,
+   "name": "SHiXLOn",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 21,
+   "name": "SideHiXL",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 22,
+   "name": "SCrossov",
+   "steps": null,
+   "default": 0.8673533201217651
+  },
+  {
+   "index": 23,
+   "name": "SideSolo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 24,
+   "name": "SLoSolo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 25,
+   "name": "SHiSolo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 26,
+   "name": "MLoGain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 27,
+   "name": "MLGnMd",
+   "steps": [
+    "Pre",
+    "Post"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 28,
+   "name": "MHiGain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 29,
+   "name": "MHGnMd",
+   "steps": [
+    "Pre",
+    "Post"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 30,
+   "name": "SLoGain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 31,
+   "name": "SLGnMd",
+   "steps": [
+    "Pre",
+    "Post"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 32,
+   "name": "SHiGain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 33,
+   "name": "MHGnMd",
+   "steps": [
+    "Pre",
+    "Post"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 34,
+   "name": "MstrDrv",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 35,
+   "name": "MLoDrive",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 36,
+   "name": "MHiDrive",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 37,
+   "name": "SLoDrive",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 38,
+   "name": "SHiDrive",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 39,
+   "name": "MLoDrvCp",
+   "steps": [
+    "Comp.Off",
+    "Compen.1",
+    "Compen.2"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 40,
+   "name": "MHiDrvCp",
+   "steps": [
+    "Comp.Off",
+    "Compen.1",
+    "Compen.2"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 41,
+   "name": "SLoDrvCp",
+   "steps": [
+    "Comp.Off",
+    "Compen.1",
+    "Compen.2"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 42,
+   "name": "SHiDrvCp",
+   "steps": [
+    "Comp.Off",
+    "Compen.1",
+    "Compen.2"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 43,
+   "name": "MonoMkr",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 44,
+   "name": "MMkOn",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 45,
+   "name": "AutoSolo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "bypass-text",
+   "kind": "label",
+   "x": 38.5,
+   "y": 74.34,
+   "w": 53.21,
+   "h": 15.25,
+   "text": {
+    "string": "XL Active",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-1",
+   "kind": "label",
+   "x": 38.0,
+   "y": 158.34,
+   "w": 54.52,
+   "h": 15.25,
+   "text": {
+    "string": "Auto Solo",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-2",
+   "kind": "label",
+   "x": 144.0,
+   "y": 209.34,
+   "w": 28.51,
+   "h": 15.25,
+   "text": {
+    "string": "Solo",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-3",
+   "kind": "label",
+   "x": 144.0,
+   "y": 373.34,
+   "w": 28.51,
+   "h": 15.25,
+   "text": {
+    "string": "Solo",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-4",
+   "kind": "label",
+   "x": 344.0,
+   "y": 209.34,
+   "w": 28.51,
+   "h": 15.25,
+   "text": {
+    "string": "Solo",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-5",
+   "kind": "label",
+   "x": 344.0,
+   "y": 373.34,
+   "w": 28.51,
+   "h": 15.25,
+   "text": {
+    "string": "Solo",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-6",
+   "kind": "label",
+   "x": 144.0,
+   "y": 537.34,
+   "w": 28.51,
+   "h": 15.25,
+   "text": {
+    "string": "Solo",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-7",
+   "kind": "label",
+   "x": 344.0,
+   "y": 537.34,
+   "w": 28.51,
+   "h": 15.25,
+   "text": {
+    "string": "Solo",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-8",
+   "kind": "label",
+   "x": 26.0,
+   "y": 231.34,
+   "w": 29.7,
+   "h": 15.25,
+   "text": {
+    "string": "Gain",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-9",
+   "kind": "label",
+   "x": 77.5,
+   "y": 231.34,
+   "w": 32.03,
+   "h": 15.25,
+   "text": {
+    "string": "Drive",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-10",
+   "kind": "label",
+   "x": 26.0,
+   "y": 395.34,
+   "w": 29.7,
+   "h": 15.25,
+   "text": {
+    "string": "Gain",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-11",
+   "kind": "label",
+   "x": 77.5,
+   "y": 395.34,
+   "w": 32.03,
+   "h": 15.25,
+   "text": {
+    "string": "Drive",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-12",
+   "kind": "label",
+   "x": 460.0,
+   "y": 231.34,
+   "w": 29.7,
+   "h": 15.25,
+   "text": {
+    "string": "Gain",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-13",
+   "kind": "label",
+   "x": 405.5,
+   "y": 231.34,
+   "w": 32.03,
+   "h": 15.25,
+   "text": {
+    "string": "Drive",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-14",
+   "kind": "label",
+   "x": 460.0,
+   "y": 395.34,
+   "w": 29.7,
+   "h": 15.25,
+   "text": {
+    "string": "Gain",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-15",
+   "kind": "label",
+   "x": 405.5,
+   "y": 395.34,
+   "w": 32.03,
+   "h": 15.25,
+   "text": {
+    "string": "Drive",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-16",
+   "kind": "label",
+   "x": 105.5,
+   "y": 74.34,
+   "w": 57.09,
+   "h": 15.25,
+   "text": {
+    "string": "Master XL",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-17",
+   "kind": "label",
+   "x": 147.5,
+   "y": 231.34,
+   "w": 19.76,
+   "h": 15.25,
+   "text": {
+    "string": "XL",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-18",
+   "kind": "label",
+   "x": 147.5,
+   "y": 395.34,
+   "w": 19.76,
+   "h": 15.25,
+   "text": {
+    "string": "XL",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-19",
+   "kind": "label",
+   "x": 347.5,
+   "y": 231.34,
+   "w": 19.76,
+   "h": 15.25,
+   "text": {
+    "string": "XL",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-20",
+   "kind": "label",
+   "x": 347.5,
+   "y": 395.34,
+   "w": 19.76,
+   "h": 15.25,
+   "text": {
+    "string": "XL",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-21",
+   "kind": "label",
+   "x": 346.5,
+   "y": 74.34,
+   "w": 69.36,
+   "h": 15.25,
+   "text": {
+    "string": "Master Drive",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-22",
+   "kind": "label",
+   "x": 244.5,
+   "y": 465.84,
+   "w": 24.58,
+   "h": 15.31,
+   "text": {
+    "string": "Link",
+    "font": "Arial",
+    "size": 10.125,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-23",
+   "kind": "label",
+   "x": 19.5,
+   "y": 583.84,
+   "w": 24.58,
+   "h": 15.31,
+   "text": {
+    "string": "Link",
+    "font": "Arial",
+    "size": 10.125,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-24",
+   "kind": "label",
+   "x": 466.5,
+   "y": 583.84,
+   "w": 24.58,
+   "h": 15.31,
+   "text": {
+    "string": "Link",
+    "font": "Arial",
+    "size": 10.125,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-25",
+   "kind": "label",
+   "x": 222.5,
+   "y": 490.34,
+   "w": 24.13,
+   "h": 15.25,
+   "text": {
+    "string": "Mid",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-26",
+   "kind": "label",
+   "x": 267.0,
+   "y": 490.34,
+   "w": 28.48,
+   "h": 15.25,
+   "text": {
+    "string": "Side",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-27",
+   "kind": "label",
+   "x": 469.5,
+   "y": 46.84,
+   "w": 25.7,
+   "h": 15.31,
+   "text": {
+    "string": "over",
+    "font": "Arial",
+    "size": 10.125,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "mhigain-knob",
+   "kind": "knob",
+   "sprite": "bx_saturator_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 28,
+   "x": 22.0,
+   "y": 271.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "mhidrive-knob",
+   "kind": "knob",
+   "sprite": "bx_saturator_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 36,
+   "x": 75.0,
+   "y": 271.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "mlogain-knob",
+   "kind": "knob",
+   "sprite": "bx_saturator_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 26,
+   "x": 22.0,
+   "y": 435.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "mlodrive-knob",
+   "kind": "knob",
+   "sprite": "bx_saturator_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 35,
+   "x": 75.0,
+   "y": 435.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "shigain-knob",
+   "kind": "knob",
+   "sprite": "bx_saturator_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 32,
+   "x": 456.0,
+   "y": 271.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "shidrive-knob",
+   "kind": "knob",
+   "sprite": "bx_saturator_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 38,
+   "x": 403.0,
+   "y": 271.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "slogain-knob",
+   "kind": "knob",
+   "sprite": "bx_saturator_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 30,
+   "x": 456.0,
+   "y": 435.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "slodrive-knob",
+   "kind": "knob",
+   "sprite": "bx_saturator_v2__KNOBSMALL",
+   "frames": 61,
+   "param": 37,
+   "x": 403.0,
+   "y": 435.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "masterxl-knob",
+   "kind": "knob",
+   "sprite": "bx_saturator_v2__KNOBBIG",
+   "frames": 61,
+   "param": 9,
+   "x": 106.0,
+   "y": 99.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "mstrdrv-knob",
+   "kind": "knob",
+   "sprite": "bx_saturator_v2__KNOBBIG",
+   "frames": 61,
+   "param": 34,
+   "x": 353.0,
+   "y": 99.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "midhixl-knob",
+   "kind": "knob",
+   "sprite": "bx_saturator_v2__KNOBBIG",
+   "frames": 61,
+   "param": 13,
+   "x": 130.0,
+   "y": 254.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "midloxl-knob",
+   "kind": "knob",
+   "sprite": "bx_saturator_v2__KNOBBIG",
+   "frames": 61,
+   "param": 11,
+   "x": 130.0,
+   "y": 418.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "sidehixl-knob",
+   "kind": "knob",
+   "sprite": "bx_saturator_v2__KNOBBIG",
+   "frames": 61,
+   "param": 21,
+   "x": 330.0,
+   "y": 254.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "sideloxl-knob",
+   "kind": "knob",
+   "sprite": "bx_saturator_v2__KNOBBIG",
+   "frames": 61,
+   "param": 19,
+   "x": 330.0,
+   "y": 418.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "opgainm-knob",
+   "kind": "knob",
+   "sprite": "bx_saturator_v2__KNOBBIG",
+   "frames": 61,
+   "param": 3,
+   "x": 66.0,
+   "y": 542.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "opgains-knob",
+   "kind": "knob",
+   "sprite": "bx_saturator_v2__KNOBBIG",
+   "frames": 61,
+   "param": 5,
+   "x": 394.0,
+   "y": 542.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "monomkr-knob",
+   "kind": "knob",
+   "sprite": "bx_saturator_v2__KNOBBIG",
+   "frames": 61,
+   "param": 43,
+   "x": 230.0,
+   "y": 542.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "mhigain-text",
+   "kind": "text",
+   "param": 28,
+   "text": {
+    "size": 12,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 17.0,
+   "y": 310.0,
+   "w": 42.0,
+   "h": 16.0
+  },
+  {
+   "id": "mhidrive-text",
+   "kind": "text",
+   "param": 36,
+   "text": {
+    "size": 12,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 70.0,
+   "y": 310.0,
+   "w": 42.0,
+   "h": 16.0
+  },
+  {
+   "id": "mlogain-text",
+   "kind": "text",
+   "param": 26,
+   "text": {
+    "size": 12,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 17.0,
+   "y": 474.0,
+   "w": 42.0,
+   "h": 16.0
+  },
+  {
+   "id": "mlodrive-text",
+   "kind": "text",
+   "param": 35,
+   "text": {
+    "size": 12,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 70.0,
+   "y": 474.0,
+   "w": 42.0,
+   "h": 16.0
+  },
+  {
+   "id": "shigain-text",
+   "kind": "text",
+   "param": 32,
+   "text": {
+    "size": 12,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 451.0,
+   "y": 310.0,
+   "w": 42.0,
+   "h": 16.0
+  },
+  {
+   "id": "shidrive-text",
+   "kind": "text",
+   "param": 38,
+   "text": {
+    "size": 12,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 398.0,
+   "y": 310.0,
+   "w": 42.0,
+   "h": 16.0
+  },
+  {
+   "id": "slogain-text",
+   "kind": "text",
+   "param": 30,
+   "text": {
+    "size": 12,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 451.0,
+   "y": 474.0,
+   "w": 42.0,
+   "h": 16.0
+  },
+  {
+   "id": "slodrive-text",
+   "kind": "text",
+   "param": 37,
+   "text": {
+    "size": 12,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 398.0,
+   "y": 474.0,
+   "w": 42.0,
+   "h": 16.0
+  },
+  {
+   "id": "masterxl-text",
+   "kind": "text",
+   "param": 9,
+   "text": {
+    "size": 12,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 106.0,
+   "y": 156.0,
+   "w": 50.0,
+   "h": 16.0
+  },
+  {
+   "id": "mstrdrv-text",
+   "kind": "text",
+   "param": 34,
+   "text": {
+    "size": 12,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 353.0,
+   "y": 156.0,
+   "w": 50.0,
+   "h": 16.0
+  },
+  {
+   "id": "midhixl-text",
+   "kind": "text",
+   "param": 13,
+   "text": {
+    "size": 12,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 130.0,
+   "y": 310.0,
+   "w": 50.0,
+   "h": 16.0
+  },
+  {
+   "id": "midloxl-text",
+   "kind": "text",
+   "param": 11,
+   "text": {
+    "size": 12,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 130.0,
+   "y": 474.0,
+   "w": 50.0,
+   "h": 16.0
+  },
+  {
+   "id": "sidehixl-text",
+   "kind": "text",
+   "param": 21,
+   "text": {
+    "size": 12,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 330.0,
+   "y": 310.0,
+   "w": 50.0,
+   "h": 16.0
+  },
+  {
+   "id": "sideloxl-text",
+   "kind": "text",
+   "param": 19,
+   "text": {
+    "size": 12,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 330.0,
+   "y": 474.0,
+   "w": 50.0,
+   "h": 16.0
+  },
+  {
+   "id": "mcrossov-text",
+   "kind": "text",
+   "param": 14,
+   "text": {
+    "size": 12,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 205.0,
+   "y": 208.0,
+   "w": 50.0,
+   "h": 16.0
+  },
+  {
+   "id": "scrossov-text",
+   "kind": "text",
+   "param": 22,
+   "text": {
+    "size": 12,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 255.0,
+   "y": 208.0,
+   "w": 50.0,
+   "h": 16.0
+  },
+  {
+   "id": "opgainm-text",
+   "kind": "text",
+   "param": 3,
+   "text": {
+    "size": 12,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 66.0,
+   "y": 599.0,
+   "w": 50.0,
+   "h": 16.0
+  },
+  {
+   "id": "opgains-text",
+   "kind": "text",
+   "param": 5,
+   "text": {
+    "size": 12,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 394.0,
+   "y": 599.0,
+   "w": 50.0,
+   "h": 16.0
+  },
+  {
+   "id": "monomkr-text",
+   "kind": "text",
+   "param": 43,
+   "text": {
+    "size": 12,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 230.0,
+   "y": 599.0,
+   "w": 50.0,
+   "h": 16.0
+  },
+  {
+   "id": "opgnmon-text-label",
+   "kind": "label",
+   "x": 62.5,
+   "y": 514.54,
+   "w": 62.23,
+   "h": 16.29,
+   "param": 2,
+   "frames": 2,
+   "colors": [
+    "#606060",
+    "#EFEFEF"
+   ],
+   "text": {
+    "string": "M Out Gain",
+    "font": "Arial",
+    "size": 11.0,
+    "align": "left"
+   }
+  },
+  {
+   "id": "opgnmon-text",
+   "kind": "zone",
+   "x": 59.0,
+   "y": 515.0,
+   "w": 64.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 2
+   }
+  },
+  {
+   "id": "opgnson-text-label",
+   "kind": "label",
+   "x": 393.0,
+   "y": 514.54,
+   "w": 60.41,
+   "h": 16.29,
+   "param": 4,
+   "frames": 2,
+   "colors": [
+    "#606060",
+    "#EFEFEF"
+   ],
+   "text": {
+    "string": "S Out Gain",
+    "font": "Arial",
+    "size": 11.0,
+    "align": "left"
+   }
+  },
+  {
+   "id": "opgnson-text",
+   "kind": "zone",
+   "x": 388.0,
+   "y": 515.0,
+   "w": 64.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 4
+   }
+  },
+  {
+   "id": "mmkon-text-label",
+   "kind": "label",
+   "x": 222.0,
+   "y": 515.04,
+   "w": 67.74,
+   "h": 16.29,
+   "param": 44,
+   "frames": 2,
+   "colors": [
+    "#606060",
+    "#AAAAAA"
+   ],
+   "text": {
+    "string": "Mono-Maker",
+    "font": "Arial",
+    "size": 11.0,
+    "align": "left"
+   }
+  },
+  {
+   "id": "mmkon-text",
+   "kind": "zone",
+   "x": 216.0,
+   "y": 515.0,
+   "w": 75.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 44
+   }
+  },
+  {
+   "id": "bank-switch",
+   "kind": "switch",
+   "sprite": "bx_saturator_v2__BUTTONA",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 165.0,
+   "y": 4.0,
+   "w": 21.0,
+   "h": 20.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "bank-switch-1",
+   "kind": "switch",
+   "sprite": "bx_saturator_v2__BUTTONB",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 192.0,
+   "y": 4.0,
+   "w": 21.0,
+   "h": 20.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.333333
+   }
+  },
+  {
+   "id": "bank-switch-2",
+   "kind": "switch",
+   "sprite": "bx_saturator_v2__BUTTONC",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 219.0,
+   "y": 4.0,
+   "w": 21.0,
+   "h": 20.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.666667
+   }
+  },
+  {
+   "id": "bank-switch-3",
+   "kind": "switch",
+   "sprite": "bx_saturator_v2__BUTTOND",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 246.0,
+   "y": 4.0,
+   "w": 21.0,
+   "h": 20.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "mstrxlon-switch",
+   "kind": "switch",
+   "sprite": "bx_saturator_v2__BUTTONBIG",
+   "frames": 2,
+   "param": 8,
+   "orientation": "vertical",
+   "x": 54.0,
+   "y": 92.0,
+   "w": 16.0,
+   "h": 16.0
+  },
+  {
+   "id": "autosolo-switch",
+   "kind": "switch",
+   "sprite": "bx_saturator_v2__BUTTONBIG",
+   "frames": 2,
+   "param": 45,
+   "orientation": "vertical",
+   "x": 54.0,
+   "y": 135.0,
+   "w": 16.0,
+   "h": 16.0
+  },
+  {
+   "id": "midsolo-switch",
+   "kind": "switch",
+   "sprite": "bx_saturator_v2__BUTTONBIG",
+   "frames": 2,
+   "param": 15,
+   "orientation": "vertical",
+   "x": 147.0,
+   "y": 515.0,
+   "w": 16.0,
+   "h": 16.0
+  },
+  {
+   "id": "sidesolo-switch",
+   "kind": "switch",
+   "sprite": "bx_saturator_v2__BUTTONBIG",
+   "frames": 2,
+   "param": 23,
+   "orientation": "vertical",
+   "x": 347.0,
+   "y": 515.0,
+   "w": 16.0,
+   "h": 16.0
+  },
+  {
+   "id": "mhisolo-switch",
+   "kind": "switch",
+   "sprite": "bx_saturator_v2__BUTTONBIG",
+   "frames": 2,
+   "param": 17,
+   "orientation": "vertical",
+   "x": 147.0,
+   "y": 187.0,
+   "w": 16.0,
+   "h": 16.0
+  },
+  {
+   "id": "mlosolo-switch",
+   "kind": "switch",
+   "sprite": "bx_saturator_v2__BUTTONBIG",
+   "frames": 2,
+   "param": 16,
+   "orientation": "vertical",
+   "x": 147.0,
+   "y": 351.0,
+   "w": 16.0,
+   "h": 16.0
+  },
+  {
+   "id": "shisolo-switch",
+   "kind": "switch",
+   "sprite": "bx_saturator_v2__BUTTONBIG",
+   "frames": 2,
+   "param": 25,
+   "orientation": "vertical",
+   "x": 347.0,
+   "y": 187.0,
+   "w": 16.0,
+   "h": 16.0
+  },
+  {
+   "id": "slosolo-switch",
+   "kind": "switch",
+   "sprite": "bx_saturator_v2__BUTTONBIG",
+   "frames": 2,
+   "param": 24,
+   "orientation": "vertical",
+   "x": 347.0,
+   "y": 351.0,
+   "w": 16.0,
+   "h": 16.0
+  },
+  {
+   "id": "lnkingns-switch",
+   "kind": "switch",
+   "sprite": "bx_saturator_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 6,
+   "orientation": "vertical",
+   "x": 49.0,
+   "y": 587.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "lnkingns-switch-1",
+   "kind": "switch",
+   "sprite": "bx_saturator_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 6,
+   "orientation": "vertical",
+   "x": 452.0,
+   "y": 587.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "lnkcross-switch",
+   "kind": "switch",
+   "sprite": "bx_saturator_v2__BUTTONSMALL",
+   "frames": 2,
+   "param": 7,
+   "orientation": "vertical",
+   "x": 250.0,
+   "y": 482.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "bypass-switch",
+   "kind": "switch",
+   "sprite": "bx_saturator_v2__BUTTONBYPASS",
+   "frames": 2,
+   "param": 0,
+   "orientation": "vertical",
+   "x": 4.0,
+   "y": 4.0,
+   "w": 58.0,
+   "h": 20.0
+  },
+  {
+   "id": "cmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "bx_saturator_v2__LABELRESET",
+   "frames": 4,
+   "x": 380.0,
+   "y": 4.0,
+   "w": 59.0,
+   "h": 20.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "mhixlon-switch",
+   "kind": "switch",
+   "sprite": "bx_saturator_v2__LABELMIDHI",
+   "frames": 2,
+   "param": 12,
+   "orientation": "vertical",
+   "x": 38.0,
+   "y": 187.0,
+   "w": 83.0,
+   "h": 16.0
+  },
+  {
+   "id": "mloxlon-switch",
+   "kind": "switch",
+   "sprite": "bx_saturator_v2__LABELMIDLO",
+   "frames": 2,
+   "param": 10,
+   "orientation": "vertical",
+   "x": 38.0,
+   "y": 351.0,
+   "w": 83.0,
+   "h": 16.0
+  },
+  {
+   "id": "shixlon-switch",
+   "kind": "switch",
+   "sprite": "bx_saturator_v2__LABELSIDEHI",
+   "frames": 2,
+   "param": 20,
+   "orientation": "vertical",
+   "x": 389.0,
+   "y": 187.0,
+   "w": 83.0,
+   "h": 16.0
+  },
+  {
+   "id": "sloxlon-switch",
+   "kind": "switch",
+   "sprite": "bx_saturator_v2__LABELSIDELO",
+   "frames": 2,
+   "param": 18,
+   "orientation": "vertical",
+   "x": 389.0,
+   "y": 351.0,
+   "w": 83.0,
+   "h": 16.0
+  },
+  {
+   "id": "cmoviebitmap-led-1",
+   "kind": "filmstrip",
+   "sprite": "bx_saturator_v2__METERBALANCE",
+   "frames": 61,
+   "x": 179.0,
+   "y": 85.0,
+   "w": 151.0,
+   "h": 62.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000000"
+   }
+  },
+  {
+   "id": "mhgnmd-menu",
+   "kind": "menu",
+   "param": 29,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 20.0,
+   "y": 249.0,
+   "w": 36.0,
+   "h": 14.0
+  },
+  {
+   "id": "mlgnmd-menu",
+   "kind": "menu",
+   "param": 27,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 20.0,
+   "y": 413.0,
+   "w": 36.0,
+   "h": 14.0
+  },
+  {
+   "id": "mhgnmd-menu-1",
+   "kind": "menu",
+   "param": 33,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 454.0,
+   "y": 249.0,
+   "w": 36.0,
+   "h": 14.0
+  },
+  {
+   "id": "slgnmd-menu",
+   "kind": "menu",
+   "param": 31,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 454.0,
+   "y": 413.0,
+   "w": 36.0,
+   "h": 14.0
+  },
+  {
+   "id": "mhidrvcp-menu",
+   "kind": "menu",
+   "param": 40,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 61.0,
+   "y": 249.0,
+   "w": 60.0,
+   "h": 14.0
+  },
+  {
+   "id": "mlodrvcp-menu",
+   "kind": "menu",
+   "param": 39,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 61.0,
+   "y": 413.0,
+   "w": 60.0,
+   "h": 14.0
+  },
+  {
+   "id": "shidrvcp-menu",
+   "kind": "menu",
+   "param": 42,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 389.0,
+   "y": 249.0,
+   "w": 60.0,
+   "h": 14.0
+  },
+  {
+   "id": "slodrvcp-menu",
+   "kind": "menu",
+   "param": 41,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 389.0,
+   "y": 413.0,
+   "w": 60.0,
+   "h": 14.0
+  },
+  {
+   "id": "img-cbrainworxmovieclipled",
+   "kind": "filmstrip",
+   "sprite": "J_bx_saturator_v2_img-cbrainworxmovieclipled_clip",
+   "x": 477.0,
+   "y": 58.0,
+   "w": 23.0,
+   "h": 69.0,
+   "frames": 2,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_20000000"
+   }
+  },
+  {
+   "id": "meter-98",
+   "kind": "filmstrip",
+   "sprite": "bx_saturator_v2__METER_BAR",
+   "frames": 33,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000001"
+   },
+   "x": 445.0,
+   "y": 78.0,
+   "w": 11.0,
+   "h": 85.0
+  },
+  {
+   "id": "meter-99",
+   "kind": "filmstrip",
+   "sprite": "bx_saturator_v2__METER_BAR",
+   "frames": 33,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000002"
+   },
+   "x": 459.0,
+   "y": 78.0,
+   "w": 11.0,
+   "h": 85.0
+  },
+  {
+   "id": "v-p22-cap",
+   "kind": "image",
+   "x": 256.0,
+   "y": 428.52,
+   "w": 53.0,
+   "h": 76.0,
+   "sprite": "bx_saturator_v2__FADER",
+   "move": {
+    "y": {
+     "param": 22,
+     "scale": -213.947
+    }
+   }
+  },
+  {
+   "id": "v-p22-drag",
+   "kind": "zone",
+   "gesture": "drag",
+   "param": 22,
+   "x": 257,
+   "y": 209,
+   "w": 45.0,
+   "h": 295.0
+  },
+  {
+   "id": "v-p14-cap",
+   "kind": "image",
+   "x": 210.0,
+   "y": 428.52,
+   "w": 53.0,
+   "h": 76.0,
+   "sprite": "bx_saturator_v2__FADER",
+   "move": {
+    "y": {
+     "param": 14,
+     "scale": -213.947
+    }
+   }
+  },
+  {
+   "id": "v-p14-drag",
+   "kind": "zone",
+   "gesture": "drag",
+   "param": 14,
+   "x": 207,
+   "y": 209,
+   "w": 54.0,
+   "h": 295.0
+  }
+ ],
+ "meterSources": {
+  "led_40000000": {
+   "vendorSpecificFloat": 67108988,
+   "opcode": {
+    "op": 519,
+    "p0": 67108988,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     1.0
+    ],
+    [
+     -96,
+     1.0
+    ],
+    [
+     -80,
+     1.0
+    ],
+    [
+     -72,
+     1.0
+    ],
+    [
+     -60,
+     1.0
+    ],
+    [
+     -54,
+     1.0
+    ],
+    [
+     -48,
+     1.0
+    ],
+    [
+     -42,
+     1.0
+    ],
+    [
+     -40,
+     1.0
+    ],
+    [
+     -36,
+     1.0
+    ],
+    [
+     -30,
+     1.0
+    ],
+    [
+     -27,
+     1.0
+    ],
+    [
+     -24,
+     1.0
+    ],
+    [
+     -21,
+     1.0
+    ],
+    [
+     -20,
+     1.0
+    ],
+    [
+     -18,
+     1.0
+    ],
+    [
+     -15,
+     1.0
+    ],
+    [
+     -12,
+     1.0
+    ],
+    [
+     -10,
+     1.0
+    ],
+    [
+     -9,
+     1.0
+    ],
+    [
+     -8,
+     1.0
+    ],
+    [
+     -7,
+     1.0
+    ],
+    [
+     -6,
+     1.0
+    ],
+    [
+     -5,
+     1.0
+    ],
+    [
+     -4,
+     1.0
+    ],
+    [
+     -3,
+     1.0
+    ],
+    [
+     -2,
+     1.0
+    ],
+    [
+     -1,
+     1.0
+    ],
+    [
+     -0.5,
+     1.0
+    ],
+    [
+     1e-05,
+     0.99999
+    ],
+    [
+     0.0001,
+     0.9999
+    ],
+    [
+     0.0003,
+     0.9997
+    ],
+    [
+     0.001,
+     0.999
+    ],
+    [
+     0.002,
+     0.998
+    ],
+    [
+     0.003,
+     0.997
+    ],
+    [
+     0.005,
+     0.995
+    ],
+    [
+     0.01,
+     0.99
+    ],
+    [
+     0.015,
+     0.985
+    ],
+    [
+     0.02,
+     0.98
+    ],
+    [
+     0.03,
+     0.97
+    ],
+    [
+     0.05,
+     0.95
+    ],
+    [
+     0.07,
+     0.93
+    ],
+    [
+     0.1,
+     0.9
+    ],
+    [
+     0.13,
+     0.87
+    ],
+    [
+     0.15,
+     0.85
+    ],
+    [
+     0.2,
+     0.8
+    ],
+    [
+     0.25,
+     0.75
+    ],
+    [
+     0.3,
+     0.7
+    ],
+    [
+     0.35,
+     0.65
+    ],
+    [
+     0.4,
+     0.6
+    ],
+    [
+     0.45,
+     0.55
+    ],
+    [
+     0.5,
+     0.5
+    ],
+    [
+     0.55,
+     0.45
+    ],
+    [
+     0.6,
+     0.4
+    ],
+    [
+     0.65,
+     0.35
+    ],
+    [
+     0.7,
+     0.3
+    ],
+    [
+     0.75,
+     0.25
+    ],
+    [
+     0.8,
+     0.2
+    ],
+    [
+     0.85,
+     0.15
+    ],
+    [
+     0.9,
+     0.1
+    ],
+    [
+     0.95,
+     0.05
+    ],
+    [
+     1.0,
+     0.0
+    ],
+    [
+     1.12,
+     0.0
+    ],
+    [
+     1.25,
+     0.0
+    ],
+    [
+     1.41,
+     0.0
+    ],
+    [
+     1.6,
+     0.0
+    ],
+    [
+     2,
+     0.0
+    ],
+    [
+     2.5,
+     0.0
+    ],
+    [
+     3,
+     0.0
+    ],
+    [
+     4,
+     0.0
+    ],
+    [
+     5,
+     0.0
+    ],
+    [
+     6,
+     0.0
+    ],
+    [
+     8,
+     0.0
+    ],
+    [
+     10,
+     0.0
+    ],
+    [
+     12,
+     0.0
+    ],
+    [
+     15,
+     0.0
+    ],
+    [
+     20,
+     0.0
+    ],
+    [
+     30,
+     0.0
+    ],
+    [
+     50,
+     0.0
+    ],
+    [
+     100,
+     0.0
+    ]
+   ]
+  },
+  "meter_40000002": {
+   "vendorSpecificFloat": 67108987,
+   "opcode": {
+    "op": 519,
+    "p0": 67108987,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     0.0
+    ],
+    [
+     0.05,
+     0.0
+    ],
+    [
+     0.07,
+     0.00789
+    ],
+    [
+     0.1,
+     0.04217
+    ],
+    [
+     0.13,
+     0.07645
+    ],
+    [
+     0.15,
+     0.0993
+    ],
+    [
+     0.2,
+     0.15644
+    ],
+    [
+     0.25,
+     0.21357
+    ],
+    [
+     0.3,
+     0.27071
+    ],
+    [
+     0.35,
+     0.32784
+    ],
+    [
+     0.4,
+     0.37598
+    ],
+    [
+     0.45,
+     0.42318
+    ],
+    [
+     0.5,
+     0.47038
+    ],
+    [
+     0.55,
+     0.51757
+    ],
+    [
+     0.6,
+     0.56477
+    ],
+    [
+     0.65,
+     0.61196
+    ],
+    [
+     0.7,
+     0.65916
+    ],
+    [
+     0.75,
+     0.71466
+    ],
+    [
+     0.8,
+     0.77173
+    ],
+    [
+     0.85,
+     0.8288
+    ],
+    [
+     0.9,
+     0.88586
+    ],
+    [
+     0.95,
+     0.94293
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "meter_40000001": {
+   "vendorSpecificFloat": 67108986,
+   "opcode": {
+    "op": 519,
+    "p0": 67108986,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     0.0
+    ],
+    [
+     0.05,
+     0.0
+    ],
+    [
+     0.07,
+     0.00789
+    ],
+    [
+     0.1,
+     0.04217
+    ],
+    [
+     0.13,
+     0.07645
+    ],
+    [
+     0.15,
+     0.0993
+    ],
+    [
+     0.2,
+     0.15644
+    ],
+    [
+     0.25,
+     0.21357
+    ],
+    [
+     0.3,
+     0.27071
+    ],
+    [
+     0.35,
+     0.32784
+    ],
+    [
+     0.4,
+     0.37598
+    ],
+    [
+     0.45,
+     0.42318
+    ],
+    [
+     0.5,
+     0.47038
+    ],
+    [
+     0.55,
+     0.51757
+    ],
+    [
+     0.6,
+     0.56477
+    ],
+    [
+     0.65,
+     0.61196
+    ],
+    [
+     0.7,
+     0.65916
+    ],
+    [
+     0.75,
+     0.71466
+    ],
+    [
+     0.8,
+     0.77173
+    ],
+    [
+     0.85,
+     0.8288
+    ],
+    [
+     0.9,
+     0.88586
+    ],
+    [
+     0.95,
+     0.94293
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "sat_out_l": {
+   "vendorSpecificFloat": 67108986,
+   "opcode": {
+    "op": 519,
+    "p0": 67108986,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     2.0,
+     1.0
+    ]
+   ]
+  },
+  "sat_out_r": {
+   "vendorSpecificFloat": 67108987,
+   "opcode": {
+    "op": 519,
+    "p0": 67108987,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     2.0,
+     1.0
+    ]
+   ]
+  },
+  "led_20000000": {
+   "combine": {
+    "op": "max",
+    "meters": [
+     "sat_out_l",
+     "sat_out_r"
+    ]
+   },
+   "calibration": [
+    [
+     0.4999,
+     0.0
+    ],
+    [
+     0.5,
+     1.0
+    ]
+   ]
+  }
+ }
+}

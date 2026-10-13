@@ -1,0 +1,1336 @@
+{
+ "schema": 2,
+ "effectName": "UAD Tube-Tech PE 1C",
+ "namePattern": "Tube-Tech PE 1C",
+ "size": {
+  "w": 816,
+  "h": 289
+ },
+ "background": null,
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Low Boost",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Low Atten",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Low Frequency",
+   "steps": [
+    "20",
+    "30",
+    "60",
+    "100"
+   ],
+   "default": 0.3333329856395721
+  },
+  {
+   "index": 3,
+   "name": "High Bandwidth",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "High Boost",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "High Frequency",
+   "steps": [
+    "1",
+    "1.5",
+    "2",
+    "3",
+    "4",
+    "5",
+    "8",
+    "10",
+    "12",
+    "16"
+   ],
+   "default": 0.4444440007209778
+  },
+  {
+   "index": 6,
+   "name": "High Atten",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "High Atten Sel",
+   "steps": [
+    "5",
+    "10",
+    "20"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 8,
+   "name": "Output Gain",
+   "steps": null,
+   "default": 0.4949490129947662
+  },
+  {
+   "index": 9,
+   "name": "Mode",
+   "steps": [
+    "Bypass",
+    "Active"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {},
+ "elements": [
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 816,
+   "h": 24,
+   "toolbar": {
+    "family": "softube",
+    "items": [
+     {
+      "type": "switch",
+      "x": 634.0,
+      "y": 6.0,
+      "w": 30,
+      "h": 12,
+      "param": 9,
+      "sprite": "chrome.softube.toggle",
+      "frames": 2,
+      "glyph": "power"
+     },
+     {
+      "type": "gear",
+      "x": 704.0,
+      "y": 6.5,
+      "w": 11.0,
+      "h": 11.5,
+      "color": "#E5E5E5"
+     },
+     {
+      "type": "rect",
+      "x": 726.0,
+      "y": 0,
+      "w": 90.0,
+      "h": 24,
+      "color": "#019C74"
+     },
+     {
+      "type": "icon",
+      "x": 742.0,
+      "y": 6.5,
+      "w": 58.0,
+      "h": 11.0,
+      "sprite": "chrome.softube.logo",
+      "frames": 1,
+      "glyph": "Softube",
+      "color": "#E5F5F0"
+     }
+    ]
+   }
+  },
+  {
+   "id": "panel-background",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 816,
+   "h": 265,
+   "sprite": "STB_Tube_Tech_PE_1C_1001"
+  },
+  {
+   "id": "knob-4-1004",
+   "kind": "knob",
+   "x": 427,
+   "y": 55,
+   "w": 97,
+   "h": 97.0,
+   "sprite": "STB_Tube_Tech_PE_1C_1004",
+   "frames": 100,
+   "param": 4
+  },
+  {
+   "id": "knob-6-1003",
+   "kind": "knob",
+   "x": 534,
+   "y": 55,
+   "w": 97,
+   "h": 97.0,
+   "sprite": "STB_Tube_Tech_PE_1C_1003",
+   "frames": 100,
+   "param": 6
+  },
+  {
+   "id": "knob-0-1007",
+   "kind": "knob",
+   "x": 173,
+   "y": 55,
+   "w": 97,
+   "h": 97.0,
+   "sprite": "STB_Tube_Tech_PE_1C_1007",
+   "frames": 100,
+   "param": 0
+  },
+  {
+   "id": "knob-1-1006",
+   "kind": "knob",
+   "x": 280,
+   "y": 55,
+   "w": 97,
+   "h": 97.0,
+   "sprite": "STB_Tube_Tech_PE_1C_1006",
+   "frames": 100,
+   "param": 1
+  },
+  {
+   "id": "knob-3-1002",
+   "kind": "knob",
+   "x": 354,
+   "y": 162,
+   "w": 97,
+   "h": 97.0,
+   "sprite": "STB_Tube_Tech_PE_1C_1002",
+   "frames": 100,
+   "param": 3
+  },
+  {
+   "id": "knob-8-1009",
+   "kind": "knob",
+   "x": 677,
+   "y": 174,
+   "w": 69,
+   "h": 69.0,
+   "sprite": "STB_Tube_Tech_PE_1C_1009",
+   "frames": 100,
+   "param": 8
+  },
+  {
+   "id": "knob-5-1005",
+   "kind": "knob",
+   "x": 472,
+   "y": 162,
+   "w": 114,
+   "h": 114.0,
+   "sprite": "STB_Tube_Tech_PE_1C_1005",
+   "frames": 10,
+   "param": 5
+  },
+  {
+   "id": "knob-2-1008",
+   "kind": "knob",
+   "x": 219,
+   "y": 162,
+   "w": 114,
+   "h": 114.0,
+   "sprite": "STB_Tube_Tech_PE_1C_1008",
+   "frames": 4,
+   "param": 2
+  },
+  {
+   "id": "switch-7-1000",
+   "kind": "switch",
+   "x": 654,
+   "y": 55,
+   "w": 119,
+   "h": 119.0,
+   "sprite": "STB_Tube_Tech_PE_1C_1000",
+   "frames": 3,
+   "param": 7
+  },
+  {
+   "id": "zone-6-0",
+   "kind": "zone",
+   "x": 532,
+   "y": 124,
+   "w": 27,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.060606
+   }
+  },
+  {
+   "id": "zone-6-1",
+   "kind": "zone",
+   "x": 528,
+   "y": 105,
+   "w": 24,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.148485
+   }
+  },
+  {
+   "id": "zone-6-2",
+   "kind": "zone",
+   "x": 525,
+   "y": 84,
+   "w": 26,
+   "h": 19,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.236364
+   }
+  },
+  {
+   "id": "zone-6-3",
+   "kind": "zone",
+   "x": 536,
+   "y": 64,
+   "w": 23,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.324242
+   }
+  },
+  {
+   "id": "zone-6-4",
+   "kind": "zone",
+   "x": 552,
+   "y": 55,
+   "w": 23,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.412121
+   }
+  },
+  {
+   "id": "zone-6-5",
+   "kind": "zone",
+   "x": 576,
+   "y": 54,
+   "w": 19,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "zone-6-6",
+   "kind": "zone",
+   "x": 595,
+   "y": 57,
+   "w": 22,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.587879
+   }
+  },
+  {
+   "id": "zone-6-7",
+   "kind": "zone",
+   "x": 610,
+   "y": 71,
+   "w": 24,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.675758
+   }
+  },
+  {
+   "id": "zone-6-8",
+   "kind": "zone",
+   "x": 614,
+   "y": 85,
+   "w": 21,
+   "h": 17,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.763636
+   }
+  },
+  {
+   "id": "zone-6-9",
+   "kind": "zone",
+   "x": 615,
+   "y": 103,
+   "w": 21,
+   "h": 20,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.851515
+   }
+  },
+  {
+   "id": "zone-6-10",
+   "kind": "zone",
+   "x": 603,
+   "y": 123,
+   "w": 27,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.939394
+   }
+  },
+  {
+   "id": "zone-4-11",
+   "kind": "zone",
+   "x": 425,
+   "y": 124,
+   "w": 27,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.060606
+   }
+  },
+  {
+   "id": "zone-4-12",
+   "kind": "zone",
+   "x": 421,
+   "y": 105,
+   "w": 24,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.148485
+   }
+  },
+  {
+   "id": "zone-4-13",
+   "kind": "zone",
+   "x": 418,
+   "y": 84,
+   "w": 26,
+   "h": 19,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.236364
+   }
+  },
+  {
+   "id": "zone-4-14",
+   "kind": "zone",
+   "x": 429,
+   "y": 64,
+   "w": 23,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.324242
+   }
+  },
+  {
+   "id": "zone-4-15",
+   "kind": "zone",
+   "x": 445,
+   "y": 55,
+   "w": 23,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.412121
+   }
+  },
+  {
+   "id": "zone-4-16",
+   "kind": "zone",
+   "x": 469,
+   "y": 54,
+   "w": 19,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "zone-4-17",
+   "kind": "zone",
+   "x": 488,
+   "y": 57,
+   "w": 22,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.587879
+   }
+  },
+  {
+   "id": "zone-4-18",
+   "kind": "zone",
+   "x": 503,
+   "y": 71,
+   "w": 24,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.675758
+   }
+  },
+  {
+   "id": "zone-4-19",
+   "kind": "zone",
+   "x": 507,
+   "y": 85,
+   "w": 21,
+   "h": 17,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.763636
+   }
+  },
+  {
+   "id": "zone-4-20",
+   "kind": "zone",
+   "x": 508,
+   "y": 103,
+   "w": 21,
+   "h": 20,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.851515
+   }
+  },
+  {
+   "id": "zone-4-21",
+   "kind": "zone",
+   "x": 496,
+   "y": 123,
+   "w": 27,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.939394
+   }
+  },
+  {
+   "id": "zone-1-22",
+   "kind": "zone",
+   "x": 278,
+   "y": 124,
+   "w": 27,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.060606
+   }
+  },
+  {
+   "id": "zone-1-23",
+   "kind": "zone",
+   "x": 274,
+   "y": 105,
+   "w": 24,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.148485
+   }
+  },
+  {
+   "id": "zone-1-24",
+   "kind": "zone",
+   "x": 271,
+   "y": 84,
+   "w": 26,
+   "h": 19,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.236364
+   }
+  },
+  {
+   "id": "zone-1-25",
+   "kind": "zone",
+   "x": 282,
+   "y": 64,
+   "w": 23,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.324242
+   }
+  },
+  {
+   "id": "zone-1-26",
+   "kind": "zone",
+   "x": 298,
+   "y": 55,
+   "w": 23,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.412121
+   }
+  },
+  {
+   "id": "zone-1-27",
+   "kind": "zone",
+   "x": 322,
+   "y": 54,
+   "w": 19,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "zone-1-28",
+   "kind": "zone",
+   "x": 341,
+   "y": 57,
+   "w": 22,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.587879
+   }
+  },
+  {
+   "id": "zone-1-29",
+   "kind": "zone",
+   "x": 356,
+   "y": 71,
+   "w": 24,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.675758
+   }
+  },
+  {
+   "id": "zone-1-30",
+   "kind": "zone",
+   "x": 360,
+   "y": 85,
+   "w": 21,
+   "h": 17,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.763636
+   }
+  },
+  {
+   "id": "zone-1-31",
+   "kind": "zone",
+   "x": 361,
+   "y": 103,
+   "w": 21,
+   "h": 20,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.851515
+   }
+  },
+  {
+   "id": "zone-1-32",
+   "kind": "zone",
+   "x": 349,
+   "y": 123,
+   "w": 27,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.939394
+   }
+  },
+  {
+   "id": "zone-0-33",
+   "kind": "zone",
+   "x": 171,
+   "y": 124,
+   "w": 27,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.060606
+   }
+  },
+  {
+   "id": "zone-0-34",
+   "kind": "zone",
+   "x": 167,
+   "y": 105,
+   "w": 24,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.148485
+   }
+  },
+  {
+   "id": "zone-0-35",
+   "kind": "zone",
+   "x": 164,
+   "y": 84,
+   "w": 26,
+   "h": 19,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.236364
+   }
+  },
+  {
+   "id": "zone-0-36",
+   "kind": "zone",
+   "x": 175,
+   "y": 64,
+   "w": 23,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.324242
+   }
+  },
+  {
+   "id": "zone-0-37",
+   "kind": "zone",
+   "x": 191,
+   "y": 55,
+   "w": 23,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.412121
+   }
+  },
+  {
+   "id": "zone-0-38",
+   "kind": "zone",
+   "x": 215,
+   "y": 54,
+   "w": 19,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "zone-0-39",
+   "kind": "zone",
+   "x": 234,
+   "y": 57,
+   "w": 22,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.587879
+   }
+  },
+  {
+   "id": "zone-0-40",
+   "kind": "zone",
+   "x": 249,
+   "y": 71,
+   "w": 24,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.675758
+   }
+  },
+  {
+   "id": "zone-0-41",
+   "kind": "zone",
+   "x": 253,
+   "y": 85,
+   "w": 21,
+   "h": 17,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.763636
+   }
+  },
+  {
+   "id": "zone-0-42",
+   "kind": "zone",
+   "x": 254,
+   "y": 103,
+   "w": 21,
+   "h": 20,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.851515
+   }
+  },
+  {
+   "id": "zone-0-43",
+   "kind": "zone",
+   "x": 242,
+   "y": 123,
+   "w": 27,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.939394
+   }
+  },
+  {
+   "id": "zone-3-44",
+   "kind": "zone",
+   "x": 330,
+   "y": 231,
+   "w": 47,
+   "h": 20,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.060606
+   }
+  },
+  {
+   "id": "zone-3-45",
+   "kind": "zone",
+   "x": 348,
+   "y": 212,
+   "w": 24,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.148485
+   }
+  },
+  {
+   "id": "zone-3-46",
+   "kind": "zone",
+   "x": 345,
+   "y": 191,
+   "w": 26,
+   "h": 19,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.236364
+   }
+  },
+  {
+   "id": "zone-3-47",
+   "kind": "zone",
+   "x": 356,
+   "y": 171,
+   "w": 23,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.324242
+   }
+  },
+  {
+   "id": "zone-3-48",
+   "kind": "zone",
+   "x": 372,
+   "y": 162,
+   "w": 23,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.412121
+   }
+  },
+  {
+   "id": "zone-3-49",
+   "kind": "zone",
+   "x": 396,
+   "y": 161,
+   "w": 19,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "zone-3-50",
+   "kind": "zone",
+   "x": 415,
+   "y": 164,
+   "w": 22,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.587879
+   }
+  },
+  {
+   "id": "zone-3-51",
+   "kind": "zone",
+   "x": 430,
+   "y": 178,
+   "w": 24,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.675758
+   }
+  },
+  {
+   "id": "zone-3-52",
+   "kind": "zone",
+   "x": 434,
+   "y": 192,
+   "w": 21,
+   "h": 17,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.763636
+   }
+  },
+  {
+   "id": "zone-3-53",
+   "kind": "zone",
+   "x": 435,
+   "y": 210,
+   "w": 21,
+   "h": 20,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.851515
+   }
+  },
+  {
+   "id": "zone-3-54",
+   "kind": "zone",
+   "x": 426,
+   "y": 230,
+   "w": 51,
+   "h": 21,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.939394
+   }
+  },
+  {
+   "id": "zone-2-55",
+   "kind": "zone",
+   "x": 222,
+   "y": 167,
+   "w": 27,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-2-56",
+   "kind": "zone",
+   "x": 248,
+   "y": 151,
+   "w": 27,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.333333
+   }
+  },
+  {
+   "id": "zone-2-57",
+   "kind": "zone",
+   "x": 278,
+   "y": 151,
+   "w": 27,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.666667
+   }
+  },
+  {
+   "id": "zone-2-58",
+   "kind": "zone",
+   "x": 305,
+   "y": 167,
+   "w": 27,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-5-59",
+   "kind": "zone",
+   "x": 474,
+   "y": 240,
+   "w": 27,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-5-60",
+   "kind": "zone",
+   "x": 463,
+   "y": 217,
+   "w": 27,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.111111
+   }
+  },
+  {
+   "id": "zone-5-61",
+   "kind": "zone",
+   "x": 462,
+   "y": 190,
+   "w": 27,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.222222
+   }
+  },
+  {
+   "id": "zone-5-62",
+   "kind": "zone",
+   "x": 475,
+   "y": 165,
+   "w": 27,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.333333
+   }
+  },
+  {
+   "id": "zone-5-63",
+   "kind": "zone",
+   "x": 498,
+   "y": 154,
+   "w": 27,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.444444
+   }
+  },
+  {
+   "id": "zone-5-64",
+   "kind": "zone",
+   "x": 536,
+   "y": 152,
+   "w": 27,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.555556
+   }
+  },
+  {
+   "id": "zone-5-65",
+   "kind": "zone",
+   "x": 563,
+   "y": 166,
+   "w": 27,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.666667
+   }
+  },
+  {
+   "id": "zone-5-66",
+   "kind": "zone",
+   "x": 572,
+   "y": 190,
+   "w": 27,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.777778
+   }
+  },
+  {
+   "id": "zone-5-67",
+   "kind": "zone",
+   "x": 567,
+   "y": 219,
+   "w": 27,
+   "h": 18,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.888889
+   }
+  },
+  {
+   "id": "zone-5-68",
+   "kind": "zone",
+   "x": 559,
+   "y": 238,
+   "w": 27,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-7-69",
+   "kind": "zone",
+   "x": 681,
+   "y": 55,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-7-70",
+   "kind": "zone",
+   "x": 703,
+   "y": 52,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "zone-7-71",
+   "kind": "zone",
+   "x": 724,
+   "y": 55,
+   "w": 15,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-8-72",
+   "kind": "zone",
+   "x": 681,
+   "y": 225,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.020202
+   }
+  },
+  {
+   "id": "zone-8-73",
+   "kind": "zone",
+   "x": 674,
+   "y": 210,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.115152
+   }
+  },
+  {
+   "id": "zone-8-74",
+   "kind": "zone",
+   "x": 673,
+   "y": 197,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.210101
+   }
+  },
+  {
+   "id": "zone-8-75",
+   "kind": "zone",
+   "x": 677,
+   "y": 180,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.305051
+   }
+  },
+  {
+   "id": "zone-8-76",
+   "kind": "zone",
+   "x": 689,
+   "y": 172,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "zone-8-77",
+   "kind": "zone",
+   "x": 704,
+   "y": 170,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.494949
+   }
+  },
+  {
+   "id": "zone-8-78",
+   "kind": "zone",
+   "x": 717,
+   "y": 172,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.589899
+   }
+  },
+  {
+   "id": "zone-8-79",
+   "kind": "zone",
+   "x": 730,
+   "y": 181,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.684848
+   }
+  },
+  {
+   "id": "zone-8-80",
+   "kind": "zone",
+   "x": 736,
+   "y": 196,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.779798
+   }
+  },
+  {
+   "id": "zone-8-81",
+   "kind": "zone",
+   "x": 735,
+   "y": 211,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.874747
+   }
+  },
+  {
+   "id": "zone-8-82",
+   "kind": "zone",
+   "x": 728,
+   "y": 226,
+   "w": 13,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.969697
+   }
+  }
+ ]
+}

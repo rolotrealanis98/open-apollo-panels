@@ -1,0 +1,1229 @@
+{
+ "schema": 2,
+ "effectName": "UAD Neve 1073",
+ "namePattern": "Neve 1073",
+ "size": {
+  "w": 330,
+  "h": 662
+ },
+ "background": "UA_Neve1073New_PANEL",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Input Select",
+   "steps": [
+    "Line",
+    "Mic"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Impedance",
+   "steps": [
+    "Lo",
+    "Hi"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 2,
+   "name": "Pad",
+   "steps": [
+    "0 dB",
+    "-20 dB"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Line Gain",
+   "steps": [
+    "L -20 dB",
+    "L -15 dB",
+    "L -10 dB",
+    "L  -5 dB",
+    "L   0 dB",
+    "L  +5 dB",
+    "L +10 dB",
+    "Off"
+   ],
+   "default": 0.5714285969734192
+  },
+  {
+   "index": 4,
+   "name": "Mic Gain",
+   "steps": [
+    "M -20 dB",
+    "M -25 dB",
+    "M -30 dB",
+    "M -35 dB",
+    "M -40 dB",
+    "M -45 dB",
+    "M -50 dB",
+    "Off",
+    "M -55 dB",
+    "M -60 dB",
+    "M -65 dB",
+    "M -70 dB",
+    "M -75 dB",
+    "M -80 dB"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "HF Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "MF Freq",
+   "steps": [
+    "Off",
+    "0.36 kHz",
+    "0.7 kHz",
+    "1.6 kHz",
+    "3.2 kHz",
+    "4.8 kHz",
+    "7.2 kHz"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "MF Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 8,
+   "name": "LF Freq",
+   "steps": [
+    "Off",
+    "35 Hz",
+    "60 Hz",
+    "110 Hz",
+    "220 Hz"
+   ],
+   "default": 0.75
+  },
+  {
+   "index": 9,
+   "name": "LF Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "HP Filt",
+   "steps": [
+    "Off",
+    "50 Hz",
+    "80 Hz",
+    "160 Hz",
+    "300 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "EQL",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "Phase",
+   "steps": [
+    "Normal",
+    "Inverted"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "Level",
+   "steps": null,
+   "default": 0.75897216796875
+  },
+  {
+   "index": 14,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 15,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {},
+ "elements": [
+  {
+   "id": "background-image",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 330.0,
+   "h": 662.0,
+   "kind": "image",
+   "sprite": "UA_Neve1073New_PANEL"
+  },
+  {
+   "id": "mic-knob",
+   "x": 46.0,
+   "y": 76.0,
+   "w": 116.0,
+   "h": 102.0,
+   "kind": "knob",
+   "param": 4,
+   "sprite": "UA_Neve1073New_knob_INPUT_MicOnly",
+   "frames": 14,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "line-knob",
+   "x": 46,
+   "y": 76,
+   "w": 116,
+   "h": 102,
+   "kind": "knob",
+   "param": 3,
+   "sprite": "UA_Neve1073New_knob_INPUT_LineOnly",
+   "frames": 8,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "input-select-ctv-line",
+   "x": 127,
+   "y": 72,
+   "w": 22,
+   "h": 15,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "input-select-ctv-mic",
+   "x": 50,
+   "y": 159,
+   "w": 24,
+   "h": 15,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "input-select-ctv-mic-0-0",
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "x": 98.0,
+   "y": 75,
+   "w": 12.0,
+   "h": 16
+  },
+  {
+   "id": "input-select-ctv-mic-1-0",
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "x": 88.0,
+   "y": 81,
+   "w": 10.0,
+   "h": 10
+  },
+  {
+   "id": "input-select-ctv-mic-2-0",
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "x": 77.0,
+   "y": 79,
+   "w": 12.0,
+   "h": 16
+  },
+  {
+   "id": "input-select-ctv-mic-3-0",
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "x": 72.0,
+   "y": 91,
+   "w": 10.0,
+   "h": 10
+  },
+  {
+   "id": "input-select-ctv-mic-4-0",
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "x": 57.0,
+   "y": 98,
+   "w": 20.0,
+   "h": 11
+  },
+  {
+   "id": "input-select-ctv-mic-5-0",
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "x": 63.0,
+   "y": 109,
+   "w": 10.0,
+   "h": 10
+  },
+  {
+   "id": "input-select-ctv-mic-6-0",
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "x": 47.0,
+   "y": 117,
+   "w": 25.0,
+   "h": 11
+  },
+  {
+   "id": "input-select-ctv-mic-7-0",
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "x": 52.0,
+   "y": 127,
+   "w": 21.0,
+   "h": 11
+  },
+  {
+   "id": "input-select-ctv-mic-8-0",
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "x": 66.0,
+   "y": 137,
+   "w": 10.0,
+   "h": 10
+  },
+  {
+   "id": "input-select-ctv-mic-9-0",
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "x": 62.0,
+   "y": 144,
+   "w": 20.0,
+   "h": 12
+  },
+  {
+   "id": "input-select-ctv-mic-10-0",
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "x": 80.0,
+   "y": 151,
+   "w": 10.0,
+   "h": 10
+  },
+  {
+   "id": "input-select-ctv-mic-11-0",
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "x": 87.0,
+   "y": 155,
+   "w": 12.0,
+   "h": 18
+  },
+  {
+   "id": "input-select-ctv-mic-12-0",
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "x": 99.0,
+   "y": 156,
+   "w": 10.0,
+   "h": 10
+  },
+  {
+   "id": "input-select-ctv-mic-13-0",
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   },
+   "x": 108.0,
+   "y": 155,
+   "w": 15.0,
+   "h": 18
+  },
+  {
+   "id": "input-select-ctv-line-0",
+   "x": 126,
+   "y": 86,
+   "w": 18,
+   "h": 15,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "input-select-ctv-line-1",
+   "x": 133,
+   "y": 98,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.142857
+   }
+  },
+  {
+   "id": "input-select-ctv-line-2",
+   "x": 136,
+   "y": 107,
+   "w": 17,
+   "h": 12,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.285714
+   }
+  },
+  {
+   "id": "input-select-ctv-line-3",
+   "x": 138,
+   "y": 118,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.428571
+   }
+  },
+  {
+   "id": "input-select-ctv-line-4",
+   "x": 137,
+   "y": 129,
+   "w": 14,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.571429
+   }
+  },
+  {
+   "id": "input-select-ctv-line-5",
+   "x": 133,
+   "y": 137,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.714286
+   }
+  },
+  {
+   "id": "input-select-ctv-line-7",
+   "x": 119,
+   "y": 153,
+   "w": 25,
+   "h": 12,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "input-select-ctv-line-6",
+   "x": 122,
+   "y": 146,
+   "w": 28,
+   "h": 10,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.857143
+   }
+  },
+  {
+   "id": "hf-gain-knob",
+   "x": 46,
+   "y": 178,
+   "w": 116,
+   "h": 86,
+   "kind": "knob",
+   "param": 5,
+   "sprite": "UA_Neve1073_knob_HFGAIN",
+   "frames": 109
+  },
+  {
+   "id": "hf-gain-ctv-0",
+   "x": 99,
+   "y": 250,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "mf-freq-knob",
+   "x": 46,
+   "y": 264,
+   "w": 116,
+   "h": 94,
+   "kind": "knob",
+   "param": 6,
+   "sprite": "UA_Neve1073New_knob_MFFREQ",
+   "frames": 7
+  },
+  {
+   "id": "lf-freq-knob",
+   "x": 46,
+   "y": 358,
+   "w": 116,
+   "h": 94,
+   "kind": "knob",
+   "param": 8,
+   "sprite": "UA_Neve1073New_knob_LFFREQ",
+   "frames": 5
+  },
+  {
+   "id": "lo-cut-knob",
+   "x": 46,
+   "y": 451,
+   "w": 116,
+   "h": 102,
+   "kind": "knob",
+   "param": 10,
+   "sprite": "UA_Neve1073_knob_LOCUT",
+   "frames": 5
+  },
+  {
+   "id": "mf-freq-knob-ctv-0",
+   "x": 138,
+   "y": 305,
+   "w": 24,
+   "h": 13,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "mf-freq-knob-ctv-1",
+   "x": 133,
+   "y": 325,
+   "w": 20,
+   "h": 13,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.166667
+   }
+  },
+  {
+   "id": "mf-freq-knob-ctv-2",
+   "x": 118,
+   "y": 341,
+   "w": 16,
+   "h": 16,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.333333
+   }
+  },
+  {
+   "id": "mf-freq-knob-ctv-3",
+   "x": 96,
+   "y": 345,
+   "w": 18,
+   "h": 17,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "mf-freq-knob-ctv-4",
+   "x": 73,
+   "y": 341,
+   "w": 18,
+   "h": 16,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.666667
+   }
+  },
+  {
+   "id": "mf-freq-knob-ctv-5",
+   "x": 53,
+   "y": 325,
+   "w": 22,
+   "h": 12,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.833333
+   }
+  },
+  {
+   "id": "mf-freq-knob-ctv-6",
+   "x": 50,
+   "y": 305,
+   "w": 21,
+   "h": 13,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "mf-gain-ctv-0",
+   "x": 99,
+   "y": 344,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "mf-freq-khz",
+   "x": 46,
+   "y": 343,
+   "w": 23,
+   "h": 11,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "nudge",
+    "param": 6,
+    "delta": 0.1667
+   }
+  },
+  {
+   "id": "mf-freq-symbol",
+   "x": 138,
+   "y": 343,
+   "w": 23,
+   "h": 11,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "nudge",
+    "param": 6,
+    "delta": 0.1667
+   }
+  },
+  {
+   "id": "lf-freq-knob-ctv-0",
+   "x": 138,
+   "y": 399,
+   "w": 24,
+   "h": 13,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "lf-freq-knob-ctv-1",
+   "x": 133,
+   "y": 419,
+   "w": 20,
+   "h": 13,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "lf-freq-knob-ctv-2",
+   "x": 118,
+   "y": 435,
+   "w": 16,
+   "h": 16,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "lf-freq-knob-ctv-3",
+   "x": 96,
+   "y": 439,
+   "w": 18,
+   "h": 17,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "lf-freq-knob-ctv-4",
+   "x": 73,
+   "y": 435,
+   "w": 18,
+   "h": 16,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "lf-gain-ctv-0",
+   "x": 99,
+   "y": 438,
+   "w": 10,
+   "h": 10,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "lf-freq-hz",
+   "x": 46,
+   "y": 437,
+   "w": 23,
+   "h": 11,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "nudge",
+    "param": 8,
+    "delta": 0.25
+   }
+  },
+  {
+   "id": "lf-freq-symbol",
+   "x": 138,
+   "y": 437,
+   "w": 23,
+   "h": 11,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "nudge",
+    "param": 8,
+    "delta": 0.25
+   }
+  },
+  {
+   "id": "mf-gain-knob",
+   "x": 46,
+   "y": 264,
+   "w": 116,
+   "h": 94,
+   "kind": "knob",
+   "param": 7,
+   "sprite": "UA_Neve1073New_knob_CENTER",
+   "frames": 109
+  },
+  {
+   "id": "lf-gain-knob",
+   "x": 46,
+   "y": 358,
+   "w": 116,
+   "h": 94,
+   "kind": "knob",
+   "param": 9,
+   "sprite": "UA_Neve1073New_knob_CENTER",
+   "frames": 109
+  },
+  {
+   "id": "lo-cut-knob-ctv-0",
+   "x": 138,
+   "y": 492,
+   "w": 24,
+   "h": 13,
+   "kind": "zone",
+   "param": 10,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "lo-cut-knob-ctv-1",
+   "x": 133,
+   "y": 512,
+   "w": 20,
+   "h": 13,
+   "kind": "zone",
+   "param": 10,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "lo-cut-knob-ctv-2",
+   "x": 118,
+   "y": 528,
+   "w": 16,
+   "h": 16,
+   "kind": "zone",
+   "param": 10,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "lo-cut-knob-ctv-3",
+   "x": 96,
+   "y": 532,
+   "w": 18,
+   "h": 17,
+   "kind": "zone",
+   "param": 10,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "lo-cut-knob-ctv-4",
+   "x": 73,
+   "y": 528,
+   "w": 18,
+   "h": 16,
+   "kind": "zone",
+   "param": 10,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "lo-cut-hz",
+   "x": 46,
+   "y": 532,
+   "w": 23,
+   "h": 11,
+   "kind": "zone",
+   "param": 10,
+   "action": {
+    "type": "nudge",
+    "param": 10,
+    "delta": 0.25
+   }
+  },
+  {
+   "id": "lo-cut-symbol",
+   "x": 138,
+   "y": 532,
+   "w": 23,
+   "h": 11,
+   "kind": "zone",
+   "param": 10,
+   "action": {
+    "type": "nudge",
+    "param": 10,
+    "delta": 0.25
+   }
+  },
+  {
+   "id": "eql-phase-filmstrip",
+   "x": 52,
+   "y": 554,
+   "w": 104,
+   "h": 34,
+   "kind": "filmstrip",
+   "sprite": "UA_Neve1073New_buttons",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     11,
+     12
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "eql-button",
+   "x": 52,
+   "y": 554,
+   "w": 50,
+   "h": 34,
+   "kind": "zone",
+   "param": 11,
+   "action": {
+    "type": "toggle",
+    "param": 11
+   }
+  },
+  {
+   "id": "phase-button",
+   "x": 102,
+   "y": 554,
+   "w": 50,
+   "h": 34,
+   "kind": "zone",
+   "param": 12,
+   "action": {
+    "type": "toggle",
+    "param": 12
+   }
+  },
+  {
+   "id": "impedance-switch",
+   "x": 194,
+   "y": 51,
+   "w": 64,
+   "h": 28,
+   "kind": "switch",
+   "param": 1,
+   "sprite": "UA_Neve1073New_switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "pad-switch",
+   "x": 194.0,
+   "y": 82.0,
+   "w": 64.0,
+   "h": 28.0,
+   "kind": "switch",
+   "param": 2,
+   "sprite": "UA_Neve1073New_switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "power-switch",
+   "x": 194,
+   "y": 584,
+   "w": 64,
+   "h": 28,
+   "kind": "switch",
+   "param": 15,
+   "sprite": "UA_Neve1073New_switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "output-fader",
+   "x": 196,
+   "y": 145,
+   "w": 60,
+   "h": 334,
+   "kind": "knob",
+   "param": 13,
+   "sprite": "synth_uadneve1073_output-fader",
+   "frames": 101
+  },
+  {
+   "id": "output-fader-ctv-right-10-h",
+   "kind": "zone",
+   "x": 256.0,
+   "y": 301.0,
+   "w": 14.0,
+   "h": 18.0,
+   "param": 13,
+   "action": {
+    "type": "set",
+    "param": 13,
+    "value": 0.51666
+   }
+  },
+  {
+   "id": "output-fader-ctv-left-10-h",
+   "kind": "zone",
+   "x": 182.0,
+   "y": 301.0,
+   "w": 14.0,
+   "h": 18.0,
+   "param": 13,
+   "action": {
+    "type": "set",
+    "param": 13,
+    "value": 0.51666
+   }
+  },
+  {
+   "id": "output-fader-ctv-right-0-h",
+   "kind": "zone",
+   "x": 256.0,
+   "y": 236.0,
+   "w": 14.0,
+   "h": 18.0,
+   "param": 13,
+   "action": {
+    "type": "set",
+    "param": 13,
+    "value": 0.75897
+   }
+  },
+  {
+   "id": "output-fader-ctv-left-0-h",
+   "kind": "zone",
+   "x": 182.0,
+   "y": 236.0,
+   "w": 14.0,
+   "h": 18.0,
+   "param": 13,
+   "action": {
+    "type": "set",
+    "param": 13,
+    "value": 0.75897
+   }
+  },
+  {
+   "id": "gain-knob",
+   "x": 189,
+   "y": 512,
+   "w": 74,
+   "h": 62,
+   "kind": "knob",
+   "param": 14,
+   "sprite": "UA_Neve1073_knob_OUTPUT",
+   "frames": 101
+  },
+  {
+   "id": "output-gain-ctv-0",
+   "x": 219,
+   "y": 512,
+   "w": 14,
+   "h": 14,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.5
+   }
+  }
+ ]
+}

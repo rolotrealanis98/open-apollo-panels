@@ -1,0 +1,3453 @@
+{
+ "schema": 2,
+ "effectName": "UAD Millennia NSEQ-2",
+ "namePattern": "Millennia NSEQ-2",
+ "size": {
+  "w": 1200,
+  "h": 220
+ },
+ "background": "millennia_nseq_2__BACKGROUND",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "Mid/Side",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Link",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 3,
+   "name": "In/Out 1",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 4,
+   "name": "Top 1",
+   "steps": [
+    "Tube",
+    "J-FET"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Range 1",
+   "steps": [
+    "20",
+    "10"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 6,
+   "name": "L In 1",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 7,
+   "name": "L Freq 1",
+   "steps": [
+    "20",
+    "34",
+    "56",
+    "100",
+    "180",
+    "270"
+   ],
+   "default": 0.4000000059604645
+  },
+  {
+   "index": 8,
+   "name": "L Shlf 1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 9,
+   "name": "L Gain 1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "LM I 1",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 11,
+   "name": "LM F 1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 12,
+   "name": "LM X10 1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "LM Q 1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 14,
+   "name": "LM G 1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 15,
+   "name": "HM I 1",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 16,
+   "name": "HM F 1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 17,
+   "name": "HM X10 1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 18,
+   "name": "HM Q 1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 19,
+   "name": "HM G 1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 20,
+   "name": "H In 1",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 21,
+   "name": "H Freq 1",
+   "steps": [
+    "4.8",
+    "5.8",
+    "8.0",
+    "10.0",
+    "16.0",
+    "21.0"
+   ],
+   "default": 0.800000011920929
+  },
+  {
+   "index": 22,
+   "name": "H Shlf 1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 23,
+   "name": "H Gain 1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 24,
+   "name": "In/Out 2",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 25,
+   "name": "Top 2",
+   "steps": [
+    "Tube",
+    "J-FET"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 26,
+   "name": "Range 2",
+   "steps": [
+    "20",
+    "10"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 27,
+   "name": "L In 2",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 28,
+   "name": "L Freq 2",
+   "steps": [
+    "20",
+    "34",
+    "56",
+    "100",
+    "180",
+    "270"
+   ],
+   "default": 0.4000000059604645
+  },
+  {
+   "index": 29,
+   "name": "L Shlf 2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 30,
+   "name": "L Gain 2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 31,
+   "name": "LM I 2",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 32,
+   "name": "LM F 2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 33,
+   "name": "LM X10 2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 34,
+   "name": "LM Q 2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 35,
+   "name": "LM G 2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 36,
+   "name": "HM I 2",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 37,
+   "name": "HM F 2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 38,
+   "name": "HM X10 2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 39,
+   "name": "HM Q 2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 40,
+   "name": "HM G 2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 41,
+   "name": "H In 2",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 42,
+   "name": "H Freq 2",
+   "steps": [
+    "4.8",
+    "5.8",
+    "8.0",
+    "10.0",
+    "16.0",
+    "21.0"
+   ],
+   "default": 0.800000011920929
+  },
+  {
+   "index": 43,
+   "name": "H Shlf 2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 44,
+   "name": "H Gain 2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 45,
+   "name": "Trim",
+   "steps": null,
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "inout1-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONGREEN_COLS",
+   "frames": 4,
+   "param": 3,
+   "orientation": "vertical",
+   "x": 527.0,
+   "y": 25.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "lin1-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONRED_COLS",
+   "frames": 4,
+   "param": 6,
+   "orientation": "vertical",
+   "x": 164.0,
+   "y": 12.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "lmi1-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONRED_COLS",
+   "frames": 4,
+   "param": 10,
+   "orientation": "vertical",
+   "x": 266.0,
+   "y": 12.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     10
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hmi1-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONRED_COLS",
+   "frames": 4,
+   "param": 15,
+   "orientation": "vertical",
+   "x": 368.0,
+   "y": 12.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     15
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hin1-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONRED_COLS",
+   "frames": 4,
+   "param": 20,
+   "orientation": "vertical",
+   "x": 471.0,
+   "y": 12.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     20
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "top1-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONRED_COLS",
+   "frames": 4,
+   "param": 4,
+   "orientation": "vertical",
+   "x": 527.0,
+   "y": 76.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "lshlf1-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONYELLOW_COLS",
+   "frames": 4,
+   "param": 8,
+   "orientation": "vertical",
+   "x": 127.0,
+   "y": 91.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     8
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "lmx101-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONYELLOW_COLS",
+   "frames": 4,
+   "param": 12,
+   "orientation": "vertical",
+   "x": 229.0,
+   "y": 91.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     12
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hmx101-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONYELLOW_COLS",
+   "frames": 4,
+   "param": 17,
+   "orientation": "vertical",
+   "x": 331.0,
+   "y": 91.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     17
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hshlf1-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONYELLOW_COLS",
+   "frames": 4,
+   "param": 22,
+   "orientation": "vertical",
+   "x": 434.0,
+   "y": 91.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     22
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "range1-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONYELLOW_COLS",
+   "frames": 4,
+   "param": 5,
+   "orientation": "vertical",
+   "x": 527.0,
+   "y": 146.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "lgain1-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBBIGSTEPPEDLEFT",
+   "frames": 21,
+   "param": 9,
+   "x": 102.0,
+   "y": 129.0,
+   "w": 90.0,
+   "h": 90.0
+  },
+  {
+   "id": "lmg1-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBBIGSTEPPEDLEFT",
+   "frames": 21,
+   "param": 14,
+   "x": 204.0,
+   "y": 129.0,
+   "w": 90.0,
+   "h": 90.0
+  },
+  {
+   "id": "hmg1-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBBIGSTEPPEDLEFT",
+   "frames": 21,
+   "param": 19,
+   "x": 306.0,
+   "y": 129.0,
+   "w": 90.0,
+   "h": 90.0
+  },
+  {
+   "id": "hgain1-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBBIGSTEPPEDLEFT",
+   "frames": 21,
+   "param": 23,
+   "x": 409.0,
+   "y": 129.0,
+   "w": 90.0,
+   "h": 90.0
+  },
+  {
+   "id": "lmf1-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBSMALLLEFT",
+   "frames": 61,
+   "param": 11,
+   "x": 222.0,
+   "y": 39.0,
+   "w": 54.0,
+   "h": 54.0
+  },
+  {
+   "id": "hmf1-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBSMALLLEFT",
+   "frames": 61,
+   "param": 16,
+   "x": 325.0,
+   "y": 39.0,
+   "w": 54.0,
+   "h": 54.0
+  },
+  {
+   "id": "lmq1-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBSMALLLEFT",
+   "frames": 61,
+   "param": 13,
+   "x": 262.0,
+   "y": 85.0,
+   "w": 54.0,
+   "h": 54.0
+  },
+  {
+   "id": "hmq1-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBSMALLLEFT",
+   "frames": 61,
+   "param": 18,
+   "x": 364.0,
+   "y": 85.0,
+   "w": 54.0,
+   "h": 54.0
+  },
+  {
+   "id": "lfreq1-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBSMALLSTEPPEDLEFT",
+   "frames": 6,
+   "param": 7,
+   "x": 115.0,
+   "y": 39.0,
+   "w": 54.0,
+   "h": 54.0
+  },
+  {
+   "id": "hfreq1-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBSMALLSTEPPEDLEFT",
+   "frames": 6,
+   "param": 21,
+   "x": 423.0,
+   "y": 39.0,
+   "w": 54.0,
+   "h": 54.0
+  },
+  {
+   "id": "inout2-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONGREEN_COLS",
+   "frames": 4,
+   "param": 24,
+   "orientation": "vertical",
+   "x": 573.0,
+   "y": 25.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-inout2-switch-mono",
+   "kind": "filmstrip",
+   "x": 573.0,
+   "y": 25.0,
+   "w": 43.0,
+   "h": 43.0,
+   "sprite": "Q_Q_millennia_nseq_2__BUTTONGREEN_COLS_mono128_242628",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     24
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "lin2-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONRED_COLS",
+   "frames": 4,
+   "param": 27,
+   "orientation": "vertical",
+   "x": 699.0,
+   "y": 12.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-lin2-switch-mono",
+   "kind": "filmstrip",
+   "x": 699.0,
+   "y": 12.0,
+   "w": 43.0,
+   "h": 43.0,
+   "sprite": "Q_Q_millennia_nseq_2__BUTTONRED_COLS_mono128_242628",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "lmi2-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONRED_COLS",
+   "frames": 4,
+   "param": 31,
+   "orientation": "vertical",
+   "x": 801.0,
+   "y": 12.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-lmi2-switch-mono",
+   "kind": "filmstrip",
+   "x": 801.0,
+   "y": 12.0,
+   "w": 43.0,
+   "h": 43.0,
+   "sprite": "Q_Q_millennia_nseq_2__BUTTONRED_COLS_mono128_242628",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "hmi2-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONRED_COLS",
+   "frames": 4,
+   "param": 36,
+   "orientation": "vertical",
+   "x": 903.0,
+   "y": 12.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     36
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-hmi2-switch-mono",
+   "kind": "filmstrip",
+   "x": 903.0,
+   "y": 12.0,
+   "w": 43.0,
+   "h": 43.0,
+   "sprite": "Q_Q_millennia_nseq_2__BUTTONRED_COLS_mono128_242628",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     36
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "hin2-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONRED_COLS",
+   "frames": 4,
+   "param": 41,
+   "orientation": "vertical",
+   "x": 1006.0,
+   "y": 12.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     41
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-hin2-switch-mono",
+   "kind": "filmstrip",
+   "x": 1006.0,
+   "y": 12.0,
+   "w": 43.0,
+   "h": 43.0,
+   "sprite": "Q_Q_millennia_nseq_2__BUTTONRED_COLS_mono128_242628",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     41
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "top2-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONRED_COLS",
+   "frames": 4,
+   "param": 25,
+   "orientation": "vertical",
+   "x": 573.0,
+   "y": 76.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     25
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-top2-switch-mono",
+   "kind": "filmstrip",
+   "x": 573.0,
+   "y": 76.0,
+   "w": 43.0,
+   "h": 43.0,
+   "sprite": "Q_Q_millennia_nseq_2__BUTTONRED_COLS_mono128_242628",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     25
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "lshlf2-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONYELLOW_COLS",
+   "frames": 4,
+   "param": 29,
+   "orientation": "vertical",
+   "x": 662.0,
+   "y": 91.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-lshlf2-switch-mono",
+   "kind": "filmstrip",
+   "x": 662.0,
+   "y": 91.0,
+   "w": 43.0,
+   "h": 43.0,
+   "sprite": "Q_Q_millennia_nseq_2__BUTTONYELLOW_COLS_mono128_242628",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "lmx102-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONYELLOW_COLS",
+   "frames": 4,
+   "param": 33,
+   "orientation": "vertical",
+   "x": 764.0,
+   "y": 91.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     33
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-lmx102-switch-mono",
+   "kind": "filmstrip",
+   "x": 764.0,
+   "y": 91.0,
+   "w": 43.0,
+   "h": 43.0,
+   "sprite": "Q_Q_millennia_nseq_2__BUTTONYELLOW_COLS_mono128_242628",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     33
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "hmx102-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONYELLOW_COLS",
+   "frames": 4,
+   "param": 38,
+   "orientation": "vertical",
+   "x": 866.0,
+   "y": 91.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     38
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-hmx102-switch-mono",
+   "kind": "filmstrip",
+   "x": 866.0,
+   "y": 91.0,
+   "w": 43.0,
+   "h": 43.0,
+   "sprite": "Q_Q_millennia_nseq_2__BUTTONYELLOW_COLS_mono128_242628",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     38
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "hshlf2-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONYELLOW_COLS",
+   "frames": 4,
+   "param": 43,
+   "orientation": "vertical",
+   "x": 969.0,
+   "y": 91.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     43
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-hshlf2-switch-mono",
+   "kind": "filmstrip",
+   "x": 969.0,
+   "y": 91.0,
+   "w": 43.0,
+   "h": 43.0,
+   "sprite": "Q_Q_millennia_nseq_2__BUTTONYELLOW_COLS_mono128_242628",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     43
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "range2-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONYELLOW_COLS",
+   "frames": 4,
+   "param": 26,
+   "orientation": "vertical",
+   "x": 572.0,
+   "y": 146.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-range2-switch-mono",
+   "kind": "filmstrip",
+   "x": 572.0,
+   "y": 146.0,
+   "w": 43.0,
+   "h": 43.0,
+   "sprite": "Q_Q_millennia_nseq_2__BUTTONYELLOW_COLS_mono128_242628",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     26
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "lgain2-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBBIGSTEPPEDRIGHT",
+   "frames": 21,
+   "param": 30,
+   "x": 637.0,
+   "y": 129.0,
+   "w": 90.0,
+   "h": 90.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-lgain2-knob-mono",
+   "kind": "filmstrip",
+   "x": 637.0,
+   "y": 129.0,
+   "w": 90.0,
+   "h": 90.0,
+   "sprite": "Q_millennia_nseq_2__KNOBBIGSTEPPEDRIGHT_mono128_242628",
+   "frames": 21,
+   "frameSource": {
+    "type": "param",
+    "param": 30
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "lmg2-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBBIGSTEPPEDRIGHT",
+   "frames": 21,
+   "param": 35,
+   "x": 739.0,
+   "y": 129.0,
+   "w": 90.0,
+   "h": 90.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-lmg2-knob-mono",
+   "kind": "filmstrip",
+   "x": 739.0,
+   "y": 129.0,
+   "w": 90.0,
+   "h": 90.0,
+   "sprite": "Q_millennia_nseq_2__KNOBBIGSTEPPEDRIGHT_mono128_242628",
+   "frames": 21,
+   "frameSource": {
+    "type": "param",
+    "param": 35
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "hmg2-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBBIGSTEPPEDRIGHT",
+   "frames": 21,
+   "param": 40,
+   "x": 841.0,
+   "y": 129.0,
+   "w": 90.0,
+   "h": 90.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-hmg2-knob-mono",
+   "kind": "filmstrip",
+   "x": 841.0,
+   "y": 129.0,
+   "w": 90.0,
+   "h": 90.0,
+   "sprite": "Q_millennia_nseq_2__KNOBBIGSTEPPEDRIGHT_mono128_242628",
+   "frames": 21,
+   "frameSource": {
+    "type": "param",
+    "param": 40
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "hgain2-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBBIGSTEPPEDRIGHT",
+   "frames": 21,
+   "param": 44,
+   "x": 944.0,
+   "y": 129.0,
+   "w": 90.0,
+   "h": 90.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-hgain2-knob-mono",
+   "kind": "filmstrip",
+   "x": 944.0,
+   "y": 129.0,
+   "w": 90.0,
+   "h": 90.0,
+   "sprite": "Q_millennia_nseq_2__KNOBBIGSTEPPEDRIGHT_mono128_242628",
+   "frames": 21,
+   "frameSource": {
+    "type": "param",
+    "param": 44
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "lmf2-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBSMALLRIGHT",
+   "frames": 61,
+   "param": 32,
+   "x": 757.0,
+   "y": 39.0,
+   "w": 54.0,
+   "h": 54.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-lmf2-knob-mono",
+   "kind": "filmstrip",
+   "x": 757.0,
+   "y": 39.0,
+   "w": 54.0,
+   "h": 54.0,
+   "sprite": "Q_millennia_nseq_2__KNOBSMALLRIGHT_mono128_242628",
+   "frames": 61,
+   "frameSource": {
+    "type": "param",
+    "param": 32
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "hmf2-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBSMALLRIGHT",
+   "frames": 61,
+   "param": 37,
+   "x": 860.0,
+   "y": 39.0,
+   "w": 54.0,
+   "h": 54.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-hmf2-knob-mono",
+   "kind": "filmstrip",
+   "x": 860.0,
+   "y": 39.0,
+   "w": 54.0,
+   "h": 54.0,
+   "sprite": "Q_millennia_nseq_2__KNOBSMALLRIGHT_mono128_242628",
+   "frames": 61,
+   "frameSource": {
+    "type": "param",
+    "param": 37
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "lmq2-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBSMALLRIGHT",
+   "frames": 61,
+   "param": 34,
+   "x": 797.0,
+   "y": 85.0,
+   "w": 54.0,
+   "h": 54.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-lmq2-knob-mono",
+   "kind": "filmstrip",
+   "x": 797.0,
+   "y": 85.0,
+   "w": 54.0,
+   "h": 54.0,
+   "sprite": "Q_millennia_nseq_2__KNOBSMALLRIGHT_mono128_242628",
+   "frames": 61,
+   "frameSource": {
+    "type": "param",
+    "param": 34
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "hmq2-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBSMALLRIGHT",
+   "frames": 61,
+   "param": 39,
+   "x": 899.0,
+   "y": 85.0,
+   "w": 54.0,
+   "h": 54.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-hmq2-knob-mono",
+   "kind": "filmstrip",
+   "x": 899.0,
+   "y": 85.0,
+   "w": 54.0,
+   "h": 54.0,
+   "sprite": "Q_millennia_nseq_2__KNOBSMALLRIGHT_mono128_242628",
+   "frames": 61,
+   "frameSource": {
+    "type": "param",
+    "param": 39
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "lfreq2-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBSMALLSTEPPEDRIGHT",
+   "frames": 6,
+   "param": 28,
+   "x": 650.0,
+   "y": 39.0,
+   "w": 54.0,
+   "h": 54.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-lfreq2-knob-mono",
+   "kind": "filmstrip",
+   "x": 650.0,
+   "y": 39.0,
+   "w": 54.0,
+   "h": 54.0,
+   "sprite": "Q_millennia_nseq_2__KNOBSMALLSTEPPEDRIGHT_mono128_242628",
+   "frames": 6,
+   "frameSource": {
+    "type": "param",
+    "param": 28
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "hfreq2-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBSMALLSTEPPEDRIGHT",
+   "frames": 6,
+   "param": 42,
+   "x": 958.0,
+   "y": 39.0,
+   "w": 54.0,
+   "h": 54.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-hfreq2-knob-mono",
+   "kind": "filmstrip",
+   "x": 958.0,
+   "y": 39.0,
+   "w": 54.0,
+   "h": 54.0,
+   "sprite": "Q_millennia_nseq_2__KNOBSMALLSTEPPEDRIGHT_mono128_242628",
+   "frames": 6,
+   "frameSource": {
+    "type": "param",
+    "param": 42
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "midside-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONRED_COLS",
+   "frames": 4,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 527.0,
+   "y": 176.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-midside-switch-mono",
+   "kind": "filmstrip",
+   "x": 527.0,
+   "y": 176.0,
+   "w": 43.0,
+   "h": 43.0,
+   "sprite": "Q_Q_millennia_nseq_2__BUTTONRED_COLS_mono128_242628",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "link-switch",
+   "kind": "switch",
+   "sprite": "Q_millennia_nseq_2__BUTTONRED_COLS",
+   "frames": 4,
+   "param": 2,
+   "orientation": "vertical",
+   "x": 573.0,
+   "y": 176.0,
+   "w": 43.0,
+   "h": 43.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-link-switch-mono",
+   "kind": "filmstrip",
+   "x": 573.0,
+   "y": 176.0,
+   "w": 43.0,
+   "h": 43.0,
+   "sprite": "Q_Q_millennia_nseq_2__BUTTONRED_COLS_mono128_242628",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "power-switch",
+   "kind": "switch",
+   "sprite": "millennia_nseq_2__SWITCH",
+   "frames": 2,
+   "param": 0,
+   "orientation": "vertical",
+   "x": 1042.0,
+   "y": 138.0,
+   "w": 60.0,
+   "h": 45.0
+  },
+  {
+   "id": "trim-knob",
+   "kind": "knob",
+   "sprite": "millennia_nseq_2__KNOBTRIM",
+   "frames": 21,
+   "param": 45,
+   "x": 1031.0,
+   "y": 173.0,
+   "w": 50.0,
+   "h": 50.0
+  }
+ ],
+ "meterSources": {},
+ "states": {
+  "channels": 2
+ }
+}

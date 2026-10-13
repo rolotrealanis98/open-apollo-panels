@@ -1,0 +1,648 @@
+{
+ "schema": 2,
+ "effectName": "UAD elysia alpha mix",
+ "namePattern": "elysia alpha mix",
+ "size": {
+  "w": 732,
+  "h": 266
+ },
+ "background": "elysia_alpha_mix__BACKGROUNDMONO",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Active",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "Link",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 2,
+   "name": "Thresh",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Forward",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Attack",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "AttFast",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "Release",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "RelFast",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "Ratio",
+   "steps": null,
+   "default": 0.3636363744735718
+  },
+  {
+   "index": 9,
+   "name": "SC Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "SC On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "SC Freq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 12,
+   "name": "Warm",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "Mix",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 14,
+   "name": "Gain",
+   "steps": null,
+   "default": 0.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "cmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_mix__METERGRRIGHT",
+   "frames": 49,
+   "x": 174.0,
+   "y": 41.0,
+   "w": 72.0,
+   "h": 186.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000000"
+   }
+  },
+  {
+   "id": "thresh-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_mix__KNOBBIGRIGHT",
+   "frames": 61,
+   "param": 2,
+   "x": 252.0,
+   "y": 44.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "attack-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_mix__KNOBBIGRIGHT",
+   "frames": 61,
+   "param": 4,
+   "x": 365.0,
+   "y": 44.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "release-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_mix__KNOBBIGRIGHT",
+   "frames": 61,
+   "param": 6,
+   "x": 478.0,
+   "y": 44.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "ratio-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_mix__KNOBBIGRIGHT",
+   "frames": 61,
+   "param": 8,
+   "x": 592.0,
+   "y": 44.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "scgain-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_mix__KNOBBIGRIGHT",
+   "frames": 61,
+   "param": 9,
+   "x": 252.0,
+   "y": 152.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "scfreq-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_mix__KNOBBIGRIGHT",
+   "frames": 61,
+   "param": 11,
+   "x": 365.0,
+   "y": 152.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "mix-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_mix__KNOBBIGRIGHT",
+   "frames": 61,
+   "param": 13,
+   "x": 478.0,
+   "y": 152.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "gain-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_mix__KNOBBIGRIGHT",
+   "frames": 61,
+   "param": 14,
+   "x": 592.0,
+   "y": 152.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "forward-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_mix__BUTTONWHITERIGHT",
+   "frames": 2,
+   "param": 3,
+   "orientation": "vertical",
+   "x": 331.0,
+   "y": 92.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "attfast-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_mix__BUTTONWHITERIGHT",
+   "frames": 2,
+   "param": 5,
+   "orientation": "vertical",
+   "x": 444.0,
+   "y": 92.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "relfast-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_mix__BUTTONWHITERIGHT",
+   "frames": 2,
+   "param": 7,
+   "orientation": "vertical",
+   "x": 557.0,
+   "y": 92.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "scon-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_mix__BUTTONWHITERIGHT",
+   "frames": 2,
+   "param": 10,
+   "orientation": "vertical",
+   "x": 331.0,
+   "y": 200.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "warm-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_mix__BUTTONWHITERIGHT",
+   "frames": 2,
+   "param": 12,
+   "orientation": "vertical",
+   "x": 444.0,
+   "y": 200.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "link-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_mix__BUTTONWHITERIGHT",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 557.0,
+   "y": 200.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "active-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_mix__BUTTONBLUE",
+   "frames": 2,
+   "param": 0,
+   "orientation": "vertical",
+   "x": 52.0,
+   "y": 200.0,
+   "w": 31.0,
+   "h": 31.0
+  }
+ ],
+ "meterSources": {
+  "led_40000000": {
+   "vendorSpecificFloat": 67109001,
+   "opcode": {
+    "op": 519,
+    "p0": 67109001,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     0.0
+    ],
+    [
+     -96,
+     0.0
+    ],
+    [
+     -80,
+     0.0
+    ],
+    [
+     -72,
+     0.0
+    ],
+    [
+     -60,
+     0.0
+    ],
+    [
+     -54,
+     0.0
+    ],
+    [
+     -48,
+     0.0
+    ],
+    [
+     -42,
+     0.0
+    ],
+    [
+     -40,
+     0.0
+    ],
+    [
+     -36,
+     0.0
+    ],
+    [
+     -30,
+     0.0
+    ],
+    [
+     -27,
+     0.0
+    ],
+    [
+     -24,
+     0.0
+    ],
+    [
+     -21,
+     0.0
+    ],
+    [
+     -20,
+     0.0
+    ],
+    [
+     -18,
+     0.0
+    ],
+    [
+     -15,
+     0.0
+    ],
+    [
+     -12,
+     0.0
+    ],
+    [
+     -10,
+     0.0
+    ],
+    [
+     -9,
+     0.0
+    ],
+    [
+     -8,
+     0.0
+    ],
+    [
+     -7,
+     0.0
+    ],
+    [
+     -6,
+     0.0
+    ],
+    [
+     -5,
+     0.0
+    ],
+    [
+     -4,
+     0.0
+    ],
+    [
+     -3,
+     0.0
+    ],
+    [
+     -2,
+     0.0
+    ],
+    [
+     -1,
+     0.0
+    ],
+    [
+     -0.5,
+     0.0
+    ],
+    [
+     0,
+     0.0
+    ],
+    [
+     1e-05,
+     0.0
+    ],
+    [
+     0.0001,
+     4e-05
+    ],
+    [
+     0.0003,
+     0.00013
+    ],
+    [
+     0.001,
+     0.00044
+    ],
+    [
+     0.002,
+     0.00088
+    ],
+    [
+     0.003,
+     0.00132
+    ],
+    [
+     0.005,
+     0.00221
+    ],
+    [
+     0.01,
+     0.00442
+    ],
+    [
+     0.015,
+     0.00662
+    ],
+    [
+     0.02,
+     0.00883
+    ],
+    [
+     0.03,
+     0.01325
+    ],
+    [
+     0.05,
+     0.02208
+    ],
+    [
+     0.07,
+     0.03091
+    ],
+    [
+     0.1,
+     0.04415
+    ],
+    [
+     0.13,
+     0.0574
+    ],
+    [
+     0.15,
+     0.06623
+    ],
+    [
+     0.2,
+     0.0883
+    ],
+    [
+     0.25,
+     0.11038
+    ],
+    [
+     0.3,
+     0.13245
+    ],
+    [
+     0.35,
+     0.15453
+    ],
+    [
+     0.4,
+     0.1766
+    ],
+    [
+     0.45,
+     0.19868
+    ],
+    [
+     0.5,
+     0.22075
+    ],
+    [
+     0.55,
+     0.24283
+    ],
+    [
+     0.6,
+     0.2649
+    ],
+    [
+     0.65,
+     0.28698
+    ],
+    [
+     0.7,
+     0.30905
+    ],
+    [
+     0.75,
+     0.33113
+    ],
+    [
+     0.8,
+     0.3532
+    ],
+    [
+     0.85,
+     0.37528
+    ],
+    [
+     0.9,
+     0.39735
+    ],
+    [
+     0.95,
+     0.41943
+    ],
+    [
+     1.0,
+     0.4415
+    ],
+    [
+     1.12,
+     0.49448
+    ],
+    [
+     1.25,
+     0.55188
+    ],
+    [
+     1.41,
+     0.62252
+    ],
+    [
+     1.6,
+     0.7064
+    ],
+    [
+     2,
+     0.883
+    ],
+    [
+     2.5,
+     1.0
+    ],
+    [
+     3,
+     1.0
+    ],
+    [
+     4,
+     1.0
+    ],
+    [
+     5,
+     1.0
+    ],
+    [
+     6,
+     1.0
+    ],
+    [
+     8,
+     1.0
+    ],
+    [
+     10,
+     1.0
+    ],
+    [
+     12,
+     1.0
+    ],
+    [
+     15,
+     1.0
+    ],
+    [
+     20,
+     1.0
+    ],
+    [
+     30,
+     1.0
+    ],
+    [
+     50,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  }
+ }
+}

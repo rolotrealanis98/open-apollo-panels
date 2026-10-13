@@ -1,0 +1,768 @@
+{
+ "schema": 2,
+ "effectName": "UAD Softube Bass Amp Room 8x10",
+ "namePattern": "Softube Bass Amp Room 8x10",
+ "size": {
+  "w": 480,
+  "h": 678
+ },
+ "background": null,
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Normal Volume",
+   "steps": null,
+   "default": 0.1299999952316284
+  },
+  {
+   "index": 1,
+   "name": "High Low Gain",
+   "steps": [
+    "LOW",
+    "HIGH"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 2,
+   "name": "Bass",
+   "steps": null,
+   "default": 0.7799999713897705
+  },
+  {
+   "index": 3,
+   "name": "Middle",
+   "steps": null,
+   "default": 0.8299999833106995
+  },
+  {
+   "index": 4,
+   "name": "Treble",
+   "steps": null,
+   "default": 0.7300000190734863
+  },
+  {
+   "index": 5,
+   "name": "Master Volume",
+   "steps": null,
+   "default": 0.4799999892711639
+  },
+  {
+   "index": 6,
+   "name": "Phase Invert",
+   "steps": [
+    "OFF",
+    "ON"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "DI Amp Mix",
+   "steps": null,
+   "default": 0.7200000286102295
+  },
+  {
+   "index": 8,
+   "name": "Mic Position 1",
+   "steps": null,
+   "default": 0.4699999988079071
+  },
+  {
+   "index": 9,
+   "name": "DI Low Cut",
+   "steps": null,
+   "default": 0.1400000005960464
+  },
+  {
+   "index": 10,
+   "name": "DI Tone",
+   "steps": null,
+   "default": 0.2899999916553497
+  },
+  {
+   "index": 11,
+   "name": "DI High Cut",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 12,
+   "name": "DI Limiter",
+   "steps": null,
+   "default": 0.3600000143051147
+  },
+  {
+   "index": 13,
+   "name": "DI Amp Solo",
+   "steps": [
+    "OFF",
+    "DI",
+    "AMP"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 14,
+   "name": "Amp Cab Bypass",
+   "steps": [
+    "OFF",
+    "AMP",
+    "CAB"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 15,
+   "name": "Output Volume",
+   "steps": null,
+   "default": 0.5299999713897705
+  },
+  {
+   "index": 16,
+   "name": "Mode",
+   "steps": [
+    "Bypass",
+    "Active"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "clip1": {
+   "vendorSpecificFloat": 134217729,
+   "opcode": {
+    "op": 519,
+    "p0": 134217729,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.99,
+     0.0
+    ],
+    [
+     0.990099,
+     1.0
+    ],
+    [
+     10.0,
+     1.0
+    ]
+   ],
+   "absolute": true
+  },
+  "clip2": {
+   "vendorSpecificFloat": 134217730,
+   "opcode": {
+    "op": 519,
+    "p0": 134217730,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.99,
+     0.0
+    ],
+    [
+     0.990099,
+     1.0
+    ],
+    [
+     10.0,
+     1.0
+    ]
+   ],
+   "absolute": true
+  },
+  "clipAny": {
+   "combine": {
+    "op": "max",
+    "meters": [
+     "clip1",
+     "clip2"
+    ]
+   },
+   "calibration": []
+  }
+ },
+ "elements": [
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 480,
+   "h": 24,
+   "toolbar": {
+    "family": "softube",
+    "items": [
+     {
+      "type": "switch",
+      "x": 367.0,
+      "y": 6.0,
+      "w": 30,
+      "h": 12,
+      "param": 16,
+      "sprite": "chrome.softube.toggle",
+      "frames": 2,
+      "glyph": "power"
+     },
+     {
+      "type": "gear",
+      "x": 435.0,
+      "y": 6.5,
+      "w": 11.0,
+      "h": 11.5,
+      "color": "#E5E5E5"
+     },
+     {
+      "type": "rect",
+      "x": 455.0,
+      "y": 0,
+      "w": 25.0,
+      "h": 24,
+      "color": "#019C74"
+     },
+     {
+      "type": "icon",
+      "x": 461.0,
+      "y": 5.0,
+      "w": 13.5,
+      "h": 13.5,
+      "sprite": "chrome.softube.smiley",
+      "frames": 1,
+      "glyph": "",
+      "color": "#E5F5F0"
+     }
+    ]
+   }
+  },
+  {
+   "id": "room-0",
+   "kind": "image",
+   "x": 0,
+   "y": 116,
+   "w": 480,
+   "h": 470,
+   "sprite": "K_Bass810Room_room0"
+  },
+  {
+   "id": "mic-8-s0",
+   "kind": "knob",
+   "x": 0,
+   "y": 319,
+   "w": 305,
+   "h": 267,
+   "sprite": "K_Bass810Room_mic8_s0",
+   "frames": 65,
+   "param": 8
+  },
+  {
+   "id": "panel-1023",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 480,
+   "h": 92,
+   "sprite": "STB_Softube_Bass_Amp_Room_8x10_1023"
+  },
+  {
+   "id": "panel-1002",
+   "kind": "image",
+   "x": 0,
+   "y": 586,
+   "w": 480,
+   "h": 92,
+   "sprite": "STB_Softube_Bass_Amp_Room_8x10_1002"
+  },
+  {
+   "id": "knob-0-1015",
+   "kind": "knob",
+   "x": 82,
+   "y": 31,
+   "w": 77,
+   "h": 73.0,
+   "sprite": "STB_Softube_Bass_Amp_Room_8x10_1015",
+   "frames": 100,
+   "param": 0
+  },
+  {
+   "id": "switch-1-1005",
+   "kind": "switch",
+   "x": 32,
+   "y": 41,
+   "w": 54,
+   "h": 67.0,
+   "sprite": "STB_Softube_Bass_Amp_Room_8x10_1005",
+   "frames": 2,
+   "param": 1
+  },
+  {
+   "id": "knob-2-1001",
+   "kind": "knob",
+   "x": 155,
+   "y": 31,
+   "w": 77,
+   "h": 73.0,
+   "sprite": "STB_Softube_Bass_Amp_Room_8x10_1001",
+   "frames": 100,
+   "param": 2
+  },
+  {
+   "id": "knob-3-1013",
+   "kind": "knob",
+   "x": 228,
+   "y": 31,
+   "w": 77,
+   "h": 73.0,
+   "sprite": "STB_Softube_Bass_Amp_Room_8x10_1013",
+   "frames": 100,
+   "param": 3
+  },
+  {
+   "id": "knob-4-1024",
+   "kind": "knob",
+   "x": 301,
+   "y": 31,
+   "w": 77,
+   "h": 73.0,
+   "sprite": "STB_Softube_Bass_Amp_Room_8x10_1024",
+   "frames": 100,
+   "param": 4
+  },
+  {
+   "id": "knob-5-1009",
+   "kind": "knob",
+   "x": 374,
+   "y": 31,
+   "w": 77,
+   "h": 73.0,
+   "sprite": "STB_Softube_Bass_Amp_Room_8x10_1009",
+   "frames": 100,
+   "param": 5
+  },
+  {
+   "id": "gfx-4-1021",
+   "kind": "filmstrip",
+   "x": 254,
+   "y": 651,
+   "w": 39,
+   "h": 12.0,
+   "sprite": "STB_Softube_Bass_Amp_Room_8x10_1021",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 13
+   }
+  },
+  {
+   "id": "gfx-5-1020",
+   "kind": "filmstrip",
+   "x": 349,
+   "y": 651,
+   "w": 39,
+   "h": 12.0,
+   "sprite": "STB_Softube_Bass_Amp_Room_8x10_1020",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 13
+   }
+  },
+  {
+   "id": "gfx-3-1017",
+   "kind": "filmstrip",
+   "x": 465,
+   "y": 586,
+   "w": 15,
+   "h": 15.0,
+   "sprite": "STB_Softube_Bass_Amp_Room_8x10_1017",
+   "frames": 2,
+   "frameSource": {
+    "type": "meter",
+    "meter": "clipAny"
+   }
+  },
+  {
+   "id": "knob-9-1008",
+   "kind": "knob",
+   "x": 4,
+   "y": 622,
+   "w": 46,
+   "h": 51.0,
+   "sprite": "STB_Softube_Bass_Amp_Room_8x10_1008",
+   "frames": 100,
+   "param": 9
+  },
+  {
+   "id": "knob-10-1022",
+   "kind": "knob",
+   "x": 69,
+   "y": 622,
+   "w": 46,
+   "h": 51.0,
+   "sprite": "STB_Softube_Bass_Amp_Room_8x10_1022",
+   "frames": 100,
+   "param": 10
+  },
+  {
+   "id": "knob-11-1004",
+   "kind": "knob",
+   "x": 134,
+   "y": 622,
+   "w": 46,
+   "h": 51.0,
+   "sprite": "STB_Softube_Bass_Amp_Room_8x10_1004",
+   "frames": 100,
+   "param": 11
+  },
+  {
+   "id": "knob-12-1006",
+   "kind": "knob",
+   "x": 204,
+   "y": 622,
+   "w": 46,
+   "h": 51.0,
+   "sprite": "STB_Softube_Bass_Amp_Room_8x10_1006",
+   "frames": 100,
+   "param": 12
+  },
+  {
+   "id": "switch-6-1018",
+   "kind": "switch",
+   "x": 310,
+   "y": 662,
+   "w": 78,
+   "h": 12.0,
+   "sprite": "STB_Softube_Bass_Amp_Room_8x10_1018",
+   "frames": 2,
+   "param": 6
+  },
+  {
+   "id": "knob-15-1016",
+   "kind": "knob",
+   "x": 400,
+   "y": 588,
+   "w": 75,
+   "h": 70.0,
+   "sprite": "STB_Softube_Bass_Amp_Room_8x10_1016",
+   "frames": 100,
+   "param": 15
+  },
+  {
+   "id": "slider-7-1014",
+   "kind": "knob",
+   "x": 257,
+   "y": 608,
+   "w": 128,
+   "h": 42,
+   "sprite": "STB_Softube_Bass_Amp_Room_8x10_1014_slider",
+   "frames": 81,
+   "param": 7,
+   "frameSource": {
+    "type": "param",
+    "param": 7
+   },
+   "reverse": true
+  },
+  {
+   "id": "gfx-0-1007",
+   "kind": "filmstrip",
+   "x": 240,
+   "y": 622,
+   "w": 10,
+   "h": 10.0,
+   "sprite": "STB_Softube_Bass_Amp_Room_8x10_1007",
+   "frames": 31,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "btn-13-0",
+   "kind": "zone",
+   "x": 254,
+   "y": 638,
+   "w": 69,
+   "h": 25,
+   "action": {
+    "type": "set",
+    "param": 13,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "btn-13-1",
+   "kind": "zone",
+   "x": 324,
+   "y": 638,
+   "w": 64,
+   "h": 25,
+   "action": {
+    "type": "set",
+    "param": 13,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "btn-9-2",
+   "kind": "zone",
+   "x": 0,
+   "y": 661,
+   "w": 20,
+   "h": 10,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "btn-9-3",
+   "kind": "zone",
+   "x": 0,
+   "y": 619,
+   "w": 20,
+   "h": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "btn-9-4",
+   "kind": "zone",
+   "x": 45,
+   "y": 661,
+   "w": 15,
+   "h": 10,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "btn-10-5",
+   "kind": "zone",
+   "x": 60,
+   "y": 661,
+   "w": 23,
+   "h": 10,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "btn-10-6",
+   "kind": "zone",
+   "x": 60,
+   "y": 619,
+   "w": 23,
+   "h": 9,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "btn-10-7",
+   "kind": "zone",
+   "x": 105,
+   "y": 661,
+   "w": 20,
+   "h": 10,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "btn-11-8",
+   "kind": "zone",
+   "x": 125,
+   "y": 661,
+   "w": 20,
+   "h": 10,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "btn-11-9",
+   "kind": "zone",
+   "x": 167,
+   "y": 619,
+   "w": 22,
+   "h": 9,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "btn-11-10",
+   "kind": "zone",
+   "x": 167,
+   "y": 661,
+   "w": 22,
+   "h": 10,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "btn-12-11",
+   "kind": "zone",
+   "x": 189,
+   "y": 661,
+   "w": 23,
+   "h": 10,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "bypass-0",
+   "kind": "filmstrip",
+   "x": 392,
+   "y": 526,
+   "w": 88,
+   "h": 16,
+   "sprite": "K_Bass810Room_bypass0",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "bypass-0-zone",
+   "kind": "zone",
+   "x": 392,
+   "y": 526,
+   "w": 88,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "bypass-1",
+   "kind": "filmstrip",
+   "x": 392,
+   "y": 542,
+   "w": 88,
+   "h": 16,
+   "sprite": "K_Bass810Room_bypass1",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bypass-1-zone",
+   "kind": "zone",
+   "x": 392,
+   "y": 542,
+   "w": 88,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 1.0
+   }
+  }
+ ]
+}

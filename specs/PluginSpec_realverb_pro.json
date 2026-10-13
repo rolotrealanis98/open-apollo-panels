@@ -1,0 +1,3058 @@
+{
+ "schema": 2,
+ "effectName": "UAD RealVerb-Pro",
+ "namePattern": "RealVerb-Pro",
+ "size": {
+  "w": 525,
+  "h": 523
+ },
+ "background": "realverb_pro_1501",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Preset",
+   "steps": null,
+   "default": 0.0,
+   "stepCount": 31,
+   "stepsRef": "realverb_pro.presets"
+  },
+  {
+   "index": 1,
+   "name": "ShapeA",
+   "steps": [
+    "Cube",
+    "Shoebox",
+    "Corridor",
+    "Cylinder",
+    "Dome",
+    "Horse Shoe",
+    "Fan",
+    "Reverse Fan",
+    "A-Frame",
+    "Spring",
+    "Dual Spring",
+    "Square Plate",
+    "Rectangle Plate",
+    "Triangle Plate",
+    "Circle Plate"
+   ],
+   "default": 0.7857142686843872
+  },
+  {
+   "index": 2,
+   "name": "ShapeB",
+   "steps": [
+    "Cube",
+    "Shoebox",
+    "Corridor",
+    "Cylinder",
+    "Dome",
+    "Horse Shoe",
+    "Fan",
+    "Reverse Fan",
+    "A-Frame",
+    "Spring",
+    "Dual Spring",
+    "Square Plate",
+    "Rectangle Plate",
+    "Triangle Plate",
+    "Circle Plate"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Shape Mix",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Size A",
+   "steps": null,
+   "default": 0.966094970703125
+  },
+  {
+   "index": 5,
+   "name": "Size B",
+   "steps": null,
+   "default": 0.910003662109375
+  },
+  {
+   "index": 6,
+   "name": "Matl A",
+   "steps": [
+    "K0175 Hz",
+    "K0250 Hz",
+    "K0350 Hz",
+    "K0500 Hz",
+    "K0700 Hz",
+    "K1.00 KHz",
+    "K1.40 KHz",
+    "K2.00 KHz",
+    "K2.80 KHz",
+    "K4.00 KHz",
+    "K5.60 KHz",
+    "K8.00 KHz",
+    "Brick",
+    "Plaster On Brick",
+    "Plaster On Concrete Block",
+    "Concrete Block",
+    "Painted Block",
+    "Plywood",
+    "Cork",
+    "Glass Window",
+    "Heavy Plate Glass",
+    "Marble",
+    "Full Drapes",
+    "Linoleum ",
+    "Carpet",
+    "Hardwood",
+    "Gravel",
+    "Grass",
+    "Soil",
+    "Water Surface",
+    "Sand",
+    "Cellulose",
+    "Fiberglass",
+    "Audience",
+    "Seats",
+    "Air"
+   ],
+   "default": 0.800000011920929
+  },
+  {
+   "index": 7,
+   "name": "Matl B",
+   "steps": [
+    "K0175 Hz",
+    "K0250 Hz",
+    "K0350 Hz",
+    "K0500 Hz",
+    "K0700 Hz",
+    "K1.00 KHz",
+    "K1.40 KHz",
+    "K2.00 KHz",
+    "K2.80 KHz",
+    "K4.00 KHz",
+    "K5.60 KHz",
+    "K8.00 KHz",
+    "Brick",
+    "Plaster On Brick",
+    "Plaster On Concrete Block",
+    "Concrete Block",
+    "Painted Block",
+    "Plywood",
+    "Cork",
+    "Glass Window",
+    "Heavy Plate Glass",
+    "Marble",
+    "Full Drapes",
+    "Linoleum ",
+    "Carpet",
+    "Hardwood",
+    "Gravel",
+    "Grass",
+    "Soil",
+    "Water Surface",
+    "Sand",
+    "Cellulose",
+    "Fiberglass",
+    "Audience",
+    "Seats",
+    "Air"
+   ],
+   "default": 0.7142857313156128
+  },
+  {
+   "index": 8,
+   "name": "Matl Mix",
+   "steps": null,
+   "default": 0.572998046875
+  },
+  {
+   "index": 9,
+   "name": "Thick A",
+   "steps": null,
+   "default": 0.754241943359375
+  },
+  {
+   "index": 10,
+   "name": "Thick B",
+   "steps": null,
+   "default": 0.737274169921875
+  },
+  {
+   "index": 11,
+   "name": "LF Gain",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 12,
+   "name": "MF Gain",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 13,
+   "name": "HF Gain",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 14,
+   "name": "LF/MF Hz",
+   "steps": null,
+   "default": 0.37310791015625
+  },
+  {
+   "index": 15,
+   "name": "MF/HF Hz",
+   "steps": null,
+   "default": 0.847015380859375
+  },
+  {
+   "index": 16,
+   "name": "Early Level",
+   "steps": null,
+   "default": 0.81817626953125
+  },
+  {
+   "index": 17,
+   "name": "Early Delay",
+   "steps": null,
+   "default": 0.391845703125
+  },
+  {
+   "index": 18,
+   "name": "Late Level",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 19,
+   "name": "Late Delay",
+   "steps": null,
+   "default": 0.381591796875
+  },
+  {
+   "index": 20,
+   "name": "Late T60",
+   "steps": null,
+   "default": 0.44073486328125
+  },
+  {
+   "index": 21,
+   "name": "Diffusion",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 22,
+   "name": "Input Mute",
+   "steps": [
+    "OFF",
+    "MUTE"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 23,
+   "name": "In Gain",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 24,
+   "name": "Out Gain",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 25,
+   "name": "Dry Solo",
+   "steps": [
+    "OFF",
+    "SOLO"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 26,
+   "name": "Wet Solo",
+   "steps": [
+    "OFF",
+    "SOLO"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 27,
+   "name": "Wet/Dry Mix",
+   "steps": null,
+   "default": 0.1016845703125
+  },
+  {
+   "index": 28,
+   "name": "Distance",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 29,
+   "name": "Direct L",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 30,
+   "name": "Direct R",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 31,
+   "name": "Early L",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 32,
+   "name": "Early R",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 33,
+   "name": "Late L",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 34,
+   "name": "Late R",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 35,
+   "name": "Morphing",
+   "steps": [
+    "OFF",
+    "ON"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 36,
+   "name": "ProgA",
+   "steps": null,
+   "default": 0.1333333402872086,
+   "stepCount": 31,
+   "stepsRef": "realverb_pro.presets"
+  },
+  {
+   "index": 37,
+   "name": "ProgB",
+   "steps": null,
+   "default": 0.3333333432674408,
+   "stepCount": 31,
+   "stepsRef": "realverb_pro.presets"
+  },
+  {
+   "index": 38,
+   "name": "ProgMix",
+   "steps": null,
+   "default": 0.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "I-panel",
+   "kind": "image",
+   "x": 0,
+   "y": 0,
+   "w": 525,
+   "h": 523,
+   "sprite": "I_realverb_pro_panel",
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-knob-4",
+   "kind": "knob",
+   "x": 8,
+   "y": 176,
+   "w": 128,
+   "h": 11,
+   "sprite": "I_realverb_pro_knob4",
+   "frames": 119,
+   "param": 4,
+   "drag": "horizontal"
+  },
+  {
+   "id": "I-knob-5",
+   "kind": "knob",
+   "x": 8,
+   "y": 187,
+   "w": 128,
+   "h": 11,
+   "sprite": "I_realverb_pro_knob5",
+   "frames": 119,
+   "param": 5,
+   "drag": "horizontal"
+  },
+  {
+   "id": "I-knob-9",
+   "kind": "knob",
+   "x": 152,
+   "y": 176,
+   "w": 128,
+   "h": 11,
+   "sprite": "I_realverb_pro_knob9",
+   "frames": 119,
+   "param": 9,
+   "drag": "horizontal"
+  },
+  {
+   "id": "I-knob-10",
+   "kind": "knob",
+   "x": 152,
+   "y": 187,
+   "w": 128,
+   "h": 11,
+   "sprite": "I_realverb_pro_knob10",
+   "frames": 119,
+   "param": 10,
+   "drag": "horizontal"
+  },
+  {
+   "id": "I-knob-23",
+   "kind": "knob",
+   "x": 340,
+   "y": 46,
+   "w": 13,
+   "h": 118,
+   "sprite": "I_realverb_pro_knob23",
+   "frames": 109,
+   "param": 23
+  },
+  {
+   "id": "I-meter-48",
+   "kind": "filmstrip",
+   "x": 385,
+   "y": 46,
+   "w": 6,
+   "h": 132,
+   "sprite": "I_realverb_pro_meter48",
+   "frames": 132,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter48",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-meter-49",
+   "kind": "filmstrip",
+   "x": 392,
+   "y": 46,
+   "w": 6,
+   "h": 132,
+   "sprite": "I_realverb_pro_meter49",
+   "frames": 132,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter49",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-knob-24",
+   "kind": "knob",
+   "x": 440,
+   "y": 46,
+   "w": 13,
+   "h": 118,
+   "sprite": "I_realverb_pro_knob24",
+   "frames": 109,
+   "param": 24
+  },
+  {
+   "id": "I-meter-50",
+   "kind": "filmstrip",
+   "x": 485,
+   "y": 46,
+   "w": 6,
+   "h": 132,
+   "sprite": "I_realverb_pro_meter50",
+   "frames": 132,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter50",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-meter-51",
+   "kind": "filmstrip",
+   "x": 492,
+   "y": 46,
+   "w": 6,
+   "h": 132,
+   "sprite": "I_realverb_pro_meter51",
+   "frames": 132,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter51",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-knob-27",
+   "kind": "knob",
+   "x": 340,
+   "y": 238,
+   "w": 128,
+   "h": 11,
+   "sprite": "I_realverb_pro_knob27",
+   "frames": 119,
+   "param": 27,
+   "drag": "horizontal"
+  },
+  {
+   "id": "I-knob-28",
+   "kind": "knob",
+   "x": 316,
+   "y": 274,
+   "w": 180,
+   "h": 11,
+   "sprite": "I_realverb_pro_knob28",
+   "frames": 171,
+   "param": 28,
+   "drag": "horizontal"
+  },
+  {
+   "id": "I-knob-29",
+   "kind": "knob",
+   "x": 316,
+   "y": 310,
+   "w": 180,
+   "h": 11,
+   "sprite": "I_realverb_pro_knob29",
+   "frames": 171,
+   "param": 29,
+   "drag": "horizontal",
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-knob-30",
+   "kind": "knob",
+   "x": 316,
+   "y": 321,
+   "w": 180,
+   "h": 11,
+   "sprite": "I_realverb_pro_knob30",
+   "frames": 171,
+   "param": 30,
+   "drag": "horizontal",
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-knob-38",
+   "kind": "knob",
+   "x": 316,
+   "y": 450,
+   "w": 128,
+   "h": 11,
+   "sprite": "I_realverb_pro_knob38",
+   "frames": 119,
+   "param": 38,
+   "drag": "horizontal"
+  },
+  {
+   "id": "I-switch-22",
+   "kind": "switch",
+   "x": 308,
+   "y": 58,
+   "w": 10,
+   "h": 10,
+   "sprite": "I_realverb_pro_sw22",
+   "frames": 2,
+   "param": 22
+  },
+  {
+   "id": "I-switch-25",
+   "kind": "switch",
+   "x": 324,
+   "y": 238,
+   "w": 10,
+   "h": 10,
+   "sprite": "I_realverb_pro_sw25",
+   "frames": 2,
+   "param": 25
+  },
+  {
+   "id": "I-switch-26",
+   "kind": "switch",
+   "x": 472,
+   "y": 238,
+   "w": 10,
+   "h": 10,
+   "sprite": "I_realverb_pro_sw26",
+   "frames": 2,
+   "param": 26
+  },
+  {
+   "id": "I-switch-35",
+   "kind": "switch",
+   "x": 372,
+   "y": 414,
+   "w": 10,
+   "h": 10,
+   "sprite": "I_realverb_pro_sw35",
+   "frames": 2,
+   "param": 35
+  },
+  {
+   "id": "I-menu-0",
+   "kind": "menu",
+   "x": 103,
+   "y": 4,
+   "w": 73,
+   "h": 14,
+   "param": 0,
+   "text": {
+    "size": 9.0,
+    "color": "#FFFFFF",
+    "align": "left",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-menu-1",
+   "kind": "menu",
+   "x": 12,
+   "y": 143,
+   "w": 45,
+   "h": 14,
+   "param": 1,
+   "text": {
+    "size": 9.0,
+    "color": "#FFFFFF",
+    "align": "left",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-menu-2",
+   "kind": "menu",
+   "x": 80,
+   "y": 143,
+   "w": 45,
+   "h": 14,
+   "param": 2,
+   "text": {
+    "size": 9.0,
+    "color": "#FFFFFF",
+    "align": "left",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-menu-6",
+   "kind": "menu",
+   "x": 156,
+   "y": 143,
+   "w": 45,
+   "h": 14,
+   "param": 6,
+   "text": {
+    "size": 9.0,
+    "color": "#FFFFFF",
+    "align": "left",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-menu-7",
+   "kind": "menu",
+   "x": 224,
+   "y": 143,
+   "w": 45,
+   "h": 14,
+   "param": 7,
+   "text": {
+    "size": 9.0,
+    "color": "#FFFFFF",
+    "align": "left",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-menu-36",
+   "kind": "menu",
+   "x": 320,
+   "y": 431,
+   "w": 73,
+   "h": 14,
+   "param": 36,
+   "text": {
+    "size": 9.0,
+    "color": "#FFFFFF",
+    "align": "left",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-menu-37",
+   "kind": "menu",
+   "x": 412,
+   "y": 431,
+   "w": 73,
+   "h": 14,
+   "param": 37,
+   "text": {
+    "size": 9.0,
+    "color": "#FFFFFF",
+    "align": "left",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-text-3",
+   "kind": "text",
+   "x": 106,
+   "y": 131,
+   "w": 30,
+   "h": 12,
+   "param": 3,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-3",
+   "kind": "zone",
+   "x": 106,
+   "y": 131,
+   "w": 30,
+   "h": 12,
+   "gesture": "drag",
+   "param": 3
+  },
+  {
+   "id": "I-text-4",
+   "kind": "text",
+   "x": 9,
+   "y": 198,
+   "w": 46,
+   "h": 12,
+   "param": 4,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-4",
+   "kind": "zone",
+   "x": 9,
+   "y": 198,
+   "w": 46,
+   "h": 12,
+   "gesture": "drag",
+   "param": 4
+  },
+  {
+   "id": "I-text-5",
+   "kind": "text",
+   "x": 89,
+   "y": 198,
+   "w": 46,
+   "h": 12,
+   "param": 5,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-5",
+   "kind": "zone",
+   "x": 89,
+   "y": 198,
+   "w": 46,
+   "h": 12,
+   "gesture": "drag",
+   "param": 5
+  },
+  {
+   "id": "I-text-8",
+   "kind": "text",
+   "x": 254,
+   "y": 131,
+   "w": 30,
+   "h": 12,
+   "param": 8,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-8",
+   "kind": "zone",
+   "x": 254,
+   "y": 131,
+   "w": 30,
+   "h": 12,
+   "gesture": "drag",
+   "param": 8
+  },
+  {
+   "id": "I-text-9",
+   "kind": "text",
+   "x": 153,
+   "y": 198,
+   "w": 46,
+   "h": 12,
+   "param": 9,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-9",
+   "kind": "zone",
+   "x": 153,
+   "y": 198,
+   "w": 46,
+   "h": 12,
+   "gesture": "drag",
+   "param": 9
+  },
+  {
+   "id": "I-text-10",
+   "kind": "text",
+   "x": 233,
+   "y": 198,
+   "w": 46,
+   "h": 12,
+   "param": 10,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-10",
+   "kind": "zone",
+   "x": 233,
+   "y": 198,
+   "w": 46,
+   "h": 12,
+   "gesture": "drag",
+   "param": 10
+  },
+  {
+   "id": "I-text-23",
+   "kind": "text",
+   "x": 321,
+   "y": 166,
+   "w": 44,
+   "h": 12,
+   "param": 23,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-23",
+   "kind": "zone",
+   "x": 321,
+   "y": 166,
+   "w": 44,
+   "h": 12,
+   "gesture": "drag",
+   "param": 23
+  },
+  {
+   "id": "I-text-24",
+   "kind": "text",
+   "x": 421,
+   "y": 166,
+   "w": 44,
+   "h": 12,
+   "param": 24,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-24",
+   "kind": "zone",
+   "x": 421,
+   "y": 166,
+   "w": 44,
+   "h": 12,
+   "gesture": "drag",
+   "param": 24
+  },
+  {
+   "id": "I-text-11",
+   "kind": "text",
+   "x": 25,
+   "y": 322,
+   "w": 44,
+   "h": 12,
+   "param": 11,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-11",
+   "kind": "zone",
+   "x": 25,
+   "y": 322,
+   "w": 44,
+   "h": 12,
+   "gesture": "drag",
+   "param": 11
+  },
+  {
+   "id": "I-text-14",
+   "kind": "text",
+   "x": 73,
+   "y": 322,
+   "w": 44,
+   "h": 12,
+   "param": 14,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-14",
+   "kind": "zone",
+   "x": 73,
+   "y": 322,
+   "w": 44,
+   "h": 12,
+   "gesture": "drag",
+   "param": 14
+  },
+  {
+   "id": "I-text-12",
+   "kind": "text",
+   "x": 121,
+   "y": 322,
+   "w": 44,
+   "h": 12,
+   "param": 12,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-12",
+   "kind": "zone",
+   "x": 121,
+   "y": 322,
+   "w": 44,
+   "h": 12,
+   "gesture": "drag",
+   "param": 12
+  },
+  {
+   "id": "I-text-15",
+   "kind": "text",
+   "x": 169,
+   "y": 322,
+   "w": 44,
+   "h": 12,
+   "param": 15,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-15",
+   "kind": "zone",
+   "x": 169,
+   "y": 322,
+   "w": 44,
+   "h": 12,
+   "gesture": "drag",
+   "param": 15
+  },
+  {
+   "id": "I-text-13",
+   "kind": "text",
+   "x": 217,
+   "y": 322,
+   "w": 44,
+   "h": 12,
+   "param": 13,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-13",
+   "kind": "zone",
+   "x": 217,
+   "y": 322,
+   "w": 44,
+   "h": 12,
+   "gesture": "drag",
+   "param": 13
+  },
+  {
+   "id": "I-text-16",
+   "kind": "text",
+   "x": 27,
+   "y": 506,
+   "w": 44,
+   "h": 12,
+   "param": 16,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-16",
+   "kind": "zone",
+   "x": 27,
+   "y": 506,
+   "w": 44,
+   "h": 12,
+   "gesture": "drag",
+   "param": 16
+  },
+  {
+   "id": "I-text-17",
+   "kind": "text",
+   "x": 75,
+   "y": 506,
+   "w": 44,
+   "h": 12,
+   "param": 17,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-17",
+   "kind": "zone",
+   "x": 75,
+   "y": 506,
+   "w": 44,
+   "h": 12,
+   "gesture": "drag",
+   "param": 17
+  },
+  {
+   "id": "I-text-18",
+   "kind": "text",
+   "x": 123,
+   "y": 506,
+   "w": 44,
+   "h": 12,
+   "param": 18,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-18",
+   "kind": "zone",
+   "x": 123,
+   "y": 506,
+   "w": 44,
+   "h": 12,
+   "gesture": "drag",
+   "param": 18
+  },
+  {
+   "id": "I-text-19",
+   "kind": "text",
+   "x": 171,
+   "y": 506,
+   "w": 44,
+   "h": 12,
+   "param": 19,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-19",
+   "kind": "zone",
+   "x": 171,
+   "y": 506,
+   "w": 44,
+   "h": 12,
+   "gesture": "drag",
+   "param": 19
+  },
+  {
+   "id": "I-text-20",
+   "kind": "text",
+   "x": 219,
+   "y": 506,
+   "w": 44,
+   "h": 12,
+   "param": 20,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-20",
+   "kind": "zone",
+   "x": 219,
+   "y": 506,
+   "w": 44,
+   "h": 12,
+   "gesture": "drag",
+   "param": 20
+  },
+  {
+   "id": "I-text-27",
+   "kind": "text",
+   "x": 457,
+   "y": 222,
+   "w": 38,
+   "h": 12,
+   "param": 27,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-27",
+   "kind": "zone",
+   "x": 457,
+   "y": 222,
+   "w": 38,
+   "h": 12,
+   "gesture": "drag",
+   "param": 27
+  },
+  {
+   "id": "I-text-28",
+   "kind": "text",
+   "x": 457,
+   "y": 258,
+   "w": 38,
+   "h": 12,
+   "param": 28,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-28",
+   "kind": "zone",
+   "x": 457,
+   "y": 258,
+   "w": 38,
+   "h": 12,
+   "gesture": "drag",
+   "param": 28
+  },
+  {
+   "id": "I-text-29",
+   "kind": "text",
+   "x": 417,
+   "y": 294,
+   "w": 38,
+   "h": 12,
+   "param": 29,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-drag-29",
+   "kind": "zone",
+   "x": 417,
+   "y": 294,
+   "w": 38,
+   "h": 12,
+   "gesture": "drag",
+   "param": 29,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-text-30",
+   "kind": "text",
+   "x": 457,
+   "y": 294,
+   "w": 38,
+   "h": 12,
+   "param": 30,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-drag-30",
+   "kind": "zone",
+   "x": 457,
+   "y": 294,
+   "w": 38,
+   "h": 12,
+   "gesture": "drag",
+   "param": 30,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-text-31",
+   "kind": "text",
+   "x": 417,
+   "y": 338,
+   "w": 38,
+   "h": 12,
+   "param": 31,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-drag-31",
+   "kind": "zone",
+   "x": 417,
+   "y": 338,
+   "w": 38,
+   "h": 12,
+   "gesture": "drag",
+   "param": 31,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-text-32",
+   "kind": "text",
+   "x": 457,
+   "y": 338,
+   "w": 38,
+   "h": 12,
+   "param": 32,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-drag-32",
+   "kind": "zone",
+   "x": 457,
+   "y": 338,
+   "w": 38,
+   "h": 12,
+   "gesture": "drag",
+   "param": 32,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-text-33",
+   "kind": "text",
+   "x": 417,
+   "y": 370,
+   "w": 38,
+   "h": 12,
+   "param": 33,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-drag-33",
+   "kind": "zone",
+   "x": 417,
+   "y": 370,
+   "w": 38,
+   "h": 12,
+   "gesture": "drag",
+   "param": 33,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-text-34",
+   "kind": "text",
+   "x": 457,
+   "y": 370,
+   "w": 38,
+   "h": 12,
+   "param": 34,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-drag-34",
+   "kind": "zone",
+   "x": 457,
+   "y": 370,
+   "w": 38,
+   "h": 12,
+   "gesture": "drag",
+   "param": 34,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-text-38",
+   "kind": "text",
+   "x": 457,
+   "y": 449,
+   "w": 38,
+   "h": 12,
+   "param": 38,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold"
+   }
+  },
+  {
+   "id": "I-drag-38",
+   "kind": "zone",
+   "x": 457,
+   "y": 449,
+   "w": 38,
+   "h": 12,
+   "gesture": "drag",
+   "param": 38
+  },
+  {
+   "id": "P-diffusion-strip",
+   "kind": "image",
+   "x": 246,
+   "y": 430,
+   "w": 16,
+   "h": 68,
+   "sprite": "P_realverb_pro_diffusion_strip"
+  },
+  {
+   "id": "P-diffusion-box",
+   "kind": "image",
+   "x": 250,
+   "y": 433,
+   "w": 9,
+   "h": 61,
+   "sprite": "P_realverb_pro_diffusion_box",
+   "move": {
+    "y": {
+     "param": 21,
+     "law": {
+      "type": "linear",
+      "min": 0,
+      "max": -54
+     }
+    }
+   }
+  },
+  {
+   "id": "I-drag-21",
+   "kind": "zone",
+   "x": 250,
+   "y": 433,
+   "w": 9,
+   "h": 60,
+   "gesture": "drag",
+   "param": 21
+  },
+  {
+   "id": "P-shape-divider",
+   "kind": "image",
+   "x": 24,
+   "y": 42,
+   "w": 99,
+   "h": 95,
+   "sprite": "P_realverb_pro_divider",
+   "move": {
+    "x": {
+     "param": 3,
+     "law": {
+      "type": "linear",
+      "min": 90,
+      "max": 1
+     }
+    }
+   }
+  },
+  {
+   "id": "P-shape-ring",
+   "kind": "image",
+   "x": 24,
+   "y": 42,
+   "w": 95,
+   "h": 95,
+   "sprite": "P_realverb_pro_ring"
+  },
+  {
+   "id": "P-shape-a",
+   "kind": "filmstrip",
+   "x": 24,
+   "y": 42,
+   "w": 95,
+   "h": 95,
+   "sprite": "P_realverb_pro_shape_a",
+   "frames": 15,
+   "frameSource": {
+    "type": "param",
+    "param": 1
+   },
+   "reveal": {
+    "right": {
+     "param": 3,
+     "law": {
+      "type": "linear",
+      "min": 90,
+      "max": 1
+     }
+    }
+   }
+  },
+  {
+   "id": "P-shape-b",
+   "kind": "filmstrip",
+   "x": 24,
+   "y": 42,
+   "w": 95,
+   "h": 95,
+   "sprite": "P_realverb_pro_shape_b",
+   "frames": 15,
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   },
+   "reveal": {
+    "left": {
+     "param": 3,
+     "law": {
+      "type": "linear",
+      "min": 94,
+      "max": 5
+     }
+    }
+   }
+  },
+  {
+   "id": "P-matl-divider",
+   "kind": "image",
+   "x": 168,
+   "y": 42,
+   "w": 99,
+   "h": 95,
+   "sprite": "P_realverb_pro_divider",
+   "move": {
+    "x": {
+     "param": 8,
+     "law": {
+      "type": "linear",
+      "min": 90,
+      "max": 1
+     }
+    }
+   }
+  },
+  {
+   "id": "P-matl-ring",
+   "kind": "image",
+   "x": 168,
+   "y": 42,
+   "w": 95,
+   "h": 95,
+   "sprite": "P_realverb_pro_ring"
+  },
+  {
+   "id": "P-matl-a",
+   "kind": "filmstrip",
+   "x": 168,
+   "y": 42,
+   "w": 95,
+   "h": 95,
+   "sprite": "P_realverb_pro_matl_a",
+   "frames": 36,
+   "frameSource": {
+    "type": "param",
+    "param": 6
+   },
+   "reveal": {
+    "right": {
+     "param": 8,
+     "law": {
+      "type": "linear",
+      "min": 90,
+      "max": 1
+     }
+    }
+   }
+  },
+  {
+   "id": "P-matl-b",
+   "kind": "filmstrip",
+   "x": 168,
+   "y": 42,
+   "w": 95,
+   "h": 95,
+   "sprite": "P_realverb_pro_matl_a",
+   "frames": 36,
+   "frameSource": {
+    "type": "param",
+    "param": 7
+   },
+   "reveal": {
+    "left": {
+     "param": 8,
+     "law": {
+      "type": "linear",
+      "min": 94,
+      "max": 5
+     }
+    }
+   }
+  },
+  {
+   "id": "P-shape-mix-b",
+   "kind": "text",
+   "x": 8,
+   "y": 131,
+   "w": 30,
+   "h": 12,
+   "param": 3,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold",
+    "value": {
+     "sum": [
+      100,
+      {
+       "param": 3,
+       "law": {
+        "type": "linear",
+        "min": 0,
+        "max": -100
+       }
+      }
+     ]
+    },
+    "format": "%.0f %%"
+   }
+  },
+  {
+   "id": "P-matl-mix-b",
+   "kind": "text",
+   "x": 152,
+   "y": 131,
+   "w": 30,
+   "h": 12,
+   "param": 8,
+   "text": {
+    "size": 11.0,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "bold",
+    "value": {
+     "sum": [
+      100,
+      {
+       "param": 8,
+       "law": {
+        "type": "linear",
+        "min": 0,
+        "max": -100
+       }
+      }
+     ]
+    },
+    "format": "%.0f %%"
+   }
+  },
+  {
+   "id": "P-early-lr-track",
+   "kind": "image",
+   "x": 316,
+   "y": 354,
+   "w": 180,
+   "h": 11,
+   "sprite": "P_realverb_pro_early-lr_track",
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-early-lr-bar",
+   "kind": "image",
+   "x": 328,
+   "y": 354,
+   "w": 155,
+   "h": 11,
+   "sprite": "P_realverb_pro_early-lr_bar",
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-early-lr-l",
+   "kind": "filmstrip",
+   "x": 316,
+   "y": 354,
+   "w": 180,
+   "h": 11,
+   "sprite": "P_realverb_pro_early-lr_l",
+   "frames": 156,
+   "frameSource": {
+    "type": "param",
+    "param": 31
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-early-lr-r",
+   "kind": "filmstrip",
+   "x": 316,
+   "y": 354,
+   "w": 180,
+   "h": 11,
+   "sprite": "P_realverb_pro_early-lr_r",
+   "frames": 156,
+   "frameSource": {
+    "type": "param",
+    "param": 32
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-early-lr-l-drag",
+   "kind": "knob",
+   "x": 316,
+   "y": 352,
+   "w": 90,
+   "h": 15,
+   "sprite": "P_clear",
+   "frames": 1,
+   "param": 31,
+   "drag": "horizontal",
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-early-lr-r-drag",
+   "kind": "knob",
+   "x": 406,
+   "y": 352,
+   "w": 90,
+   "h": 15,
+   "sprite": "P_clear",
+   "frames": 1,
+   "param": 32,
+   "drag": "horizontal",
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-late-lr-track",
+   "kind": "image",
+   "x": 316,
+   "y": 386,
+   "w": 180,
+   "h": 11,
+   "sprite": "P_realverb_pro_late-lr_track",
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-late-lr-bar",
+   "kind": "image",
+   "x": 328,
+   "y": 386,
+   "w": 155,
+   "h": 11,
+   "sprite": "P_realverb_pro_late-lr_bar",
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-late-lr-l",
+   "kind": "filmstrip",
+   "x": 316,
+   "y": 386,
+   "w": 180,
+   "h": 11,
+   "sprite": "P_realverb_pro_late-lr_l",
+   "frames": 156,
+   "frameSource": {
+    "type": "param",
+    "param": 33
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-late-lr-r",
+   "kind": "filmstrip",
+   "x": 316,
+   "y": 386,
+   "w": 180,
+   "h": 11,
+   "sprite": "P_realverb_pro_late-lr_r",
+   "frames": 156,
+   "frameSource": {
+    "type": "param",
+    "param": 34
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-late-lr-l-drag",
+   "kind": "knob",
+   "x": 316,
+   "y": 384,
+   "w": 90,
+   "h": 15,
+   "sprite": "P_clear",
+   "frames": 1,
+   "param": 33,
+   "drag": "horizontal",
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-late-lr-r-drag",
+   "kind": "knob",
+   "x": 406,
+   "y": 384,
+   "w": 90,
+   "h": 15,
+   "sprite": "P_clear",
+   "frames": 1,
+   "param": 34,
+   "drag": "horizontal",
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-mono-meter-in",
+   "kind": "filmstrip",
+   "x": 388,
+   "y": 46,
+   "w": 8,
+   "h": 132,
+   "sprite": "P_realverb_pro_mono_in",
+   "frames": 132,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter48",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-mono-meter-out",
+   "kind": "filmstrip",
+   "x": 488,
+   "y": 46,
+   "w": 8,
+   "h": 132,
+   "sprite": "P_realverb_pro_mono_out",
+   "frames": 132,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter50",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       2.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  }
+ ],
+ "meterSources": {
+  "meter48": {
+   "vendorSpecificFloat": 419,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.001,
+     0.03
+    ],
+    [
+     0.001259,
+     0.0405
+    ],
+    [
+     0.001585,
+     0.051
+    ],
+    [
+     0.001995,
+     0.0615
+    ],
+    [
+     0.002512,
+     0.072
+    ],
+    [
+     0.003162,
+     0.0825
+    ],
+    [
+     0.003981,
+     0.093
+    ],
+    [
+     0.005012,
+     0.1035
+    ],
+    [
+     0.00631,
+     0.114
+    ],
+    [
+     0.007943,
+     0.1245
+    ],
+    [
+     0.01,
+     0.135
+    ],
+    [
+     0.012589,
+     0.1637
+    ],
+    [
+     0.015849,
+     0.1923
+    ],
+    [
+     0.019953,
+     0.221
+    ],
+    [
+     0.025119,
+     0.2497
+    ],
+    [
+     0.031623,
+     0.2783
+    ],
+    [
+     0.039811,
+     0.307
+    ],
+    [
+     0.050119,
+     0.3357
+    ],
+    [
+     0.063096,
+     0.373
+    ],
+    [
+     0.079433,
+     0.419
+    ],
+    [
+     0.1,
+     0.465
+    ],
+    [
+     0.125893,
+     0.511
+    ],
+    [
+     0.158489,
+     0.557
+    ],
+    [
+     0.199526,
+     0.603
+    ],
+    [
+     0.251189,
+     0.649
+    ],
+    [
+     0.316228,
+     0.695
+    ],
+    [
+     0.398107,
+     0.741
+    ],
+    [
+     0.501187,
+     0.787
+    ],
+    [
+     0.630957,
+     0.833
+    ],
+    [
+     0.794328,
+     0.879
+    ],
+    [
+     1.0,
+     0.925
+    ],
+    [
+     1.258925,
+     0.971
+    ],
+    [
+     1.584893,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ]
+  },
+  "meter49": {
+   "vendorSpecificFloat": 420,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.001,
+     0.03
+    ],
+    [
+     0.001259,
+     0.0405
+    ],
+    [
+     0.001585,
+     0.051
+    ],
+    [
+     0.001995,
+     0.0615
+    ],
+    [
+     0.002512,
+     0.072
+    ],
+    [
+     0.003162,
+     0.0825
+    ],
+    [
+     0.003981,
+     0.093
+    ],
+    [
+     0.005012,
+     0.1035
+    ],
+    [
+     0.00631,
+     0.114
+    ],
+    [
+     0.007943,
+     0.1245
+    ],
+    [
+     0.01,
+     0.135
+    ],
+    [
+     0.012589,
+     0.1637
+    ],
+    [
+     0.015849,
+     0.1923
+    ],
+    [
+     0.019953,
+     0.221
+    ],
+    [
+     0.025119,
+     0.2497
+    ],
+    [
+     0.031623,
+     0.2783
+    ],
+    [
+     0.039811,
+     0.307
+    ],
+    [
+     0.050119,
+     0.3357
+    ],
+    [
+     0.063096,
+     0.373
+    ],
+    [
+     0.079433,
+     0.419
+    ],
+    [
+     0.1,
+     0.465
+    ],
+    [
+     0.125893,
+     0.511
+    ],
+    [
+     0.158489,
+     0.557
+    ],
+    [
+     0.199526,
+     0.603
+    ],
+    [
+     0.251189,
+     0.649
+    ],
+    [
+     0.316228,
+     0.695
+    ],
+    [
+     0.398107,
+     0.741
+    ],
+    [
+     0.501187,
+     0.787
+    ],
+    [
+     0.630957,
+     0.833
+    ],
+    [
+     0.794328,
+     0.879
+    ],
+    [
+     1.0,
+     0.925
+    ],
+    [
+     1.258925,
+     0.971
+    ],
+    [
+     1.584893,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ]
+  },
+  "meter50": {
+   "vendorSpecificFloat": 421,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.001,
+     0.03
+    ],
+    [
+     0.001259,
+     0.0405
+    ],
+    [
+     0.001585,
+     0.051
+    ],
+    [
+     0.001995,
+     0.0615
+    ],
+    [
+     0.002512,
+     0.072
+    ],
+    [
+     0.003162,
+     0.0825
+    ],
+    [
+     0.003981,
+     0.093
+    ],
+    [
+     0.005012,
+     0.1035
+    ],
+    [
+     0.00631,
+     0.114
+    ],
+    [
+     0.007943,
+     0.1245
+    ],
+    [
+     0.01,
+     0.135
+    ],
+    [
+     0.012589,
+     0.1637
+    ],
+    [
+     0.015849,
+     0.1923
+    ],
+    [
+     0.019953,
+     0.221
+    ],
+    [
+     0.025119,
+     0.2497
+    ],
+    [
+     0.031623,
+     0.2783
+    ],
+    [
+     0.039811,
+     0.307
+    ],
+    [
+     0.050119,
+     0.3357
+    ],
+    [
+     0.063096,
+     0.373
+    ],
+    [
+     0.079433,
+     0.419
+    ],
+    [
+     0.1,
+     0.465
+    ],
+    [
+     0.125893,
+     0.511
+    ],
+    [
+     0.158489,
+     0.557
+    ],
+    [
+     0.199526,
+     0.603
+    ],
+    [
+     0.251189,
+     0.649
+    ],
+    [
+     0.316228,
+     0.695
+    ],
+    [
+     0.398107,
+     0.741
+    ],
+    [
+     0.501187,
+     0.787
+    ],
+    [
+     0.630957,
+     0.833
+    ],
+    [
+     0.794328,
+     0.879
+    ],
+    [
+     1.0,
+     0.925
+    ],
+    [
+     1.258925,
+     0.971
+    ],
+    [
+     1.584893,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ]
+  },
+  "meter51": {
+   "vendorSpecificFloat": 422,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.001,
+     0.03
+    ],
+    [
+     0.001259,
+     0.0405
+    ],
+    [
+     0.001585,
+     0.051
+    ],
+    [
+     0.001995,
+     0.0615
+    ],
+    [
+     0.002512,
+     0.072
+    ],
+    [
+     0.003162,
+     0.0825
+    ],
+    [
+     0.003981,
+     0.093
+    ],
+    [
+     0.005012,
+     0.1035
+    ],
+    [
+     0.00631,
+     0.114
+    ],
+    [
+     0.007943,
+     0.1245
+    ],
+    [
+     0.01,
+     0.135
+    ],
+    [
+     0.012589,
+     0.1637
+    ],
+    [
+     0.015849,
+     0.1923
+    ],
+    [
+     0.019953,
+     0.221
+    ],
+    [
+     0.025119,
+     0.2497
+    ],
+    [
+     0.031623,
+     0.2783
+    ],
+    [
+     0.039811,
+     0.307
+    ],
+    [
+     0.050119,
+     0.3357
+    ],
+    [
+     0.063096,
+     0.373
+    ],
+    [
+     0.079433,
+     0.419
+    ],
+    [
+     0.1,
+     0.465
+    ],
+    [
+     0.125893,
+     0.511
+    ],
+    [
+     0.158489,
+     0.557
+    ],
+    [
+     0.199526,
+     0.603
+    ],
+    [
+     0.251189,
+     0.649
+    ],
+    [
+     0.316228,
+     0.695
+    ],
+    [
+     0.398107,
+     0.741
+    ],
+    [
+     0.501187,
+     0.787
+    ],
+    [
+     0.630957,
+     0.833
+    ],
+    [
+     0.794328,
+     0.879
+    ],
+    [
+     1.0,
+     0.925
+    ],
+    [
+     1.258925,
+     0.971
+    ],
+    [
+     1.584893,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ]
+  }
+ },
+ "states": {
+  "channels": 2
+ }
+}

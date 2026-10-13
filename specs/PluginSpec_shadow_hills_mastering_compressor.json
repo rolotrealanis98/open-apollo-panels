@@ -1,0 +1,2887 @@
+{
+ "schema": 2,
+ "effectName": "UAD Shadow Hills Mastering Compressor",
+ "namePattern": "Shadow Hills Mastering Compressor",
+ "size": {
+  "w": 1024,
+  "h": 470
+ },
+ "background": "shadow_hills_mastering_compressor__BACKGROUND",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Bypass",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "O Byp 1",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 2,
+   "name": "O Thr 1",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "O Gain 1",
+   "steps": null,
+   "default": 0.260869562625885
+  },
+  {
+   "index": 4,
+   "name": "D Byp 1",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 5,
+   "name": "D Thr 1",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "D Rat 1",
+   "steps": [
+    "1.2:1",
+    "2:1",
+    "3:1",
+    "4:1",
+    "6:1",
+    "Flood"
+   ],
+   "default": 0.4000000059604645
+  },
+  {
+   "index": 7,
+   "name": "D Att 1",
+   "steps": [
+    "0.1 ms",
+    "0.5 ms",
+    "1 ms",
+    "5 ms",
+    "10 ms",
+    "30 ms"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 8,
+   "name": "D Rec 1",
+   "steps": [
+    "0.1 s",
+    "0.25 s",
+    "0.5 s",
+    "0.8 s",
+    "1.2 s",
+    "Dual"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "D Gain 1",
+   "steps": null,
+   "default": 0.260869562625885
+  },
+  {
+   "index": 10,
+   "name": "SC Flt 1",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "Trans 1",
+   "steps": [
+    "Steel",
+    "Iron",
+    "Nickel"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 12,
+   "name": "Meter 1",
+   "steps": [
+    "Optical",
+    "Discrete",
+    "Output"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "O Byp 2",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 14,
+   "name": "O Thr 2",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 15,
+   "name": "O Gain 2",
+   "steps": null,
+   "default": 0.260869562625885
+  },
+  {
+   "index": 16,
+   "name": "D Byp 2",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 17,
+   "name": "D Thr 2",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 18,
+   "name": "D Rat 2",
+   "steps": [
+    "1.2:1",
+    "2:1",
+    "3:1",
+    "4:1",
+    "6:1",
+    "Flood"
+   ],
+   "default": 0.4000000059604645
+  },
+  {
+   "index": 19,
+   "name": "D Att 2",
+   "steps": [
+    "0.1 ms",
+    "0.5 ms",
+    "1 ms",
+    "5 ms",
+    "10 ms",
+    "30 ms"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 20,
+   "name": "D Rec 2",
+   "steps": [
+    "0.1 s",
+    "0.25 s",
+    "0.5 s",
+    "0.8 s",
+    "1.2 s",
+    "Dual"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 21,
+   "name": "D Gain 2",
+   "steps": null,
+   "default": 0.260869562625885
+  },
+  {
+   "index": 22,
+   "name": "SC Flt 2",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 23,
+   "name": "Trans 2",
+   "steps": [
+    "Steel",
+    "Iron",
+    "Nickel"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 24,
+   "name": "Meter 2",
+   "steps": [
+    "Optical",
+    "Discrete",
+    "Output"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 25,
+   "name": "Mode",
+   "steps": [
+    "Dual",
+    "Stereo"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 26,
+   "name": "VU Ref",
+   "steps": null,
+   "default": 0.199526235461235
+  }
+ ],
+ "elements": [
+  {
+   "id": "q-about-open",
+   "kind": "zone",
+   "x": 280,
+   "y": 0,
+   "w": 464,
+   "h": 244,
+   "action": {
+    "type": "setState",
+    "state": "about",
+    "value": 1
+   }
+  },
+  {
+   "id": "cbxextendedmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "shadow_hills_mastering_compressor__LIGHTSINOUT",
+   "frames": 2,
+   "x": 448.0,
+   "y": 283.0,
+   "w": 128.0,
+   "h": 64.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mode-led",
+   "kind": "filmstrip",
+   "sprite": "shadow_hills_mastering_compressor__LIGHTSMODE",
+   "frames": 2,
+   "x": 434.0,
+   "y": 236.0,
+   "w": 156.0,
+   "h": 64.0,
+   "frameSource": {
+    "type": "param",
+    "param": 25
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-mode-led-mono",
+   "kind": "filmstrip",
+   "x": 434.0,
+   "y": 236.0,
+   "w": 156.0,
+   "h": 64.0,
+   "sprite": "Q_shadow_hills_mastering_compressor__LIGHTSMODE_mono",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 25
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cbxextendedmoviebitmap-led-1",
+   "kind": "filmstrip",
+   "sprite": "shadow_hills_mastering_compressor__METEREYE",
+   "frames": 16,
+   "x": 455.0,
+   "y": 356.0,
+   "w": 115.0,
+   "h": 115.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000002"
+   }
+  },
+  {
+   "id": "cbxextendedmoviebitmap-led-2",
+   "kind": "filmstrip",
+   "sprite": "shadow_hills_mastering_compressor__METERVU",
+   "frames": 91,
+   "x": 290.0,
+   "y": 49.0,
+   "w": 209.0,
+   "h": 100.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000000"
+   }
+  },
+  {
+   "id": "cbxextendedmoviebitmap-led-3",
+   "kind": "filmstrip",
+   "sprite": "shadow_hills_mastering_compressor__LIGHTSINOUT",
+   "frames": 2,
+   "x": 58.0,
+   "y": 107.0,
+   "w": 128.0,
+   "h": 64.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cbxextendedmoviebitmap-led-4",
+   "kind": "filmstrip",
+   "sprite": "shadow_hills_mastering_compressor__LIGHTSINOUT",
+   "frames": 2,
+   "x": 333.0,
+   "y": 229.0,
+   "w": 128.0,
+   "h": 64.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cbxextendedmoviebitmap-led-5",
+   "kind": "filmstrip",
+   "sprite": "shadow_hills_mastering_compressor__LIGHTSTRANSFORMER",
+   "frames": 3,
+   "x": 396.0,
+   "y": 325.0,
+   "w": 64.0,
+   "h": 120.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "meter1-led",
+   "kind": "filmstrip",
+   "sprite": "shadow_hills_mastering_compressor__LIGHTSMETER",
+   "frames": 3,
+   "x": 149.0,
+   "y": 9.0,
+   "w": 130.0,
+   "h": 73.0,
+   "frameSource": {
+    "type": "param",
+    "param": 12
+   }
+  },
+  {
+   "id": "trans1-switch",
+   "kind": "switch",
+   "sprite": "shadow_hills_mastering_compressor__SWITCHTRANSFORMER",
+   "frames": 3,
+   "param": 11,
+   "orientation": "vertical",
+   "x": 415.0,
+   "y": 318.0,
+   "w": 84.0,
+   "h": 144.0
+  },
+  {
+   "id": "meter1-switch",
+   "kind": "switch",
+   "sprite": "shadow_hills_mastering_compressor__KNOBSMALL3LEFT",
+   "frames": 3,
+   "param": 12,
+   "orientation": "vertical",
+   "x": 166.0,
+   "y": 29.0,
+   "w": 95.0,
+   "h": 119.0
+  },
+  {
+   "id": "datt1-knob",
+   "kind": "knob",
+   "sprite": "shadow_hills_mastering_compressor__KNOBSMALL6LEFT",
+   "frames": 6,
+   "param": 7,
+   "x": 167.0,
+   "y": 257.0,
+   "w": 95.0,
+   "h": 95.0
+  },
+  {
+   "id": "drec1-knob",
+   "kind": "knob",
+   "sprite": "shadow_hills_mastering_compressor__KNOBSMALL6LEFT",
+   "frames": 6,
+   "param": 8,
+   "x": 167.0,
+   "y": 363.0,
+   "w": 95.0,
+   "h": 95.0
+  },
+  {
+   "id": "drat1-knob",
+   "kind": "knob",
+   "sprite": "shadow_hills_mastering_compressor__KNOBMEDIUM6LEFT",
+   "frames": 6,
+   "param": 6,
+   "x": 55.0,
+   "y": 235.0,
+   "w": 108.0,
+   "h": 108.0
+  },
+  {
+   "id": "othr1-knob",
+   "kind": "knob",
+   "sprite": "shadow_hills_mastering_compressor__KNOBMEDIUM24LEFT",
+   "frames": 24,
+   "param": 2,
+   "x": 55.0,
+   "y": 16.0,
+   "w": 108.0,
+   "h": 108.0
+  },
+  {
+   "id": "ogain1-knob",
+   "kind": "knob",
+   "sprite": "shadow_hills_mastering_compressor__KNOBMEDIUM24LEFT",
+   "frames": 24,
+   "param": 3,
+   "x": 158.0,
+   "y": 136.0,
+   "w": 108.0,
+   "h": 108.0
+  },
+  {
+   "id": "dthr1-knob",
+   "kind": "knob",
+   "sprite": "shadow_hills_mastering_compressor__KNOBMEDIUM24LEFT",
+   "frames": 24,
+   "param": 5,
+   "x": 55.0,
+   "y": 357.0,
+   "w": 108.0,
+   "h": 108.0
+  },
+  {
+   "id": "dgain1-knob",
+   "kind": "knob",
+   "sprite": "shadow_hills_mastering_compressor__KNOBBIG24LEFT",
+   "frames": 24,
+   "param": 9,
+   "x": 263.0,
+   "y": 321.0,
+   "w": 148.0,
+   "h": 148.0
+  },
+  {
+   "id": "cbxextendedmoviebitmap-led-6",
+   "kind": "filmstrip",
+   "sprite": "shadow_hills_mastering_compressor__METERVU",
+   "frames": 91,
+   "x": 526.0,
+   "y": 49.0,
+   "w": 209.0,
+   "h": 100.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000001"
+   }
+  },
+  {
+   "id": "cbxextendedmoviebitmap-led-7",
+   "kind": "filmstrip",
+   "sprite": "shadow_hills_mastering_compressor__LIGHTSINOUT",
+   "frames": 2,
+   "x": 838.0,
+   "y": 107.0,
+   "w": 128.0,
+   "h": 64.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     25,
+     13,
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-cbxextendedmoviebitmap-led-7-mono",
+   "kind": "filmstrip",
+   "x": 838.0,
+   "y": 107.0,
+   "w": 128.0,
+   "h": 64.0,
+   "sprite": "Q_shadow_hills_mastering_compressor__LIGHTSINOUT_mono",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     25,
+     13,
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cbxextendedmoviebitmap-led-8",
+   "kind": "filmstrip",
+   "sprite": "shadow_hills_mastering_compressor__LIGHTSINOUT",
+   "frames": 2,
+   "x": 563.0,
+   "y": 229.0,
+   "w": 128.0,
+   "h": 64.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     25,
+     16,
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-cbxextendedmoviebitmap-led-8-mono",
+   "kind": "filmstrip",
+   "x": 563.0,
+   "y": 229.0,
+   "w": 128.0,
+   "h": 64.0,
+   "sprite": "Q_shadow_hills_mastering_compressor__LIGHTSINOUT_mono",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     25,
+     16,
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cbxextendedmoviebitmap-led-9",
+   "kind": "filmstrip",
+   "sprite": "shadow_hills_mastering_compressor__LIGHTSTRANSFORMER",
+   "frames": 3,
+   "x": 564.0,
+   "y": 325.0,
+   "w": 64.0,
+   "h": 120.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     25,
+     23,
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.5
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.5
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.5,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5,
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.5,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 2
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-cbxextendedmoviebitmap-led-9-mono",
+   "kind": "filmstrip",
+   "x": 564.0,
+   "y": 325.0,
+   "w": 64.0,
+   "h": 120.0,
+   "sprite": "Q_shadow_hills_mastering_compressor__LIGHTSTRANSFORMER_mono",
+   "frames": 3,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     25,
+     23,
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.5
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.5
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.5,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5,
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.5,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 2
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "meter2-led",
+   "kind": "filmstrip",
+   "sprite": "shadow_hills_mastering_compressor__LIGHTSMETER",
+   "frames": 3,
+   "x": 745.0,
+   "y": 9.0,
+   "w": 130.0,
+   "h": 73.0,
+   "frameSource": {
+    "type": "param",
+    "param": 24
+   }
+  },
+  {
+   "id": "trans2-switch",
+   "kind": "switch",
+   "sprite": "shadow_hills_mastering_compressor__SWITCHTRANSFORMER",
+   "frames": 3,
+   "param": 23,
+   "orientation": "vertical",
+   "x": 525.0,
+   "y": 318.0,
+   "w": 84.0,
+   "h": 144.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-trans2-switch-mono",
+   "kind": "filmstrip",
+   "x": 525.0,
+   "y": 318.0,
+   "w": 84.0,
+   "h": 144.0,
+   "sprite": "Q_shadow_hills_mastering_compressor__SWITCHTRANSFORMER_mono",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 23
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   },
+   "orientation": "vertical"
+  },
+  {
+   "id": "meter2-switch",
+   "kind": "switch",
+   "sprite": "shadow_hills_mastering_compressor__KNOBSMALL3RIGHT",
+   "frames": 3,
+   "param": 24,
+   "orientation": "vertical",
+   "x": 764.0,
+   "y": 29.0,
+   "w": 95.0,
+   "h": 119.0
+  },
+  {
+   "id": "datt2-knob",
+   "kind": "knob",
+   "sprite": "shadow_hills_mastering_compressor__KNOBSMALL6RIGHT",
+   "frames": 6,
+   "param": 19,
+   "x": 763.0,
+   "y": 257.0,
+   "w": 95.0,
+   "h": 95.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-datt2-knob-mono",
+   "kind": "filmstrip",
+   "x": 763.0,
+   "y": 257.0,
+   "w": 95.0,
+   "h": 95.0,
+   "sprite": "Q_shadow_hills_mastering_compressor__KNOBSMALL6RIGHT_mono",
+   "frames": 6,
+   "frameSource": {
+    "type": "param",
+    "param": 19
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "drec2-knob",
+   "kind": "knob",
+   "sprite": "shadow_hills_mastering_compressor__KNOBSMALL6RIGHT",
+   "frames": 6,
+   "param": 20,
+   "x": 763.0,
+   "y": 363.0,
+   "w": 95.0,
+   "h": 95.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-drec2-knob-mono",
+   "kind": "filmstrip",
+   "x": 763.0,
+   "y": 363.0,
+   "w": 95.0,
+   "h": 95.0,
+   "sprite": "Q_shadow_hills_mastering_compressor__KNOBSMALL6RIGHT_mono",
+   "frames": 6,
+   "frameSource": {
+    "type": "param",
+    "param": 20
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "drat2-knob",
+   "kind": "knob",
+   "sprite": "shadow_hills_mastering_compressor__KNOBMEDIUM6RIGHT",
+   "frames": 6,
+   "param": 18,
+   "x": 861.0,
+   "y": 235.0,
+   "w": 108.0,
+   "h": 108.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-drat2-knob-mono",
+   "kind": "filmstrip",
+   "x": 861.0,
+   "y": 235.0,
+   "w": 108.0,
+   "h": 108.0,
+   "sprite": "Q_shadow_hills_mastering_compressor__KNOBMEDIUM6RIGHT_mono",
+   "frames": 6,
+   "frameSource": {
+    "type": "param",
+    "param": 18
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "othr2-knob",
+   "kind": "knob",
+   "sprite": "shadow_hills_mastering_compressor__KNOBMEDIUM24RIGHT",
+   "frames": 24,
+   "param": 14,
+   "x": 861.0,
+   "y": 16.0,
+   "w": 108.0,
+   "h": 108.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-othr2-knob-mono",
+   "kind": "filmstrip",
+   "x": 861.0,
+   "y": 16.0,
+   "w": 108.0,
+   "h": 108.0,
+   "sprite": "Q_shadow_hills_mastering_compressor__KNOBMEDIUM24RIGHT_mono",
+   "frames": 24,
+   "frameSource": {
+    "type": "param",
+    "param": 14
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "ogain2-knob",
+   "kind": "knob",
+   "sprite": "shadow_hills_mastering_compressor__KNOBMEDIUM24RIGHT",
+   "frames": 24,
+   "param": 15,
+   "x": 758.0,
+   "y": 136.0,
+   "w": 108.0,
+   "h": 108.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-ogain2-knob-mono",
+   "kind": "filmstrip",
+   "x": 758.0,
+   "y": 136.0,
+   "w": 108.0,
+   "h": 108.0,
+   "sprite": "Q_shadow_hills_mastering_compressor__KNOBMEDIUM24RIGHT_mono",
+   "frames": 24,
+   "frameSource": {
+    "type": "param",
+    "param": 15
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "dthr2-knob",
+   "kind": "knob",
+   "sprite": "shadow_hills_mastering_compressor__KNOBMEDIUM24RIGHT",
+   "frames": 24,
+   "param": 17,
+   "x": 861.0,
+   "y": 357.0,
+   "w": 108.0,
+   "h": 108.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-dthr2-knob-mono",
+   "kind": "filmstrip",
+   "x": 861.0,
+   "y": 357.0,
+   "w": 108.0,
+   "h": 108.0,
+   "sprite": "Q_shadow_hills_mastering_compressor__KNOBMEDIUM24RIGHT_mono",
+   "frames": 24,
+   "frameSource": {
+    "type": "param",
+    "param": 17
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "dgain2-knob",
+   "kind": "knob",
+   "sprite": "shadow_hills_mastering_compressor__KNOBBIG24RIGHT",
+   "frames": 24,
+   "param": 21,
+   "x": 613.0,
+   "y": 321.0,
+   "w": 148.0,
+   "h": 148.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-dgain2-knob-mono",
+   "kind": "filmstrip",
+   "x": 613.0,
+   "y": 321.0,
+   "w": 148.0,
+   "h": 148.0,
+   "sprite": "Q_shadow_hills_mastering_compressor__KNOBBIG24RIGHT_mono",
+   "frames": 24,
+   "frameSource": {
+    "type": "param",
+    "param": 21
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "mode-knob",
+   "kind": "knob",
+   "sprite": "shadow_hills_mastering_compressor__KNOBTINY2",
+   "frames": 2,
+   "param": 25,
+   "x": 454.0,
+   "y": 244.0,
+   "w": 116.0,
+   "h": 72.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-mode-knob-mono",
+   "kind": "filmstrip",
+   "x": 454.0,
+   "y": 244.0,
+   "w": 116.0,
+   "h": 72.0,
+   "sprite": "Q_shadow_hills_mastering_compressor__KNOBTINY2_mono",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 25
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-p1-switch",
+   "kind": "switch",
+   "param": 1,
+   "sprite": "J_shadow_hills_mastering_compressor_switch_p1",
+   "frames": 2,
+   "reverse": true,
+   "x": 80.0,
+   "y": 129.0,
+   "w": 82.0,
+   "h": 78.0,
+   "frameSource": {
+    "type": "param",
+    "param": 1
+   }
+  },
+  {
+   "id": "j-p4-switch",
+   "kind": "switch",
+   "param": 4,
+   "sprite": "J_shadow_hills_mastering_compressor_switch_p4",
+   "frames": 2,
+   "reverse": true,
+   "x": 356.0,
+   "y": 251.0,
+   "w": 82.0,
+   "h": 78.0,
+   "frameSource": {
+    "type": "param",
+    "param": 4
+   }
+  },
+  {
+   "id": "j-p10-switch",
+   "kind": "switch",
+   "param": 10,
+   "sprite": "J_shadow_hills_mastering_compressor_switch_p10",
+   "frames": 2,
+   "reverse": true,
+   "x": 266.0,
+   "y": 234.0,
+   "w": 82.0,
+   "h": 78.0,
+   "frameSource": {
+    "type": "param",
+    "param": 10
+   }
+  },
+  {
+   "id": "j-p13-switch",
+   "kind": "switch",
+   "param": 13,
+   "sprite": "J_shadow_hills_mastering_compressor_switch_p13",
+   "frames": 2,
+   "reverse": true,
+   "x": 862.0,
+   "y": 129.0,
+   "w": 82.0,
+   "h": 78.0,
+   "frameSource": {
+    "type": "param",
+    "param": 13
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-j-p13-switch-mono",
+   "kind": "filmstrip",
+   "x": 862.0,
+   "y": 129.0,
+   "w": 82.0,
+   "h": 78.0,
+   "sprite": "Q_J_shadow_hills_mastering_compressor_switch_p13_mono",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 13
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   },
+   "reverse": true
+  },
+  {
+   "id": "j-p16-switch",
+   "kind": "switch",
+   "param": 16,
+   "sprite": "J_shadow_hills_mastering_compressor_switch_p16",
+   "frames": 2,
+   "reverse": true,
+   "x": 586.0,
+   "y": 251.0,
+   "w": 82.0,
+   "h": 78.0,
+   "frameSource": {
+    "type": "param",
+    "param": 16
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-j-p16-switch-mono",
+   "kind": "filmstrip",
+   "x": 586.0,
+   "y": 251.0,
+   "w": 82.0,
+   "h": 78.0,
+   "sprite": "Q_J_shadow_hills_mastering_compressor_switch_p16_mono",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 16
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   },
+   "reverse": true
+  },
+  {
+   "id": "j-p22-switch",
+   "kind": "switch",
+   "param": 22,
+   "sprite": "J_shadow_hills_mastering_compressor_switch_p22",
+   "frames": 2,
+   "reverse": true,
+   "x": 676.0,
+   "y": 234.0,
+   "w": 82.0,
+   "h": 78.0,
+   "frameSource": {
+    "type": "param",
+    "param": 22
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-j-p22-switch-mono",
+   "kind": "filmstrip",
+   "x": 676.0,
+   "y": 234.0,
+   "w": 82.0,
+   "h": 78.0,
+   "sprite": "Q_J_shadow_hills_mastering_compressor_switch_p22_mono",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 22
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   },
+   "reverse": true
+  },
+  {
+   "id": "j-p0-switch",
+   "kind": "switch",
+   "param": 0,
+   "sprite": "J_shadow_hills_mastering_compressor_switch_p0",
+   "frames": 2,
+   "reverse": true,
+   "x": 471.0,
+   "y": 305.0,
+   "w": 82.0,
+   "h": 78.0,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
+  },
+  {
+   "id": "q-about-art",
+   "kind": "image",
+   "sprite": "Q_shadow_hills_mastering_compressor__ABOUT",
+   "x": 212,
+   "y": 0,
+   "w": 600,
+   "h": 470,
+   "visibility": {
+    "params": [],
+    "states": [
+     "about"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-about-close",
+   "kind": "zone",
+   "x": 212,
+   "y": 0,
+   "w": 600,
+   "h": 470,
+   "visibility": {
+    "params": [],
+    "states": [
+     "about"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   },
+   "action": {
+    "type": "setState",
+    "state": "about",
+    "value": 0
+   }
+  },
+  {
+   "id": "q-vuref-text",
+   "kind": "text",
+   "param": 26,
+   "x": 477,
+   "y": 343,
+   "w": 70,
+   "h": 16,
+   "visibility": {
+    "params": [],
+    "states": [
+     "about"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   },
+   "text": {
+    "size": 10,
+    "color": "#FFFFFF",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "q-vuref-drag",
+   "kind": "zone",
+   "gesture": "drag",
+   "param": 26,
+   "x": 467,
+   "y": 337,
+   "w": 90,
+   "h": 28,
+   "visibility": {
+    "params": [],
+    "states": [
+     "about"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  }
+ ],
+ "meterSources": {
+  "led_40000000": {
+   "vendorSpecificFloat": 83886122,
+   "opcode": {
+    "op": 519,
+    "p0": 83886122,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0.1111
+    ],
+    [
+     0.3162,
+     0.2222
+    ],
+    [
+     0.5623,
+     0.3333
+    ],
+    [
+     0.668,
+     0.4444
+    ],
+    [
+     0.7079,
+     0.4778
+    ],
+    [
+     0.7943,
+     0.5556
+    ],
+    [
+     0.8913,
+     0.6111
+    ],
+    [
+     1.0,
+     0.6778
+    ],
+    [
+     1.122,
+     0.7778
+    ],
+    [
+     1.259,
+     0.8556
+    ],
+    [
+     1.413,
+     0.9333
+    ],
+    [
+     1.6,
+     1.0
+    ],
+    [
+     4.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.25
+  },
+  "led_40000001": {
+   "vendorSpecificFloat": 83886123,
+   "opcode": {
+    "op": 519,
+    "p0": 83886123,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0.1111
+    ],
+    [
+     0.3162,
+     0.2222
+    ],
+    [
+     0.5623,
+     0.3333
+    ],
+    [
+     0.668,
+     0.4444
+    ],
+    [
+     0.7079,
+     0.4778
+    ],
+    [
+     0.7943,
+     0.5556
+    ],
+    [
+     0.8913,
+     0.6111
+    ],
+    [
+     1.0,
+     0.6778
+    ],
+    [
+     1.122,
+     0.7778
+    ],
+    [
+     1.259,
+     0.8556
+    ],
+    [
+     1.413,
+     0.9333
+    ],
+    [
+     1.6,
+     1.0
+    ],
+    [
+     4.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.25
+  },
+  "led_40000002": {
+   "vendorSpecificFloat": 83886128,
+   "opcode": {
+    "op": 519,
+    "p0": 83886128,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0667
+    ],
+    [
+     0.00065259,
+     0.0667
+    ],
+    [
+     0.00073222,
+     0.0667
+    ],
+    [
+     0.00082157,
+     0.0667
+    ],
+    [
+     0.00092181,
+     0.0667
+    ],
+    [
+     0.00103469,
+     0.0667
+    ],
+    [
+     0.00116138,
+     0.0667
+    ],
+    [
+     0.00130359,
+     0.0667
+    ],
+    [
+     0.00146513,
+     0.0667
+    ],
+    [
+     0.00164669,
+     0.0667
+    ],
+    [
+     0.00185074,
+     0.0667
+    ],
+    [
+     0.00206662,
+     0.0667
+    ],
+    [
+     0.00230768,
+     0.0667
+    ],
+    [
+     0.00257685,
+     0.0667
+    ],
+    [
+     0.00288868,
+     0.0667
+    ],
+    [
+     0.00323825,
+     0.0667
+    ],
+    [
+     0.00363012,
+     0.0667
+    ],
+    [
+     0.00408685,
+     0.0667
+    ],
+    [
+     0.00460103,
+     0.0667
+    ],
+    [
+     0.00517991,
+     0.0667
+    ],
+    [
+     0.00581014,
+     0.0667
+    ],
+    [
+     0.00651704,
+     0.0667
+    ],
+    [
+     0.00730996,
+     0.0667
+    ],
+    [
+     0.00822888,
+     0.0667
+    ],
+    [
+     0.00926331,
+     0.0667
+    ],
+    [
+     0.01042778,
+     0.0667
+    ],
+    [
+     0.01165636,
+     0.0889
+    ],
+    [
+     0.01302967,
+     0.1111
+    ],
+    [
+     0.01456479,
+     0.1333
+    ],
+    [
+     0.0163956,
+     0.1333
+    ],
+    [
+     0.01845655,
+     0.1333
+    ],
+    [
+     0.02077656,
+     0.1333
+    ],
+    [
+     0.02330285,
+     0.1556
+    ],
+    [
+     0.02613633,
+     0.1778
+    ],
+    [
+     0.02931433,
+     0.2
+    ],
+    [
+     0.0327351,
+     0.2222
+    ],
+    [
+     0.03655506,
+     0.2444
+    ],
+    [
+     0.04082078,
+     0.2667
+    ],
+    [
+     0.04591339,
+     0.2889
+    ],
+    [
+     0.05164134,
+     0.3111
+    ],
+    [
+     0.05808387,
+     0.3333
+    ],
+    [
+     0.06503524,
+     0.4
+    ],
+    [
+     0.07281853,
+     0.4667
+    ],
+    [
+     0.08153331,
+     0.5333
+    ],
+    [
+     0.09145209,
+     0.5778
+    ],
+    [
+     0.10257751,
+     0.6222
+    ],
+    [
+     0.11505638,
+     0.6667
+    ],
+    [
+     0.12907715,
+     0.7778
+    ],
+    [
+     0.14480648,
+     0.8889
+    ],
+    [
+     0.16245259,
+     1.0
+    ],
+    [
+     0.18354465,
+     1.0
+    ],
+    [
+     0.20737519,
+     1.0
+    ],
+    [
+     0.23429978,
+     1.0
+    ],
+    [
+     0.26472012,
+     1.0
+    ],
+    [
+     0.2990901,
+     1.0
+    ],
+    [
+     0.3379225,
+     1.0
+    ],
+    [
+     0.38179671,
+     1.0
+    ],
+    [
+     0.43136734,
+     1.0
+    ],
+    [
+     0.48737398,
+     1.0
+    ],
+    [
+     0.55065225,
+     1.0
+    ],
+    [
+     0.62214626,
+     1.0
+    ],
+    [
+     0.7029227,
+     1.0
+    ],
+    [
+     0.79418676,
+     1.0
+    ],
+    [
+     0.89730011,
+     1.0
+    ],
+    [
+     1.01380119,
+     1.0
+    ],
+    [
+     1.14542821,
+     1.0
+    ],
+    [
+     1.29414504,
+     1.0
+    ],
+    [
+     1.46217054,
+     1.0
+    ],
+    [
+     1.65201165,
+     1.0
+    ],
+    [
+     1.8665008,
+     1.0
+    ],
+    [
+     2.10883819,
+     1.0
+    ],
+    [
+     2.38263949,
+     1.0
+    ],
+    [
+     2.69198981,
+     1.0
+    ],
+    [
+     3.04150467,
+     1.0
+    ],
+    [
+     3.43639885,
+     1.0
+    ],
+    [
+     3.88256416,
+     1.0
+    ],
+    [
+     4.38665741,
+     1.0
+    ],
+    [
+     17.54663,
+     1.0
+    ]
+   ],
+   "smoothing": 0.35
+  }
+ },
+ "states": {
+  "about": 0,
+  "channels": 2
+ }
+}

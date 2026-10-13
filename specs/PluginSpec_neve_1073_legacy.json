@@ -1,0 +1,245 @@
+{
+ "schema": 2,
+ "effectName": "UAD Neve 1073 Legacy",
+ "namePattern": "Neve 1073 Legacy",
+ "size": {
+  "w": 576,
+  "h": 122
+ },
+ "background": "neve_1073_legacy_4700",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Input Gain",
+   "steps": null,
+   "default": 0.6558837890625
+  },
+  {
+   "index": 1,
+   "name": "Hi Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 2,
+   "name": "Mid Freq",
+   "steps": [
+    "Off",
+    "0.36 kHz",
+    "0.7 kHz",
+    "1.6 kHz",
+    "3.2 kHz",
+    "4.8 kHz",
+    "7.2 kHz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Mid Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "Lo Freq",
+   "steps": [
+    "Off",
+    "35 Hz",
+    "60 Hz",
+    "110 Hz",
+    "220 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Lo Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "HP Filt",
+   "steps": [
+    "Off",
+    "50 Hz",
+    "80 Hz",
+    "160 Hz",
+    "300 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "Phase",
+   "steps": [
+    "Normal",
+    "Inverted"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "EQL",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-input_gain",
+   "x": 22,
+   "y": 14,
+   "w": 112,
+   "h": 102,
+   "sprite": "neve_1073_legacy_4702",
+   "frames": 62,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "knob-2-hi_gain",
+   "x": 134,
+   "y": 14,
+   "w": 83,
+   "h": 94,
+   "sprite": "neve_1073_legacy_4703",
+   "frames": 109,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "knob-3-mid_freq",
+   "x": 217,
+   "y": 14,
+   "w": 102,
+   "h": 94,
+   "sprite": "neve_1073_legacy_4704",
+   "frames": 7,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "knob-4-lo_freq",
+   "x": 311,
+   "y": 14,
+   "w": 102,
+   "h": 94,
+   "sprite": "neve_1073_legacy_4706",
+   "frames": 5,
+   "kind": "knob",
+   "param": 4
+  },
+  {
+   "id": "knob-5-mid_gain",
+   "x": 217,
+   "y": 14,
+   "w": 102,
+   "h": 94,
+   "sprite": "neve_1073_legacy_4707",
+   "frames": 109,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "knob-6-lo_gain",
+   "x": 311,
+   "y": 14,
+   "w": 102,
+   "h": 94,
+   "sprite": "neve_1073_legacy_4707",
+   "frames": 109,
+   "kind": "knob",
+   "param": 5
+  },
+  {
+   "id": "knob-7-hp_filt",
+   "x": 413,
+   "y": 14,
+   "w": 97,
+   "h": 102,
+   "sprite": "neve_1073_legacy_4708",
+   "frames": 5,
+   "kind": "knob",
+   "param": 6
+  },
+  {
+   "id": "filmstrip-8-internal12",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "table",
+    "params": [
+     7,
+     8
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   },
+   "x": 510,
+   "y": 14,
+   "w": 34,
+   "h": 100,
+   "sprite": "neve_1073_legacy_4711",
+   "frames": 4
+  },
+  {
+   "id": "zone-9-eql",
+   "kind": "zone",
+   "x": 510,
+   "y": 61,
+   "w": 34,
+   "h": 53,
+   "param": 8,
+   "action": {
+    "type": "toggle",
+    "param": 8
+   }
+  },
+  {
+   "id": "zone-10-phase",
+   "kind": "zone",
+   "x": 510,
+   "y": 14,
+   "w": 34,
+   "h": 47,
+   "param": 7,
+   "action": {
+    "type": "toggle",
+    "param": 7
+   }
+  }
+ ],
+ "meterSources": {}
+}

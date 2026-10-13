@@ -1,0 +1,1865 @@
+{
+ "schema": 2,
+ "effectName": "UAD EMT 140",
+ "namePattern": "EMT 140",
+ "size": {
+  "w": 1200,
+  "h": 416
+ },
+ "background": null,
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Plate",
+   "steps": [
+    "A",
+    "B",
+    "C"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "DampA",
+   "steps": [
+    "0.5 s",
+    "0.5 s",
+    "0.6 s",
+    "0.6 s",
+    "0.7 s",
+    "0.7 s",
+    "0.7 s",
+    "0.7 s",
+    "0.8 s",
+    "0.8 s",
+    "0.8 s",
+    "0.8 s",
+    "0.8 s",
+    "0.9 s",
+    "0.9 s",
+    "0.9 s",
+    "0.9 s",
+    "1.0 s",
+    "1.0 s",
+    "1.0 s",
+    "1.1 s",
+    "1.1 s",
+    "1.2 s",
+    "1.2 s",
+    "1.3 s",
+    "1.4 s",
+    "1.4 s",
+    "1.5 s",
+    "1.6 s",
+    "1.6 s",
+    "1.7 s",
+    "1.8 s",
+    "1.9 s",
+    "2.0 s",
+    "2.1 s",
+    "2.1 s",
+    "2.2 s",
+    "2.3 s",
+    "2.4 s",
+    "2.5 s",
+    "2.6 s",
+    "2.7 s",
+    "2.8 s",
+    "2.8 s",
+    "2.9 s",
+    "3.0 s",
+    "3.1 s",
+    "3.2 s",
+    "3.3 s",
+    "3.3 s",
+    "3.4 s",
+    "3.5 s",
+    "3.6 s",
+    "3.6 s",
+    "3.7 s",
+    "3.8 s",
+    "3.8 s",
+    "3.9 s",
+    "4.0 s",
+    "4.0 s",
+    "4.1 s",
+    "4.1 s",
+    "4.2 s",
+    "4.2 s",
+    "4.3 s",
+    "4.3 s",
+    "4.3 s",
+    "4.4 s",
+    "4.4 s",
+    "4.5 s",
+    "4.5 s",
+    "4.5 s",
+    "4.6 s",
+    "4.6 s",
+    "4.6 s",
+    "4.6 s",
+    "4.7 s",
+    "4.7 s",
+    "4.7 s",
+    "4.8 s",
+    "4.8 s",
+    "4.8 s",
+    "4.8 s",
+    "4.9 s",
+    "4.9 s",
+    "4.9 s",
+    "5.0 s",
+    "5.0 s",
+    "5.0 s",
+    "5.1 s",
+    "5.1 s",
+    "5.1 s",
+    "5.2 s",
+    "5.2 s",
+    "5.2 s",
+    "5.3 s",
+    "5.3 s",
+    "5.4 s",
+    "5.4 s",
+    "5.5 s",
+    "5.5 s"
+   ],
+   "default": 0.5199999809265137
+  },
+  {
+   "index": 2,
+   "name": "DampB",
+   "steps": [
+    "0.5 s",
+    "0.5 s",
+    "0.6 s",
+    "0.6 s",
+    "0.7 s",
+    "0.7 s",
+    "0.7 s",
+    "0.7 s",
+    "0.8 s",
+    "0.8 s",
+    "0.8 s",
+    "0.8 s",
+    "0.8 s",
+    "0.9 s",
+    "0.9 s",
+    "0.9 s",
+    "0.9 s",
+    "1.0 s",
+    "1.0 s",
+    "1.0 s",
+    "1.1 s",
+    "1.1 s",
+    "1.2 s",
+    "1.2 s",
+    "1.3 s",
+    "1.4 s",
+    "1.4 s",
+    "1.5 s",
+    "1.6 s",
+    "1.6 s",
+    "1.7 s",
+    "1.8 s",
+    "1.9 s",
+    "2.0 s",
+    "2.1 s",
+    "2.1 s",
+    "2.2 s",
+    "2.3 s",
+    "2.4 s",
+    "2.5 s",
+    "2.6 s",
+    "2.7 s",
+    "2.8 s",
+    "2.8 s",
+    "2.9 s",
+    "3.0 s",
+    "3.1 s",
+    "3.2 s",
+    "3.3 s",
+    "3.3 s",
+    "3.4 s",
+    "3.5 s",
+    "3.6 s",
+    "3.6 s",
+    "3.7 s",
+    "3.8 s",
+    "3.8 s",
+    "3.9 s",
+    "4.0 s",
+    "4.0 s",
+    "4.1 s",
+    "4.1 s",
+    "4.2 s",
+    "4.2 s",
+    "4.3 s",
+    "4.3 s",
+    "4.3 s",
+    "4.4 s",
+    "4.4 s",
+    "4.5 s",
+    "4.5 s",
+    "4.5 s",
+    "4.6 s",
+    "4.6 s",
+    "4.6 s",
+    "4.6 s",
+    "4.7 s",
+    "4.7 s",
+    "4.7 s",
+    "4.8 s",
+    "4.8 s",
+    "4.8 s",
+    "4.8 s",
+    "4.9 s",
+    "4.9 s",
+    "4.9 s",
+    "5.0 s",
+    "5.0 s",
+    "5.0 s",
+    "5.1 s",
+    "5.1 s",
+    "5.1 s",
+    "5.2 s",
+    "5.2 s",
+    "5.2 s",
+    "5.3 s",
+    "5.3 s",
+    "5.4 s",
+    "5.4 s",
+    "5.5 s",
+    "5.5 s"
+   ],
+   "default": 0.5199999809265137
+  },
+  {
+   "index": 3,
+   "name": "DampC",
+   "steps": [
+    "0.5 s",
+    "0.5 s",
+    "0.6 s",
+    "0.6 s",
+    "0.7 s",
+    "0.7 s",
+    "0.7 s",
+    "0.7 s",
+    "0.8 s",
+    "0.8 s",
+    "0.8 s",
+    "0.8 s",
+    "0.8 s",
+    "0.9 s",
+    "0.9 s",
+    "0.9 s",
+    "0.9 s",
+    "1.0 s",
+    "1.0 s",
+    "1.0 s",
+    "1.1 s",
+    "1.1 s",
+    "1.2 s",
+    "1.2 s",
+    "1.3 s",
+    "1.4 s",
+    "1.4 s",
+    "1.5 s",
+    "1.6 s",
+    "1.6 s",
+    "1.7 s",
+    "1.8 s",
+    "1.9 s",
+    "2.0 s",
+    "2.1 s",
+    "2.1 s",
+    "2.2 s",
+    "2.3 s",
+    "2.4 s",
+    "2.5 s",
+    "2.6 s",
+    "2.7 s",
+    "2.8 s",
+    "2.8 s",
+    "2.9 s",
+    "3.0 s",
+    "3.1 s",
+    "3.2 s",
+    "3.3 s",
+    "3.3 s",
+    "3.4 s",
+    "3.5 s",
+    "3.6 s",
+    "3.6 s",
+    "3.7 s",
+    "3.8 s",
+    "3.8 s",
+    "3.9 s",
+    "4.0 s",
+    "4.0 s",
+    "4.1 s",
+    "4.1 s",
+    "4.2 s",
+    "4.2 s",
+    "4.3 s",
+    "4.3 s",
+    "4.3 s",
+    "4.4 s",
+    "4.4 s",
+    "4.5 s",
+    "4.5 s",
+    "4.5 s",
+    "4.6 s",
+    "4.6 s",
+    "4.6 s",
+    "4.6 s",
+    "4.7 s",
+    "4.7 s",
+    "4.7 s",
+    "4.8 s",
+    "4.8 s",
+    "4.8 s",
+    "4.8 s",
+    "4.9 s",
+    "4.9 s",
+    "4.9 s",
+    "5.0 s",
+    "5.0 s",
+    "5.0 s",
+    "5.1 s",
+    "5.1 s",
+    "5.1 s",
+    "5.2 s",
+    "5.2 s",
+    "5.2 s",
+    "5.3 s",
+    "5.3 s",
+    "5.4 s",
+    "5.4 s",
+    "5.5 s",
+    "5.5 s"
+   ],
+   "default": 0.5199999809265137
+  },
+  {
+   "index": 4,
+   "name": "EQ",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "LFreq",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "LGain",
+   "steps": [
+    "-12.0 dB",
+    "-11.5 dB",
+    "-11.0 dB",
+    "-10.5 dB",
+    "-10.0 dB",
+    "-9.5 dB",
+    "-9.0 dB",
+    "-8.5 dB",
+    "-8.0 dB",
+    "-7.5 dB",
+    "-7.0 dB",
+    "-6.5 dB",
+    "-6.0 dB",
+    "-5.5 dB",
+    "-5.0 dB",
+    "-4.5 dB",
+    "-4.0 dB",
+    "-3.5 dB",
+    "-3.0 dB",
+    "-2.5 dB",
+    "-2.0 dB",
+    "-1.5 dB",
+    "-1.0 dB",
+    "-0.5 dB",
+    "0.0 dB",
+    "0.5 dB",
+    "1.0 dB",
+    "1.5 dB",
+    "2.0 dB",
+    "2.5 dB",
+    "3.0 dB",
+    "3.5 dB",
+    "4.0 dB",
+    "4.5 dB",
+    "5.0 dB",
+    "5.5 dB",
+    "6.0 dB",
+    "6.5 dB",
+    "7.0 dB",
+    "7.5 dB",
+    "8.0 dB",
+    "8.5 dB",
+    "9.0 dB",
+    "9.5 dB",
+    "10.0 dB",
+    "10.5 dB",
+    "11.0 dB",
+    "11.5 dB",
+    "12.0 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "HFreq",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 8,
+   "name": "HGain",
+   "steps": [
+    "-12.0 dB",
+    "-11.5 dB",
+    "-11.0 dB",
+    "-10.5 dB",
+    "-10.0 dB",
+    "-9.5 dB",
+    "-9.0 dB",
+    "-8.5 dB",
+    "-8.0 dB",
+    "-7.5 dB",
+    "-7.0 dB",
+    "-6.5 dB",
+    "-6.0 dB",
+    "-5.5 dB",
+    "-5.0 dB",
+    "-4.5 dB",
+    "-4.0 dB",
+    "-3.5 dB",
+    "-3.0 dB",
+    "-2.5 dB",
+    "-2.0 dB",
+    "-1.5 dB",
+    "-1.0 dB",
+    "-0.5 dB",
+    "0.0 dB",
+    "0.5 dB",
+    "1.0 dB",
+    "1.5 dB",
+    "2.0 dB",
+    "2.5 dB",
+    "3.0 dB",
+    "3.5 dB",
+    "4.0 dB",
+    "4.5 dB",
+    "5.0 dB",
+    "5.5 dB",
+    "6.0 dB",
+    "6.5 dB",
+    "7.0 dB",
+    "7.5 dB",
+    "8.0 dB",
+    "8.5 dB",
+    "9.0 dB",
+    "9.5 dB",
+    "10.0 dB",
+    "10.5 dB",
+    "11.0 dB",
+    "11.5 dB",
+    "12.0 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 9,
+   "name": "PreDly",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 10,
+   "name": "ModRate",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "ModDepth",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "Width",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 13,
+   "name": "WetSolo",
+   "steps": [
+    "Off",
+    "Solo"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 14,
+   "name": "Mix",
+   "steps": null,
+   "default": 0.247406005859375
+  },
+  {
+   "index": 15,
+   "name": "LowCut",
+   "steps": [
+    "Off",
+    "M 90Hz",
+    "M 125Hz",
+    "M 180Hz",
+    "M 250Hz",
+    "M 270Hz",
+    "M 360Hz",
+    "E -4dB",
+    "E -10dB",
+    "E -16dB"
+   ],
+   "default": 0.1111111119389534
+  },
+  {
+   "index": 16,
+   "name": "Bal",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 17,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "vu": {
+   "vendorSpecificFloat": 467,
+   "calibration": [
+    [
+     0.00013528,
+     0.0
+    ],
+    [
+     0.00015279,
+     0.0
+    ],
+    [
+     0.00022173,
+     0.05
+    ],
+    [
+     0.00031012,
+     0.09
+    ],
+    [
+     0.00045608,
+     0.14
+    ],
+    [
+     0.00066735,
+     0.18
+    ],
+    [
+     0.00082879,
+     0.23
+    ],
+    [
+     0.00129504,
+     0.28
+    ],
+    [
+     0.00177042,
+     0.32
+    ],
+    [
+     0.00255282,
+     0.37
+    ],
+    [
+     0.00372231,
+     0.41
+    ],
+    [
+     0.0049708,
+     0.46
+    ],
+    [
+     0.00706626,
+     0.5
+    ],
+    [
+     0.00942306,
+     0.55
+    ],
+    [
+     0.01277114,
+     0.6
+    ],
+    [
+     0.02060882,
+     0.64
+    ],
+    [
+     0.02921764,
+     0.69
+    ],
+    [
+     0.08259232400000008,
+     1.0
+    ]
+   ]
+  }
+ },
+ "elements": [
+  {
+   "id": "background-panel-off",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 1200.0,
+   "h": 416.0,
+   "opacity": 0,
+   "kind": "image",
+   "sprite": "emt140_background_off",
+   "visibility": {
+    "params": [
+     0,
+     17
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.5,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.5,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "background-panel-on",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 1200.0,
+   "h": 416.0,
+   "kind": "image",
+   "sprite": "emt140_background_on",
+   "visibility": {
+    "params": [
+     0,
+     17
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.5,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.5,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "power-switch-slider",
+   "x": 517,
+   "y": 61,
+   "w": 166,
+   "h": 284,
+   "kind": "switch",
+   "param": 17,
+   "sprite": "power_switch_metal",
+   "frames": 2,
+   "orientation": "horizontal"
+  },
+  {
+   "id": "power-glow-button",
+   "x": 561,
+   "y": 187,
+   "w": 84,
+   "h": 74,
+   "kind": "zone",
+   "param": 17,
+   "action": {
+    "type": "toggle",
+    "param": 17
+   }
+  },
+  {
+   "id": "input-filter-slider",
+   "x": 134,
+   "y": 310,
+   "w": 290,
+   "h": 76,
+   "kind": "switch",
+   "param": 15,
+   "sprite": "slider",
+   "frames": 10,
+   "orientation": "horizontal"
+  },
+  {
+   "id": "lowcut-ctv-0",
+   "x": 143,
+   "y": 361,
+   "w": 26,
+   "h": 24,
+   "kind": "zone",
+   "param": 15,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "lowcut-ctv-1",
+   "x": 169,
+   "y": 361,
+   "w": 26,
+   "h": 24,
+   "kind": "zone",
+   "param": 15,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.111111
+   }
+  },
+  {
+   "id": "lowcut-ctv-2",
+   "x": 195,
+   "y": 361,
+   "w": 26,
+   "h": 24,
+   "kind": "zone",
+   "param": 15,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.222222
+   }
+  },
+  {
+   "id": "lowcut-ctv-3",
+   "x": 221,
+   "y": 361,
+   "w": 26,
+   "h": 24,
+   "kind": "zone",
+   "param": 15,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.333333
+   }
+  },
+  {
+   "id": "lowcut-ctv-4",
+   "x": 247,
+   "y": 361,
+   "w": 26,
+   "h": 24,
+   "kind": "zone",
+   "param": 15,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.444444
+   }
+  },
+  {
+   "id": "lowcut-ctv-5",
+   "x": 273,
+   "y": 361,
+   "w": 26,
+   "h": 24,
+   "kind": "zone",
+   "param": 15,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.555556
+   }
+  },
+  {
+   "id": "lowcut-ctv-6",
+   "x": 299,
+   "y": 361,
+   "w": 26,
+   "h": 24,
+   "kind": "zone",
+   "param": 15,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.666667
+   }
+  },
+  {
+   "id": "lowcut-ctv-7",
+   "x": 325,
+   "y": 361,
+   "w": 26,
+   "h": 24,
+   "kind": "zone",
+   "param": 15,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.777778
+   }
+  },
+  {
+   "id": "lowcut-ctv-8",
+   "x": 351,
+   "y": 361,
+   "w": 26,
+   "h": 24,
+   "kind": "zone",
+   "param": 15,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.888889
+   }
+  },
+  {
+   "id": "lowcut-ctv-9",
+   "x": 377,
+   "y": 361,
+   "w": 26,
+   "h": 24,
+   "kind": "zone",
+   "param": 15,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "plate-select-knob-knob",
+   "x": 19,
+   "y": 108,
+   "w": 120,
+   "h": 180,
+   "kind": "knob",
+   "param": 0,
+   "sprite": "plate_select_knob",
+   "frames": 3
+  },
+  {
+   "id": "plate-select-btn-a",
+   "x": 34,
+   "y": 105,
+   "w": 30,
+   "h": 24,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "plate-select-btn-b",
+   "x": 65,
+   "y": 97,
+   "w": 30,
+   "h": 24,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "plate-select-btn-c",
+   "x": 96,
+   "y": 106,
+   "w": 30,
+   "h": 24,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "eq-inout-switch-slider",
+   "x": 838,
+   "y": 51,
+   "w": 84,
+   "h": 66,
+   "kind": "switch",
+   "param": 4,
+   "sprite": "eq_switch_metal",
+   "frames": 2,
+   "orientation": "horizontal"
+  },
+  {
+   "id": "width-knob-knob",
+   "x": 420,
+   "y": 141,
+   "w": 100,
+   "h": 100,
+   "kind": "knob",
+   "param": 12,
+   "sprite": "emt_knob",
+   "frames": 101
+  },
+  {
+   "id": "width-knob-ctv-0",
+   "x": 430,
+   "y": 215,
+   "w": 28,
+   "h": 18,
+   "kind": "zone",
+   "param": 12,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "width-knob-ctv-1",
+   "x": 480,
+   "y": 215,
+   "w": 28,
+   "h": 18,
+   "kind": "zone",
+   "param": 12,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "width-knob-ctv-2",
+   "x": 423,
+   "y": 103,
+   "w": 86,
+   "h": 44,
+   "kind": "zone",
+   "param": 12,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "balance-knob-knob",
+   "x": 420,
+   "y": 287,
+   "w": 100,
+   "h": 100,
+   "kind": "knob",
+   "param": 16,
+   "sprite": "emt_knob",
+   "frames": 101
+  },
+  {
+   "id": "balance-knob-ctv-0",
+   "x": 430,
+   "y": 361,
+   "w": 28,
+   "h": 18,
+   "kind": "zone",
+   "param": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "balance-knob-ctv-1",
+   "x": 480,
+   "y": 361,
+   "w": 28,
+   "h": 18,
+   "kind": "zone",
+   "param": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "balance-knob-ctv-2",
+   "x": 423,
+   "y": 249,
+   "w": 86,
+   "h": 44,
+   "kind": "zone",
+   "param": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "low-freq-knob-knob",
+   "x": 783,
+   "y": 141,
+   "w": 100,
+   "h": 100,
+   "kind": "knob",
+   "param": 5,
+   "sprite": "emt_knob",
+   "frames": 101
+  },
+  {
+   "id": "low-freq-knob-ctv-0",
+   "x": 793,
+   "y": 215,
+   "w": 28,
+   "h": 18,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "low-freq-knob-ctv-1",
+   "x": 843,
+   "y": 215,
+   "w": 28,
+   "h": 18,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "low-freq-knob-ctv-2",
+   "x": 786,
+   "y": 103,
+   "w": 86,
+   "h": 44,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "high-freq-knob-knob",
+   "x": 880,
+   "y": 141,
+   "w": 100,
+   "h": 100,
+   "kind": "knob",
+   "param": 7,
+   "sprite": "emt_knob",
+   "frames": 101
+  },
+  {
+   "id": "high-freq-knob-ctv-0",
+   "x": 890,
+   "y": 215,
+   "w": 28,
+   "h": 18,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "high-freq-knob-ctv-1",
+   "x": 940,
+   "y": 215,
+   "w": 28,
+   "h": 18,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "high-freq-knob-ctv-2",
+   "x": 883,
+   "y": 103,
+   "w": 86,
+   "h": 44,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "low-gain-knob-knob",
+   "x": 783,
+   "y": 287,
+   "w": 100,
+   "h": 100,
+   "kind": "knob",
+   "param": 6,
+   "sprite": "emt_knob",
+   "frames": 101
+  },
+  {
+   "id": "low-gain-knob-ctv-0",
+   "x": 793,
+   "y": 361,
+   "w": 28,
+   "h": 18,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "low-gain-knob-ctv-1",
+   "x": 843,
+   "y": 361,
+   "w": 28,
+   "h": 18,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "low-gain-knob-rtd",
+   "x": 786,
+   "y": 249,
+   "w": 86,
+   "h": 44,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "default",
+    "param": 6
+   }
+  },
+  {
+   "id": "high-gain-knob-knob",
+   "x": 880,
+   "y": 287,
+   "w": 100,
+   "h": 100,
+   "kind": "knob",
+   "param": 8,
+   "sprite": "emt_knob",
+   "frames": 101
+  },
+  {
+   "id": "high-gain-knob-ctv-0",
+   "x": 890,
+   "y": 361,
+   "w": 28,
+   "h": 18,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "high-gain-knob-ctv-1",
+   "x": 940,
+   "y": 361,
+   "w": 28,
+   "h": 18,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "high-gain-knob-rtd",
+   "x": 883,
+   "y": 249,
+   "w": 86,
+   "h": 44,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "default",
+    "param": 8
+   }
+  },
+  {
+   "id": "mod-rate-knob-knob",
+   "x": 686,
+   "y": 141,
+   "w": 100,
+   "h": 100,
+   "kind": "knob",
+   "param": 10,
+   "sprite": "emt_knob",
+   "frames": 101
+  },
+  {
+   "id": "mod-rate-knob-ctv-0",
+   "x": 696,
+   "y": 215,
+   "w": 28,
+   "h": 18,
+   "kind": "zone",
+   "param": 10,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "mod-rate-knob-ctv-1",
+   "x": 746,
+   "y": 215,
+   "w": 28,
+   "h": 18,
+   "kind": "zone",
+   "param": 10,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "mod-rate-knob-ctv-2",
+   "x": 689,
+   "y": 103,
+   "w": 86,
+   "h": 44,
+   "kind": "zone",
+   "param": 10,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "mod-depth-knob-knob",
+   "x": 686,
+   "y": 287,
+   "w": 100,
+   "h": 100,
+   "kind": "knob",
+   "param": 11,
+   "sprite": "emt_knob",
+   "frames": 101
+  },
+  {
+   "id": "mod-depth-knob-ctv-0",
+   "x": 696,
+   "y": 361,
+   "w": 28,
+   "h": 18,
+   "kind": "zone",
+   "param": 11,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "mod-depth-knob-ctv-1",
+   "x": 746,
+   "y": 361,
+   "w": 28,
+   "h": 18,
+   "kind": "zone",
+   "param": 11,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "mod-depth-knob-ctv-2",
+   "x": 689,
+   "y": 249,
+   "w": 86,
+   "h": 44,
+   "kind": "zone",
+   "param": 11,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "pre-delay-knob-knob",
+   "x": 977,
+   "y": 287,
+   "w": 100,
+   "h": 100,
+   "kind": "knob",
+   "param": 9,
+   "sprite": "emt_knob",
+   "frames": 101
+  },
+  {
+   "id": "pre-delay-knob-ctv-0",
+   "x": 987,
+   "y": 361,
+   "w": 28,
+   "h": 18,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "pre-delay-knob-ctv-1",
+   "x": 1037,
+   "y": 361,
+   "w": 28,
+   "h": 18,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "pre-delay-knob-ctv-2",
+   "x": 980,
+   "y": 249,
+   "w": 86,
+   "h": 44,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "wet-dry-knob-knob",
+   "x": 1074,
+   "y": 287,
+   "w": 100,
+   "h": 100,
+   "kind": "knob",
+   "param": 14,
+   "sprite": "emt_knob",
+   "frames": 101
+  },
+  {
+   "id": "wet-dry-knob-ctv-0",
+   "x": 1084,
+   "y": 361,
+   "w": 28,
+   "h": 18,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "wet-dry-knob-ctv-1",
+   "x": 1134,
+   "y": 361,
+   "w": 28,
+   "h": 18,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "wet-dry-knob-ctv-2",
+   "x": 1077,
+   "y": 249,
+   "w": 86,
+   "h": 22,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "wet-solo-btn",
+   "x": 1094,
+   "y": 260,
+   "w": 56,
+   "h": 50,
+   "kind": "switch",
+   "param": 13,
+   "sprite": "wet_solo_switch",
+   "frames": 3,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "vu-meter-on",
+   "x": 1006.0,
+   "y": 67.0,
+   "w": 135.0,
+   "h": 121.0,
+   "kind": "filmstrip",
+   "sprite": "vu_on",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [
+     0,
+     17
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.5,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.5,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "vu-meter-off",
+   "x": 1006,
+   "y": 67,
+   "w": 135,
+   "h": 121,
+   "opacity": 0,
+   "kind": "filmstrip",
+   "sprite": "vu_off",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [
+     0,
+     17
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.5,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.5,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "damping-meter-a-slider",
+   "x": 155,
+   "y": 93,
+   "w": 44,
+   "h": 134,
+   "kind": "switch",
+   "param": 1,
+   "sprite": "damper_film_off",
+   "frames": 101,
+   "orientation": "vertical"
+  },
+  {
+   "id": "damping-meter-b-slider",
+   "x": 251,
+   "y": 93,
+   "w": 44,
+   "h": 134,
+   "kind": "switch",
+   "param": 2,
+   "sprite": "damper_film_off",
+   "frames": 101,
+   "orientation": "vertical"
+  },
+  {
+   "id": "damping-meter-c-slider",
+   "x": 347,
+   "y": 93,
+   "w": 44,
+   "h": 134,
+   "kind": "switch",
+   "param": 3,
+   "sprite": "damper_film_off",
+   "frames": 101,
+   "orientation": "vertical"
+  },
+  {
+   "id": "damper-glass-overlay",
+   "x": 155.0,
+   "y": 93.0,
+   "w": 237.0,
+   "h": 134.0,
+   "kind": "image",
+   "sprite": "damper_glass_overlay"
+  },
+  {
+   "id": "reverb-time-plate-select-btn-a",
+   "x": 133,
+   "y": 60,
+   "w": 88,
+   "h": 29,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "reverb-time-plate-select-btn-b",
+   "x": 229,
+   "y": 60,
+   "w": 88,
+   "h": 29,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "reverb-time-plate-select-btn-c",
+   "x": 325,
+   "y": 60,
+   "w": 88,
+   "h": 29,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "damping-button-upper-a",
+   "x": 175,
+   "y": 234,
+   "w": 42,
+   "h": 50,
+   "kind": "button",
+   "param": 1,
+   "sprite": "G_emt_140__Pure_Plate_damper_switch_plus",
+   "frames": 3,
+   "action": {
+    "type": "nudge",
+    "param": 1,
+    "delta": 0.01
+   }
+  },
+  {
+   "id": "damping-button-lower-a",
+   "x": 137,
+   "y": 234,
+   "w": 42,
+   "h": 50,
+   "kind": "button",
+   "param": 1,
+   "sprite": "G_emt_140__Pure_Plate_damper_switch_minus",
+   "frames": 3,
+   "action": {
+    "type": "nudge",
+    "param": 1,
+    "delta": -0.01
+   }
+  },
+  {
+   "id": "damping-button-upper-b",
+   "x": 271,
+   "y": 234,
+   "w": 42,
+   "h": 50,
+   "kind": "button",
+   "param": 2,
+   "sprite": "G_emt_140__Pure_Plate_damper_switch_plus",
+   "frames": 3,
+   "action": {
+    "type": "nudge",
+    "param": 2,
+    "delta": 0.01
+   }
+  },
+  {
+   "id": "damping-button-lower-b",
+   "x": 233,
+   "y": 234,
+   "w": 42,
+   "h": 50,
+   "kind": "button",
+   "param": 2,
+   "sprite": "G_emt_140__Pure_Plate_damper_switch_minus",
+   "frames": 3,
+   "action": {
+    "type": "nudge",
+    "param": 2,
+    "delta": -0.01
+   }
+  },
+  {
+   "id": "damping-button-upper-c",
+   "x": 367,
+   "y": 234,
+   "w": 42,
+   "h": 50,
+   "kind": "button",
+   "param": 3,
+   "sprite": "G_emt_140__Pure_Plate_damper_switch_plus",
+   "frames": 3,
+   "action": {
+    "type": "nudge",
+    "param": 3,
+    "delta": 0.01
+   }
+  },
+  {
+   "id": "damping-button-lower-c",
+   "x": 329,
+   "y": 234,
+   "w": 42,
+   "h": 50,
+   "kind": "button",
+   "param": 3,
+   "sprite": "G_emt_140__Pure_Plate_damper_switch_minus",
+   "frames": 3,
+   "action": {
+    "type": "nudge",
+    "param": 3,
+    "delta": -0.01
+   }
+  }
+ ]
+}

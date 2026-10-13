@@ -1,0 +1,2051 @@
+{
+ "schema": 2,
+ "effectName": "UAD ADA STD-1 Stereo Tapped Delay",
+ "namePattern": "ADA STD-1 Stereo Tapped Delay",
+ "size": {
+  "w": 1024,
+  "h": 124
+ },
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Power",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "In",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 2,
+   "name": "Mono",
+   "steps": [
+    "Mono",
+    "Stereo"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 3,
+   "name": "Level",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "MixL",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "MixR",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "Out",
+   "steps": null,
+   "default": 0.7599999904632568
+  },
+  {
+   "index": 7,
+   "name": "Reg. In",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 8,
+   "name": "RegLvl",
+   "steps": null,
+   "default": 0.2000000029802322
+  },
+  {
+   "index": 9,
+   "name": "Hi-Cut",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "Reg. Tap",
+   "steps": [
+    "1",
+    "3",
+    "6"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "Tap1",
+   "steps": [
+    "Buss L",
+    "Off",
+    "Buss R"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "Tap2",
+   "steps": [
+    "Buss L",
+    "Off",
+    "Buss R"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 13,
+   "name": "Tap3",
+   "steps": [
+    "Buss L",
+    "Off",
+    "Buss R"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 14,
+   "name": "Tap4",
+   "steps": [
+    "Buss L",
+    "Off",
+    "Buss R"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 15,
+   "name": "Tap5",
+   "steps": [
+    "Buss L",
+    "Off",
+    "Buss R"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 16,
+   "name": "Tap6",
+   "steps": [
+    "Buss L",
+    "Off",
+    "Buss R"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 17,
+   "name": "Fixed",
+   "steps": null,
+   "default": 0.2000000029802322
+  },
+  {
+   "index": 18,
+   "name": "DlyMx",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 19,
+   "name": "Sweep",
+   "steps": null,
+   "default": 0.1700000017881393
+  },
+  {
+   "index": 20,
+   "name": "DlyMod",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 21,
+   "name": "Noise",
+   "steps": null,
+   "default": 0.449999988079071
+  },
+  {
+   "index": 22,
+   "name": "RegLim",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 23,
+   "name": "Bank",
+   "steps": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "default": 0.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "chrome-panel",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 1024,
+   "h": 100,
+   "sprite": "ada_std_1_stereo_tapped_delay__BACKGROUND"
+  },
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 1024,
+   "h": 24,
+   "toolbar": {
+    "family": "brainworx",
+    "items": [
+     {
+      "type": "switch",
+      "x": 0.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.power",
+      "frames": 2,
+      "param": 0,
+      "glyph": "power"
+     },
+     {
+      "type": "icon",
+      "x": 305.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.undo",
+      "frames": 2,
+      "glyph": "undo"
+     },
+     {
+      "type": "icon",
+      "x": 329.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.redo",
+      "frames": 2,
+      "glyph": "redo"
+     },
+     {
+      "type": "bank",
+      "x": 377.0,
+      "y": 0,
+      "w": 96.0,
+      "h": 24,
+      "sprite": "chrome.bx.bank",
+      "frames": 2,
+      "param": 23,
+      "cells": 4,
+      "glyph": "ABCD"
+     },
+     {
+      "type": "icon",
+      "x": 497.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.copy",
+      "frames": 2,
+      "glyph": "Copy"
+     },
+     {
+      "type": "icon",
+      "x": 549.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.paste",
+      "frames": 2,
+      "glyph": "Paste"
+     },
+     {
+      "type": "icon",
+      "x": 613.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.reset",
+      "frames": 2,
+      "glyph": "Reset"
+     },
+     {
+      "type": "icon",
+      "x": 958.0,
+      "y": 0,
+      "w": 42.5,
+      "h": 24,
+      "sprite": "ada_std_1_stereo_tapped_delay.tb.noise",
+      "frames": 1
+     },
+     {
+      "type": "knob",
+      "x": 1003.0,
+      "y": 0,
+      "w": 18.0,
+      "h": 24,
+      "param": 21,
+      "ring": {
+       "cx": 8.76,
+       "cy": 11.71,
+       "r": 6.99,
+       "width": 2.41,
+       "gap": 92.2
+      }
+     }
+    ],
+    "track": "#FFFFFF",
+    "accent": "#0E85B5"
+   }
+  },
+  {
+   "id": "cmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "ada_std_1_stereo_tapped_delay__METER",
+   "frames": 17,
+   "x": 33.0,
+   "y": 32.0,
+   "w": 10.0,
+   "h": 85.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000000"
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-1",
+   "kind": "filmstrip",
+   "sprite": "ada_std_1_stereo_tapped_delay__CLIP",
+   "frames": 2,
+   "x": 335.0,
+   "y": 31.0,
+   "w": 10.0,
+   "h": 10.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_20000000"
+   }
+  },
+  {
+   "id": "level-knob",
+   "kind": "knob",
+   "sprite": "ada_std_1_stereo_tapped_delay__KNOB",
+   "frames": 61,
+   "param": 3,
+   "x": 90.0,
+   "y": 41.0,
+   "w": 58.0,
+   "h": 58.0
+  },
+  {
+   "id": "mixl-knob",
+   "kind": "knob",
+   "sprite": "ada_std_1_stereo_tapped_delay__KNOB2",
+   "frames": 61,
+   "param": 4,
+   "x": 172.0,
+   "y": 41.0,
+   "w": 58.0,
+   "h": 58.0
+  },
+  {
+   "id": "mixr-knob",
+   "kind": "knob",
+   "sprite": "ada_std_1_stereo_tapped_delay__KNOB3",
+   "frames": 61,
+   "param": 5,
+   "x": 230.0,
+   "y": 41.0,
+   "w": 58.0,
+   "h": 58.0
+  },
+  {
+   "id": "out-knob",
+   "kind": "knob",
+   "sprite": "ada_std_1_stereo_tapped_delay__KNOB",
+   "frames": 61,
+   "param": 6,
+   "x": 288.0,
+   "y": 41.0,
+   "w": 58.0,
+   "h": 58.0
+  },
+  {
+   "id": "reglvl-knob",
+   "kind": "knob",
+   "sprite": "ada_std_1_stereo_tapped_delay__KNOB2",
+   "frames": 61,
+   "param": 8,
+   "x": 378.0,
+   "y": 41.0,
+   "w": 58.0,
+   "h": 58.0
+  },
+  {
+   "id": "hicut-knob",
+   "kind": "knob",
+   "sprite": "ada_std_1_stereo_tapped_delay__KNOB3",
+   "frames": 61,
+   "param": 9,
+   "x": 436.0,
+   "y": 41.0,
+   "w": 58.0,
+   "h": 58.0
+  },
+  {
+   "id": "fixed-knob",
+   "kind": "knob",
+   "sprite": "ada_std_1_stereo_tapped_delay__KNOB",
+   "frames": 61,
+   "param": 17,
+   "x": 711.0,
+   "y": 41.0,
+   "w": 58.0,
+   "h": 58.0
+  },
+  {
+   "id": "dlymx-knob",
+   "kind": "knob",
+   "sprite": "ada_std_1_stereo_tapped_delay__KNOB2",
+   "frames": 61,
+   "param": 18,
+   "x": 769.0,
+   "y": 41.0,
+   "w": 58.0,
+   "h": 58.0
+  },
+  {
+   "id": "sweep-knob",
+   "kind": "knob",
+   "sprite": "ada_std_1_stereo_tapped_delay__KNOB3",
+   "frames": 61,
+   "param": 19,
+   "x": 827.0,
+   "y": 41.0,
+   "w": 58.0,
+   "h": 58.0
+  },
+  {
+   "id": "dlymod-knob",
+   "kind": "knob",
+   "sprite": "ada_std_1_stereo_tapped_delay__KNOB",
+   "frames": 61,
+   "param": 20,
+   "x": 885.0,
+   "y": 41.0,
+   "w": 58.0,
+   "h": 58.0
+  },
+  {
+   "id": "cbxverticalswitch-btn",
+   "kind": "button",
+   "sprite": "ada_std_1_stereo_tapped_delay__SWITCHGREEN_C0",
+   "frames": 2,
+   "action": {
+    "type": "toggle",
+    "param": 2
+   },
+   "x": 72.0,
+   "y": 47.0,
+   "w": 17.0,
+   "h": 59.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cbxverticalswitch-btn-col1",
+   "kind": "filmstrip",
+   "sprite": "ada_std_1_stereo_tapped_delay__SWITCHGREEN_C1",
+   "frames": 2,
+   "x": 72.0,
+   "y": 47.0,
+   "w": 17.0,
+   "h": 59.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cbxverticalswitch-btn-1",
+   "kind": "button",
+   "sprite": "ada_std_1_stereo_tapped_delay__SWITCHGREEN_C0",
+   "frames": 2,
+   "action": {
+    "type": "toggle",
+    "param": 1
+   },
+   "x": 149.0,
+   "y": 47.0,
+   "w": 17.0,
+   "h": 59.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cbxverticalswitch-btn-col1-1",
+   "kind": "filmstrip",
+   "sprite": "ada_std_1_stereo_tapped_delay__SWITCHGREEN_C1",
+   "frames": 2,
+   "x": 149.0,
+   "y": 47.0,
+   "w": 17.0,
+   "h": 59.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cbxverticalswitch-btn-2",
+   "kind": "button",
+   "sprite": "ada_std_1_stereo_tapped_delay__SWITCHRED_C0",
+   "frames": 2,
+   "action": {
+    "type": "toggle",
+    "param": 7
+   },
+   "x": 354.0,
+   "y": 47.0,
+   "w": 17.0,
+   "h": 59.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cbxverticalswitch-btn-col1-2",
+   "kind": "filmstrip",
+   "sprite": "ada_std_1_stereo_tapped_delay__SWITCHRED_C1",
+   "frames": 2,
+   "x": 354.0,
+   "y": 47.0,
+   "w": 17.0,
+   "h": 59.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "regtap-switch",
+   "kind": "switch",
+   "sprite": "ada_std_1_stereo_tapped_delay__SWITCH_C0",
+   "frames": 3,
+   "param": 10,
+   "orientation": "vertical",
+   "x": 501.0,
+   "y": 74.0,
+   "w": 17.0,
+   "h": 32.0
+  },
+  {
+   "id": "tap1-switch",
+   "kind": "switch",
+   "sprite": "ada_std_1_stereo_tapped_delay__SWITCH_C0",
+   "frames": 3,
+   "param": 11,
+   "orientation": "vertical",
+   "x": 555.0,
+   "y": 74.0,
+   "w": 17.0,
+   "h": 32.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-tap1-switch-mono",
+   "kind": "filmstrip",
+   "x": 555.0,
+   "y": 74.0,
+   "w": 17.0,
+   "h": 32.0,
+   "sprite": "Q_ada_switch_c1",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 11
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "tap2-switch",
+   "kind": "switch",
+   "sprite": "ada_std_1_stereo_tapped_delay__SWITCH_C0",
+   "frames": 3,
+   "param": 12,
+   "orientation": "vertical",
+   "x": 582.0,
+   "y": 74.0,
+   "w": 17.0,
+   "h": 32.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-tap2-switch-mono",
+   "kind": "filmstrip",
+   "x": 582.0,
+   "y": 74.0,
+   "w": 17.0,
+   "h": 32.0,
+   "sprite": "Q_ada_switch_c1",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 12
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "tap3-switch",
+   "kind": "switch",
+   "sprite": "ada_std_1_stereo_tapped_delay__SWITCH_C0",
+   "frames": 3,
+   "param": 13,
+   "orientation": "vertical",
+   "x": 609.0,
+   "y": 74.0,
+   "w": 17.0,
+   "h": 32.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-tap3-switch-mono",
+   "kind": "filmstrip",
+   "x": 609.0,
+   "y": 74.0,
+   "w": 17.0,
+   "h": 32.0,
+   "sprite": "Q_ada_switch_c1",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 13
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "tap4-switch",
+   "kind": "switch",
+   "sprite": "ada_std_1_stereo_tapped_delay__SWITCH_C0",
+   "frames": 3,
+   "param": 14,
+   "orientation": "vertical",
+   "x": 635.0,
+   "y": 74.0,
+   "w": 17.0,
+   "h": 32.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-tap4-switch-mono",
+   "kind": "filmstrip",
+   "x": 635.0,
+   "y": 74.0,
+   "w": 17.0,
+   "h": 32.0,
+   "sprite": "Q_ada_switch_c1",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 14
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "tap5-switch",
+   "kind": "switch",
+   "sprite": "ada_std_1_stereo_tapped_delay__SWITCH_C0",
+   "frames": 3,
+   "param": 15,
+   "orientation": "vertical",
+   "x": 662.0,
+   "y": 74.0,
+   "w": 17.0,
+   "h": 32.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-tap5-switch-mono",
+   "kind": "filmstrip",
+   "x": 662.0,
+   "y": 74.0,
+   "w": 17.0,
+   "h": 32.0,
+   "sprite": "Q_ada_switch_c1",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 15
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "tap6-switch",
+   "kind": "switch",
+   "sprite": "ada_std_1_stereo_tapped_delay__SWITCH_C0",
+   "frames": 3,
+   "param": 16,
+   "orientation": "vertical",
+   "x": 689.0,
+   "y": 74.0,
+   "w": 17.0,
+   "h": 32.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-tap6-switch-mono",
+   "kind": "filmstrip",
+   "x": 689.0,
+   "y": 74.0,
+   "w": 17.0,
+   "h": 32.0,
+   "sprite": "Q_ada_switch_c1",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 16
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "power-led",
+   "kind": "filmstrip",
+   "sprite": "ada_std_1_stereo_tapped_delay__POWERLED",
+   "frames": 2,
+   "x": 951.0,
+   "y": 82.0,
+   "w": 12.0,
+   "h": 14.0,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
+  },
+  {
+   "id": "cbxextendedmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "ada_std_1_stereo_tapped_delay__LABELS",
+   "frames": 3,
+   "x": 69.0,
+   "y": 39.0,
+   "w": 577.0,
+   "h": 69.0,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       2
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cbxverticalswitch-btn-hz0",
+   "kind": "zone",
+   "x": 72.0,
+   "y": 47.0,
+   "w": 17.0,
+   "h": 20.6,
+   "param": 2,
+   "action": {
+    "type": "toggle",
+    "param": 2
+   }
+  },
+  {
+   "id": "cbxverticalswitch-btn-hz2",
+   "kind": "zone",
+   "x": 72.0,
+   "y": 85.4,
+   "w": 17.0,
+   "h": 20.6,
+   "param": 2,
+   "action": {
+    "type": "set",
+    "value": 0.0,
+    "param": 2
+   }
+  },
+  {
+   "id": "cbxverticalswitch-btn-1-hz0",
+   "kind": "zone",
+   "x": 149.0,
+   "y": 47.0,
+   "w": 17.0,
+   "h": 20.6,
+   "param": 1,
+   "action": {
+    "type": "toggle",
+    "param": 1
+   }
+  },
+  {
+   "id": "cbxverticalswitch-btn-1-hz2",
+   "kind": "zone",
+   "x": 149.0,
+   "y": 85.4,
+   "w": 17.0,
+   "h": 20.6,
+   "param": 1,
+   "action": {
+    "type": "set",
+    "value": 0.0,
+    "param": 1
+   }
+  },
+  {
+   "id": "cbxverticalswitch-btn-2-hz0",
+   "kind": "zone",
+   "x": 354.0,
+   "y": 47.0,
+   "w": 17.0,
+   "h": 20.6,
+   "param": 7,
+   "action": {
+    "type": "toggle",
+    "param": 7
+   }
+  },
+  {
+   "id": "cbxverticalswitch-btn-2-hz2",
+   "kind": "zone",
+   "x": 354.0,
+   "y": 85.4,
+   "w": 17.0,
+   "h": 20.6,
+   "param": 7,
+   "action": {
+    "type": "set",
+    "value": 0.0,
+    "param": 7
+   }
+  },
+  {
+   "id": "regtap-switch-hz0",
+   "kind": "zone",
+   "x": 501.0,
+   "y": 74.0,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 10,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.0
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 10
+   }
+  },
+  {
+   "id": "regtap-switch-hz1",
+   "kind": "zone",
+   "x": 501.0,
+   "y": 84.7,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 10,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.5
+     },
+     {
+      "current": 0.5,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 10
+   }
+  },
+  {
+   "id": "regtap-switch-hz2",
+   "kind": "zone",
+   "x": 501.0,
+   "y": 95.3,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 10,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 10
+   }
+  },
+  {
+   "id": "tap1-switch-hz0",
+   "kind": "zone",
+   "x": 555.0,
+   "y": 74.0,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 11,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.0
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 11
+   }
+  },
+  {
+   "id": "tap1-switch-hz1",
+   "kind": "zone",
+   "x": 555.0,
+   "y": 84.7,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 11,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.5
+     },
+     {
+      "current": 0.5,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 11
+   }
+  },
+  {
+   "id": "tap1-switch-hz2",
+   "kind": "zone",
+   "x": 555.0,
+   "y": 95.3,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 11,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 11
+   }
+  },
+  {
+   "id": "tap2-switch-hz0",
+   "kind": "zone",
+   "x": 582.0,
+   "y": 74.0,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 12,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.0
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 12
+   }
+  },
+  {
+   "id": "tap2-switch-hz1",
+   "kind": "zone",
+   "x": 582.0,
+   "y": 84.7,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 12,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.5
+     },
+     {
+      "current": 0.5,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 12
+   }
+  },
+  {
+   "id": "tap2-switch-hz2",
+   "kind": "zone",
+   "x": 582.0,
+   "y": 95.3,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 12,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 12
+   }
+  },
+  {
+   "id": "tap3-switch-hz0",
+   "kind": "zone",
+   "x": 609.0,
+   "y": 74.0,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 13,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.0
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 13
+   }
+  },
+  {
+   "id": "tap3-switch-hz1",
+   "kind": "zone",
+   "x": 609.0,
+   "y": 84.7,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 13,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.5
+     },
+     {
+      "current": 0.5,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 13
+   }
+  },
+  {
+   "id": "tap3-switch-hz2",
+   "kind": "zone",
+   "x": 609.0,
+   "y": 95.3,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 13,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 13
+   }
+  },
+  {
+   "id": "tap4-switch-hz0",
+   "kind": "zone",
+   "x": 635.0,
+   "y": 74.0,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 14,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.0
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 14
+   }
+  },
+  {
+   "id": "tap4-switch-hz1",
+   "kind": "zone",
+   "x": 635.0,
+   "y": 84.7,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 14,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.5
+     },
+     {
+      "current": 0.5,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 14
+   }
+  },
+  {
+   "id": "tap4-switch-hz2",
+   "kind": "zone",
+   "x": 635.0,
+   "y": 95.3,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 14,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 14
+   }
+  },
+  {
+   "id": "tap5-switch-hz0",
+   "kind": "zone",
+   "x": 662.0,
+   "y": 74.0,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 15,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.0
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 15
+   }
+  },
+  {
+   "id": "tap5-switch-hz1",
+   "kind": "zone",
+   "x": 662.0,
+   "y": 84.7,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 15,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.5
+     },
+     {
+      "current": 0.5,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 15
+   }
+  },
+  {
+   "id": "tap5-switch-hz2",
+   "kind": "zone",
+   "x": 662.0,
+   "y": 95.3,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 15,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 15
+   }
+  },
+  {
+   "id": "tap6-switch-hz0",
+   "kind": "zone",
+   "x": 689.0,
+   "y": 74.0,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 16,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.0
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 16
+   }
+  },
+  {
+   "id": "tap6-switch-hz1",
+   "kind": "zone",
+   "x": 689.0,
+   "y": 84.7,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 16,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.5
+     },
+     {
+      "current": 0.5,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 16
+   }
+  },
+  {
+   "id": "tap6-switch-hz2",
+   "kind": "zone",
+   "x": 689.0,
+   "y": 95.3,
+   "w": 17.0,
+   "h": 10.7,
+   "param": 16,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 16
+   }
+  },
+  {
+   "id": "h-hot-0-p14",
+   "kind": "zone",
+   "x": 648.0,
+   "y": 72.0,
+   "w": 8.0,
+   "h": 16.0,
+   "param": 14,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.0
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 14
+   }
+  },
+  {
+   "id": "h-hot-1-p11",
+   "kind": "zone",
+   "x": 568.0,
+   "y": 88.0,
+   "w": 8.0,
+   "h": 8.0,
+   "param": 11,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.5
+     },
+     {
+      "current": 0.5,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 11
+   }
+  },
+  {
+   "id": "h-hot-2-p11",
+   "kind": "zone",
+   "x": 568.0,
+   "y": 96.0,
+   "w": 8.0,
+   "h": 8.0,
+   "param": 11,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 11
+   }
+  },
+  {
+   "id": "h-hot-3-p14",
+   "kind": "zone",
+   "x": 648.0,
+   "y": 96.0,
+   "w": 8.0,
+   "h": 8.0,
+   "param": 14,
+   "action": {
+    "type": "table",
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.5
+     },
+     {
+      "current": 1.0,
+      "value": 1.0
+     }
+    ],
+    "param": 14
+   }
+  },
+  {
+   "id": "j-tb-knob-p21-label",
+   "kind": "zone",
+   "gesture": "drag",
+   "param": 21,
+   "x": 933.0,
+   "y": 0,
+   "w": 70.0,
+   "h": 24
+  },
+  {
+   "id": "j-tb-btn-p22",
+   "kind": "switch",
+   "param": 22,
+   "frames": 2,
+   "sprite": "J_ada_std_1_stereo_tapped_delay_tb_0x200938c0",
+   "x": 713.0,
+   "y": 0,
+   "w": 135.0,
+   "h": 24
+  }
+ ],
+ "meterSources": {
+  "led_40000000": {
+   "vendorSpecificFloat": 83886939,
+   "opcode": {
+    "op": 519,
+    "p0": 83886939,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     0.0
+    ],
+    [
+     0.13,
+     0.0
+    ],
+    [
+     0.15,
+     0.01738
+    ],
+    [
+     0.2,
+     0.07688
+    ],
+    [
+     0.25,
+     0.12302
+    ],
+    [
+     0.3,
+     0.15818
+    ],
+    [
+     0.35,
+     0.1855
+    ],
+    [
+     0.4,
+     0.20917
+    ],
+    [
+     0.45,
+     0.23005
+    ],
+    [
+     0.5,
+     0.24873
+    ],
+    [
+     0.55,
+     0.26562
+    ],
+    [
+     0.6,
+     0.28105
+    ],
+    [
+     0.65,
+     0.29523
+    ],
+    [
+     0.7,
+     0.30837
+    ],
+    [
+     0.75,
+     0.3206
+    ],
+    [
+     0.8,
+     0.33204
+    ],
+    [
+     0.85,
+     0.34279
+    ],
+    [
+     0.9,
+     0.35292
+    ],
+    [
+     0.95,
+     0.3625
+    ],
+    [
+     1.0,
+     0.3716
+    ],
+    [
+     1.12,
+     0.39168
+    ],
+    [
+     1.25,
+     0.41115
+    ],
+    [
+     1.41,
+     0.43316
+    ],
+    [
+     1.6,
+     0.4593
+    ],
+    [
+     2,
+     0.50545
+    ],
+    [
+     2.5,
+     0.55159
+    ],
+    [
+     3,
+     0.59824
+    ],
+    [
+     4,
+     0.68748
+    ],
+    [
+     5,
+     0.77084
+    ],
+    [
+     6,
+     0.84625
+    ],
+    [
+     8,
+     0.96524
+    ],
+    [
+     10,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  },
+  "led_20000000": {
+   "vendorSpecificFloat": 83886938,
+   "opcode": {
+    "op": 519,
+    "p0": 83886938,
+    "p1": 1
+   },
+   "integer": true,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     2.0,
+     1.0
+    ]
+   ],
+   "smoothing": 1.0
+  }
+ },
+ "states": {
+  "channels": 2
+ }
+}

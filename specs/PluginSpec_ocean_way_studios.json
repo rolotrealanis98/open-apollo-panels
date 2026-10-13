@@ -1,0 +1,2806 @@
+{
+ "schema": 2,
+ "effectName": "UAD Ocean Way Studios",
+ "namePattern": "Ocean Way Studios",
+ "size": {
+  "w": 575,
+  "h": 570
+ },
+ "background": "ocean_way_studios_6954",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Mode",
+   "steps": [
+    "Re-Mic",
+    "Reverb"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Studio",
+   "steps": [
+    "OWR A",
+    "OWR B"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Source",
+   "steps": [
+    "DRUMS 1",
+    "DRUMS 2",
+    "STRINGS",
+    "HORNS",
+    "PIANO",
+    "VOC GRP",
+    "VOC GRP",
+    "VOC SOLO",
+    "GUITAR",
+    "CAB M",
+    "CAB V"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Near Mics",
+   "steps": [
+    "C12 C",
+    "C12 O",
+    "C12 O",
+    "C12A C",
+    "C12A C",
+    "C12A O"
+   ],
+   "default": 0.3333333432674408
+  },
+  {
+   "index": 4,
+   "name": "Near Dist",
+   "steps": null,
+   "default": 0.4363386034965515
+  },
+  {
+   "index": 5,
+   "name": "Near Dist Dly",
+   "steps": [
+    "Off",
+    "Aligned"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "Near Hi Cut",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "Near Lo Cut",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "Near Ph Invert",
+   "steps": [
+    "Normal",
+    "Invert"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "Near Mute",
+   "steps": [
+    "Off",
+    "Mute"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 10,
+   "name": "Near Balance",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 11,
+   "name": "Near Gain",
+   "steps": null,
+   "default": 0.8000444769859314
+  },
+  {
+   "index": 12,
+   "name": "Mid Mics",
+   "steps": [
+    "C12 C",
+    "C12 O",
+    "KU3A C",
+    "KM54 C",
+    "MKH20 O"
+   ],
+   "default": 0.25
+  },
+  {
+   "index": 13,
+   "name": "Mid Dist",
+   "steps": null,
+   "default": 0.4106616079807281
+  },
+  {
+   "index": 14,
+   "name": "Mid Dist Dly",
+   "steps": [
+    "Off",
+    "Aligned"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 15,
+   "name": "Mid Hi Cut",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 16,
+   "name": "Mid Lo Cut",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 17,
+   "name": "Mid Ph Invert",
+   "steps": [
+    "Normal",
+    "Invert"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 18,
+   "name": "Mid Mute",
+   "steps": [
+    "Off",
+    "Mute"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 19,
+   "name": "Mid Balance",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 20,
+   "name": "Mid Gain",
+   "steps": null,
+   "default": 0.8000444769859314
+  },
+  {
+   "index": 21,
+   "name": "Far Mics",
+   "steps": [
+    "C12 C",
+    "C12 O",
+    "KM54 C",
+    "M50 O",
+    "M50 O",
+    "MKH20 O",
+    "U67 C",
+    "U67 O"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 22,
+   "name": "Far Dist",
+   "steps": null,
+   "default": 0.7312123775482178
+  },
+  {
+   "index": 23,
+   "name": "Far Dist Dly",
+   "steps": [
+    "Off",
+    "Aligned"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 24,
+   "name": "Far Hi Cut",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 25,
+   "name": "Far Lo Cut",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 26,
+   "name": "Far Ph Invert",
+   "steps": [
+    "Normal",
+    "Invert"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 27,
+   "name": "Far Mute",
+   "steps": [
+    "Off",
+    "Mute"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 28,
+   "name": "Far Balance",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 29,
+   "name": "Far Gain",
+   "steps": null,
+   "default": 0.8000444769859314
+  },
+  {
+   "index": 30,
+   "name": "Master EQ",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 31,
+   "name": "EQ Lo Freq",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 32,
+   "name": "EQ Lo Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 33,
+   "name": "EQ Hi Freq",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 34,
+   "name": "EQ Hi Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 35,
+   "name": "Predelay",
+   "steps": [
+    "0 ms",
+    "1 ms",
+    "2 ms",
+    "3 ms",
+    "4 ms",
+    "5 ms",
+    "6 ms",
+    "7 ms",
+    "8 ms",
+    "9 ms",
+    "10 ms",
+    "11 ms",
+    "12 ms",
+    "13 ms",
+    "14 ms",
+    "15 ms",
+    "16 ms",
+    "17 ms",
+    "18 ms",
+    "19 ms",
+    "20 ms",
+    "21 ms",
+    "22 ms",
+    "23 ms",
+    "24 ms",
+    "25 ms",
+    "26 ms",
+    "27 ms",
+    "28 ms",
+    "29 ms",
+    "30 ms",
+    "31 ms",
+    "32 ms",
+    "33 ms",
+    "34 ms",
+    "35 ms",
+    "36 ms",
+    "37 ms",
+    "38 ms",
+    "39 ms",
+    "40 ms",
+    "41 ms",
+    "42 ms",
+    "43 ms",
+    "44 ms",
+    "45 ms",
+    "46 ms",
+    "47 ms",
+    "48 ms",
+    "49 ms",
+    "50 ms",
+    "51 ms",
+    "52 ms",
+    "53 ms",
+    "54 ms",
+    "55 ms",
+    "56 ms",
+    "57 ms",
+    "58 ms",
+    "59 ms",
+    "60 ms",
+    "61 ms",
+    "62 ms",
+    "63 ms",
+    "64 ms",
+    "65 ms",
+    "66 ms",
+    "67 ms",
+    "68 ms",
+    "69 ms",
+    "70 ms",
+    "71 ms",
+    "72 ms",
+    "73 ms",
+    "74 ms",
+    "75 ms",
+    "76 ms",
+    "77 ms",
+    "78 ms",
+    "79 ms",
+    "80 ms",
+    "81 ms",
+    "82 ms",
+    "83 ms",
+    "84 ms",
+    "85 ms",
+    "86 ms",
+    "87 ms",
+    "88 ms",
+    "89 ms",
+    "90 ms",
+    "91 ms",
+    "92 ms",
+    "93 ms",
+    "94 ms",
+    "95 ms",
+    "96 ms",
+    "97 ms",
+    "98 ms",
+    "99 ms",
+    "100 ms",
+    "101 ms",
+    "102 ms",
+    "103 ms",
+    "104 ms",
+    "105 ms",
+    "106 ms",
+    "107 ms",
+    "108 ms",
+    "109 ms",
+    "110 ms",
+    "111 ms",
+    "112 ms",
+    "113 ms",
+    "114 ms",
+    "115 ms",
+    "116 ms",
+    "117 ms",
+    "118 ms",
+    "119 ms",
+    "120 ms",
+    "121 ms",
+    "122 ms",
+    "123 ms",
+    "124 ms",
+    "125 ms"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 36,
+   "name": "L/R Swap",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 37,
+   "name": "Mono Sum",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 38,
+   "name": "Wet Solo",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 39,
+   "name": "Dry/Wet",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 40,
+   "name": "Master Level",
+   "steps": null,
+   "default": 0.8000444769859314
+  },
+  {
+   "index": 41,
+   "name": "Bypass",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "I-map",
+   "kind": "image",
+   "x": 10,
+   "y": 112,
+   "w": 300,
+   "h": 300,
+   "sprite": "I_ocean_way_studios_map",
+   "visibility": {
+    "params": [],
+    "states": [
+     "tab"
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-eqplot",
+   "kind": "image",
+   "x": 10,
+   "y": 112,
+   "w": 300,
+   "h": 300,
+   "sprite": "I_ocean_way_studios_eqplot",
+   "visibility": {
+    "params": [],
+    "states": [
+     "tab"
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-interior",
+   "kind": "image",
+   "x": 10,
+   "y": 112,
+   "w": 300,
+   "h": 300,
+   "sprite": "I_ocean_way_studios_interior",
+   "visibility": {
+    "params": [],
+    "states": [
+     "tab"
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-tabs",
+   "kind": "filmstrip",
+   "x": 2,
+   "y": 413,
+   "w": 316,
+   "h": 45,
+   "sprite": "I_ocean_way_studios_tabs",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "states": [
+     "tab"
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-tab-0",
+   "kind": "zone",
+   "x": 2,
+   "y": 413,
+   "w": 79,
+   "h": 45,
+   "action": {
+    "type": "setState",
+    "state": "tab",
+    "value": 0.0
+   }
+  },
+  {
+   "id": "I-tab-1",
+   "kind": "zone",
+   "x": 81,
+   "y": 413,
+   "w": 79,
+   "h": 45,
+   "action": {
+    "type": "setState",
+    "state": "tab",
+    "value": 0.333333
+   }
+  },
+  {
+   "id": "I-tab-2",
+   "kind": "zone",
+   "x": 160,
+   "y": 413,
+   "w": 79,
+   "h": 45,
+   "action": {
+    "type": "setState",
+    "state": "tab",
+    "value": 0.666667
+   }
+  },
+  {
+   "id": "I-tab-3",
+   "kind": "zone",
+   "x": 239,
+   "y": 413,
+   "w": 79,
+   "h": 45,
+   "action": {
+    "type": "setState",
+    "state": "tab",
+    "value": 1.0
+   }
+  },
+  {
+   "id": "I-knob-39",
+   "kind": "knob",
+   "x": 498,
+   "y": 319,
+   "w": 60,
+   "h": 51,
+   "sprite": "I_ocean_way_studios_knob39",
+   "frames": 51,
+   "param": 39
+  },
+  {
+   "id": "I-knob-28",
+   "kind": "knob",
+   "x": 421,
+   "y": 319,
+   "w": 60,
+   "h": 51,
+   "sprite": "I_ocean_way_studios_knob28",
+   "frames": 51,
+   "param": 28
+  },
+  {
+   "id": "I-knob-19",
+   "kind": "knob",
+   "x": 371,
+   "y": 319,
+   "w": 60,
+   "h": 51,
+   "sprite": "I_ocean_way_studios_knob19",
+   "frames": 51,
+   "param": 19
+  },
+  {
+   "id": "I-knob-10",
+   "kind": "knob",
+   "x": 321,
+   "y": 319,
+   "w": 60,
+   "h": 51,
+   "sprite": "I_ocean_way_studios_knob10",
+   "frames": 51,
+   "param": 10
+  },
+  {
+   "id": "I-knob-31",
+   "kind": "knob",
+   "x": 6,
+   "y": 483,
+   "w": 50,
+   "h": 51,
+   "sprite": "I_ocean_way_studios_knob31",
+   "frames": 51,
+   "param": 31
+  },
+  {
+   "id": "I-knob-32",
+   "kind": "knob",
+   "x": 83,
+   "y": 483,
+   "w": 50,
+   "h": 51,
+   "sprite": "I_ocean_way_studios_knob32",
+   "frames": 51,
+   "param": 32
+  },
+  {
+   "id": "I-knob-33",
+   "kind": "knob",
+   "x": 189,
+   "y": 483,
+   "w": 50,
+   "h": 51,
+   "sprite": "I_ocean_way_studios_knob33",
+   "frames": 51,
+   "param": 33
+  },
+  {
+   "id": "I-knob-34",
+   "kind": "knob",
+   "x": 266,
+   "y": 483,
+   "w": 50,
+   "h": 51,
+   "sprite": "I_ocean_way_studios_knob34",
+   "frames": 51,
+   "param": 34
+  },
+  {
+   "id": "I-knob-35",
+   "kind": "knob",
+   "x": 498,
+   "y": 108,
+   "w": 60,
+   "h": 51,
+   "sprite": "I_ocean_way_studios_knob35",
+   "frames": 51,
+   "param": 35
+  },
+  {
+   "id": "I-fader-40",
+   "kind": "knob",
+   "x": 512,
+   "y": 366,
+   "w": 36,
+   "h": 188,
+   "sprite": "I_ocean_way_studios_fader40",
+   "frames": 2,
+   "param": 40
+  },
+  {
+   "id": "I-fader-29",
+   "kind": "knob",
+   "x": 435,
+   "y": 366,
+   "w": 36,
+   "h": 188,
+   "sprite": "I_ocean_way_studios_fader29",
+   "frames": 2,
+   "param": 29
+  },
+  {
+   "id": "I-fader-20",
+   "kind": "knob",
+   "x": 385,
+   "y": 366,
+   "w": 36,
+   "h": 188,
+   "sprite": "I_ocean_way_studios_fader20",
+   "frames": 2,
+   "param": 20
+  },
+  {
+   "id": "I-fader-11",
+   "kind": "knob",
+   "x": 335,
+   "y": 366,
+   "w": 36,
+   "h": 188,
+   "sprite": "I_ocean_way_studios_fader11",
+   "frames": 2,
+   "param": 11
+  },
+  {
+   "id": "I-enc-4",
+   "kind": "knob",
+   "x": 331,
+   "y": 108,
+   "w": 42,
+   "h": 48,
+   "sprite": "I_ocean_way_studios_enc4",
+   "frames": 60,
+   "param": 4,
+   "visibility": {
+    "params": [
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "tapAction": {
+    "type": "toggle",
+    "param": 5
+   }
+  },
+  {
+   "id": "I-enc-4-aligned",
+   "kind": "knob",
+   "x": 331,
+   "y": 108,
+   "w": 42,
+   "h": 48,
+   "sprite": "I_ocean_way_studios_enc4_aligned",
+   "frames": 60,
+   "param": 4,
+   "visibility": {
+    "params": [
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   },
+   "tapAction": {
+    "type": "toggle",
+    "param": 5
+   }
+  },
+  {
+   "id": "I-enc-13",
+   "kind": "knob",
+   "x": 381,
+   "y": 108,
+   "w": 42,
+   "h": 48,
+   "sprite": "I_ocean_way_studios_enc13",
+   "frames": 60,
+   "param": 13,
+   "visibility": {
+    "params": [
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "tapAction": {
+    "type": "toggle",
+    "param": 14
+   }
+  },
+  {
+   "id": "I-enc-13-aligned",
+   "kind": "knob",
+   "x": 381,
+   "y": 108,
+   "w": 42,
+   "h": 48,
+   "sprite": "I_ocean_way_studios_enc13_aligned",
+   "frames": 60,
+   "param": 13,
+   "visibility": {
+    "params": [
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   },
+   "tapAction": {
+    "type": "toggle",
+    "param": 14
+   }
+  },
+  {
+   "id": "I-enc-22",
+   "kind": "knob",
+   "x": 431,
+   "y": 108,
+   "w": 42,
+   "h": 48,
+   "sprite": "I_ocean_way_studios_enc22",
+   "frames": 60,
+   "param": 22,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "tapAction": {
+    "type": "toggle",
+    "param": 23
+   }
+  },
+  {
+   "id": "I-enc-22-aligned",
+   "kind": "knob",
+   "x": 431,
+   "y": 108,
+   "w": 42,
+   "h": 48,
+   "sprite": "I_ocean_way_studios_enc22_aligned",
+   "frames": 60,
+   "param": 22,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   },
+   "tapAction": {
+    "type": "toggle",
+    "param": 23
+   }
+  },
+  {
+   "id": "I-col-328",
+   "kind": "filmstrip",
+   "x": 328,
+   "y": 171,
+   "w": 46,
+   "h": 133,
+   "sprite": "I_ocean_way_studios_col328",
+   "frames": 16,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     6,
+     7,
+     8,
+     9
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0,
+       0.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 15
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-col-378",
+   "kind": "filmstrip",
+   "x": 378,
+   "y": 171,
+   "w": 46,
+   "h": 133,
+   "sprite": "I_ocean_way_studios_col378",
+   "frames": 16,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     15,
+     16,
+     17,
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0,
+       0.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 15
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-col-428",
+   "kind": "filmstrip",
+   "x": 428,
+   "y": 171,
+   "w": 46,
+   "h": 133,
+   "sprite": "I_ocean_way_studios_col428",
+   "frames": 16,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     24,
+     25,
+     26,
+     27
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0,
+       0.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 15
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-col-505",
+   "kind": "filmstrip",
+   "x": 505,
+   "y": 171,
+   "w": 46,
+   "h": 133,
+   "sprite": "I_ocean_way_studios_col505",
+   "frames": 16,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     41,
+     36,
+     37,
+     38
+    ],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       2.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       2.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       2.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       2.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       2.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       2.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       2.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       2.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       2.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       2.0
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0,
+       0.0,
+       2.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       2.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       2.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0,
+       1.0,
+       2.0
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       2.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       2.0
+      ],
+      "frame": 15
+     }
+    ]
+   }
+  },
+  {
+   "id": "I-btn-6",
+   "kind": "zone",
+   "x": 336,
+   "y": 179,
+   "w": 30,
+   "h": 29,
+   "action": {
+    "type": "toggle",
+    "param": 6
+   }
+  },
+  {
+   "id": "I-btn-7",
+   "kind": "zone",
+   "x": 336,
+   "y": 208,
+   "w": 30,
+   "h": 29,
+   "action": {
+    "type": "toggle",
+    "param": 7
+   }
+  },
+  {
+   "id": "I-btn-9",
+   "kind": "zone",
+   "x": 336,
+   "y": 266,
+   "w": 30,
+   "h": 29,
+   "action": {
+    "type": "toggle",
+    "param": 9
+   }
+  },
+  {
+   "id": "I-btn-8",
+   "kind": "zone",
+   "x": 336,
+   "y": 237,
+   "w": 30,
+   "h": 29,
+   "action": {
+    "type": "toggle",
+    "param": 8
+   }
+  },
+  {
+   "id": "I-btn-15",
+   "kind": "zone",
+   "x": 386,
+   "y": 179,
+   "w": 30,
+   "h": 29,
+   "action": {
+    "type": "toggle",
+    "param": 15
+   }
+  },
+  {
+   "id": "I-btn-16",
+   "kind": "zone",
+   "x": 386,
+   "y": 208,
+   "w": 30,
+   "h": 29,
+   "action": {
+    "type": "toggle",
+    "param": 16
+   }
+  },
+  {
+   "id": "I-btn-17",
+   "kind": "zone",
+   "x": 386,
+   "y": 237,
+   "w": 30,
+   "h": 29,
+   "action": {
+    "type": "toggle",
+    "param": 17
+   }
+  },
+  {
+   "id": "I-btn-18",
+   "kind": "zone",
+   "x": 386,
+   "y": 266,
+   "w": 30,
+   "h": 29,
+   "action": {
+    "type": "toggle",
+    "param": 18
+   }
+  },
+  {
+   "id": "I-btn-24",
+   "kind": "zone",
+   "x": 436,
+   "y": 179,
+   "w": 30,
+   "h": 29,
+   "action": {
+    "type": "toggle",
+    "param": 24
+   }
+  },
+  {
+   "id": "I-btn-25",
+   "kind": "zone",
+   "x": 436,
+   "y": 208,
+   "w": 30,
+   "h": 29,
+   "action": {
+    "type": "toggle",
+    "param": 25
+   }
+  },
+  {
+   "id": "I-btn-26",
+   "kind": "zone",
+   "x": 436,
+   "y": 237,
+   "w": 30,
+   "h": 29,
+   "action": {
+    "type": "toggle",
+    "param": 26
+   }
+  },
+  {
+   "id": "I-btn-27",
+   "kind": "zone",
+   "x": 436,
+   "y": 266,
+   "w": 30,
+   "h": 29,
+   "action": {
+    "type": "toggle",
+    "param": 27
+   }
+  },
+  {
+   "id": "I-btn-37",
+   "kind": "zone",
+   "x": 512,
+   "y": 237,
+   "w": 30,
+   "h": 29,
+   "action": {
+    "type": "toggle",
+    "param": 37
+   }
+  },
+  {
+   "id": "I-btn-41",
+   "kind": "zone",
+   "x": 512,
+   "y": 179,
+   "w": 30,
+   "h": 29,
+   "action": {
+    "type": "toggle",
+    "param": 41
+   }
+  },
+  {
+   "id": "I-btn-36",
+   "kind": "zone",
+   "x": 512,
+   "y": 208,
+   "w": 30,
+   "h": 29,
+   "action": {
+    "type": "toggle",
+    "param": 36
+   }
+  },
+  {
+   "id": "I-btn-38",
+   "kind": "zone",
+   "x": 512,
+   "y": 266,
+   "w": 30,
+   "h": 29,
+   "action": {
+    "type": "toggle",
+    "param": 38
+   }
+  },
+  {
+   "id": "I-switch-30",
+   "kind": "switch",
+   "x": 137,
+   "y": 480,
+   "w": 46,
+   "h": 46,
+   "sprite": "I_ocean_way_studios_sw30",
+   "frames": 2,
+   "param": 30
+  },
+  {
+   "id": "I-mode",
+   "kind": "switch",
+   "x": 483,
+   "y": 9,
+   "w": 90,
+   "h": 73,
+   "sprite": "I_ocean_way_studios_mode",
+   "frames": 2,
+   "param": 0
+  },
+  {
+   "id": "I-menu-1",
+   "kind": "menu",
+   "x": 11,
+   "y": 73,
+   "w": 137,
+   "h": 29,
+   "param": 1,
+   "text": {
+    "size": 17,
+    "color": "#FF9900",
+    "align": "center",
+    "weight": "regular"
+   }
+  },
+  {
+   "id": "I-menu-2",
+   "kind": "menu",
+   "x": 172,
+   "y": 73,
+   "w": 137,
+   "h": 29,
+   "param": 2,
+   "text": {
+    "size": 17,
+    "color": "#FF9900",
+    "align": "center",
+    "weight": "regular"
+   }
+  },
+  {
+   "id": "I-menu-3",
+   "kind": "menu",
+   "x": 329,
+   "y": 72,
+   "w": 44,
+   "h": 16,
+   "param": 3,
+   "text": {
+    "size": 11,
+    "color": "#FF9900",
+    "align": "center",
+    "weight": "regular"
+   }
+  },
+  {
+   "id": "I-menu-12",
+   "kind": "menu",
+   "x": 379,
+   "y": 72,
+   "w": 44,
+   "h": 16,
+   "param": 12,
+   "text": {
+    "size": 11,
+    "color": "#FF9900",
+    "align": "center",
+    "weight": "regular"
+   }
+  },
+  {
+   "id": "I-menu-21",
+   "kind": "menu",
+   "x": 429,
+   "y": 72,
+   "w": 44,
+   "h": 16,
+   "param": 21,
+   "text": {
+    "size": 11,
+    "color": "#FF9900",
+    "align": "center",
+    "weight": "regular"
+   }
+  },
+  {
+   "id": "I-micpick-3",
+   "kind": "menu",
+   "x": 330,
+   "y": 23,
+   "w": 42,
+   "h": 42,
+   "param": 3
+  },
+  {
+   "id": "I-micpick-12",
+   "kind": "menu",
+   "x": 380,
+   "y": 23,
+   "w": 42,
+   "h": 42,
+   "param": 12
+  },
+  {
+   "id": "I-micpick-21",
+   "kind": "menu",
+   "x": 430,
+   "y": 23,
+   "w": 42,
+   "h": 42,
+   "param": 21
+  },
+  {
+   "id": "I-text-4",
+   "kind": "text",
+   "x": 329,
+   "y": 151,
+   "w": 44,
+   "h": 16,
+   "param": 4,
+   "text": {
+    "size": 11,
+    "color": "#FF9900",
+    "align": "center",
+    "weight": "regular"
+   }
+  },
+  {
+   "id": "I-text-13",
+   "kind": "text",
+   "x": 379,
+   "y": 151,
+   "w": 44,
+   "h": 16,
+   "param": 13,
+   "text": {
+    "size": 11,
+    "color": "#FF9900",
+    "align": "center",
+    "weight": "regular"
+   }
+  },
+  {
+   "id": "I-text-22",
+   "kind": "text",
+   "x": 429,
+   "y": 151,
+   "w": 44,
+   "h": 16,
+   "param": 22,
+   "text": {
+    "size": 11,
+    "color": "#FF9900",
+    "align": "center",
+    "weight": "regular"
+   }
+  },
+  {
+   "id": "P-status-led",
+   "kind": "image",
+   "x": 151,
+   "y": 79,
+   "w": 18,
+   "h": 18,
+   "sprite": "P_ocean_way_studios_led"
+  },
+  {
+   "id": "P-eq-plot",
+   "kind": "graph",
+   "x": 10,
+   "y": 112,
+   "w": 300,
+   "h": 300,
+   "visibility": {
+    "params": [],
+    "states": [
+     "tab"
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   },
+   "graph": {
+    "type": "eq",
+    "x": {
+     "min": 20,
+     "max": 20000,
+     "log": true,
+     "from": 6.0,
+     "to": 294.0
+    },
+    "y": {
+     "min": -12,
+     "max": 12,
+     "from": 235.5,
+     "to": 62.5
+    },
+    "bands": [
+     {
+      "id": "lo",
+      "filter": "lowShelf",
+      "freq": {
+       "param": 31,
+       "law": {
+        "type": "table",
+        "interp": "log",
+        "points": [
+         [
+          0.0,
+          19.878
+         ],
+         [
+          0.05,
+          25.109
+         ],
+         [
+          0.1,
+          31.56
+         ],
+         [
+          0.15,
+          39.76
+         ],
+         [
+          0.2,
+          50.03
+         ],
+         [
+          0.25,
+          62.957
+         ],
+         [
+          0.3,
+          79.293
+         ],
+         [
+          0.35,
+          99.863
+         ],
+         [
+          0.4,
+          125.768
+         ],
+         [
+          0.45,
+          158.333
+         ],
+         [
+          0.5,
+          199.133
+         ],
+         [
+          0.55,
+          250.543
+         ],
+         [
+          0.6,
+          315.265
+         ],
+         [
+          0.65,
+          397.232
+         ],
+         [
+          0.7,
+          500.303
+         ],
+         [
+          0.75,
+          629.386
+         ],
+         [
+          0.8,
+          792.017
+         ],
+         [
+          0.85,
+          997.81
+         ],
+         [
+          0.9,
+          1253.393
+         ],
+         [
+          0.95,
+          1573.239
+         ],
+         [
+          1.0,
+          1980.652
+         ]
+        ]
+       }
+      },
+      "q": {
+       "param": 31,
+       "law": {
+        "type": "table",
+        "points": [
+         [
+          0.0,
+          0.4985
+         ],
+         [
+          0.05,
+          0.5001
+         ],
+         [
+          0.1,
+          0.5001
+         ],
+         [
+          0.15,
+          0.5001
+         ],
+         [
+          0.2,
+          0.4998
+         ],
+         [
+          0.25,
+          0.5
+         ],
+         [
+          0.3,
+          0.4994
+         ],
+         [
+          0.35,
+          0.4994
+         ],
+         [
+          0.4,
+          0.4993
+         ],
+         [
+          0.45,
+          0.4989
+         ],
+         [
+          0.5,
+          0.498
+         ],
+         [
+          0.55,
+          0.4984
+         ],
+         [
+          0.6,
+          0.4987
+         ],
+         [
+          0.65,
+          0.4985
+         ],
+         [
+          0.7,
+          0.4984
+         ],
+         [
+          0.75,
+          0.4988
+         ],
+         [
+          0.8,
+          0.4998
+         ],
+         [
+          0.85,
+          0.5002
+         ],
+         [
+          0.9,
+          0.5027
+         ],
+         [
+          0.95,
+          0.5053
+         ],
+         [
+          1.0,
+          0.507
+         ]
+        ]
+       }
+      },
+      "gain": {
+       "product": [
+        {
+         "param": 32,
+         "law": {
+          "type": "linear",
+          "min": -12,
+          "max": 12
+         }
+        },
+        {
+         "param": 30,
+         "law": {
+          "type": "steps",
+          "values": [
+           0,
+           1
+          ]
+         }
+        }
+       ]
+      }
+     },
+     {
+      "id": "hi",
+      "filter": "highShelf",
+      "freq": {
+       "param": 33,
+       "law": {
+        "type": "table",
+        "interp": "log",
+        "points": [
+         [
+          0.0,
+          200.769
+         ],
+         [
+          0.05,
+          252.975
+         ],
+         [
+          0.1,
+          318.257
+         ],
+         [
+          0.15,
+          400.493
+         ],
+         [
+          0.2,
+          504.397
+         ],
+         [
+          0.25,
+          634.962
+         ],
+         [
+          0.3,
+          799.593
+         ],
+         [
+          0.35,
+          1004.23
+         ],
+         [
+          0.4,
+          1264.138
+         ],
+         [
+          0.45,
+          1589.69
+         ],
+         [
+          0.5,
+          1994.225
+         ],
+         [
+          0.55,
+          2500.888
+         ],
+         [
+          0.6,
+          3130.093
+         ],
+         [
+          0.65,
+          3916.574
+         ],
+         [
+          0.7,
+          4900.127
+         ],
+         [
+          0.75,
+          6118.955
+         ],
+         [
+          0.8,
+          7618.973
+         ],
+         [
+          0.85,
+          9517.386
+         ],
+         [
+          0.9,
+          11952.488
+         ],
+         [
+          0.95,
+          15358.815
+         ],
+         [
+          1.0,
+          23260.48
+         ]
+        ]
+       }
+      },
+      "q": {
+       "param": 33,
+       "law": {
+        "type": "table",
+        "points": [
+         [
+          0.0,
+          0.498
+         ],
+         [
+          0.05,
+          0.4979
+         ],
+         [
+          0.1,
+          0.4976
+         ],
+         [
+          0.15,
+          0.4984
+         ],
+         [
+          0.2,
+          0.4987
+         ],
+         [
+          0.25,
+          0.4994
+         ],
+         [
+          0.3,
+          0.4999
+         ],
+         [
+          0.35,
+          0.5012
+         ],
+         [
+          0.4,
+          0.5015
+         ],
+         [
+          0.45,
+          0.5032
+         ],
+         [
+          0.5,
+          0.5069
+         ],
+         [
+          0.55,
+          0.5118
+         ],
+         [
+          0.6,
+          0.5188
+         ],
+         [
+          0.65,
+          0.5285
+         ],
+         [
+          0.7,
+          0.5424
+         ],
+         [
+          0.75,
+          0.5617
+         ],
+         [
+          0.8,
+          0.5878
+         ],
+         [
+          0.85,
+          0.6245
+         ],
+         [
+          0.9,
+          0.6781
+         ],
+         [
+          0.95,
+          0.7596
+         ],
+         [
+          1.0,
+          0.8171
+         ]
+        ]
+       }
+      },
+      "gain": {
+       "product": [
+        {
+         "param": 34,
+         "law": {
+          "type": "linear",
+          "min": -12,
+          "max": 12
+         }
+        },
+        {
+         "param": 30,
+         "law": {
+          "type": "steps",
+          "values": [
+           0,
+           1
+          ]
+         }
+        }
+       ]
+      }
+     }
+    ],
+    "curves": [
+     {
+      "stroke": "#FF9900",
+      "width": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-info-text",
+   "kind": "text",
+   "x": 20,
+   "y": 124,
+   "w": 274,
+   "h": 281,
+   "visibility": {
+    "params": [],
+    "states": [
+     "tab"
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   },
+   "text": {
+    "size": 10,
+    "color": "#FF9900",
+    "align": "left",
+    "weight": "regular",
+    "lines": 0,
+    "stringRef": "ocean_way_studios.info"
+   }
+  }
+ ],
+ "meterSources": {},
+ "states": {
+  "tab": 0,
+  "channels": 2
+ }
+}

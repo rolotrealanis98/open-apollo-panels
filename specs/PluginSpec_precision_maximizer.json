@@ -1,0 +1,836 @@
+{
+ "schema": 2,
+ "effectName": "UAD Precision Maximizer",
+ "namePattern": "Precision Maximizer",
+ "size": {
+  "w": 720,
+  "h": 130
+ },
+ "background": "precision_maximizer_5400",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Input",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "Shape",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Mix",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 3,
+   "name": "Output",
+   "steps": null,
+   "default": 0.991607666015625
+  },
+  {
+   "index": 4,
+   "name": "Bands",
+   "steps": [
+    "1",
+    "3"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Limit",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-input",
+   "x": 89,
+   "y": 23,
+   "w": 93,
+   "h": 78,
+   "sprite": "precision_maximizer_3601",
+   "frames": 65,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "knob-2-shape",
+   "x": 191,
+   "y": 23,
+   "w": 93,
+   "h": 78,
+   "sprite": "precision_maximizer_3601",
+   "frames": 65,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "knob-3-mix",
+   "x": 326,
+   "y": 23,
+   "w": 93,
+   "h": 78,
+   "sprite": "precision_maximizer_3601",
+   "frames": 65,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "knob-4-output",
+   "x": 428,
+   "y": 23,
+   "w": 93,
+   "h": 78,
+   "sprite": "precision_maximizer_3601",
+   "frames": 65,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "switch-5-power",
+   "kind": "switch",
+   "x": 615,
+   "y": 10,
+   "w": 67,
+   "h": 40,
+   "sprite": "precision_maximizer_4206_2",
+   "frames": 2,
+   "param": 6,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-6-power",
+   "x": 632,
+   "y": 97,
+   "w": 38,
+   "h": 24,
+   "sprite": "precision_maximizer_4207",
+   "frames": 2,
+   "kind": "switch",
+   "param": 6,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-7-internal8",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter0"
+   },
+   "x": 40,
+   "y": 18,
+   "w": 15,
+   "h": 94,
+   "sprite": "precision_maximizer_5408",
+   "frames": 32
+  },
+  {
+   "id": "filmstrip-8-internal9",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter1"
+   },
+   "x": 68,
+   "y": 18,
+   "w": 15,
+   "h": 94,
+   "sprite": "precision_maximizer_5408",
+   "frames": 32
+  },
+  {
+   "id": "filmstrip-9-internal10",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter2"
+   },
+   "x": 527,
+   "y": 22,
+   "w": 15,
+   "h": 90,
+   "sprite": "precision_maximizer_5409",
+   "frames": 31
+  },
+  {
+   "id": "filmstrip-10-internal11",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter3"
+   },
+   "x": 555,
+   "y": 22,
+   "w": 15,
+   "h": 90,
+   "sprite": "precision_maximizer_5409",
+   "frames": 31
+  },
+  {
+   "id": "filmstrip-11-internal12",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter4"
+   },
+   "x": 527,
+   "y": 18,
+   "w": 15,
+   "h": 4,
+   "sprite": "precision_maximizer_5410",
+   "frames": 2,
+   "reverse": true
+  },
+  {
+   "id": "filmstrip-12-internal13",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter5"
+   },
+   "x": 555,
+   "y": 18,
+   "w": 15,
+   "h": 4,
+   "sprite": "precision_maximizer_5410",
+   "frames": 2,
+   "reverse": true
+  },
+  {
+   "id": "switch-13-limit",
+   "kind": "switch",
+   "x": 290,
+   "y": 74,
+   "w": 33,
+   "h": 19,
+   "sprite": "precision_maximizer_5404_7",
+   "frames": 1,
+   "param": 5,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-14-limit",
+   "x": 287,
+   "y": 94,
+   "w": 21,
+   "h": 22,
+   "sprite": "precision_maximizer_5406",
+   "frames": 2,
+   "kind": "switch",
+   "param": 5,
+   "orientation": "vertical",
+   "reverse": true
+  },
+  {
+   "id": "switch-15-limit",
+   "x": 308,
+   "y": 94,
+   "w": 18,
+   "h": 10,
+   "sprite": "precision_maximizer_5405",
+   "frames": 2,
+   "kind": "switch",
+   "param": 5,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-16-bands",
+   "kind": "switch",
+   "x": 290,
+   "y": 18,
+   "w": 33,
+   "h": 19,
+   "sprite": "precision_maximizer_5402_10",
+   "frames": 1,
+   "param": 4,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-17-bands",
+   "x": 287,
+   "y": 38,
+   "w": 21,
+   "h": 22,
+   "sprite": "precision_maximizer_5406",
+   "frames": 2,
+   "kind": "switch",
+   "param": 4,
+   "orientation": "vertical",
+   "reverse": true
+  },
+  {
+   "id": "switch-18-bands",
+   "x": 308,
+   "y": 38,
+   "w": 18,
+   "h": 10,
+   "sprite": "precision_maximizer_5403",
+   "frames": 2,
+   "kind": "switch",
+   "param": 4,
+   "orientation": "vertical"
+  },
+  {
+   "id": "text-19-input",
+   "kind": "text",
+   "x": 112,
+   "y": 100,
+   "w": 47,
+   "h": 13,
+   "param": 0,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "text-20-mix",
+   "kind": "text",
+   "x": 349,
+   "y": 100,
+   "w": 47,
+   "h": 13,
+   "param": 2,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "text-21-shape",
+   "kind": "text",
+   "x": 214,
+   "y": 100,
+   "w": 47,
+   "h": 13,
+   "param": 1,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "text-22-output",
+   "kind": "text",
+   "x": 451,
+   "y": 100,
+   "w": 47,
+   "h": 13,
+   "param": 3,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  }
+ ],
+ "meterSources": {
+  "meter0": {
+   "vendorSpecificFloat": 134217732,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.01,
+     0.0
+    ],
+    [
+     0.012589,
+     0.037
+    ],
+    [
+     0.015849,
+     0.0579
+    ],
+    [
+     0.019953,
+     0.0787
+    ],
+    [
+     0.025119,
+     0.0996
+    ],
+    [
+     0.031623,
+     0.1205
+    ],
+    [
+     0.039811,
+     0.1414
+    ],
+    [
+     0.050119,
+     0.1622
+    ],
+    [
+     0.063096,
+     0.1831
+    ],
+    [
+     0.079433,
+     0.204
+    ],
+    [
+     0.1,
+     0.2249
+    ],
+    [
+     0.125893,
+     0.2457
+    ],
+    [
+     0.158489,
+     0.2666
+    ],
+    [
+     0.199526,
+     0.2875
+    ],
+    [
+     0.251189,
+     0.3083
+    ],
+    [
+     0.316228,
+     0.3292
+    ],
+    [
+     0.398107,
+     0.3501
+    ],
+    [
+     0.501187,
+     0.3709
+    ],
+    [
+     0.630957,
+     0.4758
+    ],
+    [
+     0.794328,
+     0.5806
+    ],
+    [
+     1.0,
+     0.6855
+    ],
+    [
+     1.258925,
+     0.7903
+    ],
+    [
+     1.584893,
+     0.8951
+    ],
+    [
+     1.995262,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 134217732,
+    "p1": 1
+   }
+  },
+  "meter1": {
+   "vendorSpecificFloat": 150994948,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.01,
+     0.0
+    ],
+    [
+     0.012589,
+     0.037
+    ],
+    [
+     0.015849,
+     0.0579
+    ],
+    [
+     0.019953,
+     0.0787
+    ],
+    [
+     0.025119,
+     0.0996
+    ],
+    [
+     0.031623,
+     0.1205
+    ],
+    [
+     0.039811,
+     0.1414
+    ],
+    [
+     0.050119,
+     0.1622
+    ],
+    [
+     0.063096,
+     0.1831
+    ],
+    [
+     0.079433,
+     0.204
+    ],
+    [
+     0.1,
+     0.2249
+    ],
+    [
+     0.125893,
+     0.2457
+    ],
+    [
+     0.158489,
+     0.2666
+    ],
+    [
+     0.199526,
+     0.2875
+    ],
+    [
+     0.251189,
+     0.3083
+    ],
+    [
+     0.316228,
+     0.3292
+    ],
+    [
+     0.398107,
+     0.3501
+    ],
+    [
+     0.501187,
+     0.3709
+    ],
+    [
+     0.630957,
+     0.4758
+    ],
+    [
+     0.794328,
+     0.5806
+    ],
+    [
+     1.0,
+     0.6855
+    ],
+    [
+     1.258925,
+     0.7903
+    ],
+    [
+     1.584893,
+     0.8951
+    ],
+    [
+     1.995262,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 150994948,
+    "p1": 1
+   }
+  },
+  "meter2": {
+   "vendorSpecificFloat": 134217733,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.01,
+     0.0
+    ],
+    [
+     0.012589,
+     0.0367
+    ],
+    [
+     0.015849,
+     0.0733
+    ],
+    [
+     0.019953,
+     0.11
+    ],
+    [
+     0.025119,
+     0.1467
+    ],
+    [
+     0.031623,
+     0.1833
+    ],
+    [
+     0.039811,
+     0.22
+    ],
+    [
+     0.050119,
+     0.2567
+    ],
+    [
+     0.063096,
+     0.2933
+    ],
+    [
+     0.079433,
+     0.33
+    ],
+    [
+     0.1,
+     0.3666
+    ],
+    [
+     0.125893,
+     0.4033
+    ],
+    [
+     0.158489,
+     0.44
+    ],
+    [
+     0.199526,
+     0.4767
+    ],
+    [
+     0.251189,
+     0.5133
+    ],
+    [
+     0.316228,
+     0.6047
+    ],
+    [
+     0.398107,
+     0.6524
+    ],
+    [
+     0.501187,
+     0.7
+    ],
+    [
+     0.630957,
+     0.8111
+    ],
+    [
+     0.794328,
+     0.9222
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 134217733,
+    "p1": 1
+   }
+  },
+  "meter3": {
+   "vendorSpecificFloat": 150994949,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.01,
+     0.0
+    ],
+    [
+     0.012589,
+     0.0367
+    ],
+    [
+     0.015849,
+     0.0733
+    ],
+    [
+     0.019953,
+     0.11
+    ],
+    [
+     0.025119,
+     0.1467
+    ],
+    [
+     0.031623,
+     0.1833
+    ],
+    [
+     0.039811,
+     0.22
+    ],
+    [
+     0.050119,
+     0.2567
+    ],
+    [
+     0.063096,
+     0.2933
+    ],
+    [
+     0.079433,
+     0.33
+    ],
+    [
+     0.1,
+     0.3666
+    ],
+    [
+     0.125893,
+     0.4033
+    ],
+    [
+     0.158489,
+     0.44
+    ],
+    [
+     0.199526,
+     0.4767
+    ],
+    [
+     0.251189,
+     0.5133
+    ],
+    [
+     0.316228,
+     0.6047
+    ],
+    [
+     0.398107,
+     0.6524
+    ],
+    [
+     0.501187,
+     0.7
+    ],
+    [
+     0.630957,
+     0.8111
+    ],
+    [
+     0.794328,
+     0.9222
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 150994949,
+    "p1": 1
+   }
+  },
+  "meter4": {
+   "vendorSpecificFloat": 134217734,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 134217734,
+    "p1": 1
+   },
+   "integer": true
+  },
+  "meter5": {
+   "vendorSpecificFloat": 150994950,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.398107,
+     0.0
+    ],
+    [
+     0.501187,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 150994950,
+    "p1": 1
+   }
+  }
+ }
+}

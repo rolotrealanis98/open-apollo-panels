@@ -1,0 +1,3745 @@
+{
+ "schema": 2,
+ "effectName": "UAD Manley Massive Passive",
+ "namePattern": "Manley Massive Passive",
+ "size": {
+  "w": 950,
+  "h": 264
+ },
+ "background": "massivepassive_background",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Ch1LoEnable",
+   "steps": [
+    "CUT",
+    "OUT",
+    "BOOST"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "Ch1LoShape",
+   "steps": [
+    "BELL",
+    "SHELF"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 2,
+   "name": "Ch1LoGain",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Ch1LoBW",
+   "steps": null,
+   "default": 0.50152587890625
+  },
+  {
+   "index": 4,
+   "name": "Ch1LoFreq",
+   "steps": [
+    "22 Hz",
+    "33 Hz",
+    "47 Hz",
+    "68 Hz",
+    "100 Hz",
+    "150 Hz",
+    "220 Hz",
+    "330 Hz",
+    "470 Hz",
+    "680 Hz",
+    "1 kHz"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "Ch1LoMidEnable",
+   "steps": [
+    "CUT",
+    "OUT",
+    "BOOST"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "Ch1LoMidShape",
+   "steps": [
+    "BELL",
+    "SHELF"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "Ch1LoMidGain",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "Ch1LoMidBW",
+   "steps": null,
+   "default": 0.498382568359375
+  },
+  {
+   "index": 9,
+   "name": "Ch1LoMidFreq",
+   "steps": [
+    "82 Hz",
+    "120 Hz",
+    "180 Hz",
+    "270 Hz",
+    "390 Hz",
+    "560 Hz",
+    "820 Hz",
+    "1.2 kHz",
+    "1.8 kHz",
+    "2.7 kHz",
+    "3.9 kHz"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "Ch1HiMidEnable",
+   "steps": [
+    "CUT",
+    "OUT",
+    "BOOST"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 11,
+   "name": "Ch1HiMidShape",
+   "steps": [
+    "BELL",
+    "SHELF"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "Ch1HiMidGain",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "Ch1HiMidBW",
+   "steps": null,
+   "default": 0.49761962890625
+  },
+  {
+   "index": 14,
+   "name": "Ch1HiMidFreq",
+   "steps": [
+    "220 Hz",
+    "330 Hz",
+    "470 Hz",
+    "680 Hz",
+    "1 kHz",
+    "1.5 kHz",
+    "2.2 kHz",
+    "3.3 kHz",
+    "4.7 kHz",
+    "6.8 kHz",
+    "10 kHz"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 15,
+   "name": "Ch1HiEnable",
+   "steps": [
+    "CUT",
+    "OUT",
+    "BOOST"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 16,
+   "name": "Ch1HiShape",
+   "steps": [
+    "BELL",
+    "SHELF"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 17,
+   "name": "Ch1HiGain",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 18,
+   "name": "Ch1HiBW",
+   "steps": null,
+   "default": 0.4991455078125
+  },
+  {
+   "index": 19,
+   "name": "Ch1HiFreq",
+   "steps": [
+    "560 Hz",
+    "820 Hz",
+    "1.2 kHz",
+    "1.8 kHz",
+    "2.7 kHz",
+    "3.9 kHz",
+    "5.6 kHz",
+    "8.2 kHz",
+    "12 kHz",
+    "16 kHz",
+    "27 kHz"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 20,
+   "name": "Ch1LoPass",
+   "steps": [
+    "OFF",
+    "18 kHz",
+    "12 kHz",
+    "9 kHz",
+    "7.5 kHz",
+    "6 kHz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 21,
+   "name": "Ch1HiPass",
+   "steps": [
+    "OFF",
+    "22 Hz",
+    "39 Hz",
+    "68 Hz",
+    "120 Hz",
+    "220 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 22,
+   "name": "Ch1GAIN",
+   "steps": null,
+   "default": 0.500335693359375
+  },
+  {
+   "index": 23,
+   "name": "Ch1ENABLE",
+   "steps": [
+    "OUT",
+    "IN"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 24,
+   "name": "Ch2LoEnable",
+   "steps": [
+    "OUT",
+    "OUT",
+    "OUT"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 25,
+   "name": "Ch2LoShape",
+   "steps": [
+    "SHELF",
+    "SHELF"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 26,
+   "name": "Ch2LoGain",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 27,
+   "name": "Ch2LoBW",
+   "steps": null,
+   "default": 0.50152587890625
+  },
+  {
+   "index": 28,
+   "name": "Ch2LoFreq",
+   "steps": [
+    "150 Hz",
+    "150 Hz",
+    "150 Hz",
+    "150 Hz",
+    "150 Hz",
+    "150 Hz",
+    "150 Hz",
+    "150 Hz",
+    "150 Hz",
+    "150 Hz",
+    "150 Hz"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 29,
+   "name": "Ch2LoMidEnable",
+   "steps": [
+    "OUT",
+    "OUT",
+    "OUT"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 30,
+   "name": "Ch2LoMidShape",
+   "steps": [
+    "BELL",
+    "BELL"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 31,
+   "name": "Ch2LoMidGain",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 32,
+   "name": "Ch2LoMidBW",
+   "steps": null,
+   "default": 0.498382568359375
+  },
+  {
+   "index": 33,
+   "name": "Ch2LoMidFreq",
+   "steps": [
+    "560 Hz",
+    "560 Hz",
+    "560 Hz",
+    "560 Hz",
+    "560 Hz",
+    "560 Hz",
+    "560 Hz",
+    "560 Hz",
+    "560 Hz",
+    "560 Hz",
+    "560 Hz"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 34,
+   "name": "Ch2HiMidEnable",
+   "steps": [
+    "OUT",
+    "OUT",
+    "OUT"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 35,
+   "name": "Ch2HiMidShape",
+   "steps": [
+    "BELL",
+    "BELL"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 36,
+   "name": "Ch2HiMidGain",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 37,
+   "name": "Ch2HiMidBW",
+   "steps": null,
+   "default": 0.49761962890625
+  },
+  {
+   "index": 38,
+   "name": "Ch2HiMidFreq",
+   "steps": [
+    "1.5 kHz",
+    "1.5 kHz",
+    "1.5 kHz",
+    "1.5 kHz",
+    "1.5 kHz",
+    "1.5 kHz",
+    "1.5 kHz",
+    "1.5 kHz",
+    "1.5 kHz",
+    "1.5 kHz",
+    "1.5 kHz"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 39,
+   "name": "Ch2HiEnable",
+   "steps": [
+    "OUT",
+    "OUT",
+    "OUT"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 40,
+   "name": "Ch2HiShape",
+   "steps": [
+    "SHELF",
+    "SHELF"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 41,
+   "name": "Ch2HiGain",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 42,
+   "name": "Ch2HiBW",
+   "steps": null,
+   "default": 0.4991455078125
+  },
+  {
+   "index": 43,
+   "name": "Ch2HiFreq",
+   "steps": [
+    "3.9 kHz",
+    "3.9 kHz",
+    "3.9 kHz",
+    "3.9 kHz",
+    "3.9 kHz",
+    "3.9 kHz",
+    "3.9 kHz",
+    "3.9 kHz",
+    "3.9 kHz",
+    "3.9 kHz",
+    "3.9 kHz"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 44,
+   "name": "Ch2LoPass",
+   "steps": [
+    "OFF",
+    "OFF",
+    "OFF",
+    "OFF",
+    "OFF",
+    "OFF"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 45,
+   "name": "Ch2HiPass",
+   "steps": [
+    "OFF",
+    "OFF",
+    "OFF",
+    "OFF",
+    "OFF",
+    "OFF"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 46,
+   "name": "Ch2GAIN",
+   "steps": null,
+   "default": 0.500335693359375
+  },
+  {
+   "index": 47,
+   "name": "Ch2ENABLE",
+   "steps": [
+    "IN",
+    "IN"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 48,
+   "name": "CtrlLink",
+   "steps": [
+    "UNLINKED",
+    "LINKED"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 49,
+   "name": "Power",
+   "steps": [
+    "OFF",
+    "ON"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {},
+ "elements": [
+  {
+   "id": "ch1enable-button",
+   "x": 414.0,
+   "y": 54.0,
+   "w": 29.0,
+   "h": 28.0,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 23,
+   "sprite": "massivepassive_push_switch",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     48,
+     49
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch1enable-button-poweroff",
+   "x": 414,
+   "y": 54,
+   "w": 29,
+   "h": 28,
+   "kind": "switch",
+   "param": 23,
+   "sprite": "massivepassive_push_switch_pwr_off",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     48,
+     49
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch1gain-knob",
+   "x": 411,
+   "y": 81,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 22,
+   "sprite": "massivepassive_knob_sml",
+   "frames": 61
+  },
+  {
+   "id": "ch1lopass-knob",
+   "x": 411,
+   "y": 139,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 20,
+   "sprite": "massivepassive_knob_sml_6_step",
+   "frames": 6
+  },
+  {
+   "id": "ch1hipass-knob",
+   "x": 411,
+   "y": 197,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 21,
+   "sprite": "massivepassive_knob_sml_6_step",
+   "frames": 6
+  },
+  {
+   "id": "ch1gain-rtd",
+   "x": 424,
+   "y": 78,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 22,
+   "action": {
+    "type": "default",
+    "param": 22
+   }
+  },
+  {
+   "id": "ch1lopass-0-ctv",
+   "x": 402,
+   "y": 153,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 20,
+   "action": {
+    "type": "set",
+    "param": 20,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "ch1lopass-1-ctv",
+   "x": 408,
+   "y": 144,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 20,
+   "action": {
+    "type": "set",
+    "param": 20,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "ch1lopass-2-ctv",
+   "x": 420,
+   "y": 136,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 20,
+   "action": {
+    "type": "set",
+    "param": 20,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "ch1lopass-3-ctv",
+   "x": 434,
+   "y": 136,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 20,
+   "action": {
+    "type": "set",
+    "param": 20,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "ch1lopass-4-ctv",
+   "x": 446,
+   "y": 144,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 20,
+   "action": {
+    "type": "set",
+    "param": 20,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "ch1lopass-5-ctv",
+   "x": 448,
+   "y": 153,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 20,
+   "action": {
+    "type": "set",
+    "param": 20,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "ch1hipass-0-ctv",
+   "x": 402,
+   "y": 211,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 21,
+   "action": {
+    "type": "set",
+    "param": 21,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "ch1hipass-1-ctv",
+   "x": 408,
+   "y": 202,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 21,
+   "action": {
+    "type": "set",
+    "param": 21,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "ch1hipass-2-ctv",
+   "x": 420,
+   "y": 194,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 21,
+   "action": {
+    "type": "set",
+    "param": 21,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "ch1hipass-3-ctv",
+   "x": 434,
+   "y": 194,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 21,
+   "action": {
+    "type": "set",
+    "param": 21,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "ch1hipass-4-ctv",
+   "x": 444,
+   "y": 202,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 21,
+   "action": {
+    "type": "set",
+    "param": 21,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "ch1hipass-5-ctv",
+   "x": 450,
+   "y": 211,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 21,
+   "action": {
+    "type": "set",
+    "param": 21,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "ch2enable-button",
+   "x": 507.0,
+   "y": 54.0,
+   "w": 29.0,
+   "h": 28.0,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 47,
+   "sprite": "massivepassive_push_switch",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     48,
+     49
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch2enable-button-poweroff",
+   "x": 507,
+   "y": 54,
+   "w": 29,
+   "h": 28,
+   "kind": "switch",
+   "param": 47,
+   "sprite": "massivepassive_push_switch_pwr_off",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     48,
+     49
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch2gain-knob",
+   "x": 494,
+   "y": 81,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 46,
+   "sprite": "massivepassive_knob_sml",
+   "frames": 61
+  },
+  {
+   "id": "ch2lopass-knob",
+   "x": 494,
+   "y": 139,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 44,
+   "sprite": "massivepassive_knob_sml_6_step",
+   "frames": 6
+  },
+  {
+   "id": "ch2hipass-knob",
+   "x": 494,
+   "y": 197,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 45,
+   "sprite": "massivepassive_knob_sml_6_step",
+   "frames": 6
+  },
+  {
+   "id": "ch2gain-rtd",
+   "x": 507,
+   "y": 78,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 46,
+   "action": {
+    "type": "default",
+    "param": 46
+   }
+  },
+  {
+   "id": "ch2lopass-0-ctv",
+   "x": 485,
+   "y": 153,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 44,
+   "action": {
+    "type": "set",
+    "param": 44,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "ch2lopass-1-ctv",
+   "x": 491,
+   "y": 144,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 44,
+   "action": {
+    "type": "set",
+    "param": 44,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "ch2lopass-2-ctv",
+   "x": 503,
+   "y": 136,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 44,
+   "action": {
+    "type": "set",
+    "param": 44,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "ch2lopass-3-ctv",
+   "x": 517,
+   "y": 136,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 44,
+   "action": {
+    "type": "set",
+    "param": 44,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "ch2lopass-4-ctv",
+   "x": 529,
+   "y": 144,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 44,
+   "action": {
+    "type": "set",
+    "param": 44,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "ch2lopass-5-ctv",
+   "x": 531,
+   "y": 153,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 44,
+   "action": {
+    "type": "set",
+    "param": 44,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "ch2hipass-0-ctv",
+   "x": 485,
+   "y": 211,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 45,
+   "action": {
+    "type": "set",
+    "param": 45,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "ch2hipass-1-ctv",
+   "x": 491,
+   "y": 202,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 45,
+   "action": {
+    "type": "set",
+    "param": 45,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "ch2hipass-2-ctv",
+   "x": 503,
+   "y": 194,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 45,
+   "action": {
+    "type": "set",
+    "param": 45,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "ch2hipass-3-ctv",
+   "x": 517,
+   "y": 194,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 45,
+   "action": {
+    "type": "set",
+    "param": 45,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "ch2hipass-4-ctv",
+   "x": 527,
+   "y": 202,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 45,
+   "action": {
+    "type": "set",
+    "param": 45,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "ch2hipass-5-ctv",
+   "x": 533,
+   "y": 211,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 45,
+   "action": {
+    "type": "set",
+    "param": 45,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "power-knob",
+   "x": 453,
+   "y": 40,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 49,
+   "sprite": "massivepassive_knob_sml_2_step",
+   "frames": 2
+  },
+  {
+   "id": "ctrllink-switch",
+   "x": 467,
+   "y": 107,
+   "w": 17,
+   "h": 31,
+   "kind": "switch",
+   "param": 48,
+   "sprite": "massivepassive_switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "ctrllink-switch-disabled",
+   "x": 467.0,
+   "y": 107.0,
+   "w": 17.0,
+   "h": 31.0,
+   "opacity": 0,
+   "kind": "filmstrip",
+   "sprite": "massivepassive_switch",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch1loenable-switch",
+   "x": 86.0,
+   "y": 21.0,
+   "w": 29.0,
+   "h": 35.0,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 0,
+   "sprite": "massivepassive_switch_3p",
+   "frames": 3,
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     48,
+     49
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch1loenable-switch-poweroff",
+   "x": 86,
+   "y": 21,
+   "w": 29,
+   "h": 35,
+   "kind": "switch",
+   "param": 0,
+   "sprite": "massivepassive_switch_3p_pwr_off",
+   "frames": 3,
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     48,
+     49
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch1loshape-switch",
+   "x": 131,
+   "y": 23,
+   "w": 17,
+   "h": 31,
+   "kind": "switch",
+   "param": 1,
+   "sprite": "massivepassive_switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "ch1logain-knob",
+   "x": 93,
+   "y": 71,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 2,
+   "sprite": "massivepassive_knob_lrg",
+   "frames": 101
+  },
+  {
+   "id": "ch1lobw-knob",
+   "x": 98,
+   "y": 138,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 3,
+   "sprite": "massivepassive_knob_sml",
+   "frames": 61
+  },
+  {
+   "id": "ch1loenable-rtd",
+   "x": 111,
+   "y": 34,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "default",
+    "param": 0
+   }
+  },
+  {
+   "id": "ch1lofreq-knob",
+   "x": 93,
+   "y": 193,
+   "w": 53,
+   "h": 63,
+   "kind": "knob",
+   "param": 4,
+   "sprite": "massivepassive_knob_lrg_11_step",
+   "frames": 11
+  },
+  {
+   "id": "ch1logain-rtd",
+   "x": 95,
+   "y": 123,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "default",
+    "param": 2
+   }
+  },
+  {
+   "id": "ch1lofreq-0-ctv",
+   "x": 101,
+   "y": 244,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "ch1lofreq-1-ctv",
+   "x": 91,
+   "y": 232,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "ch1lofreq-2-ctv",
+   "x": 87,
+   "y": 219,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "ch1lofreq-3-ctv",
+   "x": 89,
+   "y": 206,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "ch1lofreq-4-ctv",
+   "x": 95,
+   "y": 194,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "ch1lofreq-5-ctv",
+   "x": 113,
+   "y": 192,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "ch1lofreq-6-ctv",
+   "x": 129,
+   "y": 194,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "ch1lofreq-7-ctv",
+   "x": 137,
+   "y": 206,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "ch1lofreq-8-ctv",
+   "x": 141,
+   "y": 219,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "ch1lofreq-9-ctv",
+   "x": 137,
+   "y": 232,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "ch1lofreq-10-ctv",
+   "x": 131,
+   "y": 244,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "ch1lomidenable-switch",
+   "x": 167.0,
+   "y": 21.0,
+   "w": 29.0,
+   "h": 35.0,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 5,
+   "sprite": "massivepassive_switch_3p",
+   "frames": 3,
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     48,
+     49
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch1lomidenable-switch-poweroff",
+   "x": 167,
+   "y": 21,
+   "w": 29,
+   "h": 35,
+   "kind": "switch",
+   "param": 5,
+   "sprite": "massivepassive_switch_3p_pwr_off",
+   "frames": 3,
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     48,
+     49
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch1lomidshape-switch",
+   "x": 212,
+   "y": 23,
+   "w": 17,
+   "h": 31,
+   "kind": "switch",
+   "param": 6,
+   "sprite": "massivepassive_switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "ch1lomidgain-knob",
+   "x": 174,
+   "y": 71,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 7,
+   "sprite": "massivepassive_knob_lrg",
+   "frames": 101
+  },
+  {
+   "id": "ch1lomidbw-knob",
+   "x": 179,
+   "y": 138,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 8,
+   "sprite": "massivepassive_knob_sml",
+   "frames": 61
+  },
+  {
+   "id": "ch1lomidenable-rtd",
+   "x": 192,
+   "y": 34,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "default",
+    "param": 5
+   }
+  },
+  {
+   "id": "ch1lomidfreq-knob",
+   "x": 174,
+   "y": 193,
+   "w": 53,
+   "h": 63,
+   "kind": "knob",
+   "param": 9,
+   "sprite": "massivepassive_knob_lrg_11_step",
+   "frames": 11
+  },
+  {
+   "id": "ch1lomidgain-rtd",
+   "x": 176,
+   "y": 123,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "default",
+    "param": 7
+   }
+  },
+  {
+   "id": "ch1lomidfreq-0-ctv",
+   "x": 182,
+   "y": 244,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "ch1lomidfreq-1-ctv",
+   "x": 172,
+   "y": 232,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "ch1lomidfreq-2-ctv",
+   "x": 168,
+   "y": 219,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "ch1lomidfreq-3-ctv",
+   "x": 170,
+   "y": 206,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "ch1lomidfreq-4-ctv",
+   "x": 176,
+   "y": 194,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "ch1lomidfreq-5-ctv",
+   "x": 194,
+   "y": 192,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "ch1lomidfreq-6-ctv",
+   "x": 210,
+   "y": 194,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "ch1lomidfreq-7-ctv",
+   "x": 218,
+   "y": 206,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "ch1lomidfreq-8-ctv",
+   "x": 222,
+   "y": 219,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "ch1lomidfreq-9-ctv",
+   "x": 218,
+   "y": 232,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "ch1lomidfreq-10-ctv",
+   "x": 212,
+   "y": 244,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "ch1himidenable-switch",
+   "x": 248.0,
+   "y": 21.0,
+   "w": 29.0,
+   "h": 35.0,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 10,
+   "sprite": "massivepassive_switch_3p",
+   "frames": 3,
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     48,
+     49
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch1himidenable-switch-poweroff",
+   "x": 248,
+   "y": 21,
+   "w": 29,
+   "h": 35,
+   "kind": "switch",
+   "param": 10,
+   "sprite": "massivepassive_switch_3p_pwr_off",
+   "frames": 3,
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     48,
+     49
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch1himidshape-switch",
+   "x": 293,
+   "y": 23,
+   "w": 17,
+   "h": 31,
+   "kind": "switch",
+   "param": 11,
+   "sprite": "massivepassive_switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "ch1himidgain-knob",
+   "x": 255,
+   "y": 71,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 12,
+   "sprite": "massivepassive_knob_lrg",
+   "frames": 101
+  },
+  {
+   "id": "ch1himidbw-knob",
+   "x": 260,
+   "y": 138,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 13,
+   "sprite": "massivepassive_knob_sml",
+   "frames": 61
+  },
+  {
+   "id": "ch1himidenable-rtd",
+   "x": 273,
+   "y": 34,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 10,
+   "action": {
+    "type": "default",
+    "param": 10
+   }
+  },
+  {
+   "id": "ch1himidfreq-knob",
+   "x": 255,
+   "y": 193,
+   "w": 53,
+   "h": 63,
+   "kind": "knob",
+   "param": 14,
+   "sprite": "massivepassive_knob_lrg_11_step",
+   "frames": 11
+  },
+  {
+   "id": "ch1himidgain-rtd",
+   "x": 257,
+   "y": 123,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 12,
+   "action": {
+    "type": "default",
+    "param": 12
+   }
+  },
+  {
+   "id": "ch1himidfreq-0-ctv",
+   "x": 263,
+   "y": 244,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "ch1himidfreq-1-ctv",
+   "x": 253,
+   "y": 232,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "ch1himidfreq-2-ctv",
+   "x": 249,
+   "y": 219,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "ch1himidfreq-3-ctv",
+   "x": 251,
+   "y": 206,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "ch1himidfreq-4-ctv",
+   "x": 257,
+   "y": 194,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "ch1himidfreq-5-ctv",
+   "x": 275,
+   "y": 192,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "ch1himidfreq-6-ctv",
+   "x": 291,
+   "y": 194,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "ch1himidfreq-7-ctv",
+   "x": 299,
+   "y": 206,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "ch1himidfreq-8-ctv",
+   "x": 303,
+   "y": 219,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "ch1himidfreq-9-ctv",
+   "x": 299,
+   "y": 232,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "ch1himidfreq-10-ctv",
+   "x": 293,
+   "y": 244,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "ch1hienable-switch",
+   "x": 329.0,
+   "y": 21.0,
+   "w": 29.0,
+   "h": 35.0,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 15,
+   "sprite": "massivepassive_switch_3p",
+   "frames": 3,
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     48,
+     49
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch1hienable-switch-poweroff",
+   "x": 329,
+   "y": 21,
+   "w": 29,
+   "h": 35,
+   "kind": "switch",
+   "param": 15,
+   "sprite": "massivepassive_switch_3p_pwr_off",
+   "frames": 3,
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     48,
+     49
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch1hishape-switch",
+   "x": 374,
+   "y": 23,
+   "w": 17,
+   "h": 31,
+   "kind": "switch",
+   "param": 16,
+   "sprite": "massivepassive_switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "ch1higain-knob",
+   "x": 336,
+   "y": 71,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 17,
+   "sprite": "massivepassive_knob_lrg",
+   "frames": 101
+  },
+  {
+   "id": "ch1hibw-knob",
+   "x": 341,
+   "y": 138,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 18,
+   "sprite": "massivepassive_knob_sml",
+   "frames": 61
+  },
+  {
+   "id": "ch1hienable-rtd",
+   "x": 354,
+   "y": 34,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 15,
+   "action": {
+    "type": "default",
+    "param": 15
+   }
+  },
+  {
+   "id": "ch1hifreq-knob",
+   "x": 336,
+   "y": 193,
+   "w": 53,
+   "h": 63,
+   "kind": "knob",
+   "param": 19,
+   "sprite": "massivepassive_knob_lrg_11_step",
+   "frames": 11
+  },
+  {
+   "id": "ch1higain-rtd",
+   "x": 338,
+   "y": 123,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 17,
+   "action": {
+    "type": "default",
+    "param": 17
+   }
+  },
+  {
+   "id": "ch1hifreq-0-ctv",
+   "x": 344,
+   "y": 244,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 19,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "ch1hifreq-1-ctv",
+   "x": 334,
+   "y": 232,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 19,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "ch1hifreq-2-ctv",
+   "x": 330,
+   "y": 219,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 19,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "ch1hifreq-3-ctv",
+   "x": 332,
+   "y": 206,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 19,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "ch1hifreq-4-ctv",
+   "x": 338,
+   "y": 194,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 19,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "ch1hifreq-5-ctv",
+   "x": 356,
+   "y": 192,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 19,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "ch1hifreq-6-ctv",
+   "x": 372,
+   "y": 194,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 19,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "ch1hifreq-7-ctv",
+   "x": 380,
+   "y": 206,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 19,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "ch1hifreq-8-ctv",
+   "x": 384,
+   "y": 219,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 19,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "ch1hifreq-9-ctv",
+   "x": 380,
+   "y": 232,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 19,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "ch1hifreq-10-ctv",
+   "x": 374,
+   "y": 244,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 19,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "ch2loenable-switch",
+   "x": 554.0,
+   "y": 21.0,
+   "w": 29.0,
+   "h": 35.0,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 24,
+   "sprite": "massivepassive_switch_3p",
+   "frames": 3,
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     48,
+     49
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch2loenable-switch-poweroff",
+   "x": 554,
+   "y": 21,
+   "w": 29,
+   "h": 35,
+   "kind": "switch",
+   "param": 24,
+   "sprite": "massivepassive_switch_3p_pwr_off",
+   "frames": 3,
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     48,
+     49
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch2loshape-switch",
+   "x": 599,
+   "y": 23,
+   "w": 17,
+   "h": 31,
+   "kind": "switch",
+   "param": 25,
+   "sprite": "massivepassive_switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "ch2logain-knob",
+   "x": 561,
+   "y": 71,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 26,
+   "sprite": "massivepassive_knob_lrg",
+   "frames": 101
+  },
+  {
+   "id": "ch2lobw-knob",
+   "x": 566,
+   "y": 138,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 27,
+   "sprite": "massivepassive_knob_sml",
+   "frames": 61
+  },
+  {
+   "id": "ch2loenable-rtd",
+   "x": 579,
+   "y": 34,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 24,
+   "action": {
+    "type": "default",
+    "param": 24
+   }
+  },
+  {
+   "id": "ch2lofreq-knob",
+   "x": 561,
+   "y": 193,
+   "w": 53,
+   "h": 63,
+   "kind": "knob",
+   "param": 28,
+   "sprite": "massivepassive_knob_lrg_11_step",
+   "frames": 11
+  },
+  {
+   "id": "ch2logain-rtd",
+   "x": 563,
+   "y": 123,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 26,
+   "action": {
+    "type": "default",
+    "param": 26
+   }
+  },
+  {
+   "id": "ch2lofreq-0-ctv",
+   "x": 569,
+   "y": 244,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 28,
+   "action": {
+    "type": "set",
+    "param": 28,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "ch2lofreq-1-ctv",
+   "x": 559,
+   "y": 232,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 28,
+   "action": {
+    "type": "set",
+    "param": 28,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "ch2lofreq-2-ctv",
+   "x": 555,
+   "y": 219,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 28,
+   "action": {
+    "type": "set",
+    "param": 28,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "ch2lofreq-3-ctv",
+   "x": 557,
+   "y": 206,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 28,
+   "action": {
+    "type": "set",
+    "param": 28,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "ch2lofreq-4-ctv",
+   "x": 563,
+   "y": 194,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 28,
+   "action": {
+    "type": "set",
+    "param": 28,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "ch2lofreq-5-ctv",
+   "x": 581,
+   "y": 192,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 28,
+   "action": {
+    "type": "set",
+    "param": 28,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "ch2lofreq-6-ctv",
+   "x": 597,
+   "y": 194,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 28,
+   "action": {
+    "type": "set",
+    "param": 28,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "ch2lofreq-7-ctv",
+   "x": 605,
+   "y": 206,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 28,
+   "action": {
+    "type": "set",
+    "param": 28,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "ch2lofreq-8-ctv",
+   "x": 609,
+   "y": 219,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 28,
+   "action": {
+    "type": "set",
+    "param": 28,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "ch2lofreq-9-ctv",
+   "x": 605,
+   "y": 232,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 28,
+   "action": {
+    "type": "set",
+    "param": 28,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "ch2lofreq-10-ctv",
+   "x": 599,
+   "y": 244,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 28,
+   "action": {
+    "type": "set",
+    "param": 28,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "ch2lomidenable-switch",
+   "x": 635.0,
+   "y": 21.0,
+   "w": 29.0,
+   "h": 35.0,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 29,
+   "sprite": "massivepassive_switch_3p",
+   "frames": 3,
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     48,
+     49
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch2lomidenable-switch-poweroff",
+   "x": 635,
+   "y": 21,
+   "w": 29,
+   "h": 35,
+   "kind": "switch",
+   "param": 29,
+   "sprite": "massivepassive_switch_3p_pwr_off",
+   "frames": 3,
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     48,
+     49
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch2lomidshape-switch",
+   "x": 680,
+   "y": 23,
+   "w": 17,
+   "h": 31,
+   "kind": "switch",
+   "param": 30,
+   "sprite": "massivepassive_switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "ch2lomidgain-knob",
+   "x": 642,
+   "y": 71,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 31,
+   "sprite": "massivepassive_knob_lrg",
+   "frames": 101
+  },
+  {
+   "id": "ch2lomidbw-knob",
+   "x": 647,
+   "y": 138,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 32,
+   "sprite": "massivepassive_knob_sml",
+   "frames": 61
+  },
+  {
+   "id": "ch2lomidenable-rtd",
+   "x": 660,
+   "y": 34,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 29,
+   "action": {
+    "type": "default",
+    "param": 29
+   }
+  },
+  {
+   "id": "ch2lomidfreq-knob",
+   "x": 642,
+   "y": 193,
+   "w": 53,
+   "h": 63,
+   "kind": "knob",
+   "param": 33,
+   "sprite": "massivepassive_knob_lrg_11_step",
+   "frames": 11
+  },
+  {
+   "id": "ch2lomidgain-rtd",
+   "x": 644,
+   "y": 123,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 31,
+   "action": {
+    "type": "default",
+    "param": 31
+   }
+  },
+  {
+   "id": "ch2lomidfreq-0-ctv",
+   "x": 650,
+   "y": 244,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 33,
+   "action": {
+    "type": "set",
+    "param": 33,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "ch2lomidfreq-1-ctv",
+   "x": 640,
+   "y": 232,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 33,
+   "action": {
+    "type": "set",
+    "param": 33,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "ch2lomidfreq-2-ctv",
+   "x": 636,
+   "y": 219,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 33,
+   "action": {
+    "type": "set",
+    "param": 33,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "ch2lomidfreq-3-ctv",
+   "x": 638,
+   "y": 206,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 33,
+   "action": {
+    "type": "set",
+    "param": 33,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "ch2lomidfreq-4-ctv",
+   "x": 644,
+   "y": 194,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 33,
+   "action": {
+    "type": "set",
+    "param": 33,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "ch2lomidfreq-5-ctv",
+   "x": 662,
+   "y": 192,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 33,
+   "action": {
+    "type": "set",
+    "param": 33,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "ch2lomidfreq-6-ctv",
+   "x": 678,
+   "y": 194,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 33,
+   "action": {
+    "type": "set",
+    "param": 33,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "ch2lomidfreq-7-ctv",
+   "x": 686,
+   "y": 206,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 33,
+   "action": {
+    "type": "set",
+    "param": 33,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "ch2lomidfreq-8-ctv",
+   "x": 690,
+   "y": 219,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 33,
+   "action": {
+    "type": "set",
+    "param": 33,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "ch2lomidfreq-9-ctv",
+   "x": 686,
+   "y": 232,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 33,
+   "action": {
+    "type": "set",
+    "param": 33,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "ch2lomidfreq-10-ctv",
+   "x": 680,
+   "y": 244,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 33,
+   "action": {
+    "type": "set",
+    "param": 33,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "ch2himidenable-switch",
+   "x": 716.0,
+   "y": 21.0,
+   "w": 29.0,
+   "h": 35.0,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 34,
+   "sprite": "massivepassive_switch_3p",
+   "frames": 3,
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     48,
+     49
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch2himidenable-switch-poweroff",
+   "x": 716,
+   "y": 21,
+   "w": 29,
+   "h": 35,
+   "kind": "switch",
+   "param": 34,
+   "sprite": "massivepassive_switch_3p_pwr_off",
+   "frames": 3,
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     48,
+     49
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch2himidshape-switch",
+   "x": 761,
+   "y": 23,
+   "w": 17,
+   "h": 31,
+   "kind": "switch",
+   "param": 35,
+   "sprite": "massivepassive_switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "ch2himidgain-knob",
+   "x": 723,
+   "y": 71,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 36,
+   "sprite": "massivepassive_knob_lrg",
+   "frames": 101
+  },
+  {
+   "id": "ch2himidbw-knob",
+   "x": 728,
+   "y": 138,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 37,
+   "sprite": "massivepassive_knob_sml",
+   "frames": 61
+  },
+  {
+   "id": "ch2himidenable-rtd",
+   "x": 741,
+   "y": 34,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 34,
+   "action": {
+    "type": "default",
+    "param": 34
+   }
+  },
+  {
+   "id": "ch2himidfreq-knob",
+   "x": 723,
+   "y": 193,
+   "w": 53,
+   "h": 63,
+   "kind": "knob",
+   "param": 38,
+   "sprite": "massivepassive_knob_lrg_11_step",
+   "frames": 11
+  },
+  {
+   "id": "ch2himidgain-rtd",
+   "x": 725,
+   "y": 123,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 36,
+   "action": {
+    "type": "default",
+    "param": 36
+   }
+  },
+  {
+   "id": "ch2himidfreq-0-ctv",
+   "x": 731,
+   "y": 244,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 38,
+   "action": {
+    "type": "set",
+    "param": 38,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "ch2himidfreq-1-ctv",
+   "x": 721,
+   "y": 232,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 38,
+   "action": {
+    "type": "set",
+    "param": 38,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "ch2himidfreq-2-ctv",
+   "x": 717,
+   "y": 219,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 38,
+   "action": {
+    "type": "set",
+    "param": 38,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "ch2himidfreq-3-ctv",
+   "x": 719,
+   "y": 206,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 38,
+   "action": {
+    "type": "set",
+    "param": 38,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "ch2himidfreq-4-ctv",
+   "x": 725,
+   "y": 194,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 38,
+   "action": {
+    "type": "set",
+    "param": 38,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "ch2himidfreq-5-ctv",
+   "x": 743,
+   "y": 192,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 38,
+   "action": {
+    "type": "set",
+    "param": 38,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "ch2himidfreq-6-ctv",
+   "x": 759,
+   "y": 194,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 38,
+   "action": {
+    "type": "set",
+    "param": 38,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "ch2himidfreq-7-ctv",
+   "x": 767,
+   "y": 206,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 38,
+   "action": {
+    "type": "set",
+    "param": 38,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "ch2himidfreq-8-ctv",
+   "x": 771,
+   "y": 219,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 38,
+   "action": {
+    "type": "set",
+    "param": 38,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "ch2himidfreq-9-ctv",
+   "x": 767,
+   "y": 232,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 38,
+   "action": {
+    "type": "set",
+    "param": 38,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "ch2himidfreq-10-ctv",
+   "x": 761,
+   "y": 244,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 38,
+   "action": {
+    "type": "set",
+    "param": 38,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "ch2hienable-switch",
+   "x": 797.0,
+   "y": 21.0,
+   "w": 29.0,
+   "h": 35.0,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 39,
+   "sprite": "massivepassive_switch_3p",
+   "frames": 3,
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     48,
+     49
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch2hienable-switch-poweroff",
+   "x": 797,
+   "y": 21,
+   "w": 29,
+   "h": 35,
+   "kind": "switch",
+   "param": 39,
+   "sprite": "massivepassive_switch_3p_pwr_off",
+   "frames": 3,
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     48,
+     49
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch2hishape-switch",
+   "x": 842,
+   "y": 23,
+   "w": 17,
+   "h": 31,
+   "kind": "switch",
+   "param": 40,
+   "sprite": "massivepassive_switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "ch2higain-knob",
+   "x": 804,
+   "y": 71,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 41,
+   "sprite": "massivepassive_knob_lrg",
+   "frames": 101
+  },
+  {
+   "id": "ch2hibw-knob",
+   "x": 809,
+   "y": 138,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 42,
+   "sprite": "massivepassive_knob_sml",
+   "frames": 61
+  },
+  {
+   "id": "ch2hienable-rtd",
+   "x": 822,
+   "y": 34,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 39,
+   "action": {
+    "type": "default",
+    "param": 39
+   }
+  },
+  {
+   "id": "ch2hifreq-knob",
+   "x": 804,
+   "y": 193,
+   "w": 53,
+   "h": 63,
+   "kind": "knob",
+   "param": 43,
+   "sprite": "massivepassive_knob_lrg_11_step",
+   "frames": 11
+  },
+  {
+   "id": "ch2higain-rtd",
+   "x": 806,
+   "y": 123,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 41,
+   "action": {
+    "type": "default",
+    "param": 41
+   }
+  },
+  {
+   "id": "ch2hifreq-0-ctv",
+   "x": 812,
+   "y": 244,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 43,
+   "action": {
+    "type": "set",
+    "param": 43,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "ch2hifreq-1-ctv",
+   "x": 802,
+   "y": 232,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 43,
+   "action": {
+    "type": "set",
+    "param": 43,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "ch2hifreq-2-ctv",
+   "x": 798,
+   "y": 219,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 43,
+   "action": {
+    "type": "set",
+    "param": 43,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "ch2hifreq-3-ctv",
+   "x": 800,
+   "y": 206,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 43,
+   "action": {
+    "type": "set",
+    "param": 43,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "ch2hifreq-4-ctv",
+   "x": 806,
+   "y": 194,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 43,
+   "action": {
+    "type": "set",
+    "param": 43,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "ch2hifreq-5-ctv",
+   "x": 824,
+   "y": 192,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 43,
+   "action": {
+    "type": "set",
+    "param": 43,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "ch2hifreq-6-ctv",
+   "x": 840,
+   "y": 194,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 43,
+   "action": {
+    "type": "set",
+    "param": 43,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "ch2hifreq-7-ctv",
+   "x": 848,
+   "y": 206,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 43,
+   "action": {
+    "type": "set",
+    "param": 43,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "ch2hifreq-8-ctv",
+   "x": 852,
+   "y": 219,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 43,
+   "action": {
+    "type": "set",
+    "param": 43,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "ch2hifreq-9-ctv",
+   "x": 848,
+   "y": 232,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 43,
+   "action": {
+    "type": "set",
+    "param": 43,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "ch2hifreq-10-ctv",
+   "x": 842,
+   "y": 244,
+   "w": 15,
+   "h": 8,
+   "kind": "zone",
+   "param": 43,
+   "action": {
+    "type": "set",
+    "param": 43,
+    "value": 1.0
+   }
+  }
+ ]
+}

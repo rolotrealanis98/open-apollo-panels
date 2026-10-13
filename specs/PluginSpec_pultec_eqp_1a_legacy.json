@@ -1,0 +1,222 @@
+{
+ "schema": 2,
+ "effectName": "UAD Pultec EQP-1A Legacy",
+ "namePattern": "Pultec EQP-1A Legacy",
+ "size": {
+  "w": 950,
+  "h": 264
+ },
+ "background": "pultec_eqp_1a_legacy_1400",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "LF Boost",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "LF Atten",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Low Freq",
+   "steps": [
+    "20 CPS",
+    "30 CPS",
+    "60 CPS",
+    "100 CPS"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 3,
+   "name": "HF Q",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "HF Boost",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "High Freq",
+   "steps": [
+    "3 KCS",
+    "4 KCS",
+    "5 KCS",
+    "8 KCS",
+    "10 KCS",
+    "12 KCS",
+    "16 KCS"
+   ],
+   "default": 0.1666666716337204
+  },
+  {
+   "index": 6,
+   "name": "HF Atten",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "HF Atten Freq",
+   "steps": [
+    "5 KCS",
+    "10 KCS",
+    "20 KCS"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 8,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 9,
+   "name": "Enable",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-lf_atten",
+   "x": 343,
+   "y": 11,
+   "w": 105,
+   "h": 123,
+   "sprite": "pultec_eqp_1a_legacy_1401",
+   "frames": 111,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "knob-2-hf_atten",
+   "x": 629,
+   "y": 11,
+   "w": 105,
+   "h": 123,
+   "sprite": "pultec_eqp_1a_legacy_1401",
+   "frames": 111,
+   "kind": "knob",
+   "param": 6
+  },
+  {
+   "id": "knob-3-hf_atten_freq",
+   "x": 767,
+   "y": 13,
+   "w": 78,
+   "h": 120,
+   "sprite": "pultec_eqp_1a_legacy_1403",
+   "frames": 3,
+   "kind": "knob",
+   "param": 7
+  },
+  {
+   "id": "knob-4-lf_boost",
+   "x": 222,
+   "y": 11,
+   "w": 105,
+   "h": 123,
+   "sprite": "pultec_eqp_1a_legacy_1401",
+   "frames": 111,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "knob-5-hf_boost",
+   "x": 508,
+   "y": 11,
+   "w": 105,
+   "h": 123,
+   "sprite": "pultec_eqp_1a_legacy_1401",
+   "frames": 111,
+   "kind": "knob",
+   "param": 4
+  },
+  {
+   "id": "knob-6-hf_q",
+   "x": 426,
+   "y": 140,
+   "w": 105,
+   "h": 123,
+   "sprite": "pultec_eqp_1a_legacy_1401",
+   "frames": 111,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "knob-7-high_freq",
+   "x": 559,
+   "y": 139,
+   "w": 120,
+   "h": 124,
+   "sprite": "pultec_eqp_1a_legacy_1407",
+   "frames": 7,
+   "kind": "knob",
+   "param": 5
+  },
+  {
+   "id": "knob-8-low_freq",
+   "x": 274,
+   "y": 139,
+   "w": 120,
+   "h": 124,
+   "sprite": "pultec_eqp_1a_legacy_1409",
+   "frames": 4,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "switch-9-enable",
+   "x": 189,
+   "y": 148,
+   "w": 55,
+   "h": 100,
+   "sprite": "pultec_eqp_1a_legacy_1408",
+   "frames": 2,
+   "kind": "switch",
+   "param": 9,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-10-power",
+   "x": 790,
+   "y": 164,
+   "w": 51,
+   "h": 68,
+   "sprite": "pultec_eqp_1a_legacy_1411",
+   "frames": 2,
+   "kind": "switch",
+   "param": 8,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-11-power",
+   "kind": "switch",
+   "x": 724,
+   "y": 101,
+   "w": 85,
+   "h": 85,
+   "sprite": "pultec_eqp_1a_legacy_1410_7",
+   "frames": 2,
+   "param": 8,
+   "orientation": "vertical"
+  }
+ ],
+ "meterSources": {}
+}

@@ -1,0 +1,191 @@
+{
+ "schema": 2,
+ "effectName": "UAD Dangerous BAX EQ Mix",
+ "namePattern": "Dangerous BAX EQ Mix",
+ "size": {
+  "w": 1024,
+  "h": 110
+ },
+ "background": "dangerous_bax_eq_mix__BACKGROUNDMONO",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Engage",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "LCF",
+   "steps": [
+    "Out",
+    "12 Hz",
+    "18 Hz",
+    "24 Hz",
+    "30 Hz",
+    "36 Hz",
+    "43 Hz",
+    "54 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "LSF",
+   "steps": [
+    "74 Hz",
+    "84 Hz",
+    "98 Hz",
+    "116 Hz",
+    "131 Hz",
+    "166 Hz",
+    "230 Hz",
+    "361 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "LSL",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "HSL",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "HSF",
+   "steps": [
+    "18 kHz",
+    "7.1 kHz",
+    "4.8 kHz",
+    "3.4 kHz",
+    "2.5 kHz",
+    "2.1 kHz",
+    "1.8 kHz",
+    "1.6 kHz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "HCF",
+   "steps": [
+    "Out",
+    "70 kHz",
+    "28 kHz",
+    "18 kHz",
+    "12.6 kHz",
+    "11.1 kHz",
+    "9 kHz",
+    "7.5 kHz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "Out",
+   "steps": null,
+   "default": 0.5
+  }
+ ],
+ "elements": [
+  {
+   "id": "lcf-knob",
+   "kind": "knob",
+   "sprite": "dangerous_bax_eq_mix__KNOBSMALLSTEPPEDLEFT",
+   "frames": 8,
+   "param": 1,
+   "x": 154.0,
+   "y": 10.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "lsf-knob",
+   "kind": "knob",
+   "sprite": "dangerous_bax_eq_mix__KNOBSMALLSTEPPEDLEFT",
+   "frames": 8,
+   "param": 2,
+   "x": 244.0,
+   "y": 10.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "hsf-knob",
+   "kind": "knob",
+   "sprite": "dangerous_bax_eq_mix__KNOBSMALLSTEPPEDRIGHT",
+   "frames": 8,
+   "param": 5,
+   "x": 558.0,
+   "y": 10.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "hcf-knob",
+   "kind": "knob",
+   "sprite": "dangerous_bax_eq_mix__KNOBSMALLSTEPPEDRIGHT",
+   "frames": 8,
+   "param": 6,
+   "x": 648.0,
+   "y": 10.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "lsl-knob",
+   "kind": "knob",
+   "sprite": "dangerous_bax_eq_mix__KNOBBIGLEFT",
+   "frames": 21,
+   "param": 3,
+   "x": 334.0,
+   "y": 2.0,
+   "w": 103.0,
+   "h": 103.0
+  },
+  {
+   "id": "hsl-knob",
+   "kind": "knob",
+   "sprite": "dangerous_bax_eq_mix__KNOBBIGRIGHT",
+   "frames": 21,
+   "param": 4,
+   "x": 452.0,
+   "y": 2.0,
+   "w": 103.0,
+   "h": 103.0
+  },
+  {
+   "id": "out-knob",
+   "kind": "knob",
+   "sprite": "dangerous_bax_eq_mix__KNOBSMALLRIGHT",
+   "frames": 21,
+   "param": 7,
+   "x": 766.0,
+   "y": 10.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "engage-switch",
+   "kind": "switch",
+   "sprite": "dangerous_bax_eq_mix__BUTTONBIG",
+   "frames": 2,
+   "param": 0,
+   "orientation": "vertical",
+   "x": 876.0,
+   "y": 14.0,
+   "w": 80.0,
+   "h": 80.0
+  }
+ ],
+ "meterSources": {}
+}

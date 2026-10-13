@@ -1,0 +1,215 @@
+{
+ "schema": 2,
+ "effectName": "UAD Neve Preamp",
+ "namePattern": "Neve Preamp",
+ "size": {
+  "w": 588,
+  "h": 184
+ },
+ "background": "G_x2_neve_preamp_8311",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Input Select",
+   "steps": [
+    "Line",
+    "Mic"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Gain",
+   "steps": [
+    "-20 dB",
+    "-25 dB",
+    "-30 dB",
+    "-35 dB",
+    "-40 dB",
+    "-45 dB",
+    "-50 dB",
+    "-55 dB",
+    "-60 dB",
+    "-65 dB",
+    "-70 dB",
+    "-75 dB",
+    "-80 dB"
+   ],
+   "default": 0.1666666716337204
+  },
+  {
+   "index": 2,
+   "name": "HP Filt",
+   "steps": [
+    "Off",
+    "80 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Phase",
+   "steps": [
+    "Normal",
+    "Inverted"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-gain",
+   "x": 92.0,
+   "y": 34.0,
+   "w": 168.0,
+   "h": 142.0,
+   "sprite": "G_x2_neve_preamp_8319",
+   "frames": 13,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "switch-2-input_select",
+   "x": 42.0,
+   "y": 57.0,
+   "w": 40.0,
+   "h": 70.0,
+   "sprite": "G_x2_neve_preamp_8313",
+   "frames": 2,
+   "kind": "switch",
+   "param": 0,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-4-output",
+   "x": 336.0,
+   "y": 34.0,
+   "w": 136.0,
+   "h": 124.0,
+   "sprite": "G_x2_neve_preamp_8312",
+   "frames": 121,
+   "kind": "knob",
+   "param": 4
+  },
+  {
+   "id": "image-5-internal8-hover",
+   "kind": "image",
+   "x": 92.0,
+   "y": 34.0,
+   "w": 168.0,
+   "h": 142.0,
+   "sprite": "G_x2_neve_preamp_8317",
+   "opacity": 0
+  },
+  {
+   "id": "image-6-internal8-hover",
+   "kind": "image",
+   "x": 336.0,
+   "y": 34.0,
+   "w": 136.0,
+   "h": 124.0,
+   "sprite": "G_x2_neve_preamp_8318",
+   "opacity": 0
+  },
+  {
+   "id": "filmstrip-7-internal9",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "table",
+    "params": [
+     3,
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   },
+   "x": 268.0,
+   "y": 18.0,
+   "w": 58.0,
+   "h": 148.0,
+   "sprite": "G_x2_neve_preamp_8314",
+   "frames": 4
+  },
+  {
+   "id": "I-btn-2",
+   "kind": "zone",
+   "x": 268,
+   "y": 92,
+   "w": 58,
+   "h": 74,
+   "action": {
+    "type": "toggle",
+    "param": 2
+   }
+  },
+  {
+   "id": "I-btn-3",
+   "kind": "zone",
+   "x": 268,
+   "y": 18,
+   "w": 58,
+   "h": 74,
+   "action": {
+    "type": "toggle",
+    "param": 3
+   }
+  },
+  {
+   "id": "switch-8-power",
+   "kind": "switch",
+   "x": 476.0,
+   "y": 48.0,
+   "w": 58.0,
+   "h": 88.0,
+   "sprite": "G_x2_neve_preamp_8320_8",
+   "frames": 2,
+   "param": 5,
+   "orientation": "vertical",
+   "reverse": true
+  }
+ ],
+ "meterSources": {}
+}

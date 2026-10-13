@@ -1,0 +1,631 @@
+{
+ "schema": 2,
+ "effectName": "UAD Century Tube Channel Strip",
+ "namePattern": "Century Tube Channel Strip",
+ "size": {
+  "w": 746,
+  "h": 508
+ },
+ "background": null,
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Input Select",
+   "steps": [
+    "Line",
+    "Mic"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Low Cut",
+   "steps": [
+    "Off",
+    "80 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Phase",
+   "steps": [
+    "Normal",
+    "Inverted"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Pad",
+   "steps": [
+    "0 dB",
+    "-20 dB"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Gain",
+   "steps": [
+    "Low",
+    "Hi"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Level",
+   "steps": null,
+   "default": 0.5809326171875
+  },
+  {
+   "index": 6,
+   "name": "High Shelf",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "Mid Freq",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "Mid Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 9,
+   "name": "Low Shelf",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "EQ In",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "Compression",
+   "steps": null,
+   "default": 0.463897705078125
+  },
+  {
+   "index": 12,
+   "name": "GR In",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 14,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "input_o_l": {
+   "vendorSpecificFloat": 589,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "integer": true
+  },
+  "level_o_l": {
+   "vendorSpecificFloat": 593,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "integer": true
+  },
+  "gr": {
+   "vendorSpecificFloat": 369098802,
+   "smoothing": 0.5,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1e-06,
+     1.0
+    ],
+    [
+     0.06673,
+     1.0
+    ],
+    [
+     0.6673,
+     0.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 369098802,
+    "p1": 1
+   }
+  },
+  "vu": {
+   "vendorSpecificFloat": 586,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  }
+ },
+ "elements": [
+  {
+   "id": "background-image",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 746.0,
+   "h": 508.0,
+   "kind": "image",
+   "sprite": "tube_cs_background"
+  },
+  {
+   "id": "mic-line-switch",
+   "x": 26,
+   "y": 186,
+   "w": 30,
+   "h": 77,
+   "kind": "switch",
+   "param": 0,
+   "sprite": "tube_cs_switch_vertical",
+   "frames": 2
+  },
+  {
+   "id": "hpf-switch",
+   "x": 61,
+   "y": 186,
+   "w": 30,
+   "h": 77,
+   "kind": "switch",
+   "param": 1,
+   "sprite": "tube_cs_switch_vertical",
+   "frames": 2
+  },
+  {
+   "id": "phase-switch",
+   "x": 96,
+   "y": 186,
+   "w": 30,
+   "h": 77,
+   "kind": "switch",
+   "param": 2,
+   "sprite": "tube_cs_switch_vertical",
+   "frames": 2
+  },
+  {
+   "id": "pad-switch",
+   "x": 131,
+   "y": 186,
+   "w": 30,
+   "h": 77,
+   "kind": "switch",
+   "param": 3,
+   "sprite": "tube_cs_switch_vertical",
+   "frames": 2,
+   "action": {
+    "type": "toggle",
+    "param": 3
+   }
+  },
+  {
+   "id": "gain-rotary-knob",
+   "x": 56,
+   "y": 67,
+   "w": 82,
+   "h": 106,
+   "kind": "knob",
+   "param": 4,
+   "sprite": "tube_cs_knob_chickenhead",
+   "frames": 2
+  },
+  {
+   "id": "level-knob",
+   "x": 29,
+   "y": 283,
+   "w": 129,
+   "h": 144,
+   "kind": "knob",
+   "param": 5,
+   "sprite": "tube_cs_knob_skirt",
+   "frames": 121
+  },
+  {
+   "id": "gain-clip-led",
+   "x": 142,
+   "y": 110,
+   "w": 31,
+   "h": 20,
+   "kind": "filmstrip",
+   "sprite": "tube_cs_led_clip",
+   "frames": 2,
+   "frameSource": {
+    "type": "meter",
+    "meter": "input_o_l",
+    "channel": 0
+   }
+  },
+  {
+   "id": "level-clip-led",
+   "x": 142,
+   "y": 283,
+   "w": 31,
+   "h": 20,
+   "kind": "filmstrip",
+   "sprite": "tube_cs_led_clip",
+   "frames": 2,
+   "frameSource": {
+    "type": "meter",
+    "meter": "level_o_l",
+    "channel": 0
+   }
+  },
+  {
+   "id": "gain-low-set",
+   "x": 56,
+   "y": 67,
+   "w": 29,
+   "h": 11,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "gain-high-set",
+   "x": 104,
+   "y": 67,
+   "w": 29,
+   "h": 11,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "toggle",
+    "param": 4
+   }
+  },
+  {
+   "id": "high-shelf-knob",
+   "x": 271,
+   "y": 68,
+   "w": 97,
+   "h": 107,
+   "kind": "knob",
+   "param": 6,
+   "sprite": "tube_cs_knob",
+   "frames": 131
+  },
+  {
+   "id": "freq-knob",
+   "x": 198,
+   "y": 179,
+   "w": 73,
+   "h": 80,
+   "kind": "knob",
+   "param": 7,
+   "sprite": "tube_cs_knob_sml",
+   "frames": 131
+  },
+  {
+   "id": "mid-gain-knob",
+   "x": 271,
+   "y": 189,
+   "w": 97,
+   "h": 107,
+   "kind": "knob",
+   "param": 8,
+   "sprite": "tube_cs_knob",
+   "frames": 131
+  },
+  {
+   "id": "low-shelf-knob",
+   "x": 271,
+   "y": 310,
+   "w": 97,
+   "h": 107,
+   "kind": "knob",
+   "param": 9,
+   "sprite": "tube_cs_knob",
+   "frames": 131
+  },
+  {
+   "id": "eq-bypass-switch",
+   "x": 227,
+   "y": 438,
+   "w": 118,
+   "h": 30,
+   "kind": "switch",
+   "param": 10,
+   "sprite": "tube_cs_switch_horizontal",
+   "frames": 2
+  },
+  {
+   "id": "eq-bypass-led",
+   "x": 327,
+   "y": 438,
+   "w": 17,
+   "h": 30,
+   "kind": "filmstrip",
+   "sprite": "tube_cs_led_green",
+   "frames": 2,
+   "reverse": true,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     10,
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "mid-gain-rtz",
+   "x": 300,
+   "y": 188,
+   "w": 29,
+   "h": 11,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "high-shelf-rtz",
+   "x": 300,
+   "y": 67,
+   "w": 29,
+   "h": 11,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "low-shelf-rtz",
+   "x": 300,
+   "y": 309,
+   "w": 29,
+   "h": 11,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "compression-knob",
+   "x": 401,
+   "y": 283,
+   "w": 129,
+   "h": 144,
+   "kind": "knob",
+   "param": 11,
+   "sprite": "tube_cs_knob_skirt",
+   "frames": 121
+  },
+  {
+   "id": "comp-bypass-switch",
+   "x": 412,
+   "y": 438,
+   "w": 118,
+   "h": 30,
+   "kind": "switch",
+   "param": 12,
+   "sprite": "tube_cs_switch_horizontal",
+   "frames": 2
+  },
+  {
+   "id": "comp-bypass-led",
+   "x": 512,
+   "y": 438,
+   "w": 17,
+   "h": 30,
+   "kind": "filmstrip",
+   "sprite": "tube_cs_led_green",
+   "frames": 2,
+   "reverse": true,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     12,
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "gain-reduct-meter",
+   "x": 390,
+   "y": 64,
+   "w": 151,
+   "h": 95,
+   "kind": "filmstrip",
+   "sprite": "tube_cs_needle_GR",
+   "frames": 100,
+   "frameSource": {
+    "type": "meter",
+    "meter": "gr",
+    "channel": 0
+   }
+  },
+  {
+   "id": "output-knob",
+   "x": 586,
+   "y": 283,
+   "w": 129,
+   "h": 144,
+   "kind": "knob",
+   "param": 13,
+   "sprite": "tube_cs_knob_skirt",
+   "frames": 121
+  },
+  {
+   "id": "power-switch",
+   "x": 600,
+   "y": 438,
+   "w": 118,
+   "h": 30,
+   "kind": "switch",
+   "param": 14,
+   "sprite": "tube_cs_switch_horizontal",
+   "frames": 2
+  },
+  {
+   "id": "power-led",
+   "x": 700,
+   "y": 438,
+   "w": 17,
+   "h": 30,
+   "kind": "filmstrip",
+   "sprite": "tube_cs_led_green",
+   "frames": 2,
+   "reverse": true,
+   "frameSource": {
+    "type": "param",
+    "param": 14
+   }
+  },
+  {
+   "id": "vu-meter",
+   "x": 576,
+   "y": 64,
+   "w": 151,
+   "h": 95,
+   "kind": "filmstrip",
+   "sprite": "tube_cs_needle_VU",
+   "frames": 100,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu",
+    "channel": 0
+   }
+  },
+  {
+   "id": "output-rtz",
+   "x": 636,
+   "y": 272,
+   "w": 29,
+   "h": 11,
+   "kind": "zone",
+   "param": 13,
+   "action": {
+    "type": "set",
+    "param": 13,
+    "value": 0.5
+   }
+  }
+ ]
+}

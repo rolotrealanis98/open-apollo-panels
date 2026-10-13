@@ -1,0 +1,528 @@
+{
+ "schema": 2,
+ "effectName": "UAD Harrison 32C",
+ "namePattern": "Harrison 32C",
+ "size": {
+  "w": 763,
+  "h": 169
+ },
+ "background": "harrison_32c_6200",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "CutEnable",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "HiPass",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "LowPass",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 3,
+   "name": "EQEnable",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 4,
+   "name": "LowFreq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "LowGain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "LowPeak",
+   "steps": [
+    "Shelf",
+    "Peak"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "LoMidFreq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 8,
+   "name": "LoMidGain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 9,
+   "name": "HiMidFreq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "HiMidGain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 11,
+   "name": "HiFreq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 12,
+   "name": "HiGain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 13,
+   "name": "Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 14,
+   "name": "Phase",
+   "steps": [
+    "Normal",
+    "Inverted"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 15,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-hipass",
+   "x": 40,
+   "y": 94,
+   "w": 64,
+   "h": 64,
+   "sprite": "harrison_32c_6204",
+   "frames": 61,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "knob-2-lowpass",
+   "x": 139,
+   "y": 94,
+   "w": 64,
+   "h": 64,
+   "sprite": "harrison_32c_6204",
+   "frames": 61,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "knob-3-lowfreq",
+   "x": 276,
+   "y": 28,
+   "w": 64,
+   "h": 64,
+   "sprite": "harrison_32c_6204",
+   "frames": 61,
+   "kind": "knob",
+   "param": 4
+  },
+  {
+   "id": "knob-4-lowgain",
+   "x": 237,
+   "y": 94,
+   "w": 64,
+   "h": 64,
+   "sprite": "harrison_32c_6204",
+   "frames": 61,
+   "kind": "knob",
+   "param": 5
+  },
+  {
+   "id": "knob-5-lomidfreq",
+   "x": 375,
+   "y": 28,
+   "w": 64,
+   "h": 64,
+   "sprite": "harrison_32c_6204",
+   "frames": 61,
+   "kind": "knob",
+   "param": 7
+  },
+  {
+   "id": "knob-6-lomidgain",
+   "x": 335,
+   "y": 94,
+   "w": 64,
+   "h": 64,
+   "sprite": "harrison_32c_6204",
+   "frames": 61,
+   "kind": "knob",
+   "param": 8
+  },
+  {
+   "id": "knob-7-himidfreq",
+   "x": 474,
+   "y": 28,
+   "w": 64,
+   "h": 64,
+   "sprite": "harrison_32c_6204",
+   "frames": 61,
+   "kind": "knob",
+   "param": 9
+  },
+  {
+   "id": "knob-8-himidgain",
+   "x": 433,
+   "y": 94,
+   "w": 64,
+   "h": 64,
+   "sprite": "harrison_32c_6204",
+   "frames": 61,
+   "kind": "knob",
+   "param": 10
+  },
+  {
+   "id": "knob-9-hifreq",
+   "x": 571,
+   "y": 28,
+   "w": 64,
+   "h": 64,
+   "sprite": "harrison_32c_6204",
+   "frames": 61,
+   "kind": "knob",
+   "param": 11
+  },
+  {
+   "id": "knob-10-higain",
+   "x": 531,
+   "y": 94,
+   "w": 64,
+   "h": 64,
+   "sprite": "harrison_32c_6204",
+   "frames": 61,
+   "kind": "knob",
+   "param": 12
+  },
+  {
+   "id": "knob-11-gain",
+   "x": 628,
+   "y": 94,
+   "w": 64,
+   "h": 64,
+   "sprite": "harrison_32c_6202",
+   "frames": 61,
+   "kind": "knob",
+   "param": 13
+  },
+  {
+   "id": "filmstrip-12-power",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 15
+   },
+   "x": 60,
+   "y": 65,
+   "w": 14,
+   "h": 14,
+   "sprite": "harrison_32c_6207",
+   "frames": 2
+  },
+  {
+   "id": "P-row-power",
+   "kind": "filmstrip",
+   "x": 50,
+   "y": 31,
+   "w": 39,
+   "h": 33,
+   "sprite": "P_harrison_32c_btn_power",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 15
+   }
+  },
+  {
+   "id": "P-row-14",
+   "kind": "filmstrip",
+   "x": 89,
+   "y": 31,
+   "w": 39,
+   "h": 33,
+   "sprite": "P_harrison_32c_btn39",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     14,
+     15
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-row-0",
+   "kind": "filmstrip",
+   "x": 128,
+   "y": 31,
+   "w": 39,
+   "h": 33,
+   "sprite": "P_harrison_32c_btn39",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-row-3",
+   "kind": "filmstrip",
+   "x": 167,
+   "y": 31,
+   "w": 39,
+   "h": 33,
+   "sprite": "P_harrison_32c_btn39",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     3,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-row-6",
+   "kind": "filmstrip",
+   "x": 206,
+   "y": 31,
+   "w": 51,
+   "h": 33,
+   "sprite": "P_harrison_32c_btn51",
+   "frames": 4,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     6,
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-13-power",
+   "kind": "zone",
+   "x": 50,
+   "y": 31,
+   "w": 39,
+   "h": 33,
+   "param": 15,
+   "action": {
+    "type": "toggle",
+    "param": 15
+   }
+  },
+  {
+   "id": "zone-14-phase",
+   "kind": "zone",
+   "x": 89,
+   "y": 31,
+   "w": 39,
+   "h": 33,
+   "param": 14,
+   "action": {
+    "type": "toggle",
+    "param": 14
+   }
+  },
+  {
+   "id": "zone-15-cutenable",
+   "kind": "zone",
+   "x": 128,
+   "y": 31,
+   "w": 39,
+   "h": 33,
+   "param": 0,
+   "action": {
+    "type": "toggle",
+    "param": 0
+   }
+  },
+  {
+   "id": "zone-16-eqenable",
+   "kind": "zone",
+   "x": 167,
+   "y": 31,
+   "w": 39,
+   "h": 33,
+   "param": 3,
+   "action": {
+    "type": "toggle",
+    "param": 3
+   }
+  },
+  {
+   "id": "zone-17-lowpeak",
+   "kind": "zone",
+   "x": 206,
+   "y": 31,
+   "w": 39,
+   "h": 33,
+   "param": 6,
+   "action": {
+    "type": "toggle",
+    "param": 6
+   }
+  }
+ ],
+ "meterSources": {}
+}

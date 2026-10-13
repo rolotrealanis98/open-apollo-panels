@@ -1,0 +1,385 @@
+{
+ "schema": 2,
+ "effectName": "UAD elysia karacter mix",
+ "namePattern": "elysia karacter mix",
+ "size": {
+  "w": 836,
+  "h": 185
+ },
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "Bank",
+   "steps": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Drive",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Color",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "Mix",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 6,
+   "name": "FETShred",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "TrbBst",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "chrome-panel",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 836,
+   "h": 161,
+   "sprite": "elysia_karacter_mix__BACKGROUNDMONO"
+  },
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 836,
+   "h": 24,
+   "toolbar": {
+    "family": "brainworx",
+    "items": [
+     {
+      "type": "switch",
+      "x": 0.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.power",
+      "frames": 2,
+      "param": 0,
+      "glyph": "power"
+     },
+     {
+      "type": "icon",
+      "x": 255.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.undo",
+      "frames": 2,
+      "glyph": "undo"
+     },
+     {
+      "type": "icon",
+      "x": 279.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.redo",
+      "frames": 2,
+      "glyph": "redo"
+     },
+     {
+      "type": "bank",
+      "x": 328.0,
+      "y": 0,
+      "w": 96.0,
+      "h": 24,
+      "sprite": "chrome.bx.bank",
+      "frames": 2,
+      "param": 1,
+      "cells": 4,
+      "glyph": "ABCD"
+     },
+     {
+      "type": "icon",
+      "x": 446.5,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.copy",
+      "frames": 2,
+      "glyph": "Copy"
+     },
+     {
+      "type": "icon",
+      "x": 499.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.paste",
+      "frames": 2,
+      "glyph": "Paste"
+     },
+     {
+      "type": "icon",
+      "x": 562.5,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.reset",
+      "frames": 2,
+      "glyph": "Reset"
+     }
+    ]
+   }
+  },
+  {
+   "id": "drive-knob",
+   "kind": "knob",
+   "sprite": "elysia_karacter_mix__KNOB",
+   "frames": 61,
+   "param": 2,
+   "x": 275.0,
+   "y": 60.0,
+   "w": 100.0,
+   "h": 100.0
+  },
+  {
+   "id": "color-knob",
+   "kind": "knob",
+   "sprite": "elysia_karacter_mix__KNOB",
+   "frames": 61,
+   "param": 3,
+   "x": 396.0,
+   "y": 60.0,
+   "w": 100.0,
+   "h": 100.0
+  },
+  {
+   "id": "gain-knob",
+   "kind": "knob",
+   "sprite": "elysia_karacter_mix__KNOB",
+   "frames": 61,
+   "param": 4,
+   "x": 516.0,
+   "y": 60.0,
+   "w": 100.0,
+   "h": 100.0
+  },
+  {
+   "id": "mix-knob",
+   "kind": "knob",
+   "sprite": "elysia_karacter_mix__KNOB",
+   "frames": 61,
+   "param": 5,
+   "x": 624.0,
+   "y": 60.0,
+   "w": 100.0,
+   "h": 100.0
+  },
+  {
+   "id": "on-switch",
+   "kind": "switch",
+   "sprite": "Q_elysia_karacter_mix__BUTTONMONOYELLOW_COLS",
+   "frames": 4,
+   "param": 8,
+   "orientation": "vertical",
+   "x": 130.0,
+   "y": 89.0,
+   "w": 51.0,
+   "h": 38.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     8
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "fetshred-switch",
+   "kind": "switch",
+   "sprite": "Q_elysia_karacter_mix__BUTTONMONORED_COLS",
+   "frames": 4,
+   "param": 6,
+   "orientation": "vertical",
+   "x": 174.0,
+   "y": 89.0,
+   "w": 51.0,
+   "h": 38.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "trbbst-switch",
+   "kind": "switch",
+   "sprite": "Q_elysia_karacter_mix__BUTTONMONORED_COLS",
+   "frames": 4,
+   "param": 7,
+   "orientation": "vertical",
+   "x": 219.0,
+   "y": 89.0,
+   "w": 51.0,
+   "h": 38.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0,
+     7
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "power-led",
+   "kind": "filmstrip",
+   "sprite": "elysia_karacter_mix__LOGO",
+   "frames": 2,
+   "x": 30.0,
+   "y": 69.0,
+   "w": 77.0,
+   "h": 77.0,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
+  }
+ ],
+ "meterSources": {}
+}

@@ -1,0 +1,987 @@
+{
+ "schema": 2,
+ "effectName": "UAD UA 610-B",
+ "namePattern": "UA 610-B",
+ "size": {
+  "w": 284,
+  "h": 700
+ },
+ "background": null,
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Input Select",
+   "steps": [
+    "Line",
+    "(Mic) 2.0k",
+    "(Mic) 500"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Input Pad",
+   "steps": [
+    "Off",
+    "-15 dB"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Input Gain",
+   "steps": [
+    "-10 dB",
+    "-5 dB",
+    "0 dB",
+    "+5 dB",
+    "+10 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "Polarity",
+   "steps": [
+    "In 0",
+    "Out 180"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Lo EQ Freq",
+   "steps": [
+    "70 Hz",
+    "200 Hz",
+    "100 Hz"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 5,
+   "name": "Lo EQ Gain",
+   "steps": [
+    "-9 dB",
+    "-6 dB",
+    "-4.5 dB",
+    "-3 dB",
+    "-1.5 dB",
+    "0 dB",
+    "+1.5 dB",
+    "+3 dB",
+    "+4.5 dB",
+    "+6 dB",
+    "+9 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "Hi EQ Freq",
+   "steps": [
+    "4.5 kHz",
+    "10 kHz",
+    "7 kHz"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "Hi EQ Gain",
+   "steps": [
+    "-9 dB",
+    "-6 dB",
+    "-4.5 dB",
+    "-3 dB",
+    "-1.5 dB",
+    "0 dB",
+    "+1.5 dB",
+    "+3 dB",
+    "+4.5 dB",
+    "+6 dB",
+    "+9 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 8,
+   "name": "Level",
+   "steps": null,
+   "default": 0.604888916015625
+  },
+  {
+   "index": 9,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {},
+ "elements": [
+  {
+   "id": "background-image",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 284.0,
+   "h": 700.0,
+   "kind": "image",
+   "sprite": "UA_610-B_PANEL"
+  },
+  {
+   "id": "input-gain-knob",
+   "x": 112,
+   "y": 62,
+   "w": 60,
+   "h": 60,
+   "kind": "knob",
+   "param": 2,
+   "sprite": "UA_610-B_INPUT",
+   "frames": 5
+  },
+  {
+   "id": "low-input-gain-set",
+   "x": 102,
+   "y": 69,
+   "w": 18,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "midlow-input-gain-set",
+   "x": 114,
+   "y": 58,
+   "w": 18,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "mid-input-gain-set",
+   "x": 133,
+   "y": 54,
+   "w": 18,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "midhigh-input-gain-set",
+   "x": 151,
+   "y": 58,
+   "w": 18,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "high-input-gain-set",
+   "x": 165,
+   "y": 69,
+   "w": 18,
+   "h": 10,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "low-freq-switch",
+   "x": 91,
+   "y": 140,
+   "w": 32,
+   "h": 66,
+   "kind": "switch",
+   "param": 4,
+   "sprite": "UA_610-B_switch-3pos",
+   "frames": 3,
+   "orientation": "vertical"
+  },
+  {
+   "id": "low-eq-70-set",
+   "x": 98,
+   "y": 186,
+   "w": 18,
+   "h": 12,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "low-eq-200-set",
+   "x": 78,
+   "y": 166,
+   "w": 18,
+   "h": 14,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "low-eq-100-set",
+   "x": 98,
+   "y": 147,
+   "w": 18,
+   "h": 12,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "high-freq-switch",
+   "x": 161,
+   "y": 140,
+   "w": 32,
+   "h": 66,
+   "kind": "switch",
+   "param": 6,
+   "sprite": "UA_610-B_switch-3pos",
+   "frames": 3,
+   "orientation": "vertical"
+  },
+  {
+   "id": "hi-eq-4.5k-set",
+   "x": 168,
+   "y": 186,
+   "w": 18,
+   "h": 12,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "hi-eq-10k-set",
+   "x": 188,
+   "y": 166,
+   "w": 18,
+   "h": 14,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "hi-eq-7k-set",
+   "x": 168,
+   "y": 147,
+   "w": 18,
+   "h": 12,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "low-eq-gain-knob",
+   "x": 77,
+   "y": 210,
+   "w": 60,
+   "h": 60,
+   "kind": "knob",
+   "param": 5,
+   "sprite": "UA_610-B_EQ",
+   "frames": 11
+  },
+  {
+   "id": "neg9-loweqgain-set",
+   "x": 82,
+   "y": 259,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "neg6-loweqgain-set",
+   "x": 72,
+   "y": 248,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "neg4.5-loweqgain-set",
+   "x": 71,
+   "y": 234,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "neg3-loweqgain-set",
+   "x": 72,
+   "y": 219,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "neg1.5-loweqgain-set",
+   "x": 84,
+   "y": 208,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "zero-loweqgain-set",
+   "x": 99,
+   "y": 204,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "pos1.5-loweqgain-set",
+   "x": 114,
+   "y": 208,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "pos3-loweqgain-set",
+   "x": 126,
+   "y": 219,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "pos4.5-loweqgain-set",
+   "x": 127,
+   "y": 234,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "pos6-loweqgain-set",
+   "x": 126,
+   "y": 248,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "pos9-loweqgain-set",
+   "x": 116,
+   "y": 259,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "loweqgain-minus",
+   "x": 84,
+   "y": 269,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "nudge",
+    "param": 5,
+    "delta": -0.1
+   }
+  },
+  {
+   "id": "loweqgain-plus",
+   "x": 115,
+   "y": 269,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "nudge",
+    "param": 5,
+    "delta": 0.1
+   }
+  },
+  {
+   "id": "high-eq-gain-knob",
+   "x": 147,
+   "y": 210,
+   "w": 60,
+   "h": 60,
+   "kind": "knob",
+   "param": 7,
+   "sprite": "UA_610-B_EQ",
+   "frames": 11
+  },
+  {
+   "id": "neg9-higheqgain-set",
+   "x": 153,
+   "y": 259,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "neg6-higheqgain-set",
+   "x": 143,
+   "y": 248,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "neg4.5-higheqgain-set",
+   "x": 142,
+   "y": 234,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "neg3-higheqgain-set",
+   "x": 143,
+   "y": 219,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "neg1.5-higheqgain-set",
+   "x": 155,
+   "y": 208,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "zero-higheqgain-set",
+   "x": 170,
+   "y": 204,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "pos1.5-higheqgain-set",
+   "x": 185,
+   "y": 208,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "pos3-higheqgain-set",
+   "x": 197,
+   "y": 219,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "pos4.5-higheqgain-set",
+   "x": 198,
+   "y": 234,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "pos6-higheqgain-set",
+   "x": 197,
+   "y": 248,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "pos9-higheqgain-set",
+   "x": 187,
+   "y": 259,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "higheqgain-minus",
+   "x": 155,
+   "y": 269,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "nudge",
+    "param": 7,
+    "delta": -0.1
+   }
+  },
+  {
+   "id": "higheqgain-plus",
+   "x": 186,
+   "y": 269,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 7,
+   "action": {
+    "type": "nudge",
+    "param": 7,
+    "delta": 0.1
+   }
+  },
+  {
+   "id": "input-select-switch",
+   "x": 89,
+   "y": 304,
+   "w": 32,
+   "h": 66,
+   "kind": "switch",
+   "param": 0,
+   "sprite": "UA_610-B_switch-3pos",
+   "frames": 3,
+   "orientation": "vertical"
+  },
+  {
+   "id": "pad-switch",
+   "x": 126.0,
+   "y": 304.0,
+   "w": 32.0,
+   "h": 66.0,
+   "kind": "switch",
+   "param": 1,
+   "sprite": "UA_610-B_switch-2pos",
+   "frames": 2,
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pad-switch-off",
+   "x": 126,
+   "y": 304,
+   "w": 32,
+   "h": 66,
+   "kind": "filmstrip",
+   "sprite": "UA_610-B_switch-2pos",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "phase-switch",
+   "x": 163,
+   "y": 304,
+   "w": 32,
+   "h": 66,
+   "kind": "switch",
+   "param": 3,
+   "sprite": "UA_610-B_switch-2pos",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "500-set",
+   "x": 92,
+   "y": 308,
+   "w": 26,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "2k-set",
+   "x": 72,
+   "y": 330,
+   "w": 24,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "line-set",
+   "x": 92,
+   "y": 351,
+   "w": 26,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "pad-on-set",
+   "x": 129,
+   "y": 308,
+   "w": 26,
+   "h": 14,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "pad-off-set",
+   "x": 130,
+   "y": 351,
+   "w": 26,
+   "h": 14,
+   "kind": "zone",
+   "param": 1,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "out-180-set",
+   "x": 168,
+   "y": 308,
+   "w": 26,
+   "h": 14,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "in-0-set",
+   "x": 166,
+   "y": 351,
+   "w": 26,
+   "h": 14,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "level-knob",
+   "x": 67,
+   "y": 391,
+   "w": 150,
+   "h": 150,
+   "kind": "knob",
+   "param": 8,
+   "sprite": "UA_610-B_LEVEL",
+   "frames": 101
+  },
+  {
+   "id": "level-rtd",
+   "x": 124,
+   "y": 380,
+   "w": 36,
+   "h": 13,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.604889
+   }
+  },
+  {
+   "id": "output-knob",
+   "x": 112,
+   "y": 551,
+   "w": 60,
+   "h": 60,
+   "kind": "knob",
+   "param": 9,
+   "sprite": "UA_610-B_knob_OUTPUT",
+   "frames": 181
+  },
+  {
+   "id": "output-rtz",
+   "x": 131,
+   "y": 541,
+   "w": 22,
+   "h": 11,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "output-toggle",
+   "x": 100,
+   "y": 595,
+   "w": 26,
+   "h": 16,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.0
+   }
+  }
+ ],
+ "panelless": [
+  10
+ ]
+}

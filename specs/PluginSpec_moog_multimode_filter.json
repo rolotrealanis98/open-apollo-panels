@@ -1,0 +1,1114 @@
+{
+ "schema": 2,
+ "effectName": "UAD Moog Multimode Filter",
+ "namePattern": "Moog Multimode Filter",
+ "size": {
+  "w": 720,
+  "h": 270
+ },
+ "background": "moog_multimode_filter_6000",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Drive",
+   "steps": null,
+   "default": 0.3555908203125
+  },
+  {
+   "index": 1,
+   "name": "Env Speed",
+   "steps": [
+    "Smooth",
+    "Fast"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Envelope",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "Cutoff",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 4,
+   "name": "Resonance",
+   "steps": null,
+   "default": 0.3170166015625
+  },
+  {
+   "index": 5,
+   "name": "Slope",
+   "steps": [
+    "2-Pole",
+    "4-Pole"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 6,
+   "name": "Tracking",
+   "steps": [
+    "Step",
+    "Track"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 7,
+   "name": "Mode",
+   "steps": [
+    "LowPass",
+    "BandPass",
+    "HighPass"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "Spacing",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 9,
+   "name": "LFO Amount",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 10,
+   "name": "LFO Rate",
+   "steps": null,
+   "default": 0.20654296875
+  },
+  {
+   "index": 11,
+   "name": "Sync",
+   "steps": [
+    "FREE",
+    "SYNC"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "LFO Wave",
+   "steps": [
+    " Sin ",
+    " Tri ",
+    " SawU ",
+    " SawD ",
+    " Square ",
+    " Rand "
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "LFO Offset",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 14,
+   "name": "LFO Reset",
+   "steps": [
+    "SET",
+    "RESET"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 15,
+   "name": "Mix",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 16,
+   "name": "Mono",
+   "steps": [
+    "Mono",
+    "Stereo"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 17,
+   "name": "Output",
+   "steps": null,
+   "default": 0.738677978515625
+  },
+  {
+   "index": 18,
+   "name": "Bypass",
+   "steps": [
+    "Bypass",
+    "Effect"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 19,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 20,
+   "name": "Boost",
+   "steps": [
+    "0 dB",
+    "+20 dB"
+   ],
+   "default": 0.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "P-panel-power-off",
+   "kind": "image",
+   "x": 0,
+   "y": 0,
+   "w": 720,
+   "h": 270,
+   "sprite": "P_moog_multimode_filter_panel_off",
+   "visibility": {
+    "params": [
+     19
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "filmstrip-1-internal24",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter0"
+   },
+   "x": 372,
+   "y": 185,
+   "w": 15,
+   "h": 15,
+   "sprite": "moog_multimode_filter_6006",
+   "frames": 30
+  },
+  {
+   "id": "zone-2-lfo_reset",
+   "kind": "zone",
+   "x": 372,
+   "y": 185,
+   "w": 15,
+   "h": 15,
+   "param": 14,
+   "action": {
+    "type": "toggle",
+    "param": 14
+   }
+  },
+  {
+   "id": "knob-3-drive",
+   "x": 47,
+   "y": 48,
+   "w": 71,
+   "h": 71,
+   "sprite": "moog_multimode_filter_6002",
+   "frames": 61,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "knob-4-mix",
+   "x": 602,
+   "y": 48,
+   "w": 71,
+   "h": 71,
+   "sprite": "moog_multimode_filter_6002",
+   "frames": 61,
+   "kind": "knob",
+   "param": 15
+  },
+  {
+   "id": "knob-5-cutoff",
+   "x": 122,
+   "y": 48,
+   "w": 71,
+   "h": 71,
+   "sprite": "moog_multimode_filter_6002",
+   "frames": 61,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "knob-6-resonance",
+   "x": 199,
+   "y": 48,
+   "w": 71,
+   "h": 71,
+   "sprite": "moog_multimode_filter_6002",
+   "frames": 61,
+   "kind": "knob",
+   "param": 4
+  },
+  {
+   "id": "knob-7-mode",
+   "x": 122,
+   "y": 182,
+   "w": 71,
+   "h": 71,
+   "sprite": "moog_multimode_filter_6003",
+   "frames": 3,
+   "kind": "knob",
+   "param": 7
+  },
+  {
+   "id": "knob-8-spacing",
+   "x": 199,
+   "y": 182,
+   "w": 71,
+   "h": 71,
+   "sprite": "moog_multimode_filter_6002",
+   "frames": 61,
+   "kind": "knob",
+   "param": 8
+  },
+  {
+   "id": "knob-9-envelope",
+   "x": 47,
+   "y": 182,
+   "w": 71,
+   "h": 71,
+   "sprite": "moog_multimode_filter_6002",
+   "frames": 61,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "knob-10-lfo_amount",
+   "x": 450,
+   "y": 48,
+   "w": 71,
+   "h": 71,
+   "sprite": "moog_multimode_filter_6002",
+   "frames": 61,
+   "kind": "knob",
+   "param": 9
+  },
+  {
+   "id": "knob-11-lfo_rate",
+   "x": 527,
+   "y": 48,
+   "w": 71,
+   "h": 71,
+   "sprite": "moog_multimode_filter_6002",
+   "frames": 61,
+   "kind": "knob",
+   "param": 10
+  },
+  {
+   "id": "knob-12-lfo_wave",
+   "x": 527,
+   "y": 182,
+   "w": 71,
+   "h": 71,
+   "sprite": "moog_multimode_filter_6004",
+   "frames": 6,
+   "kind": "knob",
+   "param": 12
+  },
+  {
+   "id": "knob-13-lfo_offset",
+   "x": 450,
+   "y": 182,
+   "w": 71,
+   "h": 71,
+   "sprite": "moog_multimode_filter_6002",
+   "frames": 61,
+   "kind": "knob",
+   "param": 13
+  },
+  {
+   "id": "knob-14-output",
+   "x": 602,
+   "y": 182,
+   "w": 71,
+   "h": 71,
+   "sprite": "moog_multimode_filter_6002",
+   "frames": 61,
+   "kind": "knob",
+   "param": 17
+  },
+  {
+   "id": "switch-15-env_speed",
+   "x": 59,
+   "y": 141,
+   "w": 49,
+   "h": 27,
+   "sprite": "moog_multimode_filter_6007",
+   "frames": 2,
+   "kind": "switch",
+   "param": 1,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-16-slope",
+   "x": 134,
+   "y": 141,
+   "w": 49,
+   "h": 27,
+   "sprite": "moog_multimode_filter_6007",
+   "frames": 2,
+   "kind": "switch",
+   "param": 5,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-17-tracking",
+   "x": 211,
+   "y": 141,
+   "w": 49,
+   "h": 27,
+   "sprite": "moog_multimode_filter_6007",
+   "frames": 2,
+   "kind": "switch",
+   "param": 6,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-18-bypass",
+   "x": 375,
+   "y": 141,
+   "w": 49,
+   "h": 27,
+   "sprite": "moog_multimode_filter_6008",
+   "frames": 2,
+   "kind": "switch",
+   "param": 18,
+   "orientation": "vertical",
+   "reverse": true
+  },
+  {
+   "id": "switch-19-power",
+   "x": 337,
+   "y": 230,
+   "w": 49,
+   "h": 27,
+   "sprite": "moog_multimode_filter_6009",
+   "frames": 2,
+   "kind": "switch",
+   "param": 19,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-20-internal22",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter1"
+   },
+   "x": 294,
+   "y": 185,
+   "w": 15,
+   "h": 15,
+   "sprite": "moog_multimode_filter_6005",
+   "frames": 4
+  },
+  {
+   "id": "filmstrip-21-internal23",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter2"
+   },
+   "x": 333,
+   "y": 185,
+   "w": 15,
+   "h": 15,
+   "sprite": "moog_multimode_filter_6006",
+   "frames": 30
+  },
+  {
+   "id": "filmstrip-22-internal25",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter3"
+   },
+   "x": 411,
+   "y": 185,
+   "w": 15,
+   "h": 15,
+   "sprite": "moog_multimode_filter_6005",
+   "frames": 4
+  },
+  {
+   "id": "switch-23-mono",
+   "x": 614,
+   "y": 141,
+   "w": 49,
+   "h": 27,
+   "sprite": "moog_multimode_filter_6007",
+   "frames": 2,
+   "kind": "switch",
+   "param": 16,
+   "orientation": "vertical"
+  },
+  {
+   "id": "image-24-internal26",
+   "kind": "zone",
+   "x": 56,
+   "y": 169,
+   "w": 52,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "image-25-internal27",
+   "kind": "zone",
+   "x": 211,
+   "y": 169,
+   "w": 47,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "image-26-internal28",
+   "kind": "zone",
+   "x": 466,
+   "y": 169,
+   "w": 38,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 13,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "switch-27-boost",
+   "x": 298,
+   "y": 141,
+   "w": 49,
+   "h": 27,
+   "sprite": "moog_multimode_filter_6008",
+   "frames": 2,
+   "kind": "switch",
+   "param": 20,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-28-sync",
+   "x": 462,
+   "y": 141,
+   "w": 49,
+   "h": 27,
+   "sprite": "moog_multimode_filter_6007",
+   "frames": 2,
+   "kind": "switch",
+   "param": 11,
+   "orientation": "vertical"
+  },
+  {
+   "id": "P-lfo-rate-value",
+   "kind": "text",
+   "x": 545,
+   "y": 146,
+   "w": 30,
+   "h": 11,
+   "param": 10,
+   "text": {
+    "spriteFont": {
+     "sprite": "P_moog_multimode_filter_segfont",
+     "frames": 16,
+     "charset": "0123456789/+-TD.",
+     "cell": [
+      6,
+      11
+     ],
+     "align": "right"
+    }
+   },
+   "visibility": {
+    "params": [
+     19,
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-lfo-rate-sync",
+   "kind": "filmstrip",
+   "x": 542,
+   "y": 144,
+   "w": 43,
+   "h": 14,
+   "sprite": "P_moog_multimode_filter_sync",
+   "frames": 33,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     10
+    ],
+    "table": [
+     {
+      "key": [
+       1e-06
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.015655
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.015657
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.046905
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.046907
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.078155
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.078157
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.109405
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.109407
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.140655
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.140657
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.171905
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.171907
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.203155
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.203157
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.234405
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.234407
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.265655
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.265657
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       0.296905
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       0.296907
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.328155
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.328157
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       0.359405
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       0.359407
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       0.390655
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       0.390657
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.421905
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.421907
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.453155
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.453157
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       0.484405
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       0.484407
+      ],
+      "frame": 17
+     },
+     {
+      "key": [
+       0.515655
+      ],
+      "frame": 17
+     },
+     {
+      "key": [
+       0.515657
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.546905
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.546907
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       0.578155
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       0.578157
+      ],
+      "frame": 20
+     },
+     {
+      "key": [
+       0.609405
+      ],
+      "frame": 20
+     },
+     {
+      "key": [
+       0.609407
+      ],
+      "frame": 21
+     },
+     {
+      "key": [
+       0.640655
+      ],
+      "frame": 21
+     },
+     {
+      "key": [
+       0.640657
+      ],
+      "frame": 22
+     },
+     {
+      "key": [
+       0.671905
+      ],
+      "frame": 22
+     },
+     {
+      "key": [
+       0.671907
+      ],
+      "frame": 23
+     },
+     {
+      "key": [
+       0.703155
+      ],
+      "frame": 23
+     },
+     {
+      "key": [
+       0.703157
+      ],
+      "frame": 24
+     },
+     {
+      "key": [
+       0.734405
+      ],
+      "frame": 24
+     },
+     {
+      "key": [
+       0.734407
+      ],
+      "frame": 25
+     },
+     {
+      "key": [
+       0.765655
+      ],
+      "frame": 25
+     },
+     {
+      "key": [
+       0.765657
+      ],
+      "frame": 26
+     },
+     {
+      "key": [
+       0.796905
+      ],
+      "frame": 26
+     },
+     {
+      "key": [
+       0.796907
+      ],
+      "frame": 27
+     },
+     {
+      "key": [
+       0.828155
+      ],
+      "frame": 27
+     },
+     {
+      "key": [
+       0.828157
+      ],
+      "frame": 28
+     },
+     {
+      "key": [
+       0.859405
+      ],
+      "frame": 28
+     },
+     {
+      "key": [
+       0.859407
+      ],
+      "frame": 29
+     },
+     {
+      "key": [
+       0.890655
+      ],
+      "frame": 29
+     },
+     {
+      "key": [
+       0.890657
+      ],
+      "frame": 30
+     },
+     {
+      "key": [
+       0.921905
+      ],
+      "frame": 30
+     },
+     {
+      "key": [
+       0.921907
+      ],
+      "frame": 31
+     },
+     {
+      "key": [
+       0.953155
+      ],
+      "frame": 31
+     },
+     {
+      "key": [
+       0.953157
+      ],
+      "frame": 32
+     },
+     {
+      "key": [
+       0.984405
+      ],
+      "frame": 32
+     },
+     {
+      "key": [
+       0.984407
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.999999
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     19,
+     11
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  }
+ ],
+ "meterSources": {
+  "meter1": {
+   "vendorSpecificFloat": 90,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.001,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ]
+  },
+  "meter3": {
+   "vendorSpecificFloat": 91,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.001,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ]
+  },
+  "meter0": {
+   "vendorSpecificFloat": 92,
+   "calibration": [
+    [
+     -1.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.6
+  },
+  "meter2": {
+   "vendorSpecificFloat": 90,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  }
+ }
+}

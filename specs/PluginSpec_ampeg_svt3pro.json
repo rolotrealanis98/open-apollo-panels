@@ -1,0 +1,1865 @@
+{
+ "schema": 2,
+ "effectName": "UAD Ampeg SVT3Pro",
+ "namePattern": "Ampeg SVT3Pro",
+ "size": {
+  "w": 1024,
+  "h": 219
+ },
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Bypass",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Preset",
+   "steps": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Input",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "InpAtt",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Mute",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "PwrSk",
+   "steps": null,
+   "default": 0.8999999761581421
+  },
+  {
+   "index": 6,
+   "name": "Horn",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 7,
+   "name": "RecChain",
+   "steps": null,
+   "default": 0.7307692170143127
+  },
+  {
+   "index": 8,
+   "name": "NgByPass",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 9,
+   "name": "NgThres",
+   "steps": null,
+   "default": 0.2666666805744171
+  },
+  {
+   "index": 10,
+   "name": "NgRange",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 11,
+   "name": "Bright",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "Gain",
+   "steps": null,
+   "default": 0.3400000035762787
+  },
+  {
+   "index": 13,
+   "name": "High",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 14,
+   "name": "Low",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 15,
+   "name": "Bass",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 16,
+   "name": "Mid",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 17,
+   "name": "MidFreq",
+   "steps": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 18,
+   "name": "Treble",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 19,
+   "name": "TubeGain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 20,
+   "name": "Master",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 21,
+   "name": "EQPower",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 22,
+   "name": "EqB1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 23,
+   "name": "EqB2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 24,
+   "name": "EqB3",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 25,
+   "name": "EqB4",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 26,
+   "name": "EqB5",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 27,
+   "name": "EqB6",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 28,
+   "name": "EqB7",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 29,
+   "name": "EqB8",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 30,
+   "name": "EqB9",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 31,
+   "name": "EqLevel",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 32,
+   "name": "Tight",
+   "steps": [
+    "Off",
+    "Pre",
+    "Post"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 33,
+   "name": "TFreq",
+   "steps": null,
+   "default": 0.1109243780374527
+  },
+  {
+   "index": 34,
+   "name": "Smooth",
+   "steps": [
+    "Off",
+    "Pre",
+    "Post"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 35,
+   "name": "SFreq",
+   "steps": null,
+   "default": 0.7920714020729065
+  }
+ ],
+ "elements": [
+  {
+   "id": "chrome-panel",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 1024,
+   "h": 195,
+   "sprite": "ampeg_svt3pro__BACKGROUND"
+  },
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 1024,
+   "h": 24,
+   "toolbar": {
+    "family": "brainworx",
+    "items": [
+     {
+      "type": "switch",
+      "x": 0.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.power",
+      "frames": 2,
+      "param": 0,
+      "glyph": "power",
+      "invert": true
+     },
+     {
+      "type": "icon",
+      "x": 338.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.undo",
+      "frames": 2,
+      "glyph": "undo"
+     },
+     {
+      "type": "icon",
+      "x": 362.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.redo",
+      "frames": 2,
+      "glyph": "redo"
+     },
+     {
+      "type": "bank",
+      "x": 410.0,
+      "y": 0,
+      "w": 96.0,
+      "h": 24,
+      "sprite": "chrome.bx.bank",
+      "frames": 2,
+      "param": 1,
+      "cells": 4,
+      "glyph": "ABCD"
+     },
+     {
+      "type": "icon",
+      "x": 530.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.copy",
+      "frames": 2,
+      "glyph": "Copy"
+     },
+     {
+      "type": "icon",
+      "x": 582.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.paste",
+      "frames": 2,
+      "glyph": "Paste"
+     },
+     {
+      "type": "icon",
+      "x": 646.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.reset",
+      "frames": 2,
+      "glyph": "Reset"
+     },
+     {
+      "type": "icon",
+      "x": 969.0,
+      "y": 0,
+      "w": 55.0,
+      "h": 24,
+      "sprite": "chrome.bx.toolbaraboutbnt",
+      "frames": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "ampeg_svt3pro__LEDRED",
+   "frames": 2,
+   "x": 130.0,
+   "y": 161.0,
+   "w": 16.0,
+   "h": 16.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_20000001"
+   }
+  },
+  {
+   "id": "j-rack-open",
+   "kind": "zone",
+   "x": 85.0,
+   "y": 48.0,
+   "w": 852.0,
+   "h": 68.0,
+   "action": {
+    "type": "setState",
+    "state": "rack",
+    "value": 1
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gain-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__POTI",
+   "frames": 61,
+   "param": 12,
+   "x": 140.0,
+   "y": 121.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "bass-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__POTI",
+   "frames": 61,
+   "param": 15,
+   "x": 226.0,
+   "y": 121.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "mid-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__POTI",
+   "frames": 61,
+   "param": 16,
+   "x": 285.0,
+   "y": 121.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "treble-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__POTI",
+   "frames": 61,
+   "param": 18,
+   "x": 402.0,
+   "y": 121.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "master-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__POTI",
+   "frames": 61,
+   "param": 20,
+   "x": 460.0,
+   "y": 121.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "tubegain-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__POTI",
+   "frames": 61,
+   "param": 19,
+   "x": 519.0,
+   "y": 121.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "midfreq-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__POTI5STEP",
+   "frames": 5,
+   "param": 17,
+   "x": 343.0,
+   "y": 121.0,
+   "w": 60.0,
+   "h": 60.0
+  },
+  {
+   "id": "ckickbutton-kick",
+   "kind": "button",
+   "sprite": "ampeg_svt3pro__BUTTONRECT",
+   "frames": 2,
+   "action": {
+    "type": "toggle",
+    "param": 11
+   },
+   "x": 101.0,
+   "y": 129.0,
+   "w": 24.0,
+   "h": 18.0
+  },
+  {
+   "id": "ckickbutton-kick-1",
+   "kind": "button",
+   "sprite": "ampeg_svt3pro__BUTTONRECT",
+   "frames": 2,
+   "action": {
+    "type": "toggle",
+    "param": 3
+   },
+   "x": 101.0,
+   "y": 156.0,
+   "w": 24.0,
+   "h": 18.0
+  },
+  {
+   "id": "ckickbutton-kick-2",
+   "kind": "button",
+   "sprite": "ampeg_svt3pro__BUTTONRECT",
+   "frames": 2,
+   "action": {
+    "type": "toggle",
+    "param": 13
+   },
+   "x": 200.0,
+   "y": 129.0,
+   "w": 24.0,
+   "h": 18.0
+  },
+  {
+   "id": "ckickbutton-kick-3",
+   "kind": "button",
+   "sprite": "ampeg_svt3pro__BUTTONRECT",
+   "frames": 2,
+   "action": {
+    "type": "toggle",
+    "param": 14
+   },
+   "x": 200.0,
+   "y": 156.0,
+   "w": 24.0,
+   "h": 18.0
+  },
+  {
+   "id": "ckickbutton-kick-4",
+   "kind": "button",
+   "sprite": "ampeg_svt3pro__BUTTONRECT",
+   "frames": 2,
+   "action": {
+    "type": "toggle",
+    "param": 4
+   },
+   "x": 585.0,
+   "y": 129.0,
+   "w": 24.0,
+   "h": 18.0
+  },
+  {
+   "id": "ckickbutton-kick-5",
+   "kind": "button",
+   "sprite": "ampeg_svt3pro__BUTTONRECT",
+   "frames": 2,
+   "action": {
+    "type": "toggle",
+    "param": 21
+   },
+   "x": 585.0,
+   "y": 156.0,
+   "w": 24.0,
+   "h": 18.0
+  },
+  {
+   "id": "bypass-led",
+   "kind": "filmstrip",
+   "sprite": "ampeg_svt3pro__POWERLED",
+   "frames": 2,
+   "x": 892.0,
+   "y": 107.0,
+   "w": 16.0,
+   "h": 16.0,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
+  },
+  {
+   "id": "bypass-switch",
+   "kind": "switch",
+   "sprite": "ampeg_svt3pro__POWERSWITCH",
+   "frames": 2,
+   "param": 0,
+   "orientation": "vertical",
+   "x": 891.0,
+   "y": 123.0,
+   "w": 36.0,
+   "h": 45.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "eqb1-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__SLIDER",
+   "frames": 65,
+   "param": 22,
+   "x": 639.0,
+   "y": 112.0,
+   "w": 6.0,
+   "h": 64.0
+  },
+  {
+   "id": "eqb2-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__SLIDER",
+   "frames": 65,
+   "param": 23,
+   "x": 662.0,
+   "y": 112.0,
+   "w": 6.0,
+   "h": 64.0
+  },
+  {
+   "id": "eqb3-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__SLIDER",
+   "frames": 65,
+   "param": 24,
+   "x": 685.0,
+   "y": 112.0,
+   "w": 6.0,
+   "h": 64.0
+  },
+  {
+   "id": "eqb4-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__SLIDER",
+   "frames": 65,
+   "param": 25,
+   "x": 708.0,
+   "y": 112.0,
+   "w": 6.0,
+   "h": 64.0
+  },
+  {
+   "id": "eqb5-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__SLIDER",
+   "frames": 65,
+   "param": 26,
+   "x": 731.0,
+   "y": 112.0,
+   "w": 6.0,
+   "h": 64.0
+  },
+  {
+   "id": "eqb6-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__SLIDER",
+   "frames": 65,
+   "param": 27,
+   "x": 755.0,
+   "y": 112.0,
+   "w": 6.0,
+   "h": 64.0
+  },
+  {
+   "id": "eqb7-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__SLIDER",
+   "frames": 65,
+   "param": 28,
+   "x": 777.0,
+   "y": 112.0,
+   "w": 6.0,
+   "h": 64.0
+  },
+  {
+   "id": "eqb8-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__SLIDER",
+   "frames": 65,
+   "param": 29,
+   "x": 802.0,
+   "y": 112.0,
+   "w": 6.0,
+   "h": 64.0
+  },
+  {
+   "id": "eqb9-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__SLIDER",
+   "frames": 65,
+   "param": 30,
+   "x": 825.0,
+   "y": 112.0,
+   "w": 6.0,
+   "h": 64.0
+  },
+  {
+   "id": "eqlevel-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__SLIDER",
+   "frames": 65,
+   "param": 31,
+   "x": 849.0,
+   "y": 112.0,
+   "w": 6.0,
+   "h": 64.0
+  },
+  {
+   "id": "img-cviewcontainer",
+   "kind": "image",
+   "sprite": "ampeg_svt3pro__HEADRACK",
+   "x": 0.0,
+   "y": 24.0,
+   "w": 1024.0,
+   "h": 83.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-rack-close",
+   "kind": "zone",
+   "x": 0.0,
+   "y": 24.0,
+   "w": 1024.0,
+   "h": 83.0,
+   "action": {
+    "type": "setState",
+    "state": "rack",
+    "value": 0
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ngthres-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__POTI",
+   "frames": 61,
+   "param": 9,
+   "x": 155.0,
+   "y": 43.0,
+   "w": 60.0,
+   "h": 60.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ngthres-text",
+   "kind": "text",
+   "param": 9,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 159.0,
+   "y": 90.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ngrange-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__POTI",
+   "frames": 61,
+   "param": 10,
+   "x": 213.0,
+   "y": 43.0,
+   "w": 60.0,
+   "h": 60.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ngrange-text",
+   "kind": "text",
+   "param": 10,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 217.0,
+   "y": 90.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "tfreq-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__POTI",
+   "frames": 61,
+   "param": 33,
+   "x": 321.0,
+   "y": 43.0,
+   "w": 60.0,
+   "h": 60.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "tfreq-text",
+   "kind": "text",
+   "param": 33,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 325.0,
+   "y": 90.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sfreq-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__POTI",
+   "frames": 61,
+   "param": 35,
+   "x": 396.0,
+   "y": 43.0,
+   "w": 60.0,
+   "h": 60.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sfreq-text",
+   "kind": "text",
+   "param": 35,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 400.0,
+   "y": 90.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "input-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__POTI",
+   "frames": 61,
+   "param": 2,
+   "x": 509.0,
+   "y": 43.0,
+   "w": 60.0,
+   "h": 60.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "input-text",
+   "kind": "text",
+   "param": 2,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 513.0,
+   "y": 90.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pwrsk-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svt3pro__POTI",
+   "frames": 61,
+   "param": 5,
+   "x": 575.0,
+   "y": 43.0,
+   "w": 60.0,
+   "h": 60.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pwrsk-text",
+   "kind": "text",
+   "param": 5,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 579.0,
+   "y": 90.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ckickbutton-kick-6",
+   "kind": "button",
+   "sprite": "ampeg_svt3pro__BUTTON",
+   "frames": 2,
+   "action": {
+    "type": "table",
+    "param": 7,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.038462,
+      "value": 0.0
+     },
+     {
+      "current": 0.076923,
+      "value": 0.038462
+     },
+     {
+      "current": 0.115385,
+      "value": 0.076923
+     },
+     {
+      "current": 0.153846,
+      "value": 0.115385
+     },
+     {
+      "current": 0.192308,
+      "value": 0.153846
+     },
+     {
+      "current": 0.230769,
+      "value": 0.192308
+     },
+     {
+      "current": 0.269231,
+      "value": 0.230769
+     },
+     {
+      "current": 0.307692,
+      "value": 0.269231
+     },
+     {
+      "current": 0.346154,
+      "value": 0.307692
+     },
+     {
+      "current": 0.384615,
+      "value": 0.346154
+     },
+     {
+      "current": 0.423077,
+      "value": 0.384615
+     },
+     {
+      "current": 0.461538,
+      "value": 0.423077
+     },
+     {
+      "current": 0.5,
+      "value": 0.461538
+     },
+     {
+      "current": 0.538462,
+      "value": 0.5
+     },
+     {
+      "current": 0.576923,
+      "value": 0.538462
+     },
+     {
+      "current": 0.615385,
+      "value": 0.576923
+     },
+     {
+      "current": 0.653846,
+      "value": 0.615385
+     },
+     {
+      "current": 0.692308,
+      "value": 0.653846
+     },
+     {
+      "current": 0.730769,
+      "value": 0.692308
+     },
+     {
+      "current": 0.769231,
+      "value": 0.730769
+     },
+     {
+      "current": 0.807692,
+      "value": 0.769231
+     },
+     {
+      "current": 0.846154,
+      "value": 0.807692
+     },
+     {
+      "current": 0.884615,
+      "value": 0.846154
+     },
+     {
+      "current": 0.923077,
+      "value": 0.884615
+     },
+     {
+      "current": 0.961538,
+      "value": 0.923077
+     },
+     {
+      "current": 1.0,
+      "value": 0.961538
+     }
+    ]
+   },
+   "x": 670.0,
+   "y": 74.0,
+   "w": 25.0,
+   "h": 25.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ckickbutton-kick-7",
+   "kind": "button",
+   "sprite": "ampeg_svt3pro__BUTTON",
+   "frames": 2,
+   "action": {
+    "type": "table",
+    "param": 7,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.038462
+     },
+     {
+      "current": 0.038462,
+      "value": 0.076923
+     },
+     {
+      "current": 0.076923,
+      "value": 0.115385
+     },
+     {
+      "current": 0.115385,
+      "value": 0.153846
+     },
+     {
+      "current": 0.153846,
+      "value": 0.192308
+     },
+     {
+      "current": 0.192308,
+      "value": 0.230769
+     },
+     {
+      "current": 0.230769,
+      "value": 0.269231
+     },
+     {
+      "current": 0.269231,
+      "value": 0.307692
+     },
+     {
+      "current": 0.307692,
+      "value": 0.346154
+     },
+     {
+      "current": 0.346154,
+      "value": 0.384615
+     },
+     {
+      "current": 0.384615,
+      "value": 0.423077
+     },
+     {
+      "current": 0.423077,
+      "value": 0.461538
+     },
+     {
+      "current": 0.461538,
+      "value": 0.5
+     },
+     {
+      "current": 0.5,
+      "value": 0.538462
+     },
+     {
+      "current": 0.538462,
+      "value": 0.576923
+     },
+     {
+      "current": 0.576923,
+      "value": 0.615385
+     },
+     {
+      "current": 0.615385,
+      "value": 0.653846
+     },
+     {
+      "current": 0.653846,
+      "value": 0.692308
+     },
+     {
+      "current": 0.692308,
+      "value": 0.730769
+     },
+     {
+      "current": 0.730769,
+      "value": 0.769231
+     },
+     {
+      "current": 0.769231,
+      "value": 0.807692
+     },
+     {
+      "current": 0.807692,
+      "value": 0.846154
+     },
+     {
+      "current": 0.846154,
+      "value": 0.884615
+     },
+     {
+      "current": 0.884615,
+      "value": 0.923077
+     },
+     {
+      "current": 0.923077,
+      "value": 0.961538
+     },
+     {
+      "current": 0.961538,
+      "value": 1.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.0
+     }
+    ]
+   },
+   "x": 690.0,
+   "y": 74.0,
+   "w": 25.0,
+   "h": 25.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "recchain-text",
+   "kind": "text",
+   "param": 7,
+   "text": {
+    "size": 10,
+    "color": "#D6E9F5",
+    "align": "left",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 678.0,
+   "y": 59.0,
+   "w": 242.0,
+   "h": 11.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "tight-switch",
+   "kind": "switch",
+   "sprite": "ampeg_svt3pro__SWITCH3POS",
+   "frames": 3,
+   "param": 32,
+   "orientation": "vertical",
+   "x": 287.0,
+   "y": 60.0,
+   "w": 30.0,
+   "h": 30.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "smooth-switch",
+   "kind": "switch",
+   "sprite": "ampeg_svt3pro__SWITCH3POS",
+   "frames": 3,
+   "param": 34,
+   "orientation": "vertical",
+   "x": 454.0,
+   "y": 60.0,
+   "w": 30.0,
+   "h": 30.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ngbypass-switch",
+   "kind": "switch",
+   "sprite": "ampeg_svt3pro__SWITCH",
+   "frames": 2,
+   "param": 8,
+   "orientation": "vertical",
+   "x": 123.0,
+   "y": 60.0,
+   "w": 30.0,
+   "h": 30.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "horn-switch",
+   "kind": "switch",
+   "sprite": "ampeg_svt3pro__SWITCH",
+   "frames": 2,
+   "param": 6,
+   "orientation": "vertical",
+   "x": 634.0,
+   "y": 60.0,
+   "w": 30.0,
+   "h": 30.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-1",
+   "kind": "filmstrip",
+   "sprite": "ampeg_svt3pro__LEDRED",
+   "frames": 2,
+   "x": 102.0,
+   "y": 63.0,
+   "w": 16.0,
+   "h": 16.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_20000000"
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-p3_r0",
+   "kind": "switch",
+   "x": 86,
+   "y": 169,
+   "w": 18.0,
+   "h": 18.0,
+   "sprite": "G_ampeg_svt3pro_p3_r0",
+   "frames": 2,
+   "param": 3
+  },
+  {
+   "id": "g-p4_r0",
+   "kind": "switch",
+   "x": 570,
+   "y": 113,
+   "w": 18.0,
+   "h": 18.0,
+   "sprite": "G_ampeg_svt3pro_p4_r0",
+   "frames": 2,
+   "param": 4
+  },
+  {
+   "id": "g-p11_r0",
+   "kind": "switch",
+   "x": 86,
+   "y": 113,
+   "w": 18.0,
+   "h": 18.0,
+   "sprite": "G_ampeg_svt3pro_p11_r0",
+   "frames": 2,
+   "param": 11
+  },
+  {
+   "id": "g-p13_r0",
+   "kind": "switch",
+   "x": 187,
+   "y": 113,
+   "w": 18.0,
+   "h": 18.0,
+   "sprite": "G_ampeg_svt3pro_p13_r0",
+   "frames": 2,
+   "param": 13
+  },
+  {
+   "id": "g-p14_r0",
+   "kind": "switch",
+   "x": 188,
+   "y": 169,
+   "w": 17.0,
+   "h": 17.0,
+   "sprite": "G_ampeg_svt3pro_p14_r0",
+   "frames": 2,
+   "param": 14
+  },
+  {
+   "id": "g-p21_r0",
+   "kind": "switch",
+   "x": 570,
+   "y": 169,
+   "w": 17.0,
+   "h": 18.0,
+   "sprite": "G_ampeg_svt3pro_p21_r0",
+   "frames": 2,
+   "param": 21
+  },
+  {
+   "id": "j-tb-rack",
+   "kind": "filmstrip",
+   "frames": 2,
+   "sprite": "J_ampeg_svt3pro_tb_rack",
+   "x": 710.0,
+   "y": 0,
+   "w": 55.0,
+   "h": 24,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-tb-rack-zone",
+   "kind": "zone",
+   "x": 710.0,
+   "y": 0,
+   "w": 55.0,
+   "h": 24,
+   "action": {
+    "type": "cycleState",
+    "state": "rack",
+    "count": 2
+   }
+  }
+ ],
+ "meterSources": {
+  "led_20000000": {
+   "vendorSpecificFloat": 83886084,
+   "opcode": {
+    "op": 519,
+    "p0": 83886084,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     1.0
+    ],
+    [
+     1e-05,
+     1.0
+    ],
+    [
+     3e-05,
+     0.0
+    ],
+    [
+     100,
+     0.0
+    ]
+   ]
+  },
+  "led_20000001": {
+   "vendorSpecificFloat": 83886118,
+   "opcode": {
+    "op": 519,
+    "p0": 83886118,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     1.0
+    ],
+    [
+     -0.5,
+     1.0
+    ],
+    [
+     0,
+     0.0
+    ],
+    [
+     1e-06,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  }
+ },
+ "states": {
+  "rack": 0
+ }
+}

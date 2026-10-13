@@ -1,0 +1,1192 @@
+{
+ "schema": 2,
+ "effectName": "UAD Manley Variable Mu",
+ "namePattern": "Manley Variable Mu",
+ "size": {
+  "w": 950,
+  "h": 172
+ },
+ "background": "VariMu_background",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Dual Input",
+   "steps": null,
+   "default": 0.5999755859375
+  },
+  {
+   "index": 1,
+   "name": "L Thresh",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 2,
+   "name": "L Attack",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "L Recovery",
+   "steps": [
+    "Slo",
+    "Med Slo",
+    "Med",
+    "Med Fast",
+    "Fast"
+   ],
+   "default": 0.75
+  },
+  {
+   "index": 4,
+   "name": "L Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "L Comp/Lim",
+   "steps": [
+    "Comp",
+    "Limit"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "L HP SC Filt",
+   "steps": [
+    "Flat",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "L Bypass",
+   "steps": [
+    "Bypass",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 8,
+   "name": "R Thresh",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 9,
+   "name": "R Attack",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "R Recovery",
+   "steps": [
+    "Slo",
+    "Med Slo",
+    "Med",
+    "Med Fast",
+    "Fast"
+   ],
+   "default": 0.75
+  },
+  {
+   "index": 11,
+   "name": "R Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 12,
+   "name": "R Comp/Lim",
+   "steps": [
+    "Comp",
+    "Limit"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "R HP SC Filt",
+   "steps": [
+    "Flat",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 14,
+   "name": "R Bypass",
+   "steps": [
+    "Bypass",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 15,
+   "name": "In Matrix",
+   "steps": [
+    "M-S",
+    "L-R"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 16,
+   "name": "Out Matrix",
+   "steps": [
+    "M-S",
+    "L-R"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 17,
+   "name": "SC Link",
+   "steps": [
+    "Unlink",
+    "Link"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 18,
+   "name": "Ctrl Link",
+   "steps": [
+    "Unlink",
+    "Link"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 19,
+   "name": "Mix",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 20,
+   "name": "Headroom",
+   "steps": [
+    " 4 dB",
+    " 8 dB",
+    "12 dB",
+    "14 dB",
+    "16 dB",
+    "18 dB",
+    "20 dB",
+    "24 dB",
+    "28 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 21,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "vu_meter_l": {
+   "vendorSpecificFloat": 37,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.001,
+     0.0135
+    ],
+    [
+     0.001259,
+     0.017
+    ],
+    [
+     0.001585,
+     0.0214
+    ],
+    [
+     0.001995,
+     0.0269
+    ],
+    [
+     0.002512,
+     0.0339
+    ],
+    [
+     0.003162,
+     0.0427
+    ],
+    [
+     0.003981,
+     0.0538
+    ],
+    [
+     0.005012,
+     0.0677
+    ],
+    [
+     0.00631,
+     0.0852
+    ],
+    [
+     0.007943,
+     0.1073
+    ],
+    [
+     0.01,
+     0.135
+    ],
+    [
+     0.012589,
+     0.17
+    ],
+    [
+     0.015849,
+     0.214
+    ],
+    [
+     0.019953,
+     0.2694
+    ],
+    [
+     0.025119,
+     0.3392
+    ],
+    [
+     0.031623,
+     0.427
+    ],
+    [
+     0.039811,
+     0.5376
+    ],
+    [
+     0.050119,
+     0.6767
+    ],
+    [
+     0.063096,
+     0.852
+    ],
+    [
+     0.079433,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ]
+  },
+  "vu_meter_r": {
+   "vendorSpecificFloat": 38,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.001,
+     0.0135
+    ],
+    [
+     0.001259,
+     0.017
+    ],
+    [
+     0.001585,
+     0.0214
+    ],
+    [
+     0.001995,
+     0.0269
+    ],
+    [
+     0.002512,
+     0.0339
+    ],
+    [
+     0.003162,
+     0.0427
+    ],
+    [
+     0.003981,
+     0.0538
+    ],
+    [
+     0.005012,
+     0.0677
+    ],
+    [
+     0.00631,
+     0.0852
+    ],
+    [
+     0.007943,
+     0.1073
+    ],
+    [
+     0.01,
+     0.135
+    ],
+    [
+     0.012589,
+     0.17
+    ],
+    [
+     0.015849,
+     0.214
+    ],
+    [
+     0.019953,
+     0.2694
+    ],
+    [
+     0.025119,
+     0.3392
+    ],
+    [
+     0.031623,
+     0.427
+    ],
+    [
+     0.039811,
+     0.5376
+    ],
+    [
+     0.050119,
+     0.6767
+    ],
+    [
+     0.063096,
+     0.852
+    ],
+    [
+     0.079433,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ]
+  }
+ },
+ "elements": [
+  {
+   "id": "input_gain-knob",
+   "x": 448,
+   "y": 27,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 0,
+   "sprite": "VariMu_large_continuous_V5",
+   "frames": 101
+  },
+  {
+   "id": "output_gain-l-knob",
+   "x": 373,
+   "y": 27,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 4,
+   "sprite": "VariMu_large_continuous_V5",
+   "frames": 101
+  },
+  {
+   "id": "output_gain-r-knob",
+   "x": 523,
+   "y": 27,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 11,
+   "sprite": "VariMu_large_continuous_V5",
+   "frames": 101
+  },
+  {
+   "id": "thresh-l-knob",
+   "x": 297,
+   "y": 94,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 1,
+   "sprite": "VariMu_large_continuous_V5",
+   "frames": 101
+  },
+  {
+   "id": "thresh-r-knob",
+   "x": 598,
+   "y": 94,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 8,
+   "sprite": "VariMu_large_continuous_V5",
+   "frames": 101
+  },
+  {
+   "id": "attack-l-knob",
+   "x": 373,
+   "y": 94,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 2,
+   "sprite": "VariMu_large_continuous_V5",
+   "frames": 101
+  },
+  {
+   "id": "attack-r-knob",
+   "x": 523,
+   "y": 94,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 9,
+   "sprite": "VariMu_large_continuous_V5",
+   "frames": 101
+  },
+  {
+   "id": "recovery-l-knob",
+   "x": 284,
+   "y": 27,
+   "w": 80,
+   "h": 66,
+   "kind": "knob",
+   "param": 3,
+   "sprite": "VariMu_recover-switch_V5",
+   "frames": 5
+  },
+  {
+   "id": "recovery-r-knob",
+   "x": 585,
+   "y": 27,
+   "w": 80,
+   "h": 66,
+   "kind": "knob",
+   "param": 10,
+   "sprite": "VariMu_recover-switch_V5",
+   "frames": 5
+  },
+  {
+   "id": "mix-knob",
+   "x": 452,
+   "y": 109,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 19,
+   "sprite": "VariMu_small_continuous_V5",
+   "frames": 61
+  },
+  {
+   "id": "enable-l-switch",
+   "x": 105,
+   "y": 128,
+   "w": 21,
+   "h": 37,
+   "kind": "switch",
+   "param": 7,
+   "sprite": "VariMu_two-position-switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "enable-r-switch",
+   "x": 825,
+   "y": 128,
+   "w": 21,
+   "h": 37,
+   "kind": "switch",
+   "param": 14,
+   "sprite": "VariMu_two-position-switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "comp_lim-l-switch",
+   "x": 250,
+   "y": 87,
+   "w": 21,
+   "h": 37,
+   "kind": "switch",
+   "param": 5,
+   "sprite": "VariMu_two-position-switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "comp_lim-r-switch",
+   "x": 680,
+   "y": 87,
+   "w": 21,
+   "h": 37,
+   "kind": "switch",
+   "param": 12,
+   "sprite": "VariMu_two-position-switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "hp_sc_filt-l-switch",
+   "x": 152,
+   "y": 128,
+   "w": 21,
+   "h": 37,
+   "kind": "switch",
+   "param": 6,
+   "sprite": "VariMu_two-position-switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "hp_sc_filt-r-switch",
+   "x": 778,
+   "y": 128,
+   "w": 21,
+   "h": 37,
+   "kind": "switch",
+   "param": 13,
+   "sprite": "VariMu_two-position-switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "in-matrix-switch",
+   "x": 427,
+   "y": 78,
+   "w": 21,
+   "h": 37,
+   "kind": "switch",
+   "param": 15,
+   "sprite": "VariMu_two-position-switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "in-matrix-disabled-switch",
+   "x": 427.0,
+   "y": 78.0,
+   "w": 21.0,
+   "h": 37.0,
+   "opacity": 0,
+   "kind": "switch",
+   "param": null,
+   "sprite": "VariMu_two-position-switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "power-switch",
+   "x": 453,
+   "y": 84,
+   "w": 42,
+   "h": 22,
+   "kind": "switch",
+   "param": 21,
+   "sprite": "VariMu_power-switch",
+   "frames": 2,
+   "orientation": "horizontal"
+  },
+  {
+   "id": "out-matrix-switch",
+   "x": 502,
+   "y": 78,
+   "w": 21,
+   "h": 37,
+   "kind": "switch",
+   "param": 16,
+   "sprite": "VariMu_two-position-switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "out-matrix-disabled-switch",
+   "x": 502.0,
+   "y": 78.0,
+   "w": 21.0,
+   "h": 37.0,
+   "opacity": 0,
+   "kind": "switch",
+   "param": null,
+   "sprite": "VariMu_two-position-switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "sc_link-display-switch",
+   "x": 250,
+   "y": 128,
+   "w": 21,
+   "h": 37,
+   "kind": "filmstrip",
+   "sprite": "VariMu_two-position-switch",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     21,
+     17
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sc_link-hidden-switch",
+   "x": 250,
+   "y": 128,
+   "w": 21,
+   "h": 37,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 17,
+   "sprite": "VariMu_two-position-switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "control_link-switch",
+   "x": 680,
+   "y": 127,
+   "w": 21,
+   "h": 37,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 18,
+   "sprite": "VariMu_two-position-switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "control_link-disabled-switch",
+   "x": 680.0,
+   "y": 127.0,
+   "w": 21.0,
+   "h": 37.0,
+   "opacity": 0,
+   "kind": "filmstrip",
+   "sprite": "VariMu_two-position-switch",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hr-l-knob",
+   "x": 199,
+   "y": 136,
+   "w": 22,
+   "h": 22,
+   "kind": "knob",
+   "param": 20,
+   "sprite": "VariMu_trimpot_HEADROOM",
+   "frames": 9
+  },
+  {
+   "id": "hr-r-knob",
+   "x": 729,
+   "y": 136,
+   "w": 22,
+   "h": 22,
+   "kind": "knob",
+   "param": 20,
+   "sprite": "VariMu_trimpot_HEADROOM",
+   "frames": 9
+  },
+  {
+   "id": "vu_meter_glow-l",
+   "x": 87,
+   "y": 9,
+   "w": 147,
+   "h": 63,
+   "kind": "filmstrip",
+   "sprite": "VariMu_meter-background",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     18,
+     21
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "vu_meter_glow-r",
+   "x": 717,
+   "y": 9,
+   "w": 147,
+   "h": 63,
+   "kind": "filmstrip",
+   "sprite": "VariMu_meter-background",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     18,
+     21
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "vu_meter_reflex-l",
+   "x": 87.0,
+   "y": 9.0,
+   "w": 147.0,
+   "h": 63.0,
+   "kind": "filmstrip",
+   "sprite": "VariMu_meter-reflex-left",
+   "frames": 1,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     21,
+     17
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "vu_meter_reflex-r",
+   "x": 717.0,
+   "y": 9.0,
+   "w": 147.0,
+   "h": 63.0,
+   "kind": "filmstrip",
+   "sprite": "VariMu_meter-reflex-right",
+   "frames": 1,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     21,
+     17
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "vu_meter_needle-l",
+   "x": 97,
+   "y": 17,
+   "w": 125,
+   "h": 55,
+   "kind": "filmstrip",
+   "sprite": "VariMu_meter-needle",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu_meter_l",
+    "channel": 0
+   }
+  },
+  {
+   "id": "vu_meter_needle-r",
+   "x": 727,
+   "y": 17,
+   "w": 125,
+   "h": 55,
+   "kind": "filmstrip",
+   "sprite": "VariMu_meter-needle",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu_meter_r",
+    "channel": 0
+   }
+  },
+  {
+   "id": "hr1-rtd",
+   "x": 190,
+   "y": 158,
+   "w": 42,
+   "h": 8,
+   "kind": "zone",
+   "param": null,
+   "action": {
+    "type": "default",
+    "param": 20
+   }
+  },
+  {
+   "id": "hr2-rtd",
+   "x": 720,
+   "y": 158,
+   "w": 42,
+   "h": 8,
+   "kind": "zone",
+   "param": null,
+   "action": {
+    "type": "default",
+    "param": 20
+   }
+  },
+  {
+   "id": "mix-rtz",
+   "x": 456,
+   "y": 152,
+   "w": 15,
+   "h": 7,
+   "kind": "zone",
+   "param": 19,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "mix-rt50",
+   "x": 468,
+   "y": 106,
+   "w": 15,
+   "h": 7,
+   "kind": "zone",
+   "param": 19,
+   "action": {
+    "type": "set",
+    "param": 19,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "mix-rtd",
+   "x": 481,
+   "y": 152,
+   "w": 15,
+   "h": 7,
+   "kind": "zone",
+   "param": null,
+   "action": {
+    "type": "default",
+    "param": 19
+   }
+  },
+  {
+   "id": "recovery-l-slow-ctv",
+   "x": 283,
+   "y": 44,
+   "w": 18,
+   "h": 6,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "recovery-l-med-slow-ctv",
+   "x": 299,
+   "y": 35,
+   "w": 18,
+   "h": 6,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "recovery-l-med-ctv",
+   "x": 314,
+   "y": 27,
+   "w": 18,
+   "h": 6,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "recovery-l-med-fast-ctv",
+   "x": 334,
+   "y": 36,
+   "w": 18,
+   "h": 6,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "recovery-l-fast-ctv",
+   "x": 347,
+   "y": 44,
+   "w": 18,
+   "h": 6,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "recovery-r-slow-ctv",
+   "x": 583,
+   "y": 44,
+   "w": 18,
+   "h": 6,
+   "kind": "zone",
+   "param": 10,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "recovery-r-med-slow-ctv",
+   "x": 599,
+   "y": 35,
+   "w": 18,
+   "h": 6,
+   "kind": "zone",
+   "param": 10,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "recovery-r-med-ctv",
+   "x": 614,
+   "y": 27,
+   "w": 18,
+   "h": 6,
+   "kind": "zone",
+   "param": 10,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "recovery-r-med-fast-ctv",
+   "x": 634,
+   "y": 36,
+   "w": 18,
+   "h": 6,
+   "kind": "zone",
+   "param": 10,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "recovery-r-fast-ctv",
+   "x": 647,
+   "y": 44,
+   "w": 18,
+   "h": 6,
+   "kind": "zone",
+   "param": 10,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 1.0
+   }
+  }
+ ]
+}

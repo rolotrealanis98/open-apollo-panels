@@ -1,0 +1,1661 @@
+{
+ "schema": 2,
+ "effectName": "UAD Manley VOXBOX",
+ "namePattern": "Manley VOXBOX",
+ "size": {
+  "w": 950,
+  "h": 264
+ },
+ "background": "voxbox_background",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Source Select",
+   "steps": [
+    "Line",
+    "Mic"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Low Cut",
+   "steps": [
+    "Off",
+    "80 Hz",
+    "120 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Phase",
+   "steps": [
+    "0",
+    "180"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Input",
+   "steps": null,
+   "default": 0.30322265625
+  },
+  {
+   "index": 4,
+   "name": "Gain",
+   "steps": [
+    "40 dB",
+    "45 dB",
+    "50 dB",
+    "55 dB",
+    "60 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "SC Link",
+   "steps": [
+    "Sep",
+    "Link"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 6,
+   "name": "Comp Byp",
+   "steps": [
+    "Byp",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 7,
+   "name": "Comp Thresh",
+   "steps": null,
+   "default": 0.4957275390625
+  },
+  {
+   "index": 8,
+   "name": "Comp Attack",
+   "steps": [
+    "Fast",
+    "Med Fast",
+    "Medium",
+    "Med Slow",
+    "Slow"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 9,
+   "name": "Comp Rel",
+   "steps": [
+    "Slow",
+    "Med Slow",
+    "Medium",
+    "Med Fast",
+    "Fast"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "EQ Byp",
+   "steps": [
+    "Byp",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 11,
+   "name": "Lo Peak",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "Lo Peak Freq",
+   "steps": [
+    "20 Hz",
+    "35 Hz",
+    "50 Hz",
+    "70 Hz",
+    "100 Hz",
+    "150 Hz",
+    "200 Hz",
+    "300 Hz",
+    "500 Hz",
+    "700 Hz",
+    "1000 Hz"
+   ],
+   "default": 0.300000011920929
+  },
+  {
+   "index": 13,
+   "name": "Mid Dip",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 14,
+   "name": "Mid Dip Freq",
+   "steps": [
+    "200 Hz",
+    "300 Hz",
+    "500 Hz",
+    "700 Hz",
+    "1000  Hz",
+    "1.5 kHz",
+    "2 kHz",
+    "3 kHz",
+    "4 kHz",
+    "5 kHz",
+    "7 kHz"
+   ],
+   "default": 0.1000000014901161
+  },
+  {
+   "index": 15,
+   "name": "Hi Peak",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 16,
+   "name": "Hi Peak Freq",
+   "steps": [
+    "1.5  kHz",
+    "2 kHz",
+    "3 kHz",
+    "4 kHz",
+    "5 kHz",
+    "6.4 kHz",
+    "8 kHz",
+    "10 kHz",
+    "12 kHz",
+    "16  kHz",
+    "20 kHz"
+   ],
+   "default": 0.800000011920929
+  },
+  {
+   "index": 17,
+   "name": "De Ess Byp",
+   "steps": [
+    "Byp",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 18,
+   "name": "De Ess Sel",
+   "steps": [
+    "3K",
+    "6K",
+    "9K",
+    "12K",
+    "Limit"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 19,
+   "name": "De Ess Thr",
+   "steps": null,
+   "default": 0.41143798828125
+  },
+  {
+   "index": 20,
+   "name": "Meter",
+   "steps": [
+    "GR",
+    "In",
+    "Pre Out",
+    "Out",
+    "DS"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 21,
+   "name": "Transformer Byp",
+   "steps": [
+    "Byp",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 22,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 23,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "vu": {
+   "vendorSpecificFloat": 419430410,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.125893,
+     0.0
+    ],
+    [
+     0.158489,
+     0.0018
+    ],
+    [
+     0.199526,
+     0.0346
+    ],
+    [
+     0.251189,
+     0.076
+    ],
+    [
+     0.316228,
+     0.128
+    ],
+    [
+     0.398107,
+     0.1935
+    ],
+    [
+     0.501187,
+     0.2759
+    ],
+    [
+     0.630957,
+     0.3798
+    ],
+    [
+     0.794328,
+     0.5105
+    ],
+    [
+     1.0,
+     0.675
+    ],
+    [
+     1.258925,
+     0.8821
+    ],
+    [
+     1.584893,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 419430410,
+    "p1": 1
+   }
+  }
+ },
+ "elements": [
+  {
+   "id": "power",
+   "x": 105,
+   "y": 18,
+   "w": 41,
+   "h": 47,
+   "kind": "switch",
+   "param": 23,
+   "sprite": "voxbox_switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "power-led",
+   "x": 115,
+   "y": 84,
+   "w": 22,
+   "h": 22,
+   "kind": "filmstrip",
+   "sprite": "voxbox_led",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "low_cut",
+   "x": 145,
+   "y": 78,
+   "w": 41,
+   "h": 37,
+   "kind": "switch",
+   "param": 1,
+   "sprite": "voxbox_switch_3p",
+   "frames": 3,
+   "orientation": "vertical"
+  },
+  {
+   "id": "phase",
+   "x": 171,
+   "y": 122,
+   "w": 41,
+   "h": 47,
+   "kind": "switch",
+   "param": 2,
+   "sprite": "voxbox_switch",
+   "frames": 2,
+   "orientation": "vertical-reverse",
+   "reverse": true
+  },
+  {
+   "id": "input_select",
+   "x": 98,
+   "y": 110,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 0,
+   "sprite": "voxbox_knob_lrg_2_step",
+   "frames": 2
+  },
+  {
+   "id": "input_gain",
+   "x": 98,
+   "y": 188,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 3,
+   "sprite": "voxbox_knob_lrg",
+   "frames": 101
+  },
+  {
+   "id": "input_pad",
+   "x": 201,
+   "y": 188,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 4,
+   "sprite": "voxbox_knob_lrg_5_step_L",
+   "frames": 5
+  },
+  {
+   "id": "meter_sel",
+   "x": 279,
+   "y": 200,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 20,
+   "sprite": "voxbox_knob_sml_5_step",
+   "frames": 5
+  },
+  {
+   "id": "sc_link-switch-display",
+   "x": 455,
+   "y": 19,
+   "w": 41,
+   "h": 47,
+   "kind": "filmstrip",
+   "sprite": "voxbox_switch",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sc_link-switch-hidden",
+   "x": 455,
+   "y": 19,
+   "w": 41,
+   "h": 47,
+   "opacity": 0,
+   "kind": "switch",
+   "param": 5,
+   "sprite": "voxbox_switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "comp-in",
+   "x": 400,
+   "y": 121,
+   "w": 41,
+   "h": 47,
+   "kind": "switch",
+   "param": 6,
+   "sprite": "voxbox_switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "comp-thresh",
+   "x": 449,
+   "y": 111,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 7,
+   "sprite": "voxbox_knob_lrg",
+   "frames": 101
+  },
+  {
+   "id": "comp-attack",
+   "x": 348,
+   "y": 188,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 8,
+   "sprite": "voxbox_knob_lrg_5_step_R",
+   "frames": 5
+  },
+  {
+   "id": "comp_release",
+   "x": 452,
+   "y": 188,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 9,
+   "sprite": "voxbox_knob_lrg_5_step_L",
+   "frames": 5
+  },
+  {
+   "id": "meter-overlay-off",
+   "x": 230.0,
+   "y": 28.0,
+   "w": 142.0,
+   "h": 60.0,
+   "opacity": 0,
+   "kind": "filmstrip",
+   "sprite": "voxbox_meter_off",
+   "frames": 1,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "meter-overlay-on",
+   "x": 230,
+   "y": 28,
+   "w": 142,
+   "h": 60,
+   "kind": "filmstrip",
+   "sprite": "voxbox_meter_on",
+   "frames": 1,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "meter_needle",
+   "x": 230,
+   "y": 28,
+   "w": 142,
+   "h": 60,
+   "kind": "filmstrip",
+   "sprite": "voxbox_meter_needle",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu",
+    "channel": 0
+   }
+  },
+  {
+   "id": "de-ess-in",
+   "x": 542,
+   "y": 30,
+   "w": 41,
+   "h": 47,
+   "kind": "switch",
+   "param": 17,
+   "sprite": "voxbox_switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "de-ess-limit",
+   "x": 596,
+   "y": 20,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 18,
+   "sprite": "voxbox_knob_lrg_5_step_UP",
+   "frames": 5
+  },
+  {
+   "id": "de-ess-sel",
+   "x": 683,
+   "y": 20,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 19,
+   "sprite": "voxbox_knob_lrg",
+   "frames": 101
+  },
+  {
+   "id": "eq-in",
+   "x": 542,
+   "y": 121,
+   "w": 41,
+   "h": 47,
+   "kind": "switch",
+   "param": 10,
+   "sprite": "voxbox_switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "eq_low_gain",
+   "x": 601,
+   "y": 120,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 11,
+   "sprite": "voxbox_knob_sml",
+   "frames": 61
+  },
+  {
+   "id": "eq_mid_gain",
+   "x": 688,
+   "y": 120,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 13,
+   "sprite": "voxbox_knob_sml",
+   "frames": 61
+  },
+  {
+   "id": "eq_high_gain",
+   "x": 776,
+   "y": 120,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 15,
+   "sprite": "voxbox_knob_sml",
+   "frames": 61
+  },
+  {
+   "id": "trans-in",
+   "x": 542,
+   "y": 198,
+   "w": 41,
+   "h": 47,
+   "kind": "switch",
+   "param": 21,
+   "sprite": "voxbox_switch",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "eq_low_freq",
+   "x": 601,
+   "y": 197,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 12,
+   "sprite": "voxbox_knob_sml",
+   "frames": 61
+  },
+  {
+   "id": "eq_mid_freq",
+   "x": 688,
+   "y": 197,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 14,
+   "sprite": "voxbox_knob_sml",
+   "frames": 61
+  },
+  {
+   "id": "eq_hi_peak",
+   "x": 776,
+   "y": 197,
+   "w": 45,
+   "h": 50,
+   "kind": "knob",
+   "param": 16,
+   "sprite": "voxbox_knob_sml",
+   "frames": 61
+  },
+  {
+   "id": "ready-led",
+   "x": 836,
+   "y": 44,
+   "w": 22,
+   "h": 22,
+   "kind": "filmstrip",
+   "sprite": "voxbox_led",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "output_gain",
+   "x": 774,
+   "y": 20,
+   "w": 53,
+   "h": 66,
+   "kind": "knob",
+   "param": 22,
+   "sprite": "voxbox_knob_lrg",
+   "frames": 101
+  },
+  {
+   "id": "source-label-line",
+   "x": 150,
+   "y": 126,
+   "w": 18,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "source-label-mic",
+   "x": 150,
+   "y": 150,
+   "w": 18,
+   "h": 14,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "gain-label-40",
+   "x": 185,
+   "y": 242,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "gain-label-45",
+   "x": 185,
+   "y": 229,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "gain-label-50",
+   "x": 185,
+   "y": 217,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "gain-label-55",
+   "x": 185,
+   "y": 205,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "gain-label-60",
+   "x": 185,
+   "y": 192,
+   "w": 16,
+   "h": 11,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "meter-gr",
+   "x": 267,
+   "y": 208,
+   "w": 17,
+   "h": 9,
+   "kind": "zone",
+   "param": 20,
+   "action": {
+    "type": "set",
+    "param": 20,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "meter-line",
+   "x": 259,
+   "y": 197,
+   "w": 27,
+   "h": 10,
+   "kind": "zone",
+   "param": 20,
+   "action": {
+    "type": "set",
+    "param": 20,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "meter-preout",
+   "x": 287,
+   "y": 190,
+   "w": 29,
+   "h": 12,
+   "kind": "zone",
+   "param": 20,
+   "action": {
+    "type": "set",
+    "param": 20,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "meter-eq-out",
+   "x": 317,
+   "y": 197,
+   "w": 24,
+   "h": 11,
+   "kind": "zone",
+   "param": 20,
+   "action": {
+    "type": "set",
+    "param": 20,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "meter-ds",
+   "x": 320,
+   "y": 208,
+   "w": 19,
+   "h": 9,
+   "kind": "zone",
+   "param": 20,
+   "action": {
+    "type": "set",
+    "param": 20,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "attack-slow",
+   "x": 401,
+   "y": 241,
+   "w": 24,
+   "h": 11,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "attack-medslow",
+   "x": 401,
+   "y": 229,
+   "w": 24,
+   "h": 11,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "attack-medium",
+   "x": 401,
+   "y": 217,
+   "w": 24,
+   "h": 11,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "attack-medfast",
+   "x": 401,
+   "y": 204,
+   "w": 24,
+   "h": 11,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "attack-fast",
+   "x": 401,
+   "y": 191,
+   "w": 24,
+   "h": 11,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "release-slow",
+   "x": 428,
+   "y": 241,
+   "w": 24,
+   "h": 11,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "release-medslow",
+   "x": 428,
+   "y": 229,
+   "w": 24,
+   "h": 11,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "release-medium",
+   "x": 428,
+   "y": 217,
+   "w": 24,
+   "h": 11,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "release-medfast",
+   "x": 428,
+   "y": 204,
+   "w": 24,
+   "h": 11,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "release-fast",
+   "x": 428,
+   "y": 191,
+   "w": 24,
+   "h": 11,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "lf-label-20",
+   "x": 590,
+   "y": 236,
+   "w": 14,
+   "h": 8,
+   "kind": "zone",
+   "param": 12,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "lf-label-30",
+   "x": 590,
+   "y": 227,
+   "w": 14,
+   "h": 8,
+   "kind": "zone",
+   "param": 12,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "lf-label-50",
+   "x": 590,
+   "y": 218,
+   "w": 14,
+   "h": 8,
+   "kind": "zone",
+   "param": 12,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "lf-label-70",
+   "x": 590,
+   "y": 209,
+   "w": 14,
+   "h": 8,
+   "kind": "zone",
+   "param": 12,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "lf-label-100",
+   "x": 590,
+   "y": 200,
+   "w": 14,
+   "h": 8,
+   "kind": "zone",
+   "param": 12,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "lf-label-150",
+   "x": 614,
+   "y": 193,
+   "w": 18,
+   "h": 8,
+   "kind": "zone",
+   "param": 12,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "lf-label-200",
+   "x": 641,
+   "y": 200,
+   "w": 21,
+   "h": 8,
+   "kind": "zone",
+   "param": 12,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "lf-label-300",
+   "x": 641,
+   "y": 209,
+   "w": 17,
+   "h": 8,
+   "kind": "zone",
+   "param": 12,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "lf-label-500",
+   "x": 641,
+   "y": 218,
+   "w": 17,
+   "h": 8,
+   "kind": "zone",
+   "param": 12,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "lf-label-700",
+   "x": 641,
+   "y": 227,
+   "w": 17,
+   "h": 8,
+   "kind": "zone",
+   "param": 12,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "lf-label-1000",
+   "x": 641,
+   "y": 236,
+   "w": 22,
+   "h": 8,
+   "kind": "zone",
+   "param": 12,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "mf-label-200",
+   "x": 672,
+   "y": 236,
+   "w": 14,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "mf-label-300",
+   "x": 672,
+   "y": 227,
+   "w": 14,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "mf-label-500",
+   "x": 672,
+   "y": 218,
+   "w": 14,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "mf-label-700",
+   "x": 672,
+   "y": 209,
+   "w": 14,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "mf-label-1000",
+   "x": 672,
+   "y": 200,
+   "w": 14,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "mf-label-1K5",
+   "x": 701,
+   "y": 193,
+   "w": 18,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "mf-label-2K",
+   "x": 729,
+   "y": 200,
+   "w": 14,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "mf-label-3K",
+   "x": 729,
+   "y": 209,
+   "w": 14,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "mf-label-4K",
+   "x": 729,
+   "y": 218,
+   "w": 14,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "mf-label-5K",
+   "x": 729,
+   "y": 227,
+   "w": 14,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "mf-label-7K",
+   "x": 729,
+   "y": 236,
+   "w": 14,
+   "h": 8,
+   "kind": "zone",
+   "param": 14,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "hf-label-1K5",
+   "x": 763,
+   "y": 236,
+   "w": 17,
+   "h": 8,
+   "kind": "zone",
+   "param": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "hf-label-2K",
+   "x": 767,
+   "y": 227,
+   "w": 14,
+   "h": 8,
+   "kind": "zone",
+   "param": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "hf-label-3K",
+   "x": 767,
+   "y": 218,
+   "w": 14,
+   "h": 8,
+   "kind": "zone",
+   "param": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "hf-label-4K",
+   "x": 767,
+   "y": 209,
+   "w": 14,
+   "h": 8,
+   "kind": "zone",
+   "param": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "hf-label-5K5",
+   "x": 767,
+   "y": 200,
+   "w": 14,
+   "h": 8,
+   "kind": "zone",
+   "param": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "hf-label-6K4",
+   "x": 787,
+   "y": 193,
+   "w": 21,
+   "h": 10,
+   "kind": "zone",
+   "param": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "hf-label-8K",
+   "x": 817,
+   "y": 200,
+   "w": 18,
+   "h": 10,
+   "kind": "zone",
+   "param": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "hf-label-10K",
+   "x": 817,
+   "y": 209,
+   "w": 18,
+   "h": 8,
+   "kind": "zone",
+   "param": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.7
+   }
+  },
+  {
+   "id": "hf-label-12K",
+   "x": 817,
+   "y": 218,
+   "w": 18,
+   "h": 8,
+   "kind": "zone",
+   "param": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "hf-label-16K",
+   "x": 817,
+   "y": 227,
+   "w": 18,
+   "h": 8,
+   "kind": "zone",
+   "param": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.9
+   }
+  },
+  {
+   "id": "hf-label-20K",
+   "x": 810,
+   "y": 236,
+   "w": 18,
+   "h": 8,
+   "kind": "zone",
+   "param": 16,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "de-ess-label-3K",
+   "x": 581,
+   "y": 32,
+   "w": 17,
+   "h": 10,
+   "kind": "zone",
+   "param": 18,
+   "action": {
+    "type": "set",
+    "param": 18,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "de-ess-label-6K",
+   "x": 591,
+   "y": 18,
+   "w": 17,
+   "h": 10,
+   "kind": "zone",
+   "param": 18,
+   "action": {
+    "type": "set",
+    "param": 18,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "de-ess-label-9K",
+   "x": 613,
+   "y": 10,
+   "w": 17,
+   "h": 10,
+   "kind": "zone",
+   "param": 18,
+   "action": {
+    "type": "set",
+    "param": 18,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "de-ess-label-12K",
+   "x": 637,
+   "y": 18,
+   "w": 17,
+   "h": 10,
+   "kind": "zone",
+   "param": 18,
+   "action": {
+    "type": "set",
+    "param": 18,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "de-ess-label-limit",
+   "x": 648,
+   "y": 33,
+   "w": 21,
+   "h": 17,
+   "kind": "zone",
+   "param": 18,
+   "action": {
+    "type": "set",
+    "param": 18,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "lo-gain-label",
+   "x": 596,
+   "y": 166,
+   "w": 20,
+   "h": 11,
+   "kind": "zone",
+   "param": null,
+   "action": {
+    "type": "default",
+    "param": 11
+   }
+  },
+  {
+   "id": "mid-gain-label",
+   "x": 686,
+   "y": 166,
+   "w": 20,
+   "h": 11,
+   "kind": "zone",
+   "param": null,
+   "action": {
+    "type": "default",
+    "param": 13
+   }
+  },
+  {
+   "id": "high-gain-label",
+   "x": 773,
+   "y": 166,
+   "w": 20,
+   "h": 11,
+   "kind": "zone",
+   "param": null,
+   "action": {
+    "type": "default",
+    "param": 15
+   }
+  },
+  {
+   "id": "output-label-rtz",
+   "x": 793,
+   "y": 22,
+   "w": 16,
+   "h": 13,
+   "kind": "zone",
+   "param": 22,
+   "action": {
+    "type": "set",
+    "param": 22,
+    "value": 0.5
+   }
+  }
+ ]
+}

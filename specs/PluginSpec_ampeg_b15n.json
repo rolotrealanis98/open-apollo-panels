@@ -1,0 +1,1996 @@
+{
+ "schema": 2,
+ "effectName": "UAD Ampeg B15N",
+ "namePattern": "Ampeg B15N",
+ "size": {
+  "w": 1024,
+  "h": 498
+ },
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "Bank",
+   "steps": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Input",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "PwrSk",
+   "steps": null,
+   "default": 0.925000011920929
+  },
+  {
+   "index": 4,
+   "name": "Horn",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "RecChain",
+   "steps": null,
+   "default": 0.2857142984867096
+  },
+  {
+   "index": 6,
+   "name": "NgByPass",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 7,
+   "name": "NgThres",
+   "steps": null,
+   "default": 0.2666666805744171
+  },
+  {
+   "index": 8,
+   "name": "NgRange",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 9,
+   "name": "InpType",
+   "steps": [
+    "1",
+    "2"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 10,
+   "name": "InputCh",
+   "steps": [
+    "Ch64",
+    "Ch66"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "Ch64Vol",
+   "steps": null,
+   "default": 0.300000011920929
+  },
+  {
+   "index": 12,
+   "name": "Ch64Tr",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 13,
+   "name": "Ch64Bass",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 14,
+   "name": "Ch66Vol",
+   "steps": null,
+   "default": 0.300000011920929
+  },
+  {
+   "index": 15,
+   "name": "Ch66Tr",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 16,
+   "name": "Ch66Bass",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 17,
+   "name": "Bias",
+   "steps": [
+    "1964",
+    "1966"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 18,
+   "name": "Tight",
+   "steps": [
+    "Off",
+    "Pre",
+    "Post"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 19,
+   "name": "TFreq",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 20,
+   "name": "Smooth",
+   "steps": [
+    "Off",
+    "Pre",
+    "Post"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 21,
+   "name": "SFreq",
+   "steps": null,
+   "default": 0.6551123261451721
+  }
+ ],
+ "elements": [
+  {
+   "id": "chrome-panel",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 1024,
+   "h": 474,
+   "sprite": "ampeg_b15n__BACKGROUND"
+  },
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 1024,
+   "h": 24,
+   "toolbar": {
+    "family": "brainworx",
+    "items": [
+     {
+      "type": "switch",
+      "x": 0.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.power",
+      "frames": 2,
+      "param": 0,
+      "glyph": "power"
+     },
+     {
+      "type": "icon",
+      "x": 338.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.undo",
+      "frames": 2,
+      "glyph": "undo"
+     },
+     {
+      "type": "icon",
+      "x": 362.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.redo",
+      "frames": 2,
+      "glyph": "redo"
+     },
+     {
+      "type": "icon",
+      "x": 530.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.copy",
+      "frames": 2,
+      "glyph": "Copy"
+     },
+     {
+      "type": "icon",
+      "x": 582.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.paste",
+      "frames": 2,
+      "glyph": "Paste"
+     },
+     {
+      "type": "icon",
+      "x": 646.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.reset",
+      "frames": 2,
+      "glyph": "Reset"
+     },
+     {
+      "type": "icon",
+      "x": 969.0,
+      "y": 0,
+      "w": 55.0,
+      "h": 24,
+      "sprite": "chrome.bx.toolbaraboutbnt",
+      "frames": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch64vol-knob",
+   "kind": "knob",
+   "sprite": "ampeg_b15n__POTIVU",
+   "frames": 61,
+   "param": 11,
+   "x": 264.0,
+   "y": 339.0,
+   "w": 84.0,
+   "h": 84.0
+  },
+  {
+   "id": "j-rack-open",
+   "kind": "zone",
+   "x": 78.0,
+   "y": 69.0,
+   "w": 876.0,
+   "h": 246.0,
+   "action": {
+    "type": "setState",
+    "state": "rack",
+    "value": 1
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch64tr-knob",
+   "kind": "knob",
+   "sprite": "ampeg_b15n__POTIVU",
+   "frames": 61,
+   "param": 12,
+   "x": 346.0,
+   "y": 339.0,
+   "w": 84.0,
+   "h": 84.0
+  },
+  {
+   "id": "ch64bass-knob",
+   "kind": "knob",
+   "sprite": "ampeg_b15n__POTIVU",
+   "frames": 61,
+   "param": 13,
+   "x": 430.0,
+   "y": 339.0,
+   "w": 84.0,
+   "h": 84.0
+  },
+  {
+   "id": "ch66vol-knob",
+   "kind": "knob",
+   "sprite": "ampeg_b15n__POTIVU",
+   "frames": 61,
+   "param": 14,
+   "x": 515.0,
+   "y": 339.0,
+   "w": 84.0,
+   "h": 84.0
+  },
+  {
+   "id": "ch66tr-knob",
+   "kind": "knob",
+   "sprite": "ampeg_b15n__POTIVU",
+   "frames": 61,
+   "param": 15,
+   "x": 598.0,
+   "y": 339.0,
+   "w": 84.0,
+   "h": 84.0
+  },
+  {
+   "id": "ch66bass-knob",
+   "kind": "knob",
+   "sprite": "ampeg_b15n__POTIVU",
+   "frames": 61,
+   "param": 16,
+   "x": 682.0,
+   "y": 339.0,
+   "w": 84.0,
+   "h": 84.0
+  },
+  {
+   "id": "bias-switch",
+   "kind": "switch",
+   "sprite": "ampeg_b15n__POWERSWITCH",
+   "frames": 2,
+   "param": 17,
+   "orientation": "vertical",
+   "x": 797.0,
+   "y": 347.0,
+   "w": 45.0,
+   "h": 65.0
+  },
+  {
+   "id": "power-switch",
+   "kind": "switch",
+   "sprite": "ampeg_b15n__POWERSWITCH",
+   "frames": 2,
+   "param": 0,
+   "orientation": "vertical",
+   "x": 882.0,
+   "y": 347.0,
+   "w": 45.0,
+   "h": 65.0
+  },
+  {
+   "id": "cmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "ampeg_b15n__LEDRED",
+   "frames": 2,
+   "x": 133.0,
+   "y": 337.0,
+   "w": 25.0,
+   "h": 25.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     9,
+     10
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-1",
+   "kind": "filmstrip",
+   "sprite": "ampeg_b15n__LEDRED",
+   "frames": 2,
+   "x": 133.0,
+   "y": 393.0,
+   "w": 25.0,
+   "h": 25.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     9,
+     10
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-2",
+   "kind": "filmstrip",
+   "sprite": "ampeg_b15n__LEDRED",
+   "frames": 2,
+   "x": 164.0,
+   "y": 337.0,
+   "w": 25.0,
+   "h": 25.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     9,
+     10
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-3",
+   "kind": "filmstrip",
+   "sprite": "ampeg_b15n__LEDRED",
+   "frames": 2,
+   "x": 164.0,
+   "y": 393.0,
+   "w": 25.0,
+   "h": 25.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     9,
+     10
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ckickbutton-kick",
+   "kind": "zone",
+   "action": {
+    "type": "multi",
+    "actions": [
+     {
+      "type": "set",
+      "param": 9,
+      "value": 0.0
+     },
+     {
+      "type": "set",
+      "param": 10,
+      "value": 0.0
+     }
+    ]
+   },
+   "x": 98.0,
+   "y": 331.0,
+   "w": 40.0,
+   "h": 40.0
+  },
+  {
+   "id": "ckickbutton-kick-1",
+   "kind": "zone",
+   "action": {
+    "type": "multi",
+    "actions": [
+     {
+      "type": "set",
+      "param": 9,
+      "value": 1.0
+     },
+     {
+      "type": "set",
+      "param": 10,
+      "value": 0.0
+     }
+    ]
+   },
+   "x": 98.0,
+   "y": 383.0,
+   "w": 40.0,
+   "h": 40.0
+  },
+  {
+   "id": "ckickbutton-kick-2",
+   "kind": "zone",
+   "action": {
+    "type": "multi",
+    "actions": [
+     {
+      "type": "set",
+      "param": 9,
+      "value": 0.0
+     },
+     {
+      "type": "set",
+      "param": 10,
+      "value": 1.0
+     }
+    ]
+   },
+   "x": 185.0,
+   "y": 331.0,
+   "w": 40.0,
+   "h": 40.0
+  },
+  {
+   "id": "ckickbutton-kick-3",
+   "kind": "zone",
+   "action": {
+    "type": "multi",
+    "actions": [
+     {
+      "type": "set",
+      "param": 9,
+      "value": 1.0
+     },
+     {
+      "type": "set",
+      "param": 10,
+      "value": 1.0
+     }
+    ]
+   },
+   "x": 185.0,
+   "y": 383.0,
+   "w": 40.0,
+   "h": 40.0
+  },
+  {
+   "id": "img-cviewcontainer",
+   "kind": "image",
+   "sprite": "ampeg_b15n__RACK",
+   "x": 0.0,
+   "y": 24.0,
+   "w": 1024.0,
+   "h": 290.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-rack-close",
+   "kind": "zone",
+   "x": 0.0,
+   "y": 24.0,
+   "w": 1024.0,
+   "h": 290.0,
+   "action": {
+    "type": "setState",
+    "state": "rack",
+    "value": 0
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ngthres-knob",
+   "kind": "knob",
+   "sprite": "ampeg_b15n__POTI",
+   "frames": 61,
+   "param": 7,
+   "x": 141.0,
+   "y": 103.0,
+   "w": 69.0,
+   "h": 69.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ngthres-text",
+   "kind": "text",
+   "param": 7,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 150.0,
+   "y": 168.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ngrange-knob",
+   "kind": "knob",
+   "sprite": "ampeg_b15n__POTI",
+   "frames": 61,
+   "param": 8,
+   "x": 231.0,
+   "y": 103.0,
+   "w": 69.0,
+   "h": 69.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ngrange-text",
+   "kind": "text",
+   "param": 8,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 240.0,
+   "y": 168.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "tfreq-knob",
+   "kind": "knob",
+   "sprite": "ampeg_b15n__POTI",
+   "frames": 61,
+   "param": 19,
+   "x": 141.0,
+   "y": 215.0,
+   "w": 69.0,
+   "h": 69.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "tfreq-text",
+   "kind": "text",
+   "param": 19,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 150.0,
+   "y": 280.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sfreq-knob",
+   "kind": "knob",
+   "sprite": "ampeg_b15n__POTI",
+   "frames": 61,
+   "param": 21,
+   "x": 231.0,
+   "y": 215.0,
+   "w": 69.0,
+   "h": 69.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sfreq-text",
+   "kind": "text",
+   "param": 21,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 240.0,
+   "y": 280.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "input-knob",
+   "kind": "knob",
+   "sprite": "ampeg_b15n__POTI",
+   "frames": 61,
+   "param": 2,
+   "x": 714.0,
+   "y": 103.0,
+   "w": 69.0,
+   "h": 69.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "input-text",
+   "kind": "text",
+   "param": 2,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 723.0,
+   "y": 168.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pwrsk-knob",
+   "kind": "knob",
+   "sprite": "ampeg_b15n__POTI",
+   "frames": 61,
+   "param": 3,
+   "x": 814.0,
+   "y": 103.0,
+   "w": 69.0,
+   "h": 69.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pwrsk-text",
+   "kind": "text",
+   "param": 3,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 823.0,
+   "y": 168.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ckickbutton-kick-4",
+   "kind": "button",
+   "sprite": "ampeg_b15n__BUTTON",
+   "frames": 2,
+   "action": {
+    "type": "table",
+    "param": 5,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.02381,
+      "value": 0.0
+     },
+     {
+      "current": 0.047619,
+      "value": 0.02381
+     },
+     {
+      "current": 0.071429,
+      "value": 0.047619
+     },
+     {
+      "current": 0.095238,
+      "value": 0.071429
+     },
+     {
+      "current": 0.119048,
+      "value": 0.095238
+     },
+     {
+      "current": 0.142857,
+      "value": 0.119048
+     },
+     {
+      "current": 0.166667,
+      "value": 0.142857
+     },
+     {
+      "current": 0.190476,
+      "value": 0.166667
+     },
+     {
+      "current": 0.214286,
+      "value": 0.190476
+     },
+     {
+      "current": 0.238095,
+      "value": 0.214286
+     },
+     {
+      "current": 0.261905,
+      "value": 0.238095
+     },
+     {
+      "current": 0.285714,
+      "value": 0.261905
+     },
+     {
+      "current": 0.309524,
+      "value": 0.285714
+     },
+     {
+      "current": 0.333333,
+      "value": 0.309524
+     },
+     {
+      "current": 0.357143,
+      "value": 0.333333
+     },
+     {
+      "current": 0.380952,
+      "value": 0.357143
+     },
+     {
+      "current": 0.404762,
+      "value": 0.380952
+     },
+     {
+      "current": 0.428571,
+      "value": 0.404762
+     },
+     {
+      "current": 0.452381,
+      "value": 0.428571
+     },
+     {
+      "current": 0.47619,
+      "value": 0.452381
+     },
+     {
+      "current": 0.5,
+      "value": 0.47619
+     },
+     {
+      "current": 0.52381,
+      "value": 0.5
+     },
+     {
+      "current": 0.547619,
+      "value": 0.52381
+     },
+     {
+      "current": 0.571429,
+      "value": 0.547619
+     },
+     {
+      "current": 0.595238,
+      "value": 0.571429
+     },
+     {
+      "current": 0.619048,
+      "value": 0.595238
+     },
+     {
+      "current": 0.642857,
+      "value": 0.619048
+     },
+     {
+      "current": 0.666667,
+      "value": 0.642857
+     },
+     {
+      "current": 0.690476,
+      "value": 0.666667
+     },
+     {
+      "current": 0.714286,
+      "value": 0.690476
+     },
+     {
+      "current": 0.738095,
+      "value": 0.714286
+     },
+     {
+      "current": 0.761905,
+      "value": 0.738095
+     },
+     {
+      "current": 0.785714,
+      "value": 0.761905
+     },
+     {
+      "current": 0.809524,
+      "value": 0.785714
+     },
+     {
+      "current": 0.833333,
+      "value": 0.809524
+     },
+     {
+      "current": 0.857143,
+      "value": 0.833333
+     },
+     {
+      "current": 0.880952,
+      "value": 0.857143
+     },
+     {
+      "current": 0.904762,
+      "value": 0.880952
+     },
+     {
+      "current": 0.928571,
+      "value": 0.904762
+     },
+     {
+      "current": 0.952381,
+      "value": 0.928571
+     },
+     {
+      "current": 0.97619,
+      "value": 0.952381
+     },
+     {
+      "current": 1.0,
+      "value": 0.97619
+     }
+    ]
+   },
+   "x": 672.0,
+   "y": 263.0,
+   "w": 30.0,
+   "h": 30.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ckickbutton-kick-5",
+   "kind": "button",
+   "sprite": "ampeg_b15n__BUTTON",
+   "frames": 2,
+   "action": {
+    "type": "table",
+    "param": 5,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.02381
+     },
+     {
+      "current": 0.02381,
+      "value": 0.047619
+     },
+     {
+      "current": 0.047619,
+      "value": 0.071429
+     },
+     {
+      "current": 0.071429,
+      "value": 0.095238
+     },
+     {
+      "current": 0.095238,
+      "value": 0.119048
+     },
+     {
+      "current": 0.119048,
+      "value": 0.142857
+     },
+     {
+      "current": 0.142857,
+      "value": 0.166667
+     },
+     {
+      "current": 0.166667,
+      "value": 0.190476
+     },
+     {
+      "current": 0.190476,
+      "value": 0.214286
+     },
+     {
+      "current": 0.214286,
+      "value": 0.238095
+     },
+     {
+      "current": 0.238095,
+      "value": 0.261905
+     },
+     {
+      "current": 0.261905,
+      "value": 0.285714
+     },
+     {
+      "current": 0.285714,
+      "value": 0.309524
+     },
+     {
+      "current": 0.309524,
+      "value": 0.333333
+     },
+     {
+      "current": 0.333333,
+      "value": 0.357143
+     },
+     {
+      "current": 0.357143,
+      "value": 0.380952
+     },
+     {
+      "current": 0.380952,
+      "value": 0.404762
+     },
+     {
+      "current": 0.404762,
+      "value": 0.428571
+     },
+     {
+      "current": 0.428571,
+      "value": 0.452381
+     },
+     {
+      "current": 0.452381,
+      "value": 0.47619
+     },
+     {
+      "current": 0.47619,
+      "value": 0.5
+     },
+     {
+      "current": 0.5,
+      "value": 0.52381
+     },
+     {
+      "current": 0.52381,
+      "value": 0.547619
+     },
+     {
+      "current": 0.547619,
+      "value": 0.571429
+     },
+     {
+      "current": 0.571429,
+      "value": 0.595238
+     },
+     {
+      "current": 0.595238,
+      "value": 0.619048
+     },
+     {
+      "current": 0.619048,
+      "value": 0.642857
+     },
+     {
+      "current": 0.642857,
+      "value": 0.666667
+     },
+     {
+      "current": 0.666667,
+      "value": 0.690476
+     },
+     {
+      "current": 0.690476,
+      "value": 0.714286
+     },
+     {
+      "current": 0.714286,
+      "value": 0.738095
+     },
+     {
+      "current": 0.738095,
+      "value": 0.761905
+     },
+     {
+      "current": 0.761905,
+      "value": 0.785714
+     },
+     {
+      "current": 0.785714,
+      "value": 0.809524
+     },
+     {
+      "current": 0.809524,
+      "value": 0.833333
+     },
+     {
+      "current": 0.833333,
+      "value": 0.857143
+     },
+     {
+      "current": 0.857143,
+      "value": 0.880952
+     },
+     {
+      "current": 0.880952,
+      "value": 0.904762
+     },
+     {
+      "current": 0.904762,
+      "value": 0.928571
+     },
+     {
+      "current": 0.928571,
+      "value": 0.952381
+     },
+     {
+      "current": 0.952381,
+      "value": 0.97619
+     },
+     {
+      "current": 0.97619,
+      "value": 1.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.0
+     }
+    ]
+   },
+   "x": 698.0,
+   "y": 263.0,
+   "w": 30.0,
+   "h": 30.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "recchain-text",
+   "kind": "text",
+   "param": 5,
+   "text": {
+    "size": 10,
+    "color": "#B4CFEB",
+    "align": "left",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 676.0,
+   "y": 244.0,
+   "w": 253.0,
+   "h": 11.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "tight-switch",
+   "kind": "switch",
+   "sprite": "ampeg_b15n__SWITCH3POS",
+   "frames": 3,
+   "param": 18,
+   "orientation": "vertical",
+   "x": 79.0,
+   "y": 227.0,
+   "w": 50.0,
+   "h": 50.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "smooth-switch",
+   "kind": "switch",
+   "sprite": "ampeg_b15n__SWITCH3POS",
+   "frames": 3,
+   "param": 20,
+   "orientation": "vertical",
+   "x": 312.0,
+   "y": 227.0,
+   "w": 50.0,
+   "h": 50.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ngbypass-switch",
+   "kind": "switch",
+   "sprite": "ampeg_b15n__SWITCH",
+   "frames": 2,
+   "param": 6,
+   "orientation": "vertical",
+   "x": 85.0,
+   "y": 119.0,
+   "w": 40.0,
+   "h": 40.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "horn-switch",
+   "kind": "switch",
+   "sprite": "ampeg_b15n__SWITCHH",
+   "frames": 2,
+   "param": 4,
+   "orientation": "horizontal",
+   "x": 778.0,
+   "y": 182.0,
+   "w": 40.0,
+   "h": 40.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-4",
+   "kind": "filmstrip",
+   "sprite": "ampeg_b15n__LEDRED",
+   "frames": 2,
+   "x": 310.0,
+   "y": 111.0,
+   "w": 25.0,
+   "h": 25.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_20000000"
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "img-cviewcontainer-1",
+   "kind": "image",
+   "sprite": "ampeg_b15n__LOGOPURPLE",
+   "x": 422.0,
+   "y": 24.0,
+   "w": 173.0,
+   "h": 285.0,
+   "visibility": {
+    "params": [
+     17
+    ],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "img-cviewcontainer-2",
+   "kind": "image",
+   "sprite": "ampeg_b15n__LOGOGREEN",
+   "x": 422.0,
+   "y": 24.0,
+   "w": 173.0,
+   "h": 285.0,
+   "visibility": {
+    "params": [
+     0,
+     17
+    ],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "img-cviewcontainer-3",
+   "kind": "image",
+   "sprite": "ampeg_b15n__LOGOBLUE",
+   "x": 422.0,
+   "y": 24.0,
+   "w": 173.0,
+   "h": 285.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-tb-bank",
+   "kind": "switch",
+   "param": 1,
+   "frames": 4,
+   "orientation": "horizontal",
+   "sprite": "J_ampeg_b15n_tb_bank",
+   "x": 409.5,
+   "y": 0,
+   "w": 100.0,
+   "h": 24
+  },
+  {
+   "id": "j-tb-rack",
+   "kind": "filmstrip",
+   "frames": 2,
+   "sprite": "J_ampeg_b15n_tb_rack",
+   "x": 710.0,
+   "y": 0,
+   "w": 55.0,
+   "h": 24,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-tb-rack-zone",
+   "kind": "zone",
+   "x": 710.0,
+   "y": 0,
+   "w": 55.0,
+   "h": 24,
+   "action": {
+    "type": "cycleState",
+    "state": "rack",
+    "count": 2
+   }
+  }
+ ],
+ "meterSources": {
+  "led_20000000": {
+   "vendorSpecificFloat": 83886084,
+   "opcode": {
+    "op": 519,
+    "p0": 83886084,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     1.0
+    ],
+    [
+     1e-05,
+     1.0
+    ],
+    [
+     3e-05,
+     0.0
+    ],
+    [
+     100,
+     0.0
+    ]
+   ]
+  }
+ },
+ "states": {
+  "rack": 0
+ }
+}

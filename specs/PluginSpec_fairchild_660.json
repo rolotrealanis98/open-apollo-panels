@@ -1,0 +1,692 @@
+{
+ "schema": 2,
+ "effectName": "UAD Fairchild 660",
+ "namePattern": "Fairchild 660",
+ "size": {
+  "w": 950,
+  "h": 435
+ },
+ "background": null,
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Meter",
+   "steps": [
+    "In",
+    "GR",
+    "Out"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "Input",
+   "steps": [
+    "-Inf",
+    "-48 dB",
+    "-44 dB",
+    "-36 dB",
+    "-32 dB",
+    "-30 dB",
+    "-28 dB",
+    "-26 dB",
+    "-24 dB",
+    "-22 dB",
+    "-20 dB",
+    "-18 dB",
+    "-16 dB",
+    "-14 dB",
+    "-12 dB",
+    "-10 dB",
+    "-8 dB",
+    "-6 dB",
+    "-4 dB",
+    "-2 dB",
+    "0 dB"
+   ],
+   "default": 0.6499999761581421
+  },
+  {
+   "index": 2,
+   "name": "Thresh",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "Time Const",
+   "steps": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "SC Filt",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Bal",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "DC Thr",
+   "steps": null,
+   "default": 0.7476806640625
+  },
+  {
+   "index": 7,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 8,
+   "name": "Mix",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 9,
+   "name": "Headroom",
+   "steps": [
+    "4 dB",
+    "8 dB",
+    "12 dB",
+    "16 dB",
+    "20 dB",
+    "24 dB",
+    "28 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "vu": {
+   "vendorSpecificFloat": 67108866,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.001,
+     0.0022
+    ],
+    [
+     0.001259,
+     0.0028
+    ],
+    [
+     0.001585,
+     0.0036
+    ],
+    [
+     0.001995,
+     0.0047
+    ],
+    [
+     0.002512,
+     0.0061
+    ],
+    [
+     0.003162,
+     0.0079
+    ],
+    [
+     0.003981,
+     0.0105
+    ],
+    [
+     0.005012,
+     0.0139
+    ],
+    [
+     0.00631,
+     0.0186
+    ],
+    [
+     0.007943,
+     0.0252
+    ],
+    [
+     0.01,
+     0.0346
+    ],
+    [
+     0.012589,
+     0.048
+    ],
+    [
+     0.015849,
+     0.0676
+    ],
+    [
+     0.019953,
+     0.0965
+    ],
+    [
+     0.025119,
+     0.1394
+    ],
+    [
+     0.031623,
+     0.2039
+    ],
+    [
+     0.039811,
+     0.2955
+    ],
+    [
+     0.050119,
+     0.4113
+    ],
+    [
+     0.063096,
+     0.5569
+    ],
+    [
+     0.079433,
+     0.7403
+    ],
+    [
+     0.1,
+     0.9712
+    ],
+    [
+     0.125893,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 67108866,
+    "p1": 1
+   }
+  }
+ },
+ "elements": [
+  {
+   "id": "background-image",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 950.0,
+   "h": 435.0,
+   "kind": "image",
+   "sprite": "UA_Fairchild660_PANEL",
+   "visibility": {
+    "params": [
+     10
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "background-image-glow",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 950.0,
+   "h": 435.0,
+   "opacity": 0,
+   "kind": "image",
+   "sprite": "UA_Fairchild660_GLOW",
+   "visibility": {
+    "params": [
+     10
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "leftinput-meter",
+   "x": 170,
+   "y": 64,
+   "w": 110,
+   "h": 55,
+   "kind": "filmstrip",
+   "sprite": "UA_Fairchild_needle_METER",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu",
+    "channel": 0
+   }
+  },
+  {
+   "id": "left-knob-meter",
+   "x": 302,
+   "y": 29,
+   "w": 140,
+   "h": 150,
+   "kind": "knob",
+   "param": 0,
+   "sprite": "UA_Fairchild_METERING_A",
+   "frames": 3
+  },
+  {
+   "id": "left-knob-meter-ctv-0",
+   "x": 324,
+   "y": 36,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "left-knob-meter-ctv-1",
+   "x": 363,
+   "y": 30,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "left-knob-meter-ctv-2",
+   "x": 402,
+   "y": 36,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "leftheadroom-knob",
+   "x": 321,
+   "y": 157,
+   "w": 22,
+   "h": 22,
+   "kind": "knob",
+   "param": 9,
+   "sprite": "UA_Fairchild_trimpot_HEADROOM",
+   "frames": 7
+  },
+  {
+   "id": "leftheadroom-rtd",
+   "x": 322,
+   "y": 177,
+   "w": 20,
+   "h": 14,
+   "kind": "button",
+   "param": null,
+   "sprite": "transparent",
+   "frames": 1,
+   "action": {
+    "type": "default",
+    "param": 9
+   }
+  },
+  {
+   "id": "leftbalance-knob",
+   "x": 401,
+   "y": 157,
+   "w": 22,
+   "h": 22,
+   "kind": "knob",
+   "param": 5,
+   "sprite": "UA_Fairchild_trimpot_BALANCE",
+   "frames": 101
+  },
+  {
+   "id": "leftbalance-rtd",
+   "x": 402,
+   "y": 177,
+   "w": 20,
+   "h": 14,
+   "kind": "button",
+   "param": null,
+   "sprite": "transparent",
+   "frames": 1,
+   "action": {
+    "type": "default",
+    "param": 5
+   }
+  },
+  {
+   "id": "left-knob-gain",
+   "x": 442,
+   "y": 48,
+   "w": 122,
+   "h": 122,
+   "kind": "knob",
+   "param": 1,
+   "sprite": "UA_Fairchild_INPUT_A",
+   "frames": 21
+  },
+  {
+   "id": "left-knob-threshold",
+   "x": 579,
+   "y": 48,
+   "w": 121,
+   "h": 121,
+   "kind": "knob",
+   "param": 2,
+   "sprite": "UA_Fairchild_THRESHOLD_A",
+   "frames": 101
+  },
+  {
+   "id": "left-knob-time",
+   "x": 706,
+   "y": 39,
+   "w": 140,
+   "h": 140,
+   "kind": "knob",
+   "param": 3,
+   "sprite": "UA_Fairchild660_TIMECONSTANT",
+   "frames": 6
+  },
+  {
+   "id": "left-knob-time-ctv-0",
+   "x": 708,
+   "y": 86,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "left-knob-time-ctv-1",
+   "x": 726,
+   "y": 60,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "left-knob-time-ctv-2",
+   "x": 752,
+   "y": 43,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "left-knob-time-ctv-3",
+   "x": 782,
+   "y": 43,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "left-knob-time-ctv-4",
+   "x": 808,
+   "y": 60,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "left-knob-time-ctv-5",
+   "x": 824,
+   "y": 86,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "power-switch",
+   "x": 105,
+   "y": 34,
+   "w": 50,
+   "h": 71,
+   "kind": "switch",
+   "param": 10,
+   "sprite": "UA_Fairchild_POWER",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "power-led-invisible-switch",
+   "x": 112,
+   "y": 95,
+   "w": 28,
+   "h": 30,
+   "kind": "switch",
+   "param": 10,
+   "sprite": "transparent",
+   "frames": 1
+  },
+  {
+   "id": "knob-master-sidechain",
+   "x": 119,
+   "y": 230,
+   "w": 110,
+   "h": 110,
+   "kind": "knob",
+   "param": 4,
+   "sprite": "UA_Fairchild_SIDECHAIN_A",
+   "frames": 101
+  },
+  {
+   "id": "knob-master-sidechain-ctv-0",
+   "x": 133,
+   "y": 322,
+   "w": 24,
+   "h": 16,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "knob-master-dcthreshold",
+   "x": 297,
+   "y": 256,
+   "w": 70,
+   "h": 62,
+   "kind": "knob",
+   "param": 6,
+   "sprite": "UA_Fairchild_DCThres_B",
+   "frames": 101
+  },
+  {
+   "id": "knob-master-dcthreshold-ctv-0",
+   "x": 367,
+   "y": 271,
+   "w": 22,
+   "h": 16,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "knob-master-dcthreshold-ctv-1",
+   "x": 367,
+   "y": 285,
+   "w": 22,
+   "h": 16,
+   "kind": "zone",
+   "param": 6,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.859894
+   }
+  },
+  {
+   "id": "knob-master-output",
+   "x": 442,
+   "y": 224,
+   "w": 122,
+   "h": 122,
+   "kind": "knob",
+   "param": 7,
+   "sprite": "UA_Fairchild_OUTPUT_A_101steps",
+   "frames": 101
+  },
+  {
+   "id": "master-output-rtd",
+   "x": 473,
+   "y": 215,
+   "w": 60,
+   "h": 16,
+   "kind": "button",
+   "param": null,
+   "sprite": "transparent",
+   "frames": 1,
+   "action": {
+    "type": "default",
+    "param": 7
+   }
+  },
+  {
+   "id": "knob-master-mix",
+   "x": 721,
+   "y": 230,
+   "w": 110,
+   "h": 110,
+   "kind": "knob",
+   "param": 8,
+   "sprite": "UA_Fairchild_MIX",
+   "frames": 101
+  },
+  {
+   "id": "knob-master-mix-ctv-0",
+   "x": 738,
+   "y": 322,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "knob-master-mix-ctv-1",
+   "x": 766,
+   "y": 231,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "knob-master-mix-ctv-2",
+   "x": 795,
+   "y": 322,
+   "w": 20,
+   "h": 16,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 1.0
+   }
+  }
+ ]
+}

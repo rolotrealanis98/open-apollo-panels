@@ -1,0 +1,166 @@
+{
+ "schema": 2,
+ "effectName": "UAD Bermuda Triangle",
+ "namePattern": "Bermuda Triangle",
+ "size": {
+  "w": 480,
+  "h": 580
+ },
+ "background": "bermuda_triangle_7872",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Sustain",
+   "steps": null,
+   "default": 0.269989013671875
+  },
+  {
+   "index": 1,
+   "name": "Tone",
+   "steps": null,
+   "default": 0.324981689453125
+  },
+  {
+   "index": 2,
+   "name": "Volume",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "image-1-internal6",
+   "kind": "button",
+   "x": 190,
+   "y": 369,
+   "w": 100,
+   "h": 70,
+   "sprite": "bermuda_triangle_7873_1",
+   "frames": 2,
+   "action": {
+    "type": "toggle",
+    "param": 4
+   }
+  },
+  {
+   "id": "knob-2-sustain",
+   "x": 180,
+   "y": 91,
+   "w": 119,
+   "h": 98,
+   "sprite": "bermuda_triangle_7874",
+   "frames": 101,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "knob-3-tone",
+   "x": 270,
+   "y": 167,
+   "w": 119,
+   "h": 98,
+   "sprite": "bermuda_triangle_7875",
+   "frames": 101,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "knob-4-volume",
+   "x": 90,
+   "y": 167,
+   "w": 119,
+   "h": 98,
+   "sprite": "bermuda_triangle_7876",
+   "frames": 101,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "knob-5-output",
+   "x": 9,
+   "y": 505,
+   "w": 68,
+   "h": 66,
+   "sprite": "bermuda_triangle_7883",
+   "frames": 109,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "switch-6-power",
+   "kind": "switch",
+   "x": 410,
+   "y": 534,
+   "w": 61,
+   "h": 37,
+   "sprite": "P_bermuda_triangle_switch-6-power",
+   "frames": 2,
+   "param": 4,
+   "orientation": "vertical"
+  },
+  {
+   "id": "image-8-internal8-hover",
+   "kind": "image",
+   "x": 180,
+   "y": 91,
+   "w": 119,
+   "h": 98,
+   "sprite": "bermuda_triangle_7880",
+   "opacity": 0
+  },
+  {
+   "id": "image-9-internal8-hover",
+   "kind": "image",
+   "x": 90,
+   "y": 167,
+   "w": 119,
+   "h": 98,
+   "sprite": "bermuda_triangle_7881",
+   "opacity": 0
+  },
+  {
+   "id": "filmstrip-10-output-hover",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   },
+   "x": 9,
+   "y": 505,
+   "w": 68,
+   "h": 66,
+   "sprite": "bermuda_triangle_7882",
+   "frames": 109,
+   "opacity": 0
+  },
+  {
+   "id": "P-output-unity",
+   "kind": "zone",
+   "x": 37,
+   "y": 502,
+   "w": 12,
+   "h": 20,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.5
+   }
+  }
+ ],
+ "meterSources": {}
+}

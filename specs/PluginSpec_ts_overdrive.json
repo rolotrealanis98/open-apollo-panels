@@ -1,0 +1,249 @@
+{
+ "schema": 2,
+ "effectName": "UAD TS Overdrive",
+ "namePattern": "TS Overdrive",
+ "size": {
+  "w": 400,
+  "h": 520
+ },
+ "background": "ts_overdrive_8275",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Overdrive",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "Tone",
+   "steps": null,
+   "default": 0.689971923828125
+  },
+  {
+   "index": 2,
+   "name": "Level",
+   "steps": null,
+   "default": 0.904998779296875
+  },
+  {
+   "index": 3,
+   "name": "Enable",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 4,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "image-1-internal7",
+   "kind": "button",
+   "x": 160,
+   "y": 350,
+   "w": 80,
+   "h": 62,
+   "sprite": "ts_overdrive_8276_1",
+   "frames": 2,
+   "action": {
+    "type": "toggle",
+    "param": 3
+   }
+  },
+  {
+   "id": "knob-2-overdrive",
+   "x": 118,
+   "y": 155,
+   "w": 55,
+   "h": 70,
+   "sprite": "ts_overdrive_8279",
+   "frames": 101,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "knob-3-tone",
+   "x": 229,
+   "y": 155,
+   "w": 57,
+   "h": 70,
+   "sprite": "ts_overdrive_8281",
+   "frames": 101,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "knob-4-level",
+   "x": 173,
+   "y": 98,
+   "w": 56,
+   "h": 70,
+   "sprite": "ts_overdrive_8280",
+   "frames": 101,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "knob-5-output",
+   "x": 9,
+   "y": 448,
+   "w": 68,
+   "h": 66,
+   "sprite": "ts_overdrive_7900",
+   "frames": 109,
+   "kind": "knob",
+   "param": 4
+  },
+  {
+   "id": "filmstrip-6-internal8",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "table",
+    "params": [
+     3,
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "x": 173,
+   "y": 178,
+   "w": 56,
+   "h": 46,
+   "sprite": "ts_overdrive_8278",
+   "frames": 2
+  },
+  {
+   "id": "filmstrip-7-power",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 5
+   },
+   "x": 138,
+   "y": 0,
+   "w": 113,
+   "h": 98,
+   "sprite": "ts_overdrive_8277",
+   "frames": 2
+  },
+  {
+   "id": "zone-8-power",
+   "kind": "zone",
+   "x": 138,
+   "y": 0,
+   "w": 113,
+   "h": 98,
+   "param": 5,
+   "action": {
+    "type": "toggle",
+    "param": 5
+   }
+  },
+  {
+   "id": "switch-9-power",
+   "kind": "switch",
+   "x": 330,
+   "y": 477,
+   "w": 61,
+   "h": 37,
+   "sprite": "P_ts_overdrive_switch-9-power",
+   "frames": 2,
+   "param": 5,
+   "orientation": "vertical"
+  },
+  {
+   "id": "image-11-internal10-hover",
+   "kind": "image",
+   "x": 118,
+   "y": 155,
+   "w": 55,
+   "h": 70,
+   "sprite": "ts_overdrive_7897",
+   "opacity": 0
+  },
+  {
+   "id": "image-12-internal10-hover",
+   "kind": "image",
+   "x": 173,
+   "y": 98,
+   "w": 57,
+   "h": 70,
+   "sprite": "ts_overdrive_7898",
+   "opacity": 0
+  },
+  {
+   "id": "filmstrip-13-output-hover",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 4
+   },
+   "x": 9,
+   "y": 448,
+   "w": 68,
+   "h": 66,
+   "sprite": "ts_overdrive_7899",
+   "frames": 109,
+   "opacity": 0
+  },
+  {
+   "id": "P-output-unity",
+   "kind": "zone",
+   "x": 37,
+   "y": 445,
+   "w": 12,
+   "h": 20,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.5
+   }
+  }
+ ],
+ "meterSources": {}
+}

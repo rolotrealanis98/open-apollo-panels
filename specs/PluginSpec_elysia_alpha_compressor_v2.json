@@ -1,0 +1,14209 @@
+{
+ "schema": 2,
+ "effectName": "UAD elysia alpha compressor V2",
+ "namePattern": "elysia alpha compressor V2",
+ "size": {
+  "w": 1200,
+  "h": 463
+ },
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "Bank",
+   "steps": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Mon",
+   "steps": [
+    "Stereo",
+    "Mid",
+    "Side"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "MSMode",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Link",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 5,
+   "name": "AutGnMes",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "OutGain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "SCLink",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "",
+   "steps": [
+    "0",
+    "1"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "Ambience",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 10,
+   "name": "MonoMkFq",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "StereoWd",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 12,
+   "name": "SCListen",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "TMT",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 14,
+   "name": "TMTMode",
+   "steps": [
+    "Analog",
+    "Digital"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 15,
+   "name": "TX Drive",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 16,
+   "name": "Headroom",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 17,
+   "name": "ClipLink",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 18,
+   "name": "Thresh 1",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 19,
+   "name": "Forward1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 20,
+   "name": "Attack 1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 21,
+   "name": "AtkFast1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 22,
+   "name": "Release1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 23,
+   "name": "RelFast1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 24,
+   "name": "Ratio 1",
+   "steps": null,
+   "default": 0.3636363744735718
+  },
+  {
+   "index": 25,
+   "name": "EQ Gain1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 26,
+   "name": "EQ On 1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 27,
+   "name": "EQ Freq1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 28,
+   "name": "EQ x10 1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 29,
+   "name": "SC G 1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 30,
+   "name": "SCFltOn1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 31,
+   "name": "SC Freq1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 32,
+   "name": "Mix 1",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 33,
+   "name": "Direct 1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 34,
+   "name": "Comp 1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 35,
+   "name": "MakupG 1",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 36,
+   "name": "Clip 1",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 37,
+   "name": "ClipAct1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 38,
+   "name": "Tx On  1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 39,
+   "name": "GRLimit1",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 40,
+   "name": "Thresh 2",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 41,
+   "name": "Forward2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 42,
+   "name": "Attack 2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 43,
+   "name": "AtkFast2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 44,
+   "name": "Release2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 45,
+   "name": "RelFast2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 46,
+   "name": "Ratio 2",
+   "steps": null,
+   "default": 0.3636363744735718
+  },
+  {
+   "index": 47,
+   "name": "EQ Gain2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 48,
+   "name": "EQ On 2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 49,
+   "name": "EQ Freq2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 50,
+   "name": "EQ x10 2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 51,
+   "name": "SC G 2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 52,
+   "name": "SCFltOn2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 53,
+   "name": "SC Freq2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 54,
+   "name": "Mix 2",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 55,
+   "name": "Direct 2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 56,
+   "name": "Comp 2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 57,
+   "name": "MakupG 2",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 58,
+   "name": "Clip 2",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 59,
+   "name": "ClipAct2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 60,
+   "name": "Tx On  2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 61,
+   "name": "GRLimit2",
+   "steps": null,
+   "default": 0.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 1200,
+   "h": 24,
+   "toolbar": {
+    "family": "brainworx",
+    "items": [
+     {
+      "type": "switch",
+      "x": 0.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.power",
+      "frames": 2,
+      "param": 0,
+      "glyph": "power"
+     },
+     {
+      "type": "icon",
+      "x": 426.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.undo",
+      "frames": 2,
+      "glyph": "undo"
+     },
+     {
+      "type": "icon",
+      "x": 450.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.redo",
+      "frames": 2,
+      "glyph": "redo"
+     },
+     {
+      "type": "bank",
+      "x": 498.0,
+      "y": 0,
+      "w": 96.0,
+      "h": 24,
+      "sprite": "chrome.bx.bank",
+      "frames": 2,
+      "param": 1,
+      "cells": 4,
+      "glyph": "ABCD"
+     },
+     {
+      "type": "icon",
+      "x": 618.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.copy",
+      "frames": 2,
+      "glyph": "Copy"
+     },
+     {
+      "type": "icon",
+      "x": 670.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.paste",
+      "frames": 2,
+      "glyph": "Paste"
+     },
+     {
+      "type": "icon",
+      "x": 734.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.reset",
+      "frames": 2,
+      "glyph": "Reset"
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "chrome-toolbar-mono",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 774.0,
+   "h": 24,
+   "toolbar": {
+    "family": "brainworx",
+    "items": [
+     {
+      "type": "switch",
+      "x": 0.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.power",
+      "frames": 2,
+      "param": 0,
+      "glyph": "power"
+     },
+     {
+      "type": "icon",
+      "x": 213.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.undo",
+      "frames": 2,
+      "glyph": "undo"
+     },
+     {
+      "type": "icon",
+      "x": 237.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.redo",
+      "frames": 2,
+      "glyph": "redo"
+     },
+     {
+      "type": "bank",
+      "x": 285.0,
+      "y": 0,
+      "w": 96.0,
+      "h": 24,
+      "sprite": "chrome.bx.bank",
+      "frames": 2,
+      "param": 1,
+      "cells": 4,
+      "glyph": "ABCD"
+     },
+     {
+      "type": "icon",
+      "x": 405.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.copy",
+      "frames": 2,
+      "glyph": "Copy"
+     },
+     {
+      "type": "icon",
+      "x": 457.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.paste",
+      "frames": 2,
+      "glyph": "Paste"
+     },
+     {
+      "type": "icon",
+      "x": 521.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.reset",
+      "frames": 2,
+      "glyph": "Reset"
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "img-cviewcontainer",
+   "kind": "image",
+   "sprite": "elysia_alpha_compressor_v2__BACKGROUNDMAIN",
+   "x": 0.0,
+   "y": 24.0,
+   "w": 1200.0,
+   "h": 329.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-logo-off",
+   "kind": "image",
+   "x": 545,
+   "y": 121,
+   "w": 111,
+   "h": 111,
+   "sprite": "R_elysia_v2_logo_off",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "msmode-led",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_compressor_v2__LABEL-LM-BIG",
+   "frames": 2,
+   "x": 89.0,
+   "y": 250.0,
+   "w": 24.0,
+   "h": 24.0,
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "thresh1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBBIG-THRESH-L_C0",
+   "frames": 101,
+   "param": 18,
+   "x": 88.0,
+   "y": 70.0,
+   "w": 71.0,
+   "h": 71.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 18,
+   "x": 88.0,
+   "y": 70.0,
+   "w": 71.0,
+   "h": 71.0,
+   "id": "j-thresh1-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBBIG_THRESH_L_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "attack1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBBIG-ATTACK-L_C0",
+   "frames": 101,
+   "param": 20,
+   "x": 202.0,
+   "y": 70.0,
+   "w": 71.0,
+   "h": 71.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 20,
+   "x": 202.0,
+   "y": 70.0,
+   "w": 71.0,
+   "h": 71.0,
+   "id": "j-attack1-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBBIG_ATTACK_L_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "release1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBBIG-RELEASE-L_C0",
+   "frames": 101,
+   "param": 22,
+   "x": 315.0,
+   "y": 70.0,
+   "w": 71.0,
+   "h": 71.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 22,
+   "x": 315.0,
+   "y": 70.0,
+   "w": 71.0,
+   "h": 71.0,
+   "id": "j-release1-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBBIG_RELEASE_L_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ratio1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBBIG-RATIO-L_C0",
+   "frames": 101,
+   "param": 24,
+   "x": 428.0,
+   "y": 70.0,
+   "w": 71.0,
+   "h": 71.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 24,
+   "x": 428.0,
+   "y": 70.0,
+   "w": 71.0,
+   "h": 71.0,
+   "id": "j-ratio1-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBBIG_RATIO_L_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "eqgain1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBMED-EQGAIN-L_C0",
+   "frames": 101,
+   "param": 25,
+   "x": 93.0,
+   "y": 162.0,
+   "w": 61.0,
+   "h": 61.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 25,
+   "x": 93.0,
+   "y": 162.0,
+   "w": 61.0,
+   "h": 61.0,
+   "id": "j-eqgain1-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBMED_EQGAIN_L_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "eqfreq1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBMED-EQFREQ-L_C0",
+   "frames": 101,
+   "param": 27,
+   "x": 207.0,
+   "y": 162.0,
+   "w": 61.0,
+   "h": 61.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 27,
+   "x": 207.0,
+   "y": 162.0,
+   "w": 61.0,
+   "h": 61.0,
+   "id": "j-eqfreq1-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBMED_EQFREQ_L_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "mix1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBBIG-MIX-L_C0",
+   "frames": 101,
+   "param": 32,
+   "x": 145.0,
+   "y": 241.0,
+   "w": 71.0,
+   "h": 71.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 32,
+   "x": 145.0,
+   "y": 241.0,
+   "w": 71.0,
+   "h": 71.0,
+   "id": "j-mix1-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBBIG_MIX_L_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "makupg1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBBIG-GAIN-L_C0",
+   "frames": 101,
+   "param": 35,
+   "x": 258.0,
+   "y": 241.0,
+   "w": 71.0,
+   "h": 71.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 35,
+   "x": 258.0,
+   "y": 241.0,
+   "w": 71.0,
+   "h": 71.0,
+   "id": "j-makupg1-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBBIG_GAIN_L_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "clip1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBBIG-SOFTCLIP-L_C0",
+   "frames": 101,
+   "param": 36,
+   "x": 371.0,
+   "y": 241.0,
+   "w": 71.0,
+   "h": 71.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 36,
+   "x": 371.0,
+   "y": 241.0,
+   "w": 71.0,
+   "h": 71.0,
+   "id": "j-clip1-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBBIG_SOFTCLIP_L_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "scg1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBMED-SCGAIN-L_C0",
+   "frames": 101,
+   "param": 29,
+   "x": 320.0,
+   "y": 162.0,
+   "w": 61.0,
+   "h": 61.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 29,
+   "x": 320.0,
+   "y": 162.0,
+   "w": 61.0,
+   "h": 61.0,
+   "id": "j-scg1-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBMED_SCGAIN_L_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "scfreq1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBMED-SCFREQ-L_C0",
+   "frames": 101,
+   "param": 31,
+   "x": 433.0,
+   "y": 162.0,
+   "w": 61.0,
+   "h": 61.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 31,
+   "x": 433.0,
+   "y": 162.0,
+   "w": 61.0,
+   "h": 61.0,
+   "id": "j-scfreq1-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBMED_SCFREQ_L_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "forward1-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-L2_C0",
+   "frames": 4,
+   "param": 19,
+   "orientation": "vertical",
+   "x": 162.0,
+   "y": 112.0,
+   "w": 33.0,
+   "h": 33.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     19,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "atkfast1-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-L1_C0",
+   "frames": 4,
+   "param": 21,
+   "orientation": "vertical",
+   "x": 275.0,
+   "y": 112.0,
+   "w": 33.0,
+   "h": 33.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     21,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "relfast1-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-L1_C0",
+   "frames": 4,
+   "param": 23,
+   "orientation": "vertical",
+   "x": 388.0,
+   "y": 112.0,
+   "w": 33.0,
+   "h": 33.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     23,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "eqon1-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-L2_C0",
+   "frames": 4,
+   "param": 26,
+   "orientation": "vertical",
+   "x": 158.0,
+   "y": 194.0,
+   "w": 33.0,
+   "h": 33.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     26,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "eqx101-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-L1_C0",
+   "frames": 4,
+   "param": 28,
+   "orientation": "vertical",
+   "x": 271.0,
+   "y": 194.0,
+   "w": 33.0,
+   "h": 33.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     28,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "scflton1-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-L1_C0",
+   "frames": 4,
+   "param": 30,
+   "orientation": "vertical",
+   "x": 384.0,
+   "y": 194.0,
+   "w": 33.0,
+   "h": 33.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     30,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "direct1-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-L2_C0",
+   "frames": 4,
+   "param": 33,
+   "orientation": "vertical",
+   "x": 110.0,
+   "y": 283.0,
+   "w": 33.0,
+   "h": 33.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     33,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "comp1-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-L2_C0",
+   "frames": 4,
+   "param": 34,
+   "orientation": "vertical",
+   "x": 218.0,
+   "y": 283.0,
+   "w": 33.0,
+   "h": 33.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     34,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "clipact1-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-L1_C0",
+   "frames": 4,
+   "param": 37,
+   "orientation": "vertical",
+   "x": 445.0,
+   "y": 283.0,
+   "w": 33.0,
+   "h": 33.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     37,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "txon1-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-L1_C0",
+   "frames": 4,
+   "param": 38,
+   "orientation": "vertical",
+   "x": 331.0,
+   "y": 283.0,
+   "w": 33.0,
+   "h": 33.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     38,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "msmode-led-1",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_compressor_v2__LABEL-RS-BIG",
+   "frames": 2,
+   "x": 1091.0,
+   "y": 250.0,
+   "w": 24.0,
+   "h": 24.0,
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "thresh2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBBIG-THRESH-R_C0",
+   "frames": 101,
+   "param": 40,
+   "x": 702.0,
+   "y": 70.0,
+   "w": 71.0,
+   "h": 71.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 0
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 40,
+   "x": 702.0,
+   "y": 70.0,
+   "w": 71.0,
+   "h": 71.0,
+   "id": "j-thresh2-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBBIG_THRESH_R_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 1
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "id": "attack2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBBIG-ATTACK-R_C0",
+   "frames": 101,
+   "param": 42,
+   "x": 815.0,
+   "y": 70.0,
+   "w": 71.0,
+   "h": 71.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 0
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 42,
+   "x": 815.0,
+   "y": 70.0,
+   "w": 71.0,
+   "h": 71.0,
+   "id": "j-attack2-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBBIG_ATTACK_R_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 1
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "id": "release2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBBIG-RELEASE-R_C0",
+   "frames": 101,
+   "param": 44,
+   "x": 928.0,
+   "y": 70.0,
+   "w": 71.0,
+   "h": 71.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 0
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 44,
+   "x": 928.0,
+   "y": 70.0,
+   "w": 71.0,
+   "h": 71.0,
+   "id": "j-release2-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBBIG_RELEASE_R_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 1
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "id": "ratio2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBBIG-RATIO-R_C0",
+   "frames": 101,
+   "param": 46,
+   "x": 1041.0,
+   "y": 70.0,
+   "w": 71.0,
+   "h": 71.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 0
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 46,
+   "x": 1041.0,
+   "y": 70.0,
+   "w": 71.0,
+   "h": 71.0,
+   "id": "j-ratio2-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBBIG_RATIO_R_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 1
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "id": "eqgain2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBMED-EQGAIN-R_C0",
+   "frames": 101,
+   "param": 47,
+   "x": 706.0,
+   "y": 162.0,
+   "w": 61.0,
+   "h": 61.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 0
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 47,
+   "x": 706.0,
+   "y": 162.0,
+   "w": 61.0,
+   "h": 61.0,
+   "id": "j-eqgain2-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBMED_EQGAIN_R_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 1
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "id": "eqfreq2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBMED-EQFREQ-R_C0",
+   "frames": 101,
+   "param": 49,
+   "x": 820.0,
+   "y": 162.0,
+   "w": 61.0,
+   "h": 61.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 0
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 49,
+   "x": 820.0,
+   "y": 162.0,
+   "w": 61.0,
+   "h": 61.0,
+   "id": "j-eqfreq2-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBMED_EQFREQ_R_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 1
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "id": "mix2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBBIG-MIX-R_C0",
+   "frames": 101,
+   "param": 54,
+   "x": 758.0,
+   "y": 241.0,
+   "w": 71.0,
+   "h": 71.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 0
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 54,
+   "x": 758.0,
+   "y": 241.0,
+   "w": 71.0,
+   "h": 71.0,
+   "id": "j-mix2-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBBIG_MIX_R_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 1
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "id": "makupg2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBBIG-GAIN-R_C0",
+   "frames": 101,
+   "param": 57,
+   "x": 871.0,
+   "y": 241.0,
+   "w": 71.0,
+   "h": 71.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 0
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 57,
+   "x": 871.0,
+   "y": 241.0,
+   "w": 71.0,
+   "h": 71.0,
+   "id": "j-makupg2-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBBIG_GAIN_R_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 1
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "id": "clip2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBBIG-SOFTCLIP-R_C0",
+   "frames": 101,
+   "param": 58,
+   "x": 985.0,
+   "y": 241.0,
+   "w": 71.0,
+   "h": 71.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 0
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 58,
+   "x": 985.0,
+   "y": 241.0,
+   "w": 71.0,
+   "h": 71.0,
+   "id": "j-clip2-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBBIG_SOFTCLIP_R_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 1
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "id": "scg2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBMED-SCGAIN-R_C0",
+   "frames": 101,
+   "param": 51,
+   "x": 933.0,
+   "y": 162.0,
+   "w": 61.0,
+   "h": 61.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 0
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 51,
+   "x": 933.0,
+   "y": 162.0,
+   "w": 61.0,
+   "h": 61.0,
+   "id": "j-scg2-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBMED_SCGAIN_R_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 1
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "id": "scfreq2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBMED-SCFREQ-R_C0",
+   "frames": 101,
+   "param": 53,
+   "x": 1046.0,
+   "y": 162.0,
+   "w": 61.0,
+   "h": 61.0,
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 0
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "kind": "knob",
+   "frames": 101,
+   "param": 53,
+   "x": 1046.0,
+   "y": 162.0,
+   "w": 61.0,
+   "h": 61.0,
+   "id": "j-scfreq2-knob-on",
+   "sprite": "J_elysia_alpha_compressor_v2_KNOBMED_SCFREQ_R_C1",
+   "visibility": {
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       0.0,
+       2
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0,
+       2
+      ],
+      "opacity": 1
+     }
+    ],
+    "states": [
+     "channels"
+    ]
+   }
+  },
+  {
+   "id": "forward2-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-R1_C0",
+   "frames": 4,
+   "param": 41,
+   "orientation": "vertical",
+   "x": 775.0,
+   "y": 112.0,
+   "w": 33.0,
+   "h": 33.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     41,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "atkfast2-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-R1_C0",
+   "frames": 4,
+   "param": 43,
+   "orientation": "vertical",
+   "x": 889.0,
+   "y": 112.0,
+   "w": 33.0,
+   "h": 33.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     43,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "relfast2-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-R2_C0",
+   "frames": 4,
+   "param": 45,
+   "orientation": "vertical",
+   "x": 1002.0,
+   "y": 112.0,
+   "w": 33.0,
+   "h": 33.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     45,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "eqon2-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-R1_C0",
+   "frames": 4,
+   "param": 48,
+   "orientation": "vertical",
+   "x": 772.0,
+   "y": 194.0,
+   "w": 33.0,
+   "h": 33.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     48,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "eqx102-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-R1_C0",
+   "frames": 4,
+   "param": 50,
+   "orientation": "vertical",
+   "x": 885.0,
+   "y": 194.0,
+   "w": 33.0,
+   "h": 33.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     50,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "scflton2-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-R2_C0",
+   "frames": 4,
+   "param": 52,
+   "orientation": "vertical",
+   "x": 998.0,
+   "y": 194.0,
+   "w": 33.0,
+   "h": 33.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     52,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "direct2-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-R1_C0",
+   "frames": 4,
+   "param": 55,
+   "orientation": "vertical",
+   "x": 723.0,
+   "y": 283.0,
+   "w": 33.0,
+   "h": 33.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     55,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "comp2-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-R1_C0",
+   "frames": 4,
+   "param": 56,
+   "orientation": "vertical",
+   "x": 832.0,
+   "y": 283.0,
+   "w": 33.0,
+   "h": 33.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     56,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "clipact2-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-R2_C0",
+   "frames": 4,
+   "param": 59,
+   "orientation": "vertical",
+   "x": 1059.0,
+   "y": 283.0,
+   "w": 33.0,
+   "h": 33.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     59,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "txon2-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-R2_C0",
+   "frames": 4,
+   "param": 60,
+   "orientation": "vertical",
+   "x": 945.0,
+   "y": 283.0,
+   "w": 33.0,
+   "h": 33.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     60,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "power-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-ACTIVE_C0",
+   "frames": 4,
+   "param": 0,
+   "orientation": "vertical",
+   "x": 584.0,
+   "y": 283.0,
+   "w": 33.0,
+   "h": 33.0
+  },
+  {
+   "id": "msmode-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-L1_C0",
+   "frames": 4,
+   "param": 3,
+   "orientation": "vertical",
+   "x": 527.0,
+   "y": 283.0,
+   "w": 33.0,
+   "h": 33.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     3,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "link-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-R1_C0",
+   "frames": 4,
+   "param": 4,
+   "orientation": "vertical",
+   "x": 641.0,
+   "y": 283.0,
+   "w": 33.0,
+   "h": 33.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     4,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "cbxextendedmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_compressor_v2__METER-GR-LEFT",
+   "frames": 33,
+   "x": 500.0,
+   "y": 87.0,
+   "w": 68.0,
+   "h": 180.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000009"
+   }
+  },
+  {
+   "id": "cbxextendedmoviebitmap-led-1",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_compressor_v2__METER-GR-RIGHT",
+   "frames": 33,
+   "x": 633.0,
+   "y": 87.0,
+   "w": 68.0,
+   "h": 180.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_4000000a"
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cbxextendedmoviebitmap-led-2",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_compressor_v2__METER-GRLIMIT-LEFT",
+   "frames": 17,
+   "x": 500.0,
+   "y": 87.0,
+   "w": 68.0,
+   "h": 180.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     39
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0625
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       0.125
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.1875
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.25
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       0.3125
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       0.375
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.4375
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.5625
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.625
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.6875
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.75
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.8125
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.875
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.9375
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cbxextendedmoviebitmap-led-3",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_compressor_v2__METER-GRLIMIT-RIGHT",
+   "frames": 17,
+   "x": 633.0,
+   "y": 87.0,
+   "w": 68.0,
+   "h": 180.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     61
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0625
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       0.125
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.1875
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.25
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       0.3125
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       0.375
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.4375
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.5625
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.625
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.6875
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.75
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.8125
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.875
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.9375
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cbxextendedmoviebitmap-led-4",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_compressor_v2__LED-SOFTCLIP",
+   "frames": 9,
+   "x": 571.0,
+   "y": 81.0,
+   "w": 13.0,
+   "h": 13.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000005"
+   }
+  },
+  {
+   "id": "cbxextendedmoviebitmap-led-5",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_compressor_v2__LED-SOFTCLIP",
+   "frames": 9,
+   "x": 616.0,
+   "y": 81.0,
+   "w": 13.0,
+   "h": 13.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000006"
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "img-cviewcontainer-1",
+   "kind": "image",
+   "sprite": "elysia_alpha_compressor_v2__BACKGROUNDBX",
+   "x": 0.0,
+   "y": 353.0,
+   "w": 1200.0,
+   "h": 110.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-m11-bg-8",
+   "kind": "image",
+   "sprite": "Q_elysia_alpha_compressor_v2__BACKGROUNDBX-MONO",
+   "x": 0.0,
+   "y": 353.0,
+   "w": 774.0,
+   "h": 110.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-m11-bg-7",
+   "kind": "image",
+   "sprite": "Q_elysia_alpha_compressor_v2__BACKGROUNDMAIN-MONO",
+   "x": 0.0,
+   "y": 24.0,
+   "w": 774.0,
+   "h": 329.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "sclisten-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-L1_C0",
+   "frames": 4,
+   "param": 12,
+   "orientation": "vertical",
+   "x": 359.0,
+   "y": 393.0,
+   "w": 33.0,
+   "h": 33.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     12,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-m11-sclisten-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-L1_C0",
+   "frames": 4,
+   "param": 12,
+   "orientation": "vertical",
+   "x": 264.0,
+   "y": 393.0,
+   "w": 33.0,
+   "h": 33.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     12,
+     0,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "ambience-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-L1_C0",
+   "frames": 4,
+   "param": 9,
+   "orientation": "vertical",
+   "x": 400.0,
+   "y": 393.0,
+   "w": 33.0,
+   "h": 33.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     9,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-m11-ambience-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-L1_C0",
+   "frames": 4,
+   "param": 9,
+   "orientation": "vertical",
+   "x": 305.0,
+   "y": 393.0,
+   "w": 33.0,
+   "h": 33.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     9,
+     0,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "tmt-led",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_compressor_v2__TMT-NUMBERS",
+   "frames": 21,
+   "x": 159.0,
+   "y": 395.0,
+   "w": 43.0,
+   "h": 31.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     13,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.01,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.01,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.02,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.02,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.03,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.03,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.04,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.04,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.05,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.05,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.06,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.06,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.07,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.07,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.08,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.08,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.09,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.09,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.1,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.11,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.11,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.12,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.12,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.13,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.13,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.14,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.14,
+       1.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.15,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.15,
+       1.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.16,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.16,
+       1.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.17,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.17,
+       1.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.18,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.18,
+       1.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.19,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.19,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.2,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.2,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.21,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.21,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.22,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.22,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.23,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.23,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.24,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.24,
+       1.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.25,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.25,
+       1.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.26,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.26,
+       1.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.27,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.27,
+       1.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.28,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.28,
+       1.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.29,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.29,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.3,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.3,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.31,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.31,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.32,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.32,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.33,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.33,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.34,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.34,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.35,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.35,
+       1.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.36,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.36,
+       1.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.37,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.37,
+       1.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.38,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.38,
+       1.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.39,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.39,
+       1.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.4,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.4,
+       1.0
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.41,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.41,
+       1.0
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.42,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.42,
+       1.0
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.43,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.43,
+       1.0
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.44,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.44,
+       1.0
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.45,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.45,
+       1.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       0.46,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.46,
+       1.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       0.47,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.47,
+       1.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       0.48,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.48,
+       1.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       0.49,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.49,
+       1.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       0.5,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.51,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.51,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.52,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.52,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.53,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.53,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.54,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.54,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.55,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.55,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.56,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.56,
+       1.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       0.57,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.57,
+       1.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       0.58,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.58,
+       1.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       0.59,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.59,
+       1.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       0.6,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6,
+       1.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       0.61,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.61,
+       1.0
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       0.62,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.62,
+       1.0
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       0.63,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.63,
+       1.0
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       0.64,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.64,
+       1.0
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       0.65,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.65,
+       1.0
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       0.66,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.66,
+       1.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.67,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.67,
+       1.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.68,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.68,
+       1.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.69,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.69,
+       1.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.7,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.7,
+       1.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.71,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.71,
+       1.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.72,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.72,
+       1.0
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.73,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.73,
+       1.0
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.74,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.74,
+       1.0
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.75,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.75,
+       1.0
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.76,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.76,
+       1.0
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.77,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.77,
+       1.0
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       0.78,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.78,
+       1.0
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       0.79,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.79,
+       1.0
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       0.8,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.8,
+       1.0
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       0.81,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.81,
+       1.0
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       0.82,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.82,
+       1.0
+      ],
+      "frame": 17
+     },
+     {
+      "key": [
+       0.83,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.83,
+       1.0
+      ],
+      "frame": 17
+     },
+     {
+      "key": [
+       0.84,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.84,
+       1.0
+      ],
+      "frame": 17
+     },
+     {
+      "key": [
+       0.85,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.85,
+       1.0
+      ],
+      "frame": 17
+     },
+     {
+      "key": [
+       0.86,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.86,
+       1.0
+      ],
+      "frame": 17
+     },
+     {
+      "key": [
+       0.87,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.87,
+       1.0
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.88,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.88,
+       1.0
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.89,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.89,
+       1.0
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.9,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.9,
+       1.0
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.91,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.91,
+       1.0
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.92,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.92,
+       1.0
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.93,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.93,
+       1.0
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       0.94,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.94,
+       1.0
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       0.95,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.95,
+       1.0
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       0.96,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.96,
+       1.0
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       0.97,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.97,
+       1.0
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       0.98,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.98,
+       1.0
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       0.99,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.99,
+       1.0
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 19
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-m11-tmt-led",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_compressor_v2__TMT-NUMBERS",
+   "frames": 21,
+   "x": 115.0,
+   "y": 395.0,
+   "w": 43.0,
+   "h": 31.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     13,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.01,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.01,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.02,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.02,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.03,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.03,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.04,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.04,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.05,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.05,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.06,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.06,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.07,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.07,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.08,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.08,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.09,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.09,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.1,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.11,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.11,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.12,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.12,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.13,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.13,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.14,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.14,
+       1.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.15,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.15,
+       1.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.16,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.16,
+       1.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.17,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.17,
+       1.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.18,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.18,
+       1.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.19,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.19,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.2,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.2,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.21,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.21,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.22,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.22,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.23,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.23,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.24,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.24,
+       1.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.25,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.25,
+       1.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.26,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.26,
+       1.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.27,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.27,
+       1.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.28,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.28,
+       1.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.29,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.29,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.3,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.3,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.31,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.31,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.32,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.32,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.33,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.33,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.34,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.34,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.35,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.35,
+       1.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.36,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.36,
+       1.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.37,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.37,
+       1.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.38,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.38,
+       1.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.39,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.39,
+       1.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.4,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.4,
+       1.0
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.41,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.41,
+       1.0
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.42,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.42,
+       1.0
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.43,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.43,
+       1.0
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.44,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.44,
+       1.0
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.45,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.45,
+       1.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       0.46,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.46,
+       1.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       0.47,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.47,
+       1.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       0.48,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.48,
+       1.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       0.49,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.49,
+       1.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       0.5,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.51,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.51,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.52,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.52,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.53,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.53,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.54,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.54,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.55,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.55,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.56,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.56,
+       1.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       0.57,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.57,
+       1.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       0.58,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.58,
+       1.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       0.59,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.59,
+       1.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       0.6,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6,
+       1.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       0.61,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.61,
+       1.0
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       0.62,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.62,
+       1.0
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       0.63,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.63,
+       1.0
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       0.64,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.64,
+       1.0
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       0.65,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.65,
+       1.0
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       0.66,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.66,
+       1.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.67,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.67,
+       1.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.68,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.68,
+       1.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.69,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.69,
+       1.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.7,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.7,
+       1.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.71,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.71,
+       1.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.72,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.72,
+       1.0
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.73,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.73,
+       1.0
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.74,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.74,
+       1.0
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.75,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.75,
+       1.0
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.76,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.76,
+       1.0
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.77,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.77,
+       1.0
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       0.78,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.78,
+       1.0
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       0.79,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.79,
+       1.0
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       0.8,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.8,
+       1.0
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       0.81,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.81,
+       1.0
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       0.82,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.82,
+       1.0
+      ],
+      "frame": 17
+     },
+     {
+      "key": [
+       0.83,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.83,
+       1.0
+      ],
+      "frame": 17
+     },
+     {
+      "key": [
+       0.84,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.84,
+       1.0
+      ],
+      "frame": 17
+     },
+     {
+      "key": [
+       0.85,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.85,
+       1.0
+      ],
+      "frame": 17
+     },
+     {
+      "key": [
+       0.86,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.86,
+       1.0
+      ],
+      "frame": 17
+     },
+     {
+      "key": [
+       0.87,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.87,
+       1.0
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.88,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.88,
+       1.0
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.89,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.89,
+       1.0
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.9,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.9,
+       1.0
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.91,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.91,
+       1.0
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.92,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.92,
+       1.0
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.93,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.93,
+       1.0
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       0.94,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.94,
+       1.0
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       0.95,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.95,
+       1.0
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       0.96,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.96,
+       1.0
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       0.97,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.97,
+       1.0
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       0.98,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.98,
+       1.0
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       0.99,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.99,
+       1.0
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 19
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "msmode-led-2",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_compressor_v2__LABEL-LM-TMT",
+   "frames": 2,
+   "x": 178.0,
+   "y": 436.0,
+   "w": 18.0,
+   "h": 11.0,
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "msmode-led-3",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_compressor_v2__LABEL-LM-SMALL",
+   "frames": 2,
+   "x": 600.0,
+   "y": 436.0,
+   "w": 18.0,
+   "h": 11.0,
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "grlimit1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBSMALL-GRLIMIT-17",
+   "frames": 17,
+   "param": 39,
+   "x": 586.0,
+   "y": 387.0,
+   "w": 47.0,
+   "h": 47.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-m11-grlimit1-knob",
+   "kind": "knob",
+   "sprite": "Q_elysia_alpha_compressor_v2__KNOBSMALL-GRLIMIT-MONO",
+   "frames": 17,
+   "param": 39,
+   "x": 363.0,
+   "y": 387.0,
+   "w": 47.0,
+   "h": 47.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels",
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1,
+       2
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2,
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2,
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "tmt-led-1",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_compressor_v2__TMT-NUMBERS",
+   "frames": 21,
+   "x": 253.0,
+   "y": 395.0,
+   "w": 43.0,
+   "h": 31.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     13,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.01,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.01,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.02,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.02,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.03,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.03,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.04,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.04,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.05,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.05,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.06,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.06,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.07,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.07,
+       1.0
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.08,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.08,
+       1.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.09,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.09,
+       1.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.1,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.1,
+       1.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.11,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.11,
+       1.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.12,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.12,
+       1.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.13,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.13,
+       1.0
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.14,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.14,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.15,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.15,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.16,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.16,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.17,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.17,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.18,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.18,
+       1.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.19,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.19,
+       1.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.2,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.2,
+       1.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.21,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.21,
+       1.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.22,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.22,
+       1.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.23,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.23,
+       1.0
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.24,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.24,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.25,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.25,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.26,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.26,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.27,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.27,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.28,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.28,
+       1.0
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.29,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.29,
+       1.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.3,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.3,
+       1.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.31,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.31,
+       1.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.32,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.32,
+       1.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.33,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.33,
+       1.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.34,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.34,
+       1.0
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.35,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.35,
+       1.0
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.36,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.36,
+       1.0
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.37,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.37,
+       1.0
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.38,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.38,
+       1.0
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.39,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.39,
+       1.0
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.4,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.4,
+       1.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       0.41,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.41,
+       1.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       0.42,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.42,
+       1.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       0.43,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.43,
+       1.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       0.44,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.44,
+       1.0
+      ],
+      "frame": 10
+     },
+     {
+      "key": [
+       0.45,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.45,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.46,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.46,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.47,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.47,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.48,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.48,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.49,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.49,
+       1.0
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.5,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5,
+       1.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       0.51,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.51,
+       1.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       0.52,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.52,
+       1.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       0.53,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.53,
+       1.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       0.54,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.54,
+       1.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       0.55,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.55,
+       1.0
+      ],
+      "frame": 12
+     },
+     {
+      "key": [
+       0.56,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.56,
+       1.0
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       0.57,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.57,
+       1.0
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       0.58,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.58,
+       1.0
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       0.59,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.59,
+       1.0
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       0.6,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6,
+       1.0
+      ],
+      "frame": 13
+     },
+     {
+      "key": [
+       0.61,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.61,
+       1.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.62,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.62,
+       1.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.63,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.63,
+       1.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.64,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.64,
+       1.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.65,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.65,
+       1.0
+      ],
+      "frame": 14
+     },
+     {
+      "key": [
+       0.66,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.66,
+       1.0
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.67,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.67,
+       1.0
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.68,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.68,
+       1.0
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.69,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.69,
+       1.0
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.7,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.7,
+       1.0
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.71,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.71,
+       1.0
+      ],
+      "frame": 15
+     },
+     {
+      "key": [
+       0.72,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.72,
+       1.0
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       0.73,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.73,
+       1.0
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       0.74,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.74,
+       1.0
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       0.75,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.75,
+       1.0
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       0.76,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.76,
+       1.0
+      ],
+      "frame": 16
+     },
+     {
+      "key": [
+       0.77,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.77,
+       1.0
+      ],
+      "frame": 17
+     },
+     {
+      "key": [
+       0.78,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.78,
+       1.0
+      ],
+      "frame": 17
+     },
+     {
+      "key": [
+       0.79,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.79,
+       1.0
+      ],
+      "frame": 17
+     },
+     {
+      "key": [
+       0.8,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.8,
+       1.0
+      ],
+      "frame": 17
+     },
+     {
+      "key": [
+       0.81,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.81,
+       1.0
+      ],
+      "frame": 17
+     },
+     {
+      "key": [
+       0.82,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.82,
+       1.0
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.83,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.83,
+       1.0
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.84,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.84,
+       1.0
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.85,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.85,
+       1.0
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.86,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.86,
+       1.0
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.87,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.87,
+       1.0
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       0.88,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.88,
+       1.0
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       0.89,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.89,
+       1.0
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       0.9,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.9,
+       1.0
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       0.91,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.91,
+       1.0
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       0.92,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.92,
+       1.0
+      ],
+      "frame": 19
+     },
+     {
+      "key": [
+       0.93,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.93,
+       1.0
+      ],
+      "frame": 20
+     },
+     {
+      "key": [
+       0.94,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.94,
+       1.0
+      ],
+      "frame": 20
+     },
+     {
+      "key": [
+       0.95,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.95,
+       1.0
+      ],
+      "frame": 20
+     },
+     {
+      "key": [
+       0.96,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.96,
+       1.0
+      ],
+      "frame": 20
+     },
+     {
+      "key": [
+       0.97,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.97,
+       1.0
+      ],
+      "frame": 20
+     },
+     {
+      "key": [
+       0.98,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.98,
+       1.0
+      ],
+      "frame": 20
+     },
+     {
+      "key": [
+       0.99,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.99,
+       1.0
+      ],
+      "frame": 20
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 20
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "msmode-led-4",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_compressor_v2__LABEL-RS-TMT",
+   "frames": 2,
+   "x": 257.0,
+   "y": 436.0,
+   "w": 23.0,
+   "h": 11.0,
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "msmode-led-5",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_compressor_v2__LABEL-RS-SMALL",
+   "frames": 2,
+   "x": 657.0,
+   "y": 436.0,
+   "w": 23.0,
+   "h": 11.0,
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "grlimit2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBSMALL-GRLIMIT-17",
+   "frames": 17,
+   "param": 61,
+   "x": 646.0,
+   "y": 387.0,
+   "w": 47.0,
+   "h": 47.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-m11-grlimit2-knob",
+   "kind": "knob",
+   "sprite": "Q_elysia_alpha_compressor_v2__KNOBSMALL-GRLIMIT-MONO",
+   "frames": 17,
+   "param": 61,
+   "x": 646.0,
+   "y": 387.0,
+   "w": 47.0,
+   "h": 47.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels",
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1,
+       2
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2,
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2,
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "headroom-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBSMALL-HEADROOM",
+   "frames": 101,
+   "param": 16,
+   "x": 724.0,
+   "y": 387.0,
+   "w": 47.0,
+   "h": 47.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-m11-headroom-knob",
+   "kind": "knob",
+   "sprite": "Q_elysia_alpha_compressor_v2__KNOBSMALL-HEADROOM-MONO",
+   "frames": 101,
+   "param": 16,
+   "x": 439.0,
+   "y": 387.0,
+   "w": 47.0,
+   "h": 47.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels",
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1,
+       2
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2,
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2,
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "txdrive-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBSMALL-HEADROOM",
+   "frames": 101,
+   "param": 15,
+   "x": 784.0,
+   "y": 387.0,
+   "w": 47.0,
+   "h": 47.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-m11-txdrive-knob",
+   "kind": "knob",
+   "sprite": "Q_elysia_alpha_compressor_v2__KNOBSMALL-COMPSCLINK",
+   "frames": 101,
+   "param": 15,
+   "x": 499.0,
+   "y": 387.0,
+   "w": 47.0,
+   "h": 47.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels",
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1,
+       2
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2,
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2,
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cliplink-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-L1_C0",
+   "frames": 4,
+   "param": 17,
+   "orientation": "vertical",
+   "x": 452.0,
+   "y": 393.0,
+   "w": 33.0,
+   "h": 33.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     17,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "tmtmode-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-L2_C0",
+   "frames": 4,
+   "param": 14,
+   "orientation": "vertical",
+   "x": 116.0,
+   "y": 393.0,
+   "w": 33.0,
+   "h": 33.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   },
+   "frameSource": {
+    "type": "table",
+    "params": [
+     14,
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "autgnmes-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_compressor_v2__BUTTON-R2-2_C0",
+   "frames": 2,
+   "param": 5,
+   "orientation": "vertical",
+   "x": 990.0,
+   "y": 393.0,
+   "w": 33.0,
+   "h": 33.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-m11-autgnmes-switch",
+   "kind": "switch",
+   "sprite": "Q_elysia_alpha_compressor_v2__BUTTON-R1-2",
+   "frames": 2,
+   "param": 5,
+   "orientation": "vertical",
+   "x": 569.0,
+   "y": 393.0,
+   "w": 33.0,
+   "h": 33.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels",
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1,
+       2
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2,
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2,
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "sclink-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBSMALL-COMPSCLINK",
+   "frames": 101,
+   "param": 7,
+   "x": 509.0,
+   "y": 387.0,
+   "w": 47.0,
+   "h": 47.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "outgain-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBSMALL-OUTPUT",
+   "frames": 101,
+   "param": 6,
+   "x": 1035.0,
+   "y": 387.0,
+   "w": 47.0,
+   "h": 47.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-m11-outgain-knob",
+   "kind": "knob",
+   "sprite": "Q_elysia_alpha_compressor_v2__KNOBSMALL-IMAGING",
+   "frames": 101,
+   "param": 6,
+   "x": 613.0,
+   "y": 387.0,
+   "w": 47.0,
+   "h": 47.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels",
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1,
+       2
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2,
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2,
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "monomkfq-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBSMALL-IMAGING",
+   "frames": 101,
+   "param": 10,
+   "x": 860.0,
+   "y": 387.0,
+   "w": 47.0,
+   "h": 47.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "stereowd-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBSMALL-IMAGING",
+   "frames": 101,
+   "param": 11,
+   "x": 920.0,
+   "y": 387.0,
+   "w": 47.0,
+   "h": 47.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "tmt-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBSMALL-TMT_C0",
+   "frames": 101,
+   "param": 13,
+   "x": 204.0,
+   "y": 387.0,
+   "w": 47.0,
+   "h": 47.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-m11-tmt-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_compressor_v2__KNOBSMALL-TMT_C0",
+   "frames": 101,
+   "param": 13,
+   "x": 159.0,
+   "y": 387.0,
+   "w": 47.0,
+   "h": 47.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "tmtmode-led",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_compressor_v2__LED-TMT",
+   "frames": 2,
+   "x": 117.0,
+   "y": 372.0,
+   "w": 9.0,
+   "h": 19.0,
+   "frameSource": {
+    "type": "param",
+    "param": 14
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "meter-76",
+   "kind": "filmstrip",
+   "sprite": "Q_elysia_alpha_compressor_v2__MS_meter_40000001",
+   "frames": 10,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000001"
+   },
+   "x": 81.0,
+   "y": 380.0,
+   "w": 9,
+   "h": 66
+  },
+  {
+   "id": "meter-77",
+   "kind": "filmstrip",
+   "sprite": "Q_elysia_alpha_compressor_v2__MS_meter_40000002",
+   "frames": 10,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000002"
+   },
+   "x": 90.0,
+   "y": 380.0,
+   "w": 9,
+   "h": 66,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "meter-78",
+   "kind": "filmstrip",
+   "sprite": "Q_elysia_alpha_compressor_v2__MS_meter_40000003",
+   "frames": 10,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000003"
+   },
+   "x": 1101.0,
+   "y": 380.0,
+   "w": 9,
+   "h": 66,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-m11-meter-78",
+   "kind": "filmstrip",
+   "sprite": "Q_elysia_alpha_compressor_v2__MS_meter_40000003",
+   "frames": 10,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000003"
+   },
+   "x": 683.0,
+   "y": 380.0,
+   "w": 9.0,
+   "h": 66.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "meter-79",
+   "kind": "filmstrip",
+   "sprite": "Q_elysia_alpha_compressor_v2__MS_meter_40000004",
+   "frames": 10,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000004"
+   },
+   "x": 1110.0,
+   "y": 380.0,
+   "w": 9,
+   "h": 66,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "img-alphav2clipled",
+   "kind": "filmstrip",
+   "sprite": "J_elysia_alpha_compressor_v2_img-alphav2clipled_clip",
+   "x": 81.0,
+   "y": 372.0,
+   "w": 9.0,
+   "h": 9.0,
+   "frames": 2,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_20000000"
+   }
+  },
+  {
+   "id": "img-alphav2clipled-1",
+   "kind": "filmstrip",
+   "sprite": "J_elysia_alpha_compressor_v2_img-alphav2clipled-1_clip",
+   "x": 90.0,
+   "y": 372.0,
+   "w": 9.0,
+   "h": 9.0,
+   "frames": 2,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_20000001"
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "img-alphav2clipled-2",
+   "kind": "filmstrip",
+   "sprite": "J_elysia_alpha_compressor_v2_img-alphav2clipled-2_clip",
+   "x": 1101.0,
+   "y": 372.0,
+   "w": 9.0,
+   "h": 9.0,
+   "frames": 2,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_20000002"
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-m11-img-alphav2clipled-2",
+   "kind": "filmstrip",
+   "sprite": "J_elysia_alpha_compressor_v2_img-alphav2clipled-2_clip",
+   "x": 683.0,
+   "y": 372.0,
+   "w": 9.0,
+   "h": 9.0,
+   "frames": 2,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_20000002"
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "img-alphav2clipled-3",
+   "kind": "filmstrip",
+   "sprite": "J_elysia_alpha_compressor_v2_img-alphav2clipled-3_clip",
+   "x": 1110.0,
+   "y": 372.0,
+   "w": 9.0,
+   "h": 9.0,
+   "frames": 2,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_20000003"
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-random-btn",
+   "kind": "button",
+   "frames": 2,
+   "x": 307.0,
+   "y": 393.0,
+   "w": 33.0,
+   "h": 33.0,
+   "action": {
+    "type": "random",
+    "param": 13
+   },
+   "sprite": "J_elysia_alpha_compressor_v2_random_btn",
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-m11-j-random-btn",
+   "kind": "button",
+   "frames": 2,
+   "x": 210.0,
+   "y": 393.0,
+   "w": 33.0,
+   "h": 33.0,
+   "action": {
+    "type": "random",
+    "param": 13
+   },
+   "sprite": "J_elysia_alpha_compressor_v2_random_btn",
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-tb-soloM",
+   "kind": "filmstrip",
+   "frames": 2,
+   "sprite": "J_elysia_alpha_compressor_v2_tb_0x2007d280",
+   "x": 1070.0,
+   "y": 0,
+   "w": 65.0,
+   "h": 24,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-tb-soloM-zone",
+   "kind": "zone",
+   "x": 1070.0,
+   "y": 0,
+   "w": 65.0,
+   "h": 24,
+   "action": {
+    "type": "table",
+    "param": 2,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.5
+     },
+     {
+      "current": 0.5,
+      "value": 0.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.5
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-tb-soloS",
+   "kind": "filmstrip",
+   "frames": 2,
+   "sprite": "J_elysia_alpha_compressor_v2_tb_0x2007db30",
+   "x": 1135.0,
+   "y": 0,
+   "w": 65.0,
+   "h": 24,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-tb-soloS-zone",
+   "kind": "zone",
+   "x": 1135.0,
+   "y": 0,
+   "w": 65.0,
+   "h": 24,
+   "action": {
+    "type": "table",
+    "param": 2,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.5,
+      "value": 1.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  }
+ ],
+ "meterSources": {
+  "meter_40000001": {
+   "vendorSpecificFloat": 83886982,
+   "opcode": {
+    "op": 519,
+    "p0": 83886982,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     0.0
+    ],
+    [
+     -96,
+     0.0
+    ],
+    [
+     -80,
+     0.0
+    ],
+    [
+     -72,
+     0.0
+    ],
+    [
+     -60,
+     0.0
+    ],
+    [
+     -54,
+     0.0
+    ],
+    [
+     -48,
+     0.0
+    ],
+    [
+     -42,
+     0.0
+    ],
+    [
+     -40,
+     0.0
+    ],
+    [
+     -36,
+     0.0
+    ],
+    [
+     -30,
+     0.0
+    ],
+    [
+     -27,
+     0.0
+    ],
+    [
+     -24,
+     0.0
+    ],
+    [
+     -21,
+     0.0
+    ],
+    [
+     -20,
+     0.0
+    ],
+    [
+     -18,
+     0.0
+    ],
+    [
+     -15,
+     0.0
+    ],
+    [
+     -12,
+     0.0
+    ],
+    [
+     -10,
+     0.0
+    ],
+    [
+     -9,
+     0.0
+    ],
+    [
+     -8,
+     0.0
+    ],
+    [
+     -7,
+     0.0
+    ],
+    [
+     -6,
+     0.0
+    ],
+    [
+     -5,
+     0.0
+    ],
+    [
+     -4,
+     0.0
+    ],
+    [
+     -3,
+     0.0
+    ],
+    [
+     -2,
+     0.0
+    ],
+    [
+     -1,
+     0.0
+    ],
+    [
+     -0.5,
+     0.0
+    ],
+    [
+     0,
+     0.0
+    ],
+    [
+     1e-05,
+     0.0
+    ],
+    [
+     0.0001,
+     0.0
+    ],
+    [
+     0.0003,
+     0.0
+    ],
+    [
+     0.001,
+     0.0
+    ],
+    [
+     0.002,
+     0.0
+    ],
+    [
+     0.003,
+     0.0
+    ],
+    [
+     0.005,
+     0.0
+    ],
+    [
+     0.01,
+     0.0
+    ],
+    [
+     0.015,
+     0.0
+    ],
+    [
+     0.02,
+     0.02095
+    ],
+    [
+     0.03,
+     0.05764
+    ],
+    [
+     0.05,
+     0.10386
+    ],
+    [
+     0.07,
+     0.13895
+    ],
+    [
+     0.1,
+     0.18736
+    ],
+    [
+     0.13,
+     0.22297
+    ],
+    [
+     0.15,
+     0.24239
+    ],
+    [
+     0.2,
+     0.29191
+    ],
+    [
+     0.25,
+     0.33229
+    ],
+    [
+     0.3,
+     0.36528
+    ],
+    [
+     0.35,
+     0.42952
+    ],
+    [
+     0.4,
+     0.50201
+    ],
+    [
+     0.45,
+     0.56595
+    ],
+    [
+     0.5,
+     0.62315
+    ],
+    [
+     0.55,
+     0.67489
+    ],
+    [
+     0.6,
+     0.72213
+    ],
+    [
+     0.65,
+     0.76558
+    ],
+    [
+     0.7,
+     0.80581
+    ],
+    [
+     0.75,
+     0.84326
+    ],
+    [
+     0.8,
+     0.8783
+    ],
+    [
+     0.85,
+     0.91121
+    ],
+    [
+     0.9,
+     0.94224
+    ],
+    [
+     0.95,
+     0.97159
+    ],
+    [
+     1.0,
+     0.99944
+    ],
+    [
+     1.12,
+     1.0
+    ],
+    [
+     1.25,
+     1.0
+    ],
+    [
+     1.41,
+     1.0
+    ],
+    [
+     1.6,
+     1.0
+    ],
+    [
+     2,
+     1.0
+    ],
+    [
+     2.5,
+     1.0
+    ],
+    [
+     3,
+     1.0
+    ],
+    [
+     4,
+     1.0
+    ],
+    [
+     5,
+     1.0
+    ],
+    [
+     6,
+     1.0
+    ],
+    [
+     8,
+     1.0
+    ],
+    [
+     10,
+     1.0
+    ],
+    [
+     12,
+     1.0
+    ],
+    [
+     15,
+     1.0
+    ],
+    [
+     20,
+     1.0
+    ],
+    [
+     30,
+     1.0
+    ],
+    [
+     50,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ],
+   "smoothing": 0.3
+  },
+  "meter_40000002": {
+   "vendorSpecificFloat": 83886983,
+   "opcode": {
+    "op": 519,
+    "p0": 83886983,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     0.0
+    ],
+    [
+     -96,
+     0.0
+    ],
+    [
+     -80,
+     0.0
+    ],
+    [
+     -72,
+     0.0
+    ],
+    [
+     -60,
+     0.0
+    ],
+    [
+     -54,
+     0.0
+    ],
+    [
+     -48,
+     0.0
+    ],
+    [
+     -42,
+     0.0
+    ],
+    [
+     -40,
+     0.0
+    ],
+    [
+     -36,
+     0.0
+    ],
+    [
+     -30,
+     0.0
+    ],
+    [
+     -27,
+     0.0
+    ],
+    [
+     -24,
+     0.0
+    ],
+    [
+     -21,
+     0.0
+    ],
+    [
+     -20,
+     0.0
+    ],
+    [
+     -18,
+     0.0
+    ],
+    [
+     -15,
+     0.0
+    ],
+    [
+     -12,
+     0.0
+    ],
+    [
+     -10,
+     0.0
+    ],
+    [
+     -9,
+     0.0
+    ],
+    [
+     -8,
+     0.0
+    ],
+    [
+     -7,
+     0.0
+    ],
+    [
+     -6,
+     0.0
+    ],
+    [
+     -5,
+     0.0
+    ],
+    [
+     -4,
+     0.0
+    ],
+    [
+     -3,
+     0.0
+    ],
+    [
+     -2,
+     0.0
+    ],
+    [
+     -1,
+     0.0
+    ],
+    [
+     -0.5,
+     0.0
+    ],
+    [
+     0,
+     0.0
+    ],
+    [
+     1e-05,
+     0.0
+    ],
+    [
+     0.0001,
+     0.0
+    ],
+    [
+     0.0003,
+     0.0
+    ],
+    [
+     0.001,
+     0.0
+    ],
+    [
+     0.002,
+     0.0
+    ],
+    [
+     0.003,
+     0.0
+    ],
+    [
+     0.005,
+     0.0
+    ],
+    [
+     0.01,
+     0.0
+    ],
+    [
+     0.015,
+     0.0
+    ],
+    [
+     0.02,
+     0.02095
+    ],
+    [
+     0.03,
+     0.05764
+    ],
+    [
+     0.05,
+     0.10386
+    ],
+    [
+     0.07,
+     0.13895
+    ],
+    [
+     0.1,
+     0.18736
+    ],
+    [
+     0.13,
+     0.22297
+    ],
+    [
+     0.15,
+     0.24239
+    ],
+    [
+     0.2,
+     0.29191
+    ],
+    [
+     0.25,
+     0.33229
+    ],
+    [
+     0.3,
+     0.36528
+    ],
+    [
+     0.35,
+     0.42952
+    ],
+    [
+     0.4,
+     0.50201
+    ],
+    [
+     0.45,
+     0.56595
+    ],
+    [
+     0.5,
+     0.62315
+    ],
+    [
+     0.55,
+     0.67489
+    ],
+    [
+     0.6,
+     0.72213
+    ],
+    [
+     0.65,
+     0.76558
+    ],
+    [
+     0.7,
+     0.80581
+    ],
+    [
+     0.75,
+     0.84326
+    ],
+    [
+     0.8,
+     0.8783
+    ],
+    [
+     0.85,
+     0.91121
+    ],
+    [
+     0.9,
+     0.94224
+    ],
+    [
+     0.95,
+     0.97159
+    ],
+    [
+     1.0,
+     0.99944
+    ],
+    [
+     1.12,
+     1.0
+    ],
+    [
+     1.25,
+     1.0
+    ],
+    [
+     1.41,
+     1.0
+    ],
+    [
+     1.6,
+     1.0
+    ],
+    [
+     2,
+     1.0
+    ],
+    [
+     2.5,
+     1.0
+    ],
+    [
+     3,
+     1.0
+    ],
+    [
+     4,
+     1.0
+    ],
+    [
+     5,
+     1.0
+    ],
+    [
+     6,
+     1.0
+    ],
+    [
+     8,
+     1.0
+    ],
+    [
+     10,
+     1.0
+    ],
+    [
+     12,
+     1.0
+    ],
+    [
+     15,
+     1.0
+    ],
+    [
+     20,
+     1.0
+    ],
+    [
+     30,
+     1.0
+    ],
+    [
+     50,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ],
+   "smoothing": 0.3
+  },
+  "meter_40000003": {
+   "vendorSpecificFloat": 83886984,
+   "opcode": {
+    "op": 519,
+    "p0": 83886984,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     0.0
+    ],
+    [
+     -96,
+     0.0
+    ],
+    [
+     -80,
+     0.0
+    ],
+    [
+     -72,
+     0.0
+    ],
+    [
+     -60,
+     0.0
+    ],
+    [
+     -54,
+     0.0
+    ],
+    [
+     -48,
+     0.0
+    ],
+    [
+     -42,
+     0.0
+    ],
+    [
+     -40,
+     0.0
+    ],
+    [
+     -36,
+     0.0
+    ],
+    [
+     -30,
+     0.0
+    ],
+    [
+     -27,
+     0.0
+    ],
+    [
+     -24,
+     0.0
+    ],
+    [
+     -21,
+     0.0
+    ],
+    [
+     -20,
+     0.0
+    ],
+    [
+     -18,
+     0.0
+    ],
+    [
+     -15,
+     0.0
+    ],
+    [
+     -12,
+     0.0
+    ],
+    [
+     -10,
+     0.0
+    ],
+    [
+     -9,
+     0.0
+    ],
+    [
+     -8,
+     0.0
+    ],
+    [
+     -7,
+     0.0
+    ],
+    [
+     -6,
+     0.0
+    ],
+    [
+     -5,
+     0.0
+    ],
+    [
+     -4,
+     0.0
+    ],
+    [
+     -3,
+     0.0
+    ],
+    [
+     -2,
+     0.0
+    ],
+    [
+     -1,
+     0.0
+    ],
+    [
+     -0.5,
+     0.0
+    ],
+    [
+     0,
+     0.0
+    ],
+    [
+     1e-05,
+     0.0
+    ],
+    [
+     0.0001,
+     0.0
+    ],
+    [
+     0.0003,
+     0.0
+    ],
+    [
+     0.001,
+     0.0
+    ],
+    [
+     0.002,
+     0.0
+    ],
+    [
+     0.003,
+     0.0
+    ],
+    [
+     0.005,
+     0.0
+    ],
+    [
+     0.01,
+     0.0
+    ],
+    [
+     0.015,
+     0.0
+    ],
+    [
+     0.02,
+     0.02095
+    ],
+    [
+     0.03,
+     0.05764
+    ],
+    [
+     0.05,
+     0.10386
+    ],
+    [
+     0.07,
+     0.13895
+    ],
+    [
+     0.1,
+     0.18736
+    ],
+    [
+     0.13,
+     0.22297
+    ],
+    [
+     0.15,
+     0.24239
+    ],
+    [
+     0.2,
+     0.29191
+    ],
+    [
+     0.25,
+     0.33229
+    ],
+    [
+     0.3,
+     0.36528
+    ],
+    [
+     0.35,
+     0.42952
+    ],
+    [
+     0.4,
+     0.50201
+    ],
+    [
+     0.45,
+     0.56595
+    ],
+    [
+     0.5,
+     0.62315
+    ],
+    [
+     0.55,
+     0.67489
+    ],
+    [
+     0.6,
+     0.72213
+    ],
+    [
+     0.65,
+     0.76558
+    ],
+    [
+     0.7,
+     0.80581
+    ],
+    [
+     0.75,
+     0.84326
+    ],
+    [
+     0.8,
+     0.8783
+    ],
+    [
+     0.85,
+     0.91121
+    ],
+    [
+     0.9,
+     0.94224
+    ],
+    [
+     0.95,
+     0.97159
+    ],
+    [
+     1.0,
+     0.99944
+    ],
+    [
+     1.12,
+     1.0
+    ],
+    [
+     1.25,
+     1.0
+    ],
+    [
+     1.41,
+     1.0
+    ],
+    [
+     1.6,
+     1.0
+    ],
+    [
+     2,
+     1.0
+    ],
+    [
+     2.5,
+     1.0
+    ],
+    [
+     3,
+     1.0
+    ],
+    [
+     4,
+     1.0
+    ],
+    [
+     5,
+     1.0
+    ],
+    [
+     6,
+     1.0
+    ],
+    [
+     8,
+     1.0
+    ],
+    [
+     10,
+     1.0
+    ],
+    [
+     12,
+     1.0
+    ],
+    [
+     15,
+     1.0
+    ],
+    [
+     20,
+     1.0
+    ],
+    [
+     30,
+     1.0
+    ],
+    [
+     50,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ],
+   "smoothing": 0.3
+  },
+  "meter_40000004": {
+   "vendorSpecificFloat": 83886985,
+   "opcode": {
+    "op": 519,
+    "p0": 83886985,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     0.0
+    ],
+    [
+     -96,
+     0.0
+    ],
+    [
+     -80,
+     0.0
+    ],
+    [
+     -72,
+     0.0
+    ],
+    [
+     -60,
+     0.0
+    ],
+    [
+     -54,
+     0.0
+    ],
+    [
+     -48,
+     0.0
+    ],
+    [
+     -42,
+     0.0
+    ],
+    [
+     -40,
+     0.0
+    ],
+    [
+     -36,
+     0.0
+    ],
+    [
+     -30,
+     0.0
+    ],
+    [
+     -27,
+     0.0
+    ],
+    [
+     -24,
+     0.0
+    ],
+    [
+     -21,
+     0.0
+    ],
+    [
+     -20,
+     0.0
+    ],
+    [
+     -18,
+     0.0
+    ],
+    [
+     -15,
+     0.0
+    ],
+    [
+     -12,
+     0.0
+    ],
+    [
+     -10,
+     0.0
+    ],
+    [
+     -9,
+     0.0
+    ],
+    [
+     -8,
+     0.0
+    ],
+    [
+     -7,
+     0.0
+    ],
+    [
+     -6,
+     0.0
+    ],
+    [
+     -5,
+     0.0
+    ],
+    [
+     -4,
+     0.0
+    ],
+    [
+     -3,
+     0.0
+    ],
+    [
+     -2,
+     0.0
+    ],
+    [
+     -1,
+     0.0
+    ],
+    [
+     -0.5,
+     0.0
+    ],
+    [
+     0,
+     0.0
+    ],
+    [
+     1e-05,
+     0.0
+    ],
+    [
+     0.0001,
+     0.0
+    ],
+    [
+     0.0003,
+     0.0
+    ],
+    [
+     0.001,
+     0.0
+    ],
+    [
+     0.002,
+     0.0
+    ],
+    [
+     0.003,
+     0.0
+    ],
+    [
+     0.005,
+     0.0
+    ],
+    [
+     0.01,
+     0.0
+    ],
+    [
+     0.015,
+     0.0
+    ],
+    [
+     0.02,
+     0.02095
+    ],
+    [
+     0.03,
+     0.05764
+    ],
+    [
+     0.05,
+     0.10386
+    ],
+    [
+     0.07,
+     0.13895
+    ],
+    [
+     0.1,
+     0.18736
+    ],
+    [
+     0.13,
+     0.22297
+    ],
+    [
+     0.15,
+     0.24239
+    ],
+    [
+     0.2,
+     0.29191
+    ],
+    [
+     0.25,
+     0.33229
+    ],
+    [
+     0.3,
+     0.36528
+    ],
+    [
+     0.35,
+     0.42952
+    ],
+    [
+     0.4,
+     0.50201
+    ],
+    [
+     0.45,
+     0.56595
+    ],
+    [
+     0.5,
+     0.62315
+    ],
+    [
+     0.55,
+     0.67489
+    ],
+    [
+     0.6,
+     0.72213
+    ],
+    [
+     0.65,
+     0.76558
+    ],
+    [
+     0.7,
+     0.80581
+    ],
+    [
+     0.75,
+     0.84326
+    ],
+    [
+     0.8,
+     0.8783
+    ],
+    [
+     0.85,
+     0.91121
+    ],
+    [
+     0.9,
+     0.94224
+    ],
+    [
+     0.95,
+     0.97159
+    ],
+    [
+     1.0,
+     0.99944
+    ],
+    [
+     1.12,
+     1.0
+    ],
+    [
+     1.25,
+     1.0
+    ],
+    [
+     1.41,
+     1.0
+    ],
+    [
+     1.6,
+     1.0
+    ],
+    [
+     2,
+     1.0
+    ],
+    [
+     2.5,
+     1.0
+    ],
+    [
+     3,
+     1.0
+    ],
+    [
+     4,
+     1.0
+    ],
+    [
+     5,
+     1.0
+    ],
+    [
+     6,
+     1.0
+    ],
+    [
+     8,
+     1.0
+    ],
+    [
+     10,
+     1.0
+    ],
+    [
+     12,
+     1.0
+    ],
+    [
+     15,
+     1.0
+    ],
+    [
+     20,
+     1.0
+    ],
+    [
+     30,
+     1.0
+    ],
+    [
+     50,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ],
+   "smoothing": 0.3
+  },
+  "led_40000009": {
+   "vendorSpecificFloat": 83886962,
+   "opcode": {
+    "op": 519,
+    "p0": 83886962,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     0.0
+    ],
+    [
+     -96,
+     0.0
+    ],
+    [
+     -80,
+     0.0
+    ],
+    [
+     -72,
+     0.0
+    ],
+    [
+     -60,
+     0.0
+    ],
+    [
+     -54,
+     0.0
+    ],
+    [
+     -48,
+     0.0
+    ],
+    [
+     -42,
+     0.0
+    ],
+    [
+     -40,
+     0.0
+    ],
+    [
+     -36,
+     0.0
+    ],
+    [
+     -30,
+     0.0
+    ],
+    [
+     -27,
+     0.0
+    ],
+    [
+     -24,
+     0.0
+    ],
+    [
+     -21,
+     0.0
+    ],
+    [
+     -20,
+     0.0
+    ],
+    [
+     -18,
+     0.0
+    ],
+    [
+     -15,
+     0.0
+    ],
+    [
+     -12,
+     0.0
+    ],
+    [
+     -10,
+     0.0
+    ],
+    [
+     -9,
+     0.0
+    ],
+    [
+     -8,
+     0.0
+    ],
+    [
+     -7,
+     0.0
+    ],
+    [
+     -6,
+     0.0
+    ],
+    [
+     -5,
+     0.0
+    ],
+    [
+     -4,
+     0.0
+    ],
+    [
+     -3,
+     0.0
+    ],
+    [
+     -2,
+     0.0
+    ],
+    [
+     -1,
+     0.0
+    ],
+    [
+     -0.5,
+     0.0
+    ],
+    [
+     0,
+     1.0
+    ],
+    [
+     1e-05,
+     1.0
+    ],
+    [
+     0.0001,
+     1.0
+    ],
+    [
+     0.0003,
+     1.0
+    ],
+    [
+     0.001,
+     1.0
+    ],
+    [
+     0.002,
+     1.0
+    ],
+    [
+     0.003,
+     1.0
+    ],
+    [
+     0.005,
+     1.0
+    ],
+    [
+     0.01,
+     1.0
+    ],
+    [
+     0.015,
+     1.0
+    ],
+    [
+     0.02,
+     1.0
+    ],
+    [
+     0.03,
+     1.0
+    ],
+    [
+     0.05,
+     1.0
+    ],
+    [
+     0.07,
+     1.0
+    ],
+    [
+     0.1,
+     0.99748
+    ],
+    [
+     0.13,
+     0.92691
+    ],
+    [
+     0.15,
+     0.88836
+    ],
+    [
+     0.2,
+     0.81073
+    ],
+    [
+     0.25,
+     0.75045
+    ],
+    [
+     0.3,
+     0.70114
+    ],
+    [
+     0.35,
+     0.63137
+    ],
+    [
+     0.4,
+     0.55908
+    ],
+    [
+     0.45,
+     0.4953
+    ],
+    [
+     0.5,
+     0.43823
+    ],
+    [
+     0.55,
+     0.38659
+    ],
+    [
+     0.6,
+     0.33944
+    ],
+    [
+     0.65,
+     0.29606
+    ],
+    [
+     0.7,
+     0.25589
+    ],
+    [
+     0.75,
+     0.21849
+    ],
+    [
+     0.8,
+     0.17949
+    ],
+    [
+     0.85,
+     0.11375
+    ],
+    [
+     0.9,
+     0.05713
+    ],
+    [
+     0.95,
+     0.02782
+    ],
+    [
+     1.0,
+     0.0
+    ],
+    [
+     1.12,
+     0.0
+    ],
+    [
+     1.25,
+     0.0
+    ],
+    [
+     1.41,
+     0.0
+    ],
+    [
+     1.6,
+     0.0
+    ],
+    [
+     2,
+     0.0
+    ],
+    [
+     2.5,
+     0.0
+    ],
+    [
+     3,
+     0.0
+    ],
+    [
+     4,
+     0.0
+    ],
+    [
+     5,
+     0.0
+    ],
+    [
+     6,
+     0.0
+    ],
+    [
+     8,
+     0.0
+    ],
+    [
+     10,
+     0.0
+    ],
+    [
+     12,
+     0.0
+    ],
+    [
+     15,
+     0.0
+    ],
+    [
+     20,
+     0.0
+    ],
+    [
+     30,
+     0.0
+    ],
+    [
+     50,
+     0.0
+    ],
+    [
+     100,
+     0.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "led_4000000a": {
+   "vendorSpecificFloat": 83886963,
+   "opcode": {
+    "op": 519,
+    "p0": 83886963,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     0.0
+    ],
+    [
+     -96,
+     0.0
+    ],
+    [
+     -80,
+     0.0
+    ],
+    [
+     -72,
+     0.0
+    ],
+    [
+     -60,
+     0.0
+    ],
+    [
+     -54,
+     0.0
+    ],
+    [
+     -48,
+     0.0
+    ],
+    [
+     -42,
+     0.0
+    ],
+    [
+     -40,
+     0.0
+    ],
+    [
+     -36,
+     0.0
+    ],
+    [
+     -30,
+     0.0
+    ],
+    [
+     -27,
+     0.0
+    ],
+    [
+     -24,
+     0.0
+    ],
+    [
+     -21,
+     0.0
+    ],
+    [
+     -20,
+     0.0
+    ],
+    [
+     -18,
+     0.0
+    ],
+    [
+     -15,
+     0.0
+    ],
+    [
+     -12,
+     0.0
+    ],
+    [
+     -10,
+     0.0
+    ],
+    [
+     -9,
+     0.0
+    ],
+    [
+     -8,
+     0.0
+    ],
+    [
+     -7,
+     0.0
+    ],
+    [
+     -6,
+     0.0
+    ],
+    [
+     -5,
+     0.0
+    ],
+    [
+     -4,
+     0.0
+    ],
+    [
+     -3,
+     0.0
+    ],
+    [
+     -2,
+     0.0
+    ],
+    [
+     -1,
+     0.0
+    ],
+    [
+     -0.5,
+     0.0
+    ],
+    [
+     0,
+     1.0
+    ],
+    [
+     1e-05,
+     1.0
+    ],
+    [
+     0.0001,
+     1.0
+    ],
+    [
+     0.0003,
+     1.0
+    ],
+    [
+     0.001,
+     1.0
+    ],
+    [
+     0.002,
+     1.0
+    ],
+    [
+     0.003,
+     1.0
+    ],
+    [
+     0.005,
+     1.0
+    ],
+    [
+     0.01,
+     1.0
+    ],
+    [
+     0.015,
+     1.0
+    ],
+    [
+     0.02,
+     1.0
+    ],
+    [
+     0.03,
+     1.0
+    ],
+    [
+     0.05,
+     1.0
+    ],
+    [
+     0.07,
+     1.0
+    ],
+    [
+     0.1,
+     0.99748
+    ],
+    [
+     0.13,
+     0.92691
+    ],
+    [
+     0.15,
+     0.88836
+    ],
+    [
+     0.2,
+     0.81073
+    ],
+    [
+     0.25,
+     0.75045
+    ],
+    [
+     0.3,
+     0.70114
+    ],
+    [
+     0.35,
+     0.63137
+    ],
+    [
+     0.4,
+     0.55908
+    ],
+    [
+     0.45,
+     0.4953
+    ],
+    [
+     0.5,
+     0.43823
+    ],
+    [
+     0.55,
+     0.38659
+    ],
+    [
+     0.6,
+     0.33944
+    ],
+    [
+     0.65,
+     0.29606
+    ],
+    [
+     0.7,
+     0.25589
+    ],
+    [
+     0.75,
+     0.21849
+    ],
+    [
+     0.8,
+     0.17949
+    ],
+    [
+     0.85,
+     0.11375
+    ],
+    [
+     0.9,
+     0.05713
+    ],
+    [
+     0.95,
+     0.02782
+    ],
+    [
+     1.0,
+     0.0
+    ],
+    [
+     1.12,
+     0.0
+    ],
+    [
+     1.25,
+     0.0
+    ],
+    [
+     1.41,
+     0.0
+    ],
+    [
+     1.6,
+     0.0
+    ],
+    [
+     2,
+     0.0
+    ],
+    [
+     2.5,
+     0.0
+    ],
+    [
+     3,
+     0.0
+    ],
+    [
+     4,
+     0.0
+    ],
+    [
+     5,
+     0.0
+    ],
+    [
+     6,
+     0.0
+    ],
+    [
+     8,
+     0.0
+    ],
+    [
+     10,
+     0.0
+    ],
+    [
+     12,
+     0.0
+    ],
+    [
+     15,
+     0.0
+    ],
+    [
+     20,
+     0.0
+    ],
+    [
+     30,
+     0.0
+    ],
+    [
+     50,
+     0.0
+    ],
+    [
+     100,
+     0.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "led_40000005": {
+   "vendorSpecificFloat": 83886964,
+   "opcode": {
+    "op": 519,
+    "p0": 83886964,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     0.0
+    ],
+    [
+     -96,
+     0.0
+    ],
+    [
+     -80,
+     0.0
+    ],
+    [
+     -72,
+     0.0
+    ],
+    [
+     -60,
+     0.0
+    ],
+    [
+     -54,
+     0.0
+    ],
+    [
+     -48,
+     0.0
+    ],
+    [
+     -42,
+     0.0
+    ],
+    [
+     -40,
+     0.0
+    ],
+    [
+     -36,
+     0.0
+    ],
+    [
+     -30,
+     0.0
+    ],
+    [
+     -27,
+     0.0
+    ],
+    [
+     -24,
+     0.0
+    ],
+    [
+     -21,
+     0.0
+    ],
+    [
+     -20,
+     0.0
+    ],
+    [
+     -18,
+     0.0
+    ],
+    [
+     -15,
+     0.0
+    ],
+    [
+     -12,
+     0.0
+    ],
+    [
+     -10,
+     0.0
+    ],
+    [
+     -9,
+     0.0
+    ],
+    [
+     -8,
+     0.0
+    ],
+    [
+     -7,
+     0.0
+    ],
+    [
+     -6,
+     0.0
+    ],
+    [
+     -5,
+     0.0
+    ],
+    [
+     -4,
+     0.0
+    ],
+    [
+     -3,
+     0.0
+    ],
+    [
+     -2,
+     0.0
+    ],
+    [
+     -1,
+     0.0
+    ],
+    [
+     -0.5,
+     0.0
+    ],
+    [
+     0,
+     0.0
+    ],
+    [
+     1e-05,
+     0.0001
+    ],
+    [
+     0.0001,
+     0.00105
+    ],
+    [
+     0.0003,
+     0.00314
+    ],
+    [
+     0.001,
+     0.01048
+    ],
+    [
+     0.002,
+     0.02096
+    ],
+    [
+     0.003,
+     0.03144
+    ],
+    [
+     0.005,
+     0.05241
+    ],
+    [
+     0.01,
+     0.10481
+    ],
+    [
+     0.015,
+     0.15722
+    ],
+    [
+     0.02,
+     0.20962
+    ],
+    [
+     0.03,
+     0.31444
+    ],
+    [
+     0.05,
+     0.52406
+    ],
+    [
+     0.07,
+     0.73368
+    ],
+    [
+     0.1,
+     1.0
+    ],
+    [
+     0.13,
+     1.0
+    ],
+    [
+     0.15,
+     1.0
+    ],
+    [
+     0.2,
+     1.0
+    ],
+    [
+     0.25,
+     1.0
+    ],
+    [
+     0.3,
+     1.0
+    ],
+    [
+     0.35,
+     1.0
+    ],
+    [
+     0.4,
+     1.0
+    ],
+    [
+     0.45,
+     1.0
+    ],
+    [
+     0.5,
+     1.0
+    ],
+    [
+     0.55,
+     1.0
+    ],
+    [
+     0.6,
+     1.0
+    ],
+    [
+     0.65,
+     1.0
+    ],
+    [
+     0.7,
+     1.0
+    ],
+    [
+     0.75,
+     1.0
+    ],
+    [
+     0.8,
+     1.0
+    ],
+    [
+     0.85,
+     1.0
+    ],
+    [
+     0.9,
+     1.0
+    ],
+    [
+     0.95,
+     1.0
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     1.12,
+     1.0
+    ],
+    [
+     1.25,
+     1.0
+    ],
+    [
+     1.41,
+     1.0
+    ],
+    [
+     1.6,
+     1.0
+    ],
+    [
+     2,
+     1.0
+    ],
+    [
+     2.5,
+     1.0
+    ],
+    [
+     3,
+     1.0
+    ],
+    [
+     4,
+     1.0
+    ],
+    [
+     5,
+     1.0
+    ],
+    [
+     6,
+     1.0
+    ],
+    [
+     8,
+     1.0
+    ],
+    [
+     10,
+     1.0
+    ],
+    [
+     12,
+     1.0
+    ],
+    [
+     15,
+     1.0
+    ],
+    [
+     20,
+     1.0
+    ],
+    [
+     30,
+     1.0
+    ],
+    [
+     50,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ],
+   "smoothing": 0.3
+  },
+  "led_40000006": {
+   "vendorSpecificFloat": 83886965,
+   "opcode": {
+    "op": 519,
+    "p0": 83886965,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     0.0
+    ],
+    [
+     -96,
+     0.0
+    ],
+    [
+     -80,
+     0.0
+    ],
+    [
+     -72,
+     0.0
+    ],
+    [
+     -60,
+     0.0
+    ],
+    [
+     -54,
+     0.0
+    ],
+    [
+     -48,
+     0.0
+    ],
+    [
+     -42,
+     0.0
+    ],
+    [
+     -40,
+     0.0
+    ],
+    [
+     -36,
+     0.0
+    ],
+    [
+     -30,
+     0.0
+    ],
+    [
+     -27,
+     0.0
+    ],
+    [
+     -24,
+     0.0
+    ],
+    [
+     -21,
+     0.0
+    ],
+    [
+     -20,
+     0.0
+    ],
+    [
+     -18,
+     0.0
+    ],
+    [
+     -15,
+     0.0
+    ],
+    [
+     -12,
+     0.0
+    ],
+    [
+     -10,
+     0.0
+    ],
+    [
+     -9,
+     0.0
+    ],
+    [
+     -8,
+     0.0
+    ],
+    [
+     -7,
+     0.0
+    ],
+    [
+     -6,
+     0.0
+    ],
+    [
+     -5,
+     0.0
+    ],
+    [
+     -4,
+     0.0
+    ],
+    [
+     -3,
+     0.0
+    ],
+    [
+     -2,
+     0.0
+    ],
+    [
+     -1,
+     0.0
+    ],
+    [
+     -0.5,
+     0.0
+    ],
+    [
+     0,
+     0.0
+    ],
+    [
+     1e-05,
+     0.0001
+    ],
+    [
+     0.0001,
+     0.00105
+    ],
+    [
+     0.0003,
+     0.00314
+    ],
+    [
+     0.001,
+     0.01048
+    ],
+    [
+     0.002,
+     0.02096
+    ],
+    [
+     0.003,
+     0.03144
+    ],
+    [
+     0.005,
+     0.05241
+    ],
+    [
+     0.01,
+     0.10481
+    ],
+    [
+     0.015,
+     0.15722
+    ],
+    [
+     0.02,
+     0.20962
+    ],
+    [
+     0.03,
+     0.31444
+    ],
+    [
+     0.05,
+     0.52406
+    ],
+    [
+     0.07,
+     0.73368
+    ],
+    [
+     0.1,
+     1.0
+    ],
+    [
+     0.13,
+     1.0
+    ],
+    [
+     0.15,
+     1.0
+    ],
+    [
+     0.2,
+     1.0
+    ],
+    [
+     0.25,
+     1.0
+    ],
+    [
+     0.3,
+     1.0
+    ],
+    [
+     0.35,
+     1.0
+    ],
+    [
+     0.4,
+     1.0
+    ],
+    [
+     0.45,
+     1.0
+    ],
+    [
+     0.5,
+     1.0
+    ],
+    [
+     0.55,
+     1.0
+    ],
+    [
+     0.6,
+     1.0
+    ],
+    [
+     0.65,
+     1.0
+    ],
+    [
+     0.7,
+     1.0
+    ],
+    [
+     0.75,
+     1.0
+    ],
+    [
+     0.8,
+     1.0
+    ],
+    [
+     0.85,
+     1.0
+    ],
+    [
+     0.9,
+     1.0
+    ],
+    [
+     0.95,
+     1.0
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     1.12,
+     1.0
+    ],
+    [
+     1.25,
+     1.0
+    ],
+    [
+     1.41,
+     1.0
+    ],
+    [
+     1.6,
+     1.0
+    ],
+    [
+     2,
+     1.0
+    ],
+    [
+     2.5,
+     1.0
+    ],
+    [
+     3,
+     1.0
+    ],
+    [
+     4,
+     1.0
+    ],
+    [
+     5,
+     1.0
+    ],
+    [
+     6,
+     1.0
+    ],
+    [
+     8,
+     1.0
+    ],
+    [
+     10,
+     1.0
+    ],
+    [
+     12,
+     1.0
+    ],
+    [
+     15,
+     1.0
+    ],
+    [
+     20,
+     1.0
+    ],
+    [
+     30,
+     1.0
+    ],
+    [
+     50,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ],
+   "smoothing": 0.3
+  },
+  "led_20000000": {
+   "vendorSpecificFloat": 83886986,
+   "opcode": {
+    "op": 519,
+    "p0": 83886986,
+    "p1": 1
+   },
+   "integer": true,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.495
+    ],
+    [
+     2.0,
+     1.0
+    ],
+    [
+     3.0,
+     0.0
+    ]
+   ],
+   "smoothing": 1.0
+  },
+  "led_20000001": {
+   "vendorSpecificFloat": 83886987,
+   "opcode": {
+    "op": 519,
+    "p0": 83886987,
+    "p1": 1
+   },
+   "integer": true,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.495
+    ],
+    [
+     2.0,
+     1.0
+    ],
+    [
+     3.0,
+     0.0
+    ]
+   ],
+   "smoothing": 1.0
+  },
+  "led_20000002": {
+   "vendorSpecificFloat": 83886988,
+   "opcode": {
+    "op": 519,
+    "p0": 83886988,
+    "p1": 1
+   },
+   "integer": true,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.495
+    ],
+    [
+     2.0,
+     1.0
+    ],
+    [
+     3.0,
+     0.0
+    ]
+   ],
+   "smoothing": 1.0
+  },
+  "led_20000003": {
+   "vendorSpecificFloat": 83886989,
+   "opcode": {
+    "op": 519,
+    "p0": 83886989,
+    "p1": 1
+   },
+   "integer": true,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.495
+    ],
+    [
+     2.0,
+     1.0
+    ],
+    [
+     3.0,
+     0.0
+    ]
+   ],
+   "smoothing": 1.0
+  }
+ },
+ "monoSize": {
+  "w": 774.0,
+  "h": 463
+ },
+ "states": {
+  "channels": 2
+ },
+ "panelless": [
+  8
+ ]
+}

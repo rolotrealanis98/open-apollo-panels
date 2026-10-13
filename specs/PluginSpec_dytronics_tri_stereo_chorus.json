@@ -1,0 +1,842 @@
+{
+ "schema": 2,
+ "effectName": "UAD Dytronics Tri-Stereo Chorus",
+ "namePattern": "Dytronics Tri-Stereo Chorus",
+ "size": {
+  "w": 1100,
+  "h": 282
+ },
+ "background": null,
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Effect",
+   "steps": [
+    "BYPASS",
+    "ON"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "Chorus Mode",
+   "steps": [
+    "MONO",
+    "STEREO"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 2,
+   "name": "LFO Preset",
+   "steps": [
+    "OFF",
+    "ON"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 3,
+   "name": "LFO Manual",
+   "steps": [
+    "OFF",
+    "ON"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Wave Form Left",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "Wave Form Center",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "Wave Form Right",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "Choral Enhance Left",
+   "steps": [
+    "OFF",
+    "ON"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "Choral Enhance Center",
+   "steps": [
+    "OFF",
+    "ON"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "Choral Enhance Right",
+   "steps": [
+    "OFF",
+    "ON"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 10,
+   "name": "Rate",
+   "steps": null,
+   "default": 0.800000011920929
+  },
+  {
+   "index": 11,
+   "name": "Volume",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 12,
+   "name": "Mode",
+   "steps": [
+    "Bypass",
+    "Active"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "gfx0": {
+   "vendorSpecificFloat": 134217730,
+   "opcode": {
+    "op": 519,
+    "p0": 134217730,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -4.0,
+     1.0
+    ],
+    [
+     -1.4125517,
+     1.0
+    ],
+    [
+     -1.4125375,
+     0.90909
+    ],
+    [
+     -1.2589254,
+     0.81818
+    ],
+    [
+     -1.1220185,
+     0.72727
+    ],
+    [
+     -1.0,
+     0.63636
+    ],
+    [
+     -0.8912509,
+     0.54545
+    ],
+    [
+     -0.7943282,
+     0.45455
+    ],
+    [
+     -0.6309573,
+     0.36364
+    ],
+    [
+     -0.4466836,
+     0.27273
+    ],
+    [
+     -0.3162278,
+     0.18182
+    ],
+    [
+     -0.1778279,
+     0.09091
+    ],
+    [
+     -0.1,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0.0
+    ],
+    [
+     0.1778279,
+     0.09091
+    ],
+    [
+     0.3162278,
+     0.18182
+    ],
+    [
+     0.4466836,
+     0.27273
+    ],
+    [
+     0.6309573,
+     0.36364
+    ],
+    [
+     0.7943282,
+     0.45455
+    ],
+    [
+     0.8912509,
+     0.54545
+    ],
+    [
+     1.0,
+     0.63636
+    ],
+    [
+     1.1220185,
+     0.72727
+    ],
+    [
+     1.2589254,
+     0.81818
+    ],
+    [
+     1.4125375,
+     0.90909
+    ],
+    [
+     1.4125517,
+     1.0
+    ],
+    [
+     4.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "gfx1": {
+   "vendorSpecificFloat": 134217731,
+   "opcode": {
+    "op": 519,
+    "p0": 134217731,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -4.0,
+     1.0
+    ],
+    [
+     -1.4125517,
+     1.0
+    ],
+    [
+     -1.4125375,
+     0.90909
+    ],
+    [
+     -1.2589254,
+     0.81818
+    ],
+    [
+     -1.1220185,
+     0.72727
+    ],
+    [
+     -1.0,
+     0.63636
+    ],
+    [
+     -0.8912509,
+     0.54545
+    ],
+    [
+     -0.7943282,
+     0.45455
+    ],
+    [
+     -0.6309573,
+     0.36364
+    ],
+    [
+     -0.4466836,
+     0.27273
+    ],
+    [
+     -0.3162278,
+     0.18182
+    ],
+    [
+     -0.1778279,
+     0.09091
+    ],
+    [
+     -0.1,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0.0
+    ],
+    [
+     0.1778279,
+     0.09091
+    ],
+    [
+     0.3162278,
+     0.18182
+    ],
+    [
+     0.4466836,
+     0.27273
+    ],
+    [
+     0.6309573,
+     0.36364
+    ],
+    [
+     0.7943282,
+     0.45455
+    ],
+    [
+     0.8912509,
+     0.54545
+    ],
+    [
+     1.0,
+     0.63636
+    ],
+    [
+     1.1220185,
+     0.72727
+    ],
+    [
+     1.2589254,
+     0.81818
+    ],
+    [
+     1.4125375,
+     0.90909
+    ],
+    [
+     1.4125517,
+     1.0
+    ],
+    [
+     4.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "gfx2": {
+   "vendorSpecificFloat": 134217728,
+   "opcode": {
+    "op": 519,
+    "p0": 134217728,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.6
+  },
+  "gfx3": {
+   "vendorSpecificFloat": 134217729,
+   "opcode": {
+    "op": 519,
+    "p0": 134217729,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.6
+  }
+ },
+ "elements": [
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 1100,
+   "h": 24,
+   "toolbar": {
+    "family": "softube",
+    "items": [
+     {
+      "type": "switch",
+      "x": 918.0,
+      "y": 6.0,
+      "w": 30,
+      "h": 12,
+      "param": 12,
+      "sprite": "chrome.softube.toggle",
+      "frames": 2,
+      "glyph": "power"
+     },
+     {
+      "type": "gear",
+      "x": 988.0,
+      "y": 6.5,
+      "w": 11.0,
+      "h": 11.5,
+      "color": "#E5E5E5"
+     },
+     {
+      "type": "rect",
+      "x": 1010.0,
+      "y": 0,
+      "w": 90.0,
+      "h": 24,
+      "color": "#019C74"
+     },
+     {
+      "type": "icon",
+      "x": 1026.0,
+      "y": 6.5,
+      "w": 58.0,
+      "h": 11.0,
+      "sprite": "chrome.softube.logo",
+      "frames": 1,
+      "glyph": "Softube",
+      "color": "#E5F5F0"
+     }
+    ]
+   }
+  },
+  {
+   "id": "panel-background",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 1100,
+   "h": 258,
+   "sprite": "STB_Dytronics_Tri_Stereo_Chorus_1000"
+  },
+  {
+   "id": "knob-4-1007",
+   "kind": "knob",
+   "x": 209,
+   "y": 93,
+   "w": 54,
+   "h": 54.0,
+   "sprite": "STB_Dytronics_Tri_Stereo_Chorus_1007",
+   "frames": 120,
+   "param": 4
+  },
+  {
+   "id": "knob-5-1001",
+   "kind": "knob",
+   "x": 304,
+   "y": 93,
+   "w": 54,
+   "h": 54.0,
+   "sprite": "STB_Dytronics_Tri_Stereo_Chorus_1001",
+   "frames": 120,
+   "param": 5
+  },
+  {
+   "id": "knob-6-1018",
+   "kind": "knob",
+   "x": 400,
+   "y": 93,
+   "w": 54,
+   "h": 54.0,
+   "sprite": "STB_Dytronics_Tri_Stereo_Chorus_1018",
+   "frames": 120,
+   "param": 6
+  },
+  {
+   "id": "switch-7-1005",
+   "kind": "switch",
+   "x": 219,
+   "y": 204,
+   "w": 37,
+   "h": 37.0,
+   "sprite": "STB_Dytronics_Tri_Stereo_Chorus_1005",
+   "frames": 2,
+   "param": 7
+  },
+  {
+   "id": "switch-8-1004",
+   "kind": "switch",
+   "x": 313,
+   "y": 204,
+   "w": 37,
+   "h": 37.0,
+   "sprite": "STB_Dytronics_Tri_Stereo_Chorus_1004",
+   "frames": 2,
+   "param": 8
+  },
+  {
+   "id": "switch-9-1006",
+   "kind": "switch",
+   "x": 408,
+   "y": 204,
+   "w": 37,
+   "h": 37.0,
+   "sprite": "STB_Dytronics_Tri_Stereo_Chorus_1006",
+   "frames": 2,
+   "param": 9
+  },
+  {
+   "id": "switch-1-1013",
+   "kind": "switch",
+   "x": 536,
+   "y": 64,
+   "w": 16,
+   "h": 16.0,
+   "sprite": "STB_Dytronics_Tri_Stereo_Chorus_1013",
+   "frames": 2,
+   "param": 1
+  },
+  {
+   "id": "switch-None-1012",
+   "kind": "switch",
+   "x": 525,
+   "y": 93,
+   "w": 37,
+   "h": 37.0,
+   "sprite": "STB_Dytronics_Tri_Stereo_Chorus_1012",
+   "frames": 2,
+   "param": 1
+  },
+  {
+   "id": "switch-0-1003",
+   "kind": "switch",
+   "x": 848,
+   "y": 64,
+   "w": 16,
+   "h": 16.0,
+   "sprite": "STB_Dytronics_Tri_Stereo_Chorus_1003",
+   "frames": 2,
+   "param": 0
+  },
+  {
+   "id": "switch-None-1002",
+   "kind": "switch",
+   "x": 837,
+   "y": 93,
+   "w": 37,
+   "h": 37.0,
+   "sprite": "STB_Dytronics_Tri_Stereo_Chorus_1002",
+   "frames": 2,
+   "param": 0
+  },
+  {
+   "id": "knob-10-1017",
+   "kind": "knob",
+   "x": 538,
+   "y": 183,
+   "w": 54,
+   "h": 54.0,
+   "sprite": "STB_Dytronics_Tri_Stereo_Chorus_1017",
+   "frames": 120,
+   "param": 10
+  },
+  {
+   "id": "gfx-2-1011",
+   "kind": "filmstrip",
+   "x": 656,
+   "y": 176,
+   "w": 16,
+   "h": 16.0,
+   "sprite": "STB_Dytronics_Tri_Stereo_Chorus_1011",
+   "frames": 31,
+   "frameSource": {
+    "type": "meter",
+    "meter": "gfx2"
+   }
+  },
+  {
+   "id": "switch-3-1010",
+   "kind": "switch",
+   "x": 646,
+   "y": 204,
+   "w": 37,
+   "h": 37.0,
+   "sprite": "STB_Dytronics_Tri_Stereo_Chorus_1010",
+   "frames": 2,
+   "param": 3
+  },
+  {
+   "id": "gfx-3-1016",
+   "kind": "filmstrip",
+   "x": 733,
+   "y": 176,
+   "w": 16,
+   "h": 16.0,
+   "sprite": "STB_Dytronics_Tri_Stereo_Chorus_1016",
+   "frames": 31,
+   "frameSource": {
+    "type": "meter",
+    "meter": "gfx3"
+   }
+  },
+  {
+   "id": "switch-2-1015",
+   "kind": "switch",
+   "x": 722,
+   "y": 204,
+   "w": 37,
+   "h": 37.0,
+   "sprite": "STB_Dytronics_Tri_Stereo_Chorus_1015",
+   "frames": 2,
+   "param": 2
+  },
+  {
+   "id": "knob-11-1019",
+   "kind": "knob",
+   "x": 829,
+   "y": 183,
+   "w": 54,
+   "h": 54.0,
+   "sprite": "STB_Dytronics_Tri_Stereo_Chorus_1019",
+   "frames": 120,
+   "param": 11
+  },
+  {
+   "id": "gfx-0-1008",
+   "kind": "filmstrip",
+   "x": 628,
+   "y": 68,
+   "w": 164,
+   "h": 12.0,
+   "sprite": "STB_Dytronics_Tri_Stereo_Chorus_1008",
+   "frames": 132,
+   "frameSource": {
+    "type": "meter",
+    "meter": "gfx0"
+   }
+  },
+  {
+   "id": "gfx-1-1009",
+   "kind": "filmstrip",
+   "x": 628,
+   "y": 119,
+   "w": 164,
+   "h": 12.0,
+   "sprite": "STB_Dytronics_Tri_Stereo_Chorus_1009",
+   "frames": 132,
+   "frameSource": {
+    "type": "meter",
+    "meter": "gfx1"
+   }
+  },
+  {
+   "id": "zone-4-0",
+   "kind": "zone",
+   "x": 195,
+   "y": 152,
+   "w": 36,
+   "h": 24,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-4-1",
+   "kind": "zone",
+   "x": 240,
+   "y": 152,
+   "w": 36,
+   "h": 24,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-5-2",
+   "kind": "zone",
+   "x": 290,
+   "y": 152,
+   "w": 36,
+   "h": 24,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-5-3",
+   "kind": "zone",
+   "x": 333,
+   "y": 152,
+   "w": 36,
+   "h": 24,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-6-4",
+   "kind": "zone",
+   "x": 386,
+   "y": 152,
+   "w": 36,
+   "h": 24,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-6-5",
+   "kind": "zone",
+   "x": 428,
+   "y": 152,
+   "w": 36,
+   "h": 24,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-1-6",
+   "kind": "zone",
+   "x": 503,
+   "y": 41,
+   "w": 79,
+   "h": 19,
+   "action": {
+    "type": "toggle",
+    "param": 1
+   }
+  },
+  {
+   "id": "zone-0-7",
+   "kind": "zone",
+   "x": 829,
+   "y": 41,
+   "w": 48,
+   "h": 19,
+   "action": {
+    "type": "toggle",
+    "param": 0
+   }
+  },
+  {
+   "id": "zone-10-8",
+   "kind": "zone",
+   "x": 521,
+   "y": 240,
+   "w": 38,
+   "h": 24,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-10-9",
+   "kind": "zone",
+   "x": 568,
+   "y": 240,
+   "w": 36,
+   "h": 24,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-3-10",
+   "kind": "zone",
+   "x": 635,
+   "y": 244,
+   "w": 58,
+   "h": 19,
+   "action": {
+    "type": "toggle",
+    "param": 3
+   }
+  },
+  {
+   "id": "zone-2-11",
+   "kind": "zone",
+   "x": 710,
+   "y": 244,
+   "w": 58,
+   "h": 19,
+   "action": {
+    "type": "toggle",
+    "param": 2
+   }
+  },
+  {
+   "id": "zone-11-12",
+   "kind": "zone",
+   "x": 812,
+   "y": 240,
+   "w": 38,
+   "h": 24,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-11-13",
+   "kind": "zone",
+   "x": 859,
+   "y": 240,
+   "w": 36,
+   "h": 24,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 1.0
+   }
+  }
+ ]
+}

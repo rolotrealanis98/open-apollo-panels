@@ -1,0 +1,389 @@
+{
+ "schema": 2,
+ "effectName": "UAD Teletronix LA-2A Legacy",
+ "namePattern": "Teletronix LA-2A Legacy",
+ "size": {
+  "w": 950,
+  "h": 263
+ },
+ "background": "teletronix_la_2a_legacy_1100",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Peak Reduct",
+   "steps": null,
+   "default": 0.3499755859375
+  },
+  {
+   "index": 1,
+   "name": "Gain",
+   "steps": null,
+   "default": 0.399993896484375
+  },
+  {
+   "index": 2,
+   "name": "Comp/Limit",
+   "steps": [
+    "Comp",
+    "Limit"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Meter",
+   "steps": [
+    "+10dB",
+    "GR",
+    "+4dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-gain",
+   "x": 230,
+   "y": 112,
+   "w": 84,
+   "h": 84,
+   "sprite": "teletronix_la_2a_legacy_1101",
+   "frames": 103,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "knob-2-peak_reduct",
+   "x": 636,
+   "y": 112,
+   "w": 84,
+   "h": 84,
+   "sprite": "teletronix_la_2a_legacy_1101",
+   "frames": 103,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "switch-3-comp_limit",
+   "x": 70,
+   "y": 150,
+   "w": 56,
+   "h": 56,
+   "sprite": "teletronix_la_2a_legacy_1103",
+   "frames": 2,
+   "kind": "switch",
+   "param": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-4-meter",
+   "x": 759,
+   "y": 47,
+   "w": 84,
+   "h": 84,
+   "sprite": "teletronix_la_2a_legacy_1104",
+   "frames": 3,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "switch-5-power",
+   "x": 772,
+   "y": 150,
+   "w": 56,
+   "h": 56,
+   "sprite": "teletronix_la_2a_legacy_1103",
+   "frames": 2,
+   "kind": "switch",
+   "param": 4,
+   "orientation": "vertical"
+  },
+  {
+   "id": "filmstrip-6-internal6",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter0"
+   },
+   "x": 403,
+   "y": 99,
+   "w": 142,
+   "h": 51,
+   "sprite": "teletronix_la_2a_legacy_1106",
+   "frames": 105
+  },
+  {
+   "id": "image-7-internal7",
+   "kind": "image",
+   "x": 394,
+   "y": 72,
+   "w": 162,
+   "h": 78,
+   "sprite": "teletronix_la_2a_legacy_1105",
+   "visibility": {
+    "params": [
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "filmstrip-8-internal6",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter1"
+   },
+   "x": 403,
+   "y": 99,
+   "w": 142,
+   "h": 51,
+   "sprite": "teletronix_la_2a_legacy_8050",
+   "frames": 105
+  }
+ ],
+ "meterSources": {
+  "meter0": {
+   "vendorSpecificFloat": 67108890,
+   "calibration": [
+    [
+     0.0,
+     0.0825
+    ],
+    [
+     0.001585,
+     0.0825
+    ],
+    [
+     0.001995,
+     0.0928
+    ],
+    [
+     0.007943,
+     0.0928
+    ],
+    [
+     0.01,
+     0.1031
+    ],
+    [
+     0.015849,
+     0.1031
+    ],
+    [
+     0.019953,
+     0.1134
+    ],
+    [
+     0.025119,
+     0.1134
+    ],
+    [
+     0.031623,
+     0.1237
+    ],
+    [
+     0.039811,
+     0.134
+    ],
+    [
+     0.050119,
+     0.1443
+    ],
+    [
+     0.063096,
+     0.1649
+    ],
+    [
+     0.079433,
+     0.1856
+    ],
+    [
+     0.1,
+     0.2062
+    ],
+    [
+     0.125893,
+     0.2371
+    ],
+    [
+     0.158489,
+     0.268
+    ],
+    [
+     0.199526,
+     0.3093
+    ],
+    [
+     0.251189,
+     0.3608
+    ],
+    [
+     0.316228,
+     0.4124
+    ],
+    [
+     0.398107,
+     0.4845
+    ],
+    [
+     0.501187,
+     0.567
+    ],
+    [
+     0.630957,
+     0.6598
+    ],
+    [
+     0.794328,
+     0.8041
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 67108890,
+    "p1": 1
+   }
+  },
+  "meter1": {
+   "vendorSpecificFloat": 67108890,
+   "calibration": [
+    [
+     0.0,
+     0.0825
+    ],
+    [
+     0.001585,
+     0.0825
+    ],
+    [
+     0.001995,
+     0.0928
+    ],
+    [
+     0.007943,
+     0.0928
+    ],
+    [
+     0.01,
+     0.1031
+    ],
+    [
+     0.015849,
+     0.1031
+    ],
+    [
+     0.019953,
+     0.1134
+    ],
+    [
+     0.025119,
+     0.1134
+    ],
+    [
+     0.031623,
+     0.1237
+    ],
+    [
+     0.039811,
+     0.134
+    ],
+    [
+     0.050119,
+     0.1443
+    ],
+    [
+     0.063096,
+     0.1649
+    ],
+    [
+     0.079433,
+     0.1856
+    ],
+    [
+     0.1,
+     0.2062
+    ],
+    [
+     0.125893,
+     0.2371
+    ],
+    [
+     0.158489,
+     0.268
+    ],
+    [
+     0.199526,
+     0.3093
+    ],
+    [
+     0.251189,
+     0.3608
+    ],
+    [
+     0.316228,
+     0.4124
+    ],
+    [
+     0.398107,
+     0.4845
+    ],
+    [
+     0.501187,
+     0.567
+    ],
+    [
+     0.630957,
+     0.6598
+    ],
+    [
+     0.794328,
+     0.8041
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 67108890,
+    "p1": 1
+   }
+  }
+ }
+}

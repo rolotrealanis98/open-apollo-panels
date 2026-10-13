@@ -1,0 +1,4024 @@
+{
+ "schema": 2,
+ "effectName": "UAD Eventide H910 Harmonizer",
+ "namePattern": "Eventide H910 Harmonizer",
+ "size": {
+  "w": 947,
+  "h": 356
+ },
+ "background": "EVT_H910_bg",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Input Level",
+   "steps": null,
+   "default": 0.610001266002655
+  },
+  {
+   "index": 1,
+   "name": "Feedback",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Manual",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "Anti-Feedback",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "Delay Only",
+   "steps": [
+    "Pitch",
+    "Delay"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Main Delay Time",
+   "steps": [
+    "0.0",
+    "7.5",
+    "15.0",
+    "22.5",
+    "30.0",
+    "37.5",
+    "45.0",
+    "52.5",
+    "60.0",
+    "67.5",
+    "75.0",
+    "82.5",
+    "90.0",
+    "97.5",
+    "105.0",
+    "112.5"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "Output2 Delay T",
+   "steps": [
+    "0.0",
+    "7.5",
+    "15.0",
+    "22.5",
+    "30.0",
+    "37.5",
+    "45.0",
+    "52.5",
+    "30.0",
+    "37.5",
+    "45.0",
+    "52.5",
+    "60.0",
+    "67.5",
+    "75.0",
+    "82.5"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "Pitch Control S",
+   "steps": [
+    "MAN",
+    "A-F",
+    "KYBD",
+    "ENV"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "Mix",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 9,
+   "name": "Main Level",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 10,
+   "name": "Output2 Level",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "Attack",
+   "steps": null,
+   "default": 0.09090908616781235
+  },
+  {
+   "index": 12,
+   "name": "Release",
+   "steps": null,
+   "default": 0.09090909361839294
+  },
+  {
+   "index": 13,
+   "name": "Sensitivity",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 14,
+   "name": "Glide Hold",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 15,
+   "name": "Glide Time",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 16,
+   "name": "Keyboard",
+   "steps": [
+    "off",
+    "C2",
+    "C#2",
+    "D2",
+    "D#2",
+    "E2",
+    "F2",
+    "F#2",
+    "G2",
+    "G#2",
+    "A2",
+    "A#2",
+    "B2",
+    "C3",
+    "C#3",
+    "D3",
+    "D#3",
+    "E3",
+    "F3",
+    "F#3",
+    "G3",
+    "G#3",
+    "A3",
+    "A#3",
+    "B3",
+    "C4"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 17,
+   "name": "Line",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 18,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {},
+ "elements": [
+  {
+   "id": "knob-0",
+   "kind": "knob",
+   "x": 151,
+   "y": 50,
+   "w": 52,
+   "h": 52,
+   "sprite": "EVT_H910_dial",
+   "frames": 99,
+   "param": 0
+  },
+  {
+   "id": "knob-1",
+   "kind": "knob",
+   "x": 294,
+   "y": 50,
+   "w": 52,
+   "h": 52,
+   "sprite": "EVT_H910_dial",
+   "frames": 99,
+   "param": 1
+  },
+  {
+   "id": "knob-2",
+   "kind": "knob",
+   "x": 573,
+   "y": 50,
+   "w": 52,
+   "h": 52,
+   "sprite": "EVT_H910_dial",
+   "frames": 99,
+   "param": 2
+  },
+  {
+   "id": "knob-3",
+   "kind": "knob",
+   "x": 730,
+   "y": 50,
+   "w": 52,
+   "h": 52,
+   "sprite": "EVT_H910_dial",
+   "frames": 99,
+   "param": 3
+  },
+  {
+   "id": "button-17-line",
+   "kind": "switch",
+   "x": 59,
+   "y": 122,
+   "w": 54,
+   "h": 42,
+   "sprite": "EVT_H910_b1",
+   "frames": 2,
+   "param": 17
+  },
+  {
+   "id": "button-4-mode",
+   "kind": "switch",
+   "x": 166,
+   "y": 122,
+   "w": 54,
+   "h": 42,
+   "sprite": "EVT_H910_b2",
+   "frames": 2,
+   "param": 4
+  },
+  {
+   "id": "button-18-powr",
+   "kind": "switch",
+   "x": 834,
+   "y": 122,
+   "w": 54,
+   "h": 42,
+   "sprite": "EVT_H910_b15",
+   "frames": 2,
+   "param": 18
+  },
+  {
+   "id": "button-14-glde",
+   "kind": "switch",
+   "x": 575,
+   "y": 192,
+   "w": 54,
+   "h": 43,
+   "sprite": "EVT_H910_glidehold",
+   "frames": 2,
+   "param": 14
+  },
+  {
+   "id": "bit-5-0",
+   "kind": "filmstrip",
+   "x": 215,
+   "y": 122,
+   "w": 54,
+   "h": 42,
+   "sprite": "EVT_H910_b3",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.066667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.133333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.2
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.266667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.4
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.466667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.533333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.733333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.8
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.866667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.933333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bitzone-5-0",
+   "kind": "zone",
+   "x": 223,
+   "y": 122,
+   "w": 38,
+   "h": 42,
+   "action": {
+    "type": "table",
+    "param": 5,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.066667
+     },
+     {
+      "current": 0.066667,
+      "value": 0.0
+     },
+     {
+      "current": 0.133333,
+      "value": 0.2
+     },
+     {
+      "current": 0.2,
+      "value": 0.133333
+     },
+     {
+      "current": 0.266667,
+      "value": 0.333333
+     },
+     {
+      "current": 0.333333,
+      "value": 0.266667
+     },
+     {
+      "current": 0.4,
+      "value": 0.466667
+     },
+     {
+      "current": 0.466667,
+      "value": 0.4
+     },
+     {
+      "current": 0.533333,
+      "value": 0.6
+     },
+     {
+      "current": 0.6,
+      "value": 0.533333
+     },
+     {
+      "current": 0.666667,
+      "value": 0.733333
+     },
+     {
+      "current": 0.733333,
+      "value": 0.666667
+     },
+     {
+      "current": 0.8,
+      "value": 0.866667
+     },
+     {
+      "current": 0.866667,
+      "value": 0.8
+     },
+     {
+      "current": 0.933333,
+      "value": 1.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.933333
+     }
+    ]
+   }
+  },
+  {
+   "id": "bit-5-1",
+   "kind": "filmstrip",
+   "x": 247,
+   "y": 122,
+   "w": 54,
+   "h": 42,
+   "sprite": "EVT_H910_b4",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.066667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.133333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.2
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.266667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.4
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.466667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.533333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.733333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.8
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.866667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.933333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bitzone-5-1",
+   "kind": "zone",
+   "x": 255,
+   "y": 122,
+   "w": 38,
+   "h": 42,
+   "action": {
+    "type": "table",
+    "param": 5,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.133333
+     },
+     {
+      "current": 0.066667,
+      "value": 0.2
+     },
+     {
+      "current": 0.133333,
+      "value": 0.0
+     },
+     {
+      "current": 0.2,
+      "value": 0.066667
+     },
+     {
+      "current": 0.266667,
+      "value": 0.4
+     },
+     {
+      "current": 0.333333,
+      "value": 0.466667
+     },
+     {
+      "current": 0.4,
+      "value": 0.266667
+     },
+     {
+      "current": 0.466667,
+      "value": 0.333333
+     },
+     {
+      "current": 0.533333,
+      "value": 0.666667
+     },
+     {
+      "current": 0.6,
+      "value": 0.733333
+     },
+     {
+      "current": 0.666667,
+      "value": 0.533333
+     },
+     {
+      "current": 0.733333,
+      "value": 0.6
+     },
+     {
+      "current": 0.8,
+      "value": 0.933333
+     },
+     {
+      "current": 0.866667,
+      "value": 1.0
+     },
+     {
+      "current": 0.933333,
+      "value": 0.8
+     },
+     {
+      "current": 1.0,
+      "value": 0.866667
+     }
+    ]
+   }
+  },
+  {
+   "id": "bit-5-2",
+   "kind": "filmstrip",
+   "x": 279,
+   "y": 122,
+   "w": 53,
+   "h": 42,
+   "sprite": "EVT_H910_b5",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.066667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.133333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.2
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.266667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.4
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.466667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.533333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.733333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.8
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.866667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.933333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bitzone-5-2",
+   "kind": "zone",
+   "x": 286,
+   "y": 122,
+   "w": 38,
+   "h": 42,
+   "action": {
+    "type": "table",
+    "param": 5,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.266667
+     },
+     {
+      "current": 0.066667,
+      "value": 0.333333
+     },
+     {
+      "current": 0.133333,
+      "value": 0.4
+     },
+     {
+      "current": 0.2,
+      "value": 0.466667
+     },
+     {
+      "current": 0.266667,
+      "value": 0.0
+     },
+     {
+      "current": 0.333333,
+      "value": 0.066667
+     },
+     {
+      "current": 0.4,
+      "value": 0.133333
+     },
+     {
+      "current": 0.466667,
+      "value": 0.2
+     },
+     {
+      "current": 0.533333,
+      "value": 0.8
+     },
+     {
+      "current": 0.6,
+      "value": 0.866667
+     },
+     {
+      "current": 0.666667,
+      "value": 0.933333
+     },
+     {
+      "current": 0.733333,
+      "value": 1.0
+     },
+     {
+      "current": 0.8,
+      "value": 0.533333
+     },
+     {
+      "current": 0.866667,
+      "value": 0.6
+     },
+     {
+      "current": 0.933333,
+      "value": 0.666667
+     },
+     {
+      "current": 1.0,
+      "value": 0.733333
+     }
+    ]
+   }
+  },
+  {
+   "id": "bit-5-3",
+   "kind": "filmstrip",
+   "x": 311,
+   "y": 122,
+   "w": 54,
+   "h": 42,
+   "sprite": "EVT_H910_b6",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.066667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.133333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.2
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.266667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.4
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.466667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.533333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.6
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.733333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.8
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.866667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.933333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bitzone-5-3",
+   "kind": "zone",
+   "x": 319,
+   "y": 122,
+   "w": 38,
+   "h": 42,
+   "action": {
+    "type": "table",
+    "param": 5,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.533333
+     },
+     {
+      "current": 0.066667,
+      "value": 0.6
+     },
+     {
+      "current": 0.133333,
+      "value": 0.666667
+     },
+     {
+      "current": 0.2,
+      "value": 0.733333
+     },
+     {
+      "current": 0.266667,
+      "value": 0.8
+     },
+     {
+      "current": 0.333333,
+      "value": 0.866667
+     },
+     {
+      "current": 0.4,
+      "value": 0.933333
+     },
+     {
+      "current": 0.466667,
+      "value": 1.0
+     },
+     {
+      "current": 0.533333,
+      "value": 0.0
+     },
+     {
+      "current": 0.6,
+      "value": 0.066667
+     },
+     {
+      "current": 0.666667,
+      "value": 0.133333
+     },
+     {
+      "current": 0.733333,
+      "value": 0.2
+     },
+     {
+      "current": 0.8,
+      "value": 0.266667
+     },
+     {
+      "current": 0.866667,
+      "value": 0.333333
+     },
+     {
+      "current": 0.933333,
+      "value": 0.4
+     },
+     {
+      "current": 1.0,
+      "value": 0.466667
+     }
+    ]
+   }
+  },
+  {
+   "id": "bit-6-0",
+   "kind": "filmstrip",
+   "x": 383,
+   "y": 122,
+   "w": 54,
+   "h": 42,
+   "sprite": "EVT_H910_b7",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.066667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.133333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.2
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.266667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.4
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.466667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.533333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.733333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.8
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.866667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.933333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bitzone-6-0",
+   "kind": "zone",
+   "x": 391,
+   "y": 122,
+   "w": 38,
+   "h": 42,
+   "action": {
+    "type": "table",
+    "param": 6,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.066667
+     },
+     {
+      "current": 0.066667,
+      "value": 0.0
+     },
+     {
+      "current": 0.133333,
+      "value": 0.2
+     },
+     {
+      "current": 0.2,
+      "value": 0.133333
+     },
+     {
+      "current": 0.266667,
+      "value": 0.333333
+     },
+     {
+      "current": 0.333333,
+      "value": 0.266667
+     },
+     {
+      "current": 0.4,
+      "value": 0.466667
+     },
+     {
+      "current": 0.466667,
+      "value": 0.4
+     },
+     {
+      "current": 0.533333,
+      "value": 0.6
+     },
+     {
+      "current": 0.6,
+      "value": 0.533333
+     },
+     {
+      "current": 0.666667,
+      "value": 0.733333
+     },
+     {
+      "current": 0.733333,
+      "value": 0.666667
+     },
+     {
+      "current": 0.8,
+      "value": 0.866667
+     },
+     {
+      "current": 0.866667,
+      "value": 0.8
+     },
+     {
+      "current": 0.933333,
+      "value": 1.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.933333
+     }
+    ]
+   }
+  },
+  {
+   "id": "bit-6-1",
+   "kind": "filmstrip",
+   "x": 415,
+   "y": 122,
+   "w": 54,
+   "h": 42,
+   "sprite": "EVT_H910_b8",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.066667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.133333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.2
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.266667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.4
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.466667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.533333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.733333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.8
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.866667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.933333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bitzone-6-1",
+   "kind": "zone",
+   "x": 423,
+   "y": 122,
+   "w": 38,
+   "h": 42,
+   "action": {
+    "type": "table",
+    "param": 6,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.133333
+     },
+     {
+      "current": 0.066667,
+      "value": 0.2
+     },
+     {
+      "current": 0.133333,
+      "value": 0.0
+     },
+     {
+      "current": 0.2,
+      "value": 0.066667
+     },
+     {
+      "current": 0.266667,
+      "value": 0.4
+     },
+     {
+      "current": 0.333333,
+      "value": 0.466667
+     },
+     {
+      "current": 0.4,
+      "value": 0.266667
+     },
+     {
+      "current": 0.466667,
+      "value": 0.333333
+     },
+     {
+      "current": 0.533333,
+      "value": 0.666667
+     },
+     {
+      "current": 0.6,
+      "value": 0.733333
+     },
+     {
+      "current": 0.666667,
+      "value": 0.533333
+     },
+     {
+      "current": 0.733333,
+      "value": 0.6
+     },
+     {
+      "current": 0.8,
+      "value": 0.933333
+     },
+     {
+      "current": 0.866667,
+      "value": 1.0
+     },
+     {
+      "current": 0.933333,
+      "value": 0.8
+     },
+     {
+      "current": 1.0,
+      "value": 0.866667
+     }
+    ]
+   }
+  },
+  {
+   "id": "bit-6-2",
+   "kind": "filmstrip",
+   "x": 447,
+   "y": 122,
+   "w": 54,
+   "h": 42,
+   "sprite": "EVT_H910_b9",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.066667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.133333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.2
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.266667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.4
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.466667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.533333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.733333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.8
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.866667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.933333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bitzone-6-2",
+   "kind": "zone",
+   "x": 455,
+   "y": 122,
+   "w": 38,
+   "h": 42,
+   "action": {
+    "type": "table",
+    "param": 6,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.266667
+     },
+     {
+      "current": 0.066667,
+      "value": 0.333333
+     },
+     {
+      "current": 0.133333,
+      "value": 0.4
+     },
+     {
+      "current": 0.2,
+      "value": 0.466667
+     },
+     {
+      "current": 0.266667,
+      "value": 0.0
+     },
+     {
+      "current": 0.333333,
+      "value": 0.066667
+     },
+     {
+      "current": 0.4,
+      "value": 0.133333
+     },
+     {
+      "current": 0.466667,
+      "value": 0.2
+     },
+     {
+      "current": 0.533333,
+      "value": 0.8
+     },
+     {
+      "current": 0.6,
+      "value": 0.866667
+     },
+     {
+      "current": 0.666667,
+      "value": 0.933333
+     },
+     {
+      "current": 0.733333,
+      "value": 1.0
+     },
+     {
+      "current": 0.8,
+      "value": 0.533333
+     },
+     {
+      "current": 0.866667,
+      "value": 0.6
+     },
+     {
+      "current": 0.933333,
+      "value": 0.666667
+     },
+     {
+      "current": 1.0,
+      "value": 0.733333
+     }
+    ]
+   }
+  },
+  {
+   "id": "bit-6-3",
+   "kind": "filmstrip",
+   "x": 480,
+   "y": 122,
+   "w": 53,
+   "h": 42,
+   "sprite": "EVT_H910_b10",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.066667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.133333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.2
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.266667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.4
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.466667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.533333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.6
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.733333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.8
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.866667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.933333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bitzone-6-3",
+   "kind": "zone",
+   "x": 487,
+   "y": 122,
+   "w": 38,
+   "h": 42,
+   "action": {
+    "type": "table",
+    "param": 6,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.533333
+     },
+     {
+      "current": 0.066667,
+      "value": 0.6
+     },
+     {
+      "current": 0.133333,
+      "value": 0.666667
+     },
+     {
+      "current": 0.2,
+      "value": 0.733333
+     },
+     {
+      "current": 0.266667,
+      "value": 0.8
+     },
+     {
+      "current": 0.333333,
+      "value": 0.866667
+     },
+     {
+      "current": 0.4,
+      "value": 0.933333
+     },
+     {
+      "current": 0.466667,
+      "value": 1.0
+     },
+     {
+      "current": 0.533333,
+      "value": 0.0
+     },
+     {
+      "current": 0.6,
+      "value": 0.066667
+     },
+     {
+      "current": 0.666667,
+      "value": 0.133333
+     },
+     {
+      "current": 0.733333,
+      "value": 0.2
+     },
+     {
+      "current": 0.8,
+      "value": 0.266667
+     },
+     {
+      "current": 0.866667,
+      "value": 0.333333
+     },
+     {
+      "current": 0.933333,
+      "value": 0.4
+     },
+     {
+      "current": 1.0,
+      "value": 0.466667
+     }
+    ]
+   }
+  },
+  {
+   "id": "bit-7-0",
+   "kind": "filmstrip",
+   "x": 574,
+   "y": 122,
+   "w": 53,
+   "h": 42,
+   "sprite": "EVT_H910_b11",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     7
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.3333333333333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6666666666666666
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "bitzone-7-0",
+   "kind": "zone",
+   "x": 581,
+   "y": 122,
+   "w": 38,
+   "h": 42,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "bit-7-1",
+   "kind": "filmstrip",
+   "x": 606,
+   "y": 122,
+   "w": 54,
+   "h": 42,
+   "sprite": "EVT_H910_b12",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     7
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.3333333333333333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.6666666666666666
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "bitzone-7-1",
+   "kind": "zone",
+   "x": 614,
+   "y": 122,
+   "w": 38,
+   "h": 42,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.333333
+   }
+  },
+  {
+   "id": "bit-7-2",
+   "kind": "filmstrip",
+   "x": 638,
+   "y": 122,
+   "w": 54,
+   "h": 42,
+   "sprite": "EVT_H910_b13",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     7
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.3333333333333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6666666666666666
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "bitzone-7-2",
+   "kind": "zone",
+   "x": 646,
+   "y": 122,
+   "w": 38,
+   "h": 42,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.666667
+   }
+  },
+  {
+   "id": "bit-7-3",
+   "kind": "filmstrip",
+   "x": 671,
+   "y": 122,
+   "w": 53,
+   "h": 42,
+   "sprite": "EVT_H910_b14",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     7
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.3333333333333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6666666666666666
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bitzone-7-3",
+   "kind": "zone",
+   "x": 678,
+   "y": 122,
+   "w": 38,
+   "h": 42,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "knob-11",
+   "kind": "knob",
+   "x": 208,
+   "y": 252,
+   "w": 52,
+   "h": 52,
+   "sprite": "EVT_H910_dial",
+   "frames": 99,
+   "param": 11
+  },
+  {
+   "id": "knob-12",
+   "kind": "knob",
+   "x": 294,
+   "y": 252,
+   "w": 52,
+   "h": 52,
+   "sprite": "EVT_H910_dial",
+   "frames": 99,
+   "param": 12
+  },
+  {
+   "id": "knob-13",
+   "kind": "knob",
+   "x": 381,
+   "y": 252,
+   "w": 52,
+   "h": 52,
+   "sprite": "EVT_H910_dial",
+   "frames": 99,
+   "param": 13
+  },
+  {
+   "id": "fader-8",
+   "kind": "knob",
+   "x": 35,
+   "y": 214,
+   "w": 49,
+   "h": 124,
+   "sprite": "EVT_H910_fader",
+   "frames": 84,
+   "param": 8
+  },
+  {
+   "id": "fader-9",
+   "kind": "knob",
+   "x": 80,
+   "y": 214,
+   "w": 49,
+   "h": 124,
+   "sprite": "EVT_H910_fader",
+   "frames": 84,
+   "param": 9
+  },
+  {
+   "id": "fader-10",
+   "kind": "knob",
+   "x": 126,
+   "y": 214,
+   "w": 49,
+   "h": 124,
+   "sprite": "EVT_H910_fader",
+   "frames": 84,
+   "param": 10
+  },
+  {
+   "id": "fader-15",
+   "kind": "knob",
+   "x": 480,
+   "y": 214,
+   "w": 49,
+   "h": 124,
+   "sprite": "EVT_H910_fader",
+   "frames": 84,
+   "param": 15
+  },
+  {
+   "id": "value-8",
+   "kind": "text",
+   "x": 35,
+   "y": 325,
+   "w": 42,
+   "h": 15,
+   "param": 8,
+   "text": {
+    "size": 9,
+    "color": "#E8E8E8",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "value-9",
+   "kind": "text",
+   "x": 82,
+   "y": 325,
+   "w": 42,
+   "h": 15,
+   "param": 9,
+   "text": {
+    "size": 9,
+    "color": "#E8E8E8",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "value-10",
+   "kind": "text",
+   "x": 128,
+   "y": 325,
+   "w": 42,
+   "h": 15,
+   "param": 10,
+   "text": {
+    "size": 9,
+    "color": "#E8E8E8",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "value-15",
+   "kind": "text",
+   "x": 480,
+   "y": 325,
+   "w": 42,
+   "h": 15,
+   "param": 15,
+   "text": {
+    "size": 9,
+    "color": "#E8E8E8",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "keyboard",
+   "kind": "image",
+   "x": 530,
+   "y": 226,
+   "w": 376,
+   "h": 127,
+   "sprite": "EVT_H910_keysoff"
+  },
+  {
+   "id": "q-key-C2",
+   "kind": "button",
+   "x": 530.0,
+   "y": 226,
+   "w": 25.07,
+   "h": 127,
+   "sprite": "Q_H910_key_C2",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.04
+   }
+  },
+  {
+   "id": "q-key-D2",
+   "kind": "button",
+   "x": 555.07,
+   "y": 226,
+   "w": 25.07,
+   "h": 127,
+   "sprite": "Q_H910_key_D2",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.12
+   }
+  },
+  {
+   "id": "q-key-E2",
+   "kind": "button",
+   "x": 580.13,
+   "y": 226,
+   "w": 25.07,
+   "h": 127,
+   "sprite": "Q_H910_key_E2",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "q-key-F2",
+   "kind": "button",
+   "x": 605.2,
+   "y": 226,
+   "w": 25.07,
+   "h": 127,
+   "sprite": "Q_H910_key_F2",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.24
+   }
+  },
+  {
+   "id": "q-key-G2",
+   "kind": "button",
+   "x": 630.27,
+   "y": 226,
+   "w": 25.07,
+   "h": 127,
+   "sprite": "Q_H910_key_G2",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.32
+   }
+  },
+  {
+   "id": "q-key-A2",
+   "kind": "button",
+   "x": 655.33,
+   "y": 226,
+   "w": 25.07,
+   "h": 127,
+   "sprite": "Q_H910_key_A2",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "q-key-B2",
+   "kind": "button",
+   "x": 680.4,
+   "y": 226,
+   "w": 25.07,
+   "h": 127,
+   "sprite": "Q_H910_key_B2",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.48
+   }
+  },
+  {
+   "id": "q-key-C3",
+   "kind": "button",
+   "x": 705.47,
+   "y": 226,
+   "w": 25.07,
+   "h": 127,
+   "sprite": "Q_H910_key_C3",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.52
+   }
+  },
+  {
+   "id": "q-key-D3",
+   "kind": "button",
+   "x": 730.53,
+   "y": 226,
+   "w": 25.07,
+   "h": 127,
+   "sprite": "Q_H910_key_D3",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "q-key-E3",
+   "kind": "button",
+   "x": 755.6,
+   "y": 226,
+   "w": 25.07,
+   "h": 127,
+   "sprite": "Q_H910_key_E3",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.68
+   }
+  },
+  {
+   "id": "q-key-F3",
+   "kind": "button",
+   "x": 780.67,
+   "y": 226,
+   "w": 25.07,
+   "h": 127,
+   "sprite": "Q_H910_key_F3",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.72
+   }
+  },
+  {
+   "id": "q-key-G3",
+   "kind": "button",
+   "x": 805.73,
+   "y": 226,
+   "w": 25.07,
+   "h": 127,
+   "sprite": "Q_H910_key_G3",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "q-key-A3",
+   "kind": "button",
+   "x": 830.8,
+   "y": 226,
+   "w": 25.07,
+   "h": 127,
+   "sprite": "Q_H910_key_A3",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.88
+   }
+  },
+  {
+   "id": "q-key-B3",
+   "kind": "button",
+   "x": 855.87,
+   "y": 226,
+   "w": 25.07,
+   "h": 127,
+   "sprite": "Q_H910_key_B3",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.96
+   }
+  },
+  {
+   "id": "q-key-C4",
+   "kind": "button",
+   "x": 880.93,
+   "y": 226,
+   "w": 25.07,
+   "h": 127,
+   "sprite": "Q_H910_key_C4",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "q-key-C#2",
+   "kind": "button",
+   "x": 547.07,
+   "y": 226,
+   "w": 16,
+   "h": 78,
+   "sprite": "Q_H910_key_Cs2",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.08
+   }
+  },
+  {
+   "id": "q-key-D#2",
+   "kind": "button",
+   "x": 572.13,
+   "y": 226,
+   "w": 16,
+   "h": 78,
+   "sprite": "Q_H910_key_Ds2",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.16
+   }
+  },
+  {
+   "id": "q-key-F#2",
+   "kind": "button",
+   "x": 622.27,
+   "y": 226,
+   "w": 16,
+   "h": 78,
+   "sprite": "Q_H910_key_Fs2",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.28
+   }
+  },
+  {
+   "id": "q-key-G#2",
+   "kind": "button",
+   "x": 647.33,
+   "y": 226,
+   "w": 16,
+   "h": 78,
+   "sprite": "Q_H910_key_Gs2",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.36
+   }
+  },
+  {
+   "id": "q-key-A#2",
+   "kind": "button",
+   "x": 672.4,
+   "y": 226,
+   "w": 16,
+   "h": 78,
+   "sprite": "Q_H910_key_As2",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.44
+   }
+  },
+  {
+   "id": "q-key-C#3",
+   "kind": "button",
+   "x": 722.53,
+   "y": 226,
+   "w": 16,
+   "h": 78,
+   "sprite": "Q_H910_key_Cs3",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.56
+   }
+  },
+  {
+   "id": "q-key-D#3",
+   "kind": "button",
+   "x": 747.6,
+   "y": 226,
+   "w": 16,
+   "h": 78,
+   "sprite": "Q_H910_key_Ds3",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.64
+   }
+  },
+  {
+   "id": "q-key-F#3",
+   "kind": "button",
+   "x": 797.73,
+   "y": 226,
+   "w": 16,
+   "h": 78,
+   "sprite": "Q_H910_key_Fs3",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.76
+   }
+  },
+  {
+   "id": "q-key-G#3",
+   "kind": "button",
+   "x": 822.8,
+   "y": 226,
+   "w": 16,
+   "h": 78,
+   "sprite": "Q_H910_key_Gs3",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.84
+   }
+  },
+  {
+   "id": "q-key-A#3",
+   "kind": "button",
+   "x": 847.87,
+   "y": 226,
+   "w": 16,
+   "h": 78,
+   "sprite": "Q_H910_key_As3",
+   "frames": 2,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.92
+   }
+  },
+  {
+   "id": "digit-dsp1",
+   "kind": "filmstrip",
+   "x": 404,
+   "y": 51,
+   "w": 35,
+   "h": 40,
+   "sprite": "EVT_H910_digitalnumberswithpoint",
+   "frames": 10,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.01
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.02
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.03
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.04
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.05
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.06
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.07
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.08
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.09
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.1
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.11
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.12
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.13
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.14
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.15
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.16
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.17
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.18
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.19
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.2
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.21
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.22
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.23
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.24
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.25
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.26
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.27
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.28
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.29
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.3
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.31
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.32
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.33
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.34
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.35
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.36
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.37
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.38
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.39
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.4
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.41
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.42
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.43
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.44
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.45
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.46
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.47
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.48
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.49
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.51
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.52
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.53
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.54
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.55
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.56
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.57
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.58
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.59
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.6
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.61
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.62
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.63
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.64
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.65
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.66
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.67
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.68
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.69
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.7
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.71
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.72
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.73
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.74
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.75
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.76
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.77
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.78
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.79
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.8
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.81
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.82
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.83
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.84
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.85
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.86
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.87
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.88
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.89
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.9
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.91
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.92
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.93
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.94
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.95
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.96
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.97
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.98
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.99
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "digit-dsp2",
+   "kind": "filmstrip",
+   "x": 437,
+   "y": 51,
+   "w": 35,
+   "h": 40,
+   "sprite": "EVT_H910_digitalnumbers",
+   "frames": 10,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.01
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.02
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.03
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.04
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.05
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.06
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.07
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.08
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.09
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.1
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.11
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.12
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.13
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.14
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.15
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.16
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.17
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.18
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.19
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.2
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.21
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.22
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.23
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.24
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.25
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.26
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.27
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.28
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.29
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.3
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.31
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.32
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.33
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.34
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.35
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.36
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.37
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.38
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.39
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.4
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.41
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.42
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.43
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.44
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.45
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.46
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.47
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.48
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.49
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.51
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.52
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.53
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.54
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.55
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.56
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.57
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.58
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.59
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.6
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.61
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.62
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.63
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.64
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.65
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.66
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.67
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.68
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.69
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.7
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.71
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.72
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.73
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.74
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.75
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.76
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.77
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.78
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.79
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.8
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.81
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.82
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.83
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.84
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.85
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.86
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.87
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.88
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       0.89
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.9
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.91
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.92
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       0.93
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.94
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.95
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.96
+      ],
+      "frame": 8
+     },
+     {
+      "key": [
+       0.97
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.98
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       0.99
+      ],
+      "frame": 9
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "digit-dsp3",
+   "kind": "filmstrip",
+   "x": 471,
+   "y": 51,
+   "w": 35,
+   "h": 40,
+   "sprite": "EVT_H910_digitalnumbers",
+   "frames": 10,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     2
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "led-lneL",
+   "kind": "filmstrip",
+   "x": 102,
+   "y": 128,
+   "w": 23,
+   "h": 23,
+   "sprite": "EVT_H910_led",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     17
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "led-dlyL",
+   "kind": "filmstrip",
+   "x": 150,
+   "y": 128,
+   "w": 23,
+   "h": 23,
+   "sprite": "EVT_H910_led",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "led-limit",
+   "kind": "filmstrip",
+   "x": 126,
+   "y": 37,
+   "w": 23,
+   "h": 23,
+   "sprite": "EVT_H910_led",
+   "frames": 2,
+   "frameSource": {
+    "type": "meter",
+    "meter": "limit"
+   }
+  },
+  {
+   "id": "led-pitchctl",
+   "kind": "filmstrip",
+   "x": 559,
+   "y": 128,
+   "w": 23,
+   "h": 23,
+   "sprite": "EVT_H910_led",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "led-power",
+   "kind": "filmstrip",
+   "x": 819,
+   "y": 128,
+   "w": 23,
+   "h": 23,
+   "sprite": "EVT_H910_led",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     18
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "led-gldL",
+   "kind": "filmstrip",
+   "x": 619,
+   "y": 196,
+   "w": 23,
+   "h": 23,
+   "sprite": "EVT_H910_led",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     14
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  }
+ ]
+}

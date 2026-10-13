@@ -1,0 +1,2269 @@
+{
+ "schema": 2,
+ "effectName": "UAD elysia alpha master",
+ "namePattern": "elysia alpha master",
+ "size": {
+  "w": 1200,
+  "h": 329
+ },
+ "background": "elysia_alpha_master__BACKGROUNDSTEREO",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Active",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "MS Mode",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 2,
+   "name": "Link",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 3,
+   "name": "Thresh 1",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Forward1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Attack 1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "AttFast1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "Release1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 8,
+   "name": "RelFast1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "Ratio 1",
+   "steps": null,
+   "default": 0.3636363744735718
+  },
+  {
+   "index": 10,
+   "name": "EQ Gain1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 11,
+   "name": "EQ On 1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "EQ Freq1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 13,
+   "name": "EQ x10 1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 14,
+   "name": "SC Gain1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 15,
+   "name": "SC On 1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 16,
+   "name": "SC Freq1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 17,
+   "name": "Direct 1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 18,
+   "name": "Mix 1",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 19,
+   "name": "Comp 1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 20,
+   "name": "Gain 1",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 21,
+   "name": "Warm 1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 22,
+   "name": "Clip 1",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 23,
+   "name": "Clip On1",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 24,
+   "name": "Thresh 2",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 25,
+   "name": "Forward2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 26,
+   "name": "Attack 2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 27,
+   "name": "AttFast2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 28,
+   "name": "Release2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 29,
+   "name": "RelFast2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 30,
+   "name": "Ratio 2",
+   "steps": null,
+   "default": 0.3636363744735718
+  },
+  {
+   "index": 31,
+   "name": "EQ Gain2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 32,
+   "name": "EQ On 2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 33,
+   "name": "EQ Freq2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 34,
+   "name": "EQ x10 2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 35,
+   "name": "SC Gain2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 36,
+   "name": "SC On 2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 37,
+   "name": "SC Freq2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 38,
+   "name": "Direct 2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 39,
+   "name": "Mix 2",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 40,
+   "name": "Comp 2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 41,
+   "name": "Gain 2",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 42,
+   "name": "Warm 2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 43,
+   "name": "Clip 2",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 44,
+   "name": "Clip On2",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "cmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_master__METERGRLEFT",
+   "frames": 49,
+   "x": 498.0,
+   "y": 62.0,
+   "w": 72.0,
+   "h": 186.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000000"
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-1",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_master__METERGRRIGHT",
+   "frames": 49,
+   "x": 631.0,
+   "y": 62.0,
+   "w": 72.0,
+   "h": 186.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000001"
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-2",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_master__METERSOFTCLIP",
+   "frames": 9,
+   "x": 570.0,
+   "y": 59.0,
+   "w": 13.0,
+   "h": 14.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000002"
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-3",
+   "kind": "filmstrip",
+   "sprite": "elysia_alpha_master__METERSOFTCLIP",
+   "frames": 9,
+   "x": 616.0,
+   "y": 59.0,
+   "w": 13.0,
+   "h": 14.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000003"
+   }
+  },
+  {
+   "id": "thresh1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBBIGLEFT",
+   "frames": 61,
+   "param": 3,
+   "x": 74.0,
+   "y": 44.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "attack1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBBIGLEFT",
+   "frames": 61,
+   "param": 5,
+   "x": 187.0,
+   "y": 44.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "release1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBBIGLEFT",
+   "frames": 61,
+   "param": 7,
+   "x": 300.0,
+   "y": 44.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "ratio1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBBIGLEFT",
+   "frames": 61,
+   "param": 9,
+   "x": 414.0,
+   "y": 44.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "mix1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBBIGLEFT",
+   "frames": 61,
+   "param": 18,
+   "x": 130.0,
+   "y": 215.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "gain1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBBIGLEFT",
+   "frames": 61,
+   "param": 20,
+   "x": 244.0,
+   "y": 215.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "clip1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBBIGLEFT",
+   "frames": 61,
+   "param": 22,
+   "x": 357.0,
+   "y": 215.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "eqgain1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBSMALLLEFT",
+   "frames": 61,
+   "param": 10,
+   "x": 83.0,
+   "y": 139.0,
+   "w": 71.0,
+   "h": 71.0
+  },
+  {
+   "id": "eqfreq1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBSMALLLEFT",
+   "frames": 61,
+   "param": 12,
+   "x": 196.0,
+   "y": 139.0,
+   "w": 71.0,
+   "h": 71.0
+  },
+  {
+   "id": "scgain1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBSMALLLEFT",
+   "frames": 61,
+   "param": 14,
+   "x": 309.0,
+   "y": 139.0,
+   "w": 71.0,
+   "h": 71.0
+  },
+  {
+   "id": "scfreq1-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBSMALLLEFT",
+   "frames": 61,
+   "param": 16,
+   "x": 423.0,
+   "y": 139.0,
+   "w": 71.0,
+   "h": 71.0
+  },
+  {
+   "id": "forward1-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITELEFT",
+   "frames": 2,
+   "param": 4,
+   "orientation": "vertical",
+   "x": 161.0,
+   "y": 92.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "attfast1-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITELEFT",
+   "frames": 2,
+   "param": 6,
+   "orientation": "vertical",
+   "x": 274.0,
+   "y": 92.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "relfast1-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITELEFT",
+   "frames": 2,
+   "param": 8,
+   "orientation": "vertical",
+   "x": 387.0,
+   "y": 92.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "eqon1-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITELEFT",
+   "frames": 2,
+   "param": 11,
+   "orientation": "vertical",
+   "x": 157.0,
+   "y": 174.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "eqx101-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITELEFT",
+   "frames": 2,
+   "param": 13,
+   "orientation": "vertical",
+   "x": 270.0,
+   "y": 174.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "scon1-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITELEFT",
+   "frames": 2,
+   "param": 15,
+   "orientation": "vertical",
+   "x": 384.0,
+   "y": 174.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "direct1-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITELEFT",
+   "frames": 2,
+   "param": 17,
+   "orientation": "vertical",
+   "x": 109.0,
+   "y": 263.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "comp1-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITELEFT",
+   "frames": 2,
+   "param": 19,
+   "orientation": "vertical",
+   "x": 217.0,
+   "y": 263.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "warm1-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITELEFT",
+   "frames": 2,
+   "param": 21,
+   "orientation": "vertical",
+   "x": 331.0,
+   "y": 263.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "clipon1-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITELEFT",
+   "frames": 2,
+   "param": 23,
+   "orientation": "vertical",
+   "x": 444.0,
+   "y": 263.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "thresh2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBBIGRIGHT",
+   "frames": 61,
+   "param": 24,
+   "x": 697.0,
+   "y": 44.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "attack2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBBIGRIGHT",
+   "frames": 61,
+   "param": 26,
+   "x": 810.0,
+   "y": 44.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "release2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBBIGRIGHT",
+   "frames": 61,
+   "param": 28,
+   "x": 923.0,
+   "y": 44.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "ratio2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBBIGRIGHT",
+   "frames": 61,
+   "param": 30,
+   "x": 1037.0,
+   "y": 44.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "mix2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBBIGRIGHT",
+   "frames": 61,
+   "param": 39,
+   "x": 753.0,
+   "y": 215.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "gain2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBBIGRIGHT",
+   "frames": 61,
+   "param": 41,
+   "x": 867.0,
+   "y": 215.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "clip2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBBIGRIGHT",
+   "frames": 61,
+   "param": 43,
+   "x": 980.0,
+   "y": 215.0,
+   "w": 87.0,
+   "h": 87.0
+  },
+  {
+   "id": "eqgain2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBSMALLRIGHT",
+   "frames": 61,
+   "param": 31,
+   "x": 704.0,
+   "y": 139.0,
+   "w": 71.0,
+   "h": 71.0
+  },
+  {
+   "id": "eqfreq2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBSMALLRIGHT",
+   "frames": 61,
+   "param": 33,
+   "x": 817.0,
+   "y": 139.0,
+   "w": 71.0,
+   "h": 71.0
+  },
+  {
+   "id": "scgain2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBSMALLRIGHT",
+   "frames": 61,
+   "param": 35,
+   "x": 930.0,
+   "y": 139.0,
+   "w": 71.0,
+   "h": 71.0
+  },
+  {
+   "id": "scfreq2-knob",
+   "kind": "knob",
+   "sprite": "elysia_alpha_master__KNOBSMALLRIGHT",
+   "frames": 61,
+   "param": 37,
+   "x": 1044.0,
+   "y": 139.0,
+   "w": 71.0,
+   "h": 71.0
+  },
+  {
+   "id": "forward2-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITERIGHT",
+   "frames": 2,
+   "param": 25,
+   "orientation": "vertical",
+   "x": 776.0,
+   "y": 92.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "attfast2-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITERIGHT",
+   "frames": 2,
+   "param": 27,
+   "orientation": "vertical",
+   "x": 889.0,
+   "y": 92.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "relfast2-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITERIGHT",
+   "frames": 2,
+   "param": 29,
+   "orientation": "vertical",
+   "x": 1002.0,
+   "y": 92.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "eqon2-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITERIGHT",
+   "frames": 2,
+   "param": 32,
+   "orientation": "vertical",
+   "x": 772.0,
+   "y": 174.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "eqx102-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITERIGHT",
+   "frames": 2,
+   "param": 34,
+   "orientation": "vertical",
+   "x": 885.0,
+   "y": 174.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "scon2-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITERIGHT",
+   "frames": 2,
+   "param": 36,
+   "orientation": "vertical",
+   "x": 999.0,
+   "y": 174.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "direct2-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITERIGHT",
+   "frames": 2,
+   "param": 38,
+   "orientation": "vertical",
+   "x": 724.0,
+   "y": 263.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "comp2-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITERIGHT",
+   "frames": 2,
+   "param": 40,
+   "orientation": "vertical",
+   "x": 832.0,
+   "y": 263.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "warm2-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITERIGHT",
+   "frames": 2,
+   "param": 42,
+   "orientation": "vertical",
+   "x": 946.0,
+   "y": 263.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "clipon2-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITERIGHT",
+   "frames": 2,
+   "param": 44,
+   "orientation": "vertical",
+   "x": 1059.0,
+   "y": 263.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "msmode-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITE",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 527.0,
+   "y": 263.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "link-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONWHITE",
+   "frames": 2,
+   "param": 2,
+   "orientation": "vertical",
+   "x": 641.0,
+   "y": 263.0,
+   "w": 31.0,
+   "h": 31.0
+  },
+  {
+   "id": "active-switch",
+   "kind": "switch",
+   "sprite": "elysia_alpha_master__BUTTONBLUE",
+   "frames": 2,
+   "param": 0,
+   "orientation": "vertical",
+   "x": 584.0,
+   "y": 263.0,
+   "w": 31.0,
+   "h": 31.0
+  }
+ ],
+ "meterSources": {
+  "led_40000000": {
+   "vendorSpecificFloat": 67109001,
+   "opcode": {
+    "op": 519,
+    "p0": 67109001,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     0.0
+    ],
+    [
+     -96,
+     0.0
+    ],
+    [
+     -80,
+     0.0
+    ],
+    [
+     -72,
+     0.0
+    ],
+    [
+     -60,
+     0.0
+    ],
+    [
+     -54,
+     0.0
+    ],
+    [
+     -48,
+     0.0
+    ],
+    [
+     -42,
+     0.0
+    ],
+    [
+     -40,
+     0.0
+    ],
+    [
+     -36,
+     0.0
+    ],
+    [
+     -30,
+     0.0
+    ],
+    [
+     -27,
+     0.0
+    ],
+    [
+     -24,
+     0.0
+    ],
+    [
+     -21,
+     0.0
+    ],
+    [
+     -20,
+     0.0
+    ],
+    [
+     -18,
+     0.0
+    ],
+    [
+     -15,
+     0.0
+    ],
+    [
+     -12,
+     0.0
+    ],
+    [
+     -10,
+     0.0
+    ],
+    [
+     -9,
+     0.0
+    ],
+    [
+     -8,
+     0.0
+    ],
+    [
+     -7,
+     0.0
+    ],
+    [
+     -6,
+     0.0
+    ],
+    [
+     -5,
+     0.0
+    ],
+    [
+     -4,
+     0.0
+    ],
+    [
+     -3,
+     0.0
+    ],
+    [
+     -2,
+     0.0
+    ],
+    [
+     -1,
+     0.0
+    ],
+    [
+     -0.5,
+     0.0
+    ],
+    [
+     0,
+     0.0
+    ],
+    [
+     1e-05,
+     0.0
+    ],
+    [
+     0.0001,
+     4e-05
+    ],
+    [
+     0.0003,
+     0.00013
+    ],
+    [
+     0.001,
+     0.00044
+    ],
+    [
+     0.002,
+     0.00088
+    ],
+    [
+     0.003,
+     0.00132
+    ],
+    [
+     0.005,
+     0.00221
+    ],
+    [
+     0.01,
+     0.00442
+    ],
+    [
+     0.015,
+     0.00662
+    ],
+    [
+     0.02,
+     0.00883
+    ],
+    [
+     0.03,
+     0.01325
+    ],
+    [
+     0.05,
+     0.02208
+    ],
+    [
+     0.07,
+     0.03091
+    ],
+    [
+     0.1,
+     0.04415
+    ],
+    [
+     0.13,
+     0.0574
+    ],
+    [
+     0.15,
+     0.06623
+    ],
+    [
+     0.2,
+     0.0883
+    ],
+    [
+     0.25,
+     0.11038
+    ],
+    [
+     0.3,
+     0.13245
+    ],
+    [
+     0.35,
+     0.15453
+    ],
+    [
+     0.4,
+     0.1766
+    ],
+    [
+     0.45,
+     0.19868
+    ],
+    [
+     0.5,
+     0.22075
+    ],
+    [
+     0.55,
+     0.24283
+    ],
+    [
+     0.6,
+     0.2649
+    ],
+    [
+     0.65,
+     0.28698
+    ],
+    [
+     0.7,
+     0.30905
+    ],
+    [
+     0.75,
+     0.33113
+    ],
+    [
+     0.8,
+     0.3532
+    ],
+    [
+     0.85,
+     0.37528
+    ],
+    [
+     0.9,
+     0.39735
+    ],
+    [
+     0.95,
+     0.41943
+    ],
+    [
+     1.0,
+     0.4415
+    ],
+    [
+     1.12,
+     0.49448
+    ],
+    [
+     1.25,
+     0.55188
+    ],
+    [
+     1.41,
+     0.62252
+    ],
+    [
+     1.6,
+     0.7064
+    ],
+    [
+     2,
+     0.883
+    ],
+    [
+     2.5,
+     1.0
+    ],
+    [
+     3,
+     1.0
+    ],
+    [
+     4,
+     1.0
+    ],
+    [
+     5,
+     1.0
+    ],
+    [
+     6,
+     1.0
+    ],
+    [
+     8,
+     1.0
+    ],
+    [
+     10,
+     1.0
+    ],
+    [
+     12,
+     1.0
+    ],
+    [
+     15,
+     1.0
+    ],
+    [
+     20,
+     1.0
+    ],
+    [
+     30,
+     1.0
+    ],
+    [
+     50,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "led_40000001": {
+   "vendorSpecificFloat": 67109002,
+   "opcode": {
+    "op": 519,
+    "p0": 67109002,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     0.0
+    ],
+    [
+     -96,
+     0.0
+    ],
+    [
+     -80,
+     0.0
+    ],
+    [
+     -72,
+     0.0
+    ],
+    [
+     -60,
+     0.0
+    ],
+    [
+     -54,
+     0.0
+    ],
+    [
+     -48,
+     0.0
+    ],
+    [
+     -42,
+     0.0
+    ],
+    [
+     -40,
+     0.0
+    ],
+    [
+     -36,
+     0.0
+    ],
+    [
+     -30,
+     0.0
+    ],
+    [
+     -27,
+     0.0
+    ],
+    [
+     -24,
+     0.0
+    ],
+    [
+     -21,
+     0.0
+    ],
+    [
+     -20,
+     0.0
+    ],
+    [
+     -18,
+     0.0
+    ],
+    [
+     -15,
+     0.0
+    ],
+    [
+     -12,
+     0.0
+    ],
+    [
+     -10,
+     0.0
+    ],
+    [
+     -9,
+     0.0
+    ],
+    [
+     -8,
+     0.0
+    ],
+    [
+     -7,
+     0.0
+    ],
+    [
+     -6,
+     0.0
+    ],
+    [
+     -5,
+     0.0
+    ],
+    [
+     -4,
+     0.0
+    ],
+    [
+     -3,
+     0.0
+    ],
+    [
+     -2,
+     0.0
+    ],
+    [
+     -1,
+     0.0
+    ],
+    [
+     -0.5,
+     0.0
+    ],
+    [
+     0,
+     0.0
+    ],
+    [
+     1e-05,
+     0.0
+    ],
+    [
+     0.0001,
+     4e-05
+    ],
+    [
+     0.0003,
+     0.00013
+    ],
+    [
+     0.001,
+     0.00044
+    ],
+    [
+     0.002,
+     0.00088
+    ],
+    [
+     0.003,
+     0.00132
+    ],
+    [
+     0.005,
+     0.00221
+    ],
+    [
+     0.01,
+     0.00442
+    ],
+    [
+     0.015,
+     0.00662
+    ],
+    [
+     0.02,
+     0.00883
+    ],
+    [
+     0.03,
+     0.01325
+    ],
+    [
+     0.05,
+     0.02208
+    ],
+    [
+     0.07,
+     0.03091
+    ],
+    [
+     0.1,
+     0.04415
+    ],
+    [
+     0.13,
+     0.0574
+    ],
+    [
+     0.15,
+     0.06623
+    ],
+    [
+     0.2,
+     0.0883
+    ],
+    [
+     0.25,
+     0.11038
+    ],
+    [
+     0.3,
+     0.13245
+    ],
+    [
+     0.35,
+     0.15453
+    ],
+    [
+     0.4,
+     0.1766
+    ],
+    [
+     0.45,
+     0.19868
+    ],
+    [
+     0.5,
+     0.22075
+    ],
+    [
+     0.55,
+     0.24283
+    ],
+    [
+     0.6,
+     0.2649
+    ],
+    [
+     0.65,
+     0.28698
+    ],
+    [
+     0.7,
+     0.30905
+    ],
+    [
+     0.75,
+     0.33113
+    ],
+    [
+     0.8,
+     0.3532
+    ],
+    [
+     0.85,
+     0.37528
+    ],
+    [
+     0.9,
+     0.39735
+    ],
+    [
+     0.95,
+     0.41943
+    ],
+    [
+     1.0,
+     0.4415
+    ],
+    [
+     1.12,
+     0.49448
+    ],
+    [
+     1.25,
+     0.55188
+    ],
+    [
+     1.41,
+     0.62252
+    ],
+    [
+     1.6,
+     0.7064
+    ],
+    [
+     2,
+     0.883
+    ],
+    [
+     2.5,
+     1.0
+    ],
+    [
+     3,
+     1.0
+    ],
+    [
+     4,
+     1.0
+    ],
+    [
+     5,
+     1.0
+    ],
+    [
+     6,
+     1.0
+    ],
+    [
+     8,
+     1.0
+    ],
+    [
+     10,
+     1.0
+    ],
+    [
+     12,
+     1.0
+    ],
+    [
+     15,
+     1.0
+    ],
+    [
+     20,
+     1.0
+    ],
+    [
+     30,
+     1.0
+    ],
+    [
+     50,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ],
+   "smoothing": 0.4
+  },
+  "led_40000002": {
+   "vendorSpecificFloat": 67109003,
+   "opcode": {
+    "op": 519,
+    "p0": 67109003,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     0.0
+    ],
+    [
+     -96,
+     0.0
+    ],
+    [
+     -80,
+     0.0
+    ],
+    [
+     -72,
+     0.0
+    ],
+    [
+     -60,
+     0.0
+    ],
+    [
+     -54,
+     0.0
+    ],
+    [
+     -48,
+     0.0
+    ],
+    [
+     -42,
+     0.0
+    ],
+    [
+     -40,
+     0.0
+    ],
+    [
+     -36,
+     0.0
+    ],
+    [
+     -30,
+     0.0
+    ],
+    [
+     -27,
+     0.0
+    ],
+    [
+     -24,
+     0.0
+    ],
+    [
+     -21,
+     0.0
+    ],
+    [
+     -20,
+     0.0
+    ],
+    [
+     -18,
+     0.0
+    ],
+    [
+     -15,
+     0.0
+    ],
+    [
+     -12,
+     0.0
+    ],
+    [
+     -10,
+     0.0
+    ],
+    [
+     -9,
+     0.0
+    ],
+    [
+     -8,
+     0.0
+    ],
+    [
+     -7,
+     0.0
+    ],
+    [
+     -6,
+     0.0
+    ],
+    [
+     -5,
+     0.0
+    ],
+    [
+     -4,
+     0.0
+    ],
+    [
+     -3,
+     0.0
+    ],
+    [
+     -2,
+     0.0
+    ],
+    [
+     -1,
+     0.0
+    ],
+    [
+     -0.5,
+     0.0
+    ],
+    [
+     0,
+     0.0
+    ],
+    [
+     1e-05,
+     0.0001
+    ],
+    [
+     0.0001,
+     0.00105
+    ],
+    [
+     0.0003,
+     0.00315
+    ],
+    [
+     0.001,
+     0.01049
+    ],
+    [
+     0.002,
+     0.02098
+    ],
+    [
+     0.003,
+     0.03148
+    ],
+    [
+     0.005,
+     0.05246
+    ],
+    [
+     0.01,
+     0.10492
+    ],
+    [
+     0.015,
+     0.15738
+    ],
+    [
+     0.02,
+     0.20984
+    ],
+    [
+     0.03,
+     0.31476
+    ],
+    [
+     0.05,
+     0.5246
+    ],
+    [
+     0.07,
+     0.73444
+    ],
+    [
+     0.1,
+     1.0
+    ],
+    [
+     0.13,
+     1.0
+    ],
+    [
+     0.15,
+     1.0
+    ],
+    [
+     0.2,
+     1.0
+    ],
+    [
+     0.25,
+     1.0
+    ],
+    [
+     0.3,
+     1.0
+    ],
+    [
+     0.35,
+     1.0
+    ],
+    [
+     0.4,
+     1.0
+    ],
+    [
+     0.45,
+     1.0
+    ],
+    [
+     0.5,
+     1.0
+    ],
+    [
+     0.55,
+     1.0
+    ],
+    [
+     0.6,
+     1.0
+    ],
+    [
+     0.65,
+     1.0
+    ],
+    [
+     0.7,
+     1.0
+    ],
+    [
+     0.75,
+     1.0
+    ],
+    [
+     0.8,
+     1.0
+    ],
+    [
+     0.85,
+     1.0
+    ],
+    [
+     0.9,
+     1.0
+    ],
+    [
+     0.95,
+     1.0
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     1.12,
+     1.0
+    ],
+    [
+     1.25,
+     1.0
+    ],
+    [
+     1.41,
+     1.0
+    ],
+    [
+     1.6,
+     1.0
+    ],
+    [
+     2,
+     1.0
+    ],
+    [
+     2.5,
+     1.0
+    ],
+    [
+     3,
+     1.0
+    ],
+    [
+     4,
+     1.0
+    ],
+    [
+     5,
+     1.0
+    ],
+    [
+     6,
+     1.0
+    ],
+    [
+     8,
+     1.0
+    ],
+    [
+     10,
+     1.0
+    ],
+    [
+     12,
+     1.0
+    ],
+    [
+     15,
+     1.0
+    ],
+    [
+     20,
+     1.0
+    ],
+    [
+     30,
+     1.0
+    ],
+    [
+     50,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ],
+   "smoothing": 0.3
+  },
+  "led_40000003": {
+   "vendorSpecificFloat": 67109004,
+   "opcode": {
+    "op": 519,
+    "p0": 67109004,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     0.0
+    ],
+    [
+     -96,
+     0.0
+    ],
+    [
+     -80,
+     0.0
+    ],
+    [
+     -72,
+     0.0
+    ],
+    [
+     -60,
+     0.0
+    ],
+    [
+     -54,
+     0.0
+    ],
+    [
+     -48,
+     0.0
+    ],
+    [
+     -42,
+     0.0
+    ],
+    [
+     -40,
+     0.0
+    ],
+    [
+     -36,
+     0.0
+    ],
+    [
+     -30,
+     0.0
+    ],
+    [
+     -27,
+     0.0
+    ],
+    [
+     -24,
+     0.0
+    ],
+    [
+     -21,
+     0.0
+    ],
+    [
+     -20,
+     0.0
+    ],
+    [
+     -18,
+     0.0
+    ],
+    [
+     -15,
+     0.0
+    ],
+    [
+     -12,
+     0.0
+    ],
+    [
+     -10,
+     0.0
+    ],
+    [
+     -9,
+     0.0
+    ],
+    [
+     -8,
+     0.0
+    ],
+    [
+     -7,
+     0.0
+    ],
+    [
+     -6,
+     0.0
+    ],
+    [
+     -5,
+     0.0
+    ],
+    [
+     -4,
+     0.0
+    ],
+    [
+     -3,
+     0.0
+    ],
+    [
+     -2,
+     0.0
+    ],
+    [
+     -1,
+     0.0
+    ],
+    [
+     -0.5,
+     0.0
+    ],
+    [
+     0,
+     0.0
+    ],
+    [
+     1e-05,
+     0.0001
+    ],
+    [
+     0.0001,
+     0.00105
+    ],
+    [
+     0.0003,
+     0.00315
+    ],
+    [
+     0.001,
+     0.01049
+    ],
+    [
+     0.002,
+     0.02098
+    ],
+    [
+     0.003,
+     0.03148
+    ],
+    [
+     0.005,
+     0.05246
+    ],
+    [
+     0.01,
+     0.10492
+    ],
+    [
+     0.015,
+     0.15738
+    ],
+    [
+     0.02,
+     0.20984
+    ],
+    [
+     0.03,
+     0.31476
+    ],
+    [
+     0.05,
+     0.5246
+    ],
+    [
+     0.07,
+     0.73444
+    ],
+    [
+     0.1,
+     1.0
+    ],
+    [
+     0.13,
+     1.0
+    ],
+    [
+     0.15,
+     1.0
+    ],
+    [
+     0.2,
+     1.0
+    ],
+    [
+     0.25,
+     1.0
+    ],
+    [
+     0.3,
+     1.0
+    ],
+    [
+     0.35,
+     1.0
+    ],
+    [
+     0.4,
+     1.0
+    ],
+    [
+     0.45,
+     1.0
+    ],
+    [
+     0.5,
+     1.0
+    ],
+    [
+     0.55,
+     1.0
+    ],
+    [
+     0.6,
+     1.0
+    ],
+    [
+     0.65,
+     1.0
+    ],
+    [
+     0.7,
+     1.0
+    ],
+    [
+     0.75,
+     1.0
+    ],
+    [
+     0.8,
+     1.0
+    ],
+    [
+     0.85,
+     1.0
+    ],
+    [
+     0.9,
+     1.0
+    ],
+    [
+     0.95,
+     1.0
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     1.12,
+     1.0
+    ],
+    [
+     1.25,
+     1.0
+    ],
+    [
+     1.41,
+     1.0
+    ],
+    [
+     1.6,
+     1.0
+    ],
+    [
+     2,
+     1.0
+    ],
+    [
+     2.5,
+     1.0
+    ],
+    [
+     3,
+     1.0
+    ],
+    [
+     4,
+     1.0
+    ],
+    [
+     5,
+     1.0
+    ],
+    [
+     6,
+     1.0
+    ],
+    [
+     8,
+     1.0
+    ],
+    [
+     10,
+     1.0
+    ],
+    [
+     12,
+     1.0
+    ],
+    [
+     15,
+     1.0
+    ],
+    [
+     20,
+     1.0
+    ],
+    [
+     30,
+     1.0
+    ],
+    [
+     50,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ],
+   "smoothing": 0.3
+  }
+ }
+}

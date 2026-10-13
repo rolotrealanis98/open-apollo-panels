@@ -1,0 +1,10395 @@
+{
+ "schema": 2,
+ "effectName": "UAD Oxford Envolution",
+ "namePattern": "Oxford Envolution",
+ "size": {
+  "w": 602,
+  "h": 449
+ },
+ "background": "R_Oxford-Envolution_bg",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Trn Level",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "Trn Attack",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Trn Hold",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Trn Release",
+   "steps": null,
+   "default": 0.4949494898319244
+  },
+  {
+   "index": 4,
+   "name": "Trn Sensitivity",
+   "steps": null,
+   "default": 0.6969696879386902
+  },
+  {
+   "index": 5,
+   "name": "Trn Freq Mode",
+   "steps": [
+    "Focus",
+    "Tilt"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 6,
+   "name": "Trn Tilt Freq",
+   "steps": null,
+   "default": 0.5909335017204285
+  },
+  {
+   "index": 7,
+   "name": "Trn Tilt Slope",
+   "steps": [
+    "6 dB/oct",
+    "12 dB/oct"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "Trn Tilt",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 9,
+   "name": "Trn Focus Freq",
+   "steps": null,
+   "default": 0.5663233399391174
+  },
+  {
+   "index": 10,
+   "name": "Trn Focus Width",
+   "steps": null,
+   "default": 0.7979797720909119
+  },
+  {
+   "index": 11,
+   "name": "Trn Focus",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 12,
+   "name": "Trn Bypass",
+   "steps": [
+    "IN",
+    "Bypassed"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "Sus Level",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 14,
+   "name": "Sus Attack",
+   "steps": null,
+   "default": 0.1919191926717758
+  },
+  {
+   "index": 15,
+   "name": "Sus Hold",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 16,
+   "name": "Sus Release",
+   "steps": null,
+   "default": 0.2929292917251587
+  },
+  {
+   "index": 17,
+   "name": "Sus Freq Mode",
+   "steps": [
+    "Focus",
+    "Tilt"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 18,
+   "name": "Sus Tilt Freq",
+   "steps": null,
+   "default": 0.5909335017204285
+  },
+  {
+   "index": 19,
+   "name": "Sus Tilt Slope",
+   "steps": [
+    "6 dB/oct",
+    "12 dB/oct"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 20,
+   "name": "Sus Tilt",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 21,
+   "name": "Sus Focus Freq",
+   "steps": null,
+   "default": 0.5663233399391174
+  },
+  {
+   "index": 22,
+   "name": "Sus Focus Width",
+   "steps": null,
+   "default": 0.7979797720909119
+  },
+  {
+   "index": 23,
+   "name": "Sus Focus",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 24,
+   "name": "Sus Bypass",
+   "steps": [
+    "IN",
+    "Bypassed"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 25,
+   "name": "Diff Listen",
+   "steps": [
+    "HearNorm",
+    "HearDiff"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 26,
+   "name": "Output Gain",
+   "steps": null,
+   "default": 0.6666666865348816
+  },
+  {
+   "index": 27,
+   "name": "Warmth",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 28,
+   "name": "Wet/Dry Mix",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 29,
+   "name": "Sonnox Bypass",
+   "steps": [
+    "IN",
+    "Bypassed"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 30,
+   "name": "Power Bypass",
+   "steps": [
+    "IN",
+    "Bypassed"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 31,
+   "name": "Display Select",
+   "steps": [
+    "Trans Freq Mix",
+    "Scope",
+    "Sustain Freq Mix"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 32,
+   "name": "Scope Speed",
+   "steps": [
+    "Slow",
+    "Medium",
+    "Fast",
+    "1 Bar",
+    "2 Bars"
+   ],
+   "default": 0.75
+  }
+ ],
+ "elements": [
+  {
+   "id": "p31-page0",
+   "kind": "filmstrip",
+   "x": 58,
+   "y": 194,
+   "w": 395,
+   "h": 114,
+   "sprite": "F_Oxford-Envolution_p31_0",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 31
+   },
+   "visibility": {
+    "params": [
+     5,
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-scope-grid",
+   "kind": "filmstrip",
+   "x": 60,
+   "y": 196,
+   "w": 391,
+   "h": 110,
+   "sprite": "R_Oxford-Envolution_scope_grid",
+   "frames": 5,
+   "frameSource": {
+    "type": "param",
+    "param": 32
+   },
+   "visibility": {
+    "params": [
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "p31-display1",
+   "kind": "filmstrip",
+   "x": 12,
+   "y": 195,
+   "w": 36,
+   "h": 21,
+   "sprite": "F_Oxford-Envolution_p31_1",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 31
+   },
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p31-display2",
+   "kind": "filmstrip",
+   "x": 12,
+   "y": 286,
+   "w": 36,
+   "h": 21,
+   "sprite": "F_Oxford-Envolution_p31_2",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 31
+   },
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "p31-display3",
+   "kind": "filmstrip",
+   "x": 12,
+   "y": 240,
+   "w": 36,
+   "h": 21,
+   "sprite": "F_Oxford-Envolution_p31_3",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 31
+   },
+   "visibility": {
+    "params": [
+     5,
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "p26-knob",
+   "kind": "knob",
+   "x": 475,
+   "y": 77,
+   "w": 50,
+   "h": 208,
+   "sprite": "R_Oxford-Envolution_p26_fader",
+   "frames": 33,
+   "param": 26
+  },
+  {
+   "id": "p0-knob",
+   "kind": "knob",
+   "x": 23,
+   "y": 83,
+   "w": 82,
+   "h": 79,
+   "sprite": "F_Oxford-Envolution_p0_0",
+   "frames": 33,
+   "param": 0
+  },
+  {
+   "id": "p13-knob",
+   "kind": "knob",
+   "x": 23,
+   "y": 337,
+   "w": 82,
+   "h": 79,
+   "sprite": "F_Oxford-Envolution_p13_0",
+   "frames": 33,
+   "param": 13
+  },
+  {
+   "id": "p2-knob",
+   "kind": "knob",
+   "x": 218,
+   "y": 92,
+   "w": 58,
+   "h": 56,
+   "sprite": "F_Oxford-Envolution_p2_0",
+   "frames": 33,
+   "param": 2
+  },
+  {
+   "id": "p3-knob",
+   "kind": "knob",
+   "x": 304,
+   "y": 92,
+   "w": 58,
+   "h": 56,
+   "sprite": "F_Oxford-Envolution_p3_0",
+   "frames": 33,
+   "param": 3
+  },
+  {
+   "id": "p14-knob",
+   "kind": "knob",
+   "x": 261,
+   "y": 348,
+   "w": 58,
+   "h": 56,
+   "sprite": "F_Oxford-Envolution_p14_0",
+   "frames": 33,
+   "param": 14
+  },
+  {
+   "id": "p15-knob",
+   "kind": "knob",
+   "x": 156,
+   "y": 348,
+   "w": 58,
+   "h": 56,
+   "sprite": "F_Oxford-Envolution_p15_0",
+   "frames": 33,
+   "param": 15
+  },
+  {
+   "id": "p1-knob",
+   "kind": "knob",
+   "x": 142,
+   "y": 99,
+   "w": 44,
+   "h": 43,
+   "sprite": "F_Oxford-Envolution_p1_0",
+   "frames": 33,
+   "param": 1
+  },
+  {
+   "id": "p4-knob",
+   "kind": "knob",
+   "x": 394,
+   "y": 99,
+   "w": 44,
+   "h": 43,
+   "sprite": "F_Oxford-Envolution_p4_0",
+   "frames": 33,
+   "param": 4
+  },
+  {
+   "id": "p16-knob",
+   "kind": "knob",
+   "x": 370,
+   "y": 355,
+   "w": 44,
+   "h": 43,
+   "sprite": "F_Oxford-Envolution_p16_0",
+   "frames": 33,
+   "param": 16
+  },
+  {
+   "id": "p27-knob",
+   "kind": "knob",
+   "x": 543,
+   "y": 326,
+   "w": 44,
+   "h": 43,
+   "sprite": "F_Oxford-Envolution_p27_0",
+   "frames": 33,
+   "param": 27
+  },
+  {
+   "id": "p28-knob",
+   "kind": "knob",
+   "x": 473,
+   "y": 326,
+   "w": 44,
+   "h": 43,
+   "sprite": "F_Oxford-Envolution_p28_0",
+   "frames": 33,
+   "param": 28
+  },
+  {
+   "id": "p29-switch",
+   "kind": "switch",
+   "x": 528,
+   "y": 407,
+   "w": 49,
+   "h": 31,
+   "sprite": "F_Oxford-Envolution_p29_0",
+   "frames": 2,
+   "param": 29,
+   "orientation": "vertical"
+  },
+  {
+   "id": "F-meter0",
+   "kind": "filmstrip",
+   "x": 543.0,
+   "y": 92.0,
+   "w": 11.0,
+   "h": 206.0,
+   "sprite": "FM_oxford-envolution_0",
+   "frames": 22,
+   "frameSource": {
+    "type": "meter",
+    "meter": "F0_bar_L"
+   },
+   "visibleWhen": 0
+  },
+  {
+   "id": "F-meter1",
+   "kind": "filmstrip",
+   "x": 572.0,
+   "y": 92.0,
+   "w": 11.0,
+   "h": 206.0,
+   "sprite": "FM_oxford-envolution_1",
+   "frames": 22,
+   "frameSource": {
+    "type": "meter",
+    "meter": "F1_bar_R"
+   },
+   "visibleWhen": 0
+  },
+  {
+   "id": "pg-trn-bg0",
+   "kind": "image",
+   "x": 60,
+   "y": 196,
+   "w": 391,
+   "h": 110,
+   "sprite": "FP_Oxford-Envolution_trn_bg0",
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-trn-bg1",
+   "kind": "image",
+   "x": 14,
+   "y": 197,
+   "w": 32,
+   "h": 17,
+   "sprite": "FP_Oxford-Envolution_trn_bg1",
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-trn-bg2",
+   "kind": "image",
+   "x": 14,
+   "y": 242,
+   "w": 32,
+   "h": 17,
+   "sprite": "FP_Oxford-Envolution_trn_bg2",
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-trn-p6-knob",
+   "kind": "knob",
+   "x": 260,
+   "y": 292,
+   "w": 53,
+   "h": 14,
+   "sprite": "R_OENV_pg-trn-p6-knob_blank",
+   "frames": 1,
+   "param": 6,
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-pg-trn-p6-knob-text",
+   "kind": "text",
+   "x": 262.5,
+   "y": 290.6,
+   "w": 50.5,
+   "h": 16.2,
+   "param": 6,
+   "text": {
+    "size": 12.5,
+    "color": "#CACA2D",
+    "align": "left",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-trn-p7-switch",
+   "kind": "switch",
+   "x": 392,
+   "y": 293,
+   "w": 16,
+   "h": 13,
+   "sprite": "FP_Oxford-Envolution_trn_p7_0",
+   "frames": 2,
+   "param": 7,
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-trn-p8-knob",
+   "kind": "knob",
+   "x": 86,
+   "y": 292,
+   "w": 48,
+   "h": 14,
+   "sprite": "R_OENV_pg-trn-p8-knob_blank",
+   "frames": 1,
+   "param": 8,
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-pg-trn-p8-knob-text",
+   "kind": "text",
+   "x": 88.5,
+   "y": 291.3,
+   "w": 45.5,
+   "h": 15.3,
+   "param": 8,
+   "text": {
+    "size": 11.8,
+    "color": "#CACA2D",
+    "align": "left",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-trnF-bg0",
+   "kind": "image",
+   "x": 60,
+   "y": 196,
+   "w": 391,
+   "h": 110,
+   "sprite": "FP_Oxford-Envolution_trnF_bg0",
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-trnF-bg1",
+   "kind": "image",
+   "x": 14,
+   "y": 197,
+   "w": 32,
+   "h": 17,
+   "sprite": "FP_Oxford-Envolution_trnF_bg1",
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-trnF-bg2",
+   "kind": "image",
+   "x": 14,
+   "y": 242,
+   "w": 32,
+   "h": 17,
+   "sprite": "FP_Oxford-Envolution_trnF_bg2",
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-trnF-p11-readout6",
+   "kind": "text",
+   "param": 11,
+   "x": 261.0,
+   "y": 212.0,
+   "w": 16.0,
+   "h": 11.5,
+   "text": {
+    "size": 11.1,
+    "color": "#CCCCCC",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-trnF-p11-readout7",
+   "kind": "text",
+   "param": 11,
+   "x": 261.0,
+   "y": 270.5,
+   "w": 17.0,
+   "h": 11.5,
+   "text": {
+    "size": 11.1,
+    "color": "#CCCCCC",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-trnF-p9-knob",
+   "kind": "knob",
+   "x": 260,
+   "y": 292,
+   "w": 53,
+   "h": 14,
+   "sprite": "R_OENV_pg-trnF-p9-knob_blank",
+   "frames": 1,
+   "param": 9,
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-pg-trnF-p9-knob-text",
+   "kind": "text",
+   "x": 262.5,
+   "y": 290.6,
+   "w": 50.5,
+   "h": 16.2,
+   "param": 9,
+   "text": {
+    "size": 12.5,
+    "color": "#CACA2D",
+    "align": "left",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-trnF-p10-knob",
+   "kind": "knob",
+   "x": 411,
+   "y": 292,
+   "w": 28,
+   "h": 14,
+   "sprite": "R_OENV_pg-trnF-p10-knob_blank",
+   "frames": 1,
+   "param": 10,
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-pg-trnF-p10-knob-text",
+   "kind": "text",
+   "x": 411.0,
+   "y": 291.3,
+   "w": 25.5,
+   "h": 15.3,
+   "param": 10,
+   "text": {
+    "size": 11.8,
+    "color": "#CACA2D",
+    "align": "right",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-trnF-p11-knob",
+   "kind": "knob",
+   "x": 62,
+   "y": 242,
+   "w": 366,
+   "h": 10,
+   "sprite": "FP_Oxford-Envolution_trnF_p11_0",
+   "frames": 33,
+   "param": 11,
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-trnF-p11-display1",
+   "kind": "filmstrip",
+   "x": 62,
+   "y": 226,
+   "w": 366,
+   "h": 11,
+   "sprite": "FP_Oxford-Envolution_trnF_p11_1",
+   "frames": 33,
+   "frameSource": {
+    "type": "param",
+    "param": 11
+   },
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-trnF-p11-display2",
+   "kind": "filmstrip",
+   "x": 62,
+   "y": 259,
+   "w": 366,
+   "h": 6,
+   "sprite": "FP_Oxford-Envolution_trnF_p11_2",
+   "frames": 33,
+   "frameSource": {
+    "type": "param",
+    "param": 11
+   },
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-trnF-p11-display3",
+   "kind": "filmstrip",
+   "x": 62,
+   "y": 213,
+   "w": 205,
+   "h": 7,
+   "sprite": "FP_Oxford-Envolution_trnF_p11_3",
+   "frames": 33,
+   "frameSource": {
+    "type": "param",
+    "param": 11
+   },
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-trnF-p11-display4",
+   "kind": "filmstrip",
+   "x": 100,
+   "y": 292,
+   "w": 48,
+   "h": 14,
+   "sprite": "R_OENV_pg-trnF-p11-display4_blank",
+   "frames": 1,
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-pg-trnF-p11-display4-text",
+   "kind": "text",
+   "x": 102.5,
+   "y": 291.3,
+   "w": 45.5,
+   "h": 15.3,
+   "param": 11,
+   "text": {
+    "size": 11.8,
+    "color": "#CACA2D",
+    "align": "left",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-trnF-p11-display5",
+   "kind": "filmstrip",
+   "x": 271,
+   "y": 213,
+   "w": 157,
+   "h": 7,
+   "sprite": "FP_Oxford-Envolution_trnF_p11_5",
+   "frames": 33,
+   "frameSource": {
+    "type": "param",
+    "param": 11
+   },
+   "visibility": {
+    "params": [
+     5,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-sus-bg0",
+   "kind": "image",
+   "x": 60,
+   "y": 196,
+   "w": 391,
+   "h": 110,
+   "sprite": "FP_Oxford-Envolution_sus_bg0",
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-sus-bg1",
+   "kind": "image",
+   "x": 14,
+   "y": 242,
+   "w": 32,
+   "h": 17,
+   "sprite": "FP_Oxford-Envolution_sus_bg1",
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-sus-bg2",
+   "kind": "image",
+   "x": 14,
+   "y": 288,
+   "w": 32,
+   "h": 17,
+   "sprite": "FP_Oxford-Envolution_sus_bg2",
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-sus-p18-knob",
+   "kind": "knob",
+   "x": 260,
+   "y": 292,
+   "w": 52,
+   "h": 14,
+   "sprite": "R_OENV_pg-sus-p18-knob_blank",
+   "frames": 1,
+   "param": 18,
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-pg-sus-p18-knob-text",
+   "kind": "text",
+   "x": 262.5,
+   "y": 290.6,
+   "w": 49.5,
+   "h": 16.2,
+   "param": 18,
+   "text": {
+    "size": 12.5,
+    "color": "#CC66FF",
+    "align": "left",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-sus-p19-switch",
+   "kind": "switch",
+   "x": 392,
+   "y": 293,
+   "w": 16,
+   "h": 13,
+   "sprite": "FP_Oxford-Envolution_sus_p19_0",
+   "frames": 2,
+   "param": 19,
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-sus-p20-knob",
+   "kind": "knob",
+   "x": 86,
+   "y": 292,
+   "w": 48,
+   "h": 14,
+   "sprite": "R_OENV_pg-sus-p20-knob_blank",
+   "frames": 1,
+   "param": 20,
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-pg-sus-p20-knob-text",
+   "kind": "text",
+   "x": 88.5,
+   "y": 291.3,
+   "w": 45.5,
+   "h": 15.3,
+   "param": 20,
+   "text": {
+    "size": 11.8,
+    "color": "#CC66FF",
+    "align": "left",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-susF-bg0",
+   "kind": "image",
+   "x": 60,
+   "y": 196,
+   "w": 391,
+   "h": 110,
+   "sprite": "FP_Oxford-Envolution_susF_bg0",
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-susF-bg1",
+   "kind": "image",
+   "x": 14,
+   "y": 242,
+   "w": 32,
+   "h": 17,
+   "sprite": "FP_Oxford-Envolution_susF_bg1",
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-susF-bg2",
+   "kind": "image",
+   "x": 14,
+   "y": 288,
+   "w": 32,
+   "h": 17,
+   "sprite": "FP_Oxford-Envolution_susF_bg2",
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-susF-p23-readout7",
+   "kind": "text",
+   "param": 23,
+   "x": 261.0,
+   "y": 212.0,
+   "w": 16.0,
+   "h": 11.5,
+   "text": {
+    "size": 11.1,
+    "color": "#CCCCCC",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-susF-p23-readout8",
+   "kind": "text",
+   "param": 23,
+   "x": 261.0,
+   "y": 270.5,
+   "w": 17.0,
+   "h": 11.5,
+   "text": {
+    "size": 11.1,
+    "color": "#CCCCCC",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-susF-p21-knob",
+   "kind": "knob",
+   "x": 260,
+   "y": 292,
+   "w": 52,
+   "h": 14,
+   "sprite": "R_OENV_pg-susF-p21-knob_blank",
+   "frames": 1,
+   "param": 21,
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-pg-susF-p21-knob-text",
+   "kind": "text",
+   "x": 262.5,
+   "y": 290.6,
+   "w": 49.5,
+   "h": 16.2,
+   "param": 21,
+   "text": {
+    "size": 12.5,
+    "color": "#CC66FF",
+    "align": "left",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-susF-p22-knob",
+   "kind": "knob",
+   "x": 411,
+   "y": 292,
+   "w": 28,
+   "h": 14,
+   "sprite": "R_OENV_pg-susF-p22-knob_blank",
+   "frames": 1,
+   "param": 22,
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-pg-susF-p22-knob-text",
+   "kind": "text",
+   "x": 411.0,
+   "y": 291.3,
+   "w": 25.5,
+   "h": 15.3,
+   "param": 22,
+   "text": {
+    "size": 11.8,
+    "color": "#CC66FF",
+    "align": "right",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-susF-p23-knob",
+   "kind": "knob",
+   "x": 62,
+   "y": 226,
+   "w": 366,
+   "h": 11,
+   "sprite": "FP_Oxford-Envolution_susF_p23_0",
+   "frames": 33,
+   "param": 23,
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-susF-p23-display1",
+   "kind": "filmstrip",
+   "x": 62,
+   "y": 257,
+   "w": 366,
+   "h": 11,
+   "sprite": "FP_Oxford-Envolution_susF_p23_1",
+   "frames": 33,
+   "frameSource": {
+    "type": "param",
+    "param": 23
+   },
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-susF-p23-display2",
+   "kind": "filmstrip",
+   "x": 62,
+   "y": 213,
+   "w": 205,
+   "h": 7,
+   "sprite": "FP_Oxford-Envolution_susF_p23_2",
+   "frames": 33,
+   "frameSource": {
+    "type": "param",
+    "param": 23
+   },
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-susF-p23-display3",
+   "kind": "filmstrip",
+   "x": 62,
+   "y": 274,
+   "w": 205,
+   "h": 7,
+   "sprite": "FP_Oxford-Envolution_susF_p23_3",
+   "frames": 33,
+   "frameSource": {
+    "type": "param",
+    "param": 23
+   },
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-susF-p23-display4",
+   "kind": "filmstrip",
+   "x": 100,
+   "y": 292,
+   "w": 48,
+   "h": 14,
+   "sprite": "R_OENV_pg-susF-p23-display4_blank",
+   "frames": 1,
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-pg-susF-p23-display4-text",
+   "kind": "text",
+   "x": 102.5,
+   "y": 291.3,
+   "w": 45.5,
+   "h": 15.3,
+   "param": 23,
+   "text": {
+    "size": 11.8,
+    "color": "#CC66FF",
+    "align": "left",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-susF-p23-display5",
+   "kind": "filmstrip",
+   "x": 271,
+   "y": 213,
+   "w": 157,
+   "h": 7,
+   "sprite": "FP_Oxford-Envolution_susF_p23_5",
+   "frames": 33,
+   "frameSource": {
+    "type": "param",
+    "param": 23
+   },
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "pg-susF-p23-display6",
+   "kind": "filmstrip",
+   "x": 271,
+   "y": 274,
+   "w": 157,
+   "h": 7,
+   "sprite": "FP_Oxford-Envolution_susF_p23_6",
+   "frames": 33,
+   "frameSource": {
+    "type": "param",
+    "param": 23
+   },
+   "visibility": {
+    "params": [
+     17,
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "trn-mode-focus",
+   "kind": "zone",
+   "x": 250,
+   "y": 195,
+   "w": 30,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0
+   },
+   "visibility": {
+    "params": [
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "trn-mode-tilt",
+   "kind": "zone",
+   "x": 292,
+   "y": 195,
+   "w": 24,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1
+   },
+   "visibility": {
+    "params": [
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "sus-mode-focus",
+   "kind": "zone",
+   "x": 250,
+   "y": 195,
+   "w": 30,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 17,
+    "value": 0
+   },
+   "visibility": {
+    "params": [
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sus-mode-tilt",
+   "kind": "zone",
+   "x": 292,
+   "y": 195,
+   "w": 24,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 17,
+    "value": 1
+   },
+   "visibility": {
+    "params": [
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "disp-trn",
+   "kind": "zone",
+   "x": 16,
+   "y": 198,
+   "w": 27,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 31,
+    "value": 0
+   }
+  },
+  {
+   "id": "disp-scope",
+   "kind": "zone",
+   "x": 16,
+   "y": 242,
+   "w": 27,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 31,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "disp-sus",
+   "kind": "zone",
+   "x": 16,
+   "y": 289,
+   "w": 27,
+   "h": 14,
+   "action": {
+    "type": "set",
+    "param": 31,
+    "value": 1
+   }
+  },
+  {
+   "id": "trn-byp",
+   "kind": "zone",
+   "x": 95,
+   "y": 167,
+   "w": 18,
+   "h": 18,
+   "action": {
+    "type": "toggle",
+    "param": 12
+   }
+  },
+  {
+   "id": "sus-byp",
+   "kind": "zone",
+   "x": 95,
+   "y": 421,
+   "w": 18,
+   "h": 18,
+   "action": {
+    "type": "toggle",
+    "param": 24
+   }
+  },
+  {
+   "id": "diff",
+   "kind": "zone",
+   "x": 486,
+   "y": 413,
+   "w": 30,
+   "h": 18,
+   "action": {
+    "type": "toggle",
+    "param": 25
+   }
+  },
+  {
+   "id": "byp",
+   "kind": "zone",
+   "x": 532,
+   "y": 413,
+   "w": 40,
+   "h": 18,
+   "action": {
+    "type": "toggle",
+    "param": 29
+   }
+  },
+  {
+   "id": "power",
+   "kind": "zone",
+   "x": 500,
+   "y": 27,
+   "w": 22,
+   "h": 22,
+   "action": {
+    "type": "toggle",
+    "param": 30
+   }
+  },
+  {
+   "id": "F-scope-speed-menu",
+   "kind": "menu",
+   "x": 200,
+   "y": 288,
+   "w": 115,
+   "h": 14,
+   "param": 32,
+   "text": {
+    "size": 9,
+    "color": "#AEB4C4",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "visibility": {
+    "params": [
+     31
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-p0-value",
+   "kind": "text",
+   "x": 36.5,
+   "y": 168.6,
+   "w": 54.5,
+   "h": 14.8,
+   "param": 0,
+   "text": {
+    "size": 11.8,
+    "color": "#CFD07F",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "R-p1-value",
+   "kind": "text",
+   "x": 137.0,
+   "y": 152.9,
+   "w": 54.0,
+   "h": 15.6,
+   "param": 1,
+   "text": {
+    "size": 12.5,
+    "color": "#CFD07F",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "R-p2-value",
+   "kind": "text",
+   "x": 220.0,
+   "y": 152.9,
+   "w": 54.0,
+   "h": 15.6,
+   "param": 2,
+   "text": {
+    "size": 12.5,
+    "color": "#CFD07F",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "R-p3-value",
+   "kind": "text",
+   "x": 306.0,
+   "y": 152.9,
+   "w": 54.0,
+   "h": 15.6,
+   "param": 3,
+   "text": {
+    "size": 12.5,
+    "color": "#CFD07F",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "R-p4-value",
+   "kind": "text",
+   "x": 389.0,
+   "y": 152.9,
+   "w": 54.0,
+   "h": 15.6,
+   "param": 4,
+   "text": {
+    "size": 12.5,
+    "color": "#CFD07F",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "R-p13-value",
+   "kind": "text",
+   "x": 36.8,
+   "y": 422.6,
+   "w": 54.2,
+   "h": 14.8,
+   "param": 13,
+   "text": {
+    "size": 11.8,
+    "color": "#CFD07F",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "R-p15-value",
+   "kind": "text",
+   "x": 158.0,
+   "y": 408.9,
+   "w": 54.0,
+   "h": 15.6,
+   "param": 15,
+   "text": {
+    "size": 12.5,
+    "color": "#CFD07F",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "R-p14-value",
+   "kind": "text",
+   "x": 263.0,
+   "y": 408.9,
+   "w": 54.0,
+   "h": 15.6,
+   "param": 14,
+   "text": {
+    "size": 12.5,
+    "color": "#CFD07F",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "R-p16-value",
+   "kind": "text",
+   "x": 365.0,
+   "y": 408.9,
+   "w": 54.0,
+   "h": 15.6,
+   "param": 16,
+   "text": {
+    "size": 12.5,
+    "color": "#CFD07F",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "R-p26-value",
+   "kind": "text",
+   "x": 472.5,
+   "y": 285.6,
+   "w": 54.5,
+   "h": 14.8,
+   "param": 26,
+   "text": {
+    "size": 11.8,
+    "color": "#CFD07F",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "R-p28-value",
+   "kind": "text",
+   "x": 468.0,
+   "y": 374.9,
+   "w": 54.0,
+   "h": 15.6,
+   "param": 28,
+   "text": {
+    "size": 12.5,
+    "color": "#CFD07F",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "R-p27-value",
+   "kind": "text",
+   "x": 538.0,
+   "y": 374.9,
+   "w": 54.0,
+   "h": 15.6,
+   "param": 27,
+   "text": {
+    "size": 12.5,
+    "color": "#CFD07F",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "R-trn-byp",
+   "kind": "filmstrip",
+   "x": 96,
+   "y": 167,
+   "w": 16,
+   "h": 17,
+   "sprite": "R_Oxford-Envolution_trn-byp",
+   "frames": 3,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     12,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-sus-byp",
+   "kind": "filmstrip",
+   "x": 96,
+   "y": 421,
+   "w": 16,
+   "h": 17,
+   "sprite": "R_Oxford-Envolution_sus-byp",
+   "frames": 3,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-diff",
+   "kind": "filmstrip",
+   "x": 485,
+   "y": 414,
+   "w": 33,
+   "h": 19,
+   "sprite": "R_Oxford-Envolution_diff",
+   "frames": 3,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     25,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey0",
+   "kind": "image",
+   "x": 26,
+   "y": 87,
+   "w": 76,
+   "h": 76,
+   "sprite": "R_Oxford-Envolution_grey0",
+   "visibility": {
+    "params": [
+     12,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey1",
+   "kind": "image",
+   "x": 220,
+   "y": 94,
+   "w": 54,
+   "h": 54,
+   "sprite": "R_Oxford-Envolution_grey1",
+   "visibility": {
+    "params": [
+     12,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey2",
+   "kind": "image",
+   "x": 306,
+   "y": 94,
+   "w": 54,
+   "h": 54,
+   "sprite": "R_Oxford-Envolution_grey2",
+   "visibility": {
+    "params": [
+     12,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey3",
+   "kind": "image",
+   "x": 517,
+   "y": 98,
+   "w": 6,
+   "h": 5,
+   "sprite": "R_Oxford-Envolution_grey3",
+   "visibility": {
+    "params": [
+     25,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey4",
+   "kind": "image",
+   "x": 142,
+   "y": 99,
+   "w": 44,
+   "h": 44,
+   "sprite": "R_Oxford-Envolution_grey4",
+   "visibility": {
+    "params": [
+     12,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey5",
+   "kind": "image",
+   "x": 394,
+   "y": 99,
+   "w": 44,
+   "h": 44,
+   "sprite": "R_Oxford-Envolution_grey5",
+   "visibility": {
+    "params": [
+     12,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey6",
+   "kind": "image",
+   "x": 498,
+   "y": 105,
+   "w": 4,
+   "h": 12,
+   "sprite": "R_Oxford-Envolution_grey6",
+   "visibility": {
+    "params": [
+     25,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey7",
+   "kind": "image",
+   "x": 498,
+   "y": 118,
+   "w": 4,
+   "h": 11,
+   "sprite": "R_Oxford-Envolution_grey7",
+   "visibility": {
+    "params": [
+     25,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey8",
+   "kind": "image",
+   "x": 498,
+   "y": 130,
+   "w": 4,
+   "h": 3,
+   "sprite": "R_Oxford-Envolution_grey8",
+   "visibility": {
+    "params": [
+     25,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey9",
+   "kind": "image",
+   "x": 491,
+   "y": 134,
+   "w": 24,
+   "h": 48,
+   "sprite": "R_Oxford-Envolution_grey9",
+   "visibility": {
+    "params": [
+     25,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey10",
+   "kind": "image",
+   "x": 498,
+   "y": 146,
+   "w": 3,
+   "h": 3,
+   "sprite": "R_Oxford-Envolution_grey10",
+   "visibility": {
+    "params": [
+     25,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey11",
+   "kind": "image",
+   "x": 490,
+   "y": 152,
+   "w": 3,
+   "h": 3,
+   "sprite": "R_Oxford-Envolution_grey11",
+   "visibility": {
+    "params": [
+     25,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey12",
+   "kind": "image",
+   "x": 485,
+   "y": 153,
+   "w": 4,
+   "h": 4,
+   "sprite": "R_Oxford-Envolution_grey12",
+   "visibility": {
+    "params": [
+     25,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey13",
+   "kind": "image",
+   "x": 137,
+   "y": 154,
+   "w": 54,
+   "h": 14,
+   "sprite": "R_Oxford-Envolution_grey13",
+   "visibility": {
+    "params": [
+     12,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey14",
+   "kind": "image",
+   "x": 220,
+   "y": 154,
+   "w": 54,
+   "h": 14,
+   "sprite": "R_Oxford-Envolution_grey14",
+   "visibility": {
+    "params": [
+     12,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey15",
+   "kind": "image",
+   "x": 306,
+   "y": 154,
+   "w": 54,
+   "h": 14,
+   "sprite": "R_Oxford-Envolution_grey15",
+   "visibility": {
+    "params": [
+     12,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey16",
+   "kind": "image",
+   "x": 389,
+   "y": 154,
+   "w": 54,
+   "h": 14,
+   "sprite": "R_Oxford-Envolution_grey16",
+   "visibility": {
+    "params": [
+     12,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey18",
+   "kind": "image",
+   "x": 37,
+   "y": 169,
+   "w": 54,
+   "h": 14,
+   "sprite": "R_Oxford-Envolution_grey18",
+   "visibility": {
+    "params": [
+     12,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey19",
+   "kind": "image",
+   "x": 515,
+   "y": 178,
+   "w": 4,
+   "h": 4,
+   "sprite": "R_Oxford-Envolution_grey19",
+   "visibility": {
+    "params": [
+     25,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey20",
+   "kind": "image",
+   "x": 517,
+   "y": 204,
+   "w": 6,
+   "h": 6,
+   "sprite": "R_Oxford-Envolution_grey20",
+   "visibility": {
+    "params": [
+     25,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey21",
+   "kind": "image",
+   "x": 517,
+   "y": 231,
+   "w": 6,
+   "h": 6,
+   "sprite": "R_Oxford-Envolution_grey21",
+   "visibility": {
+    "params": [
+     25,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey22",
+   "kind": "image",
+   "x": 516,
+   "y": 257,
+   "w": 6,
+   "h": 6,
+   "sprite": "R_Oxford-Envolution_grey22",
+   "visibility": {
+    "params": [
+     25,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey23",
+   "kind": "image",
+   "x": 473,
+   "y": 286,
+   "w": 54,
+   "h": 14,
+   "sprite": "R_Oxford-Envolution_grey23",
+   "visibility": {
+    "params": [
+     25,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey24",
+   "kind": "image",
+   "x": 473,
+   "y": 326,
+   "w": 44,
+   "h": 44,
+   "sprite": "R_Oxford-Envolution_grey24",
+   "visibility": {
+    "params": [
+     25,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey25",
+   "kind": "image",
+   "x": 543,
+   "y": 326,
+   "w": 44,
+   "h": 44,
+   "sprite": "R_Oxford-Envolution_grey25",
+   "visibility": {
+    "params": [
+     25,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey26",
+   "kind": "image",
+   "x": 59,
+   "y": 331,
+   "w": 5,
+   "h": 6,
+   "sprite": "R_Oxford-Envolution_grey26",
+   "visibility": {
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey27",
+   "kind": "image",
+   "x": 65,
+   "y": 331,
+   "w": 5,
+   "h": 6,
+   "sprite": "R_Oxford-Envolution_grey27",
+   "visibility": {
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey28",
+   "kind": "image",
+   "x": 483,
+   "y": 335,
+   "w": 15,
+   "h": 10,
+   "sprite": "R_Oxford-Envolution_grey28",
+   "visibility": {
+    "params": [
+     25,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey29",
+   "kind": "image",
+   "x": 553,
+   "y": 335,
+   "w": 15,
+   "h": 10,
+   "sprite": "R_Oxford-Envolution_grey29",
+   "visibility": {
+    "params": [
+     25,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey30",
+   "kind": "image",
+   "x": 38,
+   "y": 337,
+   "w": 4,
+   "h": 6,
+   "sprite": "R_Oxford-Envolution_grey30",
+   "visibility": {
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey31",
+   "kind": "image",
+   "x": 85,
+   "y": 337,
+   "w": 9,
+   "h": 6,
+   "sprite": "R_Oxford-Envolution_grey31",
+   "visibility": {
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey32",
+   "kind": "image",
+   "x": 24,
+   "y": 341,
+   "w": 80,
+   "h": 76,
+   "sprite": "R_Oxford-Envolution_grey32",
+   "visibility": {
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey33",
+   "kind": "image",
+   "x": 158,
+   "y": 350,
+   "w": 54,
+   "h": 54,
+   "sprite": "R_Oxford-Envolution_grey33",
+   "visibility": {
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey34",
+   "kind": "image",
+   "x": 263,
+   "y": 350,
+   "w": 54,
+   "h": 54,
+   "sprite": "R_Oxford-Envolution_grey34",
+   "visibility": {
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey35",
+   "kind": "image",
+   "x": 370,
+   "y": 355,
+   "w": 44,
+   "h": 44,
+   "sprite": "R_Oxford-Envolution_grey35",
+   "visibility": {
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey36",
+   "kind": "image",
+   "x": 15,
+   "y": 357,
+   "w": 8,
+   "h": 6,
+   "sprite": "R_Oxford-Envolution_grey36",
+   "visibility": {
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey37",
+   "kind": "image",
+   "x": 112,
+   "y": 357,
+   "w": 4,
+   "h": 6,
+   "sprite": "R_Oxford-Envolution_grey37",
+   "visibility": {
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey38",
+   "kind": "image",
+   "x": 278,
+   "y": 362,
+   "w": 13,
+   "h": 11,
+   "sprite": "R_Oxford-Envolution_grey38",
+   "visibility": {
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey39",
+   "kind": "image",
+   "x": 175,
+   "y": 362,
+   "w": 11,
+   "h": 8,
+   "sprite": "R_Oxford-Envolution_grey39",
+   "visibility": {
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey40",
+   "kind": "image",
+   "x": 468,
+   "y": 376,
+   "w": 54,
+   "h": 14,
+   "sprite": "R_Oxford-Envolution_grey40",
+   "visibility": {
+    "params": [
+     25,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey41",
+   "kind": "image",
+   "x": 538,
+   "y": 376,
+   "w": 54,
+   "h": 14,
+   "sprite": "R_Oxford-Envolution_grey41",
+   "visibility": {
+    "params": [
+     25,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey42",
+   "kind": "image",
+   "x": 13,
+   "y": 386,
+   "w": 8,
+   "h": 6,
+   "sprite": "R_Oxford-Envolution_grey42",
+   "visibility": {
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey43",
+   "kind": "image",
+   "x": 115,
+   "y": 386,
+   "w": 4,
+   "h": 6,
+   "sprite": "R_Oxford-Envolution_grey43",
+   "visibility": {
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey45",
+   "kind": "image",
+   "x": 158,
+   "y": 410,
+   "w": 54,
+   "h": 14,
+   "sprite": "R_Oxford-Envolution_grey45",
+   "visibility": {
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey46",
+   "kind": "image",
+   "x": 263,
+   "y": 410,
+   "w": 54,
+   "h": 14,
+   "sprite": "R_Oxford-Envolution_grey46",
+   "visibility": {
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey47",
+   "kind": "image",
+   "x": 365,
+   "y": 410,
+   "w": 54,
+   "h": 14,
+   "sprite": "R_Oxford-Envolution_grey47",
+   "visibility": {
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey48",
+   "kind": "image",
+   "x": 26,
+   "y": 411,
+   "w": 8,
+   "h": 6,
+   "sprite": "R_Oxford-Envolution_grey48",
+   "visibility": {
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey49",
+   "kind": "image",
+   "x": 94,
+   "y": 411,
+   "w": 12,
+   "h": 6,
+   "sprite": "R_Oxford-Envolution_grey49",
+   "visibility": {
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-grey52",
+   "kind": "image",
+   "x": 37,
+   "y": 423,
+   "w": 54,
+   "h": 14,
+   "sprite": "R_Oxford-Envolution_grey52",
+   "visibility": {
+    "params": [
+     24,
+     28,
+     29
+    ],
+    "table": [
+     {
+      "key": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.0,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       0.02,
+       1.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "R-bypass",
+   "kind": "image",
+   "x": 2,
+   "y": 52,
+   "w": 598,
+   "h": 396,
+   "sprite": "R_Oxford-Envolution_bypass",
+   "visibility": {
+    "params": [
+     30
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  }
+ ],
+ "meterSources": {
+  "F0_bar_L": {
+   "vendorSpecificFloat": 806,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.00073292,
+     0.0
+    ],
+    [
+     0.00082235,
+     0.0159
+    ],
+    [
+     0.00092269,
+     0.0317
+    ],
+    [
+     0.00103527,
+     0.0476
+    ],
+    [
+     0.00115717,
+     0.0635
+    ],
+    [
+     0.00129341,
+     0.0794
+    ],
+    [
+     0.00144569,
+     0.0952
+    ],
+    [
+     0.00161999,
+     0.1111
+    ],
+    [
+     0.0018153,
+     0.127
+    ],
+    [
+     0.00203415,
+     0.1429
+    ],
+    [
+     0.00227673,
+     0.1587
+    ],
+    [
+     0.00254823,
+     0.1746
+    ],
+    [
+     0.00285211,
+     0.1905
+    ],
+    [
+     0.00319705,
+     0.2063
+    ],
+    [
+     0.00358371,
+     0.2222
+    ],
+    [
+     0.00401714,
+     0.2381
+    ],
+    [
+     0.00450141,
+     0.254
+    ],
+    [
+     0.00504406,
+     0.2698
+    ],
+    [
+     0.00565212,
+     0.2857
+    ],
+    [
+     0.00633662,
+     0.3016
+    ],
+    [
+     0.00710402,
+     0.3175
+    ],
+    [
+     0.00796436,
+     0.3333
+    ],
+    [
+     0.00893374,
+     0.3492
+    ],
+    [
+     0.01002112,
+     0.3651
+    ],
+    [
+     0.01124084,
+     0.381
+    ],
+    [
+     0.01260914,
+     0.3968
+    ],
+    [
+     0.01414401,
+     0.4127
+    ],
+    [
+     0.0158657,
+     0.4286
+    ],
+    [
+     0.01779617,
+     0.4444
+    ],
+    [
+     0.01996154,
+     0.4603
+    ],
+    [
+     0.02239037,
+     0.4762
+    ],
+    [
+     0.02512732,
+     0.4921
+    ],
+    [
+     0.02819882,
+     0.5079
+    ],
+    [
+     0.03164577,
+     0.5238
+    ],
+    [
+     0.03549562,
+     0.5397
+    ],
+    [
+     0.03981381,
+     0.5556
+    ],
+    [
+     0.04465733,
+     0.5714
+    ],
+    [
+     0.05010714,
+     0.5873
+    ],
+    [
+     0.05622202,
+     0.6032
+    ],
+    [
+     0.06308313,
+     0.619
+    ],
+    [
+     0.07076898,
+     0.6349
+    ],
+    [
+     0.07939124,
+     0.6508
+    ],
+    [
+     0.08906401,
+     0.6667
+    ],
+    [
+     0.09993241,
+     0.6825
+    ],
+    [
+     0.11212708,
+     0.6984
+    ],
+    [
+     0.12580985,
+     0.7143
+    ],
+    [
+     0.1411505,
+     0.7302
+    ],
+    [
+     0.15836171,
+     0.746
+    ],
+    [
+     0.17767158,
+     0.7619
+    ],
+    [
+     0.19933834,
+     0.7778
+    ],
+    [
+     0.22364733,
+     0.7937
+    ],
+    [
+     0.25092076,
+     0.8095
+    ],
+    [
+     0.28152014,
+     0.8254
+    ],
+    [
+     0.31585106,
+     0.8413
+    ],
+    [
+     0.35436858,
+     0.8571
+    ],
+    [
+     0.39758326,
+     0.873
+    ],
+    [
+     0.44606789,
+     0.8889
+    ],
+    [
+     0.50046514,
+     0.9048
+    ],
+    [
+     0.56149605,
+     0.9206
+    ],
+    [
+     0.62996959,
+     0.9365
+    ],
+    [
+     0.70679335,
+     0.9524
+    ],
+    [
+     0.79298565,
+     0.9683
+    ],
+    [
+     0.88968897,
+     0.9841
+    ],
+    [
+     0.99818509,
+     1.0
+    ],
+    [
+     3.99274,
+     1.0
+    ]
+   ],
+   "smoothing": 0.35
+  },
+  "F1_bar_R": {
+   "vendorSpecificFloat": 807,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.00072499,
+     0.0
+    ],
+    [
+     0.00081346,
+     0.0159
+    ],
+    [
+     0.00091271,
+     0.0317
+    ],
+    [
+     0.00102408,
+     0.0476
+    ],
+    [
+     0.00114656,
+     0.0635
+    ],
+    [
+     0.00128369,
+     0.0794
+    ],
+    [
+     0.00143722,
+     0.0952
+    ],
+    [
+     0.00160894,
+     0.1111
+    ],
+    [
+     0.00180118,
+     0.127
+    ],
+    [
+     0.00201638,
+     0.1429
+    ],
+    [
+     0.00225759,
+     0.1587
+    ],
+    [
+     0.00252765,
+     0.1746
+    ],
+    [
+     0.00283002,
+     0.1905
+    ],
+    [
+     0.00317231,
+     0.2063
+    ],
+    [
+     0.00355601,
+     0.2222
+    ],
+    [
+     0.00398611,
+     0.2381
+    ],
+    [
+     0.00447016,
+     0.254
+    ],
+    [
+     0.00501299,
+     0.2698
+    ],
+    [
+     0.00562173,
+     0.2857
+    ],
+    [
+     0.00630024,
+     0.3016
+    ],
+    [
+     0.00706065,
+     0.3175
+    ],
+    [
+     0.00791283,
+     0.3333
+    ],
+    [
+     0.00887505,
+     0.3492
+    ],
+    [
+     0.00995429,
+     0.3651
+    ],
+    [
+     0.01116476,
+     0.381
+    ],
+    [
+     0.01252286,
+     0.3968
+    ],
+    [
+     0.01404617,
+     0.4127
+    ],
+    [
+     0.01575477,
+     0.4286
+    ],
+    [
+     0.01767182,
+     0.4444
+    ],
+    [
+     0.01982214,
+     0.4603
+    ],
+    [
+     0.02223411,
+     0.4762
+    ],
+    [
+     0.02495258,
+     0.4921
+    ],
+    [
+     0.02800341,
+     0.5079
+    ],
+    [
+     0.03142726,
+     0.5238
+    ],
+    [
+     0.03524915,
+     0.5397
+    ],
+    [
+     0.03953581,
+     0.5556
+    ],
+    [
+     0.04434378,
+     0.5714
+    ],
+    [
+     0.04975379,
+     0.5873
+    ],
+    [
+     0.05582383,
+     0.6032
+    ],
+    [
+     0.06263442,
+     0.619
+    ],
+    [
+     0.07027144,
+     0.6349
+    ],
+    [
+     0.07883965,
+     0.6508
+    ],
+    [
+     0.08845259,
+     0.6667
+    ],
+    [
+     0.09924437,
+     0.6825
+    ],
+    [
+     0.11135282,
+     0.6984
+    ],
+    [
+     0.12493857,
+     0.7143
+    ],
+    [
+     0.1401718,
+     0.7302
+    ],
+    [
+     0.15726235,
+     0.746
+    ],
+    [
+     0.17643668,
+     0.7619
+    ],
+    [
+     0.19795482,
+     0.7778
+    ],
+    [
+     0.2220973,
+     0.7937
+    ],
+    [
+     0.24918418,
+     0.8095
+    ],
+    [
+     0.27957458,
+     0.8254
+    ],
+    [
+     0.31367137,
+     0.8413
+    ],
+    [
+     0.35192659,
+     0.8571
+    ],
+    [
+     0.39484739,
+     0.873
+    ],
+    [
+     0.44300281,
+     0.8889
+    ],
+    [
+     0.49703123,
+     0.9048
+    ],
+    [
+     0.55764894,
+     0.9206
+    ],
+    [
+     0.62565955,
+     0.9365
+    ],
+    [
+     0.70196471,
+     0.9524
+    ],
+    [
+     0.78757601,
+     0.9683
+    ],
+    [
+     0.88362843,
+     0.9841
+    ],
+    [
+     0.99139536,
+     1.0
+    ],
+    [
+     3.965581,
+     1.0
+    ]
+   ],
+   "smoothing": 0.35
+  }
+ }
+}

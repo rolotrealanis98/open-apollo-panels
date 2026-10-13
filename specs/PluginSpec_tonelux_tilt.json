@@ -1,0 +1,564 @@
+{
+ "schema": 2,
+ "effectName": "UAD Tonelux Tilt",
+ "namePattern": "Tonelux Tilt",
+ "size": {
+  "w": 648,
+  "h": 220
+ },
+ "background": null,
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Tilt",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "HP",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "LP",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 3,
+   "name": "Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "Tilt EQ In",
+   "steps": [
+    "OUT",
+    "IN"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 5,
+   "name": "Tilt Shape",
+   "steps": [
+    "LOUD",
+    "TILT"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 6,
+   "name": "12dB per Oct",
+   "steps": [
+    "6 dB/oct",
+    "12 dB/oc"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "Polarity",
+   "steps": [
+    "NORMAL",
+    "INVERT"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "Filter In",
+   "steps": [
+    "OUT",
+    "IN"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "Mode",
+   "steps": [
+    "Bypass",
+    "Active"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {},
+ "elements": [
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 648,
+   "h": 24,
+   "toolbar": {
+    "family": "softube",
+    "items": [
+     {
+      "type": "switch",
+      "x": 466.0,
+      "y": 6.0,
+      "w": 30,
+      "h": 12,
+      "param": 9,
+      "sprite": "chrome.softube.toggle",
+      "frames": 2,
+      "glyph": "power"
+     },
+     {
+      "type": "gear",
+      "x": 536.0,
+      "y": 6.5,
+      "w": 11.0,
+      "h": 11.5,
+      "color": "#E5E5E5"
+     },
+     {
+      "type": "rect",
+      "x": 558.0,
+      "y": 0,
+      "w": 90.0,
+      "h": 24,
+      "color": "#019C74"
+     },
+     {
+      "type": "icon",
+      "x": 574.0,
+      "y": 6.5,
+      "w": 58.0,
+      "h": 11.0,
+      "sprite": "chrome.softube.logo",
+      "frames": 1,
+      "glyph": "Softube",
+      "color": "#E5F5F0"
+     }
+    ]
+   }
+  },
+  {
+   "id": "panel-background",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 648,
+   "h": 196,
+   "sprite": "STB_Tonelux_Tilt_1001"
+  },
+  {
+   "id": "switch-4-1009",
+   "kind": "switch",
+   "x": 41,
+   "y": 76,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Tonelux_Tilt_1009",
+   "frames": 2,
+   "param": 4
+  },
+  {
+   "id": "switch-5-1007",
+   "kind": "switch",
+   "x": 41,
+   "y": 139,
+   "w": 60,
+   "h": 63.0,
+   "sprite": "STB_Tonelux_Tilt_1007",
+   "frames": 2,
+   "param": 5
+  },
+  {
+   "id": "switch-6-1000",
+   "kind": "switch",
+   "x": 257,
+   "y": 144,
+   "w": 63,
+   "h": 63.0,
+   "sprite": "STB_Tonelux_Tilt_1000",
+   "frames": 2,
+   "param": 6
+  },
+  {
+   "id": "switch-7-1006",
+   "kind": "switch",
+   "x": 569,
+   "y": 78,
+   "w": 63,
+   "h": 63.0,
+   "sprite": "STB_Tonelux_Tilt_1006",
+   "frames": 2,
+   "param": 7
+  },
+  {
+   "id": "switch-8-1002",
+   "kind": "switch",
+   "x": 320,
+   "y": 144,
+   "w": 63,
+   "h": 63.0,
+   "sprite": "STB_Tonelux_Tilt_1002",
+   "frames": 2,
+   "param": 8
+  },
+  {
+   "id": "knob-0-1008",
+   "kind": "knob",
+   "x": 134,
+   "y": 76,
+   "w": 65,
+   "h": 71.0,
+   "sprite": "STB_Tonelux_Tilt_1008",
+   "frames": 120,
+   "param": 0
+  },
+  {
+   "id": "knob-1-1004",
+   "kind": "knob",
+   "x": 256,
+   "y": 76,
+   "w": 65,
+   "h": 68.0,
+   "sprite": "STB_Tonelux_Tilt_1004",
+   "frames": 120,
+   "param": 1
+  },
+  {
+   "id": "knob-2-1005",
+   "kind": "knob",
+   "x": 377,
+   "y": 76,
+   "w": 65,
+   "h": 68.0,
+   "sprite": "STB_Tonelux_Tilt_1005",
+   "frames": 120,
+   "param": 2
+  },
+  {
+   "id": "knob-3-1003",
+   "kind": "knob",
+   "x": 499,
+   "y": 76,
+   "w": 65,
+   "h": 71.0,
+   "sprite": "STB_Tonelux_Tilt_1003",
+   "frames": 120,
+   "param": 3
+  },
+  {
+   "id": "zone-5-0",
+   "kind": "zone",
+   "x": 28,
+   "y": 140,
+   "w": 26,
+   "h": 47,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-5-1",
+   "kind": "zone",
+   "x": 91,
+   "y": 135,
+   "w": 29,
+   "h": 53,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-0-2",
+   "kind": "zone",
+   "x": 139,
+   "y": 131,
+   "w": 17,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-0-3",
+   "kind": "zone",
+   "x": 123,
+   "y": 96,
+   "w": 17,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "zone-0-4",
+   "kind": "zone",
+   "x": 162,
+   "y": 58,
+   "w": 17,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "zone-0-5",
+   "kind": "zone",
+   "x": 202,
+   "y": 97,
+   "w": 17,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "zone-0-6",
+   "kind": "zone",
+   "x": 183,
+   "y": 130,
+   "w": 17,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-1-7",
+   "kind": "zone",
+   "x": 252,
+   "y": 130,
+   "w": 18,
+   "h": 17,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-1-8",
+   "kind": "zone",
+   "x": 243,
+   "y": 112,
+   "w": 18,
+   "h": 17,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "zone-1-9",
+   "kind": "zone",
+   "x": 244,
+   "y": 74,
+   "w": 18,
+   "h": 17,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "zone-1-10",
+   "kind": "zone",
+   "x": 300,
+   "y": 64,
+   "w": 22,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "zone-1-11",
+   "kind": "zone",
+   "x": 322,
+   "y": 97,
+   "w": 22,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "zone-1-12",
+   "kind": "zone",
+   "x": 305,
+   "y": 129,
+   "w": 19,
+   "h": 17,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-2-13",
+   "kind": "zone",
+   "x": 371,
+   "y": 130,
+   "w": 22,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-2-14",
+   "kind": "zone",
+   "x": 361,
+   "y": 113,
+   "w": 22,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.1
+   }
+  },
+  {
+   "id": "zone-2-15",
+   "kind": "zone",
+   "x": 362,
+   "y": 75,
+   "w": 20,
+   "h": 17,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.3
+   }
+  },
+  {
+   "id": "zone-2-16",
+   "kind": "zone",
+   "x": 420,
+   "y": 64,
+   "w": 20,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.6
+   }
+  },
+  {
+   "id": "zone-2-17",
+   "kind": "zone",
+   "x": 440,
+   "y": 98,
+   "w": 20,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "zone-2-18",
+   "kind": "zone",
+   "x": 425,
+   "y": 129,
+   "w": 23,
+   "h": 16,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.95
+   }
+  },
+  {
+   "id": "zone-3-19",
+   "kind": "zone",
+   "x": 493,
+   "y": 129,
+   "w": 18,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "zone-3-20",
+   "kind": "zone",
+   "x": 480,
+   "y": 97,
+   "w": 18,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.25
+   }
+  },
+  {
+   "id": "zone-3-21",
+   "kind": "zone",
+   "x": 520,
+   "y": 60,
+   "w": 18,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "zone-3-22",
+   "kind": "zone",
+   "x": 561,
+   "y": 98,
+   "w": 18,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.75
+   }
+  },
+  {
+   "id": "zone-3-23",
+   "kind": "zone",
+   "x": 544,
+   "y": 130,
+   "w": 18,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   }
+  }
+ ]
+}

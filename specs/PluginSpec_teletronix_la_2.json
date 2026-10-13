@@ -1,0 +1,432 @@
+{
+ "schema": 2,
+ "effectName": "UAD Teletronix LA-2",
+ "namePattern": "Teletronix LA-2",
+ "size": {
+  "w": 950,
+  "h": 263
+ },
+ "background": "UA_LA-2_panel",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Peak Reduct",
+   "steps": null,
+   "default": 0.335845947265625
+  },
+  {
+   "index": 1,
+   "name": "Gain",
+   "steps": null,
+   "default": 0.28216552734375
+  },
+  {
+   "index": 2,
+   "name": "Emphasis",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 3,
+   "name": "Meter",
+   "steps": [
+    "+10dB",
+    "GR",
+    "+4dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "Mix",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 5,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "vu_meter": {
+   "vendorSpecificFloat": 34,
+   "calibration": [
+    [
+     0.0,
+     0.0674
+    ],
+    [
+     0.001,
+     0.0671
+    ],
+    [
+     0.001259,
+     0.0671
+    ],
+    [
+     0.001585,
+     0.067
+    ],
+    [
+     0.001995,
+     0.0669
+    ],
+    [
+     0.002512,
+     0.0668
+    ],
+    [
+     0.003162,
+     0.0666
+    ],
+    [
+     0.003981,
+     0.0664
+    ],
+    [
+     0.005012,
+     0.0662
+    ],
+    [
+     0.00631,
+     0.0659
+    ],
+    [
+     0.007943,
+     0.0656
+    ],
+    [
+     0.01,
+     0.0652
+    ],
+    [
+     0.012589,
+     0.0648
+    ],
+    [
+     0.015849,
+     0.0645
+    ],
+    [
+     0.019953,
+     0.0641
+    ],
+    [
+     0.025119,
+     0.0638
+    ],
+    [
+     0.031623,
+     0.0639
+    ],
+    [
+     0.039811,
+     0.0644
+    ],
+    [
+     0.050119,
+     0.0659
+    ],
+    [
+     0.063096,
+     0.0691
+    ],
+    [
+     0.079433,
+     0.0749
+    ],
+    [
+     0.1,
+     0.085
+    ],
+    [
+     0.125893,
+     0.1017
+    ],
+    [
+     0.158489,
+     0.1283
+    ],
+    [
+     0.199526,
+     0.1693
+    ],
+    [
+     0.251189,
+     0.2302
+    ],
+    [
+     0.316228,
+     0.3169
+    ],
+    [
+     0.398107,
+     0.4338
+    ],
+    [
+     0.501187,
+     0.5792
+    ],
+    [
+     0.630957,
+     0.7386
+    ],
+    [
+     0.794328,
+     0.8769
+    ],
+    [
+     1.0,
+     0.9453
+    ],
+    [
+     60.0,
+     0.9453
+    ]
+   ]
+  }
+ },
+ "elements": [
+  {
+   "id": "mix_decrease-label",
+   "x": 73.0,
+   "y": 198.0,
+   "w": 13.0,
+   "h": 16.0,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "nudge",
+    "param": 4,
+    "delta": -0.1
+   }
+  },
+  {
+   "id": "mix-knob",
+   "x": 80,
+   "y": 160,
+   "w": 37,
+   "h": 36,
+   "kind": "knob",
+   "param": 4,
+   "sprite": "UA_LA-2_trimpot_MIX",
+   "frames": 101
+  },
+  {
+   "id": "mix_increase-label",
+   "x": 109.0,
+   "y": 197.0,
+   "w": 12.0,
+   "h": 16.0,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "nudge",
+    "param": 4,
+    "delta": 0.1
+   }
+  },
+  {
+   "id": "emphasis_increase-label",
+   "x": 129.0,
+   "y": 196.0,
+   "w": 11.0,
+   "h": 17.0,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "nudge",
+    "param": 2,
+    "delta": -0.1
+   }
+  },
+  {
+   "id": "emphasis-knob",
+   "x": 130,
+   "y": 160,
+   "w": 37,
+   "h": 36,
+   "kind": "knob",
+   "param": 2,
+   "sprite": "UA_LA-2_trimpot_EMPHASIS",
+   "frames": 101
+  },
+  {
+   "id": "emphasis_decrease-label",
+   "x": 158.0,
+   "y": 197.0,
+   "w": 12.0,
+   "h": 16.0,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "nudge",
+    "param": 2,
+    "delta": 0.1
+   }
+  },
+  {
+   "id": "gain-knob",
+   "x": 230,
+   "y": 136,
+   "w": 84,
+   "h": 84,
+   "kind": "knob",
+   "param": 1,
+   "sprite": "UA_LA-2A_knob_VINTAGE",
+   "frames": 103
+  },
+  {
+   "id": "vu_meter_needle-film",
+   "x": 407,
+   "y": 57,
+   "w": 136,
+   "h": 82,
+   "kind": "filmstrip",
+   "sprite": "UA_LA-2_needle",
+   "frames": 144,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu_meter",
+    "channel": 0
+   }
+  },
+  {
+   "id": "meter-slider",
+   "x": 403,
+   "y": 185,
+   "w": 144,
+   "h": 62,
+   "kind": "switch",
+   "param": 3,
+   "sprite": "UA_LA-2_switch_METER",
+   "frames": 3,
+   "orientation": "horizontal"
+  },
+  {
+   "id": "output_10-label",
+   "x": 373.0,
+   "y": 194.0,
+   "w": 63.0,
+   "h": 18.0,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "db_leveling-label",
+   "x": 444.0,
+   "y": 186.0,
+   "w": 62.0,
+   "h": 18.0,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "output_4-label",
+   "x": 514.0,
+   "y": 194.0,
+   "w": 58.0,
+   "h": 18.0,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "peak-reduction-knob",
+   "x": 636,
+   "y": 136,
+   "w": 84,
+   "h": 84,
+   "kind": "knob",
+   "param": 0,
+   "sprite": "UA_LA-2A_knob_VINTAGE",
+   "frames": 103
+  },
+  {
+   "id": "power_light-film",
+   "x": 740,
+   "y": 28,
+   "w": 121,
+   "h": 122,
+   "kind": "filmstrip",
+   "sprite": "UA_LA-2_lamp",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 5
+   }
+  },
+  {
+   "id": "power-light",
+   "x": 775,
+   "y": 62,
+   "w": 50,
+   "h": 50,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "toggle",
+    "param": 5
+   }
+  },
+  {
+   "id": "power-slider",
+   "x": 773,
+   "y": 150,
+   "w": 56,
+   "h": 56,
+   "kind": "switch",
+   "param": 5,
+   "sprite": "UA_LA-2_switch_POWER",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "on-label",
+   "x": 788.0,
+   "y": 141.0,
+   "w": 26.0,
+   "h": 18.0,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "off-label",
+   "x": 783.0,
+   "y": 197.0,
+   "w": 36.0,
+   "h": 18.0,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   }
+  }
+ ]
+}

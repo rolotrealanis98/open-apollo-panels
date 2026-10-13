@@ -1,0 +1,679 @@
+{
+ "schema": 2,
+ "effectName": "UAD Little Labs VOG",
+ "namePattern": "Little Labs VOG",
+ "size": {
+  "w": 310,
+  "h": 550
+ },
+ "background": "panel",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Amplitude",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 1,
+   "name": "Frequency",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 2,
+   "name": "40Hz Center",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 3,
+   "name": "100Hz Center",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Flat",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {},
+ "elements": [
+  {
+   "id": "back-panel",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 310.0,
+   "h": 550.0,
+   "kind": "image",
+   "sprite": "panel"
+  },
+  {
+   "id": "amplitude-knob",
+   "x": 14,
+   "y": 106,
+   "w": 95,
+   "h": 94,
+   "kind": "knob",
+   "param": 0,
+   "sprite": "knob",
+   "frames": 101
+  },
+  {
+   "id": "frequency-knob",
+   "x": 14,
+   "y": 224,
+   "w": 95,
+   "h": 94,
+   "kind": "knob",
+   "param": 1,
+   "sprite": "knob",
+   "frames": 101
+  },
+  {
+   "id": "power-switch",
+   "x": 202,
+   "y": 434,
+   "w": 60,
+   "h": 40,
+   "kind": "switch",
+   "param": 5,
+   "sprite": "switch-Power",
+   "frames": 2,
+   "orientation": "horizontal"
+  },
+  {
+   "id": "center-40-button",
+   "x": 47,
+   "y": 342,
+   "w": 36,
+   "h": 38,
+   "kind": "switch",
+   "param": 2,
+   "sprite": "button",
+   "frames": 2
+  },
+  {
+   "id": "center-100-button",
+   "x": 47,
+   "y": 395,
+   "w": 36,
+   "h": 38,
+   "kind": "switch",
+   "param": 3,
+   "sprite": "button",
+   "frames": 2
+  },
+  {
+   "id": "flat-button",
+   "x": 47,
+   "y": 448,
+   "w": 36,
+   "h": 38,
+   "kind": "switch",
+   "param": 4,
+   "sprite": "button",
+   "frames": 2
+  },
+  {
+   "id": "center-40-green-led",
+   "x": 81,
+   "y": 348,
+   "w": 15,
+   "h": 16,
+   "kind": "filmstrip",
+   "sprite": "LEDgreen",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     2,
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     2,
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "center-40-red-led",
+   "x": 81.0,
+   "y": 348.0,
+   "w": 15.0,
+   "h": 16.0,
+   "opacity": 0,
+   "kind": "filmstrip",
+   "sprite": "LEDred",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     2,
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     2,
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "center-100-green-led",
+   "x": 81,
+   "y": 401,
+   "w": 15,
+   "h": 16,
+   "kind": "filmstrip",
+   "sprite": "LEDgreen",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     2,
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     3,
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "center-100-red-led",
+   "x": 81.0,
+   "y": 401.0,
+   "w": 15.0,
+   "h": 16.0,
+   "opacity": 0,
+   "kind": "filmstrip",
+   "sprite": "LEDred",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     2,
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     3,
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "flat-green-led",
+   "x": 81,
+   "y": 454,
+   "w": 15,
+   "h": 16,
+   "kind": "filmstrip",
+   "sprite": "LEDgreen",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     2,
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     4,
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "flat-red-led",
+   "x": 81.0,
+   "y": 454.0,
+   "w": 15.0,
+   "h": 16.0,
+   "opacity": 0,
+   "kind": "filmstrip",
+   "sprite": "LEDred",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     2,
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "visibility": {
+    "params": [
+     4,
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "center-40-led-button",
+   "x": 81,
+   "y": 348,
+   "w": 15,
+   "h": 16,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "toggle",
+    "param": 2
+   }
+  },
+  {
+   "id": "center-100-led-button",
+   "x": 81,
+   "y": 401,
+   "w": 15,
+   "h": 16,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "toggle",
+    "param": 3
+   }
+  },
+  {
+   "id": "flat-led-button",
+   "x": 81,
+   "y": 454,
+   "w": 15,
+   "h": 16,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "toggle",
+    "param": 4
+   }
+  }
+ ]
+}

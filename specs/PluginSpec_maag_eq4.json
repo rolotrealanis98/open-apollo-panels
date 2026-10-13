@@ -1,0 +1,294 @@
+{
+ "schema": 2,
+ "effectName": "UAD Maag EQ4",
+ "namePattern": "Maag EQ4",
+ "size": {
+  "w": 545,
+  "h": 136
+ },
+ "background": "maag_eq4__BACKGROUND",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "In/Out",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 1,
+   "name": "Sub",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 2,
+   "name": "40 Hz",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "160 Hz",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "650 Hz",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "2.5 kHz",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "Air Gain",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "Air Band",
+   "steps": [
+    "Off",
+    "2.5 kHz",
+    "5 kHz",
+    "10 kHz",
+    "20 kHz",
+    "40 kHz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "Level",
+   "steps": null,
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "cmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "maag_eq4__METERSIGNAL",
+   "frames": 7,
+   "x": 448.0,
+   "y": 95.0,
+   "w": 24.0,
+   "h": 24.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000000"
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-1",
+   "kind": "filmstrip",
+   "sprite": "maag_eq4__METERCLIP",
+   "frames": 2,
+   "x": 448.0,
+   "y": 67.0,
+   "w": 24.0,
+   "h": 24.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_20000000"
+   }
+  },
+  {
+   "id": "level-knob",
+   "kind": "knob",
+   "sprite": "maag_eq4__KNOBTRIM",
+   "frames": 21,
+   "param": 8,
+   "x": 465.0,
+   "y": 67.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "sub-knob",
+   "kind": "knob",
+   "sprite": "maag_eq4__KNOBBLACK",
+   "frames": 21,
+   "param": 1,
+   "x": 36.0,
+   "y": 12.0,
+   "w": 71.0,
+   "h": 71.0
+  },
+  {
+   "id": "40hz-knob",
+   "kind": "knob",
+   "sprite": "maag_eq4__KNOBBLUE",
+   "frames": 21,
+   "param": 2,
+   "x": 96.0,
+   "y": 56.0,
+   "w": 71.0,
+   "h": 71.0
+  },
+  {
+   "id": "160hz-knob",
+   "kind": "knob",
+   "sprite": "maag_eq4__KNOBGREEN",
+   "frames": 21,
+   "param": 3,
+   "x": 156.0,
+   "y": 12.0,
+   "w": 71.0,
+   "h": 71.0
+  },
+  {
+   "id": "650hz-knob",
+   "kind": "knob",
+   "sprite": "maag_eq4__KNOBRED",
+   "frames": 21,
+   "param": 4,
+   "x": 216.0,
+   "y": 56.0,
+   "w": 71.0,
+   "h": 71.0
+  },
+  {
+   "id": "25khz-knob",
+   "kind": "knob",
+   "sprite": "maag_eq4__KNOBORANGE",
+   "frames": 21,
+   "param": 5,
+   "x": 276.0,
+   "y": 12.0,
+   "w": 71.0,
+   "h": 71.0
+  },
+  {
+   "id": "airgain-knob",
+   "kind": "knob",
+   "sprite": "maag_eq4__KNOBYELLOW",
+   "frames": 21,
+   "param": 6,
+   "x": 336.0,
+   "y": 56.0,
+   "w": 71.0,
+   "h": 71.0
+  },
+  {
+   "id": "airband-knob",
+   "kind": "knob",
+   "sprite": "maag_eq4__KNOBBLUESTEPPED",
+   "frames": 6,
+   "param": 7,
+   "x": 400.0,
+   "y": 12.0,
+   "w": 71.0,
+   "h": 71.0
+  },
+  {
+   "id": "inout-switch",
+   "kind": "switch",
+   "sprite": "maag_eq4__BUTTON",
+   "frames": 2,
+   "param": 0,
+   "orientation": "vertical",
+   "x": 32.0,
+   "y": 81.0,
+   "w": 75.0,
+   "h": 48.0
+  }
+ ],
+ "meterSources": {
+  "led_40000000": {
+   "vendorSpecificFloat": 83886104,
+   "opcode": {
+    "op": 519,
+    "p0": 83886104,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     0.0
+    ],
+    [
+     0,
+     0.0
+    ],
+    [
+     1e-06,
+     0.00025
+    ],
+    [
+     1e-05,
+     0.00251
+    ],
+    [
+     3e-05,
+     0.00754
+    ],
+    [
+     0.0001,
+     0.02512
+    ],
+    [
+     0.0003,
+     0.07536
+    ],
+    [
+     0.001,
+     0.25119
+    ],
+    [
+     0.002,
+     0.50238
+    ],
+    [
+     0.003,
+     0.75357
+    ],
+    [
+     0.005,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  },
+  "led_20000000": {
+   "vendorSpecificFloat": 83886105,
+   "opcode": {
+    "op": 519,
+    "p0": 83886105,
+    "p1": 1
+   },
+   "integer": true,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.495
+    ],
+    [
+     2.0,
+     1.0
+    ],
+    [
+     3.0,
+     1.0
+    ]
+   ],
+   "smoothing": 1.0
+  }
+ }
+}

@@ -1,0 +1,3904 @@
+{
+ "schema": 2,
+ "effectName": "UAD Marshall Bluesbreaker 1962",
+ "namePattern": "Marshall Bluesbreaker 1962",
+ "size": {
+  "w": 1160,
+  "h": 624
+ },
+ "background": null,
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Input",
+   "steps": [
+    "Hi 1",
+    "Hi 1 Cro",
+    "Hi 1 Str",
+    "Lo 1",
+    "Lo 1 Cro",
+    "Lo 1 Str",
+    "Lo 2",
+    "Lo 2 Cro",
+    "Lo 2 Str",
+    "Hi 2",
+    "Hi 2 Cro",
+    "Hi 2 Str"
+   ],
+   "default": 0.0908999964594841
+  },
+  {
+   "index": 1,
+   "name": "Loudness 1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 2,
+   "name": "Loudness 2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "Bass",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "Middle",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "Treble",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "Presence",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "Intensity",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "Speed",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 9,
+   "name": "Output Volume",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "Mic",
+   "steps": [
+    "Valve",
+    "FET",
+    "Dynamic",
+    "Bypass"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "Level 1",
+   "steps": null,
+   "default": 0.6000000238418579
+  },
+  {
+   "index": 12,
+   "name": "Level 2",
+   "steps": null,
+   "default": 0.6000000238418579
+  },
+  {
+   "index": 13,
+   "name": "Level 3",
+   "steps": null,
+   "default": 0.6000000238418579
+  },
+  {
+   "index": 14,
+   "name": "Level 4",
+   "steps": null,
+   "default": 0.6000000238418579
+  },
+  {
+   "index": 15,
+   "name": "Pan 1",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 16,
+   "name": "Pan 2",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 17,
+   "name": "Pan 3",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 18,
+   "name": "Pan 4",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 19,
+   "name": "In 1",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 20,
+   "name": "In 2",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 21,
+   "name": "In 3",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 22,
+   "name": "In 4",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 23,
+   "name": "View",
+   "steps": [
+    "Amp",
+    "Channel "
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 24,
+   "name": "Mode",
+   "steps": [
+    "Bypass",
+    "Active"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "needle0": {
+   "vendorSpecificFloat": 134217732,
+   "opcode": {
+    "op": 519,
+    "p0": 134217732,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ]
+  },
+  "needle1": {
+   "vendorSpecificFloat": 134217733,
+   "opcode": {
+    "op": 519,
+    "p0": 134217733,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ]
+  },
+  "gfx6": {
+   "vendorSpecificFloat": 134217735,
+   "opcode": {
+    "op": 519,
+    "p0": 134217735,
+    "p1": 1
+   },
+   "absolute": true,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.98,
+     0.0
+    ],
+    [
+     0.980098001,
+     1.0
+    ],
+    [
+     1.96,
+     1.0
+    ]
+   ]
+  },
+  "gfx6b": {
+   "vendorSpecificFloat": 134217734,
+   "opcode": {
+    "op": 519,
+    "p0": 134217734,
+    "p1": 1
+   },
+   "absolute": true,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.98,
+     0.0
+    ],
+    [
+     0.980098001,
+     1.0
+    ],
+    [
+     1.96,
+     1.0
+    ]
+   ]
+  },
+  "gfx6any": {
+   "combine": {
+    "op": "max",
+    "meters": [
+     "gfx6",
+     "gfx6b"
+    ]
+   },
+   "calibration": []
+  }
+ },
+ "elements": [
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 1160,
+   "h": 24,
+   "toolbar": {
+    "family": "softube",
+    "items": [
+     {
+      "type": "switch",
+      "x": 978.0,
+      "y": 6.0,
+      "w": 30,
+      "h": 12,
+      "param": 24,
+      "sprite": "chrome.softube.toggle",
+      "frames": 2,
+      "glyph": "power"
+     },
+     {
+      "type": "gear",
+      "x": 1048.0,
+      "y": 6.5,
+      "w": 11.0,
+      "h": 11.5,
+      "color": "#E5E5E5"
+     },
+     {
+      "type": "rect",
+      "x": 1070.0,
+      "y": 0,
+      "w": 90.0,
+      "h": 24,
+      "color": "#019C74"
+     },
+     {
+      "type": "icon",
+      "x": 1086.0,
+      "y": 6.5,
+      "w": 58.0,
+      "h": 11.0,
+      "sprite": "chrome.softube.logo",
+      "frames": 1,
+      "glyph": "Softube",
+      "color": "#E5F5F0"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-amp-click",
+   "kind": "zone",
+   "x": 0,
+   "y": 174,
+   "w": 1160,
+   "h": 300,
+   "action": {
+    "type": "set",
+    "param": 23,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "panel-background",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 1524,
+   "h": 600,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1000",
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-8-1008",
+   "kind": "filmstrip",
+   "x": 394,
+   "y": 73,
+   "w": 41,
+   "h": 41.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1008",
+   "frames": 21,
+   "frameSource": {
+    "type": "param",
+    "param": 24
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-ret:1024",
+   "kind": "switch",
+   "x": 315,
+   "y": 50,
+   "w": 40,
+   "h": 83.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1024",
+   "frames": 2,
+   "param": 24,
+   "reverse": true,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-None-1027",
+   "kind": "switch",
+   "x": 355,
+   "y": 50,
+   "w": 39,
+   "h": 83.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1027",
+   "frames": 2,
+   "param": 24,
+   "reverse": true,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-18-1009",
+   "kind": "filmstrip",
+   "x": 922,
+   "y": 24,
+   "w": 160,
+   "h": 160.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1009",
+   "frames": 12,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-8-1026",
+   "kind": "knob",
+   "x": 442,
+   "y": 50,
+   "w": 60,
+   "h": 83.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1026",
+   "frames": 100,
+   "param": 8,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-7-1010",
+   "kind": "knob",
+   "x": 502,
+   "y": 50,
+   "w": 60,
+   "h": 83.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1010",
+   "frames": 100,
+   "param": 7,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-6-1025",
+   "kind": "knob",
+   "x": 562,
+   "y": 50,
+   "w": 60,
+   "h": 83.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1025",
+   "frames": 100,
+   "param": 6,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-3-1002",
+   "kind": "knob",
+   "x": 622,
+   "y": 50,
+   "w": 60,
+   "h": 83.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1002",
+   "frames": 100,
+   "param": 3,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-4-1019",
+   "kind": "knob",
+   "x": 682,
+   "y": 50,
+   "w": 60,
+   "h": 83.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1019",
+   "frames": 100,
+   "param": 4,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-5-1029",
+   "kind": "knob",
+   "x": 742,
+   "y": 50,
+   "w": 60,
+   "h": 83.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1029",
+   "frames": 100,
+   "param": 5,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-1-1015",
+   "kind": "knob",
+   "x": 802,
+   "y": 50,
+   "w": 60,
+   "h": 83.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1015",
+   "frames": 100,
+   "param": 1,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-2-1016",
+   "kind": "knob",
+   "x": 862,
+   "y": 50,
+   "w": 60,
+   "h": 83.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1016",
+   "frames": 100,
+   "param": 2,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-15-1032",
+   "kind": "filmstrip",
+   "x": 826,
+   "y": 77,
+   "w": 17,
+   "h": 17.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1032",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-16-1030",
+   "kind": "filmstrip",
+   "x": 885,
+   "y": 77,
+   "w": 17,
+   "h": 17.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1030",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "btn-0-2",
+   "kind": "zone",
+   "x": 920,
+   "y": 61,
+   "w": 45,
+   "h": 31,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "btn-0-3",
+   "kind": "zone",
+   "x": 920,
+   "y": 92,
+   "w": 45,
+   "h": 35,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "btn-0-4",
+   "kind": "zone",
+   "x": 965,
+   "y": 61,
+   "w": 50,
+   "h": 31,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "btn-0-5",
+   "kind": "zone",
+   "x": 965,
+   "y": 92,
+   "w": 50,
+   "h": 35,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-7-6",
+   "kind": "zone",
+   "x": 442,
+   "y": 54,
+   "w": 120,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-7",
+   "kind": "zone",
+   "x": 802,
+   "y": 54,
+   "w": 60,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-8",
+   "kind": "zone",
+   "x": 862,
+   "y": 54,
+   "w": 60,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-8-9",
+   "kind": "zone",
+   "x": 442,
+   "y": 117,
+   "w": 60,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-7-10",
+   "kind": "zone",
+   "x": 502,
+   "y": 117,
+   "w": 60,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-6-11",
+   "kind": "zone",
+   "x": 562,
+   "y": 117,
+   "w": 60,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-12",
+   "kind": "zone",
+   "x": 622,
+   "y": 117,
+   "w": 60,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-4-13",
+   "kind": "zone",
+   "x": 682,
+   "y": 117,
+   "w": 60,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-5-14",
+   "kind": "zone",
+   "x": 742,
+   "y": 117,
+   "w": 60,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-15",
+   "kind": "zone",
+   "x": 802,
+   "y": 117,
+   "w": 60,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-16",
+   "kind": "zone",
+   "x": 862,
+   "y": 117,
+   "w": 60,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "panel-1001",
+   "kind": "image",
+   "x": 772,
+   "y": 24,
+   "w": 752,
+   "h": 600,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1001",
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "image-1033-33",
+   "kind": "image",
+   "x": 1136,
+   "y": 24,
+   "w": 388,
+   "h": 116,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1033",
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "drawer-tab",
+   "kind": "zone",
+   "x": 1136,
+   "y": 24,
+   "w": 24,
+   "h": 600,
+   "action": {
+    "type": "toggle",
+    "param": 23
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "panel-background@ch",
+   "kind": "image",
+   "x": -285,
+   "y": 24,
+   "w": 1524,
+   "h": 600,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1000",
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-8-1008@ch",
+   "kind": "filmstrip",
+   "x": 109,
+   "y": 73,
+   "w": 41,
+   "h": 41.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1008",
+   "frames": 21,
+   "frameSource": {
+    "type": "param",
+    "param": 24
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-ret:1024@ch",
+   "kind": "switch",
+   "x": 30,
+   "y": 50,
+   "w": 40,
+   "h": 83.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1024",
+   "frames": 2,
+   "param": 24,
+   "reverse": true,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-None-1027@ch",
+   "kind": "switch",
+   "x": 70,
+   "y": 50,
+   "w": 39,
+   "h": 83.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1027",
+   "frames": 2,
+   "param": 24,
+   "reverse": true,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-18-1009@ch",
+   "kind": "filmstrip",
+   "x": 637,
+   "y": 24,
+   "w": 160,
+   "h": 160.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1009",
+   "frames": 12,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-8-1026@ch",
+   "kind": "knob",
+   "x": 157,
+   "y": 50,
+   "w": 60,
+   "h": 83.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1026",
+   "frames": 100,
+   "param": 8,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-7-1010@ch",
+   "kind": "knob",
+   "x": 217,
+   "y": 50,
+   "w": 60,
+   "h": 83.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1010",
+   "frames": 100,
+   "param": 7,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-6-1025@ch",
+   "kind": "knob",
+   "x": 277,
+   "y": 50,
+   "w": 60,
+   "h": 83.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1025",
+   "frames": 100,
+   "param": 6,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-3-1002@ch",
+   "kind": "knob",
+   "x": 337,
+   "y": 50,
+   "w": 60,
+   "h": 83.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1002",
+   "frames": 100,
+   "param": 3,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-4-1019@ch",
+   "kind": "knob",
+   "x": 397,
+   "y": 50,
+   "w": 60,
+   "h": 83.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1019",
+   "frames": 100,
+   "param": 4,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-5-1029@ch",
+   "kind": "knob",
+   "x": 457,
+   "y": 50,
+   "w": 60,
+   "h": 83.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1029",
+   "frames": 100,
+   "param": 5,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-1-1015@ch",
+   "kind": "knob",
+   "x": 517,
+   "y": 50,
+   "w": 60,
+   "h": 83.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1015",
+   "frames": 100,
+   "param": 1,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-2-1016@ch",
+   "kind": "knob",
+   "x": 577,
+   "y": 50,
+   "w": 60,
+   "h": 83.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1016",
+   "frames": 100,
+   "param": 2,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-15-1032@ch",
+   "kind": "filmstrip",
+   "x": 541,
+   "y": 77,
+   "w": 17,
+   "h": 17.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1032",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-16-1030@ch",
+   "kind": "filmstrip",
+   "x": 600,
+   "y": 77,
+   "w": 17,
+   "h": 17.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1030",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "btn-0-2@ch",
+   "kind": "zone",
+   "x": 635,
+   "y": 61,
+   "w": 45,
+   "h": 31,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "btn-0-3@ch",
+   "kind": "zone",
+   "x": 635,
+   "y": 92,
+   "w": 45,
+   "h": 35,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "btn-0-4@ch",
+   "kind": "zone",
+   "x": 680,
+   "y": 61,
+   "w": 50,
+   "h": 31,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "btn-0-5@ch",
+   "kind": "zone",
+   "x": 680,
+   "y": 92,
+   "w": 50,
+   "h": 35,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-7-6@ch",
+   "kind": "zone",
+   "x": 157,
+   "y": 54,
+   "w": 120,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-7@ch",
+   "kind": "zone",
+   "x": 517,
+   "y": 54,
+   "w": 60,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-8@ch",
+   "kind": "zone",
+   "x": 577,
+   "y": 54,
+   "w": 60,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-8-9@ch",
+   "kind": "zone",
+   "x": 157,
+   "y": 117,
+   "w": 60,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-7-10@ch",
+   "kind": "zone",
+   "x": 217,
+   "y": 117,
+   "w": 60,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 7,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-6-11@ch",
+   "kind": "zone",
+   "x": 277,
+   "y": 117,
+   "w": 60,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-3-12@ch",
+   "kind": "zone",
+   "x": 337,
+   "y": 117,
+   "w": 60,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-4-13@ch",
+   "kind": "zone",
+   "x": 397,
+   "y": 117,
+   "w": 60,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-5-14@ch",
+   "kind": "zone",
+   "x": 457,
+   "y": 117,
+   "w": 60,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-1-15@ch",
+   "kind": "zone",
+   "x": 517,
+   "y": 117,
+   "w": 60,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-2-16@ch",
+   "kind": "zone",
+   "x": 577,
+   "y": 117,
+   "w": 60,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "panel-1001@ch",
+   "kind": "image",
+   "x": 424,
+   "y": 24,
+   "w": 752,
+   "h": 600,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1001",
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "slider-11-1011@ch",
+   "kind": "knob",
+   "x": 818,
+   "y": 386,
+   "w": 66,
+   "h": 186,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1011_slider",
+   "frames": 81,
+   "param": 11,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "slider-12-1012@ch",
+   "kind": "knob",
+   "x": 901,
+   "y": 386,
+   "w": 66,
+   "h": 186,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1012_slider",
+   "frames": 81,
+   "param": 12,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "slider-13-1013@ch",
+   "kind": "knob",
+   "x": 983,
+   "y": 386,
+   "w": 66,
+   "h": 186,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1013_slider",
+   "frames": 81,
+   "param": 13,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "slider-14-1014@ch",
+   "kind": "knob",
+   "x": 1067,
+   "y": 386,
+   "w": 66,
+   "h": 186,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1014_slider",
+   "frames": 81,
+   "param": 14,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-14-1028@ch",
+   "kind": "filmstrip",
+   "x": 816,
+   "y": 564,
+   "w": 328,
+   "h": 50.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1028",
+   "frames": 4,
+   "frameSource": {
+    "type": "param",
+    "param": 10
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-19-1004@ch",
+   "kind": "switch",
+   "x": 843,
+   "y": 347,
+   "w": 32,
+   "h": 32.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1004",
+   "frames": 2,
+   "param": 19,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-20-1005@ch",
+   "kind": "switch",
+   "x": 926,
+   "y": 347,
+   "w": 32,
+   "h": 32.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1005",
+   "frames": 2,
+   "param": 20,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-21-1006@ch",
+   "kind": "switch",
+   "x": 1010,
+   "y": 347,
+   "w": 32,
+   "h": 32.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1006",
+   "frames": 2,
+   "param": 21,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "switch-22-1007@ch",
+   "kind": "switch",
+   "x": 1094,
+   "y": 347,
+   "w": 32,
+   "h": 32.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1007",
+   "frames": 2,
+   "param": 22,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-9-1017@ch",
+   "kind": "knob",
+   "x": 828,
+   "y": 184,
+   "w": 60,
+   "h": 60.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1017",
+   "frames": 100,
+   "param": 9,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-10-1018@ch",
+   "kind": "knob",
+   "x": 1048,
+   "y": 172,
+   "w": 90,
+   "h": 90.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1018",
+   "frames": 4,
+   "param": 10,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-15-1020@ch",
+   "kind": "knob",
+   "x": 829,
+   "y": 287,
+   "w": 60,
+   "h": 60.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1020",
+   "frames": 100,
+   "param": 15,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-16-1021@ch",
+   "kind": "knob",
+   "x": 913,
+   "y": 287,
+   "w": 60,
+   "h": 60.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1021",
+   "frames": 100,
+   "param": 16,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-17-1022@ch",
+   "kind": "knob",
+   "x": 996,
+   "y": 287,
+   "w": 60,
+   "h": 60.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1022",
+   "frames": 100,
+   "param": 17,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "knob-18-1023@ch",
+   "kind": "knob",
+   "x": 1079,
+   "y": 287,
+   "w": 60,
+   "h": 60.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1023",
+   "frames": 100,
+   "param": 18,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-17-1031@ch",
+   "kind": "filmstrip",
+   "x": 849,
+   "y": 201,
+   "w": 17,
+   "h": 17.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1031",
+   "frames": 2,
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "gfx-6-1003@ch",
+   "kind": "filmstrip",
+   "x": 972,
+   "y": 121,
+   "w": 22,
+   "h": 22.0,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1003",
+   "frames": 21,
+   "frameSource": {
+    "type": "meter",
+    "meter": "gfx6any"
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "needle-0@ch",
+   "kind": "filmstrip",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "needle0"
+   },
+   "x": 847,
+   "y": 46,
+   "w": 111,
+   "h": 79,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_needle-0",
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "needle-1@ch",
+   "kind": "filmstrip",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "needle1"
+   },
+   "x": 1009,
+   "y": 45,
+   "w": 113,
+   "h": 81,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_needle-1",
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "image-1033-33@ch",
+   "kind": "image",
+   "x": 788,
+   "y": 24,
+   "w": 388,
+   "h": 116,
+   "sprite": "STB_Marshall_Bluesbreaker_1962_1033",
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-11-17@ch",
+   "kind": "zone",
+   "x": 818,
+   "y": 567,
+   "w": 70,
+   "h": 50,
+   "action": {
+    "type": "set",
+    "param": 11,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-12-18@ch",
+   "kind": "zone",
+   "x": 901,
+   "y": 567,
+   "w": 70,
+   "h": 50,
+   "action": {
+    "type": "set",
+    "param": 12,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-13-19@ch",
+   "kind": "zone",
+   "x": 983,
+   "y": 567,
+   "w": 70,
+   "h": 50,
+   "action": {
+    "type": "set",
+    "param": 13,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-14-20@ch",
+   "kind": "zone",
+   "x": 1067,
+   "y": 567,
+   "w": 70,
+   "h": 50,
+   "action": {
+    "type": "set",
+    "param": 14,
+    "value": 0.6
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-9-21@ch",
+   "kind": "zone",
+   "x": 834,
+   "y": 229,
+   "w": 15,
+   "h": 10,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-9-22@ch",
+   "kind": "zone",
+   "x": 823,
+   "y": 206,
+   "w": 15,
+   "h": 10,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.2
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-9-23@ch",
+   "kind": "zone",
+   "x": 831,
+   "y": 186,
+   "w": 15,
+   "h": 10,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.35
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-9-24@ch",
+   "kind": "zone",
+   "x": 850,
+   "y": 179,
+   "w": 15,
+   "h": 10,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-9-25@ch",
+   "kind": "zone",
+   "x": 869,
+   "y": 188,
+   "w": 15,
+   "h": 10,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.65
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-9-26@ch",
+   "kind": "zone",
+   "x": 877,
+   "y": 205,
+   "w": 15,
+   "h": 10,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.8
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-9-27@ch",
+   "kind": "zone",
+   "x": 869,
+   "y": 228,
+   "w": 15,
+   "h": 10,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-9-28@ch",
+   "kind": "zone",
+   "x": 832,
+   "y": 245,
+   "w": 52,
+   "h": 19,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-10-29@ch",
+   "kind": "zone",
+   "x": 1015,
+   "y": 186,
+   "w": 75,
+   "h": 20,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.666667
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-10-30@ch",
+   "kind": "zone",
+   "x": 1015,
+   "y": 206,
+   "w": 75,
+   "h": 20,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.333333
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-10-31@ch",
+   "kind": "zone",
+   "x": 1015,
+   "y": 226,
+   "w": 75,
+   "h": 20,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-10-32@ch",
+   "kind": "zone",
+   "x": 1095,
+   "y": 176,
+   "w": 32,
+   "h": 13,
+   "action": {
+    "type": "set",
+    "param": 10,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-33@ch",
+   "kind": "zone",
+   "x": 841,
+   "y": 332,
+   "w": 15,
+   "h": 8,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-34@ch",
+   "kind": "zone",
+   "x": 866,
+   "y": 332,
+   "w": 15,
+   "h": 8,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-15-35@ch",
+   "kind": "zone",
+   "x": 845,
+   "y": 339,
+   "w": 28,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 15,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-36@ch",
+   "kind": "zone",
+   "x": 925,
+   "y": 332,
+   "w": 15,
+   "h": 8,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-37@ch",
+   "kind": "zone",
+   "x": 950,
+   "y": 332,
+   "w": 15,
+   "h": 8,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-16-38@ch",
+   "kind": "zone",
+   "x": 929,
+   "y": 339,
+   "w": 28,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 16,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-17-39@ch",
+   "kind": "zone",
+   "x": 1008,
+   "y": 332,
+   "w": 15,
+   "h": 8,
+   "action": {
+    "type": "set",
+    "param": 17,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-17-40@ch",
+   "kind": "zone",
+   "x": 1033,
+   "y": 332,
+   "w": 15,
+   "h": 8,
+   "action": {
+    "type": "set",
+    "param": 17,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-17-41@ch",
+   "kind": "zone",
+   "x": 1012,
+   "y": 339,
+   "w": 28,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 17,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-18-42@ch",
+   "kind": "zone",
+   "x": 1091,
+   "y": 332,
+   "w": 15,
+   "h": 8,
+   "action": {
+    "type": "set",
+    "param": 18,
+    "value": 0.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-18-43@ch",
+   "kind": "zone",
+   "x": 1116,
+   "y": 332,
+   "w": 15,
+   "h": 8,
+   "action": {
+    "type": "set",
+    "param": 18,
+    "value": 1.0
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "zone-18-44@ch",
+   "kind": "zone",
+   "x": 1095,
+   "y": 339,
+   "w": 28,
+   "h": 15,
+   "action": {
+    "type": "set",
+    "param": 18,
+    "value": 0.5
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "drawer-tab@ch",
+   "kind": "zone",
+   "x": 788,
+   "y": 24,
+   "w": 24,
+   "h": 600,
+   "action": {
+    "type": "toggle",
+    "param": 23
+   },
+   "visibility": {
+    "params": [
+     23
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  }
+ ]
+}

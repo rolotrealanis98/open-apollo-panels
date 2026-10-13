@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "effectName": "UAD EP-34 Tape Echo",
+ "namePattern": "EP-34 Tape Echo",
+ "size": {
+  "w": 720,
+  "h": 500
+ },
+ "background": "ep_34_tape_echo_6942",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Delay",
+   "steps": null,
+   "default": 0.193511962890625
+  },
+  {
+   "index": 1,
+   "name": "Repeats",
+   "steps": null,
+   "default": 0.2999267578125
+  },
+  {
+   "index": 2,
+   "name": "Echo Vol",
+   "steps": null,
+   "default": 0.49993896484375
+  },
+  {
+   "index": 3,
+   "name": "Rec Vol",
+   "steps": null,
+   "default": 0.400115966796875
+  },
+  {
+   "index": 4,
+   "name": "Treble",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 5,
+   "name": "Bass",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "Pan",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "Input",
+   "steps": [
+    "LO",
+    "HI"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "Tension",
+   "steps": [
+    "LO",
+    "HI"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "Send",
+   "steps": [
+    "OFF",
+    "ON"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 10,
+   "name": "TempSync",
+   "steps": [
+    "OFF",
+    "ON"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "WetSolo",
+   "steps": [
+    "OFF",
+    "ON"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "Power",
+   "steps": [
+    "OFF",
+    "ON"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "image-1-internal14",
+   "kind": "image",
+   "x": 607,
+   "y": 269,
+   "w": 20,
+   "h": 11,
+   "sprite": "ep_34_tape_echo_6942_1"
+  },
+  {
+   "id": "switch-2-delay",
+   "x": 344,
+   "y": 155,
+   "w": 221,
+   "h": 57,
+   "sprite": "P_ep_34_tape_echo_delay_lever",
+   "frames": 100,
+   "kind": "knob",
+   "param": 0,
+   "drag": "horizontal"
+  },
+  {
+   "id": "switch-3-delay",
+   "x": 302,
+   "y": 212,
+   "w": 221,
+   "h": 47,
+   "sprite": "P_ep_34_tape_echo_delay_pointer",
+   "frames": 100,
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
+  },
+  {
+   "id": "switch-4-input",
+   "x": 79,
+   "y": 248,
+   "w": 22,
+   "h": 40,
+   "sprite": "ep_34_tape_echo_6949",
+   "frames": 2,
+   "kind": "switch",
+   "param": 7,
+   "orientation": "vertical",
+   "reverse": true
+  },
+  {
+   "id": "switch-5-send",
+   "x": 79,
+   "y": 288,
+   "w": 22,
+   "h": 40,
+   "sprite": "ep_34_tape_echo_6949",
+   "frames": 2,
+   "kind": "switch",
+   "param": 9,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-6-power",
+   "x": 79,
+   "y": 328,
+   "w": 22,
+   "h": 40,
+   "sprite": "ep_34_tape_echo_6949",
+   "frames": 2,
+   "kind": "switch",
+   "param": 12,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-7-tension",
+   "x": 119,
+   "y": 248,
+   "w": 22,
+   "h": 40,
+   "sprite": "ep_34_tape_echo_6949",
+   "frames": 2,
+   "kind": "switch",
+   "param": 8,
+   "orientation": "vertical",
+   "reverse": true
+  },
+  {
+   "id": "switch-8-tempsync",
+   "x": 119,
+   "y": 288,
+   "w": 22,
+   "h": 40,
+   "sprite": "ep_34_tape_echo_6949",
+   "frames": 2,
+   "kind": "switch",
+   "param": 10,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-9-wetsolo",
+   "x": 119,
+   "y": 328,
+   "w": 22,
+   "h": 40,
+   "sprite": "ep_34_tape_echo_6949",
+   "frames": 2,
+   "kind": "switch",
+   "param": 11,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-10-repeats",
+   "x": 147,
+   "y": 271,
+   "w": 64,
+   "h": 78,
+   "sprite": "ep_34_tape_echo_6943",
+   "frames": 65,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "switch-11-echo_vol",
+   "x": 224,
+   "y": 271,
+   "w": 64,
+   "h": 78,
+   "sprite": "ep_34_tape_echo_6943",
+   "frames": 65,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "switch-12-rec_vol",
+   "x": 310,
+   "y": 271,
+   "w": 64,
+   "h": 78,
+   "sprite": "ep_34_tape_echo_6943",
+   "frames": 65,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "switch-13-treble",
+   "x": 443,
+   "y": 271,
+   "w": 64,
+   "h": 78,
+   "sprite": "ep_34_tape_echo_6943",
+   "frames": 65,
+   "kind": "knob",
+   "param": 4
+  },
+  {
+   "id": "switch-14-bass",
+   "x": 514,
+   "y": 271,
+   "w": 64,
+   "h": 78,
+   "sprite": "ep_34_tape_echo_6943",
+   "frames": 65,
+   "kind": "knob",
+   "param": 5
+  },
+  {
+   "id": "switch-15-pan",
+   "x": 584,
+   "y": 271,
+   "w": 64,
+   "h": 78,
+   "sprite": "ep_34_tape_echo_6943",
+   "frames": 65,
+   "kind": "knob",
+   "param": 6
+  },
+  {
+   "id": "P-pan-centre",
+   "kind": "zone",
+   "x": 607,
+   "y": 269,
+   "w": 20,
+   "h": 11,
+   "action": {
+    "type": "set",
+    "param": 6,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "filmstrip-16-internal13",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter0"
+   },
+   "x": 380,
+   "y": 296,
+   "w": 58,
+   "h": 16,
+   "sprite": "ep_34_tape_echo_6948",
+   "frames": 9
+  },
+  {
+   "id": "text-17-delay",
+   "kind": "text",
+   "x": 384,
+   "y": 262,
+   "w": 49,
+   "h": 14,
+   "param": 0,
+   "text": {
+    "size": 9,
+    "color": "#F05A5A",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  }
+ ],
+ "meterSources": {
+  "meter0": {
+   "vendorSpecificFloat": 556,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "smoothing": 0.5
+  }
+ }
+}

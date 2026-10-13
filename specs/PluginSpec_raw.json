@@ -1,0 +1,166 @@
+{
+ "schema": 2,
+ "effectName": "UAD Raw",
+ "namePattern": "Raw",
+ "size": {
+  "w": 520,
+  "h": 440
+ },
+ "background": "raw_7858",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Distortion",
+   "steps": null,
+   "default": 0.399993896484375
+  },
+  {
+   "index": 1,
+   "name": "Filter",
+   "steps": null,
+   "default": 0.644989013671875
+  },
+  {
+   "index": 2,
+   "name": "Volume",
+   "steps": null,
+   "default": 0.76495361328125
+  },
+  {
+   "index": 3,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "image-1-internal6",
+   "kind": "button",
+   "x": 231,
+   "y": 261,
+   "w": 80,
+   "h": 80,
+   "sprite": "raw_7859_1",
+   "frames": 2,
+   "action": {
+    "type": "toggle",
+    "param": 4
+   }
+  },
+  {
+   "id": "knob-2-distortion",
+   "x": 150,
+   "y": 100,
+   "w": 75,
+   "h": 86,
+   "sprite": "raw_7860",
+   "frames": 101,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "knob-3-filter",
+   "x": 225,
+   "y": 100,
+   "w": 75,
+   "h": 86,
+   "sprite": "raw_7861",
+   "frames": 101,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "knob-4-volume",
+   "x": 300,
+   "y": 100,
+   "w": 76,
+   "h": 86,
+   "sprite": "raw_7862",
+   "frames": 101,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "knob-5-output",
+   "x": 9,
+   "y": 365,
+   "w": 68,
+   "h": 66,
+   "sprite": "raw_7869",
+   "frames": 109,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "switch-6-power",
+   "kind": "switch",
+   "x": 450,
+   "y": 394,
+   "w": 61,
+   "h": 37,
+   "sprite": "P_raw_switch-6-power",
+   "frames": 2,
+   "param": 4,
+   "orientation": "vertical"
+  },
+  {
+   "id": "image-8-internal8-hover",
+   "kind": "image",
+   "x": 150,
+   "y": 100,
+   "w": 75,
+   "h": 86,
+   "sprite": "raw_7866",
+   "opacity": 0
+  },
+  {
+   "id": "image-9-internal8-hover",
+   "kind": "image",
+   "x": 300,
+   "y": 100,
+   "w": 76,
+   "h": 86,
+   "sprite": "raw_7867",
+   "opacity": 0
+  },
+  {
+   "id": "filmstrip-10-output-hover",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   },
+   "x": 9,
+   "y": 365,
+   "w": 68,
+   "h": 66,
+   "sprite": "raw_7868",
+   "frames": 109,
+   "opacity": 0
+  },
+  {
+   "id": "P-output-unity",
+   "kind": "zone",
+   "x": 37,
+   "y": 362,
+   "w": 12,
+   "h": 20,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.5
+   }
+  }
+ ],
+ "meterSources": {}
+}

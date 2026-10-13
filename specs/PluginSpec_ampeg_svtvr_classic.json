@@ -1,0 +1,817 @@
+{
+ "schema": 2,
+ "effectName": "UAD Ampeg SVTVR Classic",
+ "namePattern": "Ampeg SVTVR Classic",
+ "size": {
+  "w": 940,
+  "h": 482
+ },
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Bypass",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Preset",
+   "steps": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Input",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "PwrSk",
+   "steps": null,
+   "default": 0.949999988079071
+  },
+  {
+   "index": 4,
+   "name": "RecChain",
+   "steps": [
+    "01Rec",
+    "02Rec",
+    "EMPTY"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "InpType",
+   "steps": [
+    "Normal",
+    "Bright"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "Ch2UlHi",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "Ch2UlLo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 8,
+   "name": "Ch2Vol",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 9,
+   "name": "Ch2Tr",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "Ch2Bass",
+   "steps": null,
+   "default": 0.5
+  }
+ ],
+ "elements": [
+  {
+   "id": "chrome-panel",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 940,
+   "h": 458,
+   "sprite": "ampeg_svtvr_classic__BACKGROUNDCLASSIC"
+  },
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 940,
+   "h": 24,
+   "toolbar": {
+    "family": "brainworx",
+    "items": [
+     {
+      "type": "switch",
+      "x": 0.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.power",
+      "frames": 2,
+      "param": 0,
+      "glyph": "power",
+      "invert": true
+     },
+     {
+      "type": "icon",
+      "x": 296.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.undo",
+      "frames": 2,
+      "glyph": "undo"
+     },
+     {
+      "type": "icon",
+      "x": 320.0,
+      "y": 0,
+      "w": 24.0,
+      "h": 24,
+      "sprite": "chrome.bx.redo",
+      "frames": 2,
+      "glyph": "redo"
+     },
+     {
+      "type": "bank",
+      "x": 368.0,
+      "y": 0,
+      "w": 96.0,
+      "h": 24,
+      "sprite": "chrome.bx.bank",
+      "frames": 2,
+      "param": 1,
+      "cells": 4,
+      "glyph": "ABCD"
+     },
+     {
+      "type": "icon",
+      "x": 488.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.copy",
+      "frames": 2,
+      "glyph": "Copy"
+     },
+     {
+      "type": "icon",
+      "x": 540.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.paste",
+      "frames": 2,
+      "glyph": "Paste"
+     },
+     {
+      "type": "icon",
+      "x": 604.0,
+      "y": 0,
+      "w": 40.0,
+      "h": 24,
+      "sprite": "chrome.bx.reset",
+      "frames": 2,
+      "glyph": "Reset"
+     },
+     {
+      "type": "icon",
+      "x": 885.0,
+      "y": 0,
+      "w": 55.0,
+      "h": 24,
+      "sprite": "chrome.bx.toolbaraboutbnt",
+      "frames": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch2vol-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svtvr_classic__POTIVU",
+   "frames": 61,
+   "param": 8,
+   "x": 478.0,
+   "y": 124.0,
+   "w": 68.0,
+   "h": 68.0
+  },
+  {
+   "id": "j-rack-open",
+   "kind": "zone",
+   "x": 40.0,
+   "y": 232.0,
+   "w": 861.0,
+   "h": 209.0,
+   "action": {
+    "type": "setState",
+    "state": "rack",
+    "value": 1
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "ch2tr-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svtvr_classic__POTIVU",
+   "frames": 61,
+   "param": 9,
+   "x": 540.0,
+   "y": 124.0,
+   "w": 68.0,
+   "h": 68.0
+  },
+  {
+   "id": "ch2bass-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svtvr_classic__POTIVU",
+   "frames": 61,
+   "param": 10,
+   "x": 603.0,
+   "y": 124.0,
+   "w": 68.0,
+   "h": 68.0
+  },
+  {
+   "id": "ch2ulhi-switch",
+   "kind": "switch",
+   "sprite": "ampeg_svtvr_classic__DIPSWITCH",
+   "frames": 2,
+   "param": 6,
+   "orientation": "vertical",
+   "x": 529.0,
+   "y": 76.0,
+   "w": 42.0,
+   "h": 18.0
+  },
+  {
+   "id": "ch2ullo-switch",
+   "kind": "switch",
+   "sprite": "ampeg_svtvr_classic__DIPSWITCH",
+   "frames": 2,
+   "param": 7,
+   "orientation": "vertical",
+   "x": 588.0,
+   "y": 76.0,
+   "w": 42.0,
+   "h": 18.0
+  },
+  {
+   "id": "bypass-led",
+   "kind": "filmstrip",
+   "sprite": "ampeg_svtvr_classic__POWERLED",
+   "frames": 2,
+   "x": 741.0,
+   "y": 144.0,
+   "w": 25.0,
+   "h": 25.0,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
+  },
+  {
+   "id": "bypass-switch",
+   "kind": "switch",
+   "sprite": "ampeg_svtvr_classic__POWERSWITCH",
+   "frames": 2,
+   "param": 0,
+   "orientation": "vertical",
+   "x": 772.0,
+   "y": 124.0,
+   "w": 50.0,
+   "h": 55.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "ampeg_svtvr_classic__LEDINPUTS",
+   "frames": 2,
+   "x": 122.0,
+   "y": 129.0,
+   "w": 25.0,
+   "h": 25.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-1",
+   "kind": "filmstrip",
+   "sprite": "ampeg_svtvr_classic__LEDINPUTS",
+   "frames": 2,
+   "x": 118.0,
+   "y": 173.0,
+   "w": 25.0,
+   "h": 25.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     5
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "ckickbutton-kick",
+   "kind": "zone",
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 1.0
+   },
+   "x": 130.0,
+   "y": 116.0,
+   "w": 45.0,
+   "h": 32.0
+  },
+  {
+   "id": "ckickbutton-kick-1",
+   "kind": "zone",
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.0
+   },
+   "x": 126.0,
+   "y": 152.0,
+   "w": 45.0,
+   "h": 38.0
+  },
+  {
+   "id": "ch2ulhi-led",
+   "kind": "filmstrip",
+   "sprite": "ampeg_svtvr_classic__LINEULTRA",
+   "frames": 2,
+   "x": 504.0,
+   "y": 109.0,
+   "w": 65.0,
+   "h": 2.0,
+   "frameSource": {
+    "type": "param",
+    "param": 6
+   }
+  },
+  {
+   "id": "ch2ullo-led",
+   "kind": "filmstrip",
+   "sprite": "ampeg_svtvr_classic__LINEULTRA",
+   "frames": 2,
+   "x": 565.0,
+   "y": 109.0,
+   "w": 65.0,
+   "h": 2.0,
+   "frameSource": {
+    "type": "param",
+    "param": 7
+   }
+  },
+  {
+   "id": "img-cviewcontainer",
+   "kind": "image",
+   "sprite": "ampeg_svtvr_classic__HEADRACKCLASSIC",
+   "x": 0.0,
+   "y": 332.0,
+   "w": 940.0,
+   "h": 150.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-rack-close",
+   "kind": "zone",
+   "x": 0.0,
+   "y": 332.0,
+   "w": 940.0,
+   "h": 150.0,
+   "action": {
+    "type": "setState",
+    "state": "rack",
+    "value": 0
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "input-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svtvr_classic__POTI",
+   "frames": 61,
+   "param": 2,
+   "x": 447.0,
+   "y": 350.0,
+   "w": 68.0,
+   "h": 68.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "input-text",
+   "kind": "text",
+   "param": 2,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 453.0,
+   "y": 409.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pwrsk-knob",
+   "kind": "knob",
+   "sprite": "ampeg_svtvr_classic__POTI",
+   "frames": 61,
+   "param": 3,
+   "x": 521.0,
+   "y": 350.0,
+   "w": 68.0,
+   "h": 68.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pwrsk-text",
+   "kind": "text",
+   "param": 3,
+   "text": {
+    "size": 10.0,
+    "color": "#EBEBEB",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 527.0,
+   "y": 409.0,
+   "w": 52.0,
+   "h": 15.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ckickbutton-kick-2",
+   "kind": "button",
+   "sprite": "ampeg_svtvr_classic__BUTTON",
+   "frames": 2,
+   "action": {
+    "type": "table",
+    "param": 4,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 1.0
+     },
+     {
+      "current": 0.5,
+      "value": 0.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.5
+     }
+    ]
+   },
+   "x": 603.0,
+   "y": 380.0,
+   "w": 33.0,
+   "h": 33.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ckickbutton-kick-3",
+   "kind": "button",
+   "sprite": "ampeg_svtvr_classic__BUTTON",
+   "frames": 2,
+   "action": {
+    "type": "toggle",
+    "param": 4
+   },
+   "x": 627.0,
+   "y": 380.0,
+   "w": 33.0,
+   "h": 33.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "recchain-menu",
+   "kind": "menu",
+   "param": 4,
+   "text": {
+    "size": 10,
+    "color": "#70D0FF",
+    "align": "left",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 616.0,
+   "y": 368.0,
+   "w": 264.0,
+   "h": 11.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-tb-rack",
+   "kind": "filmstrip",
+   "frames": 2,
+   "sprite": "J_ampeg_svtvr_classic_tb_rack",
+   "x": 668.0,
+   "y": 0,
+   "w": 55.0,
+   "h": 24,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "states": [
+     "rack"
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "j-tb-rack-zone",
+   "kind": "zone",
+   "x": 668.0,
+   "y": 0,
+   "w": 55.0,
+   "h": 24,
+   "action": {
+    "type": "cycleState",
+    "state": "rack",
+    "count": 2
+   }
+  }
+ ],
+ "meterSources": {},
+ "states": {
+  "rack": 0
+ }
+}

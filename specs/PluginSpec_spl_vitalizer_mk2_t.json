@@ -1,0 +1,422 @@
+{
+ "schema": 2,
+ "effectName": "UAD SPL Vitalizer MK2-T",
+ "namePattern": "SPL Vitalizer MK2-T",
+ "size": {
+  "w": 1024,
+  "h": 94
+ },
+ "background": "spl_vitalizer_mk2_t__BACKGROUND",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Setting",
+   "steps": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Active",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 2,
+   "name": "Drive",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "Bass Snd",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "Comp",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Mid-Hi",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "Process",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "LC-EQ",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 8,
+   "name": "Intens",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 9,
+   "name": "Expander",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 10,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  }
+ ],
+ "elements": [
+  {
+   "id": "cmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "spl_vitalizer_mk2_t__METERCLIP",
+   "frames": 2,
+   "x": 745.0,
+   "y": 24.0,
+   "w": 14.0,
+   "h": 14.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_20000000"
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-1",
+   "kind": "filmstrip",
+   "sprite": "spl_vitalizer_mk2_t__METERCOMP",
+   "frames": 2,
+   "x": 300.0,
+   "y": 24.0,
+   "w": 14.0,
+   "h": 14.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_20000001"
+   }
+  },
+  {
+   "id": "setting-switch",
+   "kind": "switch",
+   "sprite": "spl_vitalizer_mk2_t__BUTTONSMALL",
+   "frames": 2,
+   "param": 0,
+   "orientation": "vertical",
+   "x": 772.0,
+   "y": 71.0,
+   "w": 20.0,
+   "h": 20.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "action": {
+    "type": "table",
+    "param": 0,
+    "table": [
+     {
+      "current": 0.0,
+      "value": 0.333333
+     },
+     {
+      "current": 0.333333,
+      "value": 0.0
+     },
+     {
+      "current": 0.666667,
+      "value": 0.0
+     },
+     {
+      "current": 1.0,
+      "value": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "active-switch",
+   "kind": "switch",
+   "sprite": "spl_vitalizer_mk2_t__BUTTONBIG",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 884.0,
+   "y": 54.0,
+   "w": 26.0,
+   "h": 26.0
+  },
+  {
+   "id": "active-switch-1",
+   "kind": "switch",
+   "sprite": "spl_vitalizer_mk2_t__SWITCHPOWER",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 918.0,
+   "y": 18.0,
+   "w": 43.0,
+   "h": 58.0
+  },
+  {
+   "id": "drive-knob",
+   "kind": "knob",
+   "sprite": "spl_vitalizer_mk2_t__KNOB",
+   "frames": 61,
+   "param": 2,
+   "x": 94.0,
+   "y": 20.0,
+   "w": 57.0,
+   "h": 57.0
+  },
+  {
+   "id": "basssnd-knob",
+   "kind": "knob",
+   "sprite": "spl_vitalizer_mk2_t__KNOB",
+   "frames": 61,
+   "param": 3,
+   "x": 168.0,
+   "y": 20.0,
+   "w": 57.0,
+   "h": 57.0
+  },
+  {
+   "id": "comp-knob",
+   "kind": "knob",
+   "sprite": "spl_vitalizer_mk2_t__KNOB",
+   "frames": 61,
+   "param": 4,
+   "x": 243.0,
+   "y": 20.0,
+   "w": 57.0,
+   "h": 57.0
+  },
+  {
+   "id": "midhi-knob",
+   "kind": "knob",
+   "sprite": "spl_vitalizer_mk2_t__KNOB",
+   "frames": 61,
+   "param": 5,
+   "x": 317.0,
+   "y": 20.0,
+   "w": 57.0,
+   "h": 57.0
+  },
+  {
+   "id": "process-knob",
+   "kind": "knob",
+   "sprite": "spl_vitalizer_mk2_t__KNOB",
+   "frames": 61,
+   "param": 6,
+   "x": 392.0,
+   "y": 20.0,
+   "w": 57.0,
+   "h": 57.0
+  },
+  {
+   "id": "lceq-knob",
+   "kind": "knob",
+   "sprite": "spl_vitalizer_mk2_t__KNOB",
+   "frames": 61,
+   "param": 7,
+   "x": 466.0,
+   "y": 20.0,
+   "w": 57.0,
+   "h": 57.0
+  },
+  {
+   "id": "intens-knob",
+   "kind": "knob",
+   "sprite": "spl_vitalizer_mk2_t__KNOB",
+   "frames": 61,
+   "param": 8,
+   "x": 540.0,
+   "y": 20.0,
+   "w": 57.0,
+   "h": 57.0
+  },
+  {
+   "id": "expander-knob",
+   "kind": "knob",
+   "sprite": "spl_vitalizer_mk2_t__KNOB",
+   "frames": 61,
+   "param": 9,
+   "x": 615.0,
+   "y": 20.0,
+   "w": 57.0,
+   "h": 57.0,
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "q-expander-knob-mono",
+   "kind": "filmstrip",
+   "x": 615.0,
+   "y": 20.0,
+   "w": 57.0,
+   "h": 57.0,
+   "sprite": "Q_spl_vitalizer_mk2_t__KNOB_mono128_948561",
+   "frames": 61,
+   "frameSource": {
+    "type": "table",
+    "params": [],
+    "table": [
+     {
+      "key": [],
+      "frame": 0
+     }
+    ]
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 1.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "output-knob",
+   "kind": "knob",
+   "sprite": "spl_vitalizer_mk2_t__KNOB",
+   "frames": 61,
+   "param": 10,
+   "x": 690.0,
+   "y": 20.0,
+   "w": 57.0,
+   "h": 57.0
+  }
+ ],
+ "meterSources": {
+  "led_20000001": {
+   "vendorSpecificFloat": 50332615,
+   "opcode": {
+    "op": 519,
+    "p0": 50332615,
+    "p1": 1
+   },
+   "integer": true,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     2.0,
+     1.0
+    ]
+   ],
+   "smoothing": 1.0
+  },
+  "led_20000000": {
+   "vendorSpecificFloat": 50332616,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.0
+    ],
+    [
+     2.0,
+     1.0
+    ],
+    [
+     3.0,
+     1.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 50332616,
+    "p1": 1
+   },
+   "integer": true,
+   "smoothing": 1.0
+  }
+ },
+ "states": {
+  "channels": 2
+ }
+}

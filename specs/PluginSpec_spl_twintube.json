@@ -1,0 +1,581 @@
+{
+ "schema": 2,
+ "effectName": "UAD SPL TwinTube",
+ "namePattern": "SPL TwinTube",
+ "size": {
+  "w": 308,
+  "h": 430
+ },
+ "background": "spl_twintube__BACKGROUNDTWINTUBE",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Preset",
+   "steps": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Har On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 2,
+   "name": "Sat On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 3,
+   "name": "Freq",
+   "steps": [
+    "2",
+    "3",
+    "6",
+    "10"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Har",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Sat",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  }
+ ],
+ "elements": [
+  {
+   "id": "cmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "spl_twintube__METERSIGNAL",
+   "frames": 11,
+   "x": 33.0,
+   "y": 52.0,
+   "w": 21.0,
+   "h": 21.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_40000000"
+   }
+  },
+  {
+   "id": "cmoviebitmap-led-1",
+   "kind": "filmstrip",
+   "sprite": "spl_twintube__METERCLIP",
+   "frames": 2,
+   "x": 102.0,
+   "y": 52.0,
+   "w": 21.0,
+   "h": 21.0,
+   "frameSource": {
+    "type": "meter",
+    "meter": "led_20000000"
+   }
+  },
+  {
+   "frames": 2,
+   "action": {
+    "type": "multi",
+    "actions": [
+     {
+      "type": "toggle",
+      "param": 1
+     },
+     {
+      "type": "toggle",
+      "param": 2
+     }
+    ]
+   },
+   "x": 195.0,
+   "y": 298.0,
+   "w": 71.0,
+   "h": 71.0,
+   "id": "v-power-lamp",
+   "kind": "switch",
+   "sprite": "spl_twintube__LAMP",
+   "param": 1,
+   "frameSource": {
+    "type": "param",
+    "param": 1
+   }
+  },
+  {
+   "id": "har-knob",
+   "kind": "knob",
+   "sprite": "spl_twintube__KNOBSMALL",
+   "frames": 61,
+   "param": 4,
+   "x": 40.0,
+   "y": 61.0,
+   "w": 75.0,
+   "h": 75.0
+  },
+  {
+   "id": "sat-knob",
+   "kind": "knob",
+   "sprite": "spl_twintube__KNOBBIG",
+   "frames": 61,
+   "param": 5,
+   "x": 31.0,
+   "y": 281.0,
+   "w": 95.0,
+   "h": 95.0
+  },
+  {
+   "id": "output-knob",
+   "kind": "knob",
+   "sprite": "spl_twintube__SLIDER",
+   "frames": 61,
+   "param": 6,
+   "x": 162.0,
+   "y": 279.0,
+   "w": 135.0,
+   "h": 28.0
+  },
+  {
+   "id": "haron-switch",
+   "kind": "switch",
+   "sprite": "spl_twintube__BUTTONBLUE",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 39.0,
+   "y": 227.0,
+   "w": 39.0,
+   "h": 39.0
+  },
+  {
+   "id": "saton-switch",
+   "kind": "switch",
+   "sprite": "spl_twintube__BUTTONBLUE",
+   "frames": 2,
+   "param": 2,
+   "orientation": "vertical",
+   "x": 80.0,
+   "y": 227.0,
+   "w": 39.0,
+   "h": 39.0
+  },
+  {
+   "id": "v-preset-A",
+   "kind": "filmstrip",
+   "x": 190,
+   "y": 195,
+   "w": 39,
+   "h": 39,
+   "sprite": "spl_twintube__BUTTONYELLOW",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "v-preset-B",
+   "kind": "filmstrip",
+   "x": 231,
+   "y": 195,
+   "w": 39,
+   "h": 39,
+   "sprite": "spl_twintube__BUTTONYELLOW",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "v-preset-C",
+   "kind": "filmstrip",
+   "x": 190,
+   "y": 227,
+   "w": 39,
+   "h": 39,
+   "sprite": "spl_twintube__BUTTONYELLOW",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "v-preset-D",
+   "kind": "filmstrip",
+   "x": 231,
+   "y": 227,
+   "w": 39,
+   "h": 39,
+   "sprite": "spl_twintube__BUTTONYELLOW",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "v-p3-top",
+   "kind": "filmstrip",
+   "x": 39,
+   "y": 163,
+   "w": 39,
+   "h": 39,
+   "sprite": "spl_twintube__BUTTONYELLOW",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "v-p3-bottom",
+   "kind": "filmstrip",
+   "x": 39,
+   "y": 195,
+   "w": 39,
+   "h": 39,
+   "sprite": "spl_twintube__BUTTONYELLOW",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     3
+    ],
+    "table": [
+     {
+      "key": [
+       0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1
+      ],
+      "frame": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "v-p3-zone",
+   "kind": "zone",
+   "x": 39,
+   "y": 163,
+   "w": 39,
+   "h": 71,
+   "action": {
+    "type": "toggle",
+    "param": 3
+   }
+  },
+  {
+   "id": "R-preset-A",
+   "kind": "zone",
+   "x": 193,
+   "y": 199,
+   "w": 27,
+   "h": 24,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "R-preset-B",
+   "kind": "zone",
+   "x": 234,
+   "y": 199,
+   "w": 27,
+   "h": 24,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.333333
+   }
+  },
+  {
+   "id": "R-preset-C",
+   "kind": "zone",
+   "x": 193,
+   "y": 231,
+   "w": 27,
+   "h": 24,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 0.666667
+   }
+  },
+  {
+   "id": "R-preset-D",
+   "kind": "zone",
+   "x": 234,
+   "y": 231,
+   "w": 27,
+   "h": 24,
+   "action": {
+    "type": "set",
+    "param": 0,
+    "value": 1.0
+   }
+  }
+ ],
+ "meterSources": {
+  "led_20000000": {
+   "vendorSpecificFloat": 83886091,
+   "opcode": {
+    "op": 519,
+    "p0": 83886091,
+    "p1": 1
+   },
+   "integer": true,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.495
+    ],
+    [
+     2.0,
+     1.0
+    ],
+    [
+     3.0,
+     0.0
+    ]
+   ],
+   "smoothing": 1.0
+  },
+  "led_40000000": {
+   "vendorSpecificFloat": 83886093,
+   "opcode": {
+    "op": 519,
+    "p0": 83886093,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -120,
+     0.0
+    ],
+    [
+     0,
+     0.0
+    ],
+    [
+     1e-05,
+     0.00251
+    ],
+    [
+     0.0001,
+     0.02512
+    ],
+    [
+     0.0003,
+     0.07536
+    ],
+    [
+     0.001,
+     0.25119
+    ],
+    [
+     0.002,
+     0.50238
+    ],
+    [
+     0.003,
+     0.75357
+    ],
+    [
+     0.005,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  }
+ }
+}

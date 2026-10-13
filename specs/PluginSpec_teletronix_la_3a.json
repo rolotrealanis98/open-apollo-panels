@@ -1,0 +1,574 @@
+{
+ "schema": 2,
+ "effectName": "UAD Teletronix LA-3A",
+ "namePattern": "Teletronix LA-3A",
+ "size": {
+  "w": 537,
+  "h": 220
+ },
+ "background": "UA_LA-3A_panel",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Peak Reduction",
+   "steps": null,
+   "default": 0.360015869140625
+  },
+  {
+   "index": 1,
+   "name": "Gain",
+   "steps": null,
+   "default": 0.49615478515625
+  },
+  {
+   "index": 2,
+   "name": "Comp/Limit",
+   "steps": [
+    "Comp",
+    "Limit"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Meter",
+   "steps": [
+    "Off",
+    "GR",
+    "Output"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 4,
+   "name": "HF Emphasis",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 5,
+   "name": "Mix",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 6,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "vu_meter": {
+   "vendorSpecificFloat": 67108916,
+   "calibration": [
+    [
+     0.0,
+     0.0104
+    ],
+    [
+     0.001,
+     0.0208
+    ],
+    [
+     0.031623,
+     0.0208
+    ],
+    [
+     0.039811,
+     0.0312
+    ],
+    [
+     0.063096,
+     0.0312
+    ],
+    [
+     0.079433,
+     0.0417
+    ],
+    [
+     0.1,
+     0.0521
+    ],
+    [
+     0.125893,
+     0.0625
+    ],
+    [
+     0.158489,
+     0.0729
+    ],
+    [
+     0.199526,
+     0.0938
+    ],
+    [
+     0.251189,
+     0.125
+    ],
+    [
+     0.316228,
+     0.1667
+    ],
+    [
+     0.398107,
+     0.2292
+    ],
+    [
+     0.501187,
+     0.3021
+    ],
+    [
+     0.630957,
+     0.4167
+    ],
+    [
+     0.794328,
+     0.5521
+    ],
+    [
+     1.0,
+     0.7188
+    ],
+    [
+     1.258925,
+     0.8958
+    ],
+    [
+     1.584893,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 67108916,
+    "p1": 1
+   }
+  }
+ },
+ "elements": [
+  {
+   "id": "gain-knob",
+   "x": 41,
+   "y": 52,
+   "w": 90,
+   "h": 90,
+   "kind": "knob",
+   "param": 1,
+   "sprite": "UA_LA-3A_knob",
+   "frames": 101
+  },
+  {
+   "id": "peak-reduction-knob",
+   "x": 406,
+   "y": 52,
+   "w": 90,
+   "h": 90,
+   "kind": "knob",
+   "param": 0,
+   "sprite": "UA_LA-3A_knob",
+   "frames": 101
+  },
+  {
+   "id": "emphasis-knob",
+   "x": 132,
+   "y": 143,
+   "w": 24,
+   "h": 24,
+   "kind": "knob",
+   "param": 4,
+   "sprite": "UA_LA-3A_trimpot",
+   "frames": 101
+  },
+  {
+   "id": "emphasis_increase-label",
+   "x": 125,
+   "y": 149,
+   "w": 12,
+   "h": 11,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "nudge",
+    "param": 4,
+    "delta": -0.1
+   }
+  },
+  {
+   "id": "emphasis_rtd-label",
+   "x": 136,
+   "y": 136,
+   "w": 18,
+   "h": 11,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "set",
+    "param": 4,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "emphasis_decrease-label",
+   "x": 152,
+   "y": 149,
+   "w": 13,
+   "h": 12,
+   "kind": "zone",
+   "param": 4,
+   "action": {
+    "type": "nudge",
+    "param": 4,
+    "delta": 0.1
+   }
+  },
+  {
+   "id": "mix-knob",
+   "x": 381,
+   "y": 143,
+   "w": 24,
+   "h": 24,
+   "kind": "knob",
+   "param": 5,
+   "sprite": "UA_LA-3A_trimpot",
+   "frames": 101
+  },
+  {
+   "id": "mix_decrease-label",
+   "x": 373,
+   "y": 149,
+   "w": 13,
+   "h": 12,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "nudge",
+    "param": 5,
+    "delta": -0.1
+   }
+  },
+  {
+   "id": "mix_rtd-label",
+   "x": 380,
+   "y": 135,
+   "w": 24,
+   "h": 12,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "set",
+    "param": 5,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "mix_increase-label",
+   "x": 400,
+   "y": 149,
+   "w": 13,
+   "h": 12,
+   "kind": "zone",
+   "param": 5,
+   "action": {
+    "type": "nudge",
+    "param": 5,
+    "delta": 0.1
+   }
+  },
+  {
+   "id": "meter-overlay-off",
+   "x": 176,
+   "y": 43,
+   "w": 185,
+   "h": 102,
+   "opacity": 0,
+   "kind": "filmstrip",
+   "sprite": "UA_LA-3A_meter-overlay_OFF",
+   "frames": 1,
+   "visibility": {
+    "params": [
+     3,
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.5,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.5,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "vu_meter_needle-film-on",
+   "x": 184.0,
+   "y": 48.0,
+   "w": 170.0,
+   "h": 75.0,
+   "kind": "filmstrip",
+   "sprite": "UA_LA-3A_meter-needle_ON",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu_meter",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [
+     3,
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.5,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.5,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "vu_meter_needle-film-off",
+   "x": 184,
+   "y": 48,
+   "w": 170,
+   "h": 75,
+   "kind": "filmstrip",
+   "sprite": "UA_LA-3A_meter-needle_OFF",
+   "frames": 101,
+   "frameSource": {
+    "type": "meter",
+    "meter": "vu_meter",
+    "channel": 0
+   },
+   "visibility": {
+    "params": [
+     3,
+     6
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.5,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       0.5,
+       1
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "opacity": 1
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "meter-slider",
+   "x": 66,
+   "y": 164,
+   "w": 40,
+   "h": 31,
+   "kind": "switch",
+   "param": 3,
+   "sprite": "UA_LA-3A_switch_METER",
+   "frames": 3,
+   "orientation": "horizontal"
+  },
+  {
+   "id": "off-label",
+   "x": 42,
+   "y": 172,
+   "w": 31,
+   "h": 13,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "gr-label",
+   "x": 73,
+   "y": 192,
+   "w": 26,
+   "h": 14,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "output-label",
+   "x": 102,
+   "y": 172,
+   "w": 60,
+   "h": 13,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "complim-slider",
+   "x": 431,
+   "y": 164,
+   "w": 40,
+   "h": 31,
+   "kind": "switch",
+   "param": 2,
+   "sprite": "UA_LA-3A_switch_COMP-LIM",
+   "frames": 2,
+   "orientation": "horizontal"
+  },
+  {
+   "id": "comp-label",
+   "x": 391,
+   "y": 172,
+   "w": 45,
+   "h": 13,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "lim-label",
+   "x": 466,
+   "y": 172,
+   "w": 28,
+   "h": 14,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 1.0
+   }
+  }
+ ],
+ "panelless": [
+  6
+ ]
+}

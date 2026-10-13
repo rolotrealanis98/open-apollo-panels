@@ -1,0 +1,1010 @@
+{
+ "schema": 2,
+ "effectName": "UAD Neve 2254 E Dual",
+ "namePattern": "Neve 2254 E Dual",
+ "size": {
+  "w": 892,
+  "h": 406
+ },
+ "background": "neve_2254_e_dual_8513",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Bypass1",
+   "steps": [
+    "In",
+    "Byp"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Meter1",
+   "steps": [
+    "In",
+    "Ctrl",
+    "Out"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 2,
+   "name": "Lim1 Atk",
+   "steps": [
+    "Fast",
+    "Slow",
+    "Off"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "Lim1 Lvl",
+   "steps": [
+    "4 dBu",
+    "4.5 dBu",
+    "5 dBu",
+    "5.5 dBu",
+    "6 dBu",
+    "6.5 dBu",
+    "7 dBu",
+    "7.5 dBu",
+    "8 dBu",
+    "8.5 dBu",
+    "9 dBu",
+    "9.5 dBu",
+    "10 dBu",
+    "10.5 dBu",
+    "11 dBu",
+    "11.5 dBu",
+    "12 dBu"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 4,
+   "name": "Lim1 Rcvr",
+   "steps": [
+    "100mS",
+    "200mS",
+    "800mS",
+    "AUTO"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Cmp1 Atk",
+   "steps": [
+    "Fast",
+    "Slow",
+    "Off"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "Cmp1 Rat",
+   "steps": [
+    "1.5:1",
+    "2:1",
+    "3:1",
+    "4:1",
+    "6:1"
+   ],
+   "default": 0.75
+  },
+  {
+   "index": 7,
+   "name": "Cmp1 Thr",
+   "steps": [
+    "-20 dBu",
+    "-18 dBu",
+    "-16 dBu",
+    "-14 dBu",
+    "-12 dBu",
+    "-10 dBu",
+    "-8 dBu",
+    "-6 dBu",
+    "-4 dBu",
+    "-2 dBu",
+    "0 dBu",
+    "2 dBu",
+    "4 dBu",
+    "6 dBu",
+    "8 dBu",
+    "10 dBu"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 8,
+   "name": "Cmp1 Rcvr",
+   "steps": [
+    "400mS",
+    "800mS",
+    "1.5S",
+    "AUTO"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 9,
+   "name": "Cmp1 /8",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 10,
+   "name": "Cmp1 Gain",
+   "steps": [
+    "0 dB",
+    "2 dB",
+    "4 dB",
+    "6 dB",
+    "8 dB",
+    "10 dB",
+    "12 dB",
+    "14 dB",
+    "16 dB",
+    "18 dB",
+    "20 dB"
+   ],
+   "default": 0.2000000029802322
+  },
+  {
+   "index": 11,
+   "name": "Output1",
+   "steps": [
+    "  0 dB",
+    "  1 dB",
+    "  2 dB",
+    "  3 dB",
+    "  4 dB",
+    "  5 dB",
+    "  6 dB",
+    "  7 dB",
+    "  8 dB",
+    "  9 dB",
+    " 10 dB",
+    " 11 dB",
+    " 12 dB",
+    " 13 dB",
+    " 14 dB",
+    " 15 dB",
+    " 16 dB",
+    " 17 dB",
+    " 18 dB",
+    " 19 dB",
+    " 20 dB"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "Bypass2",
+   "steps": [
+    "In",
+    "Byp"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "Meter2",
+   "steps": [
+    "In",
+    "Ctrl",
+    "Out"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 14,
+   "name": "Lim2 Atk",
+   "steps": [
+    "Fast",
+    "Slow",
+    "Off"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 15,
+   "name": "Lim2 Lvl",
+   "steps": [
+    "4 dBu",
+    "4.5 dBu",
+    "5 dBu",
+    "5.5 dBu",
+    "6 dBu",
+    "6.5 dBu",
+    "7 dBu",
+    "7.5 dBu",
+    "8 dBu",
+    "8.5 dBu",
+    "9 dBu",
+    "9.5 dBu",
+    "10 dBu",
+    "10.5 dBu",
+    "11 dBu",
+    "11.5 dBu",
+    "12 dBu"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 16,
+   "name": "Lim2 Rcvr",
+   "steps": [
+    "100mS",
+    "200mS",
+    "800mS",
+    "AUTO"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 17,
+   "name": "Cmp2 Atk",
+   "steps": [
+    "Fast",
+    "Slow",
+    "Off"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 18,
+   "name": "Cmp2 Rat",
+   "steps": [
+    "1.5:1",
+    "2:1",
+    "3:1",
+    "4:1",
+    "6:1"
+   ],
+   "default": 0.75
+  },
+  {
+   "index": 19,
+   "name": "Cmp2 Thr",
+   "steps": [
+    "-20 dBu",
+    "-18 dBu",
+    "-16 dBu",
+    "-14 dBu",
+    "-12 dBu",
+    "-10 dBu",
+    "-8 dBu",
+    "-6 dBu",
+    "-4 dBu",
+    "-2 dBu",
+    "0 dBu",
+    "2 dBu",
+    "4 dBu",
+    "6 dBu",
+    "8 dBu",
+    "10 dBu"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 20,
+   "name": "Cmp2 Rcvr",
+   "steps": [
+    "400mS",
+    "800mS",
+    "1.5S",
+    "AUTO"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 21,
+   "name": "Cmp2 /8",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 22,
+   "name": "Cmp2 Gain",
+   "steps": [
+    "0 dB",
+    "2 dB",
+    "4 dB",
+    "6 dB",
+    "8 dB",
+    "10 dB",
+    "12 dB",
+    "14 dB",
+    "16 dB",
+    "18 dB",
+    "20 dB"
+   ],
+   "default": 0.2000000029802322
+  },
+  {
+   "index": 23,
+   "name": "Output2",
+   "steps": [
+    "  0 dB",
+    "  1 dB",
+    "  2 dB",
+    "  3 dB",
+    "  4 dB",
+    "  5 dB",
+    "  6 dB",
+    "  7 dB",
+    "  8 dB",
+    "  9 dB",
+    " 10 dB",
+    " 11 dB",
+    " 12 dB",
+    " 13 dB",
+    " 14 dB",
+    " 15 dB",
+    " 16 dB",
+    " 17 dB",
+    " 18 dB",
+    " 19 dB",
+    " 20 dB"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 24,
+   "name": "Ctrl Link",
+   "steps": [
+    "Link",
+    "Unlink"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 25,
+   "name": "Stereo Link",
+   "steps": [
+    "Stereo",
+    "Mono"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 26,
+   "name": "SC HPF",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 27,
+   "name": "Mix",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 28,
+   "name": "Headroom",
+   "steps": [
+    "4 dB",
+    "8 dB",
+    "12 dB",
+    "16 dB",
+    "20 dB",
+    "24 dB",
+    "28 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 29,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "filmstrip-1-internal30",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter0"
+   },
+   "x": 44,
+   "y": 87,
+   "w": 34,
+   "h": 142,
+   "sprite": "neve_2254_e_dual_8501_1",
+   "frames": 108
+  },
+  {
+   "id": "knob-2-meter1",
+   "x": 89,
+   "y": 187,
+   "w": 48,
+   "h": 48,
+   "sprite": "neve_2254_e_dual_8507",
+   "frames": 3,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "switch-3-bypass1",
+   "x": 88,
+   "y": 93,
+   "w": 50,
+   "h": 60,
+   "sprite": "neve_2254_e_dual_8516",
+   "frames": 2,
+   "kind": "switch",
+   "param": 0,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-4-lim1_atk",
+   "x": 155,
+   "y": 98,
+   "w": 48,
+   "h": 48,
+   "sprite": "neve_2254_e_dual_8503",
+   "frames": 3,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "knob-5-cmp1_atk",
+   "x": 213,
+   "y": 98,
+   "w": 48,
+   "h": 48,
+   "sprite": "neve_2254_e_dual_8503",
+   "frames": 3,
+   "kind": "knob",
+   "param": 5
+  },
+  {
+   "id": "knob-6-cmp1_rat",
+   "x": 269,
+   "y": 84,
+   "w": 122,
+   "h": 94,
+   "sprite": "neve_2254_e_dual_8510",
+   "frames": 5,
+   "kind": "knob",
+   "param": 6
+  },
+  {
+   "id": "knob-7-cmp1_gain",
+   "x": 170,
+   "y": 173,
+   "w": 76,
+   "h": 76,
+   "sprite": "neve_2254_e_dual_8506",
+   "frames": 11,
+   "kind": "knob",
+   "param": 10
+  },
+  {
+   "id": "knob-8-cmp1_thr",
+   "x": 292,
+   "y": 173,
+   "w": 76,
+   "h": 76,
+   "sprite": "neve_2254_e_dual_8512",
+   "frames": 16,
+   "kind": "knob",
+   "param": 7
+  },
+  {
+   "id": "knob-9-lim1_lvl",
+   "x": 25,
+   "y": 254,
+   "w": 122,
+   "h": 94,
+   "sprite": "neve_2254_e_dual_8505",
+   "frames": 17,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "knob-10-lim1_rcvr",
+   "x": 147,
+   "y": 254,
+   "w": 122,
+   "h": 94,
+   "sprite": "neve_2254_e_dual_8511",
+   "frames": 4,
+   "kind": "knob",
+   "param": 4
+  },
+  {
+   "id": "knob-11-cmp1_rcvr",
+   "x": 269,
+   "y": 254,
+   "w": 122,
+   "h": 94,
+   "sprite": "neve_2254_e_dual_8511",
+   "frames": 4,
+   "kind": "knob",
+   "param": 8
+  },
+  {
+   "id": "knob-12-cmp1_rcvr",
+   "x": 269,
+   "y": 254,
+   "w": 122,
+   "h": 94,
+   "sprite": "neve_2254_e_dual_8519",
+   "frames": 4,
+   "kind": "knob",
+   "param": 8
+  },
+  {
+   "id": "switch-13-stereo_link",
+   "x": 450,
+   "y": 93,
+   "w": 50,
+   "h": 60,
+   "sprite": "neve_2254_e_dual_8517",
+   "frames": 2,
+   "kind": "switch",
+   "param": 25,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-14-power",
+   "x": 414,
+   "y": 326,
+   "w": 64,
+   "h": 28,
+   "sprite": "neve_2254_e_dual_8509",
+   "frames": 2,
+   "kind": "switch",
+   "param": 29,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-15-sc_hpf",
+   "x": 393,
+   "y": 187,
+   "w": 48,
+   "h": 48,
+   "sprite": "neve_2254_e_dual_8504",
+   "frames": 101,
+   "kind": "knob",
+   "param": 26
+  },
+  {
+   "id": "knob-16-output1",
+   "x": 393,
+   "y": 253,
+   "w": 48,
+   "h": 48,
+   "sprite": "neve_2254_e_dual_8508",
+   "frames": 21,
+   "kind": "knob",
+   "param": 11
+  },
+  {
+   "id": "knob-17-headroom",
+   "x": 436,
+   "y": 176,
+   "w": 20,
+   "h": 20,
+   "sprite": "neve_2254_e_dual_8518",
+   "frames": 7,
+   "kind": "knob",
+   "param": 28
+  },
+  {
+   "id": "knob-18-mix",
+   "x": 451,
+   "y": 187,
+   "w": 48,
+   "h": 48,
+   "sprite": "neve_2254_e_dual_8502",
+   "frames": 101,
+   "kind": "knob",
+   "param": 27
+  },
+  {
+   "id": "filmstrip-19-internal31",
+   "kind": "filmstrip",
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter1"
+   },
+   "x": 521,
+   "y": 87,
+   "w": 34,
+   "h": 142,
+   "sprite": "neve_2254_e_dual_8501_1",
+   "frames": 108
+  },
+  {
+   "id": "knob-20-meter2",
+   "x": 566,
+   "y": 187,
+   "w": 48,
+   "h": 48,
+   "sprite": "neve_2254_e_dual_8507",
+   "frames": 3,
+   "kind": "knob",
+   "param": 13
+  },
+  {
+   "id": "switch-21-bypass2",
+   "x": 565,
+   "y": 93,
+   "w": 50,
+   "h": 60,
+   "sprite": "neve_2254_e_dual_8516",
+   "frames": 2,
+   "kind": "switch",
+   "param": 12,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-22-lim2_atk",
+   "x": 632,
+   "y": 98,
+   "w": 48,
+   "h": 48,
+   "sprite": "neve_2254_e_dual_8503",
+   "frames": 3,
+   "kind": "knob",
+   "param": 14
+  },
+  {
+   "id": "knob-23-cmp2_atk",
+   "x": 690,
+   "y": 98,
+   "w": 48,
+   "h": 48,
+   "sprite": "neve_2254_e_dual_8503",
+   "frames": 3,
+   "kind": "knob",
+   "param": 17
+  },
+  {
+   "id": "knob-24-cmp2_rat",
+   "x": 746,
+   "y": 84,
+   "w": 122,
+   "h": 94,
+   "sprite": "neve_2254_e_dual_8510",
+   "frames": 5,
+   "kind": "knob",
+   "param": 18
+  },
+  {
+   "id": "knob-25-cmp2_gain",
+   "x": 647,
+   "y": 173,
+   "w": 76,
+   "h": 76,
+   "sprite": "neve_2254_e_dual_8506",
+   "frames": 11,
+   "kind": "knob",
+   "param": 22
+  },
+  {
+   "id": "knob-26-cmp2_thr",
+   "x": 769,
+   "y": 173,
+   "w": 76,
+   "h": 76,
+   "sprite": "neve_2254_e_dual_8512",
+   "frames": 16,
+   "kind": "knob",
+   "param": 19
+  },
+  {
+   "id": "knob-27-lim2_lvl",
+   "x": 502,
+   "y": 254,
+   "w": 122,
+   "h": 94,
+   "sprite": "neve_2254_e_dual_8505",
+   "frames": 17,
+   "kind": "knob",
+   "param": 15
+  },
+  {
+   "id": "knob-28-lim2_rcvr",
+   "x": 624,
+   "y": 254,
+   "w": 122,
+   "h": 94,
+   "sprite": "neve_2254_e_dual_8511",
+   "frames": 4,
+   "kind": "knob",
+   "param": 16
+  },
+  {
+   "id": "knob-29-cmp2_rcvr",
+   "x": 746,
+   "y": 254,
+   "w": 122,
+   "h": 94,
+   "sprite": "neve_2254_e_dual_8511",
+   "frames": 4,
+   "kind": "knob",
+   "param": 20
+  },
+  {
+   "id": "knob-30-cmp2_rcvr",
+   "x": 746,
+   "y": 254,
+   "w": 122,
+   "h": 94,
+   "sprite": "neve_2254_e_dual_8519",
+   "frames": 4,
+   "kind": "knob",
+   "param": 20
+  },
+  {
+   "id": "knob-31-output2",
+   "x": 451,
+   "y": 253,
+   "w": 48,
+   "h": 48,
+   "sprite": "neve_2254_e_dual_8508",
+   "frames": 21,
+   "kind": "knob",
+   "param": 23
+  },
+  {
+   "id": "switch-32-ctrl_link",
+   "x": 392,
+   "y": 93,
+   "w": 50,
+   "h": 60,
+   "sprite": "neve_2254_e_dual_8517",
+   "frames": 2,
+   "kind": "switch",
+   "param": 24,
+   "orientation": "vertical"
+  },
+  {
+   "id": "I-pull8-9",
+   "kind": "zone",
+   "x": 357,
+   "y": 309,
+   "w": 27,
+   "h": 22,
+   "action": {
+    "type": "toggle",
+    "param": 9
+   }
+  },
+  {
+   "id": "I-pull8-21",
+   "kind": "zone",
+   "x": 834,
+   "y": 309,
+   "w": 27,
+   "h": 22,
+   "action": {
+    "type": "toggle",
+    "param": 21
+   }
+  }
+ ],
+ "meterSources": {
+  "meter0": {
+   "vendorSpecificFloat": 100663369,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.007943,
+     0.0
+    ],
+    [
+     0.01,
+     0.0093
+    ],
+    [
+     0.015849,
+     0.0093
+    ],
+    [
+     0.019953,
+     0.0187
+    ],
+    [
+     0.025119,
+     0.0187
+    ],
+    [
+     0.031623,
+     0.028
+    ],
+    [
+     0.039811,
+     0.0374
+    ],
+    [
+     0.050119,
+     0.0467
+    ],
+    [
+     0.063096,
+     0.0561
+    ],
+    [
+     0.079433,
+     0.0748
+    ],
+    [
+     0.1,
+     0.0935
+    ],
+    [
+     0.125893,
+     0.1215
+    ],
+    [
+     0.158489,
+     0.1495
+    ],
+    [
+     0.199526,
+     0.1963
+    ],
+    [
+     0.251189,
+     0.243
+    ],
+    [
+     0.316228,
+     0.3084
+    ],
+    [
+     0.398107,
+     0.3925
+    ],
+    [
+     0.501187,
+     0.4953
+    ],
+    [
+     0.630957,
+     0.6262
+    ],
+    [
+     0.794328,
+     0.785
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 100663369,
+    "p1": 1
+   }
+  },
+  "meter1": {
+   "vendorSpecificFloat": 100663370,
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.007943,
+     0.0
+    ],
+    [
+     0.01,
+     0.0093
+    ],
+    [
+     0.015849,
+     0.0093
+    ],
+    [
+     0.019953,
+     0.0187
+    ],
+    [
+     0.025119,
+     0.0187
+    ],
+    [
+     0.031623,
+     0.028
+    ],
+    [
+     0.039811,
+     0.0374
+    ],
+    [
+     0.050119,
+     0.0467
+    ],
+    [
+     0.063096,
+     0.0561
+    ],
+    [
+     0.079433,
+     0.0748
+    ],
+    [
+     0.1,
+     0.0935
+    ],
+    [
+     0.125893,
+     0.1215
+    ],
+    [
+     0.158489,
+     0.1495
+    ],
+    [
+     0.199526,
+     0.1963
+    ],
+    [
+     0.251189,
+     0.243
+    ],
+    [
+     0.316228,
+     0.3084
+    ],
+    [
+     0.398107,
+     0.3925
+    ],
+    [
+     0.501187,
+     0.4953
+    ],
+    [
+     0.630957,
+     0.6262
+    ],
+    [
+     0.794328,
+     0.785
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     60.0,
+     1.0
+    ]
+   ],
+   "opcode": {
+    "op": 519,
+    "p0": 100663370,
+    "p1": 1
+   }
+  }
+ }
+}

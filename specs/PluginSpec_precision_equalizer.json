@@ -1,0 +1,1434 @@
+{
+ "schema": 2,
+ "effectName": "UAD Precision Equalizer",
+ "namePattern": "Precision Equalizer",
+ "size": {
+  "w": 720,
+  "h": 260
+ },
+ "background": "precision_equalizer_4200",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "ALo1BW",
+   "steps": [
+    "Shelf",
+    "4",
+    "6",
+    "9",
+    "14",
+    "20"
+   ],
+   "default": 0.2000000029802322
+  },
+  {
+   "index": 1,
+   "name": "ALo1F",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 2,
+   "name": "ALo1G",
+   "steps": [
+    "-8.0 dB",
+    "-6.0 dB",
+    "-5.0 dB",
+    "-4.0 dB",
+    "-3.0 dB",
+    "-2.5 dB",
+    "-2.0 dB",
+    "-1.5 dB",
+    "-1.0 dB",
+    "-0.5 dB",
+    "0.0 dB",
+    "0.5 dB",
+    "1.0 dB",
+    "1.5 dB",
+    "2.0 dB",
+    "2.5 dB",
+    "3.0 dB",
+    "4.0 dB",
+    "5.0 dB",
+    "6.0 dB",
+    "8.0 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 3,
+   "name": "ALo1En",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "ALo2BW",
+   "steps": [
+    "Shelf",
+    "4",
+    "6",
+    "9",
+    "14",
+    "20"
+   ],
+   "default": 0.2000000029802322
+  },
+  {
+   "index": 5,
+   "name": "ALo2F",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "ALo2G",
+   "steps": [
+    "-8.0 dB",
+    "-6.0 dB",
+    "-5.0 dB",
+    "-4.0 dB",
+    "-3.0 dB",
+    "-2.5 dB",
+    "-2.0 dB",
+    "-1.5 dB",
+    "-1.0 dB",
+    "-0.5 dB",
+    "0.0 dB",
+    "0.5 dB",
+    "1.0 dB",
+    "1.5 dB",
+    "2.0 dB",
+    "2.5 dB",
+    "3.0 dB",
+    "4.0 dB",
+    "5.0 dB",
+    "6.0 dB",
+    "8.0 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "ALo2En",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 8,
+   "name": "AHi1BW",
+   "steps": [
+    "Shelf",
+    "4",
+    "6",
+    "9",
+    "14",
+    "20"
+   ],
+   "default": 0.2000000029802322
+  },
+  {
+   "index": 9,
+   "name": "AHi1F",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "AHi1G",
+   "steps": [
+    "-8.0 dB",
+    "-6.0 dB",
+    "-5.0 dB",
+    "-4.0 dB",
+    "-3.0 dB",
+    "-2.5 dB",
+    "-2.0 dB",
+    "-1.5 dB",
+    "-1.0 dB",
+    "-0.5 dB",
+    "0.0 dB",
+    "0.5 dB",
+    "1.0 dB",
+    "1.5 dB",
+    "2.0 dB",
+    "2.5 dB",
+    "3.0 dB",
+    "4.0 dB",
+    "5.0 dB",
+    "6.0 dB",
+    "8.0 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 11,
+   "name": "AHi1En",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "AHi2BW",
+   "steps": [
+    "Shelf",
+    "4",
+    "6",
+    "9",
+    "14",
+    "20"
+   ],
+   "default": 0.2000000029802322
+  },
+  {
+   "index": 13,
+   "name": "AHi2F",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 14,
+   "name": "AHi2G",
+   "steps": [
+    "-8.0 dB",
+    "-6.0 dB",
+    "-5.0 dB",
+    "-4.0 dB",
+    "-3.0 dB",
+    "-2.5 dB",
+    "-2.0 dB",
+    "-1.5 dB",
+    "-1.0 dB",
+    "-0.5 dB",
+    "0.0 dB",
+    "0.5 dB",
+    "1.0 dB",
+    "1.5 dB",
+    "2.0 dB",
+    "2.5 dB",
+    "3.0 dB",
+    "4.0 dB",
+    "5.0 dB",
+    "6.0 dB",
+    "8.0 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 15,
+   "name": "AHi2En",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 16,
+   "name": "BLo1BW",
+   "steps": [
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4"
+   ],
+   "default": 0.2000000029802322
+  },
+  {
+   "index": 17,
+   "name": "BLo1F",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 18,
+   "name": "BLo1G",
+   "steps": [
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 19,
+   "name": "BLo1En",
+   "steps": [
+    "Out",
+    "Out"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 20,
+   "name": "BLo2BW",
+   "steps": [
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4"
+   ],
+   "default": 0.2000000029802322
+  },
+  {
+   "index": 21,
+   "name": "BLo2F",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 22,
+   "name": "BLo2G",
+   "steps": [
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 23,
+   "name": "BLo2En",
+   "steps": [
+    "Out",
+    "Out"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 24,
+   "name": "BHi1BW",
+   "steps": [
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4"
+   ],
+   "default": 0.2000000029802322
+  },
+  {
+   "index": 25,
+   "name": "BHi1F",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 26,
+   "name": "BHi1G",
+   "steps": [
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 27,
+   "name": "BHi1En",
+   "steps": [
+    "Out",
+    "Out"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 28,
+   "name": "BHi2BW",
+   "steps": [
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4"
+   ],
+   "default": 0.2000000029802322
+  },
+  {
+   "index": 29,
+   "name": "BHi2F",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 30,
+   "name": "BHi2G",
+   "steps": [
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB",
+    "0.0 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 31,
+   "name": "BHi2En",
+   "steps": [
+    "Out",
+    "Out"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 32,
+   "name": "LowCut",
+   "steps": [
+    "Off",
+    " 10 Hz",
+    " 20 Hz",
+    " 30 Hz",
+    " 40 Hz",
+    " 60 Hz",
+    " 80 Hz",
+    "100 Hz"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 33,
+   "name": "LRCtrl",
+   "steps": [
+    "A",
+    "B",
+    "AB"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 34,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "switch-1-alo1bw",
+   "x": 49,
+   "y": 20,
+   "w": 40,
+   "h": 48,
+   "sprite": "precision_equalizer_4201",
+   "frames": 6,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "switch-2-alo2bw",
+   "x": 117,
+   "y": 20,
+   "w": 40,
+   "h": 48,
+   "sprite": "precision_equalizer_4201",
+   "frames": 6,
+   "kind": "knob",
+   "param": 4
+  },
+  {
+   "id": "switch-3-ahi1bw",
+   "x": 185,
+   "y": 20,
+   "w": 40,
+   "h": 48,
+   "sprite": "precision_equalizer_4201",
+   "frames": 6,
+   "kind": "knob",
+   "param": 8
+  },
+  {
+   "id": "switch-4-ahi2bw",
+   "x": 253,
+   "y": 20,
+   "w": 40,
+   "h": 48,
+   "sprite": "precision_equalizer_4201",
+   "frames": 6,
+   "kind": "knob",
+   "param": 12
+  },
+  {
+   "id": "switch-5-blo1bw",
+   "x": 430,
+   "y": 20,
+   "w": 40,
+   "h": 48,
+   "sprite": "precision_equalizer_4201",
+   "frames": 6,
+   "kind": "knob",
+   "param": 16
+  },
+  {
+   "id": "switch-6-blo2bw",
+   "x": 498,
+   "y": 20,
+   "w": 40,
+   "h": 48,
+   "sprite": "precision_equalizer_4201",
+   "frames": 6,
+   "kind": "knob",
+   "param": 20
+  },
+  {
+   "id": "switch-7-bhi1bw",
+   "x": 566,
+   "y": 20,
+   "w": 40,
+   "h": 48,
+   "sprite": "precision_equalizer_4201",
+   "frames": 6,
+   "kind": "knob",
+   "param": 24
+  },
+  {
+   "id": "switch-8-bhi2bw",
+   "x": 634,
+   "y": 20,
+   "w": 40,
+   "h": 48,
+   "sprite": "precision_equalizer_4201",
+   "frames": 6,
+   "kind": "knob",
+   "param": 28
+  },
+  {
+   "id": "switch-9-alo1f",
+   "x": 41,
+   "y": 82,
+   "w": 56,
+   "h": 56,
+   "sprite": "P_precision_equalizer_switch-9-alo1f",
+   "frames": 65,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "switch-10-alo2f",
+   "x": 109,
+   "y": 82,
+   "w": 56,
+   "h": 56,
+   "sprite": "P_precision_equalizer_switch-10-alo2f",
+   "frames": 65,
+   "kind": "knob",
+   "param": 5
+  },
+  {
+   "id": "switch-11-ahi1f",
+   "x": 177,
+   "y": 82,
+   "w": 56,
+   "h": 56,
+   "sprite": "P_precision_equalizer_switch-11-ahi1f",
+   "frames": 65,
+   "kind": "knob",
+   "param": 9
+  },
+  {
+   "id": "switch-12-ahi2f",
+   "x": 245,
+   "y": 82,
+   "w": 56,
+   "h": 56,
+   "sprite": "P_precision_equalizer_switch-12-ahi2f",
+   "frames": 65,
+   "kind": "knob",
+   "param": 13
+  },
+  {
+   "id": "switch-13-blo1f",
+   "x": 422,
+   "y": 82,
+   "w": 56,
+   "h": 56,
+   "sprite": "P_precision_equalizer_switch-13-blo1f",
+   "frames": 65,
+   "kind": "knob",
+   "param": 17
+  },
+  {
+   "id": "switch-14-blo2f",
+   "x": 490,
+   "y": 82,
+   "w": 56,
+   "h": 56,
+   "sprite": "P_precision_equalizer_switch-14-blo2f",
+   "frames": 65,
+   "kind": "knob",
+   "param": 21
+  },
+  {
+   "id": "switch-15-bhi1f",
+   "x": 558,
+   "y": 82,
+   "w": 56,
+   "h": 56,
+   "sprite": "P_precision_equalizer_switch-15-bhi1f",
+   "frames": 65,
+   "kind": "knob",
+   "param": 25
+  },
+  {
+   "id": "switch-16-bhi2f",
+   "x": 626,
+   "y": 82,
+   "w": 56,
+   "h": 56,
+   "sprite": "P_precision_equalizer_switch-16-bhi2f",
+   "frames": 65,
+   "kind": "knob",
+   "param": 29
+  },
+  {
+   "id": "switch-17-alo1g",
+   "x": 41,
+   "y": 166,
+   "w": 56,
+   "h": 56,
+   "sprite": "precision_equalizer_4203",
+   "frames": 21,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "switch-18-alo2g",
+   "x": 109,
+   "y": 166,
+   "w": 56,
+   "h": 56,
+   "sprite": "precision_equalizer_4203",
+   "frames": 21,
+   "kind": "knob",
+   "param": 6
+  },
+  {
+   "id": "switch-19-ahi1g",
+   "x": 177,
+   "y": 166,
+   "w": 56,
+   "h": 56,
+   "sprite": "precision_equalizer_4203",
+   "frames": 21,
+   "kind": "knob",
+   "param": 10
+  },
+  {
+   "id": "switch-20-ahi2g",
+   "x": 245,
+   "y": 166,
+   "w": 56,
+   "h": 56,
+   "sprite": "precision_equalizer_4203",
+   "frames": 21,
+   "kind": "knob",
+   "param": 14
+  },
+  {
+   "id": "switch-21-blo1g",
+   "x": 422,
+   "y": 166,
+   "w": 56,
+   "h": 56,
+   "sprite": "precision_equalizer_4203",
+   "frames": 21,
+   "kind": "knob",
+   "param": 18
+  },
+  {
+   "id": "switch-22-blo2g",
+   "x": 490,
+   "y": 166,
+   "w": 56,
+   "h": 56,
+   "sprite": "precision_equalizer_4203",
+   "frames": 21,
+   "kind": "knob",
+   "param": 22
+  },
+  {
+   "id": "switch-23-bhi1g",
+   "x": 558,
+   "y": 166,
+   "w": 56,
+   "h": 56,
+   "sprite": "precision_equalizer_4203",
+   "frames": 21,
+   "kind": "knob",
+   "param": 26
+  },
+  {
+   "id": "switch-24-bhi2g",
+   "x": 626,
+   "y": 166,
+   "w": 56,
+   "h": 56,
+   "sprite": "precision_equalizer_4203",
+   "frames": 21,
+   "kind": "knob",
+   "param": 30
+  },
+  {
+   "id": "switch-25-alo1en",
+   "kind": "switch",
+   "x": 55,
+   "y": 56,
+   "w": 24,
+   "h": 24,
+   "sprite": "precision_equalizer_4208_4",
+   "frames": 2,
+   "param": 3,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-26-alo2en",
+   "kind": "switch",
+   "x": 123,
+   "y": 56,
+   "w": 24,
+   "h": 24,
+   "sprite": "precision_equalizer_4209_5",
+   "frames": 2,
+   "param": 7,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-27-ahi1en",
+   "kind": "switch",
+   "x": 191,
+   "y": 56,
+   "w": 24,
+   "h": 24,
+   "sprite": "precision_equalizer_4210_6",
+   "frames": 2,
+   "param": 11,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-28-ahi2en",
+   "kind": "switch",
+   "x": 259,
+   "y": 56,
+   "w": 24,
+   "h": 24,
+   "sprite": "precision_equalizer_4211_7",
+   "frames": 2,
+   "param": 15,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-29-blo1en",
+   "kind": "switch",
+   "x": 436,
+   "y": 56,
+   "w": 24,
+   "h": 24,
+   "sprite": "precision_equalizer_4208_4",
+   "frames": 2,
+   "param": 19,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-30-blo2en",
+   "kind": "switch",
+   "x": 504,
+   "y": 56,
+   "w": 24,
+   "h": 24,
+   "sprite": "precision_equalizer_4209_5",
+   "frames": 2,
+   "param": 23,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-31-bhi1en",
+   "kind": "switch",
+   "x": 572,
+   "y": 56,
+   "w": 24,
+   "h": 24,
+   "sprite": "precision_equalizer_4210_6",
+   "frames": 2,
+   "param": 27,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-32-bhi2en",
+   "kind": "switch",
+   "x": 640,
+   "y": 56,
+   "w": 24,
+   "h": 24,
+   "sprite": "precision_equalizer_4211_7",
+   "frames": 2,
+   "param": 31,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-33-lowcut",
+   "x": 341,
+   "y": 20,
+   "w": 40,
+   "h": 48,
+   "sprite": "precision_equalizer_4204",
+   "frames": 8,
+   "kind": "knob",
+   "param": 32
+  },
+  {
+   "id": "switch-34-lrctrl",
+   "x": 321,
+   "y": 77,
+   "w": 80,
+   "h": 40,
+   "sprite": "precision_equalizer_4205",
+   "frames": 3,
+   "kind": "switch",
+   "param": 33,
+   "orientation": "horizontal"
+  },
+  {
+   "id": "switch-35-lrctrl",
+   "kind": "switch",
+   "x": 323,
+   "y": 79,
+   "w": 33,
+   "h": 15,
+   "sprite": "precision_equalizer_4205_10",
+   "frames": 3,
+   "param": 33,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-36-lrctrl",
+   "kind": "switch",
+   "x": 364,
+   "y": 79,
+   "w": 33,
+   "h": 15,
+   "sprite": "precision_equalizer_4205_11",
+   "frames": 3,
+   "param": 33,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-37-power",
+   "kind": "switch",
+   "x": 328,
+   "y": 139,
+   "w": 67,
+   "h": 40,
+   "sprite": "precision_equalizer_4206_12",
+   "frames": 2,
+   "param": 34,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-38-power",
+   "x": 342,
+   "y": 213,
+   "w": 38,
+   "h": 24,
+   "sprite": "precision_equalizer_4207",
+   "frames": 2,
+   "kind": "switch",
+   "param": 34,
+   "orientation": "vertical"
+  },
+  {
+   "id": "text-41-alo1f",
+   "kind": "text",
+   "x": 44,
+   "y": 140,
+   "w": 47,
+   "h": 13,
+   "param": 1,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "text-42-alo2f",
+   "kind": "text",
+   "x": 112,
+   "y": 140,
+   "w": 47,
+   "h": 13,
+   "param": 5,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "text-43-ahi1f",
+   "kind": "text",
+   "x": 180,
+   "y": 140,
+   "w": 47,
+   "h": 13,
+   "param": 9,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "text-44-ahi2f",
+   "kind": "text",
+   "x": 248,
+   "y": 140,
+   "w": 47,
+   "h": 13,
+   "param": 13,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "text-45-blo1f",
+   "kind": "text",
+   "x": 425,
+   "y": 140,
+   "w": 47,
+   "h": 13,
+   "param": 17,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "text-46-blo2f",
+   "kind": "text",
+   "x": 493,
+   "y": 140,
+   "w": 47,
+   "h": 13,
+   "param": 21,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "text-47-bhi1f",
+   "kind": "text",
+   "x": 561,
+   "y": 140,
+   "w": 47,
+   "h": 13,
+   "param": 25,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "text-48-bhi2f",
+   "kind": "text",
+   "x": 629,
+   "y": 140,
+   "w": 47,
+   "h": 13,
+   "param": 29,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "menu-49-alo1g",
+   "kind": "menu",
+   "x": 44,
+   "y": 223,
+   "w": 47,
+   "h": 13,
+   "param": 2,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "menu-50-alo2g",
+   "kind": "menu",
+   "x": 112,
+   "y": 223,
+   "w": 47,
+   "h": 13,
+   "param": 6,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "menu-51-ahi1g",
+   "kind": "menu",
+   "x": 180,
+   "y": 223,
+   "w": 47,
+   "h": 13,
+   "param": 10,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "menu-52-ahi2g",
+   "kind": "menu",
+   "x": 248,
+   "y": 223,
+   "w": 47,
+   "h": 13,
+   "param": 14,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "menu-53-blo1g",
+   "kind": "menu",
+   "x": 425,
+   "y": 223,
+   "w": 47,
+   "h": 13,
+   "param": 18,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "menu-54-blo2g",
+   "kind": "menu",
+   "x": 493,
+   "y": 223,
+   "w": 47,
+   "h": 13,
+   "param": 22,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "menu-55-bhi1g",
+   "kind": "menu",
+   "x": 561,
+   "y": 223,
+   "w": 47,
+   "h": 13,
+   "param": 26,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "menu-56-bhi2g",
+   "kind": "menu",
+   "x": 629,
+   "y": 223,
+   "w": 47,
+   "h": 13,
+   "param": 30,
+   "text": {
+    "size": 10,
+    "color": "#000000",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   }
+  },
+  {
+   "id": "P-copy-a-to-b",
+   "kind": "zone",
+   "x": 334,
+   "y": 121,
+   "w": 26,
+   "h": 13,
+   "action": {
+    "type": "multi",
+    "actions": [
+     {
+      "type": "copy",
+      "param": 0,
+      "to": [
+       16
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 1,
+      "to": [
+       17
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 2,
+      "to": [
+       18
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 3,
+      "to": [
+       19
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 4,
+      "to": [
+       20
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 5,
+      "to": [
+       21
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 6,
+      "to": [
+       22
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 7,
+      "to": [
+       23
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 8,
+      "to": [
+       24
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 9,
+      "to": [
+       25
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 10,
+      "to": [
+       26
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 11,
+      "to": [
+       27
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 12,
+      "to": [
+       28
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 13,
+      "to": [
+       29
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 14,
+      "to": [
+       30
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 15,
+      "to": [
+       31
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "P-copy-b-to-a",
+   "kind": "zone",
+   "x": 361,
+   "y": 121,
+   "w": 26,
+   "h": 13,
+   "action": {
+    "type": "multi",
+    "actions": [
+     {
+      "type": "copy",
+      "param": 16,
+      "to": [
+       0
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 17,
+      "to": [
+       1
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 18,
+      "to": [
+       2
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 19,
+      "to": [
+       3
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 20,
+      "to": [
+       4
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 21,
+      "to": [
+       5
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 22,
+      "to": [
+       6
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 23,
+      "to": [
+       7
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 24,
+      "to": [
+       8
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 25,
+      "to": [
+       9
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 26,
+      "to": [
+       10
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 27,
+      "to": [
+       11
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 28,
+      "to": [
+       12
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 29,
+      "to": [
+       13
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 30,
+      "to": [
+       14
+      ]
+     },
+     {
+      "type": "copy",
+      "param": 31,
+      "to": [
+       15
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "meterSources": {}
+}

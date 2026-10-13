@@ -1,0 +1,2027 @@
+{
+ "schema": 2,
+ "effectName": "UAD bx_digital V2 Mono",
+ "namePattern": "bx_digital V2 Mono",
+ "size": {
+  "w": 455,
+  "h": 660
+ },
+ "background": "bx_digital_v2_mono__BACKGROUNDMONO",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Bypass",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Preset",
+   "steps": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "AListen",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 3,
+   "name": "AL Mode",
+   "steps": [
+    "Q - -",
+    "- f -",
+    "- - G",
+    "Q f -",
+    "Q - G",
+    "- f G",
+    "Q f G"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 4,
+   "name": "EQOn",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 5,
+   "name": "In Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "Out Gain",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "1 HP On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 8,
+   "name": "1 LP On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 9,
+   "name": "1 Lf On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 10,
+   "name": "1 Lmf On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 11,
+   "name": "1 Mf On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 12,
+   "name": "1 Hmf On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 13,
+   "name": "1 Hf On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 14,
+   "name": "1 BS On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 15,
+   "name": "1 PS On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 16,
+   "name": "1 Dsr On",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 17,
+   "name": "1 HP",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 18,
+   "name": "1 Lf G",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 19,
+   "name": "1 Lf Q",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 20,
+   "name": "1 Lf F",
+   "steps": null,
+   "default": 0.3494850099086761
+  },
+  {
+   "index": 21,
+   "name": "1 Lmf G",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 22,
+   "name": "1 Lmf Q",
+   "steps": null,
+   "default": 0.3077622056007385
+  },
+  {
+   "index": 23,
+   "name": "1 Lmf F",
+   "steps": null,
+   "default": 0.5986402630805969
+  },
+  {
+   "index": 24,
+   "name": "1 Mf G",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 25,
+   "name": "1 Mf Q",
+   "steps": null,
+   "default": 0.4849460124969482
+  },
+  {
+   "index": 26,
+   "name": "1 Mf F",
+   "steps": null,
+   "default": 0.7224587202072144
+  },
+  {
+   "index": 27,
+   "name": "1 Hmf G",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 28,
+   "name": "1 Hmf Q",
+   "steps": null,
+   "default": 0.5885919332504272
+  },
+  {
+   "index": 29,
+   "name": "1 Hmf F",
+   "steps": null,
+   "default": 0.667313814163208
+  },
+  {
+   "index": 30,
+   "name": "1 Hf G",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 31,
+   "name": "1 Hf Q",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 32,
+   "name": "1 Hf F",
+   "steps": null,
+   "default": 0.8487434387207031
+  },
+  {
+   "index": 33,
+   "name": "1 LP",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 34,
+   "name": "1BShift",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 35,
+   "name": "1PShift",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 36,
+   "name": "1 Dsr Th",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 37,
+   "name": "1 Dsr Fq",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 38,
+   "name": "1DsrSolo",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 39,
+   "name": "PhaseRev",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 0.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "cmoviebitmap-led",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2_mono__LABELSETTINGS",
+   "frames": 5,
+   "x": 70.0,
+   "y": 8.0,
+   "w": 60.0,
+   "h": 9.0
+  },
+  {
+   "id": "bypass-text",
+   "kind": "label",
+   "x": 24.5,
+   "y": 35.49,
+   "w": 37.38,
+   "h": 13.75,
+   "text": {
+    "string": "Gain In",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-1",
+   "kind": "label",
+   "x": 385.5,
+   "y": 35.49,
+   "w": 44.97,
+   "h": 13.75,
+   "text": {
+    "string": "Gain Out",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-2",
+   "kind": "label",
+   "x": 234.0,
+   "y": 85.77,
+   "w": 60.37,
+   "h": 16.01,
+   "text": {
+    "string": "Auto-Listen",
+    "font": "Arial",
+    "size": 10.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "bypass-text-3",
+   "kind": "label",
+   "x": 199.5,
+   "y": 84.27,
+   "w": 21.53,
+   "h": 16.01,
+   "text": {
+    "string": "EQ",
+    "font": "Arial",
+    "size": 10.75,
+    "align": "left",
+    "color": "#FFFFFF"
+   }
+  },
+  {
+   "id": "bypass-text-4",
+   "kind": "label",
+   "x": 355.0,
+   "y": 338.77,
+   "w": 27.52,
+   "h": 16.01,
+   "text": {
+    "string": "Solo",
+    "font": "Arial",
+    "size": 10.75,
+    "align": "left",
+    "color": "#FFFFFF"
+   }
+  },
+  {
+   "id": "bypass-text-5",
+   "kind": "label",
+   "x": 389.0,
+   "y": 401.49,
+   "w": 32.0,
+   "h": 13.75,
+   "text": {
+    "string": "f DSR",
+    "font": "Helvetica",
+    "size": 9.75,
+    "align": "left",
+    "color": "#EFEFEF"
+   }
+  },
+  {
+   "id": "phaserev-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2_mono__BUTTONBIG",
+   "frames": 2,
+   "param": 39,
+   "orientation": "vertical",
+   "x": 163.0,
+   "y": 67.0,
+   "w": 16.0,
+   "h": 16.0
+  },
+  {
+   "id": "eqon-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2_mono__BUTTONBIG",
+   "frames": 2,
+   "param": 4,
+   "orientation": "vertical",
+   "x": 199.0,
+   "y": 67.0,
+   "w": 16.0,
+   "h": 16.0
+  },
+  {
+   "id": "alisten-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2_mono__BUTTONBIG",
+   "frames": 2,
+   "param": 2,
+   "orientation": "vertical",
+   "x": 235.0,
+   "y": 67.0,
+   "w": 16.0,
+   "h": 16.0
+  },
+  {
+   "id": "almode-menu",
+   "kind": "menu",
+   "param": 3,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 261.0,
+   "y": 67.0,
+   "w": 32.0,
+   "h": 14.0
+  },
+  {
+   "id": "bypass-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2_mono__BUTTONBYPASS_C0",
+   "frames": 2,
+   "param": 0,
+   "orientation": "vertical",
+   "x": 2.0,
+   "y": 2.0,
+   "w": 58.0,
+   "h": 20.0
+  },
+  {
+   "id": "preset-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2_mono__BUTTONPRESETA",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 134.0,
+   "y": 2.0,
+   "w": 21.0,
+   "h": 20.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "preset-switch-1",
+   "kind": "switch",
+   "sprite": "bx_digital_v2_mono__BUTTONPRESETB",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 158.0,
+   "y": 2.0,
+   "w": 21.0,
+   "h": 20.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.333333
+   }
+  },
+  {
+   "id": "preset-switch-2",
+   "kind": "switch",
+   "sprite": "bx_digital_v2_mono__BUTTONPRESETC",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 182.0,
+   "y": 2.0,
+   "w": 21.0,
+   "h": 20.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 0
+     }
+    ]
+   },
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 0.666667
+   }
+  },
+  {
+   "id": "preset-switch-3",
+   "kind": "switch",
+   "sprite": "bx_digital_v2_mono__BUTTONPRESETD",
+   "frames": 2,
+   "param": 1,
+   "orientation": "vertical",
+   "x": 206.0,
+   "y": 2.0,
+   "w": 21.0,
+   "h": 20.0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   },
+   "action": {
+    "type": "set",
+    "param": 1,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "1hpon-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2_mono__BUTTONHIPASS_C0",
+   "frames": 2,
+   "param": 7,
+   "orientation": "vertical",
+   "x": 99.0,
+   "y": 34.0,
+   "w": 34.0,
+   "h": 12.0
+  },
+  {
+   "id": "1lpon-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2_mono__BUTTONLOPASS_C0",
+   "frames": 2,
+   "param": 8,
+   "orientation": "vertical",
+   "x": 323.0,
+   "y": 34.0,
+   "w": 34.0,
+   "h": 12.0
+  },
+  {
+   "id": "1lfon-text-label",
+   "kind": "label",
+   "x": 72.5,
+   "y": 295.34,
+   "w": 19.13,
+   "h": 15.25,
+   "param": 9,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "LF",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "1lfon-text",
+   "kind": "zone",
+   "x": 63.0,
+   "y": 294.0,
+   "w": 34.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 9
+   }
+  },
+  {
+   "id": "1lmfon-text-label",
+   "kind": "label",
+   "x": 142.5,
+   "y": 295.34,
+   "w": 28.38,
+   "h": 15.25,
+   "param": 10,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "LMF",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "1lmfon-text",
+   "kind": "zone",
+   "x": 137.0,
+   "y": 294.0,
+   "w": 34.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 10
+   }
+  },
+  {
+   "id": "1mfon-text-label",
+   "kind": "label",
+   "x": 218.5,
+   "y": 295.34,
+   "w": 22.25,
+   "h": 15.25,
+   "param": 11,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "MF",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "1mfon-text",
+   "kind": "zone",
+   "x": 210.0,
+   "y": 294.0,
+   "w": 34.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 11
+   }
+  },
+  {
+   "id": "1hmfon-text-label",
+   "kind": "label",
+   "x": 289.5,
+   "y": 295.34,
+   "w": 30.38,
+   "h": 15.25,
+   "param": 12,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "HMF",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "1hmfon-text",
+   "kind": "zone",
+   "x": 285.0,
+   "y": 294.0,
+   "w": 34.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 12
+   }
+  },
+  {
+   "id": "1hfon-text-label",
+   "kind": "label",
+   "x": 367.5,
+   "y": 295.34,
+   "w": 21.0,
+   "h": 15.25,
+   "param": 13,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "HF",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "1hfon-text",
+   "kind": "zone",
+   "x": 359.0,
+   "y": 294.0,
+   "w": 34.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 13
+   }
+  },
+  {
+   "id": "1bson-text-label",
+   "kind": "label",
+   "x": 52.5,
+   "y": 320.34,
+   "w": 56.87,
+   "h": 15.25,
+   "param": 14,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "Bass Shift",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "1bson-text",
+   "kind": "zone",
+   "x": 36.0,
+   "y": 319.0,
+   "w": 85.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 14
+   }
+  },
+  {
+   "id": "1pson-text-label",
+   "kind": "label",
+   "x": 155.5,
+   "y": 320.34,
+   "w": 57.83,
+   "h": 15.25,
+   "param": 15,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "Pres. Shift",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "1pson-text",
+   "kind": "zone",
+   "x": 139.0,
+   "y": 319.0,
+   "w": 85.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 15
+   }
+  },
+  {
+   "id": "1dsron-text-label",
+   "kind": "label",
+   "x": 299.5,
+   "y": 320.34,
+   "w": 52.89,
+   "h": 15.25,
+   "param": 16,
+   "frames": 2,
+   "colors": [
+    "#919191",
+    "#FFFFFF"
+   ],
+   "text": {
+    "string": "De-Esser",
+    "font": "Helvetica",
+    "size": 11.25,
+    "align": "left"
+   }
+  },
+  {
+   "id": "1dsron-text",
+   "kind": "zone",
+   "x": 281.0,
+   "y": 319.0,
+   "w": 85.0,
+   "h": 15.0,
+   "action": {
+    "type": "toggle",
+    "param": 16
+   }
+  },
+  {
+   "id": "ingain-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBSMALL",
+   "frames": 61,
+   "param": 5,
+   "x": 27.0,
+   "y": 53.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "ingain-text",
+   "kind": "text",
+   "param": 5,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 18.0,
+   "y": 88.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "outgain-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBSMALL",
+   "frames": 61,
+   "param": 6,
+   "x": 397.0,
+   "y": 53.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "outgain-text",
+   "kind": "text",
+   "param": 6,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 388.0,
+   "y": 88.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1hp-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBSMALL",
+   "frames": 61,
+   "param": 17,
+   "x": 101.0,
+   "y": 53.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1hp-text",
+   "kind": "text",
+   "param": 17,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 92.0,
+   "y": 88.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1lfg-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBBIG",
+   "frames": 61,
+   "param": 18,
+   "x": 54.0,
+   "y": 109.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "1lfg-text",
+   "kind": "text",
+   "param": 18,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 55.0,
+   "y": 163.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1lfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBSMALL",
+   "frames": 61,
+   "param": 19,
+   "x": 63.0,
+   "y": 184.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1lfq-text",
+   "kind": "text",
+   "param": 19,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 54.0,
+   "y": 219.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1lff-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBSMALL",
+   "frames": 61,
+   "param": 20,
+   "x": 63.0,
+   "y": 245.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1lff-text",
+   "kind": "text",
+   "param": 20,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 54.0,
+   "y": 280.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1lmfg-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBBIG",
+   "frames": 61,
+   "param": 21,
+   "x": 128.0,
+   "y": 109.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "1lmfg-text",
+   "kind": "text",
+   "param": 21,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 129.0,
+   "y": 163.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1lmfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBSMALL",
+   "frames": 61,
+   "param": 22,
+   "x": 137.0,
+   "y": 184.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1lmfq-text",
+   "kind": "text",
+   "param": 22,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 128.0,
+   "y": 219.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1lmff-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBSMALL",
+   "frames": 61,
+   "param": 23,
+   "x": 137.0,
+   "y": 245.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1lmff-text",
+   "kind": "text",
+   "param": 23,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 128.0,
+   "y": 280.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1mfg-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBBIG",
+   "frames": 61,
+   "param": 24,
+   "x": 202.0,
+   "y": 109.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "1mfg-text",
+   "kind": "text",
+   "param": 24,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 203.0,
+   "y": 163.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1mfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBSMALL",
+   "frames": 61,
+   "param": 25,
+   "x": 211.0,
+   "y": 184.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1mfq-text",
+   "kind": "text",
+   "param": 25,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 202.0,
+   "y": 219.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1mff-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBSMALL",
+   "frames": 61,
+   "param": 26,
+   "x": 211.0,
+   "y": 245.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1mff-text",
+   "kind": "text",
+   "param": 26,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 202.0,
+   "y": 280.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1hmfg-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBBIG",
+   "frames": 61,
+   "param": 27,
+   "x": 277.0,
+   "y": 109.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "1hmfg-text",
+   "kind": "text",
+   "param": 27,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 278.0,
+   "y": 163.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1hmfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBSMALL",
+   "frames": 61,
+   "param": 28,
+   "x": 286.0,
+   "y": 184.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1hmfq-text",
+   "kind": "text",
+   "param": 28,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 277.0,
+   "y": 219.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1hmff-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBSMALL",
+   "frames": 61,
+   "param": 29,
+   "x": 286.0,
+   "y": 245.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1hmff-text",
+   "kind": "text",
+   "param": 29,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 277.0,
+   "y": 280.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1hfg-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBBIG",
+   "frames": 61,
+   "param": 30,
+   "x": 351.0,
+   "y": 109.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "1hfg-text",
+   "kind": "text",
+   "param": 30,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 352.0,
+   "y": 163.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1hfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBSMALL",
+   "frames": 61,
+   "param": 31,
+   "x": 360.0,
+   "y": 184.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1hfq-text",
+   "kind": "text",
+   "param": 31,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 351.0,
+   "y": 219.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1hff-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBSMALL",
+   "frames": 61,
+   "param": 32,
+   "x": 360.0,
+   "y": 245.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1hff-text",
+   "kind": "text",
+   "param": 32,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 351.0,
+   "y": 280.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1lp-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBSMALL",
+   "frames": 61,
+   "param": 33,
+   "x": 323.0,
+   "y": 53.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1lp-text",
+   "kind": "text",
+   "param": 33,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 314.0,
+   "y": 88.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1bshift-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBBIG",
+   "frames": 61,
+   "param": 34,
+   "x": 54.0,
+   "y": 341.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "1bshift-text",
+   "kind": "text",
+   "param": 34,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 55.0,
+   "y": 395.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1pshift-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBBIG",
+   "frames": 61,
+   "param": 35,
+   "x": 156.0,
+   "y": 341.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "1pshift-text",
+   "kind": "text",
+   "param": 35,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 157.0,
+   "y": 395.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1dsrth-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBBIG",
+   "frames": 61,
+   "param": 36,
+   "x": 299.0,
+   "y": 341.0,
+   "w": 50.0,
+   "h": 50.0
+  },
+  {
+   "id": "1dsrth-text",
+   "kind": "text",
+   "param": 36,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 300.0,
+   "y": 395.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1dsrfq-knob",
+   "kind": "knob",
+   "sprite": "bx_digital_v2_mono__KNOBSMALL",
+   "frames": 61,
+   "param": 37,
+   "x": 387.0,
+   "y": 355.0,
+   "w": 32.0,
+   "h": 32.0
+  },
+  {
+   "id": "1dsrfq-text",
+   "kind": "text",
+   "param": 37,
+   "text": {
+    "size": 10,
+    "color": "#E0E0E0",
+    "align": "center",
+    "weight": "regular",
+    "monospaced": false
+   },
+   "x": 378.0,
+   "y": 388.0,
+   "w": 50.0,
+   "h": 13.0
+  },
+  {
+   "id": "1dsrsolo-switch",
+   "kind": "switch",
+   "sprite": "bx_digital_v2_mono__BUTTONSMALL",
+   "frames": 2,
+   "param": 38,
+   "orientation": "vertical",
+   "x": 364.0,
+   "y": 353.0,
+   "w": 10.0,
+   "h": 10.0
+  },
+  {
+   "id": "meter-73",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2_mono__METER_BAR",
+   "frames": 33,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000000"
+   },
+   "x": 9.0,
+   "y": 112.0,
+   "w": 7.0,
+   "h": 151.0
+  },
+  {
+   "id": "meter-74",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2_mono__METER_BAR",
+   "frames": 33,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000001"
+   },
+   "x": 439.0,
+   "y": 112.0,
+   "w": 7.0,
+   "h": 151.0
+  },
+  {
+   "id": "meter-75",
+   "kind": "filmstrip",
+   "sprite": "bx_digital_v2_mono__METERDEESSEROFF_BAR",
+   "frames": 33,
+   "frameSource": {
+    "type": "meter",
+    "meter": "meter_40000002"
+   },
+   "x": 257.0,
+   "y": 323.0,
+   "w": 12.0,
+   "h": 83.0
+  }
+ ],
+ "meterSources": {
+  "meter_40000000": {
+   "vendorSpecificFloat": 50331712,
+   "opcode": {
+    "op": 519,
+    "p0": 50331712,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     0.0
+    ],
+    [
+     0.0003,
+     0.0
+    ],
+    [
+     0.001,
+     0.03205
+    ],
+    [
+     0.002,
+     0.12854
+    ],
+    [
+     0.003,
+     0.18497
+    ],
+    [
+     0.005,
+     0.25608
+    ],
+    [
+     0.01,
+     0.35256
+    ],
+    [
+     0.015,
+     0.409
+    ],
+    [
+     0.02,
+     0.44905
+    ],
+    [
+     0.03,
+     0.50549
+    ],
+    [
+     0.04,
+     0.54553
+    ],
+    [
+     0.05,
+     0.57659
+    ],
+    [
+     0.07,
+     0.62343
+    ],
+    [
+     0.1,
+     0.67308
+    ],
+    [
+     0.13,
+     0.7096
+    ],
+    [
+     0.15,
+     0.72952
+    ],
+    [
+     0.18,
+     0.75489
+    ],
+    [
+     0.2,
+     0.76956
+    ],
+    [
+     0.25,
+     0.80062
+    ],
+    [
+     0.3,
+     0.826
+    ],
+    [
+     0.35,
+     0.84746
+    ],
+    [
+     0.4,
+     0.86604
+    ],
+    [
+     0.45,
+     0.88244
+    ],
+    [
+     0.5,
+     0.89711
+    ],
+    [
+     0.55,
+     0.91037
+    ],
+    [
+     0.6,
+     0.92248
+    ],
+    [
+     0.65,
+     0.93363
+    ],
+    [
+     0.7,
+     0.94394
+    ],
+    [
+     0.75,
+     0.95355
+    ],
+    [
+     0.8,
+     0.96253
+    ],
+    [
+     0.85,
+     0.97097
+    ],
+    [
+     0.9,
+     0.97892
+    ],
+    [
+     0.95,
+     0.98645
+    ],
+    [
+     1.0,
+     0.99359
+    ],
+    [
+     1.06,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  },
+  "meter_40000001": {
+   "vendorSpecificFloat": 50331713,
+   "opcode": {
+    "op": 519,
+    "p0": 50331713,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     0.0
+    ],
+    [
+     0.0003,
+     0.0
+    ],
+    [
+     0.001,
+     0.03205
+    ],
+    [
+     0.002,
+     0.12854
+    ],
+    [
+     0.003,
+     0.18497
+    ],
+    [
+     0.005,
+     0.25608
+    ],
+    [
+     0.01,
+     0.35256
+    ],
+    [
+     0.015,
+     0.409
+    ],
+    [
+     0.02,
+     0.44905
+    ],
+    [
+     0.03,
+     0.50549
+    ],
+    [
+     0.04,
+     0.54553
+    ],
+    [
+     0.05,
+     0.57659
+    ],
+    [
+     0.07,
+     0.62343
+    ],
+    [
+     0.1,
+     0.67308
+    ],
+    [
+     0.13,
+     0.7096
+    ],
+    [
+     0.15,
+     0.72952
+    ],
+    [
+     0.18,
+     0.75489
+    ],
+    [
+     0.2,
+     0.76956
+    ],
+    [
+     0.25,
+     0.80062
+    ],
+    [
+     0.3,
+     0.826
+    ],
+    [
+     0.35,
+     0.84746
+    ],
+    [
+     0.4,
+     0.86604
+    ],
+    [
+     0.45,
+     0.88244
+    ],
+    [
+     0.5,
+     0.89711
+    ],
+    [
+     0.55,
+     0.91037
+    ],
+    [
+     0.6,
+     0.92248
+    ],
+    [
+     0.65,
+     0.93363
+    ],
+    [
+     0.7,
+     0.94394
+    ],
+    [
+     0.75,
+     0.95355
+    ],
+    [
+     0.8,
+     0.96253
+    ],
+    [
+     0.85,
+     0.97097
+    ],
+    [
+     0.9,
+     0.97892
+    ],
+    [
+     0.95,
+     0.98645
+    ],
+    [
+     1.0,
+     0.99359
+    ],
+    [
+     1.06,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  },
+  "meter_40000002": {
+   "vendorSpecificFloat": 50331714,
+   "opcode": {
+    "op": 519,
+    "p0": 50331714,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     -144,
+     1.0
+    ],
+    [
+     1e-06,
+     1.0
+    ],
+    [
+     1e-05,
+     0.0
+    ],
+    [
+     0.25,
+     0.0
+    ],
+    [
+     0.3,
+     0.00404
+    ],
+    [
+     0.35,
+     0.13156
+    ],
+    [
+     0.4,
+     0.24202
+    ],
+    [
+     0.45,
+     0.33945
+    ],
+    [
+     0.5,
+     0.42661
+    ],
+    [
+     0.55,
+     0.50545
+    ],
+    [
+     0.6,
+     0.57743
+    ],
+    [
+     0.65,
+     0.64364
+    ],
+    [
+     0.7,
+     0.70495
+    ],
+    [
+     0.75,
+     0.76202
+    ],
+    [
+     0.8,
+     0.81541
+    ],
+    [
+     0.85,
+     0.86556
+    ],
+    [
+     0.9,
+     0.91284
+    ],
+    [
+     0.95,
+     0.95757
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     100,
+     1.0
+    ]
+   ]
+  }
+ }
+}

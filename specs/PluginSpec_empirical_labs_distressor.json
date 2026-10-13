@@ -1,0 +1,1289 @@
+{
+ "schema": 2,
+ "effectName": "UAD Empirical Labs Distressor",
+ "namePattern": "Empirical Labs Distressor",
+ "size": {
+  "w": 1010,
+  "h": 362
+ },
+ "background": "distressor_bg",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Bypass",
+   "steps": [
+    "Off",
+    "Byp"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "Ratio",
+   "steps": [
+    "1:1",
+    "2:1",
+    "3:1",
+    "4:1",
+    "6:1",
+    "10:1",
+    "20:1",
+    "NUKE"
+   ],
+   "default": 0.5714285969734192
+  },
+  {
+   "index": 2,
+   "name": "Detector",
+   "steps": [
+    "Norm",
+    "HP",
+    "Emp",
+    "HP+Emp",
+    "Link",
+    "HP+Link",
+    "Emp+Link",
+    "HP+Emp+Link"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 3,
+   "name": "Audio",
+   "steps": [
+    "Norm",
+    "HP",
+    "Dist 2",
+    "HP+Dist 2",
+    "Dist 3",
+    "HP+Dist 3"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Input",
+   "steps": null,
+   "default": 0.476165771484375
+  },
+  {
+   "index": 5,
+   "name": "Attack",
+   "steps": null,
+   "default": 0.476165771484375
+  },
+  {
+   "index": 6,
+   "name": "Release",
+   "steps": null,
+   "default": 0.476165771484375
+  },
+  {
+   "index": 7,
+   "name": "Output",
+   "steps": null,
+   "default": 0.6190185546875
+  },
+  {
+   "index": 8,
+   "name": "Mix",
+   "steps": null,
+   "default": 1.0
+  },
+  {
+   "index": 9,
+   "name": "Headroom",
+   "steps": [
+    "4 dB",
+    "8 dB",
+    "12 dB",
+    "16 dB",
+    "20 dB",
+    "24 dB",
+    "28 dB"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 10,
+   "name": "Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "gain_reduction": {
+   "combine": {
+    "op": "max",
+    "meters": [
+     "dst_gr_l",
+     "dst_gr_r"
+    ]
+   },
+   "calibration": []
+  },
+  "thd": {
+   "vendorSpecificFloat": 44,
+   "smoothing": 0.35,
+   "calibration": [
+    [
+     3.89,
+     0.0
+    ],
+    [
+     3.9,
+     1.0
+    ]
+   ]
+  },
+  "redline": {
+   "vendorSpecificFloat": 44,
+   "smoothing": 0.35,
+   "calibration": [
+    [
+     7.49,
+     0.0
+    ],
+    [
+     7.5,
+     1.0
+    ]
+   ]
+  },
+  "dst_gr_l": {
+   "vendorSpecificFloat": 40,
+   "calibration": [
+    [
+     0.0,
+     1.0
+    ],
+    [
+     0.01483166,
+     1.0
+    ],
+    [
+     0.01483181,
+     0.9375
+    ],
+    [
+     0.02095027,
+     0.9375
+    ],
+    [
+     0.02095048,
+     0.875
+    ],
+    [
+     0.02959305,
+     0.875
+    ],
+    [
+     0.02959334,
+     0.8125
+    ],
+    [
+     0.04180129,
+     0.8125
+    ],
+    [
+     0.04180171,
+     0.75
+    ],
+    [
+     0.05904589,
+     0.75
+    ],
+    [
+     0.05904648,
+     0.6875
+    ],
+    [
+     0.07433437,
+     0.6875
+    ],
+    [
+     0.07433511,
+     0.625
+    ],
+    [
+     0.09358143,
+     0.625
+    ],
+    [
+     0.09358236,
+     0.5625
+    ],
+    [
+     0.10500009,
+     0.5625
+    ],
+    [
+     0.10500114,
+     0.5
+    ],
+    [
+     0.11781204,
+     0.5
+    ],
+    [
+     0.11781321,
+     0.4375
+    ],
+    [
+     0.13218728,
+     0.4375
+    ],
+    [
+     0.1321886,
+     0.375
+    ],
+    [
+     0.14831657,
+     0.375
+    ],
+    [
+     0.14831805,
+     0.3125
+    ],
+    [
+     0.16641393,
+     0.3125
+    ],
+    [
+     0.16641559,
+     0.25
+    ],
+    [
+     0.1867195,
+     0.25
+    ],
+    [
+     0.18672136,
+     0.1875
+    ],
+    [
+     0.20950272,
+     0.1875
+    ],
+    [
+     0.20950481,
+     0.125
+    ],
+    [
+     0.23506592,
+     0.125
+    ],
+    [
+     0.23506827,
+     0.0625
+    ],
+    [
+     0.2637483,
+     0.0625
+    ],
+    [
+     0.26375093,
+     0.0
+    ],
+    [
+     1.0,
+     0.0
+    ]
+   ],
+   "smoothing": 0.5
+  },
+  "dst_gr_r": {
+   "vendorSpecificFloat": 41,
+   "calibration": [
+    [
+     0.0,
+     1.0
+    ],
+    [
+     0.01483166,
+     1.0
+    ],
+    [
+     0.01483181,
+     0.9375
+    ],
+    [
+     0.02095027,
+     0.9375
+    ],
+    [
+     0.02095048,
+     0.875
+    ],
+    [
+     0.02959305,
+     0.875
+    ],
+    [
+     0.02959334,
+     0.8125
+    ],
+    [
+     0.04180129,
+     0.8125
+    ],
+    [
+     0.04180171,
+     0.75
+    ],
+    [
+     0.05904589,
+     0.75
+    ],
+    [
+     0.05904648,
+     0.6875
+    ],
+    [
+     0.07433437,
+     0.6875
+    ],
+    [
+     0.07433511,
+     0.625
+    ],
+    [
+     0.09358143,
+     0.625
+    ],
+    [
+     0.09358236,
+     0.5625
+    ],
+    [
+     0.10500009,
+     0.5625
+    ],
+    [
+     0.10500114,
+     0.5
+    ],
+    [
+     0.11781204,
+     0.5
+    ],
+    [
+     0.11781321,
+     0.4375
+    ],
+    [
+     0.13218728,
+     0.4375
+    ],
+    [
+     0.1321886,
+     0.375
+    ],
+    [
+     0.14831657,
+     0.375
+    ],
+    [
+     0.14831805,
+     0.3125
+    ],
+    [
+     0.16641393,
+     0.3125
+    ],
+    [
+     0.16641559,
+     0.25
+    ],
+    [
+     0.1867195,
+     0.25
+    ],
+    [
+     0.18672136,
+     0.1875
+    ],
+    [
+     0.20950272,
+     0.1875
+    ],
+    [
+     0.20950481,
+     0.125
+    ],
+    [
+     0.23506592,
+     0.125
+    ],
+    [
+     0.23506827,
+     0.0625
+    ],
+    [
+     0.2637483,
+     0.0625
+    ],
+    [
+     0.26375093,
+     0.0
+    ],
+    [
+     1.0,
+     0.0
+    ]
+   ],
+   "smoothing": 0.5
+  }
+ },
+ "elements": [
+  {
+   "id": "back-panel",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 1010.0,
+   "h": 362.0,
+   "kind": "image",
+   "sprite": "distressor_bg"
+  },
+  {
+   "id": "headroom-knob",
+   "x": 38,
+   "y": 247,
+   "w": 39,
+   "h": 49,
+   "kind": "knob",
+   "param": 9,
+   "sprite": "distressor_knob_hr",
+   "frames": 7
+  },
+  {
+   "id": "headroom-rtd",
+   "x": 46,
+   "y": 246,
+   "w": 24,
+   "h": 16,
+   "kind": "zone",
+   "param": 9,
+   "action": {
+    "type": "set",
+    "param": 9,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "input-knob",
+   "x": 87,
+   "y": 191,
+   "w": 175,
+   "h": 170,
+   "kind": "knob",
+   "param": 4,
+   "sprite": "distressor_knob",
+   "frames": 211
+  },
+  {
+   "id": "attack-knob",
+   "x": 279,
+   "y": 191,
+   "w": 175,
+   "h": 170,
+   "kind": "knob",
+   "param": 5,
+   "sprite": "distressor_knob",
+   "frames": 211
+  },
+  {
+   "id": "release-knob",
+   "x": 471,
+   "y": 191,
+   "w": 175,
+   "h": 170,
+   "kind": "knob",
+   "param": 6,
+   "sprite": "distressor_knob",
+   "frames": 211
+  },
+  {
+   "id": "output-knob",
+   "x": 663,
+   "y": 191,
+   "w": 175,
+   "h": 170,
+   "kind": "knob",
+   "param": 7,
+   "sprite": "distressor_knob",
+   "frames": 211
+  },
+  {
+   "id": "mix-knob",
+   "x": 859,
+   "y": 232,
+   "w": 98,
+   "h": 95,
+   "kind": "knob",
+   "param": 8,
+   "sprite": "distressor_knob_mix",
+   "frames": 101
+  },
+  {
+   "id": "mix-dry-ctv",
+   "x": 866,
+   "y": 304,
+   "w": 39,
+   "h": 19,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 0.0
+   }
+  },
+  {
+   "id": "mix-wet-ctv",
+   "x": 915,
+   "y": 304,
+   "w": 39,
+   "h": 19,
+   "kind": "zone",
+   "param": 8,
+   "action": {
+    "type": "set",
+    "param": 8,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "power-slider",
+   "x": 850,
+   "y": 6,
+   "w": 101,
+   "h": 144,
+   "kind": "switch",
+   "param": 10,
+   "sprite": "distressor_switch_power",
+   "frames": 2,
+   "orientation": "vertical"
+  },
+  {
+   "id": "audio-film-strip",
+   "x": 806,
+   "y": 21,
+   "w": 25,
+   "h": 74,
+   "kind": "filmstrip",
+   "sprite": "distressor_led_3way",
+   "frames": 8,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     3,
+     10
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.2,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.2,
+       1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.4,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.4,
+       1
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.6,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6,
+       1
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.8,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.8,
+       1
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 5
+     }
+    ]
+   }
+  },
+  {
+   "id": "audio-button",
+   "x": 749,
+   "y": 97,
+   "w": 87,
+   "h": 61,
+   "kind": "button",
+   "param": 3,
+   "sprite": "distressor_switch",
+   "frames": 2,
+   "action": {
+    "type": "nudge",
+    "param": 3,
+    "delta": 0.2
+   }
+  },
+  {
+   "id": "audio-hp-button",
+   "x": 758,
+   "y": 21,
+   "w": 72,
+   "h": 24,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.2
+   }
+  },
+  {
+   "id": "audio-dist2-button",
+   "x": 758,
+   "y": 45,
+   "w": 72,
+   "h": 24,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.4
+   }
+  },
+  {
+   "id": "audio-dist3-button",
+   "x": 758,
+   "y": 69,
+   "w": 72,
+   "h": 24,
+   "kind": "zone",
+   "param": 3,
+   "action": {
+    "type": "set",
+    "param": 3,
+    "value": 0.8
+   }
+  },
+  {
+   "id": "detector-film-strip",
+   "x": 711,
+   "y": 21,
+   "w": 25,
+   "h": 74,
+   "kind": "filmstrip",
+   "sprite": "distressor_led_3way",
+   "frames": 8,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     2,
+     10
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.14285714285714285,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.14285714285714285,
+       1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.2857142857142857,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.2857142857142857,
+       1
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       0.42857142857142855,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.42857142857142855,
+       1
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       0.5714285714285714,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.5714285714285714,
+       1
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       0.7142857142857143,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.7142857142857143,
+       1
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.8571428571428571,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.8571428571428571,
+       1
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 7
+     }
+    ]
+   }
+  },
+  {
+   "id": "detector-button",
+   "x": 654,
+   "y": 97,
+   "w": 87,
+   "h": 61,
+   "kind": "button",
+   "param": 2,
+   "sprite": "distressor_switch",
+   "frames": 2,
+   "action": {
+    "type": "nudge",
+    "param": 2,
+    "delta": 0.1429
+   }
+  },
+  {
+   "id": "detector-hp-button",
+   "x": 663,
+   "y": 21,
+   "w": 72,
+   "h": 24,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.142857
+   }
+  },
+  {
+   "id": "detector-band-emp-button",
+   "x": 663,
+   "y": 45,
+   "w": 72,
+   "h": 24,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.285714
+   }
+  },
+  {
+   "id": "detector-link-button",
+   "x": 663,
+   "y": 69,
+   "w": 72,
+   "h": 24,
+   "kind": "zone",
+   "param": 2,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.571429
+   }
+  },
+  {
+   "id": "ratio-film-strip",
+   "x": 203,
+   "y": 127,
+   "w": 344,
+   "h": 24,
+   "kind": "filmstrip",
+   "sprite": "distressor_led_ratio",
+   "frames": 9,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     10,
+     1
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       0.14285714285714285
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       0.2857142857142857
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       0.42857142857142855
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       0.5714285714285714
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       0.7142857142857143
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       0.8571428571428571
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1,
+       0.14285714285714285
+      ],
+      "frame": 2
+     },
+     {
+      "key": [
+       1,
+       0.2857142857142857
+      ],
+      "frame": 3
+     },
+     {
+      "key": [
+       1,
+       0.42857142857142855
+      ],
+      "frame": 4
+     },
+     {
+      "key": [
+       1,
+       0.5714285714285714
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       1,
+       0.7142857142857143
+      ],
+      "frame": 6
+     },
+     {
+      "key": [
+       1,
+       0.8571428571428571
+      ],
+      "frame": 7
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 8
+     }
+    ]
+   }
+  },
+  {
+   "id": "ratio-button",
+   "x": 558,
+   "y": 97,
+   "w": 87,
+   "h": 61,
+   "kind": "button",
+   "param": 1,
+   "sprite": "distressor_switch",
+   "frames": 2,
+   "action": {
+    "type": "nudge",
+    "param": 1,
+    "delta": 0.1429
+   }
+  },
+  {
+   "id": "ratio-slider",
+   "x": 203,
+   "y": 112,
+   "w": 344,
+   "h": 34,
+   "kind": "zone",
+   "param": 1,
+   "gesture": "drag",
+   "action": {
+    "type": "toggle",
+    "param": 1
+   }
+  },
+  {
+   "id": "bypass-film-strip",
+   "x": 412,
+   "y": 71,
+   "w": 72,
+   "h": 24,
+   "kind": "filmstrip",
+   "sprite": "distressor_led_red",
+   "frames": 2,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     3,
+     10
+    ],
+    "table": [
+     {
+      "key": [
+       0,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0,
+       1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.2,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.2,
+       1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.4,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.4,
+       1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.6,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.6,
+       1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       0.8,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.8,
+       1
+      ],
+      "frame": 1
+     },
+     {
+      "key": [
+       1,
+       0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1,
+       1
+      ],
+      "frame": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bypass-button",
+   "x": 294,
+   "y": 58,
+   "w": 87,
+   "h": 56,
+   "kind": "button",
+   "param": 0,
+   "sprite": "distressor_switch_bypass",
+   "frames": 2,
+   "action": {
+    "type": "table",
+    "param": 0,
+    "table": [
+     {
+      "current": 0,
+      "value": 1.0
+     },
+     {
+      "current": 1,
+      "value": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "bypass-led-button",
+   "x": 389,
+   "y": 70,
+   "w": 88,
+   "h": 26,
+   "kind": "zone",
+   "param": 0,
+   "action": {
+    "type": "toggle",
+    "param": 0
+   }
+  },
+  {
+   "id": "redline-film-strip",
+   "x": 547,
+   "y": 46,
+   "w": 72,
+   "h": 24,
+   "kind": "filmstrip",
+   "sprite": "distressor_led_red",
+   "frames": 2,
+   "frameSource": {
+    "type": "meter",
+    "meter": "redline",
+    "channel": 0
+   }
+  },
+  {
+   "id": "thd-film-strip",
+   "x": 547,
+   "y": 71,
+   "w": 72,
+   "h": 24,
+   "kind": "filmstrip",
+   "sprite": "distressor_led_yellow",
+   "frames": 2,
+   "frameSource": {
+    "type": "meter",
+    "meter": "thd",
+    "channel": 0
+   }
+  },
+  {
+   "id": "gr-film-strip",
+   "x": 157,
+   "y": 20,
+   "w": 474,
+   "h": 24,
+   "kind": "filmstrip",
+   "sprite": "distressor_led_meter",
+   "frames": 49,
+   "frameSource": {
+    "type": "meter",
+    "meter": "gain_reduction",
+    "channel": 0
+   }
+  },
+  {
+   "id": "v-p0-led",
+   "kind": "lamp",
+   "x": 418.25,
+   "y": 77.5,
+   "w": 12.0,
+   "h": 12.0,
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   },
+   "lamp": {
+    "on": "#FF352A",
+    "off": "#4E1C1A",
+    "glow": 3,
+    "bezel": "#141414",
+    "bezelWidth": 1.0
+   }
+  }
+ ]
+}

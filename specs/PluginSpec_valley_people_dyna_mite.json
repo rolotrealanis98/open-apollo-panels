@@ -1,0 +1,380 @@
+{
+ "schema": 2,
+ "effectName": "UAD Valley People Dyna-mite",
+ "namePattern": "Valley People Dyna-mite",
+ "size": {
+  "w": 840,
+  "h": 224
+ },
+ "background": null,
+ "parameters": [
+  {
+   "index": 0,
+   "name": "Threshold",
+   "steps": null,
+   "default": 0.6299999952316284
+  },
+  {
+   "index": 1,
+   "name": "Release",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 2,
+   "name": "Det Source",
+   "steps": [
+    "ext",
+    "ds/fm",
+    "int"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 3,
+   "name": "Mode",
+   "steps": [
+    "limit",
+    "out",
+    "exp"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "Det Type",
+   "steps": [
+    "avg",
+    "pk",
+    "gate"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "Range",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 6,
+   "name": "Output",
+   "steps": null,
+   "default": 0.5
+  },
+  {
+   "index": 7,
+   "name": "Processing Mode",
+   "steps": [
+    "Bypass",
+    "Active"
+   ],
+   "default": 1.0
+  }
+ ],
+ "meterSources": {
+  "gfx0": {
+   "vendorSpecificFloat": 134217728,
+   "opcode": {
+    "op": 519,
+    "p0": 134217728,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.00147076,
+     0.0
+    ],
+    [
+     0.004074,
+     0.125
+    ],
+    [
+     0.01223935,
+     0.25
+    ],
+    [
+     0.02056011,
+     0.375
+    ],
+    [
+     0.02923675,
+     0.5
+    ],
+    [
+     0.06394331,
+     1.0
+    ]
+   ]
+  },
+  "gfx3": {
+   "vendorSpecificFloat": 134217729,
+   "opcode": {
+    "op": 519,
+    "p0": 134217729,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.707,
+     0.0
+    ],
+    [
+     0.707070701,
+     1.0
+    ],
+    [
+     1.414,
+     1.0
+    ]
+   ],
+   "absolute": true
+  },
+  "gfx3b": {
+   "vendorSpecificFloat": 134217730,
+   "opcode": {
+    "op": 519,
+    "p0": 134217730,
+    "p1": 1
+   },
+   "calibration": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.707,
+     0.0
+    ],
+    [
+     0.707070701,
+     1.0
+    ],
+    [
+     1.414,
+     1.0
+    ]
+   ],
+   "absolute": true
+  },
+  "gfx3any": {
+   "combine": {
+    "op": "max",
+    "meters": [
+     "gfx3",
+     "gfx3b"
+    ]
+   },
+   "calibration": []
+  }
+ },
+ "elements": [
+  {
+   "id": "chrome-toolbar",
+   "kind": "toolbar",
+   "x": 0,
+   "y": 0,
+   "w": 840,
+   "h": 24,
+   "toolbar": {
+    "family": "softube",
+    "items": [
+     {
+      "type": "switch",
+      "x": 658.0,
+      "y": 6.0,
+      "w": 30,
+      "h": 12,
+      "param": 7,
+      "sprite": "chrome.softube.toggle",
+      "frames": 2,
+      "glyph": "power"
+     },
+     {
+      "type": "gear",
+      "x": 728.0,
+      "y": 6.5,
+      "w": 11.0,
+      "h": 11.5,
+      "color": "#C8C8C8"
+     },
+     {
+      "type": "rect",
+      "x": 750.0,
+      "y": 0,
+      "w": 90.0,
+      "h": 24,
+      "color": "#019C74"
+     },
+     {
+      "type": "icon",
+      "x": 766.0,
+      "y": 6.5,
+      "w": 58.0,
+      "h": 11.5,
+      "sprite": "chrome.softube.logo",
+      "frames": 1,
+      "glyph": "Softube",
+      "color": "#E5F5F0"
+     }
+    ]
+   }
+  },
+  {
+   "id": "panel-background",
+   "kind": "image",
+   "x": 0,
+   "y": 24,
+   "w": 840,
+   "h": 200,
+   "sprite": "STB_Valley_People_Dyna_mite_1001"
+  },
+  {
+   "id": "knob-0-1010",
+   "kind": "knob",
+   "x": 54,
+   "y": 91,
+   "w": 56,
+   "h": 68.0,
+   "sprite": "STB_Valley_People_Dyna_mite_1010",
+   "frames": 120,
+   "param": 0
+  },
+  {
+   "id": "knob-1-1009",
+   "kind": "knob",
+   "x": 159,
+   "y": 91,
+   "w": 56,
+   "h": 68.0,
+   "sprite": "STB_Valley_People_Dyna_mite_1009",
+   "frames": 120,
+   "param": 1
+  },
+  {
+   "id": "switch-2-1003",
+   "kind": "switch",
+   "x": 257,
+   "y": 72,
+   "w": 23,
+   "h": 91.0,
+   "sprite": "STB_Valley_People_Dyna_mite_1003",
+   "frames": 3,
+   "param": 2
+  },
+  {
+   "id": "switch-3-1006",
+   "kind": "switch",
+   "x": 517,
+   "y": 72,
+   "w": 23,
+   "h": 91.0,
+   "sprite": "STB_Valley_People_Dyna_mite_1006",
+   "frames": 3,
+   "param": 3
+  },
+  {
+   "id": "switch-4-1004",
+   "kind": "switch",
+   "x": 560,
+   "y": 72,
+   "w": 23,
+   "h": 91.0,
+   "sprite": "STB_Valley_People_Dyna_mite_1004",
+   "frames": 3,
+   "param": 4
+  },
+  {
+   "id": "knob-5-1008",
+   "kind": "knob",
+   "x": 631,
+   "y": 91,
+   "w": 56,
+   "h": 68.0,
+   "sprite": "STB_Valley_People_Dyna_mite_1008",
+   "frames": 120,
+   "param": 5
+  },
+  {
+   "id": "knob-6-1007",
+   "kind": "knob",
+   "x": 738,
+   "y": 91,
+   "w": 56,
+   "h": 68.0,
+   "sprite": "STB_Valley_People_Dyna_mite_1007",
+   "frames": 120,
+   "param": 6
+  },
+  {
+   "id": "gfx-0-1005",
+   "kind": "filmstrip",
+   "x": 298,
+   "y": 133,
+   "w": 185,
+   "h": 24.0,
+   "sprite": "STB_Valley_People_Dyna_mite_1005",
+   "frames": 9,
+   "frameSource": {
+    "type": "meter",
+    "meter": "gfx0"
+   }
+  },
+  {
+   "id": "gfx-3-1002",
+   "kind": "filmstrip",
+   "x": 802,
+   "y": 130,
+   "w": 24,
+   "h": 24.0,
+   "sprite": "STB_Valley_People_Dyna_mite_1002",
+   "frames": 2,
+   "frameSource": {
+    "type": "meter",
+    "meter": "gfx3any"
+   }
+  },
+  {
+   "id": "zone-2-0",
+   "kind": "zone",
+   "x": 237,
+   "y": 72,
+   "w": 53,
+   "h": 30,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 1.0
+   }
+  },
+  {
+   "id": "zone-2-1",
+   "kind": "zone",
+   "x": 237,
+   "y": 102,
+   "w": 53,
+   "h": 30,
+   "action": {
+    "type": "set",
+    "param": 2,
+    "value": 0.5
+   }
+  },
+  {
+   "id": "zone-2-2",
+   "kind": "zone",
+   "x": 237,
+   "y": 162,
+   "w": 53,
+   "h": 30,
+   "action": {
+    "type": "toggle",
+    "param": 2
+   }
+  }
+ ]
+}

@@ -1,0 +1,381 @@
+{
+ "schema": 2,
+ "effectName": "UAD Pultec-Pro Legacy",
+ "namePattern": "Pultec-Pro Legacy",
+ "size": {
+  "w": 950,
+  "h": 454
+ },
+ "background": "pultec_pro_legacy_2000",
+ "parameters": [
+  {
+   "index": 0,
+   "name": "LF Boost",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 1,
+   "name": "LF Atten",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 2,
+   "name": "Low Freq",
+   "steps": [
+    "20 CPS",
+    "30 CPS",
+    "60 CPS",
+    "100 CPS"
+   ],
+   "default": 0.3333333432674408
+  },
+  {
+   "index": 3,
+   "name": "HF Q",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 4,
+   "name": "HF Boost",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 5,
+   "name": "High Freq",
+   "steps": [
+    "3 KCS",
+    "4 KCS",
+    "5 KCS",
+    "8 KCS",
+    "10 KCS",
+    "12 KCS",
+    "16 KCS"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 6,
+   "name": "HF Atten",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 7,
+   "name": "HF Atten Freq",
+   "steps": [
+    "5 KCS",
+    "10 KCS",
+    "20 KCS"
+   ],
+   "default": 0.5
+  },
+  {
+   "index": 8,
+   "name": "EQP Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 9,
+   "name": "EQP Enable",
+   "steps": [
+    "Out",
+    "In"
+   ],
+   "default": 1.0
+  },
+  {
+   "index": 10,
+   "name": "LM Freq",
+   "steps": [
+    "200 CPS",
+    "300 CPS",
+    "500 CPS",
+    "700 CPS",
+    "1000 CPS"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 11,
+   "name": "LM Peak",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 12,
+   "name": "Mid Freq",
+   "steps": [
+    "200 CPS",
+    "300 CPS",
+    "500 CPS",
+    "700 CPS",
+    "1 KCS",
+    "1.5 KCS",
+    "2 KCS",
+    "3 KCS",
+    "4 KCS",
+    "5 KCS",
+    "7 KCS"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 13,
+   "name": "Mid Dip",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 14,
+   "name": "HM Freq",
+   "steps": [
+    "1.5 KCS",
+    "2 KCS",
+    "3 KCS",
+    "4 KCS",
+    "5 KCS"
+   ],
+   "default": 0.0
+  },
+  {
+   "index": 15,
+   "name": "HM Peak",
+   "steps": null,
+   "default": 0.0
+  },
+  {
+   "index": 16,
+   "name": "MEQ Power",
+   "steps": [
+    "Off",
+    "On"
+   ],
+   "default": 1.0
+  }
+ ],
+ "elements": [
+  {
+   "id": "knob-1-lf_atten",
+   "x": 343,
+   "y": 201,
+   "w": 105,
+   "h": 123,
+   "sprite": "pultec_pro_legacy_1401",
+   "frames": 111,
+   "kind": "knob",
+   "param": 1
+  },
+  {
+   "id": "knob-2-hf_atten",
+   "x": 629,
+   "y": 201,
+   "w": 105,
+   "h": 123,
+   "sprite": "pultec_pro_legacy_1401",
+   "frames": 111,
+   "kind": "knob",
+   "param": 6
+  },
+  {
+   "id": "knob-3-hf_atten_freq",
+   "x": 767,
+   "y": 203,
+   "w": 78,
+   "h": 120,
+   "sprite": "pultec_pro_legacy_1403",
+   "frames": 3,
+   "kind": "knob",
+   "param": 7
+  },
+  {
+   "id": "knob-4-lf_boost",
+   "x": 222,
+   "y": 201,
+   "w": 105,
+   "h": 123,
+   "sprite": "pultec_pro_legacy_1401",
+   "frames": 111,
+   "kind": "knob",
+   "param": 0
+  },
+  {
+   "id": "knob-5-hf_boost",
+   "x": 508,
+   "y": 201,
+   "w": 105,
+   "h": 123,
+   "sprite": "pultec_pro_legacy_1401",
+   "frames": 111,
+   "kind": "knob",
+   "param": 4
+  },
+  {
+   "id": "knob-6-hf_q",
+   "x": 426,
+   "y": 330,
+   "w": 105,
+   "h": 123,
+   "sprite": "pultec_pro_legacy_1401",
+   "frames": 111,
+   "kind": "knob",
+   "param": 3
+  },
+  {
+   "id": "knob-7-high_freq",
+   "x": 559,
+   "y": 329,
+   "w": 120,
+   "h": 124,
+   "sprite": "pultec_pro_legacy_1407",
+   "frames": 7,
+   "kind": "knob",
+   "param": 5
+  },
+  {
+   "id": "knob-8-low_freq",
+   "x": 274,
+   "y": 329,
+   "w": 120,
+   "h": 124,
+   "sprite": "pultec_pro_legacy_1409",
+   "frames": 4,
+   "kind": "knob",
+   "param": 2
+  },
+  {
+   "id": "switch-9-eqp_enable",
+   "x": 189,
+   "y": 338,
+   "w": 55,
+   "h": 100,
+   "sprite": "pultec_pro_legacy_1408",
+   "frames": 2,
+   "kind": "switch",
+   "param": 9,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-10-eqp_power",
+   "x": 790,
+   "y": 354,
+   "w": 51,
+   "h": 68,
+   "sprite": "pultec_pro_legacy_1411",
+   "frames": 2,
+   "kind": "switch",
+   "param": 8,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-11-eqp_power",
+   "kind": "switch",
+   "x": 724,
+   "y": 291,
+   "w": 85,
+   "h": 85,
+   "sprite": "pultec_pro_legacy_1410_7",
+   "frames": 2,
+   "param": 8,
+   "orientation": "vertical"
+  },
+  {
+   "id": "knob-12-lm_freq",
+   "x": 130,
+   "y": 32,
+   "w": 120,
+   "h": 124,
+   "sprite": "pultec_pro_legacy_2001",
+   "frames": 5,
+   "kind": "knob",
+   "param": 10
+  },
+  {
+   "id": "knob-13-lm_peak",
+   "x": 250,
+   "y": 35,
+   "w": 105,
+   "h": 123,
+   "sprite": "pultec_pro_legacy_2003",
+   "frames": 111,
+   "kind": "knob",
+   "param": 11
+  },
+  {
+   "id": "knob-14-mid_freq",
+   "x": 357,
+   "y": 32,
+   "w": 120,
+   "h": 124,
+   "sprite": "pultec_pro_legacy_2005",
+   "frames": 11,
+   "kind": "knob",
+   "param": 12
+  },
+  {
+   "id": "knob-15-mid_dip",
+   "x": 482,
+   "y": 35,
+   "w": 105,
+   "h": 123,
+   "sprite": "pultec_pro_legacy_2003",
+   "frames": 111,
+   "kind": "knob",
+   "param": 13
+  },
+  {
+   "id": "knob-16-hm_freq",
+   "x": 587,
+   "y": 32,
+   "w": 120,
+   "h": 78,
+   "sprite": "pultec_pro_legacy_2001_11",
+   "frames": 5,
+   "kind": "knob",
+   "param": 14
+  },
+  {
+   "id": "knob-17-hm_peak",
+   "x": 716,
+   "y": 35,
+   "w": 105,
+   "h": 123,
+   "sprite": "pultec_pro_legacy_2003",
+   "frames": 111,
+   "kind": "knob",
+   "param": 15
+  },
+  {
+   "id": "switch-18-meq_power",
+   "x": 821,
+   "y": 90,
+   "w": 51,
+   "h": 68,
+   "sprite": "pultec_pro_legacy_1411",
+   "frames": 2,
+   "kind": "switch",
+   "param": 16,
+   "orientation": "vertical"
+  },
+  {
+   "id": "switch-19-meq_power",
+   "kind": "switch",
+   "x": 796,
+   "y": 2,
+   "w": 85,
+   "h": 85,
+   "sprite": "pultec_pro_legacy_2009_12",
+   "frames": 2,
+   "param": 16,
+   "orientation": "vertical"
+  }
+ ],
+ "meterSources": {}
+}
