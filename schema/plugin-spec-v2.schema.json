@@ -519,6 +519,10 @@
     "value": {
      "$ref": "#/$defs/graphValue"
     },
+    "note": {
+     "$ref": "#/$defs/graphValue",
+     "description": "Reference A in Hz: with value (a frequency in Hz) the runtime draws the nearest equal-tempered note name (A, A#, ...); empty without a pitch."
+    },
     "format": {
      "$ref": "#/$defs/label"
     },
