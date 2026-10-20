@@ -280,6 +280,98 @@
      }
     ]
    }
+  },
+  {
+   "id": "note-readout",
+   "kind": "text",
+   "x": 381.0,
+   "y": 99.0,
+   "w": 51.0,
+   "h": 24.0,
+   "text": {
+    "size": 20,
+    "color": "#FF3B30",
+    "align": "center",
+    "weight": "bold",
+    "value": {
+     "ratio": [
+      48000,
+      {
+       "meter": "led_40000000"
+      }
+     ]
+    },
+    "note": {
+     "param": 2,
+     "scale": 4,
+     "offset": 438
+    }
+   },
+   "visibleWhen": {
+    "product": [
+     {
+      "param": 0
+     },
+     {
+      "apply": [
+       {
+        "sum": [
+         {
+          "product": [
+           {
+            "meter": "q_tuner_level"
+           },
+           1000000.0
+          ]
+         },
+         {
+          "product": [
+           0.0625,
+           -1000000.0
+          ]
+         }
+        ]
+       }
+      ],
+      "law": {
+       "type": "steps",
+       "values": [
+        0,
+        1
+       ]
+      }
+     },
+     {
+      "apply": [
+       {
+        "sum": [
+         {
+          "product": [
+           {
+            "meter": "led_40000000"
+           },
+           1000000.0
+          ]
+         },
+         {
+          "product": [
+           2,
+           -1000000.0
+          ]
+         }
+        ]
+       }
+      ],
+      "law": {
+       "type": "steps",
+       "values": [
+        0,
+        1
+       ]
+      }
+     }
+    ]
+   }
   }
  ],
  "meterSources": {
