@@ -3713,20 +3713,6 @@
     },
     "polylines": [
      {
-      "stroke": "#E4E4E6",
-      "width": 1.5,
-      "points": [
-       {
-        "x": 28.5,
-        "y": 526.25
-       },
-       {
-        "x": 321.5,
-        "y": 526.25
-       }
-      ]
-     },
-     {
       "stroke": "#A3A4A7",
       "width": 1.8,
       "points": [
@@ -4752,6 +4738,310 @@
    }
   },
   {
+   "id": "eqd-eq-l",
+   "kind": "graph",
+   "x": 28.0,
+   "y": 518.0,
+   "w": 293.5,
+   "h": 99.0,
+   "graph": {
+    "type": "eq",
+    "x": {
+     "min": 20,
+     "max": 20000,
+     "log": true,
+     "from": 0.6169271130103269,
+     "to": 268.3669271130103
+    },
+    "y": {
+     "min": -18,
+     "max": 0,
+     "from": 97.53,
+     "to": 8.25
+    },
+    "bands": [
+     {
+      "id": "hp1",
+      "filter": "highPass",
+      "freq": {
+       "param": 24,
+       "law": {
+        "type": "log",
+        "min": 20,
+        "max": 22000
+       }
+      },
+      "order": {
+       "param": 23,
+       "law": {
+        "type": "steps",
+        "values": [
+         0,
+         1,
+         2
+        ]
+       }
+      },
+      "enable": {
+       "param": 13
+      }
+     },
+     {
+      "id": "lp1",
+      "filter": "lowPass",
+      "freq": {
+       "param": 26,
+       "law": {
+        "type": "log",
+        "min": 20,
+        "max": 30000
+       }
+      },
+      "order": {
+       "param": 25,
+       "law": {
+        "type": "steps",
+        "values": [
+         0,
+         1,
+         2
+        ]
+       }
+      },
+      "enable": {
+       "param": 13
+      }
+     },
+     {
+      "id": "lf1",
+      "filterParam": {
+       "param": 31,
+       "values": [
+        "bell",
+        "lowShelf"
+       ]
+      },
+      "freq": {
+       "param": 34,
+       "law": {
+        "type": "log",
+        "min": 20,
+        "max": 2000
+       }
+      },
+      "gain": {
+       "param": 32,
+       "law": {
+        "type": "linear",
+        "min": -12,
+        "max": 12
+       }
+      },
+      "q": {
+       "param": 33,
+       "law": {
+        "type": "log",
+        "min": 0.3,
+        "max": 15
+       }
+      },
+      "enable": {
+       "product": [
+        {
+         "param": 35
+        },
+        {
+         "param": 13
+        }
+       ]
+      }
+     },
+     {
+      "id": "lmf1",
+      "filterParam": {
+       "param": 36,
+       "values": [
+        "bell",
+        "notch"
+       ]
+      },
+      "freq": {
+       "param": 39,
+       "law": {
+        "type": "log",
+        "min": 20,
+        "max": 2000
+       }
+      },
+      "gain": {
+       "param": 37,
+       "law": {
+        "type": "linear",
+        "min": -12,
+        "max": 12
+       }
+      },
+      "q": {
+       "param": 38,
+       "law": {
+        "type": "log",
+        "min": 0.3,
+        "max": 15
+       }
+      },
+      "enable": {
+       "product": [
+        {
+         "param": 40
+        },
+        {
+         "param": 13
+        }
+       ]
+      }
+     },
+     {
+      "id": "mf1",
+      "filterParam": {
+       "param": 41,
+       "values": [
+        "bell",
+        "notch"
+       ]
+      },
+      "freq": {
+       "param": 44,
+       "law": {
+        "type": "log",
+        "min": 20,
+        "max": 22000
+       }
+      },
+      "gain": {
+       "param": 42,
+       "law": {
+        "type": "linear",
+        "min": -12,
+        "max": 12
+       }
+      },
+      "q": {
+       "param": 43,
+       "law": {
+        "type": "log",
+        "min": 0.3,
+        "max": 15
+       }
+      },
+      "enable": {
+       "product": [
+        {
+         "param": 45
+        },
+        {
+         "param": 13
+        }
+       ]
+      }
+     },
+     {
+      "id": "hmf1",
+      "filterParam": {
+       "param": 46,
+       "values": [
+        "bell",
+        "notch"
+       ]
+      },
+      "freq": {
+       "param": 49,
+       "law": {
+        "type": "log",
+        "min": 400,
+        "max": 22000
+       }
+      },
+      "gain": {
+       "param": 47,
+       "law": {
+        "type": "linear",
+        "min": -12,
+        "max": 12
+       }
+      },
+      "q": {
+       "param": 48,
+       "law": {
+        "type": "log",
+        "min": 0.3,
+        "max": 15
+       }
+      },
+      "enable": {
+       "product": [
+        {
+         "param": 50
+        },
+        {
+         "param": 13
+        }
+       ]
+      }
+     },
+     {
+      "id": "hf1",
+      "filterParam": {
+       "param": 51,
+       "values": [
+        "bell",
+        "highShelf"
+       ]
+      },
+      "freq": {
+       "param": 54,
+       "law": {
+        "type": "log",
+        "min": 2000,
+        "max": 40000
+       }
+      },
+      "gain": {
+       "param": 52,
+       "law": {
+        "type": "linear",
+        "min": -12,
+        "max": 12
+       }
+      },
+      "q": {
+       "param": 53,
+       "law": {
+        "type": "log",
+        "min": 0.3,
+        "max": 15
+       }
+      },
+      "enable": {
+       "product": [
+        {
+         "param": 55
+        },
+        {
+         "param": 13
+        }
+       ]
+      }
+     }
+    ],
+    "curves": [
+     {
+      "stroke": "#E4E4E6",
+      "width": 1.5
+     }
+    ]
+   }
+  },
+  {
    "id": "eqd-l-20",
    "kind": "label",
    "x": 13.62,
@@ -5285,20 +5575,6 @@
      "to": 40
     },
     "polylines": [
-     {
-      "stroke": "#E4E4E6",
-      "width": 1.5,
-      "points": [
-       {
-        "x": 365.5,
-        "y": 526.25
-       },
-       {
-        "x": 658.5,
-        "y": 526.25
-       }
-      ]
-     },
      {
       "stroke": "#A3A4A7",
       "width": 1.8,
@@ -6320,6 +6596,310 @@
         "y": 544.1
        }
       ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "eqd-eq-r",
+   "kind": "graph",
+   "x": 365.0,
+   "y": 518.0,
+   "w": 293.5,
+   "h": 99.0,
+   "graph": {
+    "type": "eq",
+    "x": {
+     "min": 20,
+     "max": 20000,
+     "log": true,
+     "from": 0.6169271130103269,
+     "to": 268.3669271130103
+    },
+    "y": {
+     "min": -18,
+     "max": 0,
+     "from": 97.53,
+     "to": 8.25
+    },
+    "bands": [
+     {
+      "id": "hp2",
+      "filter": "highPass",
+      "freq": {
+       "param": 28,
+       "law": {
+        "type": "log",
+        "min": 20,
+        "max": 22000
+       }
+      },
+      "order": {
+       "param": 27,
+       "law": {
+        "type": "steps",
+        "values": [
+         0,
+         1,
+         2
+        ]
+       }
+      },
+      "enable": {
+       "param": 13
+      }
+     },
+     {
+      "id": "lp2",
+      "filter": "lowPass",
+      "freq": {
+       "param": 30,
+       "law": {
+        "type": "log",
+        "min": 20,
+        "max": 30000
+       }
+      },
+      "order": {
+       "param": 29,
+       "law": {
+        "type": "steps",
+        "values": [
+         0,
+         1,
+         2
+        ]
+       }
+      },
+      "enable": {
+       "param": 13
+      }
+     },
+     {
+      "id": "lf2",
+      "filterParam": {
+       "param": 56,
+       "values": [
+        "bell",
+        "lowShelf"
+       ]
+      },
+      "freq": {
+       "param": 59,
+       "law": {
+        "type": "log",
+        "min": 20,
+        "max": 2000
+       }
+      },
+      "gain": {
+       "param": 57,
+       "law": {
+        "type": "linear",
+        "min": -12,
+        "max": 12
+       }
+      },
+      "q": {
+       "param": 58,
+       "law": {
+        "type": "log",
+        "min": 0.3,
+        "max": 15
+       }
+      },
+      "enable": {
+       "product": [
+        {
+         "param": 60
+        },
+        {
+         "param": 13
+        }
+       ]
+      }
+     },
+     {
+      "id": "lmf2",
+      "filterParam": {
+       "param": 61,
+       "values": [
+        "bell",
+        "notch"
+       ]
+      },
+      "freq": {
+       "param": 64,
+       "law": {
+        "type": "log",
+        "min": 20,
+        "max": 2000
+       }
+      },
+      "gain": {
+       "param": 62,
+       "law": {
+        "type": "linear",
+        "min": -12,
+        "max": 12
+       }
+      },
+      "q": {
+       "param": 63,
+       "law": {
+        "type": "log",
+        "min": 0.3,
+        "max": 15
+       }
+      },
+      "enable": {
+       "product": [
+        {
+         "param": 65
+        },
+        {
+         "param": 13
+        }
+       ]
+      }
+     },
+     {
+      "id": "mf2",
+      "filterParam": {
+       "param": 66,
+       "values": [
+        "bell",
+        "notch"
+       ]
+      },
+      "freq": {
+       "param": 69,
+       "law": {
+        "type": "log",
+        "min": 20,
+        "max": 22000
+       }
+      },
+      "gain": {
+       "param": 67,
+       "law": {
+        "type": "linear",
+        "min": -12,
+        "max": 12
+       }
+      },
+      "q": {
+       "param": 68,
+       "law": {
+        "type": "log",
+        "min": 0.3,
+        "max": 15
+       }
+      },
+      "enable": {
+       "product": [
+        {
+         "param": 70
+        },
+        {
+         "param": 13
+        }
+       ]
+      }
+     },
+     {
+      "id": "hmf2",
+      "filterParam": {
+       "param": 71,
+       "values": [
+        "bell",
+        "notch"
+       ]
+      },
+      "freq": {
+       "param": 74,
+       "law": {
+        "type": "log",
+        "min": 400,
+        "max": 22000
+       }
+      },
+      "gain": {
+       "param": 72,
+       "law": {
+        "type": "linear",
+        "min": -12,
+        "max": 12
+       }
+      },
+      "q": {
+       "param": 73,
+       "law": {
+        "type": "log",
+        "min": 0.3,
+        "max": 15
+       }
+      },
+      "enable": {
+       "product": [
+        {
+         "param": 75
+        },
+        {
+         "param": 13
+        }
+       ]
+      }
+     },
+     {
+      "id": "hf2",
+      "filterParam": {
+       "param": 76,
+       "values": [
+        "bell",
+        "highShelf"
+       ]
+      },
+      "freq": {
+       "param": 79,
+       "law": {
+        "type": "log",
+        "min": 2000,
+        "max": 40000
+       }
+      },
+      "gain": {
+       "param": 77,
+       "law": {
+        "type": "linear",
+        "min": -12,
+        "max": 12
+       }
+      },
+      "q": {
+       "param": 78,
+       "law": {
+        "type": "log",
+        "min": 0.3,
+        "max": 15
+       }
+      },
+      "enable": {
+       "product": [
+        {
+         "param": 80
+        },
+        {
+         "param": 13
+        }
+       ]
+      }
+     }
+    ],
+    "curves": [
+     {
+      "stroke": "#E4E4E6",
+      "width": 1.5
      }
     ]
    }
