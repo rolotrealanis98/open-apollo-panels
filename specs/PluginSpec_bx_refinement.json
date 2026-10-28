@@ -357,6 +357,42 @@
    }
   },
   {
+   "id": "settings-paste",
+   "kind": "image",
+   "sprite": "bx_refinement__SETTINGSPANELPASTE",
+   "x": 304,
+   "y": 11.0,
+   "w": 53.0,
+   "h": 17.0
+  },
+  {
+   "id": "settings-copy",
+   "kind": "image",
+   "sprite": "bx_refinement__SETTINGSPANELCOPY",
+   "x": 255,
+   "y": 11.0,
+   "w": 49.0,
+   "h": 17.0
+  },
+  {
+   "id": "settings-redo",
+   "kind": "image",
+   "sprite": "bx_refinement__SETTINGSPANELREDO",
+   "x": 119,
+   "y": 11.0,
+   "w": 41.0,
+   "h": 17.0
+  },
+  {
+   "id": "settings-undo",
+   "kind": "image",
+   "sprite": "bx_refinement__SETTINGSPANELUNDO",
+   "x": 79,
+   "y": 11.0,
+   "w": 40.0,
+   "h": 17.0
+  },
+  {
    "id": "img-cviewcontainer",
    "kind": "image",
    "sprite": "bx_refinement__SETTINGSPANELABOUT",
