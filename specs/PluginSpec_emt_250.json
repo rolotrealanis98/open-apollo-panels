@@ -681,7 +681,7 @@
    "id": "wetsolo-button",
    "x": 683,
    "y": 302,
-   "w": 43,
+   "w": 40,
    "h": 43,
    "kind": "switch",
    "param": 12,
