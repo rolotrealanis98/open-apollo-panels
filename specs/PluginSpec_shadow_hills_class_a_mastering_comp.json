@@ -11029,7 +11029,7 @@
    "frames": 2,
    "sprite": "J_shadow_hills_class_a_mastering_comp_ms_switch",
    "x": 389.0,
-   "y": 531.0,
+   "y": 532.0,
    "w": 42.0,
    "h": 42.0,
    "visibility": {
@@ -11089,7 +11089,7 @@
    "kind": "button",
    "frames": 2,
    "x": 272.0,
-   "y": 531.0,
+   "y": 532.0,
    "w": 42.0,
    "h": 42.0,
    "action": {

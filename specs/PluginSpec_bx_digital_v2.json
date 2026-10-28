@@ -3188,7 +3188,7 @@
    "frames": 2,
    "param": 83,
    "orientation": "vertical",
-   "x": 131.0,
+   "x": 131.5,
    "y": 62.0,
    "w": 10.0,
    "h": 10.0
@@ -3200,7 +3200,7 @@
    "frames": 2,
    "param": 93,
    "orientation": "vertical",
-   "x": 733.0,
+   "x": 733.5,
    "y": 62.0,
    "w": 10.0,
    "h": 10.0
@@ -3212,7 +3212,7 @@
    "frames": 2,
    "param": 84,
    "orientation": "vertical",
-   "x": 30.0,
+   "x": 30.5,
    "y": 266.0,
    "w": 10.0,
    "h": 10.0
@@ -3224,7 +3224,7 @@
    "frames": 2,
    "param": 94,
    "orientation": "vertical",
-   "x": 688.0,
+   "x": 688.5,
    "y": 266.0,
    "w": 10.0,
    "h": 10.0
@@ -3236,7 +3236,7 @@
    "frames": 2,
    "param": 85,
    "orientation": "vertical",
-   "x": 104.0,
+   "x": 104.5,
    "y": 266.0,
    "w": 10.0,
    "h": 10.0
@@ -3248,7 +3248,7 @@
    "frames": 2,
    "param": 95,
    "orientation": "vertical",
-   "x": 762.0,
+   "x": 762.5,
    "y": 266.0,
    "w": 10.0,
    "h": 10.0
@@ -3260,7 +3260,7 @@
    "frames": 2,
    "param": 86,
    "orientation": "vertical",
-   "x": 178.0,
+   "x": 178.5,
    "y": 266.0,
    "w": 10.0,
    "h": 10.0
@@ -3272,7 +3272,7 @@
    "frames": 2,
    "param": 96,
    "orientation": "vertical",
-   "x": 836.0,
+   "x": 836.5,
    "y": 266.0,
    "w": 10.0,
    "h": 10.0
@@ -3284,7 +3284,7 @@
    "frames": 2,
    "param": 87,
    "orientation": "vertical",
-   "x": 253.0,
+   "x": 253.5,
    "y": 266.0,
    "w": 10.0,
    "h": 10.0
@@ -3296,7 +3296,7 @@
    "frames": 2,
    "param": 97,
    "orientation": "vertical",
-   "x": 911.0,
+   "x": 911.5,
    "y": 266.0,
    "w": 10.0,
    "h": 10.0
@@ -3308,7 +3308,7 @@
    "frames": 2,
    "param": 88,
    "orientation": "vertical",
-   "x": 327.0,
+   "x": 327.5,
    "y": 266.0,
    "w": 10.0,
    "h": 10.0
@@ -3320,7 +3320,7 @@
    "frames": 2,
    "param": 98,
    "orientation": "vertical",
-   "x": 985.0,
+   "x": 985.5,
    "y": 266.0,
    "w": 10.0,
    "h": 10.0
@@ -3332,7 +3332,7 @@
    "frames": 2,
    "param": 89,
    "orientation": "vertical",
-   "x": 284.0,
+   "x": 284.5,
    "y": 62.0,
    "w": 10.0,
    "h": 10.0
@@ -3344,7 +3344,7 @@
    "frames": 2,
    "param": 99,
    "orientation": "vertical",
-   "x": 885.0,
+   "x": 885.5,
    "y": 62.0,
    "w": 10.0,
    "h": 10.0
@@ -3356,7 +3356,7 @@
    "frames": 2,
    "param": 90,
    "orientation": "vertical",
-   "x": 55.0,
+   "x": 55.5,
    "y": 390.0,
    "w": 10.0,
    "h": 10.0
@@ -3368,7 +3368,7 @@
    "frames": 2,
    "param": 100,
    "orientation": "vertical",
-   "x": 844.0,
+   "x": 844.5,
    "y": 390.0,
    "w": 10.0,
    "h": 10.0
@@ -3380,7 +3380,7 @@
    "frames": 2,
    "param": 91,
    "orientation": "vertical",
-   "x": 170.0,
+   "x": 170.5,
    "y": 390.0,
    "w": 10.0,
    "h": 10.0
@@ -3392,7 +3392,7 @@
    "frames": 2,
    "param": 101,
    "orientation": "vertical",
-   "x": 958.0,
+   "x": 958.5,
    "y": 390.0,
    "w": 10.0,
    "h": 10.0
@@ -3404,7 +3404,7 @@
    "frames": 2,
    "param": 92,
    "orientation": "vertical",
-   "x": 360.0,
+   "x": 360.5,
    "y": 390.0,
    "w": 10.0,
    "h": 10.0
@@ -3416,7 +3416,7 @@
    "frames": 2,
    "param": 102,
    "orientation": "vertical",
-   "x": 653.0,
+   "x": 653.5,
    "y": 390.0,
    "w": 10.0,
    "h": 10.0

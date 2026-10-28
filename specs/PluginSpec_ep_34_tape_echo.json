@@ -129,8 +129,8 @@
   },
   {
    "id": "switch-3-delay",
-   "x": 302,
-   "y": 212,
+   "x": 301.0,
+   "y": 212.0,
    "w": 221,
    "h": 47,
    "sprite": "P_ep_34_tape_echo_delay_pointer",
