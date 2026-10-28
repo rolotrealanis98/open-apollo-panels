@@ -1311,7 +1311,7 @@
          ],
          "properties": {
           "x": {
-           "type": "number"
+           "$ref": "#/$defs/graphValue"
           },
           "y": {
            "$ref": "#/$defs/graphValue"
@@ -1391,6 +1391,57 @@
         "y": {
          "type": "number"
         }
+       }
+      }
+     }
+    },
+    "impulses": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "from",
+       "to",
+       "top",
+       "floor",
+       "count"
+      ],
+      "properties": {
+       "from": {
+        "$ref": "#/$defs/graphValue"
+       },
+       "to": {
+        "$ref": "#/$defs/graphValue"
+       },
+       "top": {
+        "$ref": "#/$defs/graphValue"
+       },
+       "end": {
+        "$ref": "#/$defs/graphValue"
+       },
+       "floor": {
+        "type": "number"
+       },
+       "count": {
+        "type": "integer",
+        "minimum": 0
+       },
+       "seed": {
+        "type": "integer",
+        "minimum": 0
+       },
+       "minHeight": {
+        "type": "number"
+       },
+       "stroke": {
+        "$ref": "#/$defs/color"
+       },
+       "width": {
+        "type": "number"
+       },
+       "visible": {
+        "$ref": "#/$defs/graphValue"
        }
       }
      }
