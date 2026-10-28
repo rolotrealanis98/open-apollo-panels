@@ -181,7 +181,7 @@
      },
      {
       "type": "icon",
-      "x": 22.0,
+      "x": 58.0,
       "y": 0,
       "w": 24.0,
       "h": 24,
@@ -191,7 +191,7 @@
      },
      {
       "type": "icon",
-      "x": 38.5,
+      "x": 83.0,
       "y": 0,
       "w": 24.0,
       "h": 24,
@@ -201,9 +201,9 @@
      },
      {
       "type": "bank",
-      "x": 62.0,
+      "x": 119.75,
       "y": 0,
-      "w": 96.0,
+      "w": 74.0,
       "h": 24,
       "sprite": "chrome.bx.bank",
       "frames": 2,
@@ -213,33 +213,30 @@
      },
      {
       "type": "icon",
-      "x": 160.0,
+      "x": 197.0,
       "y": 0,
-      "w": 40.0,
+      "w": 16.0,
       "h": 24,
-      "sprite": "chrome.bx.copy",
-      "frames": 2,
-      "glyph": "Copy"
+      "frames": 1,
+      "glyph": "copy-tile"
      },
      {
       "type": "icon",
-      "x": 196.0,
+      "x": 221.0,
       "y": 0,
-      "w": 40.0,
+      "w": 16.0,
       "h": 24,
-      "sprite": "chrome.bx.paste",
-      "frames": 2,
-      "glyph": "Paste"
+      "frames": 1,
+      "glyph": "save-tile"
      },
      {
       "type": "icon",
-      "x": 234.5,
+      "x": 245.0,
       "y": 0,
-      "w": 40.0,
+      "w": 16.0,
       "h": 24,
-      "sprite": "chrome.bx.reset",
-      "frames": 2,
-      "glyph": "Reset"
+      "frames": 1,
+      "glyph": "reset-tile"
      }
     ]
    }
