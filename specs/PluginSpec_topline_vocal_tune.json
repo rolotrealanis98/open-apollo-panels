@@ -2406,6 +2406,46 @@
    }
   },
   {
+   "id": "listening-glow",
+   "kind": "shape",
+   "x": 306,
+   "y": 138,
+   "w": 76,
+   "h": 76,
+   "shape": {
+    "type": "ellipse",
+    "fill": "#5FB39438"
+   }
+  },
+  {
+   "id": "listening-disc",
+   "kind": "shape",
+   "x": 321.5,
+   "y": 153.5,
+   "w": 45,
+   "h": 45,
+   "shape": {
+    "type": "ellipse",
+    "fill": {
+     "radial": [
+      22.5,
+      22.5,
+      22.5
+     ],
+     "stops": [
+      [
+       0,
+       "#4C7567"
+      ],
+      [
+       1,
+       "#40685D"
+      ]
+     ]
+    }
+   }
+  },
+  {
    "id": "target-note",
    "kind": "filmstrip",
    "x": 314,
