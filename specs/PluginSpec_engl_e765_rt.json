@@ -17290,37 +17290,6 @@
    }
   },
   {
-   "id": "g-p0_r8",
-   "kind": "switch",
-   "x": 911,
-   "y": 356,
-   "w": 29.0,
-   "h": 34.0,
-   "sprite": "G_engl_e765_rt_p0_r8",
-   "frames": 2,
-   "param": 0,
-   "visibility": {
-    "params": [],
-    "states": [
-     "rack"
-    ],
-    "table": [
-     {
-      "key": [
-       0
-      ],
-      "opacity": 1
-     },
-     {
-      "key": [
-       1
-      ],
-      "opacity": 0
-     }
-    ]
-   }
-  },
-  {
    "id": "j-tb-rack",
    "kind": "filmstrip",
    "frames": 2,
