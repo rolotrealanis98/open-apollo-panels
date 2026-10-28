@@ -1639,6 +1639,21 @@
     "weight": "regular",
     "monospaced": false
    }
+  },
+  {
+   "id": "j-output-label",
+   "kind": "label",
+   "x": 889.5,
+   "y": 455.0,
+   "w": 52.0,
+   "h": 18.62,
+   "text": {
+    "string": "Output",
+    "font": "Helvetica",
+    "size": 14.625,
+    "align": "left",
+    "color": "#E1E1E1"
+   }
   }
  ],
  "meterSources": {
