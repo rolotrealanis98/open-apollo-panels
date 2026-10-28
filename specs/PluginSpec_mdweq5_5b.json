@@ -2835,10 +2835,10 @@
    "h": 24,
    "param": 7,
    "text": {
-    "size": 11,
+    "size": 13,
     "color": "#FFFFFF",
-    "align": "left",
-    "weight": "semibold",
+    "align": "center",
+    "weight": "bold",
     "monospaced": false
    }
   },
@@ -3074,10 +3074,10 @@
    "h": 24,
    "param": 13,
    "text": {
-    "size": 11,
+    "size": 13,
     "color": "#FFFFFF",
-    "align": "left",
-    "weight": "semibold",
+    "align": "center",
+    "weight": "bold",
     "monospaced": false
    }
   },
@@ -3313,10 +3313,10 @@
    "h": 24,
    "param": 19,
    "text": {
-    "size": 11,
+    "size": 13,
     "color": "#FFFFFF",
-    "align": "left",
-    "weight": "semibold",
+    "align": "center",
+    "weight": "bold",
     "monospaced": false
    }
   },
@@ -3552,10 +3552,10 @@
    "h": 24,
    "param": 25,
    "text": {
-    "size": 11,
+    "size": 13,
     "color": "#FFFFFF",
-    "align": "left",
-    "weight": "semibold",
+    "align": "center",
+    "weight": "bold",
     "monospaced": false
    }
   },
@@ -3839,10 +3839,10 @@
    "h": 24,
    "param": 31,
    "text": {
-    "size": 11,
+    "size": 13,
     "color": "#FFFFFF",
-    "align": "left",
-    "weight": "semibold",
+    "align": "center",
+    "weight": "bold",
     "monospaced": false
    }
   },
