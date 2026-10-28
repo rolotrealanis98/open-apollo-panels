@@ -795,20 +795,6 @@
     },
     "polylines": [
      {
-      "stroke": "#E4E4E6",
-      "width": 1.5,
-      "points": [
-       {
-        "x": 28.5,
-        "y": 526.25
-       },
-       {
-        "x": 321.5,
-        "y": 526.25
-       }
-      ]
-     },
-     {
       "stroke": "#A3A4A7",
       "width": 1.8,
       "points": [
@@ -1829,6 +1815,310 @@
         "y": 544.1
        }
       ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "eqd-eq-l",
+   "kind": "graph",
+   "x": 28.0,
+   "y": 518.0,
+   "w": 293.5,
+   "h": 99.0,
+   "graph": {
+    "type": "eq",
+    "x": {
+     "min": 20,
+     "max": 20000,
+     "log": true,
+     "from": 0.6169271130103269,
+     "to": 268.3669271130103
+    },
+    "y": {
+     "min": -18,
+     "max": 0,
+     "from": 97.53,
+     "to": 8.25
+    },
+    "bands": [
+     {
+      "id": "hp1",
+      "filter": "highPass",
+      "freq": {
+       "param": 12,
+       "law": {
+        "type": "log",
+        "min": 20,
+        "max": 22000
+       }
+      },
+      "order": {
+       "param": 11,
+       "law": {
+        "type": "steps",
+        "values": [
+         0,
+         1,
+         2
+        ]
+       }
+      },
+      "enable": {
+       "param": 7
+      }
+     },
+     {
+      "id": "lp1",
+      "filter": "lowPass",
+      "freq": {
+       "param": 14,
+       "law": {
+        "type": "log",
+        "min": 20,
+        "max": 30000
+       }
+      },
+      "order": {
+       "param": 13,
+       "law": {
+        "type": "steps",
+        "values": [
+         0,
+         1,
+         2
+        ]
+       }
+      },
+      "enable": {
+       "param": 7
+      }
+     },
+     {
+      "id": "lf1",
+      "filterParam": {
+       "param": 15,
+       "values": [
+        "bell",
+        "lowShelf"
+       ]
+      },
+      "freq": {
+       "param": 18,
+       "law": {
+        "type": "log",
+        "min": 20,
+        "max": 2000
+       }
+      },
+      "gain": {
+       "param": 16,
+       "law": {
+        "type": "linear",
+        "min": -12,
+        "max": 12
+       }
+      },
+      "q": {
+       "param": 17,
+       "law": {
+        "type": "log",
+        "min": 0.3,
+        "max": 15
+       }
+      },
+      "enable": {
+       "product": [
+        {
+         "param": 19
+        },
+        {
+         "param": 7
+        }
+       ]
+      }
+     },
+     {
+      "id": "lmf1",
+      "filterParam": {
+       "param": 20,
+       "values": [
+        "bell",
+        "notch"
+       ]
+      },
+      "freq": {
+       "param": 23,
+       "law": {
+        "type": "log",
+        "min": 20,
+        "max": 2000
+       }
+      },
+      "gain": {
+       "param": 21,
+       "law": {
+        "type": "linear",
+        "min": -12,
+        "max": 12
+       }
+      },
+      "q": {
+       "param": 22,
+       "law": {
+        "type": "log",
+        "min": 0.3,
+        "max": 15
+       }
+      },
+      "enable": {
+       "product": [
+        {
+         "param": 24
+        },
+        {
+         "param": 7
+        }
+       ]
+      }
+     },
+     {
+      "id": "mf1",
+      "filterParam": {
+       "param": 25,
+       "values": [
+        "bell",
+        "notch"
+       ]
+      },
+      "freq": {
+       "param": 28,
+       "law": {
+        "type": "log",
+        "min": 20,
+        "max": 22000
+       }
+      },
+      "gain": {
+       "param": 26,
+       "law": {
+        "type": "linear",
+        "min": -12,
+        "max": 12
+       }
+      },
+      "q": {
+       "param": 27,
+       "law": {
+        "type": "log",
+        "min": 0.3,
+        "max": 15
+       }
+      },
+      "enable": {
+       "product": [
+        {
+         "param": 29
+        },
+        {
+         "param": 7
+        }
+       ]
+      }
+     },
+     {
+      "id": "hmf1",
+      "filterParam": {
+       "param": 30,
+       "values": [
+        "bell",
+        "notch"
+       ]
+      },
+      "freq": {
+       "param": 33,
+       "law": {
+        "type": "log",
+        "min": 400,
+        "max": 22000
+       }
+      },
+      "gain": {
+       "param": 31,
+       "law": {
+        "type": "linear",
+        "min": -12,
+        "max": 12
+       }
+      },
+      "q": {
+       "param": 32,
+       "law": {
+        "type": "log",
+        "min": 0.3,
+        "max": 15
+       }
+      },
+      "enable": {
+       "product": [
+        {
+         "param": 34
+        },
+        {
+         "param": 7
+        }
+       ]
+      }
+     },
+     {
+      "id": "hf1",
+      "filterParam": {
+       "param": 35,
+       "values": [
+        "bell",
+        "highShelf"
+       ]
+      },
+      "freq": {
+       "param": 38,
+       "law": {
+        "type": "log",
+        "min": 2000,
+        "max": 40000
+       }
+      },
+      "gain": {
+       "param": 36,
+       "law": {
+        "type": "linear",
+        "min": -12,
+        "max": 12
+       }
+      },
+      "q": {
+       "param": 37,
+       "law": {
+        "type": "log",
+        "min": 0.3,
+        "max": 15
+       }
+      },
+      "enable": {
+       "product": [
+        {
+         "param": 39
+        },
+        {
+         "param": 7
+        }
+       ]
+      }
+     }
+    ],
+    "curves": [
+     {
+      "stroke": "#E4E4E6",
+      "width": 1.5
      }
     ]
    }
