@@ -150,13 +150,369 @@
   {
    "id": "v-band",
    "kind": "shape",
-   "x": 190,
+   "x": 210,
    "y": 0,
-   "w": 215,
+   "w": 195,
    "h": 299.5,
    "shape": {
     "type": "rect",
     "fill": "#09070C"
+   }
+  },
+  {
+   "id": "v-hum-glow0",
+   "kind": "shape",
+   "x": 196.0,
+   "y": 0.0,
+   "w": 1.0,
+   "h": 299.5,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      0.5,
+      0
+     ],
+     [
+      0.5,
+      299.5
+     ]
+    ],
+    "stroke": "#0D0C11",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-hum-glow1",
+   "kind": "shape",
+   "x": 197.0,
+   "y": 0.0,
+   "w": 1.0,
+   "h": 299.5,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      0.5,
+      0
+     ],
+     [
+      0.5,
+      299.5
+     ]
+    ],
+    "stroke": "#111016",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-hum-glow2",
+   "kind": "shape",
+   "x": 198.0,
+   "y": 0.0,
+   "w": 1.0,
+   "h": 299.5,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      0.5,
+      0
+     ],
+     [
+      0.5,
+      299.5
+     ]
+    ],
+    "stroke": "#16141B",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-hum-glow3",
+   "kind": "shape",
+   "x": 199.0,
+   "y": 0.0,
+   "w": 1.0,
+   "h": 299.5,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      0.5,
+      0
+     ],
+     [
+      0.5,
+      299.5
+     ]
+    ],
+    "stroke": "#1A1820",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-hum-glow4",
+   "kind": "shape",
+   "x": 200.0,
+   "y": 0.0,
+   "w": 1.0,
+   "h": 299.5,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      0.5,
+      0
+     ],
+     [
+      0.5,
+      299.5
+     ]
+    ],
+    "stroke": "#1E1C25",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-hum-glow5",
+   "kind": "shape",
+   "x": 201.0,
+   "y": 0.0,
+   "w": 1.0,
+   "h": 299.5,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      0.5,
+      0
+     ],
+     [
+      0.5,
+      299.5
+     ]
+    ],
+    "stroke": "#22202A",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-hum-glow6",
+   "kind": "shape",
+   "x": 202.0,
+   "y": 0.0,
+   "w": 1.0,
+   "h": 299.5,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      0.5,
+      0
+     ],
+     [
+      0.5,
+      299.5
+     ]
+    ],
+    "stroke": "#26242E",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-hum-glow7",
+   "kind": "shape",
+   "x": 203.0,
+   "y": 0.0,
+   "w": 1.0,
+   "h": 299.5,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      0.5,
+      0
+     ],
+     [
+      0.5,
+      299.5
+     ]
+    ],
+    "stroke": "#2B2733",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-hum-glow8",
+   "kind": "shape",
+   "x": 204.0,
+   "y": 0.0,
+   "w": 1.0,
+   "h": 299.5,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      0.5,
+      0
+     ],
+     [
+      0.5,
+      299.5
+     ]
+    ],
+    "stroke": "#2F2B38",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-hum-glow9",
+   "kind": "shape",
+   "x": 205.0,
+   "y": 0.0,
+   "w": 1.0,
+   "h": 299.5,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      0.5,
+      0
+     ],
+     [
+      0.5,
+      299.5
+     ]
+    ],
+    "stroke": "#332F3D",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-hum-glow10",
+   "kind": "shape",
+   "x": 206.0,
+   "y": 0.0,
+   "w": 1.0,
+   "h": 299.5,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      0.5,
+      0
+     ],
+     [
+      0.5,
+      299.5
+     ]
+    ],
+    "stroke": "#383342",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-hum-glow11",
+   "kind": "shape",
+   "x": 207.0,
+   "y": 0.0,
+   "w": 1.0,
+   "h": 299.5,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      0.5,
+      0
+     ],
+     [
+      0.5,
+      299.5
+     ]
+    ],
+    "stroke": "#3C3747",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-hum-glow12",
+   "kind": "shape",
+   "x": 208.0,
+   "y": 0.0,
+   "w": 1.0,
+   "h": 299.5,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      0.5,
+      0
+     ],
+     [
+      0.5,
+      299.5
+     ]
+    ],
+    "stroke": "#403B4C",
+    "width": 1.0
+   }
+  },
+  {
+   "id": "v-hum-line",
+   "kind": "shape",
+   "x": 208.5,
+   "y": 0.0,
+   "w": 2.0,
+   "h": 299.5,
+   "shape": {
+    "type": "line",
+    "points": [
+     [
+      1.0,
+      0
+     ],
+     [
+      1.0,
+      299.5
+     ]
+    ],
+    "stroke": "#8A8494",
+    "width": 1.0,
+    "dash": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "id": "v-hum-label-top",
+   "kind": "label",
+   "x": 179.75,
+   "y": 11.5,
+   "w": 60.0,
+   "h": 14.0,
+   "text": {
+    "string": "50.00 Hz",
+    "font": "Helvetica",
+    "size": 11,
+    "align": "center",
+    "color": "#E6E6E6"
+   }
+  },
+  {
+   "id": "v-hum-label-bottom",
+   "kind": "label",
+   "x": 179.75,
+   "y": 277.0,
+   "w": 60.0,
+   "h": 14.0,
+   "text": {
+    "string": "50.00 Hz",
+    "font": "Helvetica",
+    "size": 11,
+    "align": "center",
+    "color": "#E6E6E6"
    }
   },
   {
@@ -389,9 +745,9 @@
   {
    "id": "v-flat",
    "kind": "shape",
-   "x": 188.0,
+   "x": 210.0,
    "y": 148.5,
-   "w": 349.5,
+   "w": 327.5,
    "h": 3.0,
    "shape": {
     "type": "line",
@@ -401,7 +757,7 @@
       1.5
      ],
      [
-      349.5,
+      327.5,
       1.5
      ]
     ],
@@ -613,7 +969,11 @@
      ]
     ],
     "stroke": "#38363A",
-    "width": 1.0
+    "width": 1.0,
+    "dash": [
+     1.0,
+     1.0
+    ]
    },
    "visibility": {
     "params": [
@@ -655,7 +1015,11 @@
      ]
     ],
     "stroke": "#39373B",
-    "width": 1.0
+    "width": 1.0,
+    "dash": [
+     1.0,
+     1.0
+    ]
    },
    "visibility": {
     "params": [
@@ -697,7 +1061,11 @@
      ]
     ],
     "stroke": "#38363A",
-    "width": 1.0
+    "width": 1.0,
+    "dash": [
+     1.0,
+     1.0
+    ]
    },
    "visibility": {
     "params": [
@@ -1153,7 +1521,11 @@
      ]
     ],
     "stroke": "#3F3E42",
-    "width": 1.0
+    "width": 1.0,
+    "dash": [
+     1.0,
+     1.0
+    ]
    },
    "visibility": {
     "params": [
@@ -1195,7 +1567,11 @@
      ]
     ],
     "stroke": "#313033",
-    "width": 1.0
+    "width": 1.0,
+    "dash": [
+     1.0,
+     1.0
+    ]
    },
    "visibility": {
     "params": [
