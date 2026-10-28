@@ -2183,6 +2183,20 @@
    }
   },
   {
+   "id": "I-micpic-near",
+   "kind": "filmstrip",
+   "x": 330.0,
+   "y": 23.0,
+   "w": 42.0,
+   "h": 42.0,
+   "sprite": "P_ocean_way_studios_mic_near",
+   "frames": 6,
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   }
+  },
+  {
    "id": "I-micpick-3",
    "kind": "menu",
    "x": 330,
@@ -2192,6 +2206,20 @@
    "param": 3
   },
   {
+   "id": "I-micpic-mid",
+   "kind": "filmstrip",
+   "x": 380.0,
+   "y": 23.0,
+   "w": 42.0,
+   "h": 42.0,
+   "sprite": "P_ocean_way_studios_mic_mid",
+   "frames": 5,
+   "frameSource": {
+    "type": "param",
+    "param": 12
+   }
+  },
+  {
    "id": "I-micpick-12",
    "kind": "menu",
    "x": 380,
@@ -2199,6 +2227,20 @@
    "w": 42,
    "h": 42,
    "param": 12
+  },
+  {
+   "id": "I-micpic-far",
+   "kind": "filmstrip",
+   "x": 430.0,
+   "y": 23.0,
+   "w": 42.0,
+   "h": 42.0,
+   "sprite": "P_ocean_way_studios_mic_far",
+   "frames": 8,
+   "frameSource": {
+    "type": "param",
+    "param": 21
+   }
   },
   {
    "id": "I-micpick-21",
