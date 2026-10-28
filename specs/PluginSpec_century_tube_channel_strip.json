@@ -377,9 +377,9 @@
   },
   {
    "id": "eq-bypass-switch",
-   "x": 227,
+   "x": 234,
    "y": 438,
-   "w": 118,
+   "w": 104,
    "h": 30,
    "kind": "switch",
    "param": 10,
