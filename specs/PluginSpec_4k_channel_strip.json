@@ -436,7 +436,26 @@
    "sprite": "4k_channel_strip_6406_11",
    "frames": 2,
    "param": 4,
-   "orientation": "vertical"
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     4
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
   },
   {
    "id": "knob-16-cmp_ratio",
@@ -588,7 +607,32 @@
    "sprite": "4k_channel_strip_6412_17",
    "frames": 3,
    "param": 10,
-   "orientation": "vertical"
+   "orientation": "vertical",
+   "visibility": {
+    "params": [
+     10
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       0.5
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
   },
   {
    "id": "knob-23-exp_thresh",
