@@ -91,7 +91,7 @@
    "index": 11,
    "name": "Width",
    "steps": null,
-   "default": 0.0
+   "default": 1.0
   },
   {
    "index": 12,

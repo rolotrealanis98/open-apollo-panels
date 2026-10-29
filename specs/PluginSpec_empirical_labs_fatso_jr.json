@@ -119,7 +119,7 @@
     "UnLinked",
     "Linked"
    ],
-   "default": 0.0
+   "default": 1.0
   },
   {
    "index": 11,
@@ -128,7 +128,7 @@
     "UnLinked",
     "Linked"
    ],
-   "default": 0.0
+   "default": 1.0
   },
   {
    "index": 12,
