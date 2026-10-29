@@ -335,8 +335,8 @@
    "x": 587,
    "y": 32,
    "w": 120,
-   "h": 78,
-   "sprite": "pultec_pro_legacy_2001_11",
+   "h": 124,
+   "sprite": "pultec_pro_legacy_2001",
    "frames": 5,
    "kind": "knob",
    "param": 14
