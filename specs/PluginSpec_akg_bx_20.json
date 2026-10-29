@@ -106,13 +106,13 @@
    "index": 13,
    "name": "Ch1 Pan",
    "steps": null,
-   "default": 0.5
+   "default": 0.0
   },
   {
    "index": 14,
    "name": "Ch2 Pan",
    "steps": null,
-   "default": 0.5
+   "default": 1.0
   },
   {
    "index": 15,

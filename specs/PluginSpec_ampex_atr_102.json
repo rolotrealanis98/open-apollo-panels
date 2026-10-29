@@ -41,7 +41,7 @@
     "INPUT",
     "THRU"
    ],
-   "default": 0.3333333432674408
+   "default": 0.0
   },
   {
    "index": 5,
@@ -84,7 +84,7 @@
     "1/2",
     "1"
    ],
-   "default": 0.5
+   "default": 0.0
   },
   {
    "index": 9,
