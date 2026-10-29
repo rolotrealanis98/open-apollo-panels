@@ -1373,6 +1373,20 @@
    "h": 411,
    "gesture": "drag",
    "param": 42
+  },
+  {
+   "id": "photo-line-btn",
+   "kind": "filmstrip",
+   "x": 15.0,
+   "y": 6.0,
+   "w": 55.0,
+   "h": 31.0,
+   "sprite": "P_neve_88rs_line-btn",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
   }
  ],
  "meterSources": {

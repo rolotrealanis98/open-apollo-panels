@@ -372,6 +372,34 @@
      }
     ]
    }
+  },
+  {
+   "id": "photo-ref-menu",
+   "kind": "filmstrip",
+   "x": 380.0,
+   "y": 132.0,
+   "w": 26.0,
+   "h": 18.0,
+   "sprite": "P_bx_tuner_ref-menu",
+   "frames": 5,
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   }
+  },
+  {
+   "id": "photo-ballistics-menu",
+   "kind": "filmstrip",
+   "x": 407.0,
+   "y": 132.0,
+   "w": 26.0,
+   "h": 18.0,
+   "sprite": "P_bx_tuner_ballistics-menu",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   }
   }
  ],
  "meterSources": {

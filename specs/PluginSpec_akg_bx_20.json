@@ -642,6 +642,20 @@
     "value": 1.0,
     "param": 1
    }
+  },
+  {
+   "id": "photo-power",
+   "kind": "filmstrip",
+   "x": 132.0,
+   "y": 422.0,
+   "w": 72.0,
+   "h": 72.0,
+   "sprite": "P_akg_bx_20_power",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 16
+   }
   }
  ],
  "meterSources": {}

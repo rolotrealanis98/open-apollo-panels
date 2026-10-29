@@ -3788,6 +3788,20 @@
     "state": "avalon_logo",
     "count": 2
    }
+  },
+  {
+   "id": "photo-phase",
+   "kind": "filmstrip",
+   "x": 262.0,
+   "y": 76.0,
+   "w": 42.0,
+   "h": 34.0,
+   "sprite": "P_avalon_vt_737sp_phase",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   }
   }
  ],
  "states": {

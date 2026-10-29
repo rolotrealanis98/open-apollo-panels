@@ -642,6 +642,20 @@
     "state": "lang",
     "count": 2
    }
+  },
+  {
+   "id": "photo-gain",
+   "kind": "filmstrip",
+   "x": 167.0,
+   "y": 95.0,
+   "w": 36.0,
+   "h": 36.0,
+   "sprite": "P_v76_preamp_gain",
+   "frames": 12,
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   }
   }
  ],
  "meterSources": {
