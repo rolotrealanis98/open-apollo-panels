@@ -6327,7 +6327,27 @@
    "kind": "switch",
    "param": 16,
    "sprite": "SSL_E_CS_switch_dyn_in",
-   "frames": 3
+   "frames": 3,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     16
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 1
+     }
+    ]
+   }
   },
   {
    "id": "exp_in-button",
