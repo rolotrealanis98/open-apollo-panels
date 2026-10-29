@@ -1874,6 +1874,20 @@
     "type": "param",
     "param": 4
    }
+  },
+  {
+   "id": "photo-a0r",
+   "kind": "filmstrip",
+   "x": 250.0,
+   "y": 92.0,
+   "w": 46.0,
+   "h": 136.0,
+   "sprite": "P_emt_140_a0r",
+   "frames": 101,
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   }
   }
  ]
 }

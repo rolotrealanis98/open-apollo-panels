@@ -1799,6 +1799,146 @@
     "state": "rack",
     "count": 2
    }
+  },
+  {
+   "id": "photo-a0r",
+   "kind": "filmstrip",
+   "x": 727.0,
+   "y": 111.0,
+   "w": 14.0,
+   "h": 66.0,
+   "sprite": "P_ampeg_svt3pro_a0r",
+   "frames": 65,
+   "frameSource": {
+    "type": "param",
+    "param": 26
+   }
+  },
+  {
+   "id": "photo-a1r",
+   "kind": "filmstrip",
+   "x": 773.0,
+   "y": 111.0,
+   "w": 14.0,
+   "h": 66.0,
+   "sprite": "P_ampeg_svt3pro_a1r",
+   "frames": 65,
+   "frameSource": {
+    "type": "param",
+    "param": 28
+   }
+  },
+  {
+   "id": "photo-a2r",
+   "kind": "filmstrip",
+   "x": 821.0,
+   "y": 111.0,
+   "w": 14.0,
+   "h": 66.0,
+   "sprite": "P_ampeg_svt3pro_a2r",
+   "frames": 65,
+   "frameSource": {
+    "type": "param",
+    "param": 30
+   }
+  },
+  {
+   "id": "photo-a3r",
+   "kind": "filmstrip",
+   "x": 681.0,
+   "y": 111.0,
+   "w": 14.0,
+   "h": 66.0,
+   "sprite": "P_ampeg_svt3pro_a3r",
+   "frames": 65,
+   "frameSource": {
+    "type": "param",
+    "param": 24
+   }
+  },
+  {
+   "id": "photo-a4r",
+   "kind": "filmstrip",
+   "x": 751.0,
+   "y": 111.0,
+   "w": 14.0,
+   "h": 66.0,
+   "sprite": "P_ampeg_svt3pro_a4r",
+   "frames": 65,
+   "frameSource": {
+    "type": "param",
+    "param": 27
+   }
+  },
+  {
+   "id": "photo-a5r",
+   "kind": "filmstrip",
+   "x": 798.0,
+   "y": 111.0,
+   "w": 14.0,
+   "h": 66.0,
+   "sprite": "P_ampeg_svt3pro_a5r",
+   "frames": 65,
+   "frameSource": {
+    "type": "param",
+    "param": 29
+   }
+  },
+  {
+   "id": "photo-a6r",
+   "kind": "filmstrip",
+   "x": 845.0,
+   "y": 111.0,
+   "w": 14.0,
+   "h": 66.0,
+   "sprite": "P_ampeg_svt3pro_a6r",
+   "frames": 65,
+   "frameSource": {
+    "type": "param",
+    "param": 31
+   }
+  },
+  {
+   "id": "photo-a7r",
+   "kind": "filmstrip",
+   "x": 635.0,
+   "y": 111.0,
+   "w": 14.0,
+   "h": 66.0,
+   "sprite": "P_ampeg_svt3pro_a7r",
+   "frames": 65,
+   "frameSource": {
+    "type": "param",
+    "param": 22
+   }
+  },
+  {
+   "id": "photo-a8r",
+   "kind": "filmstrip",
+   "x": 658.0,
+   "y": 111.0,
+   "w": 14.0,
+   "h": 66.0,
+   "sprite": "P_ampeg_svt3pro_a8r",
+   "frames": 65,
+   "frameSource": {
+    "type": "param",
+    "param": 23
+   }
+  },
+  {
+   "id": "photo-a9r",
+   "kind": "filmstrip",
+   "x": 704.0,
+   "y": 111.0,
+   "w": 14.0,
+   "h": 66.0,
+   "sprite": "P_ampeg_svt3pro_a9r",
+   "frames": 65,
+   "frameSource": {
+    "type": "param",
+    "param": 25
+   }
   }
  ],
  "meterSources": {

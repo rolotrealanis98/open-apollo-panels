@@ -2172,6 +2172,34 @@
     "type": "param",
     "param": 19
    }
+  },
+  {
+   "id": "photo-a1r",
+   "kind": "filmstrip",
+   "x": 138.0,
+   "y": 530.0,
+   "w": 43.0,
+   "h": 15.0,
+   "sprite": "P_cs_1_a1r",
+   "frames": 32,
+   "frameSource": {
+    "type": "param",
+    "param": 42
+   }
+  },
+  {
+   "id": "photo-a2r",
+   "kind": "filmstrip",
+   "x": 163.0,
+   "y": 365.0,
+   "w": 39.0,
+   "h": 15.0,
+   "sprite": "P_cs_1_a2r",
+   "frames": 10,
+   "frameSource": {
+    "type": "param",
+    "param": 29
+   }
   }
  ],
  "meterSources": {

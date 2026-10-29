@@ -2178,6 +2178,104 @@
    "w": 12.0,
    "h": 12.0,
    "sprite": "P_bx_saturator_v2_s27"
+  },
+  {
+   "id": "photo-a0r",
+   "kind": "filmstrip",
+   "x": 60.0,
+   "y": 248.0,
+   "w": 62.0,
+   "h": 16.0,
+   "sprite": "P_bx_saturator_v2_a0r",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 40
+   }
+  },
+  {
+   "id": "photo-a1r",
+   "kind": "filmstrip",
+   "x": 388.0,
+   "y": 248.0,
+   "w": 62.0,
+   "h": 16.0,
+   "sprite": "P_bx_saturator_v2_a1r",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 42
+   }
+  },
+  {
+   "id": "photo-a3r",
+   "kind": "filmstrip",
+   "x": 60.0,
+   "y": 412.0,
+   "w": 62.0,
+   "h": 16.0,
+   "sprite": "P_bx_saturator_v2_a3r",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 39
+   }
+  },
+  {
+   "id": "photo-a4r",
+   "kind": "filmstrip",
+   "x": 388.0,
+   "y": 412.0,
+   "w": 62.0,
+   "h": 16.0,
+   "sprite": "P_bx_saturator_v2_a4r",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 41
+   }
+  },
+  {
+   "id": "photo-a7r",
+   "kind": "filmstrip",
+   "x": 453.0,
+   "y": 248.0,
+   "w": 38.0,
+   "h": 16.0,
+   "sprite": "P_bx_saturator_v2_a7r",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 33
+   }
+  },
+  {
+   "id": "photo-a10r",
+   "kind": "filmstrip",
+   "x": 19.0,
+   "y": 412.0,
+   "w": 38.0,
+   "h": 16.0,
+   "sprite": "P_bx_saturator_v2_a10r",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 27
+   }
+  },
+  {
+   "id": "photo-a11r",
+   "kind": "filmstrip",
+   "x": 453.0,
+   "y": 412.0,
+   "w": 38.0,
+   "h": 16.0,
+   "sprite": "P_bx_saturator_v2_a11r",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 31
+   }
   }
  ],
  "meterSources": {

@@ -88721,6 +88721,34 @@
      }
     ]
    }
+  },
+  {
+   "id": "photo-a0r",
+   "kind": "filmstrip",
+   "x": 49.0,
+   "y": 7.0,
+   "w": 21.0,
+   "h": 21.0,
+   "sprite": "P_cambridge_a0r",
+   "frames": 17,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
+  },
+  {
+   "id": "photo-a1r",
+   "kind": "filmstrip",
+   "x": 586.0,
+   "y": 7.0,
+   "w": 21.0,
+   "h": 21.0,
+   "sprite": "P_cambridge_a1r",
+   "frames": 17,
+   "frameSource": {
+    "type": "param",
+    "param": 33
+   }
   }
  ],
  "meterSources": {},

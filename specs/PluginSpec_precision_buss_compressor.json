@@ -658,6 +658,34 @@
     "floorText": "--",
     "format": "%.1f"
    }
+  },
+  {
+   "id": "photo-a0r",
+   "kind": "filmstrip",
+   "x": 498.0,
+   "y": 165.0,
+   "w": 49.0,
+   "h": 15.0,
+   "sprite": "P_precision_buss_compressor_a0r",
+   "frames": 41,
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   }
+  },
+  {
+   "id": "photo-a1r",
+   "kind": "filmstrip",
+   "x": 173.0,
+   "y": 165.0,
+   "w": 49.0,
+   "h": 15.0,
+   "sprite": "P_precision_buss_compressor_a1r",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   }
   }
  ],
  "meterSources": {

@@ -37589,6 +37589,71 @@
      }
     ]
    }
+  },
+  {
+   "id": "photo-a3r",
+   "kind": "filmstrip",
+   "x": 767.0,
+   "y": 73.0,
+   "w": 61.0,
+   "h": 14.0,
+   "sprite": "P_dreamverb_a3r",
+   "frames": 7,
+   "frameSource": {
+    "type": "param",
+    "param": 7
+   }
+  },
+  {
+   "id": "photo-a5r",
+   "kind": "filmstrip",
+   "x": 670.0,
+   "y": 73.0,
+   "w": 55.0,
+   "h": 14.0,
+   "sprite": "P_dreamverb_a5r",
+   "frames": 21,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
+  },
+  {
+   "id": "photo-a7r",
+   "kind": "filmstrip",
+   "x": 865.0,
+   "y": 322.0,
+   "w": 12.0,
+   "h": 120.0,
+   "sprite": "P_dreamverb_a7r",
+   "frames": 107,
+   "frameSource": {
+    "type": "param",
+    "param": 29
+   }
+  },
+  {
+   "id": "photo-a9r",
+   "kind": "filmstrip",
+   "x": 387.0,
+   "y": 469.0,
+   "w": 133.0,
+   "h": 14.0,
+   "sprite": "P_dreamverb_a9r",
+   "frames": 120,
+   "frameSource": {
+    "type": "param",
+    "param": 35
+   }
+  },
+  {
+   "id": "photo-s11r",
+   "kind": "image",
+   "x": 614.0,
+   "y": 318.0,
+   "w": 12.0,
+   "h": 12.0,
+   "sprite": "P_dreamverb_s11r"
   }
  ],
  "meterSources": {

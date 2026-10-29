@@ -12177,6 +12177,75 @@
     "type": "toggle",
     "param": 3
    }
+  },
+  {
+   "id": "photo-a1r",
+   "kind": "filmstrip",
+   "x": 250.5,
+   "y": 228.5,
+   "w": 144.0,
+   "h": 144.0,
+   "sprite": "P_c_suite_c_max_a1r",
+   "frames": 101,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
+  },
+  {
+   "id": "photo-a2r",
+   "kind": "filmstrip",
+   "x": 382.5,
+   "y": 228.5,
+   "w": 144.0,
+   "h": 144.0,
+   "sprite": "P_c_suite_c_max_a2r",
+   "frames": 101,
+   "frameSource": {
+    "type": "param",
+    "param": 1
+   }
+  },
+  {
+   "id": "photo-a3r",
+   "kind": "filmstrip",
+   "x": 514.5,
+   "y": 228.5,
+   "w": 144.0,
+   "h": 144.0,
+   "sprite": "P_c_suite_c_max_a3r",
+   "frames": 10,
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   }
+  },
+  {
+   "id": "photo-s19r",
+   "kind": "image",
+   "x": 38.0,
+   "y": 334.0,
+   "w": 12.0,
+   "h": 12.0,
+   "sprite": "P_c_suite_c_max_s19r"
+  },
+  {
+   "id": "photo-s20r",
+   "kind": "image",
+   "x": 70.0,
+   "y": 334.0,
+   "w": 12.0,
+   "h": 12.0,
+   "sprite": "P_c_suite_c_max_s20r"
+  },
+  {
+   "id": "photo-s21r",
+   "kind": "image",
+   "x": 86.0,
+   "y": 334.0,
+   "w": 12.0,
+   "h": 12.0,
+   "sprite": "P_c_suite_c_max_s21r"
   }
  ],
  "states": {

@@ -5773,6 +5773,90 @@
      }
     ]
    }
+  },
+  {
+   "id": "photo-a0r",
+   "kind": "filmstrip",
+   "x": 439.0,
+   "y": 167.0,
+   "w": 68.0,
+   "h": 26.0,
+   "sprite": "P_mdweq5_5b_a0r",
+   "frames": 8,
+   "frameSource": {
+    "type": "param",
+    "param": 13
+   }
+  },
+  {
+   "id": "photo-a1r",
+   "kind": "filmstrip",
+   "x": 681.0,
+   "y": 167.0,
+   "w": 68.0,
+   "h": 26.0,
+   "sprite": "P_mdweq5_5b_a1r",
+   "frames": 8,
+   "frameSource": {
+    "type": "param",
+    "param": 25
+   }
+  },
+  {
+   "id": "photo-a2r",
+   "kind": "filmstrip",
+   "x": 560.0,
+   "y": 167.0,
+   "w": 68.0,
+   "h": 26.0,
+   "sprite": "P_mdweq5_5b_a2r",
+   "frames": 8,
+   "frameSource": {
+    "type": "param",
+    "param": 19
+   }
+  },
+  {
+   "id": "photo-a3r",
+   "kind": "filmstrip",
+   "x": 802.0,
+   "y": 167.0,
+   "w": 68.0,
+   "h": 26.0,
+   "sprite": "P_mdweq5_5b_a3r",
+   "frames": 12,
+   "frameSource": {
+    "type": "param",
+    "param": 31
+   }
+  },
+  {
+   "id": "photo-a4r",
+   "kind": "filmstrip",
+   "x": 318.0,
+   "y": 167.0,
+   "w": 68.0,
+   "h": 26.0,
+   "sprite": "P_mdweq5_5b_a4r",
+   "frames": 8,
+   "frameSource": {
+    "type": "param",
+    "param": 7
+   }
+  },
+  {
+   "id": "photo-a5r",
+   "kind": "filmstrip",
+   "x": 700.0,
+   "y": 4.0,
+   "w": 66.0,
+   "h": 64.0,
+   "sprite": "P_mdweq5_5b_a5r",
+   "frames": 64,
+   "frameSource": {
+    "type": "param",
+    "param": 22
+   }
   }
  ],
  "states": {
