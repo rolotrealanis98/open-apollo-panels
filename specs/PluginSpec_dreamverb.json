@@ -36869,8 +36869,8 @@
   {
    "id": "P-shape-b",
    "kind": "filmstrip",
-   "x": 668,
-   "y": 93,
+   "x": 667.5,
+   "y": 93.0,
    "w": 64,
    "h": 133,
    "sprite": "P_dreamverb_shape_b",
@@ -37635,7 +37635,7 @@
   {
    "id": "photo-a9r",
    "kind": "filmstrip",
-   "x": 387.0,
+   "x": 388.0,
    "y": 469.0,
    "w": 133.0,
    "h": 14.0,
