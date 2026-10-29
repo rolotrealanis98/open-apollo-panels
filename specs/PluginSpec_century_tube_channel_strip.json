@@ -626,6 +626,34 @@
     "param": 13,
     "value": 0.5
    }
+  },
+  {
+   "id": "photo-a0r",
+   "kind": "filmstrip",
+   "x": 404.0,
+   "y": 437.0,
+   "w": 120.0,
+   "h": 32.0,
+   "sprite": "P_century_tube_channel_strip_a0r",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 12
+   }
+  },
+  {
+   "id": "photo-a1r",
+   "kind": "filmstrip",
+   "x": 592.0,
+   "y": 437.0,
+   "w": 120.0,
+   "h": 32.0,
+   "sprite": "P_century_tube_channel_strip_a1r",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 14
+   }
   }
  ]
 }
