@@ -671,7 +671,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_2",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -685,7 +685,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_3",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -699,7 +699,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_4",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -713,7 +713,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_5",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -727,7 +727,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_6",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -741,7 +741,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_7",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -755,7 +755,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_8",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -769,7 +769,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_9",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -783,7 +783,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_10",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -797,7 +797,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_11",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -811,7 +811,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_12",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -825,7 +825,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_13",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -853,7 +853,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_15",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -867,7 +867,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_16",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -881,7 +881,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_17",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -895,7 +895,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_18",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -909,7 +909,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_19",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -923,7 +923,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_20",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -1175,7 +1175,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_38",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -1189,7 +1189,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_39",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -1231,7 +1231,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_42",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -1245,7 +1245,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_43",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -1259,7 +1259,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_44",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -1273,7 +1273,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_45",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -1287,7 +1287,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_46",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -1301,7 +1301,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_47",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -1315,7 +1315,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_48",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -1329,7 +1329,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_49",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -1343,7 +1343,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_50",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -1357,7 +1357,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_51",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -1371,7 +1371,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_52",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
@@ -1385,7 +1385,7 @@
    "y": 375,
    "w": 8,
    "h": 5,
-   "sprite": "F_Oxford-SuprEsser-DS_p12_53",
+   "sprite": "F_Oxford-SuprEsser-DS_p12_21",
    "frames": 2,
    "frameSource": {
     "type": "param",
