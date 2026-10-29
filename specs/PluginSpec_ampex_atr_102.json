@@ -13119,6 +13119,20 @@
      }
     ]
    }
+  },
+  {
+   "id": "photo-byp",
+   "kind": "filmstrip",
+   "x": 296.0,
+   "y": 351.0,
+   "w": 15.0,
+   "h": 15.0,
+   "sprite": "P_ampex_atr_102_byp",
+   "frames": 4,
+   "frameSource": {
+    "type": "param",
+    "param": 4
+   }
   }
  ],
  "meterSources": {

@@ -844,6 +844,20 @@
     "param": 3,
     "value": 0.5
    }
+  },
+  {
+   "id": "photo-defaults-toggle",
+   "kind": "filmstrip",
+   "x": 223.0,
+   "y": 279.0,
+   "w": 56.0,
+   "h": 62.0,
+   "sprite": "P_sound_machine_wood_works_defaults-toggle",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 1
+   }
   }
  ]
 }

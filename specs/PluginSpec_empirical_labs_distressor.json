@@ -1284,6 +1284,20 @@
     "bezel": "#141414",
     "bezelWidth": 1.0
    }
+  },
+  {
+   "id": "photo-byp-led",
+   "kind": "filmstrip",
+   "x": 413.0,
+   "y": 72.0,
+   "w": 22.0,
+   "h": 22.0,
+   "sprite": "P_empirical_labs_distressor_byp-led",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
   }
  ]
 }
