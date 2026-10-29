@@ -1357,10 +1357,10 @@
    "h": 22,
    "param": 0,
    "text": {
-    "size": 11,
-    "color": "#E8F4F8",
+    "size": 10,
+    "color": "#41C3E8",
     "align": "center",
-    "weight": "semibold"
+    "weight": "regular"
    }
   },
   {
@@ -1372,10 +1372,10 @@
    "h": 22,
    "param": 1,
    "text": {
-    "size": 11,
-    "color": "#E8F4F8",
+    "size": 10,
+    "color": "#41C3E8",
     "align": "center",
-    "weight": "semibold"
+    "weight": "regular"
    }
   },
   {
