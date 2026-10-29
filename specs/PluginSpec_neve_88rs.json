@@ -628,7 +628,7 @@
    "y": 471,
    "w": 46,
    "h": 21,
-   "sprite": "neve_88rs_8008_9",
+   "sprite": "neve_88rs_8008",
    "frames": 2,
    "param": 12,
    "orientation": "vertical"
@@ -640,7 +640,7 @@
    "y": 556,
    "w": 46,
    "h": 21,
-   "sprite": "neve_88rs_8008_9",
+   "sprite": "neve_88rs_8008",
    "frames": 2,
    "param": 14,
    "orientation": "vertical"

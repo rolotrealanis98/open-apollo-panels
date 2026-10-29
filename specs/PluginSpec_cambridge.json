@@ -23145,7 +23145,7 @@
       "band": "lf",
       "radius": 3.5,
       "shape": "square",
-      "fill": "#FF7E7E",
+      "fill": "#EC5554",
       "stroke": "#202020",
       "strokeWidth": 0.5,
       "drag": true
@@ -23154,7 +23154,7 @@
       "band": "lmf",
       "radius": 3.5,
       "shape": "square",
-      "fill": "#F1B98C",
+      "fill": "#E99A55",
       "stroke": "#202020",
       "strokeWidth": 0.5,
       "drag": true
@@ -23163,7 +23163,7 @@
       "band": "mf",
       "radius": 3.5,
       "shape": "square",
-      "fill": "#EEF291",
+      "fill": "#E6EB54",
       "stroke": "#202020",
       "strokeWidth": 0.5,
       "drag": true
@@ -23172,7 +23172,7 @@
       "band": "hmf",
       "radius": 3.5,
       "shape": "square",
-      "fill": "#8FEF9F",
+      "fill": "#58E268",
       "stroke": "#202020",
       "strokeWidth": 0.5,
       "drag": true
@@ -23181,7 +23181,7 @@
       "band": "hf",
       "radius": 3.5,
       "shape": "square",
-      "fill": "#8C8CF0",
+      "fill": "#4A4BE6",
       "stroke": "#202020",
       "strokeWidth": 0.5,
       "drag": true
@@ -44831,7 +44831,7 @@
       "band": "lf",
       "radius": 3.5,
       "shape": "square",
-      "fill": "#FF7E7E",
+      "fill": "#EC5554",
       "stroke": "#202020",
       "strokeWidth": 0.5,
       "drag": true
@@ -44840,7 +44840,7 @@
       "band": "lmf",
       "radius": 3.5,
       "shape": "square",
-      "fill": "#F1B98C",
+      "fill": "#E99A55",
       "stroke": "#202020",
       "strokeWidth": 0.5,
       "drag": true
@@ -44849,7 +44849,7 @@
       "band": "mf",
       "radius": 3.5,
       "shape": "square",
-      "fill": "#EEF291",
+      "fill": "#E6EB54",
       "stroke": "#202020",
       "strokeWidth": 0.5,
       "drag": true
@@ -44858,7 +44858,7 @@
       "band": "hmf",
       "radius": 3.5,
       "shape": "square",
-      "fill": "#8FEF9F",
+      "fill": "#58E268",
       "stroke": "#202020",
       "strokeWidth": 0.5,
       "drag": true
@@ -44867,7 +44867,7 @@
       "band": "hf",
       "radius": 3.5,
       "shape": "square",
-      "fill": "#8C8CF0",
+      "fill": "#4A4BE6",
       "stroke": "#202020",
       "strokeWidth": 0.5,
       "drag": true
@@ -66517,7 +66517,7 @@
       "band": "lf",
       "radius": 3.5,
       "shape": "square",
-      "fill": "#FF7E7E",
+      "fill": "#EC5554",
       "stroke": "#202020",
       "strokeWidth": 0.5,
       "drag": true
@@ -66526,7 +66526,7 @@
       "band": "lmf",
       "radius": 3.5,
       "shape": "square",
-      "fill": "#F1B98C",
+      "fill": "#E99A55",
       "stroke": "#202020",
       "strokeWidth": 0.5,
       "drag": true
@@ -66535,7 +66535,7 @@
       "band": "mf",
       "radius": 3.5,
       "shape": "square",
-      "fill": "#EEF291",
+      "fill": "#E6EB54",
       "stroke": "#202020",
       "strokeWidth": 0.5,
       "drag": true
@@ -66544,7 +66544,7 @@
       "band": "hmf",
       "radius": 3.5,
       "shape": "square",
-      "fill": "#8FEF9F",
+      "fill": "#58E268",
       "stroke": "#202020",
       "strokeWidth": 0.5,
       "drag": true
@@ -66553,7 +66553,7 @@
       "band": "hf",
       "radius": 3.5,
       "shape": "square",
-      "fill": "#8C8CF0",
+      "fill": "#4A4BE6",
       "stroke": "#202020",
       "strokeWidth": 0.5,
       "drag": true
@@ -88203,7 +88203,7 @@
       "band": "lf",
       "radius": 3.5,
       "shape": "square",
-      "fill": "#FF7E7E",
+      "fill": "#EC5554",
       "stroke": "#202020",
       "strokeWidth": 0.5,
       "drag": true
@@ -88212,7 +88212,7 @@
       "band": "lmf",
       "radius": 3.5,
       "shape": "square",
-      "fill": "#F1B98C",
+      "fill": "#E99A55",
       "stroke": "#202020",
       "strokeWidth": 0.5,
       "drag": true
@@ -88221,7 +88221,7 @@
       "band": "mf",
       "radius": 3.5,
       "shape": "square",
-      "fill": "#EEF291",
+      "fill": "#E6EB54",
       "stroke": "#202020",
       "strokeWidth": 0.5,
       "drag": true
@@ -88230,7 +88230,7 @@
       "band": "hmf",
       "radius": 3.5,
       "shape": "square",
-      "fill": "#8FEF9F",
+      "fill": "#58E268",
       "stroke": "#202020",
       "strokeWidth": 0.5,
       "drag": true
@@ -88239,7 +88239,7 @@
       "band": "hf",
       "radius": 3.5,
       "shape": "square",
-      "fill": "#8C8CF0",
+      "fill": "#4A4BE6",
       "stroke": "#202020",
       "strokeWidth": 0.5,
       "drag": true

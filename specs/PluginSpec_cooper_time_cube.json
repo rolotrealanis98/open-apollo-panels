@@ -96,13 +96,13 @@
    "index": 12,
    "name": "Pan A",
    "steps": null,
-   "default": 0.5
+   "default": 0.0
   },
   {
    "index": 13,
    "name": "Pan B",
    "steps": null,
-   "default": 0.5
+   "default": 1.0
   },
   {
    "index": 14,
