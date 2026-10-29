@@ -1177,6 +1177,48 @@
    "h": 20.0,
    "sprite": "bx_subsynth__LEVELMETER",
    "frames": 33
+  },
+  {
+   "id": "photo-a0r",
+   "kind": "filmstrip",
+   "x": 260.0,
+   "y": 281.0,
+   "w": 74.5,
+   "h": 64.5,
+   "sprite": "P_bx_subsynth_a0r",
+   "frames": 21,
+   "frameSource": {
+    "type": "param",
+    "param": 13
+   }
+  },
+  {
+   "id": "photo-a1r",
+   "kind": "filmstrip",
+   "x": 317.0,
+   "y": 392.0,
+   "w": 74.5,
+   "h": 64.5,
+   "sprite": "P_bx_subsynth_a1r",
+   "frames": 21,
+   "frameSource": {
+    "type": "param",
+    "param": 11
+   }
+  },
+  {
+   "id": "photo-a2r",
+   "kind": "filmstrip",
+   "x": 204.0,
+   "y": 393.0,
+   "w": 74.5,
+   "h": 64.5,
+   "sprite": "P_bx_subsynth_a2r",
+   "frames": 21,
+   "frameSource": {
+    "type": "param",
+    "param": 9
+   }
   }
  ],
  "meterSources": {},

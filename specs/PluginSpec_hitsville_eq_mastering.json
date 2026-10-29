@@ -14308,6 +14308,34 @@
     "state": "marks",
     "count": 2
    }
+  },
+  {
+   "id": "photo-a0r",
+   "kind": "filmstrip",
+   "x": 92.0,
+   "y": 611.0,
+   "w": 64.0,
+   "h": 90.0,
+   "sprite": "P_hitsville_eq_mastering_a0r",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
+  },
+  {
+   "id": "photo-a1r",
+   "kind": "filmstrip",
+   "x": 592.0,
+   "y": 611.0,
+   "w": 64.0,
+   "h": 90.0,
+   "sprite": "P_hitsville_eq_mastering_a1r",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 50
+   }
   }
  ],
  "states": {

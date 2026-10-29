@@ -2610,6 +2610,34 @@
     "param": 19,
     "value": 1.0
    }
+  },
+  {
+   "id": "photo-a0r",
+   "kind": "filmstrip",
+   "x": 338.0,
+   "y": 487.0,
+   "w": 52.0,
+   "h": 82.0,
+   "sprite": "P_fairchild_670_a0r",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 17
+   }
+  },
+  {
+   "id": "photo-a1r",
+   "kind": "filmstrip",
+   "x": 398.0,
+   "y": 487.0,
+   "w": 52.0,
+   "h": 82.0,
+   "sprite": "P_fairchild_670_a1r",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 18
+   }
   }
  ]
 }
