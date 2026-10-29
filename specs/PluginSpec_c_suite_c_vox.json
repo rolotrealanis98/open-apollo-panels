@@ -17252,6 +17252,47 @@
     "type": "toggle",
     "param": 3
    }
+  },
+  {
+   "id": "photo-s5",
+   "kind": "image",
+   "x": 78.0,
+   "y": 374.0,
+   "w": 60.0,
+   "h": 28.0,
+   "sprite": "P_c_suite_c_vox_s5"
+  },
+  {
+   "id": "photo-a11",
+   "kind": "filmstrip",
+   "x": 268.0,
+   "y": 365.0,
+   "w": 70.5,
+   "h": 41.0,
+   "sprite": "P_c_suite_c_vox_a11",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
+  },
+  {
+   "id": "photo-s14",
+   "kind": "image",
+   "x": 46.0,
+   "y": 382.0,
+   "w": 12.0,
+   "h": 12.0,
+   "sprite": "P_c_suite_c_vox_s14"
+  },
+  {
+   "id": "photo-s15",
+   "kind": "image",
+   "x": 62.0,
+   "y": 382.0,
+   "w": 12.0,
+   "h": 12.0,
+   "sprite": "P_c_suite_c_vox_s15"
   }
  ],
  "states": {

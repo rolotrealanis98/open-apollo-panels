@@ -1860,6 +1860,20 @@
     "param": 3,
     "delta": -0.01
    }
+  },
+  {
+   "id": "photo-a1",
+   "kind": "filmstrip",
+   "x": 837.0,
+   "y": 50.0,
+   "w": 86.0,
+   "h": 68.0,
+   "sprite": "P_emt_140_a1",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 4
+   }
   }
  ]
 }

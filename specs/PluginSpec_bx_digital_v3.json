@@ -7916,6 +7916,24 @@
     "type": "meter",
     "meter": "meter_4000000b"
    }
+  },
+  {
+   "id": "photo-s9",
+   "kind": "image",
+   "x": 6.0,
+   "y": 430.0,
+   "w": 20.0,
+   "h": 20.0,
+   "sprite": "P_bx_digital_v3_s9"
+  },
+  {
+   "id": "photo-s21",
+   "kind": "image",
+   "x": 342.0,
+   "y": 430.0,
+   "w": 20.0,
+   "h": 20.0,
+   "sprite": "P_bx_digital_v3_s21"
   }
  ],
  "meterSources": {

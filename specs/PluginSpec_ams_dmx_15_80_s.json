@@ -19264,6 +19264,48 @@
      }
     ]
    }
+  },
+  {
+   "id": "photo-a2",
+   "kind": "filmstrip",
+   "x": 519.0,
+   "y": 97.0,
+   "w": 29.0,
+   "h": 52.0,
+   "sprite": "P_ams_dmx_15_80_s_a2",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 9
+   }
+  },
+  {
+   "id": "photo-a3",
+   "kind": "filmstrip",
+   "x": 672.0,
+   "y": 97.0,
+   "w": 29.0,
+   "h": 52.0,
+   "sprite": "P_ams_dmx_15_80_s_a3",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 10
+   }
+  },
+  {
+   "id": "photo-a5",
+   "kind": "filmstrip",
+   "x": 782.0,
+   "y": 197.0,
+   "w": 29.0,
+   "h": 52.0,
+   "sprite": "P_ams_dmx_15_80_s_a5",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 22
+   }
   }
  ],
  "states": {

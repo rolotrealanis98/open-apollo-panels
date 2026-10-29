@@ -2043,6 +2043,141 @@
    "y": 209,
    "w": 54.0,
    "h": 295.0
+  },
+  {
+   "id": "photo-s2",
+   "kind": "image",
+   "x": 366.0,
+   "y": 70.0,
+   "w": 52.0,
+   "h": 20.0,
+   "sprite": "P_bx_saturator_v2_s2"
+  },
+  {
+   "id": "photo-s4",
+   "kind": "image",
+   "x": 54.0,
+   "y": 70.0,
+   "w": 36.0,
+   "h": 20.0,
+   "sprite": "P_bx_saturator_v2_s4"
+  },
+  {
+   "id": "photo-s9",
+   "kind": "image",
+   "x": 38.0,
+   "y": 158.0,
+   "w": 52.0,
+   "h": 12.0,
+   "sprite": "P_bx_saturator_v2_s9"
+  },
+  {
+   "id": "photo-s10",
+   "kind": "image",
+   "x": 126.0,
+   "y": 70.0,
+   "w": 36.0,
+   "h": 20.0,
+   "sprite": "P_bx_saturator_v2_s10"
+  },
+  {
+   "id": "photo-s11",
+   "kind": "image",
+   "x": 142.0,
+   "y": 206.0,
+   "w": 28.0,
+   "h": 20.0,
+   "sprite": "P_bx_saturator_v2_s11"
+  },
+  {
+   "id": "photo-s12",
+   "kind": "image",
+   "x": 342.0,
+   "y": 206.0,
+   "w": 28.0,
+   "h": 20.0,
+   "sprite": "P_bx_saturator_v2_s12"
+  },
+  {
+   "id": "photo-s13",
+   "kind": "image",
+   "x": 142.0,
+   "y": 534.0,
+   "w": 28.0,
+   "h": 20.0,
+   "sprite": "P_bx_saturator_v2_s13"
+  },
+  {
+   "id": "photo-s14",
+   "kind": "image",
+   "x": 342.0,
+   "y": 534.0,
+   "w": 28.0,
+   "h": 20.0,
+   "sprite": "P_bx_saturator_v2_s14"
+  },
+  {
+   "id": "photo-s18",
+   "kind": "image",
+   "x": 462.0,
+   "y": 230.0,
+   "w": 28.0,
+   "h": 12.0,
+   "sprite": "P_bx_saturator_v2_s18"
+  },
+  {
+   "id": "photo-s19",
+   "kind": "image",
+   "x": 142.0,
+   "y": 374.0,
+   "w": 28.0,
+   "h": 12.0,
+   "sprite": "P_bx_saturator_v2_s19"
+  },
+  {
+   "id": "photo-s20",
+   "kind": "image",
+   "x": 342.0,
+   "y": 374.0,
+   "w": 28.0,
+   "h": 12.0,
+   "sprite": "P_bx_saturator_v2_s20"
+  },
+  {
+   "id": "photo-s21",
+   "kind": "image",
+   "x": 30.0,
+   "y": 398.0,
+   "w": 28.0,
+   "h": 12.0,
+   "sprite": "P_bx_saturator_v2_s21"
+  },
+  {
+   "id": "photo-s22",
+   "kind": "image",
+   "x": 462.0,
+   "y": 398.0,
+   "w": 28.0,
+   "h": 12.0,
+   "sprite": "P_bx_saturator_v2_s22"
+  },
+  {
+   "id": "photo-s26",
+   "kind": "image",
+   "x": 94.0,
+   "y": 398.0,
+   "w": 12.0,
+   "h": 12.0,
+   "sprite": "P_bx_saturator_v2_s26"
+  },
+  {
+   "id": "photo-s27",
+   "kind": "image",
+   "x": 422.0,
+   "y": 398.0,
+   "w": 12.0,
+   "h": 12.0,
+   "sprite": "P_bx_saturator_v2_s27"
   }
  ],
  "meterSources": {

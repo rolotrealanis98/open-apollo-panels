@@ -2102,6 +2102,76 @@
    "y": 623.5,
    "w": 36.0,
    "h": 10.0
+  },
+  {
+   "id": "photo-a4",
+   "kind": "filmstrip",
+   "x": 30.0,
+   "y": 8.0,
+   "w": 17.0,
+   "h": 17.0,
+   "sprite": "P_cs_1_a4",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   }
+  },
+  {
+   "id": "photo-a5",
+   "kind": "filmstrip",
+   "x": 106.0,
+   "y": 8.0,
+   "w": 17.0,
+   "h": 17.0,
+   "sprite": "P_cs_1_a5",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 7
+   }
+  },
+  {
+   "id": "photo-a6",
+   "kind": "filmstrip",
+   "x": 182.0,
+   "y": 8.0,
+   "w": 17.0,
+   "h": 17.0,
+   "sprite": "P_cs_1_a6",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 11
+   }
+  },
+  {
+   "id": "photo-a7",
+   "kind": "filmstrip",
+   "x": 258.0,
+   "y": 8.0,
+   "w": 17.0,
+   "h": 17.0,
+   "sprite": "P_cs_1_a7",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 15
+   }
+  },
+  {
+   "id": "photo-a8",
+   "kind": "filmstrip",
+   "x": 333.0,
+   "y": 8.0,
+   "w": 17.0,
+   "h": 17.0,
+   "sprite": "P_cs_1_a8",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 19
+   }
   }
  ],
  "meterSources": {

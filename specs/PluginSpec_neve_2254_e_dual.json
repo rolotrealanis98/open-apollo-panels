@@ -799,6 +799,34 @@
     "type": "toggle",
     "param": 21
    }
+  },
+  {
+   "id": "photo-a0",
+   "kind": "filmstrip",
+   "x": 268.0,
+   "y": 253.0,
+   "w": 124.0,
+   "h": 96.0,
+   "sprite": "P_neve_2254_e_dual_a0",
+   "frames": 4,
+   "frameSource": {
+    "type": "param",
+    "param": 8
+   }
+  },
+  {
+   "id": "photo-a2",
+   "kind": "filmstrip",
+   "x": 745.0,
+   "y": 253.0,
+   "w": 124.0,
+   "h": 96.0,
+   "sprite": "P_neve_2254_e_dual_a2",
+   "frames": 4,
+   "frameSource": {
+    "type": "param",
+    "param": 20
+   }
   }
  ],
  "meterSources": {

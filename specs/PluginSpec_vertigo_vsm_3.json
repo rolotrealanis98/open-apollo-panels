@@ -3329,6 +3329,20 @@
     "type": "toggle",
     "param": 22
    }
+  },
+  {
+   "id": "photo-a0",
+   "kind": "filmstrip",
+   "x": 610.0,
+   "y": 99.0,
+   "w": 15.0,
+   "h": 15.0,
+   "sprite": "P_vertigo_vsm_3_a0",
+   "frames": 4,
+   "frameSource": {
+    "type": "param",
+    "param": 22
+   }
   }
  ],
  "meterSources": {

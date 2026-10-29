@@ -566,6 +566,34 @@
     "type": "toggle",
     "param": 0
    }
+  },
+  {
+   "id": "photo-a0",
+   "kind": "filmstrip",
+   "x": 309.0,
+   "y": 66.0,
+   "w": 142.0,
+   "h": 142.0,
+   "sprite": "P_fairchild_670_legacy_a0",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 13
+   }
+  },
+  {
+   "id": "photo-a1",
+   "kind": "filmstrip",
+   "x": 309.0,
+   "y": 268.0,
+   "w": 142.0,
+   "h": 142.0,
+   "sprite": "P_fairchild_670_legacy_a1",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 14
+   }
   }
  ],
  "meterSources": {

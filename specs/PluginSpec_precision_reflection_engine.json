@@ -518,6 +518,20 @@
    "sprite": "I_precision_reflection_engine_sw12_260_35",
    "frames": 2,
    "param": 12
+  },
+  {
+   "id": "photo-a1",
+   "kind": "filmstrip",
+   "x": 259.0,
+   "y": 34.0,
+   "w": 46.0,
+   "h": 36.0,
+   "sprite": "P_precision_reflection_engine_a1",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 12
+   }
   }
  ],
  "meterSources": {}

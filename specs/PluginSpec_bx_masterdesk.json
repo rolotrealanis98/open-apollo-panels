@@ -1654,6 +1654,15 @@
     "align": "left",
     "color": "#E1E1E1"
    }
+  },
+  {
+   "id": "photo-s1",
+   "kind": "image",
+   "x": 886.0,
+   "y": 454.0,
+   "w": 52.0,
+   "h": 20.0,
+   "sprite": "P_bx_masterdesk_s1"
   }
  ],
  "meterSources": {

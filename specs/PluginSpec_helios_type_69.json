@@ -960,6 +960,34 @@
    "h": 525,
    "gesture": "drag",
    "param": 11
+  },
+  {
+   "id": "photo-a0",
+   "kind": "filmstrip",
+   "x": 62.0,
+   "y": 456.0,
+   "w": 71.0,
+   "h": 71.0,
+   "sprite": "P_helios_type_69_a0",
+   "frames": 10,
+   "frameSource": {
+    "type": "param",
+    "param": 6
+   }
+  },
+  {
+   "id": "photo-a1",
+   "kind": "filmstrip",
+   "x": 62.0,
+   "y": 180.0,
+   "w": 71.0,
+   "h": 71.0,
+   "sprite": "P_helios_type_69_a1",
+   "frames": 8,
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   }
   }
  ],
  "meterSources": {}

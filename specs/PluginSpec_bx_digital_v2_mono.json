@@ -1622,6 +1622,51 @@
    "y": 323.0,
    "w": 12.0,
    "h": 83.0
+  },
+  {
+   "id": "photo-s1",
+   "kind": "image",
+   "x": 246.0,
+   "y": 86.0,
+   "w": 44.0,
+   "h": 20.0,
+   "sprite": "P_bx_digital_v2_mono_s1"
+  },
+  {
+   "id": "photo-s2",
+   "kind": "image",
+   "x": 382.0,
+   "y": 30.0,
+   "w": 52.0,
+   "h": 20.0,
+   "sprite": "P_bx_digital_v2_mono_s2"
+  },
+  {
+   "id": "photo-s7",
+   "kind": "image",
+   "x": 22.0,
+   "y": 38.0,
+   "w": 36.0,
+   "h": 12.0,
+   "sprite": "P_bx_digital_v2_mono_s7"
+  },
+  {
+   "id": "photo-s8",
+   "kind": "image",
+   "x": 198.0,
+   "y": 86.0,
+   "w": 20.0,
+   "h": 20.0,
+   "sprite": "P_bx_digital_v2_mono_s8"
+  },
+  {
+   "id": "photo-s10",
+   "kind": "image",
+   "x": 230.0,
+   "y": 86.0,
+   "w": 12.0,
+   "h": 12.0,
+   "sprite": "P_bx_digital_v2_mono_s10"
   }
  ],
  "meterSources": {

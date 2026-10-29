@@ -1942,6 +1942,83 @@
     "type": "toggle",
     "param": 3
    }
+  },
+  {
+   "id": "photo-s2",
+   "kind": "image",
+   "x": 182.0,
+   "y": 6.0,
+   "w": 52.0,
+   "h": 20.0,
+   "sprite": "P_c_suite_c_axe_s2"
+  },
+  {
+   "id": "photo-s3",
+   "kind": "image",
+   "x": 182.0,
+   "y": 270.0,
+   "w": 52.0,
+   "h": 20.0,
+   "sprite": "P_c_suite_c_axe_s3"
+  },
+  {
+   "id": "photo-s4",
+   "kind": "image",
+   "x": 78.0,
+   "y": 22.0,
+   "w": 20.0,
+   "h": 28.0,
+   "sprite": "P_c_suite_c_axe_s4"
+  },
+  {
+   "id": "photo-a5",
+   "kind": "filmstrip",
+   "x": 194.5,
+   "y": 318.0,
+   "w": 70.5,
+   "h": 41.0,
+   "sprite": "P_c_suite_c_axe_a5",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
+  },
+  {
+   "id": "photo-s7",
+   "kind": "image",
+   "x": 46.0,
+   "y": 22.0,
+   "w": 12.0,
+   "h": 12.0,
+   "sprite": "P_c_suite_c_axe_s7"
+  },
+  {
+   "id": "photo-s8",
+   "kind": "image",
+   "x": 126.0,
+   "y": 30.0,
+   "w": 12.0,
+   "h": 12.0,
+   "sprite": "P_c_suite_c_axe_s8"
+  },
+  {
+   "id": "photo-s9",
+   "kind": "image",
+   "x": 46.0,
+   "y": 38.0,
+   "w": 12.0,
+   "h": 12.0,
+   "sprite": "P_c_suite_c_axe_s9"
+  },
+  {
+   "id": "photo-s10",
+   "kind": "image",
+   "x": 206.0,
+   "y": 142.0,
+   "w": 12.0,
+   "h": 12.0,
+   "sprite": "P_c_suite_c_axe_s10"
   }
  ]
 }

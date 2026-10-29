@@ -2838,6 +2838,15 @@
     "lines": 0,
     "stringRef": "ocean_way_studios.info"
    }
+  },
+  {
+   "id": "photo-s6",
+   "kind": "image",
+   "x": 150.0,
+   "y": 78.0,
+   "w": 20.0,
+   "h": 20.0,
+   "sprite": "P_ocean_way_studios_s6"
   }
  ],
  "meterSources": {},
