@@ -13013,7 +13013,7 @@
       },
       "id": "cmp",
       "stroke": "#3C40C7",
-      "width": 1.5
+      "width": 1.0
      },
      {
       "kind": "limiter",
@@ -13044,7 +13044,7 @@
       },
       "id": "lim",
       "stroke": "#007801",
-      "width": 1.5
+      "width": 1.0
      },
      {
       "kind": "expander",
@@ -13083,7 +13083,7 @@
       },
       "id": "exp",
       "stroke": "#8305C5",
-      "width": 1.5
+      "width": 1.0
      },
      {
       "kind": "gate",
@@ -13105,7 +13105,7 @@
       },
       "id": "gate",
       "stroke": "#9A6D01",
-      "width": 1.5
+      "width": 1.0
      },
      {
       "kind": "compressor",
@@ -13279,7 +13279,7 @@
        "gate-chain"
       ],
       "stroke": "#F8F9FC",
-      "width": 2.0
+      "width": 1.0
      }
     ],
     "handles": [
