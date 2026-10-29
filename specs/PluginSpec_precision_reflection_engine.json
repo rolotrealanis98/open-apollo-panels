@@ -83,7 +83,7 @@
    "index": 8,
    "name": "Pan B",
    "steps": null,
-   "default": 0.0
+   "default": 1.0
   },
   {
    "index": 9,

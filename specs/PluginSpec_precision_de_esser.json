@@ -12,7 +12,7 @@
    "index": 0,
    "name": "Thresh",
    "steps": null,
-   "default": 0.0
+   "default": 1.0
   },
   {
    "index": 1,
