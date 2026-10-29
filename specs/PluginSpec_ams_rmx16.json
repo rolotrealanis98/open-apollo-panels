@@ -3985,6 +3985,39 @@
    }
   },
   {
+   "id": "j-led-name",
+   "kind": "filmstrip",
+   "x": 600,
+   "y": 36,
+   "w": 84,
+   "h": 24,
+   "frames": 9,
+   "sprite": "J_ams_rmx16_led_name",
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   },
+   "visibility": {
+    "params": [
+     13
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
    "id": "j-name-menu",
    "kind": "menu",
    "param": 2,
@@ -4013,7 +4046,7 @@
    },
    "text": {
     "size": 8.5,
-    "color": "#F0282A",
+    "color": "#F0282A00",
     "align": "left",
     "weight": "regular",
     "monospaced": true
