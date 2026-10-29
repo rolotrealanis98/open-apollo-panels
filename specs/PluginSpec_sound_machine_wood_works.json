@@ -127,6 +127,110 @@
    "sprite": "SMWW_voicing_off",
    "frames": 101,
    "param": 0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.066667
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.133333
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.2
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.266667
+      ],
+      "frame": 25
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 32
+     },
+     {
+      "key": [
+       0.4
+      ],
+      "frame": 39
+     },
+     {
+      "key": [
+       0.466667
+      ],
+      "frame": 46
+     },
+     {
+      "key": [
+       0.533333
+      ],
+      "frame": 54
+     },
+     {
+      "key": [
+       0.6
+      ],
+      "frame": 61
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 68
+     },
+     {
+      "key": [
+       0.733333
+      ],
+      "frame": 75
+     },
+     {
+      "key": [
+       0.8
+      ],
+      "frame": 82
+     },
+     {
+      "key": [
+       0.866667
+      ],
+      "frame": 89
+     },
+     {
+      "key": [
+       0.933333
+      ],
+      "frame": 95
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 100
+     }
+    ]
+   },
    "visibility": {
     "params": [
      8
@@ -157,6 +261,110 @@
    "sprite": "SMWW_voicing_on",
    "frames": 101,
    "param": 0,
+   "frameSource": {
+    "type": "table",
+    "params": [
+     0
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "frame": 0
+     },
+     {
+      "key": [
+       0.066667
+      ],
+      "frame": 5
+     },
+     {
+      "key": [
+       0.133333
+      ],
+      "frame": 11
+     },
+     {
+      "key": [
+       0.2
+      ],
+      "frame": 18
+     },
+     {
+      "key": [
+       0.266667
+      ],
+      "frame": 25
+     },
+     {
+      "key": [
+       0.333333
+      ],
+      "frame": 32
+     },
+     {
+      "key": [
+       0.4
+      ],
+      "frame": 39
+     },
+     {
+      "key": [
+       0.466667
+      ],
+      "frame": 46
+     },
+     {
+      "key": [
+       0.533333
+      ],
+      "frame": 54
+     },
+     {
+      "key": [
+       0.6
+      ],
+      "frame": 61
+     },
+     {
+      "key": [
+       0.666667
+      ],
+      "frame": 68
+     },
+     {
+      "key": [
+       0.733333
+      ],
+      "frame": 75
+     },
+     {
+      "key": [
+       0.8
+      ],
+      "frame": 82
+     },
+     {
+      "key": [
+       0.866667
+      ],
+      "frame": 89
+     },
+     {
+      "key": [
+       0.933333
+      ],
+      "frame": 95
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "frame": 100
+     }
+    ]
+   },
    "visibility": {
     "params": [
      8
@@ -275,7 +483,7 @@
    "y": 385,
    "w": 105,
    "h": 102,
-   "sprite": "SMWW_knob",
+   "sprite": "SMWW_knob_b",
    "frames": 101,
    "param": 5
   },
@@ -286,7 +494,7 @@
    "y": 385,
    "w": 105,
    "h": 102,
-   "sprite": "SMWW_knob",
+   "sprite": "SMWW_knob_c",
    "frames": 101,
    "param": 6
   },
@@ -297,7 +505,7 @@
    "y": 385,
    "w": 105,
    "h": 102,
-   "sprite": "SMWW_knob",
+   "sprite": "SMWW_knob_d",
    "frames": 101,
    "param": 7
   },
@@ -326,10 +534,10 @@
   {
    "id": "switch-1",
    "kind": "switch",
-   "x": 219,
-   "y": 273,
-   "w": 65,
-   "h": 72,
+   "x": 223,
+   "y": 279,
+   "w": 55.25,
+   "h": 61.25,
    "sprite": "SMWW_toggle_a",
    "frames": 2,
    "param": 1
@@ -337,10 +545,10 @@
   {
    "id": "switch-8",
    "kind": "switch",
-   "x": 522,
-   "y": 252,
-   "w": 65,
-   "h": 72,
+   "x": 527,
+   "y": 258,
+   "w": 55.25,
+   "h": 61.25,
    "sprite": "SMWW_toggle_b",
    "frames": 2,
    "param": 8
