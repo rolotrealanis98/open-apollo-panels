@@ -695,7 +695,6 @@
    "y": 127,
    "w": 21,
    "h": 37,
-   "opacity": 0,
    "kind": "switch",
    "param": 18,
    "sprite": "VariMu_two-position-switch",
@@ -1186,6 +1185,20 @@
     "type": "set",
     "param": 10,
     "value": 1.0
+   }
+  },
+  {
+   "id": "photo-ctrl-link",
+   "kind": "filmstrip",
+   "x": 676.0,
+   "y": 124.0,
+   "w": 29.0,
+   "h": 43.0,
+   "sprite": "P_manley_variable_mu_ctrl-link",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 18
    }
   }
  ]

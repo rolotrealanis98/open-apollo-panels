@@ -3746,6 +3746,15 @@
    "y": 214.0,
    "w": 46.0,
    "h": 15.0
+  },
+  {
+   "id": "photo-s4",
+   "kind": "image",
+   "x": 6.0,
+   "y": 430.0,
+   "w": 20.0,
+   "h": 20.0,
+   "sprite": "P_bx_digital_v3_mix_s4"
   }
  ],
  "meterSources": {

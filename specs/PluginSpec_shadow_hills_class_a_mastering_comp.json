@@ -11429,6 +11429,43 @@
      }
     ]
    }
+  },
+  {
+   "id": "photo-a0",
+   "kind": "filmstrip",
+   "x": 160.0,
+   "y": 531.0,
+   "w": 55.0,
+   "h": 55.0,
+   "sprite": "P_shadow_hills_class_a_mastering_comp_a0",
+   "frames": 19,
+   "frameSource": {
+    "type": "param",
+    "param": 8
+   }
+  },
+  {
+   "id": "photo-s1",
+   "kind": "image",
+   "x": 278.0,
+   "y": 534.0,
+   "w": 28.0,
+   "h": 12.0,
+   "sprite": "P_shadow_hills_class_a_mastering_comp_s1"
+  },
+  {
+   "id": "photo-a3",
+   "kind": "filmstrip",
+   "x": 340.0,
+   "y": 532.0,
+   "w": 41.0,
+   "h": 42.0,
+   "sprite": "P_shadow_hills_class_a_mastering_comp_a3",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 7
+   }
   }
  ],
  "meterSources": {

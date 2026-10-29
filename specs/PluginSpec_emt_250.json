@@ -34322,6 +34322,20 @@
      }
     ]
    }
+  },
+  {
+   "id": "photo-noise-led",
+   "kind": "filmstrip",
+   "x": 53.0,
+   "y": 314.0,
+   "w": 16.0,
+   "h": 16.0,
+   "sprite": "P_emt_250_noise-led",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 13
+   }
   }
  ],
  "states": {

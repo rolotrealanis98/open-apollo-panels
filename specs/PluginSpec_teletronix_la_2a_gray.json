@@ -701,6 +701,20 @@
     "param": 6,
     "value": 0.0
    }
+  },
+  {
+   "id": "photo-emph-screw",
+   "kind": "filmstrip",
+   "x": 130.0,
+   "y": 160.0,
+   "w": 37.0,
+   "h": 36.0,
+   "sprite": "P_teletronix_la_2a_gray_emph-screw",
+   "frames": 21,
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   }
   }
  ]
 }

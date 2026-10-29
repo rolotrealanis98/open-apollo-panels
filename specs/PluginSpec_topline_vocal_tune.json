@@ -31154,6 +31154,51 @@
      }
     ]
    }
+  },
+  {
+   "id": "photo-s2",
+   "kind": "image",
+   "x": 46.0,
+   "y": 270.0,
+   "w": 60.0,
+   "h": 20.0,
+   "sprite": "P_topline_vocal_tune_s2"
+  },
+  {
+   "id": "photo-s3",
+   "kind": "image",
+   "x": 606.0,
+   "y": 270.0,
+   "w": 60.0,
+   "h": 20.0,
+   "sprite": "P_topline_vocal_tune_s3"
+  },
+  {
+   "id": "photo-s4",
+   "kind": "image",
+   "x": 486.0,
+   "y": 382.0,
+   "w": 36.0,
+   "h": 20.0,
+   "sprite": "P_topline_vocal_tune_s4"
+  },
+  {
+   "id": "photo-s5",
+   "kind": "image",
+   "x": 222.0,
+   "y": 390.0,
+   "w": 52.0,
+   "h": 12.0,
+   "sprite": "P_topline_vocal_tune_s5"
+  },
+  {
+   "id": "photo-s6",
+   "kind": "image",
+   "x": 62.0,
+   "y": 382.0,
+   "w": 36.0,
+   "h": 20.0,
+   "sprite": "P_topline_vocal_tune_s6"
   }
  ],
  "meterSources": {

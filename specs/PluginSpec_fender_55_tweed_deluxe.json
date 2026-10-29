@@ -1087,6 +1087,34 @@
    "h": 12,
    "sprite": "fender_55_tweed_deluxe_8114",
    "frames": 8
+  },
+  {
+   "id": "photo-a1",
+   "kind": "filmstrip",
+   "x": 456.0,
+   "y": -1.0,
+   "w": 122.0,
+   "h": 139.0,
+   "sprite": "P_fender_55_tweed_deluxe_a1",
+   "frames": 6,
+   "frameSource": {
+    "type": "param",
+    "param": 5
+   }
+  },
+  {
+   "id": "photo-a3",
+   "kind": "filmstrip",
+   "x": 446.0,
+   "y": 204.0,
+   "w": 18.0,
+   "h": 18.0,
+   "sprite": "P_fender_55_tweed_deluxe_a3",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 19
+   }
   }
  ],
  "meterSources": {

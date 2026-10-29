@@ -6115,6 +6115,15 @@
     "state": "rack",
     "count": 2
    }
+  },
+  {
+   "id": "photo-fxrack",
+   "kind": "image",
+   "x": 699.0,
+   "y": 1.0,
+   "w": 66.0,
+   "h": 22.0,
+   "sprite": "P_chandler_gav19t_fxrack"
   }
  ],
  "meterSources": {

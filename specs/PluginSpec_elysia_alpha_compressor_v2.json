@@ -11400,6 +11400,62 @@
      }
     ]
    }
+  },
+  {
+   "id": "photo-a5",
+   "kind": "filmstrip",
+   "x": 109.0,
+   "y": 282.0,
+   "w": 35.0,
+   "h": 35.0,
+   "sprite": "P_elysia_alpha_compressor_v2_a5",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 33
+   }
+  },
+  {
+   "id": "photo-a6",
+   "kind": "filmstrip",
+   "x": 330.0,
+   "y": 282.0,
+   "w": 35.0,
+   "h": 35.0,
+   "sprite": "P_elysia_alpha_compressor_v2_a6",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 38
+   }
+  },
+  {
+   "id": "photo-a11",
+   "kind": "filmstrip",
+   "x": 217.0,
+   "y": 282.0,
+   "w": 35.0,
+   "h": 35.0,
+   "sprite": "P_elysia_alpha_compressor_v2_a11",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 34
+   }
+  },
+  {
+   "id": "photo-a12",
+   "kind": "filmstrip",
+   "x": 583.0,
+   "y": 282.0,
+   "w": 35.0,
+   "h": 35.0,
+   "sprite": "P_elysia_alpha_compressor_v2_a12",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
   }
  ],
  "meterSources": {

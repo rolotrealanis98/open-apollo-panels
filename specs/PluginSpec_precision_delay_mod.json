@@ -696,6 +696,20 @@
    "sprite": "I_precision_delay_mod_sw19_388_71",
    "frames": 2,
    "param": 19
+  },
+  {
+   "id": "photo-a2",
+   "kind": "filmstrip",
+   "x": 387.0,
+   "y": 70.0,
+   "w": 46.0,
+   "h": 36.0,
+   "sprite": "P_precision_delay_mod_a2",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 19
+   }
   }
  ],
  "meterSources": {}
