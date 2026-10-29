@@ -701,7 +701,7 @@
    "y": 436,
    "w": 70,
    "h": 61,
-   "sprite": "ssl_e_channel_strip_legacy_6438",
+   "sprite": "ssl_e_channel_strip_legacy_brown",
    "frames": 61,
    "kind": "knob",
    "param": 18
@@ -725,7 +725,7 @@
    "y": 392,
    "w": 70,
    "h": 61,
-   "sprite": "ssl_e_channel_strip_legacy_6438",
+   "sprite": "ssl_e_channel_strip_legacy_brown",
    "frames": 61,
    "kind": "knob",
    "param": 19

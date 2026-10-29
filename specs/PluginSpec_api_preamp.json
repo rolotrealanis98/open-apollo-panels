@@ -293,13 +293,13 @@
    }
   },
   {
-   "id": "g-p7_r0",
+   "id": "g-power",
    "kind": "filmstrip",
-   "x": 216,
-   "y": 180,
-   "w": 33.0,
-   "h": 33.0,
-   "sprite": "G_api_preamp_p7_r0",
+   "x": 214,
+   "y": 178,
+   "w": 42,
+   "h": 101,
+   "sprite": "api_preamp_power",
    "frames": 2,
    "frameSource": {
     "type": "param",
