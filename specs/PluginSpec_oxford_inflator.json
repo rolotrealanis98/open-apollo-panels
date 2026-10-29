@@ -73,8 +73,8 @@
   {
    "id": "p0-knob",
    "kind": "knob",
-   "x": 25,
-   "y": 94,
+   "x": 25.0,
+   "y": 96.0,
    "w": 38,
    "h": 264,
    "sprite": "F_Oxford-Inflator_p0_0",

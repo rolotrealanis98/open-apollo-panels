@@ -1448,8 +1448,8 @@
   {
    "id": "p8-knob",
    "kind": "knob",
-   "x": 780,
-   "y": 101,
+   "x": 780.0,
+   "y": 98.0,
    "w": 38,
    "h": 291,
    "sprite": "F_Oxford-SuprEsser-DS_p8_0",
@@ -1459,8 +1459,8 @@
   {
    "id": "p4-knob",
    "kind": "knob",
-   "x": 658,
-   "y": 57,
+   "x": 658.0,
+   "y": 56.0,
    "w": 29,
    "h": 368,
    "sprite": "F_Oxford-SuprEsser-DS_p4_0",
