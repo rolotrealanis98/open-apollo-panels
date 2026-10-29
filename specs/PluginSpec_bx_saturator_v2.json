@@ -989,7 +989,8 @@
     "color": "#E0E0E0",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 17.0,
    "y": 312.0,
@@ -1021,7 +1022,8 @@
     "color": "#E0E0E0",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 17.0,
    "y": 476.0,
@@ -1053,7 +1055,8 @@
     "color": "#E0E0E0",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 451.0,
    "y": 311.0,
@@ -1085,7 +1088,8 @@
     "color": "#E0E0E0",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 451.0,
    "y": 475.0,
@@ -1117,7 +1121,8 @@
     "color": "#E0E0E0",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " %"
    },
    "x": 106.0,
    "y": 158.0,
@@ -1149,7 +1154,8 @@
     "color": "#E0E0E0",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " %"
    },
    "x": 130.0,
    "y": 312.0,
@@ -1165,7 +1171,8 @@
     "color": "#E0E0E0",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " %"
    },
    "x": 130.0,
    "y": 476.0,
@@ -1181,7 +1188,8 @@
     "color": "#E0E0E0",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " %"
    },
    "x": 330.0,
    "y": 312.0,
@@ -1197,7 +1205,8 @@
     "color": "#E0E0E0",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " %"
    },
    "x": 330.0,
    "y": 476.0,
@@ -1213,7 +1222,8 @@
     "color": "#E0E0E0",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " Hz"
    },
    "x": 205.0,
    "y": 210.0,
@@ -1229,7 +1239,8 @@
     "color": "#E0E0E0",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " Hz"
    },
    "x": 255.0,
    "y": 210.0,
