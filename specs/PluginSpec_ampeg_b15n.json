@@ -223,6 +223,18 @@
       "glyph": "redo"
      },
      {
+      "type": "bank",
+      "x": 410.0,
+      "y": 0,
+      "w": 96.0,
+      "h": 24,
+      "sprite": "chrome.bx.bank",
+      "frames": 2,
+      "param": 1,
+      "cells": 4,
+      "glyph": "ABCD"
+     },
+     {
       "type": "icon",
       "x": 530.0,
       "y": 0,
@@ -1904,18 +1916,6 @@
      }
     ]
    }
-  },
-  {
-   "id": "j-tb-bank",
-   "kind": "switch",
-   "param": 1,
-   "frames": 4,
-   "orientation": "horizontal",
-   "sprite": "J_ampeg_b15n_tb_bank",
-   "x": 409.5,
-   "y": 0,
-   "w": 100.0,
-   "h": 24
   },
   {
    "id": "j-tb-rack",

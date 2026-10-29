@@ -6090,6 +6090,20 @@
    }
   },
   {
+   "id": "v-fxrack-label",
+   "kind": "label",
+   "x": 700.0,
+   "y": 2.0,
+   "w": 63.0,
+   "h": 20.0,
+   "text": {
+    "string": "FX Rack",
+    "size": 11.5,
+    "color": "#7A7A7A",
+    "align": "center"
+   }
+  },
+  {
    "id": "j-rack-open-tb",
    "kind": "zone",
    "x": 700.0,
