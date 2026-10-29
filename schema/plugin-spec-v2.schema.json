@@ -570,6 +570,11 @@
     },
     "italic": {
      "type": "boolean"
+    },
+    "suffix": {
+     "type": "string",
+     "maxLength": 8,
+     "description": "appended to the parameter's Console string when it holds a number (the unit a plug-in draws that Console leaves out)"
     }
    },
    "not": {

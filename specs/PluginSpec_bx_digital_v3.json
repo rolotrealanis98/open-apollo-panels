@@ -1229,7 +1229,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " Hz"
    },
    "x": 78.0,
    "y": 80.0,
@@ -1256,7 +1257,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " Hz"
    },
    "x": 300.0,
    "y": 80.0,
@@ -1283,7 +1285,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " Hz"
    },
    "x": 678.0,
    "y": 80.0,
@@ -1310,7 +1313,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " Hz"
    },
    "x": 900.0,
    "y": 80.0,
@@ -1385,7 +1389,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 41.0,
    "y": 156.0,
@@ -1445,7 +1450,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 337.0,
    "y": 156.0,
@@ -1472,7 +1478,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 641.0,
    "y": 156.0,
@@ -1532,7 +1539,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 937.0,
    "y": 156.0,
@@ -1765,7 +1773,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " Hz"
    },
    "x": 41.0,
    "y": 272.0,
@@ -1792,7 +1801,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " Hz"
    },
    "x": 115.0,
    "y": 272.0,
@@ -1819,7 +1829,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " Hz"
    },
    "x": 189.0,
    "y": 272.0,
@@ -1846,7 +1857,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " Hz"
    },
    "x": 263.0,
    "y": 272.0,
@@ -1873,7 +1885,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " Hz"
    },
    "x": 337.0,
    "y": 272.0,
@@ -1900,7 +1913,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " Hz"
    },
    "x": 641.0,
    "y": 272.0,
@@ -1927,7 +1941,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " Hz"
    },
    "x": 715.0,
    "y": 272.0,
@@ -1954,7 +1969,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " Hz"
    },
    "x": 789.0,
    "y": 272.0,
@@ -1981,7 +1997,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " Hz"
    },
    "x": 863.0,
    "y": 272.0,
@@ -2008,7 +2025,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " Hz"
    },
    "x": 937.0,
    "y": 272.0,
@@ -2323,7 +2341,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 420.0,
    "y": 115.0,
@@ -2350,7 +2369,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 491.0,
    "y": 115.0,
@@ -2377,7 +2397,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " %"
    },
    "x": 562.0,
    "y": 115.0,
@@ -2920,7 +2941,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 263.0,
    "y": 389.0,
@@ -2971,7 +2993,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " Hz"
    },
    "x": 337.0,
    "y": 389.0,
@@ -3062,7 +3085,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 715.0,
    "y": 389.0,
@@ -3113,7 +3137,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " Hz"
    },
    "x": 641.0,
    "y": 389.0,
@@ -3176,7 +3201,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " %"
    },
    "x": 426.0,
    "y": 389.0,
@@ -3215,7 +3241,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " Hz"
    },
    "x": 551.0,
    "y": 389.0,
@@ -7160,7 +7187,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 115.0,
    "y": 156.0,
@@ -7242,7 +7270,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 189.0,
    "y": 156.0,
@@ -7324,7 +7353,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 263.0,
    "y": 156.0,
@@ -7570,7 +7600,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 715.0,
    "y": 156.0,
@@ -7652,7 +7683,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 789.0,
    "y": 156.0,
@@ -7734,7 +7766,8 @@
     "color": "#FFFFFF",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 863.0,
    "y": 156.0,

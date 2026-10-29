@@ -651,7 +651,8 @@
     "color": "#E1E1E1",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 71.0,
    "y": 323.0,
@@ -705,7 +706,8 @@
     "color": "#E1E1E1",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " %"
    },
    "x": 231.0,
    "y": 322.0,
@@ -732,7 +734,8 @@
     "color": "#E1E1E1",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " %"
    },
    "x": 352.0,
    "y": 322.0,
@@ -786,7 +789,8 @@
     "color": "#E1E1E1",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 69.0,
    "y": 141.0,

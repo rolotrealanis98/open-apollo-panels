@@ -314,7 +314,8 @@
     "color": "#D2BEBE",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 13.0,
    "y": 204.0,
@@ -341,7 +342,8 @@
     "color": "#D2BEBE",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 89.0,
    "y": 204.0,
@@ -368,7 +370,8 @@
     "color": "#D2BEBE",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " %"
    },
    "x": 51.0,
    "y": 300.0,
@@ -462,7 +465,8 @@
     "color": "#D2BEBE",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " %"
    },
    "x": 89.0,
    "y": 416.0,
@@ -489,7 +493,8 @@
     "color": "#D2BEBE",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " %"
    },
    "x": 263.0,
    "y": 177.0,
@@ -530,7 +535,8 @@
     "color": "#D2BEBE",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " %"
    },
    "x": 207.0,
    "y": 398.0,
@@ -571,7 +577,8 @@
     "color": "#D2BEBE",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " %"
    },
    "x": 320.0,
    "y": 399.0,
@@ -612,7 +619,8 @@
     "color": "#D2BEBE",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " %"
    },
    "x": 264.0,
    "y": 288.0,
@@ -1038,7 +1046,8 @@
     "color": "#D2BEBE",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " %"
    },
    "x": 438.0,
    "y": 204.0,
@@ -1065,7 +1074,8 @@
     "color": "#D2BEBE",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " %"
    },
    "x": 514.0,
    "y": 204.0,

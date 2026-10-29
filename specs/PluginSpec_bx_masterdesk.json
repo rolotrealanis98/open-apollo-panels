@@ -733,7 +733,8 @@
     "color": "#E1E1E1",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 316.0,
    "y": 323.0,
@@ -922,7 +923,8 @@
     "color": "#E1E1E1",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " %"
    },
    "x": 732.0,
    "y": 457.0,
@@ -976,7 +978,8 @@
     "color": "#E1E1E1",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 314.0,
    "y": 141.0,
