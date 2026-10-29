@@ -95656,6 +95656,48 @@
      }
     ]
    }
+  },
+  {
+   "id": "photo-a1r",
+   "kind": "filmstrip",
+   "x": 214.0,
+   "y": 83.0,
+   "w": 77.0,
+   "h": 77.0,
+   "sprite": "P_oto_biscuit_8_bit_effects_a1r",
+   "frames": 97,
+   "frameSource": {
+    "type": "param",
+    "param": 1
+   }
+  },
+  {
+   "id": "photo-a2r",
+   "kind": "filmstrip",
+   "x": 118.0,
+   "y": 83.0,
+   "w": 77.0,
+   "h": 77.0,
+   "sprite": "P_oto_biscuit_8_bit_effects_a2r",
+   "frames": 97,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
+  },
+  {
+   "id": "photo-a3r",
+   "kind": "filmstrip",
+   "x": 309.0,
+   "y": 83.0,
+   "w": 77.0,
+   "h": 77.0,
+   "sprite": "P_oto_biscuit_8_bit_effects_a3r",
+   "frames": 97,
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   }
   }
  ]
 }

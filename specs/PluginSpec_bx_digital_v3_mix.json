@@ -3755,6 +3755,20 @@
    "w": 20.0,
    "h": 20.0,
    "sprite": "P_bx_digital_v3_mix_s4"
+  },
+  {
+   "id": "photo-a2r",
+   "kind": "filmstrip",
+   "x": 253.0,
+   "y": 58.0,
+   "w": 37.0,
+   "h": 18.0,
+   "sprite": "P_bx_digital_v3_mix_a2r",
+   "frames": 7,
+   "frameSource": {
+    "type": "param",
+    "param": 6
+   }
   }
  ],
  "meterSources": {

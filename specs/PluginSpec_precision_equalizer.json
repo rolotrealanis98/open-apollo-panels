@@ -1428,6 +1428,118 @@
      }
     ]
    }
+  },
+  {
+   "id": "photo-a0r",
+   "kind": "filmstrip",
+   "x": 43.0,
+   "y": 222.0,
+   "w": 49.0,
+   "h": 15.0,
+   "sprite": "P_precision_equalizer_a0r",
+   "frames": 21,
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   }
+  },
+  {
+   "id": "photo-a1r",
+   "kind": "filmstrip",
+   "x": 111.0,
+   "y": 222.0,
+   "w": 49.0,
+   "h": 15.0,
+   "sprite": "P_precision_equalizer_a1r",
+   "frames": 21,
+   "frameSource": {
+    "type": "param",
+    "param": 6
+   }
+  },
+  {
+   "id": "photo-a2r",
+   "kind": "filmstrip",
+   "x": 179.0,
+   "y": 222.0,
+   "w": 49.0,
+   "h": 15.0,
+   "sprite": "P_precision_equalizer_a2r",
+   "frames": 21,
+   "frameSource": {
+    "type": "param",
+    "param": 10
+   }
+  },
+  {
+   "id": "photo-a3r",
+   "kind": "filmstrip",
+   "x": 247.0,
+   "y": 222.0,
+   "w": 49.0,
+   "h": 15.0,
+   "sprite": "P_precision_equalizer_a3r",
+   "frames": 21,
+   "frameSource": {
+    "type": "param",
+    "param": 14
+   }
+  },
+  {
+   "id": "photo-a4r",
+   "kind": "filmstrip",
+   "x": 424.0,
+   "y": 222.0,
+   "w": 49.0,
+   "h": 15.0,
+   "sprite": "P_precision_equalizer_a4r",
+   "frames": 21,
+   "frameSource": {
+    "type": "param",
+    "param": 18
+   }
+  },
+  {
+   "id": "photo-a5r",
+   "kind": "filmstrip",
+   "x": 492.0,
+   "y": 222.0,
+   "w": 49.0,
+   "h": 15.0,
+   "sprite": "P_precision_equalizer_a5r",
+   "frames": 21,
+   "frameSource": {
+    "type": "param",
+    "param": 22
+   }
+  },
+  {
+   "id": "photo-a6r",
+   "kind": "filmstrip",
+   "x": 560.0,
+   "y": 222.0,
+   "w": 49.0,
+   "h": 15.0,
+   "sprite": "P_precision_equalizer_a6r",
+   "frames": 21,
+   "frameSource": {
+    "type": "param",
+    "param": 26
+   }
+  },
+  {
+   "id": "photo-a7r",
+   "kind": "filmstrip",
+   "x": 628.0,
+   "y": 222.0,
+   "w": 49.0,
+   "h": 15.0,
+   "sprite": "P_precision_equalizer_a7r",
+   "frames": 21,
+   "frameSource": {
+    "type": "param",
+    "param": 30
+   }
   }
  ],
  "meterSources": {}

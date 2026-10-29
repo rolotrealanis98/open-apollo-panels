@@ -325,6 +325,34 @@
     "bezel": "#141A1660",
     "bezelWidth": 0.6
    }
+  },
+  {
+   "id": "photo-a1r",
+   "kind": "filmstrip",
+   "x": 12.0,
+   "y": 31.0,
+   "w": 108.0,
+   "h": 92.0,
+   "sprite": "P_api_preamp_a1r",
+   "frames": 101,
+   "frameSource": {
+    "type": "param",
+    "param": 1
+   }
+  },
+  {
+   "id": "photo-a3r",
+   "kind": "filmstrip",
+   "x": 12.0,
+   "y": 121.0,
+   "w": 108.0,
+   "h": 92.0,
+   "sprite": "P_api_preamp_a3r",
+   "frames": 101,
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   }
   }
  ],
  "meterSources": {

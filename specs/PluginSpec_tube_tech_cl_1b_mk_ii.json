@@ -907,6 +907,34 @@
      }
     ]
    }
+  },
+  {
+   "id": "photo-a0r",
+   "kind": "filmstrip",
+   "x": 193.0,
+   "y": 64.0,
+   "w": 139.0,
+   "h": 122.0,
+   "sprite": "P_tube_tech_cl_1b_mk_ii_a0r",
+   "frames": 121,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
+  },
+  {
+   "id": "photo-a2r",
+   "kind": "filmstrip",
+   "x": 366.0,
+   "y": 63.5,
+   "w": 130.0,
+   "h": 122.0,
+   "sprite": "P_tube_tech_cl_1b_mk_ii_a2r",
+   "frames": 121,
+   "frameSource": {
+    "type": "param",
+    "param": 1
+   }
   }
  ],
  "panelless": [

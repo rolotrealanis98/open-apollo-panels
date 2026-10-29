@@ -4662,6 +4662,34 @@
    "w": 12.0,
    "h": 12.0,
    "sprite": "P_bx_digital_v2_s26"
+  },
+  {
+   "id": "photo-a6r",
+   "kind": "filmstrip",
+   "x": 495.0,
+   "y": 256.0,
+   "w": 34.0,
+   "h": 16.0,
+   "sprite": "P_bx_digital_v2_a6r",
+   "frames": 7,
+   "frameSource": {
+    "type": "param",
+    "param": 5
+   }
+  },
+  {
+   "id": "photo-a16r",
+   "kind": "filmstrip",
+   "x": 906.0,
+   "y": 52.0,
+   "w": 34.0,
+   "h": 34.0,
+   "sprite": "P_bx_digital_v2_a16r",
+   "frames": 61,
+   "frameSource": {
+    "type": "param",
+    "param": 71
+   }
   }
  ],
  "meterSources": {

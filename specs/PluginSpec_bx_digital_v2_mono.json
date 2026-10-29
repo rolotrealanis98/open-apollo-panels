@@ -1667,6 +1667,20 @@
    "w": 12.0,
    "h": 12.0,
    "sprite": "P_bx_digital_v2_mono_s10"
+  },
+  {
+   "id": "photo-a1r",
+   "kind": "filmstrip",
+   "x": 260.0,
+   "y": 66.0,
+   "w": 34.0,
+   "h": 16.0,
+   "sprite": "P_bx_digital_v2_mono_a1r",
+   "frames": 7,
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   }
   }
  ],
  "meterSources": {

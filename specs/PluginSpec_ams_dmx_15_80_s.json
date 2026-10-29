@@ -19306,6 +19306,34 @@
     "type": "param",
     "param": 22
    }
+  },
+  {
+   "id": "photo-a4r",
+   "kind": "filmstrip",
+   "x": 542.1,
+   "y": 183.0,
+   "w": 52.0,
+   "h": 52.0,
+   "sprite": "P_ams_dmx_15_80_s_a4r",
+   "frames": 101,
+   "frameSource": {
+    "type": "param",
+    "param": 18
+   }
+  },
+  {
+   "id": "photo-a5r",
+   "kind": "filmstrip",
+   "x": 627.1,
+   "y": 183.0,
+   "w": 52.0,
+   "h": 52.0,
+   "sprite": "P_ams_dmx_15_80_s_a5r",
+   "frames": 101,
+   "frameSource": {
+    "type": "param",
+    "param": 19
+   }
   }
  ],
  "states": {

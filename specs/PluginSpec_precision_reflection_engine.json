@@ -532,6 +532,20 @@
     "type": "param",
     "param": 12
    }
+  },
+  {
+   "id": "photo-a0r",
+   "kind": "filmstrip",
+   "x": 239.0,
+   "y": 132.0,
+   "w": 81.0,
+   "h": 16.0,
+   "sprite": "P_precision_reflection_engine_a0r",
+   "frames": 19,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
   }
  ],
  "meterSources": {}

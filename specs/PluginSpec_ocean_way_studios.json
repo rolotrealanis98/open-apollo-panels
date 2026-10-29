@@ -2847,6 +2847,76 @@
    "w": 20.0,
    "h": 20.0,
    "sprite": "P_ocean_way_studios_s6"
+  },
+  {
+   "id": "photo-a1r",
+   "kind": "filmstrip",
+   "x": 171.0,
+   "y": 72.0,
+   "w": 139.0,
+   "h": 31.0,
+   "sprite": "P_ocean_way_studios_a1r",
+   "frames": 11,
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   }
+  },
+  {
+   "id": "photo-a2r",
+   "kind": "filmstrip",
+   "x": 10.0,
+   "y": 72.0,
+   "w": 139.0,
+   "h": 31.0,
+   "sprite": "P_ocean_way_studios_a2r",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 1
+   }
+  },
+  {
+   "id": "photo-a3r",
+   "kind": "filmstrip",
+   "x": 328.0,
+   "y": 71.0,
+   "w": 46.0,
+   "h": 18.0,
+   "sprite": "P_ocean_way_studios_a3r",
+   "frames": 6,
+   "frameSource": {
+    "type": "param",
+    "param": 3
+   }
+  },
+  {
+   "id": "photo-a4r",
+   "kind": "filmstrip",
+   "x": 378.0,
+   "y": 71.0,
+   "w": 46.0,
+   "h": 18.0,
+   "sprite": "P_ocean_way_studios_a4r",
+   "frames": 5,
+   "frameSource": {
+    "type": "param",
+    "param": 12
+   }
+  },
+  {
+   "id": "photo-a5r",
+   "kind": "filmstrip",
+   "x": 428.0,
+   "y": 71.0,
+   "w": 46.0,
+   "h": 18.0,
+   "sprite": "P_ocean_way_studios_a5r",
+   "frames": 8,
+   "frameSource": {
+    "type": "param",
+    "param": 21
+   }
   }
  ],
  "meterSources": {},

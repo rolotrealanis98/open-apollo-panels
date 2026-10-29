@@ -2019,6 +2019,20 @@
    "w": 12.0,
    "h": 12.0,
    "sprite": "P_c_suite_c_axe_s10"
+  },
+  {
+   "id": "photo-a0r",
+   "kind": "filmstrip",
+   "x": 497.0,
+   "y": 221.0,
+   "w": 158.0,
+   "h": 158.0,
+   "sprite": "P_c_suite_c_axe_a0r",
+   "frames": 101,
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   }
   }
  ]
 }

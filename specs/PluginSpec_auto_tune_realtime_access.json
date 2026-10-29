@@ -20113,6 +20113,34 @@
      ]
     }
    }
+  },
+  {
+   "id": "photo-a0r",
+   "kind": "filmstrip",
+   "x": 164.0,
+   "y": 20.0,
+   "w": 80.0,
+   "h": 24.0,
+   "sprite": "P_auto_tune_realtime_access_a0r",
+   "frames": 3,
+   "frameSource": {
+    "type": "param",
+    "param": 1
+   }
+  },
+  {
+   "id": "photo-a1r",
+   "kind": "filmstrip",
+   "x": 121.0,
+   "y": 20.0,
+   "w": 34.0,
+   "h": 24.0,
+   "sprite": "P_auto_tune_realtime_access_a1r",
+   "frames": 12,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
   }
  ],
  "states": {

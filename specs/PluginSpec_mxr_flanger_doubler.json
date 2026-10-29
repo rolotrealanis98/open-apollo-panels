@@ -856,6 +856,48 @@
      }
     ]
    }
+  },
+  {
+   "id": "photo-a0r",
+   "kind": "filmstrip",
+   "x": 531.0,
+   "y": 60.0,
+   "w": 60.0,
+   "h": 60.0,
+   "sprite": "P_mxr_flanger_doubler_a0r",
+   "frames": 107,
+   "frameSource": {
+    "type": "param",
+    "param": 5
+   }
+  },
+  {
+   "id": "photo-a2r",
+   "kind": "filmstrip",
+   "x": 440.0,
+   "y": 65.0,
+   "w": 50.0,
+   "h": 50.0,
+   "sprite": "P_mxr_flanger_doubler_a2r",
+   "frames": 71,
+   "frameSource": {
+    "type": "param",
+    "param": 4
+   }
+  },
+  {
+   "id": "photo-a3r",
+   "kind": "filmstrip",
+   "x": 629.0,
+   "y": 65.0,
+   "w": 50.0,
+   "h": 50.0,
+   "sprite": "P_mxr_flanger_doubler_a3r",
+   "frames": 71,
+   "frameSource": {
+    "type": "param",
+    "param": 6
+   }
   }
  ],
  "meterSources": {
