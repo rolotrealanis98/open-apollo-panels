@@ -3,10 +3,10 @@
  "effectName": "UAD Empirical Labs FATSO Sr",
  "namePattern": "Empirical Labs FATSO Sr",
  "size": {
-  "w": 950,
-  "h": 188
+  "w": 1200.0,
+  "h": 220.0
  },
- "background": "empirical_labs_fatso_sr_6700",
+ "background": "empirical_labs_fatso_sr_mac_6700",
  "parameters": [
   {
    "index": 0,
@@ -239,44 +239,44 @@
  "elements": [
   {
    "id": "knob-1-ch1input",
-   "x": 40,
-   "y": 6,
-   "w": 82,
-   "h": 82,
-   "sprite": "empirical_labs_fatso_sr_6703",
+   "x": 79.7,
+   "y": 7.2,
+   "w": 98.6,
+   "h": 95.7,
+   "sprite": "empirical_labs_fatso_sr_mac_knob_1_ch1input",
    "frames": 106,
    "kind": "knob",
    "param": 0
   },
   {
    "id": "knob-2-ch2input",
-   "x": 452,
-   "y": 6,
-   "w": 82,
-   "h": 82,
-   "sprite": "empirical_labs_fatso_sr_6703",
+   "x": 582.4,
+   "y": 9.8,
+   "w": 98.6,
+   "h": 95.7,
+   "sprite": "empirical_labs_fatso_sr_mac_knob_2_ch2input",
    "frames": 106,
    "kind": "knob",
    "param": 10
   },
   {
    "id": "knob-3-ch1output",
-   "x": 370,
-   "y": 6,
-   "w": 82,
-   "h": 82,
-   "sprite": "empirical_labs_fatso_sr_6703",
+   "x": 481.2,
+   "y": 10.7,
+   "w": 98.6,
+   "h": 95.7,
+   "sprite": "empirical_labs_fatso_sr_mac_knob_3_ch1output",
    "frames": 106,
    "kind": "knob",
    "param": 4
   },
   {
    "id": "knob-4-ch2output",
-   "x": 784,
-   "y": 6,
-   "w": 82,
-   "h": 82,
-   "sprite": "empirical_labs_fatso_sr_6703",
+   "x": 982.8,
+   "y": 7.3,
+   "w": 98.6,
+   "h": 95.7,
+   "sprite": "empirical_labs_fatso_sr_mac_knob_4_ch2output",
    "frames": 106,
    "kind": "knob",
    "param": 14
@@ -284,11 +284,11 @@
   {
    "id": "switch-5-complink",
    "kind": "switch",
-   "x": 277,
-   "y": 51,
-   "w": 46,
-   "h": 19,
-   "sprite": "empirical_labs_fatso_sr_6711_2",
+   "x": 364.5,
+   "y": 54.4,
+   "w": 55.3,
+   "h": 22.2,
+   "sprite": "empirical_labs_fatso_sr_mac_switch_5_complink",
    "frames": 3,
    "param": 20,
    "orientation": "vertical",
@@ -316,11 +316,11 @@
   {
    "id": "switch-6-ctrllink",
    "kind": "switch",
-   "x": 691,
-   "y": 51,
-   "w": 46,
-   "h": 19,
-   "sprite": "empirical_labs_fatso_sr_6712_3",
+   "x": 863.5,
+   "y": 56.4,
+   "w": 55.3,
+   "h": 22.2,
+   "sprite": "empirical_labs_fatso_sr_mac_switch_6_ctrllink",
    "frames": 2,
    "param": 21,
    "orientation": "vertical"
@@ -332,11 +332,11 @@
     "type": "param",
     "param": 1
    },
-   "x": 152,
-   "y": 19,
-   "w": 10,
-   "h": 36,
-   "sprite": "empirical_labs_fatso_sr_6709",
+   "x": 218.3,
+   "y": 18.8,
+   "w": 12.0,
+   "h": 42.0,
+   "sprite": "empirical_labs_fatso_sr_mac_filmstrip_7_ch1comp",
    "frames": 8,
    "visibility": {
     "params": [
@@ -364,11 +364,11 @@
     "type": "param",
     "param": 1
    },
-   "x": 152,
-   "y": 19,
-   "w": 10,
-   "h": 36,
-   "sprite": "P_empirical_labs_fatso_sr_6716",
+   "x": 218.3,
+   "y": 18.8,
+   "w": 12.0,
+   "h": 42.0,
+   "sprite": "P_empirical_labs_fatso_sr_mac_P_filmstrip_7_ch1comp_alt0",
    "frames": 8,
    "id": "P-filmstrip-7-ch1comp-alt0",
    "visibility": {
@@ -394,20 +394,20 @@
   {
    "id": "image-8-internal24",
    "kind": "image",
-   "x": 122,
-   "y": 60,
-   "w": 40,
-   "h": 21,
-   "sprite": "empirical_labs_fatso_sr_6704_5"
+   "x": 181.0,
+   "y": 69.8,
+   "w": 48.1,
+   "h": 24.5,
+   "sprite": "empirical_labs_fatso_sr_mac_image_8_internal24"
   },
   {
    "id": "image-9-internal25",
    "kind": "image",
-   "x": 227,
-   "y": 51,
-   "w": 40,
-   "h": 21,
-   "sprite": "empirical_labs_fatso_sr_6704_5"
+   "x": 306.2,
+   "y": 60.6,
+   "w": 48.1,
+   "h": 24.5,
+   "sprite": "empirical_labs_fatso_sr_mac_image_9_internal25"
   },
   {
    "id": "filmstrip-10-ch1warmth",
@@ -416,11 +416,11 @@
     "type": "param",
     "param": 2
    },
-   "x": 213,
-   "y": 26,
-   "w": 64,
-   "h": 32,
-   "sprite": "empirical_labs_fatso_sr_6708",
+   "x": 289.8,
+   "y": 31.7,
+   "w": 77.0,
+   "h": 37.3,
+   "sprite": "empirical_labs_fatso_sr_mac_filmstrip_10_ch1warmth",
    "frames": 8,
    "reverse": true,
    "visibility": {
@@ -449,11 +449,11 @@
     "type": "param",
     "param": 2
    },
-   "x": 213,
-   "y": 26,
-   "w": 64,
-   "h": 32,
-   "sprite": "P_empirical_labs_fatso_sr_6719",
+   "x": 289.8,
+   "y": 31.7,
+   "w": 77.0,
+   "h": 37.3,
+   "sprite": "P_empirical_labs_fatso_sr_mac_P_filmstrip_10_ch1warmth_alt0",
    "frames": 8,
    "reverse": true,
    "id": "P-filmstrip-10-ch1warmth-alt0",
@@ -484,11 +484,11 @@
     "type": "param",
     "param": 3
    },
-   "x": 360,
-   "y": 25,
-   "w": 10,
-   "h": 23,
-   "sprite": "empirical_labs_fatso_sr_6710",
+   "x": 469.1,
+   "y": 29.1,
+   "w": 12.0,
+   "h": 26.8,
+   "sprite": "empirical_labs_fatso_sr_mac_filmstrip_11_ch1bypass",
    "frames": 3,
    "reverse": true,
    "visibility": {
@@ -517,11 +517,11 @@
     "type": "param",
     "param": 3
    },
-   "x": 360,
-   "y": 25,
-   "w": 10,
-   "h": 23,
-   "sprite": "P_empirical_labs_fatso_sr_6718",
+   "x": 469.1,
+   "y": 29.1,
+   "w": 12.0,
+   "h": 26.8,
+   "sprite": "P_empirical_labs_fatso_sr_mac_P_filmstrip_11_ch1bypass_alt0",
    "frames": 3,
    "reverse": true,
    "id": "P-filmstrip-11-ch1bypass-alt0",
@@ -548,11 +548,11 @@
   {
    "id": "image-12-internal26",
    "kind": "image",
-   "x": 325,
-   "y": 51,
-   "w": 40,
-   "h": 21,
-   "sprite": "empirical_labs_fatso_sr_6705_8"
+   "x": 426.7,
+   "y": 60.3,
+   "w": 48.1,
+   "h": 24.5,
+   "sprite": "empirical_labs_fatso_sr_mac_image_12_internal26"
   },
   {
    "id": "filmstrip-13-ch2comp",
@@ -561,11 +561,11 @@
     "type": "param",
     "param": 11
    },
-   "x": 566,
-   "y": 19,
-   "w": 10,
-   "h": 36,
-   "sprite": "empirical_labs_fatso_sr_6709",
+   "x": 715.2,
+   "y": 18.4,
+   "w": 12.0,
+   "h": 42.0,
+   "sprite": "empirical_labs_fatso_sr_mac_filmstrip_13_ch2comp",
    "frames": 8,
    "visibility": {
     "params": [
@@ -593,11 +593,11 @@
     "type": "param",
     "param": 11
    },
-   "x": 566,
-   "y": 19,
-   "w": 10,
-   "h": 36,
-   "sprite": "P_empirical_labs_fatso_sr_6716",
+   "x": 715.2,
+   "y": 18.4,
+   "w": 12.0,
+   "h": 42.0,
+   "sprite": "P_empirical_labs_fatso_sr_mac_P_filmstrip_13_ch2comp_alt0",
    "frames": 8,
    "id": "P-filmstrip-13-ch2comp-alt0",
    "visibility": {
@@ -623,20 +623,20 @@
   {
    "id": "image-14-internal30",
    "kind": "image",
-   "x": 536,
-   "y": 60,
-   "w": 40,
-   "h": 21,
-   "sprite": "empirical_labs_fatso_sr_6704_5"
+   "x": 678.9,
+   "y": 69.8,
+   "w": 48.1,
+   "h": 24.5,
+   "sprite": "empirical_labs_fatso_sr_mac_image_14_internal30"
   },
   {
    "id": "image-15-internal31",
    "kind": "image",
-   "x": 641,
-   "y": 51,
-   "w": 40,
-   "h": 21,
-   "sprite": "empirical_labs_fatso_sr_6704_5"
+   "x": 802.2,
+   "y": 60.6,
+   "w": 48.1,
+   "h": 24.5,
+   "sprite": "empirical_labs_fatso_sr_mac_image_15_internal31"
   },
   {
    "id": "filmstrip-16-ch2warmth",
@@ -645,11 +645,11 @@
     "type": "param",
     "param": 12
    },
-   "x": 627,
-   "y": 26,
-   "w": 64,
-   "h": 32,
-   "sprite": "empirical_labs_fatso_sr_6708",
+   "x": 787.5,
+   "y": 32.1,
+   "w": 77.0,
+   "h": 37.3,
+   "sprite": "empirical_labs_fatso_sr_mac_filmstrip_16_ch2warmth",
    "frames": 8,
    "reverse": true,
    "visibility": {
@@ -678,11 +678,11 @@
     "type": "param",
     "param": 12
    },
-   "x": 627,
-   "y": 26,
-   "w": 64,
-   "h": 32,
-   "sprite": "P_empirical_labs_fatso_sr_6719",
+   "x": 787.5,
+   "y": 32.1,
+   "w": 77.0,
+   "h": 37.3,
+   "sprite": "P_empirical_labs_fatso_sr_mac_P_filmstrip_16_ch2warmth_alt0",
    "frames": 8,
    "reverse": true,
    "id": "P-filmstrip-16-ch2warmth-alt0",
@@ -713,11 +713,11 @@
     "type": "param",
     "param": 13
    },
-   "x": 774,
-   "y": 25,
-   "w": 10,
-   "h": 23,
-   "sprite": "empirical_labs_fatso_sr_6710",
+   "x": 966.1,
+   "y": 29.1,
+   "w": 12.0,
+   "h": 26.8,
+   "sprite": "empirical_labs_fatso_sr_mac_filmstrip_17_ch2bypass",
    "frames": 3,
    "reverse": true,
    "visibility": {
@@ -746,11 +746,11 @@
     "type": "param",
     "param": 13
    },
-   "x": 774,
-   "y": 25,
-   "w": 10,
-   "h": 23,
-   "sprite": "P_empirical_labs_fatso_sr_6718",
+   "x": 966.1,
+   "y": 29.1,
+   "w": 12.0,
+   "h": 26.8,
+   "sprite": "P_empirical_labs_fatso_sr_mac_P_filmstrip_17_ch2bypass_alt0",
    "frames": 3,
    "reverse": true,
    "id": "P-filmstrip-17-ch2bypass-alt0",
@@ -777,19 +777,19 @@
   {
    "id": "image-18-internal32",
    "kind": "image",
-   "x": 739,
-   "y": 51,
-   "w": 40,
-   "h": 21,
-   "sprite": "empirical_labs_fatso_sr_6705_8"
+   "x": 925.1,
+   "y": 61.1,
+   "w": 48.1,
+   "h": 24.5,
+   "sprite": "empirical_labs_fatso_sr_mac_image_18_internal32"
   },
   {
    "id": "switch-19-power",
-   "x": 868,
-   "y": 27,
-   "w": 31,
-   "h": 41,
-   "sprite": "empirical_labs_fatso_sr_6702",
+   "x": 1078.2,
+   "y": 31.3,
+   "w": 37.3,
+   "h": 47.9,
+   "sprite": "empirical_labs_fatso_sr_mac_switch_19_power",
    "frames": 2,
    "kind": "switch",
    "param": 22,
@@ -802,10 +802,10 @@
     "type": "meter",
     "meter": "meter0"
    },
-   "x": 162,
-   "y": 12,
-   "w": 178,
-   "h": 10,
+   "x": 233.8,
+   "y": 13.3,
+   "w": 214.1,
+   "h": 11.7,
    "sprite": "P_empirical_labs_fatso_sr_6706_rev",
    "frames": 9
   },
@@ -816,10 +816,10 @@
     "type": "meter",
     "meter": "meter1"
    },
-   "x": 576,
-   "y": 12,
-   "w": 178,
-   "h": 10,
+   "x": 731.8,
+   "y": 13.3,
+   "w": 214.1,
+   "h": 11.7,
    "sprite": "P_empirical_labs_fatso_sr_6706_rev",
    "frames": 9
   },
@@ -830,10 +830,10 @@
     "type": "meter",
     "meter": "meter2"
    },
-   "x": 162,
-   "y": 72,
-   "w": 178,
-   "h": 10,
+   "x": 233.8,
+   "y": 84.3,
+   "w": 214.1,
+   "h": 11.7,
    "sprite": "P_empirical_labs_fatso_sr_6706_rev",
    "frames": 9
   },
@@ -844,10 +844,10 @@
     "type": "meter",
     "meter": "meter3"
    },
-   "x": 576,
-   "y": 72,
-   "w": 178,
-   "h": 10,
+   "x": 731.8,
+   "y": 84.3,
+   "w": 214.1,
+   "h": 11.7,
    "sprite": "P_empirical_labs_fatso_sr_6706_rev",
    "frames": 9
   },
@@ -858,10 +858,10 @@
     "type": "meter",
     "meter": "meter4"
    },
-   "x": 313,
-   "y": 38,
-   "w": 10,
-   "h": 10,
+   "x": 410.7,
+   "y": 44.1,
+   "w": 12.0,
+   "h": 11.7,
    "sprite": "P_empirical_labs_fatso_sr_6714_rev",
    "frames": 2
   },
@@ -872,10 +872,10 @@
     "type": "meter",
     "meter": "meter5"
    },
-   "x": 727,
-   "y": 38,
-   "w": 10,
-   "h": 10,
+   "x": 905.0,
+   "y": 43.2,
+   "w": 12.0,
+   "h": 11.7,
    "sprite": "P_empirical_labs_fatso_sr_6714_rev",
    "frames": 2
   },
@@ -886,10 +886,10 @@
     "type": "meter",
     "meter": "meter6"
    },
-   "x": 313,
-   "y": 25,
-   "w": 10,
-   "h": 10,
+   "x": 407.8,
+   "y": 29.0,
+   "w": 12.0,
+   "h": 11.7,
    "sprite": "P_empirical_labs_fatso_sr_6715_rev",
    "frames": 2
   },
@@ -900,53 +900,53 @@
     "type": "meter",
     "meter": "meter7"
    },
-   "x": 727,
-   "y": 25,
-   "w": 10,
-   "h": 10,
+   "x": 905.0,
+   "y": 29.2,
+   "w": 12.0,
+   "h": 11.7,
    "sprite": "P_empirical_labs_fatso_sr_6715_rev",
    "frames": 2
   },
   {
    "id": "knob-28-ch1thresh",
-   "x": 40,
-   "y": 100,
-   "w": 82,
-   "h": 82,
-   "sprite": "empirical_labs_fatso_sr_6703",
+   "x": 79.8,
+   "y": 117.3,
+   "w": 98.6,
+   "h": 95.7,
+   "sprite": "empirical_labs_fatso_sr_mac_knob_28_ch1thresh",
    "frames": 106,
    "kind": "knob",
    "param": 5
   },
   {
    "id": "knob-29-ch2thresh",
-   "x": 452,
-   "y": 100,
-   "w": 82,
-   "h": 82,
-   "sprite": "empirical_labs_fatso_sr_6703",
+   "x": 579.7,
+   "y": 117.2,
+   "w": 98.6,
+   "h": 95.7,
+   "sprite": "empirical_labs_fatso_sr_mac_knob_29_ch2thresh",
    "frames": 106,
    "kind": "knob",
    "param": 15
   },
   {
    "id": "knob-30-ch1trannylvl",
-   "x": 370,
-   "y": 100,
-   "w": 82,
-   "h": 82,
-   "sprite": "empirical_labs_fatso_sr_6703",
+   "x": 481.5,
+   "y": 118.9,
+   "w": 98.6,
+   "h": 95.7,
+   "sprite": "empirical_labs_fatso_sr_mac_knob_30_ch1trannylvl",
    "frames": 106,
    "kind": "knob",
    "param": 9
   },
   {
    "id": "knob-31-ch2trannylvl",
-   "x": 784,
-   "y": 100,
-   "w": 82,
-   "h": 82,
-   "sprite": "empirical_labs_fatso_sr_6703",
+   "x": 982.8,
+   "y": 117.3,
+   "w": 98.6,
+   "h": 95.7,
+   "sprite": "empirical_labs_fatso_sr_mac_knob_31_ch2trannylvl",
    "frames": 106,
    "kind": "knob",
    "param": 19
@@ -954,56 +954,56 @@
   {
    "id": "image-32-internal27",
    "kind": "image",
-   "x": 158,
-   "y": 155,
-   "w": 40,
-   "h": 21,
-   "sprite": "empirical_labs_fatso_sr_6704_5"
+   "x": 225.1,
+   "y": 181.1,
+   "w": 48.1,
+   "h": 24.5,
+   "sprite": "empirical_labs_fatso_sr_mac_image_32_internal27"
   },
   {
    "id": "image-33-internal28",
    "kind": "image",
-   "x": 229,
-   "y": 155,
-   "w": 40,
-   "h": 21,
-   "sprite": "empirical_labs_fatso_sr_6704_5"
+   "x": 307.1,
+   "y": 181.1,
+   "w": 48.1,
+   "h": 24.5,
+   "sprite": "empirical_labs_fatso_sr_mac_image_33_internal28"
   },
   {
    "id": "image-34-internal29",
    "kind": "image",
-   "x": 302,
-   "y": 155,
-   "w": 40,
-   "h": 21,
-   "sprite": "empirical_labs_fatso_sr_6704_5"
+   "x": 397.5,
+   "y": 180.7,
+   "w": 48.1,
+   "h": 24.5,
+   "sprite": "empirical_labs_fatso_sr_mac_image_34_internal29"
   },
   {
    "id": "image-35-internal33",
    "kind": "image",
-   "x": 572,
-   "y": 155,
-   "w": 40,
-   "h": 21,
-   "sprite": "empirical_labs_fatso_sr_6704_5"
+   "x": 723.1,
+   "y": 181.1,
+   "w": 48.1,
+   "h": 24.5,
+   "sprite": "empirical_labs_fatso_sr_mac_image_35_internal33"
   },
   {
    "id": "image-36-internal34",
    "kind": "image",
-   "x": 643,
-   "y": 155,
-   "w": 40,
-   "h": 21,
-   "sprite": "empirical_labs_fatso_sr_6704_5"
+   "x": 803.1,
+   "y": 181.1,
+   "w": 48.1,
+   "h": 24.5,
+   "sprite": "empirical_labs_fatso_sr_mac_image_36_internal34"
   },
   {
    "id": "image-37-internal35",
    "kind": "image",
-   "x": 716,
-   "y": 155,
-   "w": 40,
-   "h": 21,
-   "sprite": "empirical_labs_fatso_sr_6704_5"
+   "x": 895.4,
+   "y": 180.7,
+   "w": 48.1,
+   "h": 24.5,
+   "sprite": "empirical_labs_fatso_sr_mac_image_37_internal35"
   },
   {
    "id": "filmstrip-38-internal44",
@@ -1012,10 +1012,10 @@
     "type": "meter",
     "meter": "meter8"
    },
-   "x": 358,
-   "y": 154,
-   "w": 10,
-   "h": 10,
+   "x": 464.9,
+   "y": 179.5,
+   "w": 12.0,
+   "h": 11.7,
    "sprite": "P_empirical_labs_fatso_sr_6707_rev",
    "frames": 20
   },
@@ -1026,10 +1026,10 @@
     "type": "meter",
     "meter": "meter9"
    },
-   "x": 770,
-   "y": 154,
-   "w": 10,
-   "h": 10,
+   "x": 960.3,
+   "y": 179.5,
+   "w": 12.0,
+   "h": 11.7,
    "sprite": "P_empirical_labs_fatso_sr_6707_rev",
    "frames": 20
   },
@@ -1040,11 +1040,11 @@
     "type": "param",
     "param": 6
    },
-   "x": 184,
-   "y": 111,
-   "w": 10,
-   "h": 43,
-   "sprite": "empirical_labs_fatso_sr_6713",
+   "x": 256.0,
+   "y": 128.4,
+   "w": 12.0,
+   "h": 50.2,
+   "sprite": "empirical_labs_fatso_sr_mac_filmstrip_40_ch1filter",
    "frames": 5,
    "visibility": {
     "params": [
@@ -1072,11 +1072,11 @@
     "type": "param",
     "param": 6
    },
-   "x": 184,
-   "y": 111,
-   "w": 10,
-   "h": 43,
-   "sprite": "P_empirical_labs_fatso_sr_6717",
+   "x": 256.0,
+   "y": 128.4,
+   "w": 12.0,
+   "h": 50.2,
+   "sprite": "P_empirical_labs_fatso_sr_mac_P_filmstrip_40_ch1filter_alt0",
    "frames": 5,
    "id": "P-filmstrip-40-ch1filter-alt0",
    "visibility": {
@@ -1106,11 +1106,11 @@
     "type": "param",
     "param": 16
    },
-   "x": 598,
-   "y": 111,
-   "w": 10,
-   "h": 43,
-   "sprite": "empirical_labs_fatso_sr_6713",
+   "x": 752.1,
+   "y": 127.8,
+   "w": 12.0,
+   "h": 50.2,
+   "sprite": "empirical_labs_fatso_sr_mac_filmstrip_41_ch2filter",
    "frames": 5,
    "visibility": {
     "params": [
@@ -1138,11 +1138,11 @@
     "type": "param",
     "param": 16
    },
-   "x": 598,
-   "y": 111,
-   "w": 10,
-   "h": 43,
-   "sprite": "P_empirical_labs_fatso_sr_6717",
+   "x": 752.1,
+   "y": 127.8,
+   "w": 12.0,
+   "h": 50.2,
+   "sprite": "P_empirical_labs_fatso_sr_mac_P_filmstrip_41_ch2filter_alt0",
    "frames": 5,
    "id": "P-filmstrip-41-ch2filter-alt0",
    "visibility": {
@@ -1172,11 +1172,11 @@
     "type": "param",
     "param": 7
    },
-   "x": 255,
-   "y": 111,
-   "w": 10,
-   "h": 43,
-   "sprite": "empirical_labs_fatso_sr_6713",
+   "x": 338.0,
+   "y": 128.4,
+   "w": 12.0,
+   "h": 50.2,
+   "sprite": "empirical_labs_fatso_sr_mac_filmstrip_42_ch1attack",
    "frames": 5,
    "visibility": {
     "params": [
@@ -1204,11 +1204,11 @@
     "type": "param",
     "param": 7
    },
-   "x": 255,
-   "y": 111,
-   "w": 10,
-   "h": 43,
-   "sprite": "P_empirical_labs_fatso_sr_6717",
+   "x": 338.0,
+   "y": 128.4,
+   "w": 12.0,
+   "h": 50.2,
+   "sprite": "P_empirical_labs_fatso_sr_mac_P_filmstrip_42_ch1attack_alt0",
    "frames": 5,
    "id": "P-filmstrip-42-ch1attack-alt0",
    "visibility": {
@@ -1238,11 +1238,11 @@
     "type": "param",
     "param": 17
    },
-   "x": 669,
-   "y": 111,
-   "w": 10,
-   "h": 43,
-   "sprite": "empirical_labs_fatso_sr_6713",
+   "x": 834.0,
+   "y": 128.4,
+   "w": 12.0,
+   "h": 50.2,
+   "sprite": "empirical_labs_fatso_sr_mac_filmstrip_43_ch2attack",
    "frames": 5,
    "visibility": {
     "params": [
@@ -1270,11 +1270,11 @@
     "type": "param",
     "param": 17
    },
-   "x": 669,
-   "y": 111,
-   "w": 10,
-   "h": 43,
-   "sprite": "P_empirical_labs_fatso_sr_6717",
+   "x": 834.0,
+   "y": 128.4,
+   "w": 12.0,
+   "h": 50.2,
+   "sprite": "P_empirical_labs_fatso_sr_mac_P_filmstrip_43_ch2attack_alt0",
    "frames": 5,
    "id": "P-filmstrip-43-ch2attack-alt0",
    "visibility": {
@@ -1304,11 +1304,11 @@
     "type": "param",
     "param": 8
    },
-   "x": 328,
-   "y": 111,
-   "w": 10,
-   "h": 43,
-   "sprite": "empirical_labs_fatso_sr_6713",
+   "x": 428.8,
+   "y": 129.3,
+   "w": 12.0,
+   "h": 50.2,
+   "sprite": "empirical_labs_fatso_sr_mac_filmstrip_44_ch1release",
    "frames": 5,
    "visibility": {
     "params": [
@@ -1336,11 +1336,11 @@
     "type": "param",
     "param": 8
    },
-   "x": 328,
-   "y": 111,
-   "w": 10,
-   "h": 43,
-   "sprite": "P_empirical_labs_fatso_sr_6717",
+   "x": 428.8,
+   "y": 129.3,
+   "w": 12.0,
+   "h": 50.2,
+   "sprite": "P_empirical_labs_fatso_sr_mac_P_filmstrip_44_ch1release_alt0",
    "frames": 5,
    "id": "P-filmstrip-44-ch1release-alt0",
    "visibility": {
@@ -1370,11 +1370,11 @@
     "type": "param",
     "param": 18
    },
-   "x": 742,
-   "y": 111,
-   "w": 10,
-   "h": 43,
-   "sprite": "empirical_labs_fatso_sr_6713",
+   "x": 926.7,
+   "y": 129.3,
+   "w": 12.0,
+   "h": 50.2,
+   "sprite": "empirical_labs_fatso_sr_mac_filmstrip_45_ch2release",
    "frames": 5,
    "visibility": {
     "params": [
@@ -1402,11 +1402,11 @@
     "type": "param",
     "param": 18
    },
-   "x": 742,
-   "y": 111,
-   "w": 10,
-   "h": 43,
-   "sprite": "P_empirical_labs_fatso_sr_6717",
+   "x": 926.7,
+   "y": 129.3,
+   "w": 12.0,
+   "h": 50.2,
+   "sprite": "P_empirical_labs_fatso_sr_mac_P_filmstrip_45_ch2release_alt0",
    "frames": 5,
    "id": "P-filmstrip-45-ch2release-alt0",
    "visibility": {
@@ -1432,10 +1432,10 @@
   {
    "id": "I-cycle-1",
    "kind": "zone",
-   "x": 122,
-   "y": 60,
-   "w": 40,
-   "h": 21,
+   "x": 181.0,
+   "y": 69.8,
+   "w": 48.1,
+   "h": 24.5,
    "action": {
     "type": "toggle",
     "param": 1
@@ -1482,10 +1482,10 @@
   {
    "id": "I-cycle-2",
    "kind": "zone",
-   "x": 227,
-   "y": 51,
-   "w": 40,
-   "h": 21,
+   "x": 306.2,
+   "y": 60.6,
+   "w": 48.1,
+   "h": 24.5,
    "action": {
     "type": "toggle",
     "param": 2
@@ -1532,10 +1532,10 @@
   {
    "id": "I-cycle-3",
    "kind": "zone",
-   "x": 325,
-   "y": 51,
-   "w": 40,
-   "h": 21,
+   "x": 426.7,
+   "y": 60.3,
+   "w": 48.1,
+   "h": 24.5,
    "action": {
     "type": "toggle",
     "param": 3
@@ -1562,10 +1562,10 @@
   {
    "id": "I-cycle-6",
    "kind": "zone",
-   "x": 158,
-   "y": 155,
-   "w": 40,
-   "h": 21,
+   "x": 225.1,
+   "y": 181.1,
+   "w": 48.1,
+   "h": 24.5,
    "action": {
     "type": "toggle",
     "param": 6
@@ -1600,10 +1600,10 @@
   {
    "id": "I-cycle-7",
    "kind": "zone",
-   "x": 229,
-   "y": 155,
-   "w": 40,
-   "h": 21,
+   "x": 307.1,
+   "y": 181.1,
+   "w": 48.1,
+   "h": 24.5,
    "action": {
     "type": "toggle",
     "param": 7
@@ -1638,10 +1638,10 @@
   {
    "id": "I-cycle-8",
    "kind": "zone",
-   "x": 302,
-   "y": 155,
-   "w": 40,
-   "h": 21,
+   "x": 397.5,
+   "y": 180.7,
+   "w": 48.1,
+   "h": 24.5,
    "action": {
     "type": "toggle",
     "param": 8
@@ -1676,10 +1676,10 @@
   {
    "id": "I-cycle-11",
    "kind": "zone",
-   "x": 536,
-   "y": 60,
-   "w": 40,
-   "h": 21,
+   "x": 678.9,
+   "y": 69.8,
+   "w": 48.1,
+   "h": 24.5,
    "action": {
     "type": "toggle",
     "param": 11
@@ -1726,10 +1726,10 @@
   {
    "id": "I-cycle-12",
    "kind": "zone",
-   "x": 641,
-   "y": 51,
-   "w": 40,
-   "h": 21,
+   "x": 802.2,
+   "y": 60.6,
+   "w": 48.1,
+   "h": 24.5,
    "action": {
     "type": "toggle",
     "param": 12
@@ -1776,10 +1776,10 @@
   {
    "id": "I-cycle-13",
    "kind": "zone",
-   "x": 739,
-   "y": 51,
-   "w": 40,
-   "h": 21,
+   "x": 925.1,
+   "y": 61.1,
+   "w": 48.1,
+   "h": 24.5,
    "action": {
     "type": "toggle",
     "param": 13
@@ -1806,10 +1806,10 @@
   {
    "id": "I-cycle-16",
    "kind": "zone",
-   "x": 572,
-   "y": 155,
-   "w": 40,
-   "h": 21,
+   "x": 723.1,
+   "y": 181.1,
+   "w": 48.1,
+   "h": 24.5,
    "action": {
     "type": "toggle",
     "param": 16
@@ -1844,10 +1844,10 @@
   {
    "id": "I-cycle-17",
    "kind": "zone",
-   "x": 643,
-   "y": 155,
-   "w": 40,
-   "h": 21,
+   "x": 803.1,
+   "y": 181.1,
+   "w": 48.1,
+   "h": 24.5,
    "action": {
     "type": "toggle",
     "param": 17
@@ -1882,10 +1882,10 @@
   {
    "id": "I-cycle-18",
    "kind": "zone",
-   "x": 716,
-   "y": 155,
-   "w": 40,
-   "h": 21,
+   "x": 895.4,
+   "y": 180.7,
+   "w": 48.1,
+   "h": 24.5,
    "action": {
     "type": "toggle",
     "param": 18
