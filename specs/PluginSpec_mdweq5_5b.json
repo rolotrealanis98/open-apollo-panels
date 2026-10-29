@@ -3344,6 +3344,20 @@
    "param": 22
   },
   {
+   "id": "photo-a5r",
+   "kind": "filmstrip",
+   "x": 700.0,
+   "y": 4.0,
+   "w": 66.0,
+   "h": 64.0,
+   "sprite": "P_mdweq5_5b_a5r",
+   "frames": 64,
+   "frameSource": {
+    "type": "param",
+    "param": 22
+   }
+  },
+  {
    "id": "b4-freq-value",
    "kind": "text",
    "x": 709,
@@ -5842,20 +5856,6 @@
    "frameSource": {
     "type": "param",
     "param": 7
-   }
-  },
-  {
-   "id": "photo-a5r",
-   "kind": "filmstrip",
-   "x": 700.0,
-   "y": 4.0,
-   "w": 66.0,
-   "h": 64.0,
-   "sprite": "P_mdweq5_5b_a5r",
-   "frames": 64,
-   "frameSource": {
-    "type": "param",
-    "param": 22
    }
   }
  ],

@@ -1468,7 +1468,7 @@
    "w": 23,
    "h": 14.0,
    "text": {
-    "string": "−6",
+    "string": "\u22126",
     "font": "Helvetica",
     "size": 11,
     "color": "#999999",
@@ -1537,7 +1537,7 @@
    "w": 23,
    "h": 14.0,
    "text": {
-    "string": "−12",
+    "string": "\u221212",
     "font": "Helvetica",
     "size": 11,
     "color": "#999999",
@@ -1606,7 +1606,7 @@
    "w": 23,
    "h": 14.0,
    "text": {
-    "string": "−20",
+    "string": "\u221220",
     "font": "Helvetica",
     "size": 11,
     "color": "#999999",
@@ -1675,7 +1675,7 @@
    "w": 23,
    "h": 14.0,
    "text": {
-    "string": "−30",
+    "string": "\u221230",
     "font": "Helvetica",
     "size": 11,
     "color": "#999999",
@@ -1744,7 +1744,7 @@
    "w": 23,
    "h": 14.0,
    "text": {
-    "string": "−40",
+    "string": "\u221240",
     "font": "Helvetica",
     "size": 11,
     "color": "#999999",
@@ -1843,7 +1843,7 @@
    "w": 27,
    "h": 14,
    "text": {
-    "string": "−6",
+    "string": "\u22126",
     "font": "Helvetica",
     "size": 10,
     "color": "#6E6E6E",
@@ -1858,7 +1858,7 @@
    "w": 27,
    "h": 14,
    "text": {
-    "string": "−12",
+    "string": "\u221212",
     "font": "Helvetica",
     "size": 10,
     "color": "#6E6E6E",
@@ -1873,7 +1873,7 @@
    "w": 27,
    "h": 14,
    "text": {
-    "string": "−20",
+    "string": "\u221220",
     "font": "Helvetica",
     "size": 10,
     "color": "#6E6E6E",
@@ -1888,7 +1888,7 @@
    "w": 27,
    "h": 14,
    "text": {
-    "string": "−28",
+    "string": "\u221228",
     "font": "Helvetica",
     "size": 10,
     "color": "#6E6E6E",
@@ -12039,6 +12039,20 @@
    "param": 0
   },
   {
+   "id": "photo-a1r",
+   "kind": "filmstrip",
+   "x": 250.5,
+   "y": 228.5,
+   "w": 144.0,
+   "h": 144.0,
+   "sprite": "P_c_suite_c_max_a1r",
+   "frames": 101,
+   "frameSource": {
+    "type": "param",
+    "param": 0
+   }
+  },
+  {
    "id": "value-0",
    "kind": "text",
    "x": 275.95,
@@ -12066,6 +12080,20 @@
    "param": 1
   },
   {
+   "id": "photo-a2r",
+   "kind": "filmstrip",
+   "x": 382.5,
+   "y": 228.5,
+   "w": 144.0,
+   "h": 144.0,
+   "sprite": "P_c_suite_c_max_a2r",
+   "frames": 101,
+   "frameSource": {
+    "type": "param",
+    "param": 1
+   }
+  },
+  {
    "id": "value-1",
    "kind": "text",
    "x": 407.95,
@@ -12091,6 +12119,20 @@
    "sprite": "CSMX_knob_2",
    "frames": 101,
    "param": 2
+  },
+  {
+   "id": "photo-a3r",
+   "kind": "filmstrip",
+   "x": 514.5,
+   "y": 228.5,
+   "w": 144.0,
+   "h": 144.0,
+   "sprite": "P_c_suite_c_max_a3r",
+   "frames": 10,
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   }
   },
   {
    "id": "value-2",
@@ -12176,48 +12218,6 @@
    "action": {
     "type": "toggle",
     "param": 3
-   }
-  },
-  {
-   "id": "photo-a1r",
-   "kind": "filmstrip",
-   "x": 250.5,
-   "y": 228.5,
-   "w": 144.0,
-   "h": 144.0,
-   "sprite": "P_c_suite_c_max_a1r",
-   "frames": 101,
-   "frameSource": {
-    "type": "param",
-    "param": 0
-   }
-  },
-  {
-   "id": "photo-a2r",
-   "kind": "filmstrip",
-   "x": 382.5,
-   "y": 228.5,
-   "w": 144.0,
-   "h": 144.0,
-   "sprite": "P_c_suite_c_max_a2r",
-   "frames": 101,
-   "frameSource": {
-    "type": "param",
-    "param": 1
-   }
-  },
-  {
-   "id": "photo-a3r",
-   "kind": "filmstrip",
-   "x": 514.5,
-   "y": 228.5,
-   "w": 144.0,
-   "h": 144.0,
-   "sprite": "P_c_suite_c_max_a3r",
-   "frames": 10,
-   "frameSource": {
-    "type": "param",
-    "param": 2
    }
   },
   {

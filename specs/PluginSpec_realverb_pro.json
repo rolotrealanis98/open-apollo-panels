@@ -119295,6 +119295,20 @@
    }
   },
   {
+   "id": "photo-a3r",
+   "kind": "filmstrip",
+   "x": 79.0,
+   "y": 142.0,
+   "w": 47.0,
+   "h": 16.0,
+   "sprite": "P_realverb_pro_a3r",
+   "frames": 15,
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   }
+  },
+  {
    "id": "I-text-3",
    "kind": "text",
    "x": 106,
@@ -119368,6 +119382,20 @@
    "h": 12,
    "gesture": "drag",
    "param": 5
+  },
+  {
+   "id": "photo-a1r",
+   "kind": "filmstrip",
+   "x": 223.0,
+   "y": 142.0,
+   "w": 47.0,
+   "h": 16.0,
+   "sprite": "P_realverb_pro_a1r",
+   "frames": 36,
+   "frameSource": {
+    "type": "param",
+    "param": 7
+   }
   },
   {
    "id": "I-text-8",
@@ -120400,6 +120428,20 @@
    }
   },
   {
+   "id": "photo-a2r",
+   "kind": "filmstrip",
+   "x": 11.0,
+   "y": 142.0,
+   "w": 47.0,
+   "h": 16.0,
+   "sprite": "P_realverb_pro_a2r",
+   "frames": 15,
+   "frameSource": {
+    "type": "param",
+    "param": 1
+   }
+  },
+  {
    "id": "P-shape-mix-b",
    "kind": "text",
    "x": 8,
@@ -120426,6 +120468,20 @@
      ]
     },
     "format": "%.0f %%"
+   }
+  },
+  {
+   "id": "photo-a5r",
+   "kind": "filmstrip",
+   "x": 155.0,
+   "y": 142.0,
+   "w": 47.0,
+   "h": 16.0,
+   "sprite": "P_realverb_pro_a5r",
+   "frames": 36,
+   "frameSource": {
+    "type": "param",
+    "param": 6
    }
   },
   {
@@ -120905,62 +120961,6 @@
       "opacity": 0
      }
     ]
-   }
-  },
-  {
-   "id": "photo-a1r",
-   "kind": "filmstrip",
-   "x": 223.0,
-   "y": 142.0,
-   "w": 47.0,
-   "h": 16.0,
-   "sprite": "P_realverb_pro_a1r",
-   "frames": 36,
-   "frameSource": {
-    "type": "param",
-    "param": 7
-   }
-  },
-  {
-   "id": "photo-a2r",
-   "kind": "filmstrip",
-   "x": 11.0,
-   "y": 142.0,
-   "w": 47.0,
-   "h": 16.0,
-   "sprite": "P_realverb_pro_a2r",
-   "frames": 15,
-   "frameSource": {
-    "type": "param",
-    "param": 1
-   }
-  },
-  {
-   "id": "photo-a3r",
-   "kind": "filmstrip",
-   "x": 79.0,
-   "y": 142.0,
-   "w": 47.0,
-   "h": 16.0,
-   "sprite": "P_realverb_pro_a3r",
-   "frames": 15,
-   "frameSource": {
-    "type": "param",
-    "param": 2
-   }
-  },
-  {
-   "id": "photo-a5r",
-   "kind": "filmstrip",
-   "x": 155.0,
-   "y": 142.0,
-   "w": 47.0,
-   "h": 16.0,
-   "sprite": "P_realverb_pro_a5r",
-   "frames": 36,
-   "frameSource": {
-    "type": "param",
-    "param": 6
    }
   }
  ],
