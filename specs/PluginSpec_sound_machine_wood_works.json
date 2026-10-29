@@ -127,6 +127,35 @@
    "sprite": "SMWW_voicing_off",
    "frames": 101,
    "param": 0,
+   "visibility": {
+    "params": [
+     8
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0.02
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "voicing-0-face",
+   "kind": "filmstrip",
+   "x": 113,
+   "y": 101,
+   "w": 266,
+   "h": 163,
+   "sprite": "SMWW_voicing_off",
+   "frames": 101,
    "frameSource": {
     "type": "table",
     "params": [
@@ -261,6 +290,35 @@
    "sprite": "SMWW_voicing_on",
    "frames": 101,
    "param": 0,
+   "visibility": {
+    "params": [
+     8
+    ],
+    "table": [
+     {
+      "key": [
+       0.0
+      ],
+      "opacity": 0
+     },
+     {
+      "key": [
+       1.0
+      ],
+      "opacity": 0.02
+     }
+    ]
+   }
+  },
+  {
+   "id": "voicing-1-face",
+   "kind": "filmstrip",
+   "x": 113,
+   "y": 101,
+   "w": 266,
+   "h": 163,
+   "sprite": "SMWW_voicing_on",
+   "frames": 101,
    "frameSource": {
     "type": "table",
     "params": [
