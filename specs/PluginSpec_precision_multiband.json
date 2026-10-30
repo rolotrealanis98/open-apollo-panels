@@ -3383,7 +3383,7 @@
    "y": 143,
    "w": 52,
    "h": 32,
-   "sprite": "precision_multiband_3814",
+   "sprite": "P_precision_multiband_type_l",
    "frames": 3,
    "reverse": true,
    "frameSource": {
@@ -4041,7 +4041,7 @@
    "y": 143,
    "w": 52,
    "h": 32,
-   "sprite": "precision_multiband_3814",
+   "sprite": "P_precision_multiband_type_lm",
    "frames": 3,
    "reverse": true,
    "frameSource": {
@@ -4699,7 +4699,7 @@
    "y": 143,
    "w": 52,
    "h": 32,
-   "sprite": "precision_multiband_3814",
+   "sprite": "P_precision_multiband_type_m",
    "frames": 3,
    "reverse": true,
    "frameSource": {
@@ -5357,7 +5357,7 @@
    "y": 143,
    "w": 52,
    "h": 32,
-   "sprite": "precision_multiband_3814",
+   "sprite": "P_precision_multiband_type_hm",
    "frames": 3,
    "reverse": true,
    "frameSource": {
@@ -6015,7 +6015,7 @@
    "y": 143,
    "w": 52,
    "h": 32,
-   "sprite": "precision_multiband_3814",
+   "sprite": "P_precision_multiband_type_h",
    "frames": 3,
    "reverse": true,
    "frameSource": {
