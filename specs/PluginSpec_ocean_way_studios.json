@@ -2275,7 +2275,7 @@
    "h": 16,
    "param": 13,
    "text": {
-    "size": 11,
+    "size": 11.5,
     "color": "#FF9900",
     "align": "center",
     "weight": "regular"
@@ -2284,7 +2284,7 @@
   {
    "id": "I-text-22",
    "kind": "text",
-   "x": 428.0,
+   "x": 428.5,
    "y": 152.0,
    "w": 44,
    "h": 16,

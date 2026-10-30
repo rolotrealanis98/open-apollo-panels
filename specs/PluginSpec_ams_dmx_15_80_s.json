@@ -10527,6 +10527,15 @@
    }
   },
   {
+   "id": "image-display-glare",
+   "kind": "image",
+   "x": 541,
+   "y": 19,
+   "w": 136,
+   "h": 50,
+   "sprite": "ams_dmx_15_80_s_glare"
+  },
+  {
    "id": "toggle-0-hz0",
    "kind": "zone",
    "x": 70.0,
@@ -19264,6 +19273,15 @@
      }
     ]
    }
+  },
+  {
+   "id": "photo-nudge-labels",
+   "kind": "image",
+   "x": 556,
+   "y": 137,
+   "w": 102,
+   "h": 9,
+   "sprite": "P_ams_dmx_15_80_s_nudge_labels"
   },
   {
    "id": "photo-a2",
