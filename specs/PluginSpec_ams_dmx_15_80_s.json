@@ -19275,6 +19275,15 @@
    }
   },
   {
+   "id": "photo-nudge-labels",
+   "kind": "image",
+   "x": 556,
+   "y": 137,
+   "w": 102,
+   "h": 9,
+   "sprite": "P_ams_dmx_15_80_s_nudge_labels"
+  },
+  {
    "id": "photo-a2",
    "kind": "filmstrip",
    "x": 519.0,
