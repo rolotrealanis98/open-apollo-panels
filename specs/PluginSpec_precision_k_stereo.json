@@ -316,6 +316,9 @@
     "align": "center",
     "weight": "regular",
     "monospaced": false
+   },
+   "visibleWhen": {
+    "param": 0
    }
   },
   {
@@ -332,6 +335,16 @@
     "align": "center",
     "weight": "regular",
     "monospaced": false
+   },
+   "visibleWhen": {
+    "product": [
+     {
+      "param": 0
+     },
+     {
+      "param": 9
+     }
+    ]
    }
   },
   {
@@ -348,6 +361,16 @@
     "align": "center",
     "weight": "regular",
     "monospaced": false
+   },
+   "visibleWhen": {
+    "product": [
+     {
+      "param": 0
+     },
+     {
+      "param": 9
+     }
+    ]
    }
   },
   {
@@ -375,6 +398,16 @@
     "align": "center",
     "weight": "regular",
     "monospaced": false
+   },
+   "visibleWhen": {
+    "product": [
+     {
+      "param": 0
+     },
+     {
+      "param": 9
+     }
+    ]
    }
   },
   {
@@ -402,6 +435,16 @@
     "align": "center",
     "weight": "regular",
     "monospaced": false
+   },
+   "visibleWhen": {
+    "product": [
+     {
+      "param": 0
+     },
+     {
+      "param": 9
+     }
+    ]
    }
   },
   {
@@ -453,6 +496,16 @@
     "align": "center",
     "weight": "regular",
     "monospaced": false
+   },
+   "visibleWhen": {
+    "product": [
+     {
+      "param": 0
+     },
+     {
+      "param": 9
+     }
+    ]
    }
   },
   {
@@ -609,6 +662,9 @@
     "align": "center",
     "weight": "regular",
     "monospaced": false
+   },
+   "visibleWhen": {
+    "param": 12
    }
   },
   {
@@ -625,6 +681,9 @@
     "align": "center",
     "weight": "regular",
     "monospaced": false
+   },
+   "visibleWhen": {
+    "param": 12
    }
   },
   {
@@ -641,6 +700,9 @@
     "align": "center",
     "weight": "regular",
     "monospaced": false
+   },
+   "visibleWhen": {
+    "param": 16
    }
   },
   {
@@ -657,6 +719,9 @@
     "align": "center",
     "weight": "regular",
     "monospaced": false
+   },
+   "visibleWhen": {
+    "param": 16
    }
   },
   {
