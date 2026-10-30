@@ -679,22 +679,6 @@
    "h": 24
   },
   {
-   "id": "j-tb-cal-value",
-   "kind": "text",
-   "param": 9,
-   "x": 680,
-   "y": 0,
-   "w": 50,
-   "h": 24,
-   "text": {
-    "size": 12,
-    "color": "#E6E6E6",
-    "align": "right",
-    "weight": "bold",
-    "monospaced": false
-   }
-  },
-  {
    "id": "j-tb-cal",
    "kind": "zone",
    "x": 680,

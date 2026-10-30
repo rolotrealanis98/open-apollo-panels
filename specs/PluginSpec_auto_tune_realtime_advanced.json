@@ -645,7 +645,7 @@
    "w": 91,
    "h": 81,
    "sprite": "F_Auto-Tune-Realtime-Advanced_p5_0",
-   "frames": 33,
+   "frames": 128,
    "param": 5,
    "visibility": {
     "params": [],
@@ -3041,7 +3041,7 @@
    "kind": "text",
    "x": 146.5,
    "y": 244.3,
-   "w": 40,
+   "w": 20,
    "h": 14.4,
    "param": 5,
    "text": {
