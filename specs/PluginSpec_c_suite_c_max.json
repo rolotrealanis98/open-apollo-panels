@@ -12053,22 +12053,6 @@
    }
   },
   {
-   "id": "value-0",
-   "kind": "text",
-   "x": 275.95,
-   "y": 291.8,
-   "w": 93.1,
-   "h": 32.5,
-   "param": 0,
-   "text": {
-    "size": 25,
-    "color": "#FFFFFF",
-    "align": "center",
-    "weight": "bold",
-    "monospaced": false
-   }
-  },
-  {
    "id": "knob-1",
    "kind": "knob",
    "x": 383.5,
@@ -12094,22 +12078,6 @@
    }
   },
   {
-   "id": "value-1",
-   "kind": "text",
-   "x": 407.95,
-   "y": 291.8,
-   "w": 93.1,
-   "h": 32.5,
-   "param": 1,
-   "text": {
-    "size": 25,
-    "color": "#FFFFFF",
-    "align": "center",
-    "weight": "bold",
-    "monospaced": false
-   }
-  },
-  {
    "id": "knob-2",
    "kind": "knob",
    "x": 515.5,
@@ -12132,22 +12100,6 @@
    "frameSource": {
     "type": "param",
     "param": 2
-   }
-  },
-  {
-   "id": "value-2",
-   "kind": "text",
-   "x": 539.95,
-   "y": 291.8,
-   "w": 93.1,
-   "h": 32.5,
-   "param": 2,
-   "text": {
-    "size": 25,
-    "color": "#FFFFFF",
-    "align": "center",
-    "weight": "bold",
-    "monospaced": false
    }
   },
   {
