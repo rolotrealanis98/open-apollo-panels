@@ -255,7 +255,7 @@
   {
    "id": "switch-10-ch1_byp",
    "x": 527.9,
-   "y": 173.3,
+   "y": 173.0,
    "w": 45.9,
    "h": 45.6,
    "sprite": "thermionic_culture_vulture_mac_switch_10_ch1_byp",
@@ -268,7 +268,7 @@
   {
    "id": "switch-11-ch2_byp",
    "x": 624.9,
-   "y": 173.3,
+   "y": 173.0,
    "w": 45.9,
    "h": 45.6,
    "sprite": "thermionic_culture_vulture_mac_switch_11_ch2_byp",
@@ -347,7 +347,7 @@
   },
   {
    "id": "knob-17-ch2_output",
-   "x": 663.9,
+   "x": 663.5,
    "y": 140.5,
    "w": 94.2,
    "h": 76.3,
