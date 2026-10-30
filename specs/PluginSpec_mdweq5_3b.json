@@ -2051,16 +2051,16 @@
   {
    "id": "b2-q-value",
    "kind": "text",
-   "x": 481,
-   "y": 80,
+   "x": 479.0,
+   "y": 78.5,
    "w": 26,
    "h": 14,
    "param": 12,
    "text": {
-    "size": 9,
+    "size": 8.5,
     "color": "#FFFFFF",
     "align": "center",
-    "weight": "semibold",
+    "weight": "regular",
     "monospaced": false
    },
    "visibility": {
@@ -2466,16 +2466,16 @@
   {
    "id": "in-lvl-value",
    "kind": "text",
-   "x": 57,
-   "y": 170,
+   "x": 57.5,
+   "y": 171.5,
    "w": 34,
    "h": 14,
    "param": 0,
    "text": {
-    "size": 10,
+    "size": 9.5,
     "color": "#FFFFFF",
     "align": "center",
-    "weight": "semibold",
+    "weight": "regular",
     "monospaced": false
    }
   },
