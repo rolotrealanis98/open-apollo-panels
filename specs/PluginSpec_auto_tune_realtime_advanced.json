@@ -3039,13 +3039,13 @@
   {
    "id": "R-p5-value",
    "kind": "text",
-   "x": 142.5,
-   "y": 242.8,
+   "x": 146.5,
+   "y": 244.3,
    "w": 40,
    "h": 14.4,
    "param": 5,
    "text": {
-    "size": 11.1,
+    "size": 10,
     "color": "#60C8F7",
     "align": "left",
     "weight": "regular",
@@ -3159,13 +3159,13 @@
   {
    "id": "R-p7-value",
    "kind": "text",
-   "x": 844.5,
-   "y": 395.8,
+   "x": 845.0,
+   "y": 397.3,
    "w": 40,
    "h": 14.4,
    "param": 7,
    "text": {
-    "size": 11.1,
+    "size": 10,
     "color": "#60C8F7",
     "align": "left",
     "weight": "regular",

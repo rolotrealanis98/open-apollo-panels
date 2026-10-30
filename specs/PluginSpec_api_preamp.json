@@ -353,6 +353,20 @@
     "type": "param",
     "param": 2
    }
+  },
+  {
+   "id": "photo-power",
+   "kind": "filmstrip",
+   "x": 214.0,
+   "y": 178.0,
+   "w": 42.0,
+   "h": 101.0,
+   "sprite": "P_api_preamp_power",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 7
+   }
   }
  ],
  "meterSources": {
