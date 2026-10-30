@@ -306,48 +306,71 @@
    "id": "text-15-amb_gain",
    "kind": "text",
    "x": 51,
-   "y": 87,
+   "y": 87.5,
    "w": 50,
    "h": 15,
    "param": 1,
    "text": {
-    "size": 10,
+    "size": 11,
     "color": "#E5F8FE",
     "align": "center",
     "weight": "regular",
     "monospaced": false
+   },
+   "visibleWhen": {
+    "param": 0
    }
   },
   {
    "id": "text-16-amb_low_cut",
    "kind": "text",
    "x": 450,
-   "y": 87,
+   "y": 87.5,
    "w": 50,
    "h": 15,
    "param": 4,
    "text": {
-    "size": 10,
+    "size": 11,
     "color": "#E5F8FE",
     "align": "center",
     "weight": "regular",
     "monospaced": false
+   },
+   "visibleWhen": {
+    "product": [
+     {
+      "param": 0
+     },
+     {
+      "param": 9
+     }
+    ]
    }
   },
   {
    "id": "text-17-amb_hi_cut",
    "kind": "text",
    "x": 825,
-   "y": 87,
+   "y": 87.5,
    "w": 50,
    "h": 15,
    "param": 8,
    "text": {
-    "size": 10,
+    "size": 11,
     "color": "#E5F8FE",
     "align": "center",
     "weight": "regular",
     "monospaced": false
+   },
+   "visibleWhen": {
+    "product": [
+     {
+      "param": 0
+     },
+     {
+      "param": 9
+     }
+    ]
    }
   },
   {
@@ -365,16 +388,26 @@
    "id": "text-19-amb_bell_freq",
    "kind": "text",
    "x": 543,
-   "y": 87,
+   "y": 87.5,
    "w": 50,
    "h": 15,
    "param": 5,
    "text": {
-    "size": 10,
+    "size": 11,
     "color": "#E5F8FE",
     "align": "center",
     "weight": "regular",
     "monospaced": false
+   },
+   "visibleWhen": {
+    "product": [
+     {
+      "param": 0
+     },
+     {
+      "param": 9
+     }
+    ]
    }
   },
   {
@@ -392,16 +425,26 @@
    "id": "text-21-amb_bell_q",
    "kind": "text",
    "x": 637,
-   "y": 87,
+   "y": 87.5,
    "w": 50,
    "h": 15,
    "param": 6,
    "text": {
-    "size": 10,
+    "size": 11,
     "color": "#E5F8FE",
     "align": "center",
     "weight": "regular",
     "monospaced": false
+   },
+   "visibleWhen": {
+    "product": [
+     {
+      "param": 0
+     },
+     {
+      "param": 9
+     }
+    ]
    }
   },
   {
@@ -443,16 +486,26 @@
    "id": "text-25-amb_bell_gain",
    "kind": "text",
    "x": 731,
-   "y": 87,
+   "y": 87.5,
    "w": 50,
    "h": 15,
    "param": 7,
    "text": {
-    "size": 10,
+    "size": 11,
     "color": "#E5F8FE",
     "align": "center",
     "weight": "regular",
     "monospaced": false
+   },
+   "visibleWhen": {
+    "product": [
+     {
+      "param": 0
+     },
+     {
+      "param": 9
+     }
+    ]
    }
   },
   {
@@ -599,64 +652,76 @@
    "id": "text-38-mid_gain",
    "kind": "text",
    "x": 75,
-   "y": 231,
+   "y": 231.5,
    "w": 50,
    "h": 15,
    "param": 10,
    "text": {
-    "size": 10,
+    "size": 11,
     "color": "#E5F8FE",
     "align": "center",
     "weight": "regular",
     "monospaced": false
+   },
+   "visibleWhen": {
+    "param": 12
    }
   },
   {
    "id": "text-39-side_gain",
    "kind": "text",
    "x": 201,
-   "y": 231,
+   "y": 231.5,
    "w": 50,
    "h": 15,
    "param": 11,
    "text": {
-    "size": 10,
+    "size": 11,
     "color": "#E5F8FE",
     "align": "center",
     "weight": "regular",
     "monospaced": false
+   },
+   "visibleWhen": {
+    "param": 12
    }
   },
   {
    "id": "text-40-l_gain",
    "kind": "text",
    "x": 699,
-   "y": 231,
+   "y": 231.5,
    "w": 50,
    "h": 15,
    "param": 13,
    "text": {
-    "size": 10,
+    "size": 11,
     "color": "#E5F8FE",
     "align": "center",
     "weight": "regular",
     "monospaced": false
+   },
+   "visibleWhen": {
+    "param": 16
    }
   },
   {
    "id": "text-41-r_gain",
    "kind": "text",
    "x": 825,
-   "y": 231,
+   "y": 231.5,
    "w": 50,
    "h": 15,
    "param": 14,
    "text": {
-    "size": 10,
+    "size": 11,
     "color": "#E5F8FE",
     "align": "center",
     "weight": "regular",
     "monospaced": false
+   },
+   "visibleWhen": {
+    "param": 16
    }
   },
   {

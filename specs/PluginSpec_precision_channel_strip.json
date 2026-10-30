@@ -303,9 +303,9 @@
   {
    "id": "text-6-lf1_flt_q",
    "kind": "text",
-   "x": 58,
+   "x": 63.5,
    "y": 117,
-   "w": 56,
+   "w": 45,
    "h": 14,
    "param": 2,
    "text": {
@@ -313,7 +313,8 @@
     "color": "#E5F8FE",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "fit": "squeeze"
    }
   },
   {
@@ -627,9 +628,9 @@
   {
    "id": "text-30-hf2_flt_q",
    "kind": "text",
-   "x": 450,
+   "x": 456.5,
    "y": 117,
-   "w": 56,
+   "w": 43,
    "h": 14,
    "param": 18,
    "text": {
@@ -637,7 +638,8 @@
     "color": "#E5F8FE",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "fit": "squeeze"
    }
   },
   {
