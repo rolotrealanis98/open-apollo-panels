@@ -180,6 +180,20 @@
    "param": 1
   },
   {
+   "id": "photo-drive1",
+   "kind": "filmstrip",
+   "x": 108,
+   "y": 24,
+   "w": 98,
+   "h": 112,
+   "sprite": "P_thermionic_culture_vulture_drive1",
+   "frames": 127,
+   "frameSource": {
+    "type": "param",
+    "param": 1
+   }
+  },
+  {
    "id": "knob-4-ch2_drive",
    "x": 1008.6,
    "y": 22.5,
