@@ -2048,6 +2048,48 @@
    }
   },
   {
+   "id": "photo-bits-main",
+   "kind": "filmstrip",
+   "x": 215,
+   "y": 122,
+   "w": 150,
+   "h": 42,
+   "sprite": "P_eventide_h910_harmonizer_bits_main",
+   "frames": 16,
+   "frameSource": {
+    "type": "param",
+    "param": 5
+   }
+  },
+  {
+   "id": "photo-bits-out2",
+   "kind": "filmstrip",
+   "x": 383,
+   "y": 122,
+   "w": 150,
+   "h": 42,
+   "sprite": "P_eventide_h910_harmonizer_bits_out2",
+   "frames": 16,
+   "frameSource": {
+    "type": "param",
+    "param": 6
+   }
+  },
+  {
+   "id": "photo-bits-pitch",
+   "kind": "filmstrip",
+   "x": 574,
+   "y": 122,
+   "w": 150,
+   "h": 42,
+   "sprite": "P_eventide_h910_harmonizer_bits_pitch",
+   "frames": 4,
+   "frameSource": {
+    "type": "param",
+    "param": 7
+   }
+  },
+  {
    "id": "knob-11",
    "kind": "knob",
    "x": 208,
