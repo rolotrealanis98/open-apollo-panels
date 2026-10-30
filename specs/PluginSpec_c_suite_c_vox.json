@@ -17134,22 +17134,6 @@
    }
   },
   {
-   "id": "value-1",
-   "kind": "text",
-   "x": 380.05,
-   "y": 344.7,
-   "w": 102.89999999999999,
-   "h": 36.4,
-   "param": 1,
-   "text": {
-    "size": 28,
-    "color": "#FFFFFF",
-    "align": "center",
-    "weight": "bold",
-    "monospaced": false
-   }
-  },
-  {
    "id": "knob-2",
    "kind": "knob",
    "x": 502.0,
@@ -17182,22 +17166,6 @@
    "frameSource": {
     "type": "param",
     "param": 2
-   }
-  },
-  {
-   "id": "value-2",
-   "kind": "text",
-   "x": 527.05,
-   "y": 344.7,
-   "w": 102.89999999999999,
-   "h": 36.4,
-   "param": 2,
-   "text": {
-    "size": 28,
-    "color": "#FFFFFF",
-    "align": "center",
-    "weight": "bold",
-    "monospaced": false
    }
   },
   {

@@ -1849,22 +1849,6 @@
    }
   },
   {
-   "id": "value-2",
-   "kind": "text",
-   "x": 522.8,
-   "y": 289.9,
-   "w": 106.39999999999999,
-   "h": 37.7,
-   "param": 2,
-   "text": {
-    "size": 29,
-    "color": "#FFFFFF",
-    "align": "center",
-    "weight": "bold",
-    "monospaced": false
-   }
-  },
-  {
    "id": "hum",
    "kind": "switch",
    "x": 195.5,
