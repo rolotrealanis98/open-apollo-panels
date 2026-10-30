@@ -144,7 +144,7 @@
   {
    "id": "knob-1-ch1input",
    "x": 46.5,
-   "y": 10.9,
+   "y": 10.4,
    "w": 96.2,
    "h": 95.2,
    "sprite": "empirical_labs_fatso_jr_mac_knob_1_ch1input",
@@ -154,7 +154,7 @@
   },
   {
    "id": "knob-2-ch2input",
-   "x": 46.8,
+   "x": 46.3,
    "y": 115.4,
    "w": 96.2,
    "h": 95.2,
@@ -189,7 +189,7 @@
    "id": "switch-5-complink",
    "kind": "switch",
    "x": 324.2,
-   "y": 53.5,
+   "y": 53.0,
    "w": 53.9,
    "h": 22.1,
    "sprite": "empirical_labs_fatso_jr_mac_switch_5_complink",
@@ -201,7 +201,7 @@
    "id": "switch-6-ctrllink",
    "kind": "switch",
    "x": 325.2,
-   "y": 165.5,
+   "y": 165.0,
    "w": 53.9,
    "h": 22.1,
    "sprite": "empirical_labs_fatso_jr_mac_switch_6_ctrllink",
@@ -301,7 +301,7 @@
     "param": 2
    },
    "x": 250.4,
-   "y": 32.1,
+   "y": 31.6,
    "w": 75.1,
    "h": 37.2,
    "sprite": "empirical_labs_fatso_jr_mac_filmstrip_10_ch1warmth",
@@ -334,7 +334,7 @@
     "param": 2
    },
    "x": 250.4,
-   "y": 32.1,
+   "y": 31.6,
    "w": 75.1,
    "h": 37.2,
    "sprite": "P_empirical_labs_fatso_jr_mac_P_filmstrip_10_ch1warmth_alt0",
@@ -530,7 +530,7 @@
     "param": 7
    },
    "x": 250.4,
-   "y": 142.1,
+   "y": 141.6,
    "w": 75.1,
    "h": 37.2,
    "sprite": "empirical_labs_fatso_jr_mac_filmstrip_16_ch2warmth",
@@ -563,7 +563,7 @@
     "param": 7
    },
    "x": 250.4,
-   "y": 142.1,
+   "y": 141.6,
    "w": 75.1,
    "h": 37.2,
    "sprite": "P_empirical_labs_fatso_jr_mac_P_filmstrip_16_ch2warmth_alt0",

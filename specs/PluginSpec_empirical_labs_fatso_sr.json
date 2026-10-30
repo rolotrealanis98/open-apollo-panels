@@ -239,7 +239,7 @@
  "elements": [
   {
    "id": "knob-1-ch1input",
-   "x": 79.7,
+   "x": 79.2,
    "y": 7.2,
    "w": 98.6,
    "h": 95.7,
@@ -261,8 +261,8 @@
   },
   {
    "id": "knob-3-ch1output",
-   "x": 481.2,
-   "y": 10.7,
+   "x": 480.7,
+   "y": 10.2,
    "w": 98.6,
    "h": 95.7,
    "sprite": "empirical_labs_fatso_sr_mac_knob_3_ch1output",
@@ -285,7 +285,7 @@
    "id": "switch-5-complink",
    "kind": "switch",
    "x": 364.5,
-   "y": 54.4,
+   "y": 53.9,
    "w": 55.3,
    "h": 22.2,
    "sprite": "empirical_labs_fatso_sr_mac_switch_5_complink",
@@ -317,7 +317,7 @@
    "id": "switch-6-ctrllink",
    "kind": "switch",
    "x": 863.5,
-   "y": 56.4,
+   "y": 55.9,
    "w": 55.3,
    "h": 22.2,
    "sprite": "empirical_labs_fatso_sr_mac_switch_6_ctrllink",
@@ -909,7 +909,7 @@
   },
   {
    "id": "knob-28-ch1thresh",
-   "x": 79.8,
+   "x": 79.3,
    "y": 117.3,
    "w": 98.6,
    "h": 95.7,
