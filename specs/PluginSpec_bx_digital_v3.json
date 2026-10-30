@@ -7140,7 +7140,8 @@
     "color": "#D4D5D8",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "string": "Shelf"
    },
    "x": 41.0,
    "y": 215.5,
@@ -7471,7 +7472,8 @@
     "color": "#D4D5D8",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "string": "Shelf"
    },
    "x": 337.0,
    "y": 215.5,
@@ -7553,7 +7555,8 @@
     "color": "#D4D5D8",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "string": "Shelf"
    },
    "x": 641.0,
    "y": 215.5,
@@ -7884,7 +7887,8 @@
     "color": "#D4D5D8",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "string": "Shelf"
    },
    "x": 937.0,
    "y": 215.5,

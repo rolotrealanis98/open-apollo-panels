@@ -1256,7 +1256,8 @@
     "color": "#E0E0E0",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 65.5,
    "y": 600.5,
@@ -1272,7 +1273,8 @@
     "color": "#E0E0E0",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " dB"
    },
    "x": 393.5,
    "y": 600.5,
@@ -1288,7 +1290,8 @@
     "color": "#E0E0E0",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " Hz"
    },
    "x": 229.5,
    "y": 600.5,

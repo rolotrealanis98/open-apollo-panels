@@ -2252,7 +2252,8 @@
     "color": "#E0E0E0",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " kHz"
    },
    "x": 392.5,
    "y": 390.0,
@@ -4283,7 +4284,8 @@
     "color": "#E0E0E0",
     "align": "center",
     "weight": "regular",
-    "monospaced": false
+    "monospaced": false,
+    "suffix": " kHz"
    },
    "x": 578.5,
    "y": 390.0,
