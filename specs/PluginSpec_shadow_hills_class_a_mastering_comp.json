@@ -11054,6 +11054,40 @@
    }
   },
   {
+   "id": "photo-ms",
+   "kind": "filmstrip",
+   "x": 389,
+   "y": 532,
+   "w": 42,
+   "h": 42,
+   "sprite": "P_shadow_hills_class_a_mastering_comp_ms",
+   "frames": 2,
+   "frameSource": {
+    "type": "param",
+    "param": 2
+   },
+   "visibility": {
+    "params": [],
+    "states": [
+     "channels"
+    ],
+    "table": [
+     {
+      "key": [
+       1
+      ],
+      "opacity": 0.0
+     },
+     {
+      "key": [
+       2
+      ],
+      "opacity": 1.0
+     }
+    ]
+   }
+  },
+  {
    "id": "q-m11-j-ms-switch",
    "kind": "switch",
    "param": 2,
